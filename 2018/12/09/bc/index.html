@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>配置浏览器地址栏作为超级计算器(bc) | uWeb</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="使用Android端uweb浏览器。Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。  安装uweb定制Termux应用(长按[PC]选择”Symbian”再刷新网页可直接下载)：https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA Termux下运行以下命令：apt updateapt upgradeapt install bcTermux软件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="配置浏览器地址栏作为超级计算器(bc)">
+<meta property="og:url" content="http://yoursite.com/2018/12/09/bc/index.html">
+<meta property="og:site_name" content="uWeb">
+<meta property="og:description" content="使用Android端uweb浏览器。Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。  安装uweb定制Termux应用(长按[PC]选择”Symbian”再刷新网页可直接下载)：https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA Termux下运行以下命令：apt updateapt upgradeapt install bcTermux软件">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-12-09T07:34:37.262Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="配置浏览器地址栏作为超级计算器(bc)">
+<meta name="twitter:description" content="使用Android端uweb浏览器。Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。  安装uweb定制Termux应用(长按[PC]选择”Symbian”再刷新网页可直接下载)：https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA Termux下运行以下命令：apt updateapt upgradeapt install bcTermux软件">
+  
+    <link rel="alternate" href="/atom.xml" title="uWeb" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">uWeb</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-bc" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/12/09/bc/" class="article-date">
+  <time datetime="2018-12-09T07:34:37.265Z" itemprop="datePublished">2018-12-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      配置浏览器地址栏作为超级计算器(bc)
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。</p>
+<p><ul></ul></p>
+<p><li>安装uweb定制Termux应用(长按[PC]选择”Symbian”再刷新网页可直接下载)：<br><br><a href="https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA" target="_blank" rel="noopener">https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA</a></li></p>
+<p><li>Termux下运行以下命令：<br><br>apt update<br><br>apt upgrade<br><br>apt install bc</li><br><br><b>Termux软件包推荐::</b><br></p>
+<p><ul></ul></p>
+<p><li>bc: 计算器。</li><br><br><b>配置文件/sdcard/uweb/cmds.txt如下：</b><br><br>计算器:text/html:echo “%s”|bc -l -q<br><br><br><br>更多bc扩展库：（扩展库可下载至/sdcard/uweb目录下）<br><br><a href="https://github.com/susca/bc-extensions" target="_blank">https://github.com/susca/bc-extensions</a><br><br><a href="http://phodd.net/gnu-bc" target="_blank">phodd.net/gnu-bc</a><br><br><a href="http://www.numbertheory.org/gnubc/gnubc.html" target="_blank">www.numbertheory.org/gnubc/gnubc.html</a><br><br><br><br>使用扩展库以后cmds.txt配置如下：<br><br>计算器:text/html:echo “%s”|bc -l －q extensions.bc scientific_constants.bc<br><br>全能计算器:text/html:echo “%s”|bc -l －q *.bc<br><br><br></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/12/09/bc/" data-id="cjpgkkwss0000ku91pt5o19to" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/12/09/gluplot/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          利用浏览器地址栏对函数作图
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/12/09/hosts/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">利用超级hosts文件加速访问国外网站</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/12/09/search/">浏览器多搜索引擎一键直达</a>
+          </li>
+        
+          <li>
+            <a href="/2018/12/09/gluplot/">利用浏览器地址栏对函数作图</a>
+          </li>
+        
+          <li>
+            <a href="/2018/12/09/bc/">配置浏览器地址栏作为超级计算器(bc)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/12/09/hosts/">利用超级hosts文件加速访问国外网站</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 uWeb<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
