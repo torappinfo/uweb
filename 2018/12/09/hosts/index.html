@@ -1,18 +1,182 @@
-<%- partial('_partial/head') %>
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>利用超级hosts文件加速访问国外网站 | uWeb</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="不少国外网站本身虽可访问，但由于网站需要下载google,facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、……，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。 使用Android端uweb浏览器。/sdcard/uweb/hosts内容如下：googleadservices.comgooglesyndication.comadsens">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用超级hosts文件加速访问国外网站">
+<meta property="og:url" content="http://jamesfengcao.coding.me/uWeb/2018/12/09/hosts/index.html">
+<meta property="og:site_name" content="uWeb">
+<meta property="og:description" content="不少国外网站本身虽可访问，但由于网站需要下载google,facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、……，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。 使用Android端uweb浏览器。/sdcard/uweb/hosts内容如下：googleadservices.comgooglesyndication.comadsens">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-12-09T07:33:39.169Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="利用超级hosts文件加速访问国外网站">
+<meta name="twitter:description" content="不少国外网站本身虽可访问，但由于网站需要下载google,facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、……，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。 使用Android端uweb浏览器。/sdcard/uweb/hosts内容如下：googleadservices.comgooglesyndication.comadsens">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/uWeb/css/style.css">
+</head>
+</html>
 <body>
   <div id="container">
     <div id="wrap">
-      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
-      <div class="outer">
-        <section id="main"><%- body %></section>
-        <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
-          <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
-        <% } %>
-      </div>
-      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/uWeb/" id="logo">uWeb</a>
+      </h1>
+      
     </div>
-    <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
-    <%- partial('_partial/after-footer') %>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/uWeb/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://jamesfengcao.coding.me/uWeb"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hosts" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/uWeb/2018/12/09/hosts/" class="article-date">
+  <time datetime="2018-12-09T07:33:39.169Z" itemprop="datePublished">2018-12-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      利用超级hosts文件加速访问国外网站
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>不少国外网站本身虽可访问，但由于网站需要下载google,<br>facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、……，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。</p>
+<p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>/sdcard/uweb/hosts内容如下：<br><br>googleadservices.com<br><br>googlesyndication.com<br><br>adsense.com<br><br>google.com<br><br>google-analytics.com<br><br>googletagservices.com<br><br>twitter.com<br><br>facebook.com<br><br>fbcdn.net<br></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://jamesfengcao.coding.me/uWeb/2018/12/09/hosts/" data-id="cjpgz10iz0002rg91wukjcjua" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/uWeb/2018/12/09/bc/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          配置浏览器地址栏作为超级计算器(bc)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/uWeb/archives/2018/12/">December 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/uWeb/2018/12/09/search/">浏览器多搜索引擎一键直达</a>
+          </li>
+        
+          <li>
+            <a href="/uWeb/2018/12/09/gluplot/">利用浏览器地址栏对函数作图</a>
+          </li>
+        
+          <li>
+            <a href="/uWeb/2018/12/09/bc/">配置浏览器地址栏作为超级计算器(bc)</a>
+          </li>
+        
+          <li>
+            <a href="/uWeb/2018/12/09/hosts/">利用超级hosts文件加速访问国外网站</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 uWeb<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/uWeb/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
   </div>
 </body>
 </html>
