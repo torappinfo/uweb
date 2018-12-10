@@ -11,7 +11,7 @@
 
     <title>
         
-        利用超级hosts文件加速访问国外网站 - undefined
+        配置浏览器地址栏作为超级计算器(bc) - undefined
         
     </title>
 
@@ -68,7 +68,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装bc"><span class="toc-text">安装bc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多bc扩展库："><span class="toc-text">更多bc扩展库：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用扩展库以后cmds-txt配置如下："><span class="toc-text">使用扩展库以后cmds.txt配置如下：</span></a></li></ol>
 </div>
     
 </div>
@@ -98,11 +98,11 @@
 
 <div class="post-container">
     <div class="post-title">
-        利用超级hosts文件加速访问国外网站
+        配置浏览器地址栏作为超级计算器(bc)
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2018-12-09 15:33:39</span></span>
+        <span class="attr">Post：<span>2018-12-11 06:53:33</span></span>
         
         
         <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
@@ -110,8 +110,13 @@
 
     </div>
     <div class="post-content ">
-        <p>不少国外网站本身虽可访问，但由于网站需要下载google,<br>facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、……，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。</p>
-<p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>/sdcard/uweb/hosts内容如下：<br><br>googleadservices.com<br><br>googlesyndication.com<br><br>adsense.com<br><br>google.com<br><br>google-analytics.com<br><br>googletagservices.com<br><br>twitter.com<br><br>facebook.com<br><br>fbcdn.net<br></p>
+        <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。</p>
+<h3 id="安装bc"><a href="#安装bc" class="headerlink" title="安装bc"></a>安装bc</h3><ul><br><li>安装uweb定制Termux应用(长按[PC]选择”Symbian”再刷新网页可直接下载)：<br><a href="https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA" target="_blank" rel="noopener">https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA</a> </li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install bc</li><br></ul>
+
+
+<h3 id="配置文件-sdcard-uweb-cmds-txt如下："><a href="#配置文件-sdcard-uweb-cmds-txt如下：" class="headerlink" title="配置文件/sdcard/uweb/cmds.txt如下："></a>配置文件/sdcard/uweb/cmds.txt如下：</h3><p>计算器:text/html:echo “%s”|bc -l -q  </p>
+<h3 id="更多bc扩展库："><a href="#更多bc扩展库：" class="headerlink" title="更多bc扩展库："></a>更多bc扩展库：</h3><p>扩展库可下载至/sdcard/uweb目录）<br><a href="https://github.com/susca/bc-extensions" target="_blank" rel="noopener">https://github.com/susca/bc-extensions</a><br><a href="http://phodd.net/gnu-bc" target="_blank" rel="noopener">http://phodd.net/gnu-bc</a><br><a href="http://www.numbertheory.org/gnubc/gnubc.html" target="_blank" rel="noopener">http://www.numbertheory.org/gnubc/gnubc.html</a>  </p>
+<h3 id="使用扩展库以后cmds-txt配置如下："><a href="#使用扩展库以后cmds-txt配置如下：" class="headerlink" title="使用扩展库以后cmds.txt配置如下："></a>使用扩展库以后cmds.txt配置如下：</h3><p>计算器:text/html:echo “%s”|bc -l －q extensions.bc scientific_constants.bc<br>全能计算器:text/html:echo “%s”|bc -l －q *.bc  </p>
 
         
         <br>
