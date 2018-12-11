@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        重定向国外网址至国内镜像 - undefined
         
     </title>
 
@@ -45,7 +45,7 @@
 <div class="nav" id="nav">
     <div class="contents" id="nav-content">
         <ul>
-            <li class="active">
+            <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>HOME</span>
@@ -66,6 +66,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
     
 </div>
 
@@ -90,98 +94,40 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/2018/12/11/redirect/">
-                <h3>
-                    重定向国外网址至国内镜像
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/2018/12/11/hosts/">
-                <h3>
-                    利用超级hosts文件加速访问国外网站
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/2018/12/11/gnuplot/">
-                <h3>
-                    利用浏览器地址栏对函数作图
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/2018/12/11/bc/">
-                <h3>
-                    配置浏览器地址栏作为超级计算器(bc)
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-10</div>
-        <div class="post-info">
-            <a href="/uWeb/2018/12/10/urls/">
-                <h3>
-                    配置浏览器特色服务
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-09</div>
-        <div class="post-info">
-            <a href="/uWeb/2018/12/09/search/">
-                <h3>
-                    浏览器多搜索引擎一键直达
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        重定向国外网址至国内镜像
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">Post：<span>2018-12-11 11:22:15</span></span>
+        
+        
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <p>配置/sdcard/uweb/redirect.txt:<br>文件每一行格式为：<br>正则表达式:替换表达式</p>
+<p>其中正则表达式以java语言规定为准。</p>
+<p>例子文件内容如下：<br>android.com:android.google.cn</p>
+<p>添加文件”国内镜像.js”至/sdcard/uweb/longclick:<br>文件内容如下：<br>//e:%s</p>
+<p>其中”e:”为uweb特殊url协议，意为”edit”, 即”编辑”。当后面紧跟url网址的情况下会重定向网址。</p>
+<p>重启uweb后长按链接弹出菜单选”国内镜像”，浏览器将访问网址的国内镜像。</p>
+
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
     </div>
 </div>
 
@@ -213,7 +159,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = ""
     window.hexo_root = "/uWeb/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/uWeb/js/index.js"></script>
