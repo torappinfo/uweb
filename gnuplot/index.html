@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        利用浏览器地址栏对函数作图 - undefined
         
     </title>
 
@@ -45,7 +45,7 @@
 <div class="nav" id="nav">
     <div class="contents" id="nav-content">
         <ul>
-            <li class="active">
+            <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>HOME</span>
@@ -66,6 +66,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装gnuplot"><span class="toc-text">安装gnuplot</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li></ol>
+</div>
     
 </div>
 
@@ -90,112 +94,39 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-19</div>
-        <div class="post-info">
-            <a href="/uWeb/adblock/">
-                <h3>
-                    利用超级hosts绝杀广告
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-13</div>
-        <div class="post-info">
-            <a href="/uWeb/redirect/">
-                <h3>
-                    重定向国外网址至国内镜像
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/hosts/">
-                <h3>
-                    利用超级hosts文件加速访问国外网站
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/gnuplot/">
-                <h3>
-                    利用浏览器地址栏对函数作图
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-11</div>
-        <div class="post-info">
-            <a href="/uWeb/bc/">
-                <h3>
-                    配置浏览器地址栏作为超级计算器(bc)
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-10</div>
-        <div class="post-info">
-            <a href="/uWeb/urls/">
-                <h3>
-                    配置浏览器特色服务
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-09</div>
-        <div class="post-info">
-            <a href="/uWeb/search/">
-                <h3>
-                    浏览器多搜索引擎一键直达
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        利用浏览器地址栏对函数作图
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">Post：<span>2018-12-11 07:04:19</span></span>
+        
+        
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。</p>
+<h4 id="安装gnuplot"><a href="#安装gnuplot" class="headerlink" title="安装gnuplot"></a>安装gnuplot</h4><ul><br><li>安装uweb定制Termux应用(长按[PC]选择”Symbian”再刷新网页可直接下载)<br><a href="https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA" target="_blank" rel="noopener">https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA</a></li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install gnuplot</li><br></ul>
+
+<h4 id="配置文件-sdcard-uweb-cmds-txt如下："><a href="#配置文件-sdcard-uweb-cmds-txt如下：" class="headerlink" title="配置文件/sdcard/uweb/cmds.txt如下："></a>配置文件/sdcard/uweb/cmds.txt如下：</h4><p>命令:text/plain:%s<br>函数作图:image/svg+xml:gnuplot -e ‘set term svg;set output; plot %s’<br>函数作图(3d):image/svg+xml:gnuplot -e ‘set term svg;set output; splot %s’<br>超级计算器:text/html:echo “%s”|bc -l -q</p>
+<p>长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。</p>
+
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
     </div>
 </div>
 
@@ -227,7 +158,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = ""
     window.hexo_root = "/uWeb/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/uWeb/js/index.js"></script>
