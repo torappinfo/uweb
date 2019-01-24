@@ -43,34 +43,56 @@
     <div class="index-left">
         
 <div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar">
+            <img src="<%= config['root'] %><%= config['sidebar-avatar'] %>" />
+        </div>
+        <div class="name">
+            <i><%= config.author %></i>
+        </div>
+    </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li>
-                <a href="/uWeb/">
+            <li <% if(is_home()){ %> <%- "class=active" %> <% } %>>
+                <a href="<%= url_for(config.home_dir || '/') %>">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
+                    <span><%= __('nav.home') %></span>
                 </a>
             </li>
-            <li>
-                <a href="/uWeb/tags">
+            <li <% if(is_current('tags')){ %> <%- "class=active" %> <% } %>>
+                <a href="<%= url_for(config.tag_dir) %>">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
+                    <span><%= __('nav.tags') %></span>
                 </a>
             </li>
-            <li>
-                <a href="/uWeb/archives">
+            <li <% if(is_current('archive')){ %> <%- "class=active" %> <% } %>>
+                <a href="<%= url_for(config.archive_dir) %>">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
+                    <span><%= __('nav.archives') %></span>
                 </a>
             </li>
-            
+            <li <% if(is_current('about')){ %> <%- "class=active" %> <% } %>>
+                <a href="<%= config.root %><%- 'about/' %>">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span><%= __('nav.about') %></span>
+                </a>
+            </li>
+            <%if(config.search && config.search.path){%>
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span><%= __('nav.search') %></span>
+                </a>
+            </li>
+            <% } %>
         </ul>
     </div>
-    
-        <div id="toc" class="toc-article">
-    
-</div>
-    
+    <%
+        if(is_post()){
+        // if(/[0-9]*\/[0-9]*\/[0-9]*\//.test(path)){
+    %>
+        <%- partial('./toc', {item: page, index: false}) %>
+    <% } %>
 </div>
 
 
@@ -78,8 +100,8 @@
     <div class="search-container">
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input">
-            <span id="begin-search">search</span>
+            <input id="search-input"/>
+            <span id="begin-search"><%= __('search.search') %></span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -102,7 +124,7 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2018-12-11 07:07:58</span></span>
+        <span class="attr">Post：<span>2019-01-24 17:49:14</span></span>
         
         
         <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
@@ -112,6 +134,11 @@
     <div class="post-content ">
         <p>不少国外网站本身虽可访问，但由于网站需要下载google,<br>facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、……，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。</p>
 <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>/sdcard/uweb/hosts内容如下：<br>googleadservices.com<br>googlesyndication.com<br>adsense.com<br>google.com<br>google-analytics.com<br>googletagservices.com<br>twitter.com<br>facebook.com<br>fbcdn.net</p>
+<p>其它国外网址访问技巧：</p>
+<ul>
+<li>尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。</li>
+<li>关闭网页图片</li>
+</ul>
 
         
         <br>
