@@ -100,7 +100,7 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-02-17 23:42:48</span></span>
+        <span class="attr">Post：<span>2019-02-20 16:13:05</span></span>
         
         
 
@@ -113,17 +113,25 @@
 <li><p><a href="..">超微浏览器</a>上配置百度离线下载</p>
 <ul>
 <li>安装<a href="https://pan.baidu.com/s/1WwQ9yhPlu95sFtttlzDXFA" target="_blank" rel="noopener">uweb定制Termux应用</a>, 长按[PC]选择”Symbian”再刷新百度网盘网页可直接下载。</li>
-<li><p>下载<a href="https://github.com/iikira/BaiduPCS-Go/releases" target="_blank" rel="noopener">BaiduPCS-Go</a>至termux目录/data/data/com.termux/files/usr/bin.</p>
-<ul>
+<li>更新Termux, Termux执行如下命令：<pre><code>echo &quot;deb [trusted=yes] http://termux.iikira.com stable main&quot; &gt;&gt;/data/data/com.termux/files/usr/etc/apt/sources.list
+apt update
+apt upgrade
+apt install baidupcs-go
+</code></pre></li>
+<li>登录百度网盘, Termux执行如下命令：<pre><code>BaiduPCS-Go login
+BaiduPCS-Go config set -appid=266719
+</code></pre></li>
+<li>/sdcard/uweb/longclick.txt配置如下：<br>百度离线下载:/data/data/com.termux/files/usr/bin/BaiduPCS-Go od add</li>
+<li>重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。</li>
+<li>(其它安装方法)用户亦可直接下载<a href="https://github.com/iikira/BaiduPCS-Go/releases" target="_blank" rel="noopener">BaiduPCS-Go</a>至termux目录/data/data/com.termux/files/usr/bin.<ul>
 <li>安卓手机请选择arm64版本。</li>
-<li>解压，Termux运行以下命令<br>unzip /sdcard/Download/BaiduPCS-Go-v3.5.6-android-21-arm64.zip</li>
-<li>移动解压后文件至最终目的地。Termux运行以下命令<br>mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.</li>
+<li>解压，Termux运行以下命令<br><code>unzip /sdcard/Download/BaiduPCS-Go-v3.5.6-android-21-arm64.zip</code></li>
+<li>移动解压后文件至最终目的地。Termux运行以下命令<br><code>mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.</code></li>
+<li>配置/sdcard/uweb/longclick.txt如下：<br><code>百度离线下载:/data/data/com.termux/files/usr/bin/BaiduPCS-Go od add</code></li>
+<li>重启超微浏览器，长按链接运行百度离线下载，发现百度网盘还没登录。本步骤会将BaiduPCS-Go设置为可运行程序。</li>
+<li>termux下执行”BaiduPCS-Go login”登录百度网盘。再次长按链接完美运行百度离线下载。</li>
 </ul>
 </li>
-<li><p>/sdcard/uweb/longclick.txt配置如下：<br>百度离线下载:/data/data/com.termux/files/usr/bin/BaiduPCS-Go od add</p>
-</li>
-<li>重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。长按链接运行百度离线下载，发现百度网盘还没登录。本步骤会将BaiduPCS-Go设置为可运行程序。</li>
-<li>termux下执行”BaiduPCS-Go login”登录百度网盘。再次长按链接完美运行百度离线下载。</li>
 </ul>
 </li>
 <li><p>离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。</p>
