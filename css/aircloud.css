@@ -662,7 +662,6 @@ body {
   padding: 10px;
 }
 .post-content pre code {
-  color: white;
   line-height: 175%;
 }
 .post-content h1 {
@@ -788,59 +787,6 @@ body {
     font-family: "italic" !important;
     font-weight: 300;
     color: #444444;
-  }
-}
-.donate-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.donate-container .donate-button {
-  margin-bottom: 10px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.donate-container .donate-button button {
-  border: none;
-  cursor: pointer;
-  box-shadow: none;
-  outline: none;
-  border-radius: 6px;
-  width: 60px;
-  height: 24px;
-  text-align: center;
-  color: white;
-  background-color: orange;
-}
-.donate-container .donate-button button:active {
-  background-color: darkorange;
-}
-.donate-container .donate-img-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.donate-container .donate-img-container img {
-  max-width: 400px;
-  max-height: 360px;
-}
-.donate-container .donate-img-container p {
-  text-align: center;
-  font-size: 14px;
-  color: #999999;
-}
-@media screen and (max-width: 680px) {
-  .donate-container .donate-img-container img {
-    max-width: 75vw;
-    max-height: 240px;
-  }
-  .donate-container .donate-img-container p {
-    text-align: center;
-    font-size: 14px;
-    color: #999999;
   }
 }
 .archives-container .one-tag-list .listing-seperator {
@@ -1202,7 +1148,4 @@ pre .javascript .function {
   .toc-article {
     display: none;
   }
-}
-.gitment-comment p {
-  text-indent: 0;
 }
