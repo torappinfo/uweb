@@ -66,7 +66,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装gnuplot"><span class="toc-text">安装gnuplot</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装gnuplot"><span class="toc-text">安装gnuplot</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#常见问题及诊断"><span class="toc-text">常见问题及诊断</span></a></li></ol>
 </div>
     
 </div>
@@ -100,18 +100,24 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-03-01 15:52:14</span></span>
+        <span class="attr">Post：<span>2019-03-04 15:02:55</span></span>
         
         
 
 
     </div>
     <div class="post-content ">
-        <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。</p>
+        <p>使用Android端<a href="..">uweb浏览器</a>。<br>Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。</p>
 <h4 id="安装gnuplot"><a href="#安装gnuplot" class="headerlink" title="安装gnuplot"></a>安装gnuplot</h4><ul><br><li>安装<a href="https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==" target="_blank" rel="noopener">uweb定制Termux应用</a></li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install gnuplot</li><br></ul>
 
 <h4 id="配置文件-sdcard-uweb-cmds-txt如下："><a href="#配置文件-sdcard-uweb-cmds-txt如下：" class="headerlink" title="配置文件/sdcard/uweb/cmds.txt如下："></a>配置文件/sdcard/uweb/cmds.txt如下：</h4><p>命令:text/plain:%s<br>函数作图:image/svg+xml:gnuplot -e ‘set term svg;set output; plot %s’<br>函数作图(3d):image/svg+xml:gnuplot -e ‘set term svg;set output; splot %s’<br>超级计算器:text/html:echo “%s”|bc -l -q</p>
 <p>长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。</p>
+<h4 id="常见问题及诊断"><a href="#常见问题及诊断" class="headerlink" title="常见问题及诊断"></a>常见问题及诊断</h4><ul>
+<li>确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现”gnuplot&gt;”。</li>
+<li>确保gnuplot正常运行, 在Termux提示符下，执行下面命令：<br><code><br>gnuplot -e ‘set term svg;set output; plot x’<br></code><br>屏幕输出应该为正常的svg文件（类似html文本）。</li>
+<li>Termux应为uweb定制包，否则有一堆设定需要修改。</li>
+<li>超微浏览器下长按窗口管理按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。</li>
+</ul>
 
         <br>
         <div id="comment-container">
