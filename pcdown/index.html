@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        手机浏览器直接下载资源至台式机/服务器
         
     </title>
 
@@ -43,7 +43,7 @@
 <div class="nav" id="nav">
     <div class="contents" id="nav-content">
         <ul>
-            <li class="active">
+            <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>HOME</span>
@@ -64,6 +64,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
     
 </div>
 
@@ -88,68 +92,39 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    <div class="post-preview">
-        <div class="post-time">2019-04-01</div>
-        <div class="post-info">
-            <a href="http://coolapk.com/apk/info.torapp.uweb">
-                <h3>超微浏览器最新版下载</h3>
-            </a>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2019-01-10</div>
-        <div class="post-info">
-            <a href="/uWeb/adblock/">
-                <h3>
-                    利用超级hosts绝杀广告
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2019-01-01</div>
-        <div class="post-info">
-            <a href="/uWeb/redirect/">
-                <h3>
-                    重定向国外网址至国内镜像
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-12-10</div>
-        <div class="post-info">
-            <a href="/uWeb/urls/">
-                <h3>
-                    配置浏览器特色服务
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    <li class="previous">
-        <a href="/uWeb/">&larr; Newer Posts</a>
-    </li>
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        手机浏览器直接下载资源至台式机/服务器
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">Post：<span>2019-03-28 17:08:06</span></span>
+        
+        
+
+
+    </div>
+    <div class="post-content ">
+        <p>由于不可言说的理由，台式机下载英文资源已经越来越困难了。下面是作者的亲身经历。</p>
+<p>小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：</p>
+<p>脚本pcdownload内容如下：<br><code>#!/data/data/com.termux/files/usr/bin/sh<br>ssh [user:password]@192.168.2.102 “DISPLAY=:0 firefox \”$1\””</code></p>
+<p>这里假定用户已经在台式机上设好ssh服务，台式机IP地址为192.168.2.102，准备用firefox下载。如果下载工具不是图形程序，则上述脚本中可删去“DISPLAY=:0”。</p>
+<p>配置文件/sdcard/uweb/longclick.txt如下：<br><code>PCdown:/data/data/com.termux/files/usr/bin/pcdownload</code></p>
+<p>重启超微浏览器，点击链接下载时会弹出菜单，选择”PCdown”，台式机会启动firefox下载手机指定文档。</p>
+<p>可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</p>
+
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
     </div>
 </div>
 
@@ -181,7 +156,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = ""
     window.hexo_root = "/uWeb/"
-    window.isPost = false
+    window.isPost = true
 </script>
 
 
