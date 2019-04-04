@@ -11,7 +11,7 @@
 
     <title>
         
-        手机浏览器直接下载资源至台式机/服务器
+        浏览器​控制台式机/服务器下载资源
         
     </title>
 
@@ -96,18 +96,18 @@
 
 <div class="post-container">
     <div class="post-title">
-        手机浏览器直接下载资源至台式机/服务器
+        浏览器​控制台式机/服务器下载资源
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-03-28 17:08:06</span></span>
+        <span class="attr">Post：<span>2019-03-28 16:26:10</span></span>
         
         
 
 
     </div>
     <div class="post-content ">
-        <p>由于不可言说的理由，台式机下载英文资源已经越来越困难了。下面是作者的亲身经历。</p>
+        <p>技巧等级：高级</p>
 <p>小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：</p>
 <p>脚本pcdownload内容如下：<br><code>#!/data/data/com.termux/files/usr/bin/sh<br>ssh [user:password]@192.168.2.102 “DISPLAY=:0 firefox \”$1\””</code></p>
 <p>这里假定用户已经在台式机上设好ssh服务，台式机IP地址为192.168.2.102，准备用firefox下载。如果下载工具不是图形程序，则上述脚本中可删去“DISPLAY=:0”。</p>
