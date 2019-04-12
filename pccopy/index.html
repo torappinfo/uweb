@@ -119,10 +119,11 @@
         <p>技巧等级：笔记(中级) PC剪贴板(高级)</p>
 <p>手机需安装uweb定制<a href="../pcdown">Termux</a>。如使用剪贴板功能，termux还需安装openssl。</p>
 <p>配置/sdcard/uweb/selection.txt如下：<br><code>笔记::(cat;echo;echo;)&gt;&gt;notes.txt<br>富文本笔记:html:(cat;echo ‘&lt;p&gt;&lt;/p&gt;’;echo;)&gt;&gt;notes.html<br>命名笔记:(cat;echo;echo;)&gt;&gt;%s<br>复制至PC剪贴板::ssh [user:password]@192.168.2.102 “DISPLAY=:0 xsel -i”<br>复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 “DISPLAY=:0 xsel -i”</code></p>
-<p>此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件selection.txt。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。顾虑密码安全的朋友请配置ssh免密码登录。</p>
+<p>此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件selection.txt。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。</p>
 <p>重启浏览器，长按“书签”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。</p>
 <p>采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。</p>
-<p>手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。</p>
+<p>手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。<br><a href="data:text/html;charset=utf-8,&lt;body contenteditable%3E" target="_blank" rel="noopener">在超微浏览器中长按并在新窗口打开此链接</a>，然后点击窗口并粘贴文本。长按书签按钮选择适当功能即可复制至PC剪贴板。</p>
+<p>通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。</p>
 
         <br>
         <div id="comment-container">
