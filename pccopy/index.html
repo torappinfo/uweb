@@ -100,7 +100,7 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-04-10 17:22:00</span></span>
+        <span class="attr">Post：<span>2019-04-18 23:33:48</span></span>
         
         <span class="attr">Tags：/
         
@@ -118,7 +118,13 @@
     <div class="post-content ">
         <p>技巧等级：笔记(中级) PC剪贴板(高级)</p>
 <p>手机需安装uweb定制<a href="../pcdown">Termux</a>。如使用剪贴板功能，termux还需安装openssl。</p>
-<p>配置/sdcard/uweb/selection.txt如下：<br><code>笔记::(cat;echo;echo;)&gt;&gt;notes.txt<br>富文本笔记:html:(cat;echo ‘&lt;p&gt;&lt;/p&gt;’;echo;)&gt;&gt;notes.html<br>命名笔记:(cat;echo;echo;)&gt;&gt;%s<br>复制至PC剪贴板::ssh [user:password]@192.168.2.102 “DISPLAY=:0 xsel -i”<br>复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 “DISPLAY=:0 xsel -i”</code></p>
+<p>配置/sdcard/uweb/selection.txt如下：</p>
+<pre>笔记::(cat;echo;echo;)>>notes.txt
+富文本笔记:html:(cat;echo '&lt;p>&lt;/p>';echo;)>>notes.html
+命名笔记:(cat;echo;echo;)>>%s
+复制至PC剪贴板::ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -i"
+复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -i"</pre>
+
 <p>此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件selection.txt。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。</p>
 <p>重启浏览器，长按“书签”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。</p>
 <p>采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。</p>
