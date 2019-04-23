@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/uWeb/img/favicon.ico">
+
+    <title>
+        
+        一键执行任意预定义命令（附手机PC剪贴板互通）
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/uWeb/css/aircloud.css">
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i>  </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="contents" id="nav-content">
+        <ul>
+            <li>
+                <a href="/uWeb/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="/uWeb/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>TAGS</span>
+                </a>
+            </li>
+            <li>
+                <a href="/uWeb/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>ARCHIVES</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input">
+            <span id="begin-search">search</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+        <div class="index-about-mobile">
+            <i>  </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        一键执行任意预定义命令（附手机PC剪贴板互通）
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">Post：<span>2019-04-23 11:14:31</span></span>
+        
+        <span class="attr">Tags：/
+        
+        <a class="tag" href="/uWeb/tags/#termux" title="termux">termux</a>
+        <span>/</span>
+        
+        <a class="tag" href="/uWeb/tags/#ssh" title="ssh">ssh</a>
+        <span>/</span>
+        
+        <a class="tag" href="/uWeb/tags/#剪贴板" title="剪贴板">剪贴板</a>
+        <span>/</span>
+        
+        
+        </span>
+
+
+    </div>
+    <div class="post-content ">
+        <p>技巧等级：中级 PC剪贴板(高级)</p>
+<p><a href="..">uweb浏览器</a>支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。</p>
+<p>手机推荐安装uweb定制<a href="../gnuplot">Termux</a>，否则能够执行的命令极其有限。</p>
+<p>预定义命令保存在文件”/sdcard/uweb/cmds2.txt”中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。</p>
+<p>资深用户可能注意到文件名与<a href="../gnuplot">cmds.txt</a>类似。cmds.txt中的命令适合以不同的参数反复执行；而cmds2.txt一般以单次执行为多。cmds.txt结果会显示在浏览器当前窗口；而cmds2.txt中命令执行结果会显示在新窗口之中。这两个文件格式也完全相同，每行格式如下：<br>[命令名称]:[mimetype]:[命令代码]</p>
+<p>命令代码可以是任意命令，其中可以包含%c（当前网址cookie）、%s (地址栏输入)、 %t (当前窗口标题)、 %u (当前窗口url或文件路径)。执行时这些特殊标识将会被相应内容自动替换。</p>
+<p>mimetype用来表示命令的输出类型。除了标准的mimetype之外，超微对此还作了扩充，便利与剪贴板交互。下面是扩充版的mimetype：<br>“clip/clip” : 以剪贴板作为命令输入，输出结果复制到剪贴板。<br>“/clip” : 输出结果复制到剪贴板。<br>“clip/text/html” : 以剪贴板作为命令输入，输出结果mimetype类型为“text/html”。</p>
+<p>下面是笔者使用的cmds2.txt配置（<a href="../pccopy">命令具体解释</a>）：</p>
+<pre>复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -i"
+PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -o"
+</pre>
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+    </ul>
+    
+    
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = ""
+    window.hexo_root = "/uWeb/"
+    window.isPost = true
+</script>
+<script src="/uWeb/js/index.js"></script>
+
+
+
+
+</html>
