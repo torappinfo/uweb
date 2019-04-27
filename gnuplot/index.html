@@ -66,7 +66,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装gnuplot"><span class="toc-text">安装gnuplot</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#常见问题及诊断"><span class="toc-text">常见问题及诊断</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装gnuplot"><span class="toc-text">安装gnuplot</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#地址栏功能配置："><span class="toc-text">地址栏功能配置：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#常见问题及诊断"><span class="toc-text">常见问题及诊断</span></a></li></ol>
 </div>
     
 </div>
@@ -116,6 +116,11 @@
         <p>使用Android端<a href="..">uweb浏览器</a>。<br>Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。</p>
 <h4 id="安装gnuplot"><a href="#安装gnuplot" class="headerlink" title="安装gnuplot"></a>安装gnuplot</h4><ul><br><li>安装<a href="https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==" target="_blank" rel="noopener">uweb定制Termux应用</a></li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install gnuplot</li><br></ul>
 
+<h4 id="地址栏功能配置："><a href="#地址栏功能配置：" class="headerlink" title="地址栏功能配置："></a>地址栏功能配置：</h4><ul>
+<li>配置文件&lt;a href=e:/sdcard/uweb/cmds.txt&gt;/sdcard/uweb/cmds.txt每行格式如下：<br>  菜单名:mimeType:命令行</li>
+<li>命令行可包含参数%s，运行时自动用地址栏输入内容替换。</li>
+<li>如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。</li>
+</ul>
 <h4 id="配置文件-sdcard-uweb-cmds-txt如下："><a href="#配置文件-sdcard-uweb-cmds-txt如下：" class="headerlink" title="配置文件/sdcard/uweb/cmds.txt如下："></a>配置文件/sdcard/uweb/cmds.txt如下：</h4><pre><code>命令:text/plain:%s
 函数作图:image/svg+xml:gnuplot -e &apos;set term svg;set output; plot %s&apos;
 函数作图(3d):image/svg+xml:gnuplot -e &apos;set term svg;set output; splot %s&apos;
