@@ -66,7 +66,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装bc"><span class="toc-text">安装bc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置文件-sdcard-uweb-cmds-txt如下："><span class="toc-text">配置文件/sdcard/uweb/cmds.txt如下：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多bc扩展库："><span class="toc-text">更多bc扩展库：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用扩展库以后cmds-txt配置如下："><span class="toc-text">使用扩展库以后cmds.txt配置如下：</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装bc"><span class="toc-text">安装bc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置文件-sdcard-uweb-default-acmd如下："><span class="toc-text">配置文件/sdcard/uweb/default.acmd如下：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多bc扩展库："><span class="toc-text">更多bc扩展库：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用扩展库以后default-acmd配置如下："><span class="toc-text">使用扩展库以后default.acmd配置如下：</span></a></li></ol>
 </div>
     
 </div>
@@ -100,7 +100,7 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2018-12-09 15:34:37</span></span>
+        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
         
         
 
@@ -111,9 +111,9 @@
 <h3 id="安装bc"><a href="#安装bc" class="headerlink" title="安装bc"></a>安装bc</h3><ul><br><li>安装<a href="https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==" target="_blank" rel="noopener">uweb定制Termux应用</a> </li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install bc</li><br></ul>
 
 
-<h3 id="配置文件-sdcard-uweb-cmds-txt如下："><a href="#配置文件-sdcard-uweb-cmds-txt如下：" class="headerlink" title="配置文件/sdcard/uweb/cmds.txt如下："></a>配置文件/sdcard/uweb/cmds.txt如下：</h3><p>计算器:text/html:echo “%s”|bc -l -q  </p>
+<h3 id="配置文件-sdcard-uweb-default-acmd如下："><a href="#配置文件-sdcard-uweb-default-acmd如下：" class="headerlink" title="配置文件/sdcard/uweb/default.acmd如下："></a>配置文件/sdcard/uweb/default.acmd如下：</h3><p>计算器:text/html:echo “%s”|bc -l -q  </p>
 <h3 id="更多bc扩展库："><a href="#更多bc扩展库：" class="headerlink" title="更多bc扩展库："></a>更多bc扩展库：</h3><p>扩展库可下载至/sdcard/uweb目录）<br><a href="https://github.com/susca/bc-extensions" target="_blank" rel="noopener">https://github.com/susca/bc-extensions</a><br><a href="http://phodd.net/gnu-bc" target="_blank" rel="noopener">http://phodd.net/gnu-bc</a><br><a href="http://www.numbertheory.org/gnubc/gnubc.html" target="_blank" rel="noopener">http://www.numbertheory.org/gnubc/gnubc.html</a>  </p>
-<h3 id="使用扩展库以后cmds-txt配置如下："><a href="#使用扩展库以后cmds-txt配置如下：" class="headerlink" title="使用扩展库以后cmds.txt配置如下："></a>使用扩展库以后cmds.txt配置如下：</h3><p>计算器:text/html:echo “%s”|bc -l －q extensions.bc scientific_constants.bc<br>全能计算器:text/html:echo “%s”|bc -l －q *.bc  </p>
+<h3 id="使用扩展库以后default-acmd配置如下："><a href="#使用扩展库以后default-acmd配置如下：" class="headerlink" title="使用扩展库以后default.acmd配置如下："></a>使用扩展库以后default.acmd配置如下：</h3><p>计算器:text/html:echo “%s”|bc -l －q extensions.bc scientific_constants.bc<br>全能计算器:text/html:echo “%s”|bc -l －q *.bc  </p>
 
         <br>
         <div id="comment-container">
