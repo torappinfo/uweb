@@ -101,15 +101,13 @@
     
     <a href="#剪贴板" title="剪贴板" rel="2">剪贴板</a>
     
-    <a href="#curl" title="curl" rel="1">curl</a>
-    
-    <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
-    
     <a href="#网盘" title="网盘" rel="1">网盘</a>
     
     <a href="#离线" title="离线" rel="1">离线</a>
     
     <a href="#资源" title="资源" rel="2">资源</a>
+    
+    <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
     
     <a href="#PC" title="PC" rel="2">PC</a>
     
@@ -122,6 +120,8 @@
     <a href="#搜索" title="搜索" rel="3">搜索</a>
     
     <a href="#视频" title="视频" rel="1">视频</a>
+    
+    <a href="#curl" title="curl" rel="1">curl</a>
     
     <a href="#电视" title="电视" rel="1">电视</a>
     
@@ -140,9 +140,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/adblock_css/">
+        <a href="/uWeb/adblock/">
             <h2 class="post-title">
-                利用用户自定义样式屏蔽广告
+                利用超级hosts绝杀广告
             </h2>
             
         </a>
@@ -154,9 +154,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/adblock/">
+        <a href="/uWeb/adblock_css/">
             <h2 class="post-title">
-                利用超级hosts绝杀广告
+                利用用户自定义样式屏蔽广告
             </h2>
             
         </a>
@@ -287,20 +287,6 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/filecap/">
-            <h2 class="post-title">
-                利用文件预处理预览/查看/播放一切可下载资源
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
         <a href="/uWeb/gnuplot/">
             <h2 class="post-title">
                 利用浏览器地址栏对函数作图
@@ -318,6 +304,20 @@
         <a href="/uWeb/loadbt/">
             <h2 class="post-title">
                 利用国外离线网盘囤积资源
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/plugin/">
+            <h2 class="post-title">
+                插件汇总
             </h2>
             
         </a>
@@ -357,9 +357,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/plugin/">
+        <a href="/uWeb/filecap/">
             <h2 class="post-title">
-                插件汇总
+                利用文件预处理预览/查看/播放一切可下载资源
             </h2>
             
         </a>
@@ -453,62 +453,6 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="curl">
-                    <span class="tag-text">curl</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/filecap/">
-            <h2 class="post-title">
-                利用文件预处理预览/查看/播放一切可下载资源
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="国外网址">
-                    <span class="tag-text">国外网址</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/hosts/">
-            <h2 class="post-title">
-                利用超级hosts文件加速访问国外网站
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/redirect/">
-            <h2 class="post-title">
-                重定向国外网址至国内镜像（附编辑本地文件）
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="网盘">
                     <span class="tag-text">网盘</span>
                 </span>
@@ -577,6 +521,41 @@
         <a href="/uWeb/video/">
             <h2 class="post-title">
                 视频播放小窍门
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="国外网址">
+                    <span class="tag-text">国外网址</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/hosts/">
+            <h2 class="post-title">
+                利用超级hosts文件加速访问国外网站
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/redirect/">
+            <h2 class="post-title">
+                重定向国外网址至国内镜像（附编辑本地文件）
             </h2>
             
         </a>
@@ -693,9 +672,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/search/">
+        <a href="/uWeb/searchcat/">
             <h2 class="post-title">
-                浏览器多搜索引擎一键直达
+                分类多引擎搜索
             </h2>
             
         </a>
@@ -707,9 +686,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/searchcat/">
+        <a href="/uWeb/search/">
             <h2 class="post-title">
-                分类多引擎搜索
+                浏览器多搜索引擎一键直达
             </h2>
             
         </a>
@@ -745,6 +724,27 @@
         <a href="/uWeb/urls/">
             <h2 class="post-title">
                 配置浏览器特色服务
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="curl">
+                    <span class="tag-text">curl</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/filecap/">
+            <h2 class="post-title">
+                利用文件预处理预览/查看/播放一切可下载资源
             </h2>
             
         </a>
