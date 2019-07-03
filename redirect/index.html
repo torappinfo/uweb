@@ -46,19 +46,19 @@
             <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
+                    <span>主页</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/tags">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
+                    <span>标签</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/archives">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
+                    <span>存档</span>
                 </a>
             </li>
             
@@ -77,7 +77,7 @@
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
             <input id="search-input">
-            <span id="begin-search">search</span>
+            <span id="begin-search">搜索</span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -100,9 +100,9 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
+        <span class="attr">发布于：<span>2019-06-05 17:55:34</span></span>
         
-        <span class="attr">Tags：/
+        <span class="attr">标签：/
         
         <a class="tag" href="/uWeb/tags/#国外网址" title="国外网址">国外网址</a>
         <span>/</span>
@@ -119,7 +119,7 @@
         <p>使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。</p>
 <p>其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。</p>
 <p>本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。</p>
-<p>配置/sdcard/uweb/redirect.txt:<br>文件每一行格式为：<br>正则表达式:替换表达式</p>
+<p>配置/sdcard/uweb/default.redirect:<br>文件每一行格式为：<br>正则表达式:替换表达式</p>
 <p>其中正则表达式以java语言规定为准。表达式中不能包含’:’。</p>
 <p>例子文件内容如下：<br>android.com:android.google.cn</p>
 <p>添加文件”国内镜像.js”至”/sdcard/uweb/longclick”目录下。<br>文件内容如下：<br>//e:%s</p>
