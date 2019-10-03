@@ -46,19 +46,19 @@
             <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
+                    <span>主页</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/tags">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
+                    <span>标签</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/archives">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
+                    <span>存档</span>
                 </a>
             </li>
             
@@ -66,7 +66,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#本地引擎"><span class="toc-text">本地引擎</span></a></li></ol>
 </div>
     
 </div>
@@ -77,7 +77,7 @@
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
             <input id="search-input">
-            <span id="begin-search">search</span>
+            <span id="begin-search">搜索</span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -100,9 +100,9 @@
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
+        <span class="attr">发布于：<span>2019-06-05 17:55:34</span></span>
         
-        <span class="attr">Tags：/
+        <span class="attr">标签：/
         
         <a class="tag" href="/uWeb/tags/#搜索" title="搜索">搜索</a>
         <span>/</span>
@@ -117,6 +117,8 @@
 <p><a href="..">超微浏览器</a>中通过“设置”-&gt;“总目录”-&gt;“↑”-&gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。</p>
 <p>.search文件每行格式为如下几种：<br>[搜索引擎名]:[不含%s的url]<br>[搜索引擎名]:[含%s的url]<br>[搜索引擎名]:POST:[含%s的post参数]:[url]</p>
 <p>.search文件首行必须为第一种类型的搜索引擎。由于其它两种类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。</p>
+<h4 id="本地引擎"><a href="#本地引擎" class="headerlink" title="本地引擎"></a>本地引擎</h4><p>搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为<br>c:[命令行]<br>查询时关键词会自动附加于命令行尾部。</p>
+<p>笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</p>
 
         <br>
         <div id="comment-container">
