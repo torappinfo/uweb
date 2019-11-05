@@ -11,7 +11,7 @@
 
     <title>
         
-        分类多引擎搜索
+        运行远程javascript脚本
         
     </title>
 
@@ -66,7 +66,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#本地引擎"><span class="toc-text">本地引擎</span></a></li></ol>
+    
 </div>
     
 </div>
@@ -96,15 +96,15 @@
 
 <div class="post-container">
     <div class="post-title">
-        分类多引擎搜索
+        运行远程javascript脚本
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
+        <span class="attr">Post：<span>2019-11-06 06:49:51</span></span>
         
         <span class="attr">Tags：/
         
-        <a class="tag" href="/uWeb/tags/#搜索" title="搜索">搜索</a>
+        <a class="tag" href="/uWeb/tags/#javascript" title="javascript">javascript</a>
         <span>/</span>
         
         
@@ -113,12 +113,13 @@
 
     </div>
     <div class="post-content ">
-        <p>长按下面链接可直接下载为分类多引擎搜索配置文件：<br><a href="http://jamesfengcao.gitee.io/searchurl/movie_zh.search" target="_blank" rel="noopener">影视搜索</a><br><a href="http://jamesfengcao.gitee.io/searchurl/novel_zh.search" target="_blank" rel="noopener">小说搜索</a></p>
-<p><a href="..">超微浏览器</a>中通过“设置”-&gt;“总目录”-&gt;“↑”-&gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。</p>
-<p>.search文件每行格式为如下几种：<br>[搜索引擎名]:[不含%s的url]<br>[搜索引擎名]:[含%s的url]<br>[搜索引擎名]:POST:[含%s的post参数]:[url]</p>
-<p>.search文件首行必须为第一种类型的搜索引擎。由于其它两种类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。</p>
-<h4 id="本地引擎"><a href="#本地引擎" class="headerlink" title="本地引擎"></a>本地引擎</h4><p>搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为<br>c:[含%s的命令行]<br>查询时关键词会自动替换命令行中的%s。</p>
-<p>笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</p>
+        <p>使用Android端<a href="..">uweb浏览器</a>。</p>
+<p><b>配置文件/sdcard/uweb/default.rjs如下：</b></p>
+<pre>彩云小译:'https://caiyunapp.com/dest/trs.js'
+</pre>
+
+<p>default.rjs每行格式如下 (url部分支持js代码运算)：<br>[远程脚本名]:[返回字符串的javascript代码]</p>
+<p>重启浏览器，长按关闭按钮，则弹出远程脚本菜单。</p>
 
         <br>
         <div id="comment-container">
