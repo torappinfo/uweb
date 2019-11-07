@@ -46,19 +46,19 @@
             <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>主页</span>
+                    <span>HOME</span>
                 </a>
             </li>
             <li class="active">
                 <a href="/uWeb/tags">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>标签</span>
+                    <span>TAGS</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/archives">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>存档</span>
+                    <span>ARCHIVES</span>
                 </a>
             </li>
             
@@ -73,7 +73,7 @@
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
             <input id="search-input">
-            <span id="begin-search">搜索</span>
+            <span id="begin-search">search</span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -101,6 +101,8 @@
     
     <a href="#javascript" title="javascript" rel="3">javascript</a>
     
+    <a href="#curl" title="curl" rel="1">curl</a>
+    
     <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
     
     <a href="#网盘" title="网盘" rel="1">网盘</a>
@@ -109,15 +111,13 @@
     
     <a href="#资源" title="资源" rel="2">资源</a>
     
-    <a href="#curl" title="curl" rel="1">curl</a>
+    <a href="#重定向" title="重定向" rel="1">重定向</a>
     
     <a href="#PC" title="PC" rel="2">PC</a>
     
     <a href="#Windows" title="Windows" rel="1">Windows</a>
     
     <a href="#下载" title="下载" rel="1">下载</a>
-    
-    <a href="#重定向" title="重定向" rel="1">重定向</a>
     
     <a href="#搜索" title="搜索" rel="3">搜索</a>
     
@@ -252,9 +252,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/gnuplot/">
+        <a href="/uWeb/filecap/">
             <h2 class="post-title">
-                利用浏览器地址栏对函数作图
+                利用文件预处理预览/查看/播放一切可下载资源
             </h2>
             
         </a>
@@ -280,9 +280,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/filecap/">
+        <a href="/uWeb/gnuplot/">
             <h2 class="post-title">
-                利用文件预处理预览/查看/播放一切可下载资源
+                利用浏览器地址栏对函数作图
             </h2>
             
         </a>
@@ -453,6 +453,27 @@
 </div>
 
 <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="curl">
+                    <span class="tag-text">curl</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/filecap/">
+            <h2 class="post-title">
+                利用文件预处理预览/查看/播放一切可下载资源
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="国外网址">
                     <span class="tag-text">国外网址</span>
                 </span>
@@ -565,8 +586,8 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="curl">
-                    <span class="tag-text">curl</span>
+                <span class="fa fa-tag listing-seperator" id="重定向">
+                    <span class="tag-text">重定向</span>
                 </span>
     
     <!-- <li class="listing-item">
@@ -574,9 +595,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/filecap/">
+        <a href="/uWeb/redirect/">
             <h2 class="post-title">
-                利用文件预处理预览/查看/播放一切可下载资源
+                重定向国外网址至国内镜像（附编辑本地文件）
             </h2>
             
         </a>
@@ -663,27 +684,6 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="重定向">
-                    <span class="tag-text">重定向</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/redirect/">
-            <h2 class="post-title">
-                重定向国外网址至国内镜像（附编辑本地文件）
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="搜索">
                     <span class="tag-text">搜索</span>
                 </span>
@@ -693,9 +693,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/searchcat/">
+        <a href="/uWeb/search/">
             <h2 class="post-title">
-                分类多引擎搜索
+                浏览器多搜索引擎一键直达
             </h2>
             
         </a>
@@ -707,9 +707,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/search/">
+        <a href="/uWeb/searchcat/">
             <h2 class="post-title">
-                浏览器多搜索引擎一键直达
+                分类多引擎搜索
             </h2>
             
         </a>
