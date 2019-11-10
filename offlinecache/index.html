@@ -11,7 +11,7 @@
 
     <title>
         
-        配置浏览器地址栏作为超级计算器(bc)
+        装载网站离线资源
         
     </title>
 
@@ -66,7 +66,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装bc"><span class="toc-text">安装bc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置文件-sdcard-uweb-default-acmd如下："><span class="toc-text">配置文件/sdcard/uweb/default.acmd如下：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多bc扩展库："><span class="toc-text">更多bc扩展库：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用扩展库以后default-acmd配置如下："><span class="toc-text">使用扩展库以后default.acmd配置如下：</span></a></li></ol>
+    
 </div>
     
 </div>
@@ -96,24 +96,29 @@
 
 <div class="post-container">
     <div class="post-title">
-        配置浏览器地址栏作为超级计算器(bc)
+        装载网站离线资源
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
+        <span class="attr">Post：<span>2019-11-10 16:44:23</span></span>
         
         
 
 
     </div>
     <div class="post-content ">
-        <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。</p>
-<h3 id="安装bc"><a href="#安装bc" class="headerlink" title="安装bc"></a>安装bc</h3><ul><br><li>安装<a href="https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==" target="_blank" rel="noopener">uweb定制Termux应用</a> </li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install bc</li><br></ul>
-
-
-<h3 id="配置文件-sdcard-uweb-default-acmd如下："><a href="#配置文件-sdcard-uweb-default-acmd如下：" class="headerlink" title="配置文件/sdcard/uweb/default.acmd如下："></a>配置文件/sdcard/uweb/default.acmd如下：</h3><p>计算器:text/html:echo “%s”|bc -l -q  </p>
-<h3 id="更多bc扩展库："><a href="#更多bc扩展库：" class="headerlink" title="更多bc扩展库："></a>更多bc扩展库：</h3><p>扩展库可下载至/sdcard/uweb目录）<br><a href="https://github.com/susca/bc-extensions" target="_blank" rel="noopener">https://github.com/susca/bc-extensions</a><br><a href="http://phodd.net/gnu-bc" target="_blank" rel="noopener">http://phodd.net/gnu-bc</a><br><a href="http://www.numbertheory.org/gnubc/gnubc.html" target="_blank" rel="noopener">http://www.numbertheory.org/gnubc/gnubc.html</a>  </p>
-<h3 id="使用扩展库以后default-acmd配置如下："><a href="#使用扩展库以后default-acmd配置如下：" class="headerlink" title="使用扩展库以后default.acmd配置如下："></a>使用扩展库以后default.acmd配置如下：</h3><p>计算器:text/html:echo “%s”|bc -l －q extensions.bc scientific_constants.bc<br>全能计算器:text/html:echo “%s”|bc -l －q *.bc  </p>
+        <p><a href="..">uweb浏览器</a>支持装载网站离线资源。只需要将离线资源存为文件”/sdcard/uweb/sitecache/[域名]/[全部路径，包括文件名，?,&amp;,=, 与url一模一样]”.</p>
+<p>打开选项以后超微将自动装载这些离线资源。</p>
+<p>下面以google翻译为例说明如何发现并备份离线资源。</p>
+<ul>
+<li>首先使用教程”<a href="../rjs">运行远程javascript</a>“配置google翻译。</li>
+<li>将文件”/sdcard/uweb/types.sniff”内容清空（不要删除文件，否则会恢复成默认文件）。重启浏览器以后长按设置打开资源嗅探。</li>
+<li>准备好合适手段保证google系网站能正常访问，长按按钮在主屏运行google翻译。</li>
+<li>出现google翻译工具条以后，长按设置关闭嗅探。</li>
+<li>运行termux，安装下载工具wget：<br><code>apt update;apt install wget</code></li>
+<li>下载必要离线数据，termux下运行如下命令：<br><code>cd /sdcard/uweb<br>mkdir sitecache<br>cd sitecache<br>wget -x -i ../sniff.log</code></li>
+<li>下载结束后，离线资源就准备妥当，供以后随时使用。</li>
+</ul>
 
         <br>
         <div id="comment-container">
