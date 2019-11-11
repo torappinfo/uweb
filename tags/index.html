@@ -93,17 +93,15 @@
     
     <a href="#css" title="css" rel="2">css</a>
     
-    <a href="#javascript" title="javascript" rel="3">javascript</a>
-    
     <a href="#termux" title="termux" rel="6">termux</a>
     
     <a href="#ssh" title="ssh" rel="3">ssh</a>
     
     <a href="#剪贴板" title="剪贴板" rel="2">剪贴板</a>
     
-    <a href="#curl" title="curl" rel="1">curl</a>
+    <a href="#javascript" title="javascript" rel="3">javascript</a>
     
-    <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
+    <a href="#curl" title="curl" rel="1">curl</a>
     
     <a href="#网盘" title="网盘" rel="1">网盘</a>
     
@@ -111,13 +109,15 @@
     
     <a href="#资源" title="资源" rel="2">资源</a>
     
+    <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
+    
+    <a href="#重定向" title="重定向" rel="1">重定向</a>
+    
     <a href="#PC" title="PC" rel="2">PC</a>
     
     <a href="#Windows" title="Windows" rel="1">Windows</a>
     
     <a href="#下载" title="下载" rel="1">下载</a>
-    
-    <a href="#重定向" title="重定向" rel="1">重定向</a>
     
     <a href="#搜索" title="搜索" rel="3">搜索</a>
     
@@ -134,6 +134,20 @@
                 <span class="fa fa-tag listing-seperator" id="广告屏蔽">
                     <span class="tag-text">广告屏蔽</span>
                 </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/adblock/">
+            <h2 class="post-title">
+                利用超级hosts绝杀广告
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
     
     <!-- <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -157,20 +171,6 @@
         <a href="/uWeb/hosts/">
             <h2 class="post-title">
                 利用超级hosts文件加速访问国外网站
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/adblock/">
-            <h2 class="post-title">
-                利用超级hosts绝杀广告
             </h2>
             
         </a>
@@ -206,55 +206,6 @@
         <a href="/uWeb/adblock_css/">
             <h2 class="post-title">
                 利用用户自定义样式屏蔽广告
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/sitejs/">
-            <h2 class="post-title">
-                特定网址用户脚本及样式
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="javascript">
-                    <span class="tag-text">javascript</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/bookmarklet/">
-            <h2 class="post-title">
-                小书签
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/rjs/">
-            <h2 class="post-title">
-                运行远程javascript脚本
             </h2>
             
         </a>
@@ -329,9 +280,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/pccopy/">
+        <a href="/uWeb/gnuplot/">
             <h2 class="post-title">
-                笔记及手机复制（富）文本至PC剪贴板
+                利用浏览器地址栏对函数作图
             </h2>
             
         </a>
@@ -343,9 +294,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/gnuplot/">
+        <a href="/uWeb/pccopy/">
             <h2 class="post-title">
-                利用浏览器地址栏对函数作图
+                笔记及手机复制（富）文本至PC剪贴板
             </h2>
             
         </a>
@@ -453,6 +404,55 @@
 </div>
 
 <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="javascript">
+                    <span class="tag-text">javascript</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/bookmarklet/">
+            <h2 class="post-title">
+                小书签
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/sitejs/">
+            <h2 class="post-title">
+                特定网址用户脚本及样式
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/rjs/">
+            <h2 class="post-title">
+                运行远程javascript脚本
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="curl">
                     <span class="tag-text">curl</span>
                 </span>
@@ -465,41 +465,6 @@
         <a href="/uWeb/filecap/">
             <h2 class="post-title">
                 利用文件预处理预览/查看/播放一切可下载资源
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="国外网址">
-                    <span class="tag-text">国外网址</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/hosts/">
-            <h2 class="post-title">
-                利用超级hosts文件加速访问国外网站
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/redirect/">
-            <h2 class="post-title">
-                重定向国外网址至国内镜像（附编辑本地文件）
             </h2>
             
         </a>
@@ -586,6 +551,62 @@
 </div>
 
 <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="国外网址">
+                    <span class="tag-text">国外网址</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/hosts/">
+            <h2 class="post-title">
+                利用超级hosts文件加速访问国外网站
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/redirect/">
+            <h2 class="post-title">
+                重定向国外网址至国内镜像（附编辑本地文件）
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="重定向">
+                    <span class="tag-text">重定向</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/redirect/">
+            <h2 class="post-title">
+                重定向国外网址至国内镜像（附编辑本地文件）
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="PC">
                     <span class="tag-text">PC</span>
                 </span>
@@ -663,27 +684,6 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="重定向">
-                    <span class="tag-text">重定向</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/redirect/">
-            <h2 class="post-title">
-                重定向国外网址至国内镜像（附编辑本地文件）
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="搜索">
                     <span class="tag-text">搜索</span>
                 </span>
@@ -693,9 +693,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/searchcat/">
+        <a href="/uWeb/search/">
             <h2 class="post-title">
-                分类多引擎搜索
+                浏览器多搜索引擎一键直达
             </h2>
             
         </a>
@@ -707,9 +707,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/search/">
+        <a href="/uWeb/searchcat/">
             <h2 class="post-title">
-                浏览器多搜索引擎一键直达
+                分类多引擎搜索
             </h2>
             
         </a>
