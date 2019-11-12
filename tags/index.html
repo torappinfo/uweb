@@ -46,19 +46,19 @@
             <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
+                    <span>主页</span>
                 </a>
             </li>
             <li class="active">
                 <a href="/uWeb/tags">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
+                    <span>标签</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/archives">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
+                    <span>存档</span>
                 </a>
             </li>
             
@@ -73,7 +73,7 @@
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
             <input id="search-input">
-            <span id="begin-search">search</span>
+            <span id="begin-search">搜索</span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -89,7 +89,7 @@
         <!-- Main Content -->
         <div id="tag_cloud" class="tags">
     
-    <a href="#广告屏蔽" title="广告屏蔽" rel="4">广告屏蔽</a>
+    <a href="#广告屏蔽" title="广告屏蔽" rel="5">广告屏蔽</a>
     
     <a href="#css" title="css" rel="2">css</a>
     
@@ -99,9 +99,9 @@
     
     <a href="#剪贴板" title="剪贴板" rel="2">剪贴板</a>
     
-    <a href="#javascript" title="javascript" rel="3">javascript</a>
+    <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
     
-    <a href="#curl" title="curl" rel="1">curl</a>
+    <a href="#javascript" title="javascript" rel="3">javascript</a>
     
     <a href="#网盘" title="网盘" rel="1">网盘</a>
     
@@ -109,9 +109,7 @@
     
     <a href="#资源" title="资源" rel="2">资源</a>
     
-    <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
-    
-    <a href="#重定向" title="重定向" rel="1">重定向</a>
+    <a href="#curl" title="curl" rel="1">curl</a>
     
     <a href="#PC" title="PC" rel="2">PC</a>
     
@@ -120,6 +118,8 @@
     <a href="#下载" title="下载" rel="1">下载</a>
     
     <a href="#搜索" title="搜索" rel="3">搜索</a>
+    
+    <a href="#重定向" title="重定向" rel="1">重定向</a>
     
     <a href="#视频" title="视频" rel="1">视频</a>
     
@@ -142,7 +142,7 @@
     <div class="post-preview">
         <a href="/uWeb/adblock/">
             <h2 class="post-title">
-                利用超级hosts绝杀广告
+                广告屏蔽技术总览
             </h2>
             
         </a>
@@ -157,6 +157,20 @@
         <a href="/uWeb/adblock_css/">
             <h2 class="post-title">
                 利用用户自定义样式屏蔽广告
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/adblock_hosts/">
+            <h2 class="post-title">
+                利用超级hosts绝杀广告
             </h2>
             
         </a>
@@ -252,9 +266,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/filecap/">
+        <a href="/uWeb/gnuplot/">
             <h2 class="post-title">
-                利用文件预处理预览/查看/播放一切可下载资源
+                利用浏览器地址栏对函数作图
             </h2>
             
         </a>
@@ -280,9 +294,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/gnuplot/">
+        <a href="/uWeb/filecap/">
             <h2 class="post-title">
-                利用浏览器地址栏对函数作图
+                利用文件预处理预览/查看/播放一切可下载资源
             </h2>
             
         </a>
@@ -404,6 +418,41 @@
 </div>
 
 <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="国外网址">
+                    <span class="tag-text">国外网址</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/hosts/">
+            <h2 class="post-title">
+                利用超级hosts文件加速访问国外网站
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/redirect/">
+            <h2 class="post-title">
+                重定向国外网址至国内镜像（附编辑本地文件）
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="javascript">
                     <span class="tag-text">javascript</span>
                 </span>
@@ -427,20 +476,6 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/sitejs/">
-            <h2 class="post-title">
-                特定网址用户脚本及样式
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
         <a href="/uWeb/rjs/">
             <h2 class="post-title">
                 运行远程javascript脚本
@@ -450,21 +485,14 @@
         <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
     </div>
     
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="curl">
-                    <span class="tag-text">curl</span>
-                </span>
-    
     <!-- <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/filecap/">
+        <a href="/uWeb/sitejs/">
             <h2 class="post-title">
-                利用文件预处理预览/查看/播放一切可下载资源
+                特定网址用户脚本及样式
             </h2>
             
         </a>
@@ -551,8 +579,8 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="国外网址">
-                    <span class="tag-text">国外网址</span>
+                <span class="fa fa-tag listing-seperator" id="curl">
+                    <span class="tag-text">curl</span>
                 </span>
     
     <!-- <li class="listing-item">
@@ -560,44 +588,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/hosts/">
+        <a href="/uWeb/filecap/">
             <h2 class="post-title">
-                利用超级hosts文件加速访问国外网站
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/redirect/">
-            <h2 class="post-title">
-                重定向国外网址至国内镜像（附编辑本地文件）
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="重定向">
-                    <span class="tag-text">重定向</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/redirect/">
-            <h2 class="post-title">
-                重定向国外网址至国内镜像（附编辑本地文件）
+                利用文件预处理预览/查看/播放一切可下载资源
             </h2>
             
         </a>
@@ -693,20 +686,6 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/search/">
-            <h2 class="post-title">
-                浏览器多搜索引擎一键直达
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
         <a href="/uWeb/searchcat/">
             <h2 class="post-title">
                 分类多引擎搜索
@@ -721,9 +700,44 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
+        <a href="/uWeb/search/">
+            <h2 class="post-title">
+                浏览器多搜索引擎一键直达
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
         <a href="/uWeb/video/">
             <h2 class="post-title">
                 视频播放小窍门
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="重定向">
+                    <span class="tag-text">重定向</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/redirect/">
+            <h2 class="post-title">
+                重定向国外网址至国内镜像（附编辑本地文件）
             </h2>
             
         </a>
