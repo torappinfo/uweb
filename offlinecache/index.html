@@ -117,8 +117,12 @@
 <li>准备好合适手段保证google系网站能正常访问，长按按钮在主屏运行google翻译。</li>
 <li>出现google翻译工具条以后，长按设置关闭嗅探。</li>
 <li>运行termux，安装下载工具wget：<br><code>apt update;apt install wget</code></li>
-<li>下载必要离线数据，termux下运行如下命令：<br><code>cd /sdcard/uweb<br>mkdir sitecache<br>cd sitecache<br>wget -x -i ../sniff.log</code></li>
+<li>下载必要离线数据，termux下运行如下命令：<pre><code>cd /sdcard/uweb
+mkdir sitecache
+cd sitecache
+wget -U 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)' -x -i ../sniff.log</code></pre></li>
 <li>下载结束后，离线资源就准备妥当，供以后随时使用。</li>
+<li>google翻译的情况下，要对部分js作修改，防止每次访问url不同。</li>
 </ul>
 
         <br>
