@@ -346,22 +346,3 @@ if(window.isPost){
     }
 }
 
-
-// donate
-/*****************************************************************************/
-const donateButton = document.getElementById('donate-button')
-const donateImgContainer = document.getElementById('donate-img-container')
-const donateImg = document.getElementById('donate-img')
-
-if(donateButton) {
-    donateButton.addEventListener('click', () => {
-        if (donateImgContainer.classList.contains('hide')) {
-            donateImgContainer.classList.remove('hide')
-        } else {
-            donateImgContainer.classList.add('hide')
-        }
-    })
-
-    donateImg.src = donateImg.dataset.src
-}
-
