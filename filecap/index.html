@@ -122,10 +122,9 @@
 <p>利用文件预处理，<a href="..">超微浏览器</a>现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。</p>
 <p>配置/sdcard/uweb/default.filecap如下：</p>
 <pre><code>txt:text/html:curl %p "%u"
-html:text/html:curl %p "%u"
-htm:text/html:curl %p "%u"
 mp3:text/html:echo '&lt;audio controls width=100% height=100%>&lt;source src="%u">&lt;/audio>'
 m4b:text/html:echo '&lt;audio controls width=100% height=100%>&lt;source src="%u">&lt;/audio>'
+m3u8:text/html:echo '&lt;video controls width=100% height=100%>&lt;source src="%u">&lt;/video>'
 mp4:text/html:echo '&lt;video controls width=100% height=100%>&lt;source src="%u">&lt;/video>'
 mkv:text/html:echo '&lt;video controls width=100% height=100%>&lt;source src="%u">&lt;/video>'
 doc::am start --user 0 -a android.intent.action.VIEW -d 'https://view.officeapps.live.com/op/view.aspx?src=%U'
