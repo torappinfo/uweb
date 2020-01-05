@@ -197,7 +197,6 @@ body {
   min-width: 500px;
   height: 70vh;
   margin-top: 15vh;
-  background-color: white;
 }
 .search-field .search-container .search-input {
   width: 100%;
@@ -303,7 +302,6 @@ body {
     position: fixed;
     left: 0;
     top: 40px;
-    background-color: white;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #CCCCCC;
@@ -320,7 +318,6 @@ body {
     padding-top: 2px;
     padding-left: 20px;
     z-index: 2;
-    background-color: white;
   }
 }
 .post-preview {
@@ -728,7 +725,6 @@ body {
   margin: auto;
   display: flex;
   flex-direction: row;
-  background-color: white;
 }
 .index-container .index-left {
   width: 240px;
@@ -1140,7 +1136,6 @@ pre .javascript .function {
   width: 0;
 }
 .toc-fixed::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
   -webkit-border-radius: 4px;
   border-radius: 2px;
 }

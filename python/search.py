@@ -2,24 +2,22 @@
 from subprocess import run, PIPE
 
 def engine2mdlnk(engine):
-  return "["+engine+"](i:10"+engine+")  ";
+  return '<a href="i:00' +engine+ '">' +engine+ "</a><br>\n";
 
 html_head = '''<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>浏览器多搜索引擎一键直达</title></head><body>
+<h3>浏览器多搜索引擎一键直达</h3>
+<p>
+<a href="/uweb">超微浏览器</a>下点击搜索引擎配置链接可自动添加到主屏。</p>
+
+推荐引擎(将下面文本添加到/sdcard/uweb/home.search中)：<br>
 ''';
 
 html_tail ="</body></html>";
 
-md_head = ['''
-### 浏览器多搜索引擎一键直达
-[超微浏览器](/uweb)下点击搜索引擎配置链接可自动添加到主屏。
+md_tail = '''
 
-推荐引擎(将下面文本添加到/sdcard/uweb/home.search中)：  ''',
-];
-
-md_tail = ['''
-
-[分类搜索](../searchcat/)
+[分类搜索](/uweb/searchcat/)
 
 更多引擎可参看：  
 [网盘搜索](https://adzhp.cn/wang-pan-sou-suo.html)  
@@ -27,15 +25,15 @@ md_tail = ['''
 [词典](https://github.com/Dictionaryphile/All_Dictionaries)  
 [有哪些特殊的搜索引擎](https://www.zhihu.com/question/20251786)  
 [google镜像](http://gugejx.com)  
-</body></html>
-''',
-    ];
+''';
 
 selist1 = map(engine2mdlnk,[
 "影视cupfox:https://www.cupfox.com/?type=video&key=",
 "京东:https://search.jd.com/Search?enc=utf-8&keyword=",
 "淘宝:https://s.taobao.com/search?q=",
 "淘宝优惠券:https://www.ishtq.com/?m=search&a=index&k=",
+"苏宁:https://m.suning.com/search/%s/",
+"拼多多:http://mobile.yangkeduo.com/search_result.html?search_key=",
 "汉字:http://www.guoxuedashi.com/zidian/so.php?kz=1&sokeyzi=",
 "汉语词典:http://www.guoxuedashi.com/zidian/so.php?kz=11&sokeyci=",
 "书法:http://shufa.guoxuedashi.com/?kz=70&sokeyshufa=",
@@ -73,14 +71,21 @@ selist2 = map(engine2mdlnk,[
 "搜狗:https://m.sogou.com/web?query=",
 "多吉:https://www.dogedoge.com/results?q=",
 "萌搜:https://mengso.com/search?q=",
+"头条:https://www.toutiao.com/search/?keyword=",
+"magi:https://magi.com/search?q=",
+"微博:https://s.weibo.com/weibo/",
 "疯狂音乐:http://music.ifkdy.com/?type=ximalaya&name=",
 "墨灵音乐:https://music.mli.im/music.web?auto-action=true&action=search&wd=",
 "豌豆荚:http://m.wandoujia.com/search?key=",
 "360手机助手:http://m.app.so.com/search/index?q=",
 "应用宝:http://app.qq.com/#id=search&key=",
+"epubee:http://cn.epubee.com/books/?s=",
     ]);
 
 selist_alien=map(engine2mdlnk,[
+"teoma:https://www.teoma.com/web?q=",
+"lycos:https://search.lycos.com/web/?q=",
+"technorati:http://technorati.com/search/index.php?q=",
 "qwant:https://lite.qwant.com/?q=",
 "swisscows:https://swisscows.com/web?query=",
 "duck:https://duckduckgo.com/?q=",
@@ -88,6 +93,7 @@ selist_alien=map(engine2mdlnk,[
 "gigablast:https://www.gigablast.com/search?c=main&qlangcountry=en-us&q=",
 "yandex:https://yandex.com/search/?text=",
 "searx:https://searx.me/?q=",
+"google:https://google.com/search?q=",
 "google镜像:https://baidu01.puataiwan.com/search?ei=k1_vXcagJ4HB-wSV-a2YDw&gs_l=psy-ab.3..0l10.53583.56586..57181...0.0..0.478.2721.2-4j1j3......0....1..gws-wiz.....0.XTnHpqynnSk&ved=0ahUKEwiGtorh3KrmAhWB4J4KHZV8C_MQ4dUDCAU&q=",
     ]);
 
@@ -97,11 +103,15 @@ selist_cloud = map(engine2mdlnk,[
     ]);
 
 selist_scholar = map(engine2mdlnk,[
+"sweetsearch:https://sweetsearch.com/search?q=",
+"refseek:https://www.refseek.com/search?q=",
+"google scholar:https://scholar.google.com/scholar?q=",
 "semanticscholar:https://www.semanticscholar.org/search?sort=relevance&q=",
     ]);
 
 selist_dev = map(engine2mdlnk,[
 "symbolhound:http://symbolhound.com/?q=",
+"vector:https://vector.me/search/",
     ]);
 
 selist_app = map(engine2mdlnk,[
@@ -113,51 +123,60 @@ selist_app = map(engine2mdlnk,[
     ]);
 
 selist_local = map(engine2mdlnk,[
-"计算器:d:text/html:echo \\\\'%s\\\\'|bc -l -q:",
-"函数作图:d:image/svg+xml:gnuplot -e \\\\'set term svg;set output; plot %s\\\\':",
-"3d函数作图:d:image/svg+xml:gnuplot -e \\\\'set term svg;set output; splot %s\\\\':",
+"计算器:d:text/html:echo \\'%s\\'|bc -l -q:",
+"函数作图:d:image/svg+xml:gnuplot -e \\'set term svg;set output; plot %s\\':",
+"3d函数作图:d:image/svg+xml:gnuplot -e \\'set term svg;set output; splot %s\\':",
     ]);
 
 intro_list2 = ["""
-其中中国大百科全书免费注册登录后才可免费查阅。
+<p>其中中国大百科全书免费注册登录后才可免费查阅。</p>
 
-除了批量添加引擎外，超微可以将任意支持搜索的网址添加为搜索引擎。方法如下：
-- 访问网站并搜索。
-- 按菜单键，没有的话可长按底部工具条后退按钮弹出菜单。
-- 选择"添加为搜索引擎"，对话框中将出现的地址适当编辑。不少网址后半部分为用"&"分割的等式，将包含搜索条目的等式移动到最后，删除搜索条目本身，其余等式可删可留。
-若无等式，一般在网址中直接删除搜索条目本身即可。
+<p>除了批量添加引擎外，超微可以将任意支持搜索的网址添加为搜索引擎。方法如下：
+<ul>
+  <li>访问网站并搜索。</li>
+  <li>按菜单键，没有的话可长按底部工具条后退按钮弹出菜单。</li>
+  <li> 选择"添加为搜索引擎"，对话框中将出现的地址适当编辑。不少网址后半部分为用"&"分割的等式，将包含搜索条目的等式移动到最后，删除搜索条目本身，其余等式可删可留。
+若无等式，一般在网址中直接删除搜索条目本身即可。</li>
+</ul></p>
 
-常用引擎，供用户查漏添加：  """];
+<p>常用引擎，供用户查漏添加：<br>
+"""];
 
-intro_alien=['''
-直达官方文档的国外引擎：  '''];
+intro_alien=['''</p><p>
+直达官方文档的国外引擎：<br>
+'''];
 
-intro_cloud=['''
-网盘搜索:  '''];
+intro_cloud=['''</p><p>
+网盘搜索:<br>
+'''];
 
-intro_scholar=['''
-学术搜索:  '''];
+intro_scholar=['''</p><p>
+学术搜索:<br>
+'''];
 
-intro_dev=['''
-开发者友好搜索：  '''];
+intro_dev=['''</p><p>
+开发者友好搜索：<br>
+'''];
 
-intro_app = ["""
-应用内搜索:  """];
+intro_app = ["""</p><p>
+应用内搜索:<br>
+"""];
 
-intro_local = ['''
-本地引擎（需安装定制termux及相应工具如bc，gnuplot等）：  '''];
+intro_local = ['''</p><p>
+本地引擎（需安装定制termux及相应工具如bc，gnuplot等）：<br>
+'''];
 
-llist = [md_head,selist1,intro_list2,selist2,
+llist = [selist1,intro_list2,selist2,
          intro_alien, selist_alien,
          intro_cloud, selist_cloud,
          intro_scholar,selist_scholar,
          intro_dev,selist_dev,
          intro_app,selist_app,
          intro_local,selist_local,
-         md_tail]
-md = '\n'.join(string for slist in llist for string in slist)
-p = run(['marked', '--pedantic'], stdout=PIPE,
-        input=md, encoding='utf-8')
+         "</p>"]
 print(html_head)
+print(''.join(string for slist in llist for string in slist))
+p = run(['marked', '--pedantic'], stdout=PIPE,
+        input=md_tail, encoding='utf-8')
 print(p.stdout)
 print(html_tail)
