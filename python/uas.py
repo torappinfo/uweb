@@ -2,7 +2,7 @@
 from subprocess import run, PIPE
 
 def engine2mdlnk(engine):
-  return '<a href="i:02' +engine+ '">' +engine+ "</a><br>\n";
+  return '<p><a href="i:02' +engine+ '">' +engine+ "</a></p>\n";
 
 html_head = '''<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>浏览器标识使用技巧</title></head><body>
@@ -35,6 +35,9 @@ selist = map(engine2mdlnk,[
 "win:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 "QQ:Mozilla/5.0 (Linux; U; Android 10; zh-cn; Pixel 3 XL Build/QPP5.190530.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/9.6 TBS/043906 Mobile Safari/537.36 MicroMessenger/7.6",
 "quark:Mozilla/5.0 (Linux; U; Android 6.0.1; zh-CN; HW Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 Quark/3.7.0.123 Mobile Safari/537.36",
+"macos:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
+"wp8:Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; Virtual)",
+"winRT:Mozilla/5.0 (Windows NT 6.3; Win64; ARM; Trident/7.0; Touch; rv:11.0) like Gecko",
 ]);
 
 llist = [selist,"</p>"];

@@ -34,6 +34,7 @@ selist1 = map(engine2mdlnk,[
 "淘宝优惠券:https://www.ishtq.com/?m=search&a=index&k=",
 "苏宁:https://m.suning.com/search/%s/",
 "拼多多:http://mobile.yangkeduo.com/search_result.html?search_key=",
+"优惠券:http://mall.yhm11.com/index.php?r=l&kw=",
 "汉字:http://www.guoxuedashi.com/zidian/so.php?kz=1&sokeyzi=",
 "汉语词典:http://www.guoxuedashi.com/zidian/so.php?kz=11&sokeyci=",
 "书法:http://shufa.guoxuedashi.com/?kz=70&sokeyshufa=",
@@ -100,7 +101,8 @@ selist_alien=map(engine2mdlnk,[
 selist_cloud = map(engine2mdlnk,[
 "大力盘:https://www.dalipan.com/search?keyword=",
 "盘搜搜:http://www.pansoso.com/zh/",
-    ]);
+"盘多多:http://m.panduoduo.net/s/name/",
+]);
 
 selist_scholar = map(engine2mdlnk,[
 "sweetsearch:https://sweetsearch.com/search?q=",
