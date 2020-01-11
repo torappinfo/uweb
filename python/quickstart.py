@@ -2,7 +2,7 @@
 from subprocess import run, PIPE
 
 def engine2mdlnk(engine):
-  return '<p>' +engine+ '<a class="plus" href="i:03' +engine+ '"> + </a></p>\n';
+  return '<p>' +engine+ '<a class="plus" href="i:0a' +engine+ '"> + </a></p>\n';
 
 html_head = '''<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>主屏快捷访问</title>

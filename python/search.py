@@ -17,7 +17,7 @@ html_tail ="</body></html>";
 
 md_tail = '''
 
-[分类搜索](/uweb/searchcat/)
+[分类搜索](/searchurl/searchcat/)
 
 更多引擎可参看：  
 [网盘搜索](https://adzhp.cn/wang-pan-sou-suo.html)  
@@ -48,6 +48,7 @@ selist1 = map(engine2mdlnk,[
 "柯林斯双解:http://www.iciba.com/",
 "柯林斯汉英大词典:https://www.hjdict.com/w/",
 "剑桥双解:https://dictionary.cambridge.org/dictionary/english-chinese-simplified/",
+"ludwig:https://ludwig.guru/s/",
 "现代日汉双解:https://dict.hjenglish.com/jp/jc/",
 "wolfram:https://www.wolframalpha.com/input/?i=",
 "wiki:https://en.wikipedia.org/wiki/",
