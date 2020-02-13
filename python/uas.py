@@ -29,15 +29,16 @@ uweb浏览器提供了多功能标识，可同时伪装成百度应用、苏宁�
 
 selist = map(engine2mdlnk,[
 "百度网盘:LogStatistic",
-"多功能:Mozilla/5.0 Dalvik/2 (Linux; U;) Gecko/63.0 Firefox/63.0 iPhone/7.1 Android/8.0 SNEBUY-APP/10.1 SearchCraft/2.8.2 baiduboxapp/3.2.5.10 UCBrowser U2/1.0.0 ALiSearchApp/2.4",
+"多功能:Mozilla/5.0 Dalvik/2 (Linux; U;) Gecko/63.0 Firefox/63.0 iPhone/7.1 Android/8.0 SNEBUY-APP/10.1 SearchCraft/2.8.2 baiduboxapp/3.2.5.10 UCBrowser/11.3.8.976 U3/1.0.0 ALiSearchApp/2.4",
 "Symbian:Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124",
 "iPhone:Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1",
 "win:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 "QQ:Mozilla/5.0 (Linux; U; Android 10; zh-cn; Pixel 3 XL Build/QPP5.190530.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/9.6 TBS/043906 Mobile Safari/537.36 MicroMessenger/7.6",
 "quark:Mozilla/5.0 (Linux; U; Android 6.0.1; zh-CN; HW Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 Quark/3.7.0.123 Mobile Safari/537.36",
 "macos:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
-"wp8:Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; Virtual)",
 "winRT:Mozilla/5.0 (Windows NT 6.3; Win64; ARM; Trident/7.0; Touch; rv:11.0) like Gecko",
+"Edge mobile:Mozilla/5.0 (Windows Phone 10.0; Android 6.0.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.2743.116 Mobile Safari/537.36 Edge/15.14977",
+"Blackberry:Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.3.2205 Mobile Safari/537.35+",
 ]);
 
 llist = [selist,"</p>"];

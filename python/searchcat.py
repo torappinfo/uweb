@@ -1,3 +1,4 @@
+#!/bin/env python
 from subprocess import run, PIPE
 
 def engine2mdlnk(engine):
@@ -7,16 +8,13 @@ html_head = '''<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="view
 <title>分类多引擎搜索</title></head><body>
 <h3>分类多引擎搜索</h3>
 <p>
-使用<a href="/uweb">超微浏览器</a>点击可自动<a href=''>下载本文所有分类引擎</a>至"/sdcard/uweb/bookmark"，至界面网页刷新动态快捷方式后可用，长按应用图标可显示此目录下4／5个动态快捷方式（需启动器支持）。</p>
+使用<a href="/uweb">超微浏览器</a>点击可自动<a href=''>下载本文所有分类引擎</a>至"/sdcard/uweb/bookmark"，至<a href='/searchurl/func.html'>界面网页刷新动态快捷方式</a>后可用，长按应用图标可显示此目录下4／5个动态快捷方式（需启动器支持）。</p>
+<p>长按下面链接可下载视频及小说分类多引擎搜索配置文件：<br>
 ''';
 
 html_tail ="</body></html>";
 
 md_tail = '''
-长按下面链接可单独下载为分类多引擎搜索配置文件：
-[影视搜索](/searchurl/bookmark/movie_zh.search)
-[小说搜索](/searchurl/bookmark/novel_zh.search)
-
 [超微浏览器](..)中通过“设置”->“总目录”->“↑”->“Download”，点击后缀为.search的下载
 文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按
 钮）选择“添加到桌面”方便以后访问。
@@ -40,22 +38,10 @@ d:mimetype:[含%s的命令行]:[外部资源url]
 ''';
 
 selist = map(engine2mdlnk,[
-"www.bilibili.com::www.ibilibili.com",
-"www.docin.com::www.docin365.com",
-"wenku.baidu.com::wenku.baiduvvv.com",
-"detail.tmall.com::detail.tmallvvv.com",
-"detail.m.tmall.com::detail.m.tmallvvv.com",
-"item.taobao.com::item.taobaovvv.com",
-"h5.m.taobao.com::h5.m.taobaovvv.com",
-"item.jd.com::item.jdvvv.com",
-"item.yhd.com::item.yhdvvv.com",
-"goods.kaola.com::goods.kaolavvv.com",
-"product.dangdang.com::product.dangdangvvv.com",
-"item.gome.com.cn::item.gomevvv.com.cn",
-"developer.android.com::developer.android.google.cn",
+"http://jamesfengcao.gitee.io/searchurl/searchcat.tar.gz",
 ]);
 
-llist = [selist];
+llist = [selist,"</p>"];
 
 print(html_head)
 print(''.join(string for slist in llist for string in slist))

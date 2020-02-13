@@ -24,13 +24,13 @@ selist = map(engine2mdlnk,[
 "<a class=icon href='http://xw.qq.com'><img src='https://m.hao123.com/static/img/tengxun20171024-56.png'><span>腾讯</span></a>",
 "<a class=icon href='http://m.sohu.com'><img src='https://m.hao123.com/static/img/souhu20171024-56.png'><span>搜狐</span></a>",
 "<a class=icon href='http://3g.163.com'><img src='https://m.hao123.com/static/img/wangyi20171024-56.png'><span>网易</span></a>",
-#"<a class=icon href='http://m.1905.com'><img src='http://uujian.cn/browser/recommend/video/m.1905.com.png'><span>1905电影</span></a>",
+"<a class=icon href='http://m.1905.com'><img src='http://uujian.cn/browser/recommend/video/m.1905.com.png'><span>1905电影</span></a>",
 "<a class=icon href='https://m.ctrip.com'><img src='https://m.hao123.com/static/img/xiecheng20171121wx.png'><span>携程</span></a>",
 "<a class=icon href='http://union-click.jd.com'><img src='https://m.hao123.com/static/img/jingdong20171024-56.png'><span>京东</span></a>",
 "<a class=icon href='http://m.suning.com'><img src='https://m.hao123.com/static/img/suning_20170907.png'><span>苏宁</span></a>",
 "<a class=icon href='http://m.taobao.com'><img src='https://m.hao123.com/static/img/cxb_taobao.PNG'><span>淘宝</span></a>",
 "<a class=icon href='http://m.tmall.com'><img src='https://m.hao123.com/static/img/tm.PNG'><span>天猫</span></a>",
-#"<a class=icon href='http://jhs.m.taobao.com'><img src='https://m.hao123.com/static/img/juhuasuan1222icon.png'><span>聚划算</span></a>",
+"<a class=icon href='http://jhs.m.taobao.com'><img src='https://m.hao123.com/static/img/juhuasuan1222icon.png'><span>聚划算</span></a>",
 
     
     

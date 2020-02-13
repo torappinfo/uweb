@@ -17,7 +17,7 @@ html_tail ="</body></html>";
 
 md_tail = '''
 
-[分类搜索](/searchurl/searchcat/)
+[分类搜索](/searchurl/searchcat.html)
 
 更多引擎可参看：  
 [网盘搜索](https://adzhp.cn/wang-pan-sou-suo.html)  
