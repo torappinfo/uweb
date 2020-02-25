@@ -98,6 +98,7 @@ selist2 = map(engine2mdlnk,[
 "audiobay:http://audiobookbay.me/?s=",
 "book:https://booksc.org/s/?q=",
 "book2:https://b-ok.cc/s/?q=",
+"proofwiki:https://proofwiki.org/w/index.php?search=",
 "physics:http://www.physics.org/explore-results-all.asp?q=",
 "chem.libretexts:https://chem.libretexts.org/Special:Search?q=",
 "bio.libretexts:https://bio.libretexts.org/Special:Search?q=",
