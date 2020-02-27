@@ -61,7 +61,9 @@ selist1 = map(engine2mdlnk,[
 "对联:http://www.guoxuedashi.com/duilian/?ciyu=",
 "十三经:http://www.guoxuedashi.com/13jing/?ciyu=",
 "殷周金文:http://www.guoxuedashi.com/yzjwjc/?bh=",
-    ]);
+"答案答案:https://daandaan.com/search?q=",
+"问答库:https://m.asklib.com/s/",
+]);
 
 selist2 = map(engine2mdlnk,[
 "必应:http://cn.bing.com/search?q=",
