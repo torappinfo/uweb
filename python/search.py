@@ -102,6 +102,8 @@ selist2 = map(engine2mdlnk,[
 "book2:https://b-ok.cc/s/?q=",
 "proofwiki:https://proofwiki.org/w/index.php?search=",
 "physics:http://www.physics.org/explore-results-all.asp?q=",
+"nist chem:https://webbook.nist.gov/cgi/cbook.cgi?Formula=",
+"chemiday:https://chemiday.com/search/?lang=en&q=",
 "chem.libretexts:https://chem.libretexts.org/Special:Search?q=",
 "bio.libretexts:https://bio.libretexts.org/Special:Search?q=",
 "phys.libretexts:https://phys.libretexts.org/Special:Search?q=",
