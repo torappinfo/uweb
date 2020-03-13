@@ -1,0 +1,1 @@
+search site:window.open("i:15site:" + location.hostname)
