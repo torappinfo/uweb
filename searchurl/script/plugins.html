@@ -1,18 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><meta name="generator" content="Hexo 3.8.0">
+<html>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
     <link rel="shortcut icon" href="/uWeb/img/favicon.ico">
-
-    <title>
-        
-        
-        
+    <title>插件汇总
     </title>
 
     <!-- Custom CSS -->
@@ -32,9 +24,6 @@
     </button>
 </div>
 
-<div class="index-about">
-    <i>  </i>
-</div>
 
 <div class="index-container">
     
@@ -65,6 +54,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    
+</div>
+    
 </div>
 
 
@@ -88,30 +81,81 @@
     <div class="index-middle">
         <!-- Main Content -->
         
+
+
+<div class="post-container">
+    <div class="post-title">
+        插件汇总
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">Post：<span>2019-06-15 14:13:28</span></span>
+        
+        <span class="attr">Tags：/
+        
+        <a class="tag" href="/uWeb/tags/#termux" title="termux">termux</a>
+        <span>/</span>
+        
+        
+        </span>
+
+
+    </div>
+    <div class="post-content ">
+        <p>插件影响到浏览器的安全，故需要完成以下步骤才能开启插件管理系统：</p>
+<ul>
+  <li>安装<a href="https://www.wocloud.com.cn/webclient/share/sindex.action?id=7G7AC9wOKdIoEArK5EvCawmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==" target="_blank" rel="noopener">uweb定制Termux应用</a> (<a href="https://asytech.cn/cloud/index.php/s/9GYi4QwWmmTkotE">易云</a>)，需启动termux一次,以完成应用初始化。</li>
+<li>点击链接<a href="i:0chttp://jamesfengcao.gitee.io/searchurl/script/filecap_sh.sh">允许插件安装</a>。</li>
+<li>长按底部工具条设置按钮，勾选文件预处理。</li>
+<li>正常退出以保存设置，清理后台并重启浏览器。</li>
+</ul>
+<p>插件管理系统功能强大，考虑到潜在的安全隐患，使用插件的同学请不要给予超微浏览器或定制termux超级用户的权限。至少要保证每次使用超级用户权限前弹出提醒或警告。本页面亦提供插件关闭插件管理系统，安装完必要的插件后用户应立即关闭插件管理系统。</p>
+<p>开启插件系统以后，点击下面的链接即可直接安装。插件可反复安装，互相冲突的插件会被新安装覆盖。插件多寡不影响性能。部分插件需浏览器重启后才能生效。插件列表：</p>
+<ul>
+<li><p><a href="disable_sh.sh" download>关闭插件管理系统</a></p>
+</li>
+
+<li>长按JS按钮弹出菜单脚本，安装好多个脚本后重启动生效。
+  <ul>
+    <li><a href="js_caiyun.sh" download>彩云小译</a></li>
+  </ul>
+</li>
+
+<li><p><a href="xzdic.sh" download>扫描"/sdcard/uweb/dict"目录下.xz格式词典</a><br>
+    此插件将配置主屏进行终端下词典检索并可阅读词典全文，按"q"退出终端。<br>
+    .xz格式为纯文本使用xz直接压缩所得，词条以"####"标记以方便检索。
+    <a href="https://pan.baidu.com/s/1Yf_0oL3evvjriTn1RBGpNg">部分xz文档</a>
+  </p>
+</li>
+
+<li><p><a href="xzgrep.sh" download>扫描"/sdcard/uweb/dict"目录下.xz格式词典,配置主屏全文检索</a><br>
+    此插件将配置主屏进行终端下全文检索，按"q"退出终端。<br> 词典数据很多的用户可将新生成的配置文件home.search改名成dict.search，超微浏览器中打开此文件（设置->总目录）并新建快捷方式。
+  </p>
+</li>
+
+<li><p><a href="filecap_microsoft.sh" download>在线预览/查看/播放下载资源 (微软服务版)</a><br>允许在线预览/查看/播放网盘文件。其中Microsoft Office文档依赖微软服务，当前UA必需为PC，否则微软会显示空白页。有条件的用户推荐使用google docs服务插件。</p>
+</li>
+<li><p><a href="filecap_tar.sh" download>预览超大文本文件(.txt), 超大tar文件目录(.tar,.tgz,.tar.gz,.tar.xz)</a></p>
+</li>
+<li><p><a href="filecap_ziprar.sh" download>预览zip,rar文件目录</a></p>
+</li>
+<li><p><a href="histuniq.sh" download>添加“历史记录去重”菜单项至长按底部历史按钮弹出菜单</a></p>
+</li>
+<li><p><a href="hosts_ad.sh" download>添加大厂广告根域名至hosts文件</a></p>
+</li>
+<li><p><a href="baidupcs.sh" download>安装百度离线下载</a></p>
+</li>
+<li><p><a href="axel.sh" download>安装axel多线程下载（9线程）</a></p></li>
+<li><p><a href="gnuplot.sh" download>利用浏览器地址栏对函数作图 (gnuplot)</a></p>
+</li>
+<li><p><a href="bc.sh" download>配置浏览器地址栏作为超级计算器(bc)</a></p>
+</li>
+</ul>
+
     </div>
 </div>
-
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    
-</footer>
-
-
-
+    </div>
+</div>
 
 </body>
 
@@ -119,11 +163,8 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = ""
     window.hexo_root = "/uWeb/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="/uWeb/js/index.js"></script>
-
-
-
 
 </html>
