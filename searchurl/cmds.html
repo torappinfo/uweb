@@ -13,8 +13,9 @@
 <a href="i:03冻结微信::su -c 'pm disable com.tencent.mm'">冻结微信::su -c 'pm disable com.tencent.mm'</a><br>
 <a href="i:03解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'">解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'</a><br>
 <a href="i:03冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'">冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'</a><br>
-</p><p>下面配置需要termux：<br><a href="i:03历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>a.tmp;mv a.tmp /sdcard/uweb/history.log">历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>a.tmp;mv a.tmp /sdcard/uweb/history.log</a><br>
-<a href="i:03书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>a.tmp;mv a.tmp /sdcard/uweb/bookmark.html">书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>a.tmp;mv a.tmp /sdcard/uweb/bookmark.html</a><br>
-<a href="i:03hosts去重::awk -F' ' '!s[\$1]++' /sdcard/uweb/default.hosts>a.tmp;mv a.tmp /sdcard/uweb/default.hosts">hosts去重::awk -F' ' '!s[\$1]++' /sdcard/uweb/default.hosts>a.tmp;mv a.tmp /sdcard/uweb/default.hosts</a><br>
+</p><p>下面配置需要termux：<br><a href="i:03历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/history.log">历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/history.log</a><br>
+<a href="i:03书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/bookmark.html">书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/bookmark.html</a><br>
+<a href="i:03hosts去重::toybox tac /sdcard/uweb/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.hosts">hosts去重::toybox tac /sdcard/uweb/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.hosts</a><br>
+<a href="i:03网站设置去重::toybox tac /sdcard/uweb/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.siteconf">网站设置去重::toybox tac /sdcard/uweb/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.siteconf</a><br>
 </p>
 </body></html>
