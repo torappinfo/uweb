@@ -11,7 +11,7 @@
 
     <title>
         
-        广告屏蔽技术总览
+        安卓系统出错诊断
         
     </title>
 
@@ -96,33 +96,26 @@
 
 <div class="post-container">
     <div class="post-title">
-        广告屏蔽技术总览
+        安卓系统出错诊断
     </div>
 
     <div class="post-meta">
-        <span class="attr">Post：<span>2019-11-12 15:17:08</span></span>
-        
-        <span class="attr">Tags：/
-        
-        <a class="tag" href="/uWeb/tags/#广告屏蔽" title="广告屏蔽">广告屏蔽</a>
-        <span>/</span>
+        <span class="attr">Post：<span>2020-03-30 11:17:41</span></span>
         
         
-        </span>
 
 
     </div>
     <div class="post-content ">
-        <p>超微浏览器提供了形形色色的广告屏蔽技术，善于使用的话根本无需求助于复杂的屏蔽规则。</p>
+        <p><a href="..">超微浏览器</a>如果闪退，会生成出错文件”/sdcard/uweb/error.log”。</p>
+<p>如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：</p>
 <ul>
-<li>如果网站并非视频类小网站，长按底部工具栏[☰]按钮，选取”禁用iframe”，此法可屏蔽大多数广告。更多可参看<a href="../adblock_css">自定义样式屏蔽广告</a>。</li>
-<li>对非复杂交互非国内广告大厂网页而言（譬如云盘管理属复杂交互），特别是小说网站，可以长按设置，选取”屏蔽外链脚本”。（内在逻辑：小网站一般无力开发完整的广告系统，它们经常使用大厂的广告脚本。）</li>
-<li><a href="../video">利用视频全屏播放屏蔽一切广告</a>。</li>
-<li>长按[☰]按钮可屏蔽浮动广告。</li>
-<li><a href="../adblock_hosts">双正则表达式hosts文件绝杀广告</a>。</li>
-<li><a href="../sitejs">针对特定网站的脚本样式屏蔽广告</a>。</li>
-<li>对非图片为主的网站可直接关闭图像。</li>
-<li>对非交互性网站，可关闭[JS]脚本。</li>
+<li>访问<a href="../searchurl/cmds.html">常用命令网页</a>，点击安装logcat相关的两个命令。</li>
+<li>清空后台并重启超微浏览器。</li>
+<li>长按历史按钮，执行命令”清空logcat”。</li>
+<li>触发有问题的功能。</li>
+<li>长按历史按钮，执行命令”输出logcat.log”.</li>
+<li>检查文件”/sdcard/uweb/logcat.log”内容。</li>
 </ul>
 
         <br>
