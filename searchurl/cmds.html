@@ -4,20 +4,9 @@
 <p>
 <a href="/uweb">超微浏览器</a>下点击配置链接可自动添加常用命令，强制清空后台重启后长按历史按钮可用。</p>
 <p>其中备份／恢复Cookie需android6+, webview76+。</p>
-<p>配置文件"/sdcard/uweb/default.cmds"如下：<br>
 
-<a href="i:03备份Cookie::toybox cp /data/data/info.torapp.uweb/app_webview/Default/Cookies /sdcard/uweb/.">备份Cookie::toybox cp /data/data/info.torapp.uweb/app_webview/Default/Cookies /sdcard/uweb/.</a><br>
-<a href="i:03恢复Cookie::toybox cp /sdcard/uweb/Cookies /data/data/info.torapp.uweb/app_webview/Default/.">恢复Cookie::toybox cp /sdcard/uweb/Cookies /data/data/info.torapp.uweb/app_webview/Default/.</a><br>
-<a href="i:03清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache">清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache</a><br>
-<a href="i:03清空logcat::logcat -c">清空logcat::logcat -c</a><br>
-<a href="i:03输出logcat.log::logcat -d > /sdcard/uweb/logcat.log">输出logcat.log::logcat -d > /sdcard/uweb/logcat.log</a><br>
-</p><p>下面配置需要root权限：<br><a href="i:03解冻微信::su -c 'pm enable com.tencent.mm'">解冻微信::su -c 'pm enable com.tencent.mm'</a><br>
-<a href="i:03冻结微信::su -c 'pm disable com.tencent.mm'">冻结微信::su -c 'pm disable com.tencent.mm'</a><br>
-<a href="i:03解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'">解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'</a><br>
-<a href="i:03冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'">冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'</a><br>
-</p><p>下面配置需要termux：<br><a href="i:03历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/history.log">历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/history.log</a><br>
-<a href="i:03书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/bookmark.html">书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/bookmark.html</a><br>
-<a href="i:03hosts去重::toybox tac /sdcard/uweb/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.hosts">hosts去重::toybox tac /sdcard/uweb/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.hosts</a><br>
-<a href="i:03网站设置去重::toybox tac /sdcard/uweb/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.siteconf">网站设置去重::toybox tac /sdcard/uweb/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.siteconf</a><br>
-</p>
+<a href='i:03简易行编辑器:text/html:cat %f|while read LINE; do echo "<a href="i:AA$LINE">$LINE</a><br>";done'>简易行编辑器</a></p>
+<p>配置文件"/sdcard/uweb/default.cmds"示例：<br>
+
+<p><a href="i:03备份Cookie::toybox cp /data/data/info.torapp.uweb/app_webview/Default/Cookies /sdcard/uweb/.">备份Cookie::toybox cp /data/data/info.torapp.uweb/app_webview/Default/Cookies /sdcard/uweb/.</a></p><p><a href="i:03恢复Cookie::toybox cp /sdcard/uweb/Cookies /data/data/info.torapp.uweb/app_webview/Default/.">恢复Cookie::toybox cp /sdcard/uweb/Cookies /data/data/info.torapp.uweb/app_webview/Default/.</a></p><p><a href="i:03清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache">清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache</a></p><p><a href="i:03清空logcat::logcat -c">清空logcat::logcat -c</a></p><p><a href="i:03输出logcat.log::logcat -d > /sdcard/uweb/logcat.log">输出logcat.log::logcat -d > /sdcard/uweb/logcat.log</a></p></p><p>下面配置需要root权限：<br><p><a href="i:03解冻微信::su -c 'pm enable com.tencent.mm'">解冻微信::su -c 'pm enable com.tencent.mm'</a></p><p><a href="i:03冻结微信::su -c 'pm disable com.tencent.mm'">冻结微信::su -c 'pm disable com.tencent.mm'</a></p><p><a href="i:03解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'">解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'</a></p><p><a href="i:03冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'">冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'</a></p></p><p>下面配置需要termux：<br><p><a href="i:03历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/history.log">历史去重::awk -F'\t' '!s[\$2]++' /sdcard/uweb/history.log>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/history.log</a></p><p><a href="i:03书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/bookmark.html">书签去重::awk '!s[\$0]++' /sdcard/uweb/bookmark.html>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/bookmark.html</a></p><p><a href="i:03hosts去重::toybox tac /sdcard/uweb/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.hosts">hosts去重::toybox tac /sdcard/uweb/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.hosts</a></p><p><a href="i:03网站设置去重::toybox tac /sdcard/uweb/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.siteconf">网站设置去重::toybox tac /sdcard/uweb/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/a.tmp;mv /sdcard/a.tmp /sdcard/uweb/default.siteconf</a></p></p>
 </body></html>
