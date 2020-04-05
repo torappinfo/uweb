@@ -1,0 +1,1 @@
+淘宝比价:clip:toybox grep -Eo '(http|https)://[^/"]+'|am start --user 0 -a android.intent.action.VIEW -d "http://tool.manmanbuy.com/historyLowest.aspx?url=`cat`"
