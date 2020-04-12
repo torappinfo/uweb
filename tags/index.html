@@ -46,19 +46,19 @@
             <li>
                 <a href="/uWeb/">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
+                    <span>主页</span>
                 </a>
             </li>
             <li class="active">
                 <a href="/uWeb/tags">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
+                    <span>标签</span>
                 </a>
             </li>
             <li>
                 <a href="/uWeb/archives">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
+                    <span>存档</span>
                 </a>
             </li>
             
@@ -73,7 +73,7 @@
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
             <input id="search-input">
-            <span id="begin-search">search</span>
+            <span id="begin-search">搜索</span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -97,6 +97,10 @@
     
     <a href="#termux" title="termux" rel="6">termux</a>
     
+    <a href="#ssh" title="ssh" rel="3">ssh</a>
+    
+    <a href="#剪贴板" title="剪贴板" rel="2">剪贴板</a>
+    
     <a href="#curl" title="curl" rel="1">curl</a>
     
     <a href="#国外网址" title="国外网址" rel="2">国外网址</a>
@@ -106,10 +110,6 @@
     <a href="#离线" title="离线" rel="1">离线</a>
     
     <a href="#资源" title="资源" rel="2">资源</a>
-    
-    <a href="#ssh" title="ssh" rel="3">ssh</a>
-    
-    <a href="#剪贴板" title="剪贴板" rel="2">剪贴板</a>
     
     <a href="#PC" title="PC" rel="2">PC</a>
     
@@ -138,9 +138,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/adblock/">
+        <a href="/uWeb/adblock_css/">
             <h2 class="post-title">
-                广告屏蔽技术总览
+                利用用户自定义样式屏蔽广告
             </h2>
             
         </a>
@@ -152,9 +152,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/uWeb/adblock_css/">
+        <a href="/uWeb/adblock/">
             <h2 class="post-title">
-                利用用户自定义样式屏蔽广告
+                广告屏蔽技术总览
             </h2>
             
         </a>
@@ -299,6 +299,20 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
+        <a href="/uWeb/cmd/">
+            <h2 class="post-title">
+                一键执行任意预定义命令（附手机PC剪贴板互通）
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
         <a href="/uWeb/filecap/">
             <h2 class="post-title">
                 利用文件预处理预览/查看/播放一切可下载资源
@@ -341,6 +355,41 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
+        <a href="/uWeb/pccopy/">
+            <h2 class="post-title">
+                笔记及手机复制（富）文本至PC剪贴板
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/pcdown/">
+            <h2 class="post-title">
+                浏览器一键控制台式机/服务器下载资源
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="ssh">
+                    <span class="tag-text">ssh</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
         <a href="/uWeb/cmd/">
             <h2 class="post-title">
                 一键执行任意预定义命令（附手机PC剪贴板互通）
@@ -372,6 +421,41 @@
         <a href="/uWeb/pcdown/">
             <h2 class="post-title">
                 浏览器一键控制台式机/服务器下载资源
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="剪贴板">
+                    <span class="tag-text">剪贴板</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/cmd/">
+            <h2 class="post-title">
+                一键执行任意预定义命令（附手机PC剪贴板互通）
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/uWeb/pccopy/">
+            <h2 class="post-title">
+                笔记及手机复制（富）文本至PC剪贴板
             </h2>
             
         </a>
@@ -505,90 +589,6 @@
         <a href="/uWeb/video/">
             <h2 class="post-title">
                 视频播放小窍门
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="ssh">
-                    <span class="tag-text">ssh</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/cmd/">
-            <h2 class="post-title">
-                一键执行任意预定义命令（附手机PC剪贴板互通）
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/pccopy/">
-            <h2 class="post-title">
-                笔记及手机复制（富）文本至PC剪贴板
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/pcdown/">
-            <h2 class="post-title">
-                浏览器一键控制台式机/服务器下载资源
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="剪贴板">
-                    <span class="tag-text">剪贴板</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/cmd/">
-            <h2 class="post-title">
-                一键执行任意预定义命令（附手机PC剪贴板互通）
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/uWeb/pccopy/">
-            <h2 class="post-title">
-                笔记及手机复制（富）文本至PC剪贴板
             </h2>
             
         </a>
