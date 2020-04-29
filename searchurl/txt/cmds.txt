@@ -1,3 +1,0 @@
-清空浏览数据::/system/bin/toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' -type f -delete
-打开剪贴板链接:clip/uweb:/system/bin/toybox grep -m1 -Eo '(http|https)://[^ "'\'']+'
-淘宝比价:clip/uweb:grep -m1 -Eo '(http|https)://[^ "'\'']+'|curl -s "`cat`"|grep -m1 -Eo '(http|https)://[^ ?]+'|grep -Eo '[0-9]+'|echo "http://tool.manmanbuy.com/historyLowest.aspx?url=https://detail.tmall.com/item.htm?id=`cat`"
