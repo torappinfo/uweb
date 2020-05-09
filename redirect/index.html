@@ -1,188 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><meta name="generator" content="Hexo 3.8.0">
+<!doctype html>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-    <link rel="shortcut icon" href="/uWeb/img/favicon.ico">
-
-    <title>
-        
-        重定向国外网址至国内镜像（附编辑本地文件）
-        
-    </title>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/uWeb/css/aircloud.css">
-    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
-</head>
-
-<body>
-
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
-</div>
-
-<div class="index-about">
-    <i>  </i>
-</div>
-
-<div class="index-container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="contents" id="nav-content">
-        <ul>
-            <li>
-                <a href="/uWeb/">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/archives">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
+    <link rel="stylesheet" href="http://jamesfengcao.gitee.io/uweb/style.css" type="text/css" />
+    <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="http://jamesfengcao.gitee.io/uweb/">⟰</a>
+      <nav>
+      </nav>
+    </header>
     
-        <div id="toc" class="toc-article">
+<div class="container">
+  <h1 class="title">重定向国外网址至国内镜像（附编辑本地文件）
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
     
-</div>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/%E9%87%8D%E5%AE%9A%E5%90%91">重定向</a> </li>
     
-</div>
-
-
-<div class="search-field" id="search-field">
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input">
-            <span id="begin-search">search</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-        <div class="index-about-mobile">
-            <i>  </i>
-        </div>
-    </div>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80">国外网址</a> </li>
     
-    <div class="index-middle">
-        <!-- Main Content -->
-        
-
-
-<div class="post-container">
-    <div class="post-title">
-        重定向国外网址至国内镜像（附编辑本地文件）
-    </div>
-
-    <div class="post-meta">
-        <span class="attr">Post：<span>2019-11-13 20:46:18</span></span>
-        
-        <span class="attr">Tags：/
-        
-        <a class="tag" href="/uWeb/tags/#国外网址" title="国外网址">国外网址</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#重定向" title="重定向">重定向</a>
-        <span>/</span>
-        
-        
-        </span>
-
-
-    </div>
-    <div class="post-content ">
-        <p>使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。</p>
+  </ul>
+  <p>使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。</p>
 <p>其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。</p>
 <p>本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。</p>
-<p>配置/sdcard/uweb/default.redirect:<br>文件每一行格式为：<br>域名:正则表达式:替换表达式</p>
-<p>其中正则表达式以java语言规定为准，表达式中不能包含’:’。正则表达式为空时系统默认为与域名相同。</p>
-<p>例子文件内容如下：<br>developer.android.com::developer.android.google.cn</p>
+<p>配置/sdcard/uweb/default.redirect:<br>
+文件每一行格式为：<br>
+域名:正则表达式:替换表达式</p>
+<p>其中正则表达式以java语言规定为准，表达式中不能包含':'。正则表达式为空时系统默认为与域名相同。</p>
+<p>例子文件内容如下：<br>
+developer.android.com::developer.android.google.cn</p>
 <p>四种使用重定向的方法：</p>
 <ul>
-<li><p>长按链接<br>添加文件”国内镜像.js”至”/sdcard/uweb/longclick”目录下。<br>文件内容如下：</p>
+<li>
+<p>长按链接<br>
+添加文件&quot;国内镜像.js&quot;至&quot;/sdcard/uweb/longclick&quot;目录下。<br>
+文件内容如下：</p>
 <pre>//e:%u</pre>
-
-<p>其中”e:”为uweb特殊url协议，意为”edit”，即”编辑”。当后面紧跟url网址的情况下会重定向网址。</p>
-<p>重启uweb后长按链接弹出菜单选”国内镜像”，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。</p>
+<p>其中&quot;e:&quot;为uweb特殊url协议，意为&quot;edit&quot;，即&quot;编辑&quot;。当后面紧跟url网址的情况下会重定向网址。</p>
+<p>重启uweb后长按链接弹出菜单选&quot;国内镜像&quot;，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。</p>
 </li>
-<li><p><a href="../urls">长按工具条图像按钮</a>。</p>
+<li>
+<p><a href="../urls">长按工具条图像按钮</a>。</p>
 </li>
-<li>长按设置，选中”自定义重定向”。</li>
-<li>长按设置，选中”自定义资源重定向”。此选项除访问url重定向之外，还可重定向网页中一切资源。</li>
+<li>
+<p>长按设置，选中&quot;自定义重定向&quot;。</p>
+</li>
+<li>
+<p>长按设置，选中&quot;自定义资源重定向&quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。</p>
+</li>
 </ul>
-<p>更多重定向网址：<br><a href="http://www.bilibili.com::www.ibilibili.com" target="_blank" rel="noopener">www.bilibili.com::www.ibilibili.com</a><br>pan.baidu.com::pan.baiduwp.com<br><a href="http://www.docin.com::www.docin365.com" target="_blank" rel="noopener">www.docin.com::www.docin365.com</a><br>wenku.baidu.com::wenku.baiduvvv.com<br>detail.tmall.com::detail.tmallvvv.com<br>detail.m.tmall.com::detail.m.tmallvvv.com<br>item.taobao.com::item.taobaovvv.com<br>h5.m.taobao.com::h5.m.taobaovvv.com<br>jd.com::jdvvv.com<br>item.yhd.com::item.yhdvvv.com<br>goods.kaola.com::goods.kaolavvv.com<br>product.dangdang.com::product.dangdangvvv.com<br>item.gome.com.cn::item.gomevvv.com.cn</p>
+<p>更多重定向网址：<br>
+<a href="http://www.bilibili.com::www.ibilibili.com">www.bilibili.com::www.ibilibili.com</a><br>
+pan.baidu.com::pan.baiduwp.com<br>
+<a href="http://www.docin.com::www.docin365.com">www.docin.com::www.docin365.com</a><br>
+wenku.baidu.com::wenku.baiduvvv.com<br>
+detail.tmall.com::detail.tmallvvv.com<br>
+detail.m.tmall.com::detail.m.tmallvvv.com<br>
+item.taobao.com::item.taobaovvv.com<br>
+h5.m.taobao.com::h5.m.taobaovvv.com<br>
+jd.com::jdvvv.com<br>
+item.yhd.com::item.yhdvvv.com<br>
+goods.kaola.com::goods.kaolavvv.com<br>
+product.dangdang.com::product.dangdangvvv.com<br>
+item.gome.com.cn::item.gomevvv.com.cn</p>
 
-        <br>
-        <div id="comment-container">
-        </div>
-        <div id="disqus_thread"></div>
-
-        <div id="lv-container">
-        </div>
-
-    </div>
 </div>
-    </div>
-</div>
 
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    
-</footer>
-
-
-
-
-</body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = ""
-    window.hexo_root = "/uWeb/"
-    window.isPost = true
-</script>
-<script src="/uWeb/js/index.js"></script>
-
-
-
-
+  </body>
 </html>

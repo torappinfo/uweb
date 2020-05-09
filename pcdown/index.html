@@ -1,183 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><meta name="generator" content="Hexo 3.8.0">
+<!doctype html>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-    <link rel="shortcut icon" href="/uWeb/img/favicon.ico">
-
-    <title>
-        
-        浏览器一键控制台式机/服务器下载资源
-        
-    </title>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/uWeb/css/aircloud.css">
-    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
-</head>
-
-<body>
-
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
-</div>
-
-<div class="index-about">
-    <i>  </i>
-</div>
-
-<div class="index-container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="contents" id="nav-content">
-        <ul>
-            <li>
-                <a href="/uWeb/">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/archives">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
+    <link rel="stylesheet" href="http://jamesfengcao.gitee.io/uweb/style.css" type="text/css" />
+    <title>浏览器一键控制台式机/服务器下载资源</title>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="http://jamesfengcao.gitee.io/uweb/">⟰</a>
+      <nav>
+      </nav>
+    </header>
     
-        <div id="toc" class="toc-article">
+<div class="container">
+  <h1 class="title">浏览器一键控制台式机/服务器下载资源
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
     
-</div>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/termux">termux</a> </li>
     
-</div>
-
-
-<div class="search-field" id="search-field">
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input">
-            <span id="begin-search">search</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-        <div class="index-about-mobile">
-            <i>  </i>
-        </div>
-    </div>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/ssh">ssh</a> </li>
     
-    <div class="index-middle">
-        <!-- Main Content -->
-        
-
-
-<div class="post-container">
-    <div class="post-title">
-        浏览器一键控制台式机/服务器下载资源
-    </div>
-
-    <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
-        
-        <span class="attr">Tags：/
-        
-        <a class="tag" href="/uWeb/tags/#termux" title="termux">termux</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#ssh" title="ssh">ssh</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#PC" title="PC">PC</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#下载" title="下载">下载</a>
-        <span>/</span>
-        
-        
-        </span>
-
-
-    </div>
-    <div class="post-content ">
-        <p>技巧等级：高级</p>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/pc">PC</a> </li>
+    
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/%E4%B8%8B%E8%BD%BD">下载</a> </li>
+    
+  </ul>
+  <p>技巧等级：高级</p>
 <p>小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：</p>
-<p>手机需安装uweb定制<a href="../gnuplot">Termux</a>，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：<br><code>apt update<br>apt upgrade<br>apt install openssl</code></p>
-<p>脚本pcdownload内容如下(可放置在任意应用内部目录下，并相应修改default.longclick配置中文件路径)：<br><code>#!/data/data/com.termux/files/usr/bin/sh</code><br><code>ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 firefox \&quot;$1\&quot;&quot;</code></p>
-<p>脚本需设置为可执行，Termux下执行命令:<br>chmod 755 /data/data/com.termux/files/usr/bin/pcdownload</p>
+<p>手机需安装uweb定制<a href="../gnuplot">Termux</a>，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：<br>
+<code>apt update<br>
+apt upgrade<br>
+apt install openssl</code></p>
+<p>脚本pcdownload内容如下(可放置在任意应用内部目录下，并相应修改default.longclick配置中文件路径)：<br>
+<code>#!/data/data/com.termux/files/usr/bin/sh</code><br>
+<code>ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 firefox \&quot;$1\&quot;&quot;</code></p>
+<p>脚本需设置为可执行，Termux下执行命令:<br>
+chmod 755 /data/data/com.termux/files/usr/bin/pcdownload</p>
 <p>这里假定用户已经在台式机上设好ssh服务，台式机IP地址为192.168.2.102，准备用firefox下载。如果下载工具不是图形程序，则上述脚本中可删去“DISPLAY=:0”。</p>
-<p>配置文件/sdcard/uweb/default.longclick如下：<br><code>PCdown:/data/data/com.termux/files/usr/bin/pcdownload</code></p>
-<p>重启超微浏览器，点击链接下载时会弹出菜单，选择”PCdown”，台式机会启动firefox下载手机指定文档。</p>
+<p>配置文件/sdcard/uweb/default.longclick如下：<br>
+<code>PCdown:/data/data/com.termux/files/usr/bin/pcdownload</code></p>
+<p>重启超微浏览器，点击链接下载时会弹出菜单，选择&quot;PCdown&quot;，台式机会启动firefox下载手机指定文档。</p>
 <p>可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</p>
 
-        <br>
-        <div id="comment-container">
-        </div>
-        <div id="disqus_thread"></div>
-
-        <div id="lv-container">
-        </div>
-
-    </div>
-</div>
-    </div>
 </div>
 
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    
-</footer>
-
-
-
-
-</body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = ""
-    window.hexo_root = "/uWeb/"
-    window.isPost = true
-</script>
-<script src="/uWeb/js/index.js"></script>
-
-
-
-
+  </body>
 </html>

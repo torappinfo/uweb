@@ -1,166 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><meta name="generator" content="Hexo 3.8.0">
+<!doctype html>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-    <link rel="shortcut icon" href="/uWeb/img/favicon.ico">
-
-    <title>
-        
-        配置浏览器地址栏作为超级计算器(bc)
-        
-    </title>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/uWeb/css/aircloud.css">
-    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
-</head>
-
-<body>
-
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
-</div>
-
-<div class="index-about">
-    <i>  </i>
-</div>
-
-<div class="index-container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="contents" id="nav-content">
-        <ul>
-            <li>
-                <a href="/uWeb/">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/archives">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
+    <link rel="stylesheet" href="http://jamesfengcao.gitee.io/uweb/style.css" type="text/css" />
+    <title>配置浏览器地址栏作为超级计算器(bc)</title>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="http://jamesfengcao.gitee.io/uweb/">⟰</a>
+      <nav>
+      </nav>
+    </header>
     
-        <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装bc"><span class="toc-text">安装bc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置文件-sdcard-uweb-default-acmd如下："><span class="toc-text">配置文件/sdcard/uweb/default.acmd如下：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多bc扩展库："><span class="toc-text">更多bc扩展库：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用扩展库以后default-acmd配置如下："><span class="toc-text">使用扩展库以后default.acmd配置如下：</span></a></li></ol>
-</div>
+<div class="container">
+  <h1 class="title">配置浏览器地址栏作为超级计算器(bc)
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
     
-</div>
+  </ul>
+  <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb">uweb浏览器</a>。<br>
+Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。</p>
+<h3 id="安装bc">安装bc</h3>
+<ul>
+<li>安装[uweb定制Termux应用](https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==) </li>
+<li>Termux下运行以下命令：  
+apt update  
+apt upgrade  
+apt install bc</li>
+</ul>
+<h3 id="配置文件sdcarduwebdefaultacmd如下">配置文件/sdcard/uweb/default.acmd如下：</h3>
+<p>计算器:text/html:echo &quot;%s&quot;|bc -l -q</p>
+<h3 id="更多bc扩展库">更多bc扩展库：</h3>
+<p>扩展库可下载至/sdcard/uweb目录）<br>
+<a href="https://github.com/susca/bc-extensions">https://github.com/susca/bc-extensions</a><br>
+<a href="http://phodd.net/gnu-bc">http://phodd.net/gnu-bc</a><br>
+<a href="http://www.numbertheory.org/gnubc/gnubc.html">http://www.numbertheory.org/gnubc/gnubc.html</a></p>
+<h3 id="使用扩展库以后defaultacmd配置如下">使用扩展库以后default.acmd配置如下：</h3>
+<p>计算器:text/html:echo &quot;%s&quot;|bc -l －q extensions.bc scientific_constants.bc<br>
+全能计算器:text/html:echo &quot;%s&quot;|bc -l －q *.bc</p>
 
-
-<div class="search-field" id="search-field">
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input">
-            <span id="begin-search">search</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-        <div class="index-about-mobile">
-            <i>  </i>
-        </div>
-    </div>
-    
-    <div class="index-middle">
-        <!-- Main Content -->
-        
-
-
-<div class="post-container">
-    <div class="post-title">
-        配置浏览器地址栏作为超级计算器(bc)
-    </div>
-
-    <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
-        
-        
-
-
-    </div>
-    <div class="post-content ">
-        <p>使用Android端<a href="https://www.coolapk.com/apk/info.torapp.uweb" target="_blank" rel="noopener">uweb浏览器</a>。<br>Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。</p>
-<h3 id="安装bc"><a href="#安装bc" class="headerlink" title="安装bc"></a>安装bc</h3><ul><br><li>安装<a href="https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==" target="_blank" rel="noopener">uweb定制Termux应用</a> </li><br><li>Termux下运行以下命令：<br>apt update<br>apt upgrade<br>apt install bc</li><br></ul>
-
-
-<h3 id="配置文件-sdcard-uweb-default-acmd如下："><a href="#配置文件-sdcard-uweb-default-acmd如下：" class="headerlink" title="配置文件/sdcard/uweb/default.acmd如下："></a>配置文件/sdcard/uweb/default.acmd如下：</h3><p>计算器:text/html:echo “%s”|bc -l -q  </p>
-<h3 id="更多bc扩展库："><a href="#更多bc扩展库：" class="headerlink" title="更多bc扩展库："></a>更多bc扩展库：</h3><p>扩展库可下载至/sdcard/uweb目录）<br><a href="https://github.com/susca/bc-extensions" target="_blank" rel="noopener">https://github.com/susca/bc-extensions</a><br><a href="http://phodd.net/gnu-bc" target="_blank" rel="noopener">http://phodd.net/gnu-bc</a><br><a href="http://www.numbertheory.org/gnubc/gnubc.html" target="_blank" rel="noopener">http://www.numbertheory.org/gnubc/gnubc.html</a>  </p>
-<h3 id="使用扩展库以后default-acmd配置如下："><a href="#使用扩展库以后default-acmd配置如下：" class="headerlink" title="使用扩展库以后default.acmd配置如下："></a>使用扩展库以后default.acmd配置如下：</h3><p>计算器:text/html:echo “%s”|bc -l －q extensions.bc scientific_constants.bc<br>全能计算器:text/html:echo “%s”|bc -l －q *.bc  </p>
-
-        <br>
-        <div id="comment-container">
-        </div>
-        <div id="disqus_thread"></div>
-
-        <div id="lv-container">
-        </div>
-
-    </div>
-</div>
-    </div>
 </div>
 
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    
-</footer>
-
-
-
-
-</body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = ""
-    window.hexo_root = "/uWeb/"
-    window.isPost = true
-</script>
-<script src="/uWeb/js/index.js"></script>
-
-
-
-
+  </body>
 </html>

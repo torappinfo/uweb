@@ -1,131 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><meta name="generator" content="Hexo 3.8.0">
+<!doctype html>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-    <link rel="shortcut icon" href="/uWeb/img/favicon.ico">
-
-    <title>
-        
-        笔记及手机复制（富）文本至PC剪贴板
-        
-    </title>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/uWeb/css/aircloud.css">
-    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
-</head>
-
-<body>
-
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
-</div>
-
-<div class="index-about">
-    <i>  </i>
-</div>
-
-<div class="index-container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="contents" id="nav-content">
-        <ul>
-            <li>
-                <a href="/uWeb/">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
-                </a>
-            </li>
-            <li>
-                <a href="/uWeb/archives">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
+    <link rel="stylesheet" href="http://jamesfengcao.gitee.io/uweb/style.css" type="text/css" />
+    <title>笔记及手机复制（富）文本至PC剪贴板</title>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="http://jamesfengcao.gitee.io/uweb/">⟰</a>
+      <nav>
+      </nav>
+    </header>
     
-        <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#Windows-PC"><span class="toc-text">Windows PC</span></a></li></ol>
-</div>
+<div class="container">
+  <h1 class="title">笔记及手机复制（富）文本至PC剪贴板
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
     
-</div>
-
-
-<div class="search-field" id="search-field">
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input">
-            <span id="begin-search">search</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-        <div class="index-about-mobile">
-            <i>  </i>
-        </div>
-    </div>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/termux">termux</a> </li>
     
-    <div class="index-middle">
-        <!-- Main Content -->
-        
-
-
-<div class="post-container">
-    <div class="post-title">
-        笔记及手机复制（富）文本至PC剪贴板
-    </div>
-
-    <div class="post-meta">
-        <span class="attr">Post：<span>2019-06-05 17:55:34</span></span>
-        
-        <span class="attr">Tags：/
-        
-        <a class="tag" href="/uWeb/tags/#termux" title="termux">termux</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#ssh" title="ssh">ssh</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#剪贴板" title="剪贴板">剪贴板</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#PC" title="PC">PC</a>
-        <span>/</span>
-        
-        <a class="tag" href="/uWeb/tags/#Windows" title="Windows">Windows</a>
-        <span>/</span>
-        
-        
-        </span>
-
-
-    </div>
-    <div class="post-content ">
-        <p>技巧等级：笔记(中级) PC剪贴板(高级)</p>
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/ssh">ssh</a> </li>
+    
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/pc">PC</a> </li>
+    
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF">剪贴板</a> </li>
+    
+    <li><a href="http://jamesfengcao.gitee.io/uweb/tags/windows">Windows</a> </li>
+    
+  </ul>
+  <p>技巧等级：笔记(中级) PC剪贴板(高级)</p>
 <p>手机需安装uweb定制<a href="../pcdown">Termux</a>。如使用剪贴板功能，termux还需安装openssl。</p>
 <p>配置/sdcard/uweb/default.select如下：</p>
 <pre>笔记::(cat;echo;echo;)>>notes.txt
@@ -133,61 +40,19 @@
 命名笔记:(cat;echo;echo;)>>%s
 复制至PC剪贴板::ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -i"
 复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -i"</pre>
-
 <p>此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。</p>
 <p>重启浏览器，长按“书签”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。</p>
 <p>采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。</p>
-<p>手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。<br><a href="data:text/html;charset=utf-8,&lt;body contenteditable%3E" target="_blank" rel="noopener">在超微浏览器中长按并在新窗口打开此链接</a>，然后点击窗口并粘贴文本。长按书签按钮选择适当功能即可复制至PC剪贴板。</p>
+<p>手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。<br>
+[在超微浏览器中长按并在新窗口打开此链接](data:text/html;charset=utf-8,&lt;body contenteditable%3E)，然后点击窗口并粘贴文本。长按书签按钮选择适当功能即可复制至PC剪贴板。</p>
 <p>通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。</p>
-<h4 id="Windows-PC"><a href="#Windows-PC" class="headerlink" title="Windows PC"></a>Windows PC</h4><p>对Windows PC而言，vista及以后自带clip.exe，此时配置如下：<br>复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe</p>
-<p>其它推荐工具(读取PC剪贴板)：<br><a href="http://unxutils.sourceforge.net/" target="_blank" rel="noopener">pclip</a></p>
+<h4 id="windows-pc">Windows PC</h4>
+<p>对Windows PC而言，vista及以后自带clip.exe，此时配置如下：<br>
+复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe</code></p>
+<p>其它推荐工具(读取PC剪贴板)：<br>
+<a href="http://unxutils.sourceforge.net/">pclip</a></p>
 
-        <br>
-        <div id="comment-container">
-        </div>
-        <div id="disqus_thread"></div>
-
-        <div id="lv-container">
-        </div>
-
-    </div>
-</div>
-    </div>
 </div>
 
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    
-</footer>
-
-
-
-
-</body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = ""
-    window.hexo_root = "/uWeb/"
-    window.isPost = true
-</script>
-<script src="/uWeb/js/index.js"></script>
-
-
-
-
+  </body>
 </html>

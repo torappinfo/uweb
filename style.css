@@ -1,0 +1,32 @@
+header.header{
+  position: fixed;
+  z-index: 2;
+  top:0;
+}
+
+header.header>a.logo {
+  color:inherit;
+  text-decoration:inherit;
+  font-size:24px;
+}
+
+ul.posts{
+  list-style-type:none
+}
+
+ul.posts>li.post {
+  line-height:2;
+}
+
+ul.posts>li.post>a{
+  color:inherit;
+  text-decoration:inherit;
+}
+
+ul.tags{
+  list-style-type:none
+}
+
+ul.tags>li{
+  display:inline;
+}
