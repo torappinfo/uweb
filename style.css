@@ -7,6 +7,7 @@ header.header{
 header.header>a.logo {
   color:inherit;
   text-decoration:inherit;
+  font-size:16px;
 }
 
 ul.posts{
