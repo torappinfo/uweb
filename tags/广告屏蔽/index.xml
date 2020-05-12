@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>广告屏蔽 on </title>
-    <link>http://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/</link>
+    <link>https://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/</link>
     <description>Recent content in 广告屏蔽 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>利用用户自定义样式屏蔽广告</title>
-      <link>http://jamesfengcao.gitee.io/uweb/adblock_css/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock_css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/adblock_css/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock_css/</guid>
       <description>超微浏览器支持超级hosts文件，这一技术可以完全绝杀手机广告小厂。但少部分广告大厂本身也提供高质量的内容服务，它们可以将广告伪装成正常的内容从而逃脱hosts文件绝杀。
 对这一部分广告而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。
 下载下面文件（可改名成“广告屏蔽.css”），将其放到/scard/uweb/css目录下：
@@ -25,10 +25,10 @@
     
     <item>
       <title>利用超级hosts文件加速访问国外网站</title>
-      <link>http://jamesfengcao.gitee.io/uweb/hosts/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/hosts/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/hosts/</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载google,
 facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、......，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。
 使用Android端uweb浏览器。
@@ -48,10 +48,10 @@ fbcdn.net
     
     <item>
       <title>利用超级hosts绝杀广告</title>
-      <link>http://jamesfengcao.gitee.io/uweb/adblock_hosts/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock_hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/adblock_hosts/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock_hosts/</guid>
       <description>超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切广告。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（少数很短的域名可取四段）。
   长按广告链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
   部分广告没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按广告链接点击“图片：屏蔽根域名”，屏蔽图片网址。
@@ -93,20 +93,20 @@ ad.xiaomi.com</description>
     
     <item>
       <title>广告屏蔽技术总览</title>
-      <link>http://jamesfengcao.gitee.io/uweb/adblock/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/adblock/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock/</guid>
       <description>超微浏览器提供了形形色色的广告屏蔽技术，善于使用的话根本无需求助于复杂的屏蔽规则。
  如果网站并非视频类小网站，长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;，此法可屏蔽大多数广告。更多可参看自定义样式屏蔽广告。 对非复杂交互非国内广告大厂网页而言（譬如云盘管理属复杂交互），特别是小说网站，可以长按设置，选取&amp;quot;屏蔽外链脚本&amp;quot;。（内在逻辑：小网站一般无力开发完整的广告系统，它们经常使用大厂的广告脚本。） 利用视频全屏播放屏蔽一切广告。 长按[☰]按钮可屏蔽浮动广告。 双正则表达式hosts文件绝杀广告。 针对特定网站的脚本样式屏蔽广告。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
     </item>
     
     <item>
       <title>视频播放小窍门</title>
-      <link>http://jamesfengcao.gitee.io/uweb/video/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/video/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/video/</guid>
       <description>本文以超微浏览器为例来说明。
  长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切广告。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么广告。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现广告占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动广告”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切广告。方法如下：  长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。   对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切广告：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。  视频搜索预配置(超过400个引擎)
 视频资源：

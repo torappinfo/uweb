@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>剪贴板 on </title>
-    <link>http://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
+    <link>https://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
     <description>Recent content in 剪贴板 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
-      <link>http://jamesfengcao.gitee.io/uweb/cmd/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/cmd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/cmd/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)
 uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
 手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。
@@ -34,10 +34,10 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
     
     <item>
       <title>笔记及手机复制（富）文本至PC剪贴板</title>
-      <link>http://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
 手机需安装uweb定制Termux。如使用剪贴板功能，termux还需安装openssl。
 配置/sdcard/uweb/default.select如下：

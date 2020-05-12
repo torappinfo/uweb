@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PC on </title>
-    <link>http://jamesfengcao.gitee.io/uweb/tags/pc/</link>
+    <link>https://jamesfengcao.gitee.io/uweb/tags/pc/</link>
     <description>Recent content in PC on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jamesfengcao.gitee.io/uweb/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/pc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>浏览器一键控制台式机/服务器下载资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/pcdown/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/pcdown/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/pcdown/</guid>
       <description>技巧等级：高级
 小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
 手机需安装uweb定制Termux，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：
@@ -36,10 +36,10 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
     
     <item>
       <title>笔记及手机复制（富）文本至PC剪贴板</title>
-      <link>http://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
 手机需安装uweb定制Termux。如使用剪贴板功能，termux还需安装openssl。
 配置/sdcard/uweb/default.select如下：

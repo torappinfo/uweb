@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on </title>
-    <link>http://jamesfengcao.gitee.io/uweb/tags/windows/</link>
+    <link>https://jamesfengcao.gitee.io/uweb/tags/windows/</link>
     <description>Recent content in Windows on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jamesfengcao.gitee.io/uweb/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>笔记及手机复制（富）文本至PC剪贴板</title>
-      <link>http://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
 手机需安装uweb定制Termux。如使用剪贴板功能，termux还需安装openssl。
 配置/sdcard/uweb/default.select如下：

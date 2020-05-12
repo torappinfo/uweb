@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网盘 on </title>
-    <link>http://jamesfengcao.gitee.io/uweb/tags/%E7%BD%91%E7%9B%98/</link>
+    <link>https://jamesfengcao.gitee.io/uweb/tags/%E7%BD%91%E7%9B%98/</link>
     <description>Recent content in 网盘 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jamesfengcao.gitee.io/uweb/tags/%E7%BD%91%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/%E7%BD%91%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>利用国外离线网盘囤积资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/loadbt/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/loadbt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/loadbt/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/loadbt/</guid>
       <description>百度网盘存储空间大，还支持离线下载。但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
   注册国外离线网盘账号

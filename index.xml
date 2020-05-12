@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://jamesfengcao.gitee.io/uweb/</link>
+    <link>https://jamesfengcao.gitee.io/uweb/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jamesfengcao.gitee.io/uweb/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CSS样式</title>
-      <link>http://jamesfengcao.gitee.io/uweb/globalcss/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/globalcss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/globalcss/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/globalcss/</guid>
       <description>超微浏览器自动装载&amp;quot;/sdcard/uweb/css&amp;quot;目录下所有.css文件作为全局样式供用户选用。点击以下配置链接可自动添加为全局样式：
 配合透明状态栏(沉浸)
 文件&amp;quot;/sdcard/uweb/night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：
@@ -24,10 +24,10 @@ webview 81+ 夜间模式</description>
     
     <item>
       <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
-      <link>http://jamesfengcao.gitee.io/uweb/cmd/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/cmd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/cmd/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)
 uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
 手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。
@@ -46,10 +46,10 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
     
     <item>
       <title>分类多引擎搜索</title>
-      <link>http://jamesfengcao.gitee.io/uweb/searchcat/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/searchcat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/searchcat/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/searchcat/</guid>
       <description>长按下面链接可直接下载为分类多引擎搜索配置文件，点击本链接自动安装所有文件至&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录下：
 影视搜索
 小说搜索
@@ -68,10 +68,10 @@ d:mimetype:[含%s的命令行]:[外部资源url]
     
     <item>
       <title>利用国外离线网盘囤积资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/loadbt/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/loadbt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/loadbt/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/loadbt/</guid>
       <description>百度网盘存储空间大，还支持离线下载。但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
   注册国外离线网盘账号
@@ -92,10 +92,10 @@ mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/. 配置/sdcard/uweb/default.
     
     <item>
       <title>利用多账号登录获取资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/multiaccount/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/multiaccount/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/multiaccount/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/multiaccount/</guid>
       <description>谈到资源就离不开bt, bt下载费时费力，离线bt是最佳选择。国内离线下载由于关键节点屏蔽，基本没啥用。我的个人体验是彻彻底底完全没用，但别人也许还有点用？国外唯一一个有好体验的是seedr, 不过seedr有个大问题需要解决。
 其它我曾推荐过的台湾bt, bug实在太多，现在看来也成了半个垃圾。万般无奈之下只能重拾seedr.
 seedr的问题是首次登录需要google人机验证，登录成功以后可以永久使用，无需小飞机辅助。
@@ -105,10 +105,10 @@ seedr的问题是首次登录需要google人机验证，登录成功以后可以
     
     <item>
       <title>利用文件预处理预览/查看/播放一切可下载资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/filecap/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/filecap/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
       <description>技巧等级：中级
 文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
 [文件后缀]:[mimetype]:[处理命令]
@@ -123,10 +123,10 @@ txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio control
     
     <item>
       <title>利用浏览器地址栏对函数作图</title>
-      <link>http://jamesfengcao.gitee.io/uweb/gnuplot/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/gnuplot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/gnuplot/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/gnuplot/</guid>
       <description>使用Android端uweb浏览器。
 Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。
 安装gnuplot  安装[uweb定制Termux应用](https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==) Termux下运行以下命令： apt update apt upgrade apt install gnuplot  地址栏功能配置：  配置文件/sdcard/uweb/default.acmd每行格式如下：
@@ -138,10 +138,10 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
     
     <item>
       <title>利用用户自定义样式屏蔽广告</title>
-      <link>http://jamesfengcao.gitee.io/uweb/adblock_css/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock_css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/adblock_css/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock_css/</guid>
       <description>超微浏览器支持超级hosts文件，这一技术可以完全绝杀手机广告小厂。但少部分广告大厂本身也提供高质量的内容服务，它们可以将广告伪装成正常的内容从而逃脱hosts文件绝杀。
 对这一部分广告而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。
 下载下面文件（可改名成“广告屏蔽.css”），将其放到/scard/uweb/css目录下：
@@ -151,10 +151,10 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
     
     <item>
       <title>利用超级hosts文件加速访问国外网站</title>
-      <link>http://jamesfengcao.gitee.io/uweb/hosts/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/hosts/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/hosts/</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载google,
 facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、......，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。
 使用Android端uweb浏览器。
@@ -174,10 +174,10 @@ fbcdn.net
     
     <item>
       <title>利用超级hosts绝杀广告</title>
-      <link>http://jamesfengcao.gitee.io/uweb/adblock_hosts/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock_hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/adblock_hosts/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock_hosts/</guid>
       <description>超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切广告。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（少数很短的域名可取四段）。
   长按广告链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
   部分广告没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按广告链接点击“图片：屏蔽根域名”，屏蔽图片网址。
@@ -219,10 +219,10 @@ ad.xiaomi.com</description>
     
     <item>
       <title>安卓系统出错诊断</title>
-      <link>http://jamesfengcao.gitee.io/uweb/logcat/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/logcat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/logcat/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/logcat/</guid>
       <description>超微浏览器如果闪退，会生成出错文件&amp;quot;/sdcard/uweb/error.log&amp;quot;。
 如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：
  访问常用命令网页，点击安装logcat相关的两个命令。 清空后台并重启超微浏览器。 长按历史按钮，执行命令&amp;quot;清空logcat&amp;quot;。 触发有问题的功能。 长按历史按钮，执行命令&amp;quot;输出logcat.log&amp;quot;. 检查文件&amp;quot;/sdcard/uweb/logcat.log&amp;quot;内容。  </description>
@@ -230,10 +230,10 @@ ad.xiaomi.com</description>
     
     <item>
       <title>小书签</title>
-      <link>http://jamesfengcao.gitee.io/uweb/bookmarklet/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/bookmarklet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/bookmarklet/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/bookmarklet/</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
 查看浏览器UA
 &#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
@@ -247,10 +247,10 @@ nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(table
     
     <item>
       <title>常用链接</title>
-      <link>http://jamesfengcao.gitee.io/uweb/links/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/links/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
       <description>uweb浏览器中长按链接按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.links&amp;quot;中。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
 其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
@@ -260,20 +260,20 @@ url除支持所有标准的http(s):,javascript:等链接外，还支持超微内
     
     <item>
       <title>广告屏蔽技术总览</title>
-      <link>http://jamesfengcao.gitee.io/uweb/adblock/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/adblock/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock/</guid>
       <description>超微浏览器提供了形形色色的广告屏蔽技术，善于使用的话根本无需求助于复杂的屏蔽规则。
  如果网站并非视频类小网站，长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;，此法可屏蔽大多数广告。更多可参看自定义样式屏蔽广告。 对非复杂交互非国内广告大厂网页而言（譬如云盘管理属复杂交互），特别是小说网站，可以长按设置，选取&amp;quot;屏蔽外链脚本&amp;quot;。（内在逻辑：小网站一般无力开发完整的广告系统，它们经常使用大厂的广告脚本。） 利用视频全屏播放屏蔽一切广告。 长按[☰]按钮可屏蔽浮动广告。 双正则表达式hosts文件绝杀广告。 针对特定网站的脚本样式屏蔽广告。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
     </item>
     
     <item>
       <title>浏览器一键控制台式机/服务器下载资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/pcdown/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/pcdown/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/pcdown/</guid>
       <description>技巧等级：高级
 小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
 手机需安装uweb定制Termux，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：
@@ -294,10 +294,10 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
     
     <item>
       <title>特定网址用户脚本及样式</title>
-      <link>http://jamesfengcao.gitee.io/uweb/sitejs/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/sitejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/sitejs/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/sitejs/</guid>
       <description>技巧等级：中级
 脚本
  脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/sdcard/uweb/sitejs或/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。如果内部目录下sitejs存在，则/sdcard/uweb/sitejs不起任何作用。内部sitejs目录的存在同时也影响一切对安全敏感的资源（包括网站离线资源等）的配置，一旦内部sitejs目录存在，则这些资源必须位于内部目录才会生效。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名。所以脚本请不要以很长的域名来命名。  样式
@@ -306,10 +306,10 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
     
     <item>
       <title>电视直播</title>
-      <link>http://jamesfengcao.gitee.io/uweb/tvlive/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/tvlive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/tvlive/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/tvlive/</guid>
       <description>CCTV1
 CCTV2财经
 CCTV3综艺
@@ -383,10 +383,10 @@ CCTV17农村
     
     <item>
       <title>笔记及手机复制（富）文本至PC剪贴板</title>
-      <link>http://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
 手机需安装uweb定制Termux。如使用剪贴板功能，termux还需安装openssl。
 配置/sdcard/uweb/default.select如下：
@@ -404,10 +404,10 @@ pclip</description>
     
     <item>
       <title>装载网站离线资源</title>
-      <link>http://jamesfengcao.gitee.io/uweb/offlinecache/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/offlinecache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/offlinecache/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/offlinecache/</guid>
       <description>uweb浏览器支持装载网站离线资源。只需要将离线资源存为文件&amp;quot;/sdcard/uweb/sitecache/[域名]/[全部路径，包括文件名，?,&amp;amp;,=, 与url一模一样]&amp;quot;。如果应用内部目录有文件夹&amp;quot;sitejs&amp;quot;存在，则“/sdcard/uweb”下的离线资源不再生效，此时生效离线资源为内部目录下的&amp;quot;sitecache&amp;quot;文件夹。
 打开选项以后超微将自动装载这些离线资源。
 离线资源可作为缓存提高浏览器性能; 可作为国外网站部分备份修复服务访问; 也可替换部分网站资源达到定制网站的作用。
@@ -418,10 +418,10 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
     
     <item>
       <title>视频播放小窍门</title>
-      <link>http://jamesfengcao.gitee.io/uweb/video/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/video/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/video/</guid>
       <description>本文以超微浏览器为例来说明。
  长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切广告。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么广告。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现广告占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动广告”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切广告。方法如下：  长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。   对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切广告：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。  视频搜索预配置(超过400个引擎)
 视频资源：
@@ -430,10 +430,10 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
     
     <item>
       <title>超微浏览器配置文件列表</title>
-      <link>http://jamesfengcao.gitee.io/uweb/filenames/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/filenames/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/filenames/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/filenames/</guid>
       <description>下面列表中以&amp;quot;/&amp;quot;结尾者为目录，其余为文件。如果用户勾选“使用内部目录配置”，&amp;quot;sitejs/&amp;quot;,&amp;quot;sitecache/&amp;quot;等位于应用内部保护目录下。否则以下所有文件／目录均位于&amp;quot;/sdcard/uweb&amp;quot;：
 &amp;quot;css/&amp;quot;:全局样式目录
 &amp;quot;js/&amp;quot;: 全局脚本目录
@@ -475,10 +475,10 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
     
     <item>
       <title>运行javascript脚本</title>
-      <link>http://jamesfengcao.gitee.io/uweb/rjs/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/rjs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/rjs/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/rjs/</guid>
       <description>uweb浏览器支持运行本地及远程javascript脚本。
 大型脚本可安装到&amp;quot;/sdcard/uweb/bookmarklet&amp;quot;目录下：
 彩云小译
@@ -492,10 +492,10 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
     
     <item>
       <title>配置浏览器地址栏作为超级计算器(bc)</title>
-      <link>http://jamesfengcao.gitee.io/uweb/bc/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/bc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/bc/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/bc/</guid>
       <description>使用Android端uweb浏览器。
 Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。
 安装bc  安装[uweb定制Termux应用](https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==)  Termux下运行以下命令： apt update apt upgrade apt install bc  配置文件/sdcard/uweb/default.acmd如下： 计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q
@@ -509,10 +509,10 @@ http://www.numbertheory.org/gnubc/gnubc.html
     
     <item>
       <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
-      <link>http://jamesfengcao.gitee.io/uweb/redirect/</link>
+      <link>https://jamesfengcao.gitee.io/uweb/redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jamesfengcao.gitee.io/uweb/redirect/</guid>
+      <guid>https://jamesfengcao.gitee.io/uweb/redirect/</guid>
       <description>使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。
 其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。
 本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。
