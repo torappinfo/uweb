@@ -251,7 +251,7 @@ nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(table
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
-      <description>uweb浏览器中长按链接按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.links&amp;quot;中。每行格式如下：
+      <description>uweb浏览器中长按链接按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
 其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
 脚本将在链接访问结束时自动执行。
@@ -452,7 +452,7 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
 &amp;quot;default.redirect&amp;quot;:重定向配置
 &amp;quot;default.select&amp;quot;:长按“书签”按钮配置
 &amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
-&amp;quot;default.links&amp;quot;:长按“链接”按钮配置
+&amp;quot;default.link&amp;quot;:长按“链接”按钮配置
 &amp;quot;default.filecap&amp;quot;:
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
 &amp;quot;default.siteconf&amp;quot;:网站独立设置
