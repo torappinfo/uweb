@@ -246,6 +246,24 @@ nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(table
     </item>
     
     <item>
+      <title>常用链接</title>
+      <link>https://jamesfengcao.gitee.io/uweb/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
+      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中。每行格式如下：
+[菜单名]:[url][空格][javascript脚本]
+其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
+脚本将在链接访问结束时自动执行。
+url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
+各类代理配置如下:
+httpproxy::010[proxy host]:[port]
+socks5::011[socks host]:[port]
+noproxy::010:
+点击安装Cookie延期等</description>
+    </item>
+    
+    <item>
       <title>广告屏蔽技术总览</title>
       <link>https://jamesfengcao.gitee.io/uweb/adblock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
