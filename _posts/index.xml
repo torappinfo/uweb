@@ -460,6 +460,7 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
 &amp;quot;default.link&amp;quot;:长按“链接”按钮配置
 &amp;quot;default.filecap&amp;quot;:
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
+&amp;quot;default.engine&amp;quot;:搜索引擎url列表(搜索词部分用%s代替)，供自动顺序搜索使用。
 &amp;quot;default.siteconf&amp;quot;:网站独立设置
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
