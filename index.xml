@@ -281,8 +281,8 @@ noproxy::010:
       <guid>https://jamesfengcao.gitee.io/uweb/gesture/</guid>
       <description>顶部下拉弹出地址栏; 顶部上划隐藏地址栏。底部下划隐藏工具条; 底部左右角落划动弹出工具条。
 紧靠工具条左右划动切换当前窗口; 左右大幅度划动切换到第一或最后一个窗口。
-起点终点紧靠地址栏划动操作调用&amp;quot;default.gesture&amp;quot;文件中对应链接。文件格式与default.link完全相同。手势操作对应方式如下：
- 将屏幕宽度平分为三部分，分别对应数字0,1,2 将起点对应的屏幕数字加上终点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。
+起点终点紧靠地址栏划动操作调用&amp;quot;default.gesture&amp;quot;文件中对应链接。文件每行一个链接，与文件default.link中每行第二部分所定义链接完全相同。手势操作对应方式如下：
+ 将屏幕宽度平分为三部分，分别对应数字0,1,2 将终点对应的屏幕数字加上起点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。
 超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推）  </description>
     </item>
     
@@ -471,7 +471,7 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
 &amp;quot;default.select&amp;quot;:长按“链接”按钮配置
 &amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
 &amp;quot;default.link&amp;quot;:长按“书签”按钮配置
-&amp;quot;default.gesture&amp;quot;:格式与default.link完全相同，定义地址栏下方手势操作
+&amp;quot;default.gesture&amp;quot;:每行一个链接，与文件default.link中每行第二部分所定义链接完全相同，定义地址栏下方手势操作
 &amp;quot;default.filecap&amp;quot;:
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
 &amp;quot;default.engine&amp;quot;:搜索引擎url列表(搜索词部分用%s代替)，供自动顺序搜索使用。
