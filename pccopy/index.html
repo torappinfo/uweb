@@ -38,7 +38,8 @@
 <p>选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。<br>
 mimetype用来表示命令的输入输出类型。格式为&quot;&lt;输入mimetype&gt;/&lt;输出mimetype&gt;&quot;，&lt;输入mimetype&gt;可为&quot;html&quot;或空（txt格式）; 输出可为标准的mimetype或超微特殊扩充。如：<br>
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
-/uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。</p>
+/uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。<br>
+/termux: 命令运行结果将作为termux下命令运行。</p>
 <p>配置/sdcard/uweb/default.select如下：<br>
 复制文本到地址栏:uweb:echo i:15<code>cat</code><br>
 笔记::(cat;echo;echo;)&gt;&gt;notes.txt<br>
