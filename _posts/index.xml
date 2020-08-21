@@ -303,10 +303,10 @@ html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
 /termux: 命令运行结果将作为termux下命令运行。
 配置/sdcard/uweb/default.select如下：
-复制文本到地址栏:uweb:echo i:15cat
+复制文本到地址栏:uweb:echo i:15`cat`
 笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
 富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
-命名笔记:(cat;echo;echo;)&amp;gt;&amp;gt;%s
+命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
 复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
 复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
 如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
