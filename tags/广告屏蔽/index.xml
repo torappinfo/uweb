@@ -61,7 +61,7 @@ fbcdn.net
   超级hosts文件支持域名及整个网址正则表达式
 default.hosts文件格式每行如下：
 根域名[空格]域名前缀正则表达式[空格]网址路径正则表达式
-空格及后面两个正则表达式为可选择项。
+空格及后面两个正则表达式为可选择项。正则表达式采用java标准。
   部分国内大厂广告 (将下列内容放入/sdcard/uweb/default.hosts，点击本链接自动用以下内容覆盖default.hosts)：
 lianmeng.360.cn
 appjiagu.com
