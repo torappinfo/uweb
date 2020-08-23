@@ -6,6 +6,7 @@
     <description>Recent content in termux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
       <link>https://jamesfengcao.gitee.io/uweb/cmd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)

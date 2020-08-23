@@ -6,9 +6,20 @@
     <description>Recent content in 广告屏蔽 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>广告屏蔽技术总览</title>
+      <link>https://jamesfengcao.gitee.io/uweb/adblock/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/adblock/</guid>
+      <description>超微浏览器提供了形形色色的广告屏蔽技术，善于使用的话根本无需求助于复杂的屏蔽规则。
+ 如果网站并非视频类小网站，长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;，此法可屏蔽大多数广告。更多可参看自定义样式屏蔽广告。 对非复杂交互非国内广告大厂网页而言（譬如云盘管理属复杂交互），特别是小说网站，可以长按设置，选取&amp;quot;屏蔽外链脚本&amp;quot;。（内在逻辑：小网站一般无力开发完整的广告系统，它们经常使用大厂的广告脚本。） 利用视频全屏播放屏蔽一切广告。 长按[☰]按钮可屏蔽浮动广告。 双正则表达式hosts文件绝杀广告。 针对特定网站的脚本样式屏蔽广告。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
+    </item>
     
     <item>
       <title>利用用户自定义样式屏蔽广告</title>
@@ -89,16 +100,6 @@ inte.sogoucdn.com
 lu.sogoucdn.com
 theta.sogoucdn.com
 ad.xiaomi.com</description>
-    </item>
-    
-    <item>
-      <title>广告屏蔽技术总览</title>
-      <link>https://jamesfengcao.gitee.io/uweb/adblock/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/adblock/</guid>
-      <description>超微浏览器提供了形形色色的广告屏蔽技术，善于使用的话根本无需求助于复杂的屏蔽规则。
- 如果网站并非视频类小网站，长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;，此法可屏蔽大多数广告。更多可参看自定义样式屏蔽广告。 对非复杂交互非国内广告大厂网页而言（譬如云盘管理属复杂交互），特别是小说网站，可以长按设置，选取&amp;quot;屏蔽外链脚本&amp;quot;。（内在逻辑：小网站一般无力开发完整的广告系统，它们经常使用大厂的广告脚本。） 利用视频全屏播放屏蔽一切广告。 长按[☰]按钮可屏蔽浮动广告。 双正则表达式hosts文件绝杀广告。 针对特定网站的脚本样式屏蔽广告。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
     </item>
     
     <item>
