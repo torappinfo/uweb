@@ -12,6 +12,27 @@
     
     
     <item>
+      <title>常用链接</title>
+      <link>https://jamesfengcao.gitee.io/uweb/links/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
+      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中。每行格式如下：
+[菜单名]:[url][空格][javascript脚本]
+其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
+脚本将在链接访问结束时自动执行。
+url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
+不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
+.js文件: 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。推荐将常用js脚本本地链接保存在.link文件中。
+default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
+各类代理配置如下:
+httpproxy::010[proxy host]:[port]
+socks5::011[socks host]:[port]
+noproxy::010:
+点击安装Cookie延期等</description>
+    </item>
+    
+    <item>
       <title>广告屏蔽技术总览</title>
       <link>https://jamesfengcao.gitee.io/uweb/adblock/</link>
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
@@ -332,24 +353,6 @@ maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new
 恢复长按菜单
 =0){spannode=document.createElement(&amp;quot;SPAN&amp;quot;);spannode.style.backgroundColor=&amp;quot;yellow&amp;quot;;middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 &amp;amp;&amp;amp; node.childNodes &amp;amp;&amp;amp; node.tagName.toUpperCase()!=&amp;quot;SCRIPT&amp;quot; &amp;amp;&amp;amp; node.tagName.toUpperCase!=&amp;quot;STYLE&amp;quot;){for (var child=0; child 正则搜索
 nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序</description>
-    </item>
-    
-    <item>
-      <title>常用链接</title>
-      <link>https://jamesfengcao.gitee.io/uweb/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
-      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中。每行格式如下：
-[菜单名]:[url][空格][javascript脚本]
-其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
-脚本将在链接访问结束时自动执行。
-url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
-各类代理配置如下:
-httpproxy::010[proxy host]:[port]
-socks5::011[socks host]:[port]
-noproxy::010:
-点击安装Cookie延期等</description>
     </item>
     
     <item>
