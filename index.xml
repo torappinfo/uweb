@@ -6,10 +6,79 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesfengcao.gitee.io/uweb/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>利用文件预处理预览/查看/播放一切可下载资源</title>
+      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
+      <description>技巧等级：中级
+文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
+[文件后缀]:[mimetype]:[处理命令]
+其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。
+mimetype表示命令处理后的输出内容格式。
+处理命令与default.cmds相同，主要可能用到如下替换：
+%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。
+利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。
+配置/sdcard/uweb/default.filecap如下：
+txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; doc:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xls:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U ppt:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U docx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xlsx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U pptx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：
+pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///sdcard/uweb/app/djvu.html?url=%u epub:uweb:echo file:///sdcard/uweb/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。
+如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
+    </item>
+    
+    <item>
+      <title>超微浏览器配置文件列表</title>
+      <link>https://jamesfengcao.gitee.io/uweb/filenames/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/filenames/</guid>
+      <description>下面列表中以&amp;quot;/&amp;quot;结尾者为目录，其余为文件。如果用户勾选“使用内部目录配置”，&amp;quot;sitejs/&amp;quot;,&amp;quot;sitecache/&amp;quot;等位于应用内部保护目录下。否则以下所有文件／目录均位于&amp;quot;/sdcard/uweb&amp;quot;：
+&amp;quot;css/&amp;quot;:全局样式目录
+&amp;quot;js/&amp;quot;: 全局脚本目录
+&amp;quot;sitejs/&amp;quot;:类油猴脚本，针对特定网址
+&amp;quot;sitecss/&amp;quot;:针对特定网址css样式
+&amp;quot;bookmarklet/&amp;quot;:js脚本目录
+&amp;quot;offline/&amp;quot;:离线下载目录
+&amp;quot;sbookmark/&amp;quot;:超级书签默认目录
+&amp;quot;sitecache/&amp;quot;:用户供应网站离线数据
+&amp;quot;longclick/&amp;quot;:长按链接菜单(js)
+&amp;quot;app[XXX]/&amp;quot;:html5应用目录
+&amp;quot;default.longclick&amp;quot;:长按链接菜单
+&amp;quot;default.uas&amp;quot;:浏览器标识
+&amp;quot;default.urls&amp;quot;:特色服务
+&amp;quot;default.acmd&amp;quot;:浏览器地址栏功能配置
+&amp;quot;default.hosts&amp;quot;:广告屏蔽文件
+&amp;quot;default.redirect&amp;quot;:重定向配置
+&amp;quot;default.select&amp;quot;:长按“链接”按钮配置
+&amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
+&amp;quot;default.link&amp;quot;:长按“书签”按钮配置
+&amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
+&amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
+&amp;quot;default.filecap&amp;quot;:文件特殊处理
+&amp;quot;default.rjs&amp;quot;:远程及简单脚本
+&amp;quot;default.engine&amp;quot;:搜索引擎url列表(搜索词部分用%s代替)，供自动顺序搜索使用。
+&amp;quot;default.siteconf&amp;quot;:网站独立设置
+&amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
+&amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
+&amp;quot;home5.html&amp;quot;:自定义主屏
+&amp;quot;home5.search&amp;quot;:主屏搜索引擎
+&amp;quot;bookmark.html&amp;quot;:主书签
+&amp;quot;quickstart.html&amp;quot;:快速访问
+&amp;quot;colors.txt&amp;quot;:护眼背景色
+&amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式
+&amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
+&amp;quot;types.sniff&amp;quot;:嗅探类型
+&amp;quot;sniff.log&amp;quot;:嗅探结果
+&amp;quot;history.log&amp;quot;:访问历史
+&amp;quot;query.log&amp;quot;:查询历史
+应用内部保护目录(/data/data/info.torapp.uweb/files/):
+&amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
+    </item>
     
     <item>
       <title>常用链接</title>
@@ -43,61 +112,14 @@ noproxy::010:
     </item>
     
     <item>
-      <title>超微浏览器配置文件列表</title>
-      <link>https://jamesfengcao.gitee.io/uweb/filenames/</link>
-      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/filenames/</guid>
-      <description>下面列表中以&amp;quot;/&amp;quot;结尾者为目录，其余为文件。如果用户勾选“使用内部目录配置”，&amp;quot;sitejs/&amp;quot;,&amp;quot;sitecache/&amp;quot;等位于应用内部保护目录下。否则以下所有文件／目录均位于&amp;quot;/sdcard/uweb&amp;quot;：
-&amp;quot;css/&amp;quot;:全局样式目录
-&amp;quot;js/&amp;quot;: 全局脚本目录
-&amp;quot;sitejs/&amp;quot;:类油猴脚本，针对特定网址
-&amp;quot;sitecss/&amp;quot;:针对特定网址css样式
-&amp;quot;bookmarklet/&amp;quot;:js脚本目录
-&amp;quot;offline/&amp;quot;:
-&amp;quot;sbookmark/&amp;quot;:超级书签默认目录
-&amp;quot;sitecache/&amp;quot;:用户供应网站离线数据
-&amp;quot;longclick/&amp;quot;:长按链接菜单(js)
-&amp;quot;app[XXX]/&amp;quot;:html5应用目录
-&amp;quot;default.longclick&amp;quot;:长按链接菜单
-&amp;quot;default.uas&amp;quot;:浏览器标识
-&amp;quot;default.urls&amp;quot;:特色服务
-&amp;quot;default.acmd&amp;quot;:浏览器地址栏功能配置
-&amp;quot;default.hosts&amp;quot;:广告屏蔽文件
-&amp;quot;default.redirect&amp;quot;:重定向配置
-&amp;quot;default.select&amp;quot;:长按“链接”按钮配置
-&amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
-&amp;quot;default.link&amp;quot;:长按“书签”按钮配置
-&amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
-&amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
-&amp;quot;default.filecap&amp;quot;:
-&amp;quot;default.rjs&amp;quot;:远程及简单脚本
-&amp;quot;default.engine&amp;quot;:搜索引擎url列表(搜索词部分用%s代替)，供自动顺序搜索使用。
-&amp;quot;default.siteconf&amp;quot;:网站独立设置
-&amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
-&amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
-&amp;quot;home5.html&amp;quot;:自定义主屏
-&amp;quot;home5.search&amp;quot;:主屏搜索引擎
-&amp;quot;bookmark.html&amp;quot;:主书签
-&amp;quot;quickstart.html&amp;quot;:快速访问
-&amp;quot;colors.txt&amp;quot;:护眼背景色
-&amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式
-&amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
-&amp;quot;types.sniff&amp;quot;:嗅探类型
-&amp;quot;sniff.log&amp;quot;:嗅探结果
-&amp;quot;history.log&amp;quot;:访问历史
-&amp;quot;query.log&amp;quot;:查询历史
-应用内部保护目录(/data/data/info.torapp.uweb/files/):
-&amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
-    </item>
-    
-    <item>
       <title>html5应用</title>
       <link>https://jamesfengcao.gitee.io/uweb/html5/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/html5/</guid>
       <description>超微配置目录下的子目录名如果以&amp;quot;app&amp;quot;开始(譬如&amp;quot;/sdcard/uweb/appPDF&amp;quot;)，则这些&amp;quot;app&amp;quot;开头目录树下放置的html5应用将可获得功能增强。
+配置default.filecap并打开选项“文件预处理”，清后台重启浏览器后超微可直接阅读应用对应格式文件。
+点击配置pdf.js,djvu.js,epub.js reader
 比较有用的是mozilla的pdf.js，可用来显示在线或本地pdf文件。直接解压缩下载的pdf.js包至appXXX子目录下，并在超微浏览器下访问如下url:
 file:///sdcard/uweb/appXXX....../web/viewer.html?file=[绝对或相对路径].pdf#page=[xxx]
 则浏览器直接跳转到pdf文件指定页。与主屏多引擎搜索及少量脚本结合使用，可对任何pdf文件进行字典检索。
@@ -211,24 +233,6 @@ mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/. 配置/sdcard/uweb/default.
 seedr的问题是首次登录需要google人机验证，登录成功以后可以永久使用，无需小飞机辅助。
 以前偶尔飞飞一点问题也没有，毕竟1分钟飞行就可解决很长时间问题了。但目前的状态是信息基本被彻底封死，1分钟飞行也成了奢望。所以十分有必要珍惜这来之不易的1分钟飞行成果。
 现在直接上方案，使用超微浏览器多账号登录。飞行1分钟以后成功登录seedr, 此时退出浏览器，千万不能强退，一定要让运存中的登录信息写到内部存储。然后用户可备份应用内部目录下的.cjar文件，一旦浏览器失去登录状态，可恢复此文件，即可使用多账号登录重新登录，让这1分钟飞行成果保存下来，供万万年使用。需要注意的一点是：用户退出seedr账号会使保存的文件作废。故千万不要退出账号，需要用其它账号登录的请使用多账号登录。</description>
-    </item>
-    
-    <item>
-      <title>利用文件预处理预览/查看/播放一切可下载资源</title>
-      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
-      <description>技巧等级：中级
-文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
-[文件后缀]:[mimetype]:[处理命令]
-其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。
-mimetype表示命令处理后的输出内容格式。
-处理命令与default.cmds相同，主要可能用到如下替换：
-%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。
-利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。
-配置/sdcard/uweb/default.filecap如下：
-txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; doc::am start --user 0 -a android.intent.action.VIEW -d &#39;https://view.officeapps.live.com/op/view.aspx?src=%U&#39; xls::am start --user 0 -a android.intent.action.VIEW -d &#39;https://view.officeapps.live.com/op/view.aspx?src=%U&#39; ppt::am start --user 0 -a android.intent.action.VIEW -d &#39;https://view.officeapps.live.com/op/view.aspx?src=%U&#39; docx::am start --user 0 -a android.</description>
     </item>
     
     <item>

@@ -6,10 +6,30 @@
     <description>Recent content in termux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>利用文件预处理预览/查看/播放一切可下载资源</title>
+      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
+      <description>技巧等级：中级
+文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
+[文件后缀]:[mimetype]:[处理命令]
+其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。
+mimetype表示命令处理后的输出内容格式。
+处理命令与default.cmds相同，主要可能用到如下替换：
+%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。
+利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。
+配置/sdcard/uweb/default.filecap如下：
+txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; doc:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xls:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U ppt:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U docx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xlsx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U pptx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：
+pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///sdcard/uweb/app/djvu.html?url=%u epub:uweb:echo file:///sdcard/uweb/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。
+如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
+    </item>
     
     <item>
       <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
@@ -56,24 +76,6 @@ unzip /sdcard/Download/BaiduPCS-Go-v3.5.6-android-21-arm64.zip 移动解压后�
 mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/. 配置/sdcard/uweb/default.longclick如下：
 百度离线下载:termux/*:/data/data/com.termux/files/usr/bin/BaiduPCS-Go od add 重启超微浏览器，长按链接运行百度离线下载，发现百度网盘还没登录。本步骤会将BaiduPCS-Go设置为可运行程序。 termux下执行&amp;quot;BaiduPCS-Go login&amp;quot;登录百度网盘。再次长按链接完美运行百度离线下载。      离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
   </description>
-    </item>
-    
-    <item>
-      <title>利用文件预处理预览/查看/播放一切可下载资源</title>
-      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
-      <description>技巧等级：中级
-文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
-[文件后缀]:[mimetype]:[处理命令]
-其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。
-mimetype表示命令处理后的输出内容格式。
-处理命令与default.cmds相同，主要可能用到如下替换：
-%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。
-利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。
-配置/sdcard/uweb/default.filecap如下：
-txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; doc::am start --user 0 -a android.intent.action.VIEW -d &#39;https://view.officeapps.live.com/op/view.aspx?src=%U&#39; xls::am start --user 0 -a android.intent.action.VIEW -d &#39;https://view.officeapps.live.com/op/view.aspx?src=%U&#39; ppt::am start --user 0 -a android.intent.action.VIEW -d &#39;https://view.officeapps.live.com/op/view.aspx?src=%U&#39; docx::am start --user 0 -a android.</description>
     </item>
     
     <item>

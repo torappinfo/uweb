@@ -4,17 +4,37 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/_posts/</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/curl/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/tags/</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/termux/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/filecap/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/filenames/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,11 +53,6 @@
   </url>
   
   <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/filenames/</loc>
-    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesfengcao.gitee.io/uweb/html5/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url>
@@ -49,11 +64,6 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/tags/ssh/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/termux/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -77,10 +87,6 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/globalcss/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/curl/</loc>
   </url>
   
   <url>
@@ -109,10 +115,6 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/multiaccount/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/filecap/</loc>
   </url>
   
   <url>
