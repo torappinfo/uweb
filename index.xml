@@ -59,6 +59,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;default.link&amp;quot;:长按“书签”按钮配置
 &amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
 &amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
+&amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。
 &amp;quot;default.filecap&amp;quot;:文件特殊处理
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
 &amp;quot;default.engine&amp;quot;:搜索引擎url列表(搜索词部分用%s代替)，供自动顺序搜索使用。
@@ -74,8 +75,8 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
 &amp;quot;types.sniff&amp;quot;:嗅探类型
 &amp;quot;sniff.log&amp;quot;:嗅探结果
-&amp;quot;history.log&amp;quot;:访问历史
-&amp;quot;query.log&amp;quot;:查询历史
+&amp;quot;history.rec&amp;quot;:访问历史
+&amp;quot;query.rec&amp;quot;:查询历史
 应用内部保护目录(/data/data/info.torapp.uweb/files/):
 &amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
     </item>
@@ -545,8 +546,9 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
 点击安装站内搜索、背景图、新窗口打开链接、移除覆盖物等
 远程脚本配置文件/sdcard/uweb/default.rjs示例如下：
 彩云小译:&#39;https://caiyunapp.com/dest/trs.js&#39; 移除覆盖物:&#39;https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js&#39; 新窗口打开链接:&#39;&#39;;{d=document,b=d.createElement(&#39;base&#39;);b.setAttribute(&#39;target&#39;,&#39;_blank&#39;);d.head.appendChild(b);} google translate:&#39;https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit&#39;;b=d.body;v=d.createElement(&#39;div&#39;);v.id=&#39;google_translate_element&#39;;v.style.display=&#39;none&#39;;b.insertBefore(v,b.firstChild);p=d.createElement(&#39;script&#39;);p.text=&#34;function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: &#39;auto&#39;,includedLanguages:&#39;zh-CN,zh-TW,en&#39;},&#39;google_translate_element&#39;);}&#34;;p.type=&#39;text/javascript&#39;;b.appendChild(p)  default.rjs每行格式如下 (url部分支持js代码运算)：
-[远程脚本名]:[返回字符串的javascript代码]
-重启浏览器，长按搜索按钮，则弹出远程脚本菜单。</description>
+[远程脚本名]:[返回js脚本url的javascript代码]
+其中js脚本url可以为本地html5应用脚本地址。譬如&#39;file:///sdcard/uweb/app[XXX]/....../[XXX].js&#39;。
+清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单。</description>
     </item>
     
     <item>

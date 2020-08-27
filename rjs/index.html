@@ -36,8 +36,9 @@
 google translate:'https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style.display='none';b.insertBefore(v,b.firstChild);p=d.createElement('script');p.text="function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: 'auto',includedLanguages:'zh-CN,zh-TW,en'},'google_translate_element');}";p.type='text/javascript';b.appendChild(p)
 </pre>
 <p>default.rjs每行格式如下 (url部分支持js代码运算)：<br>
-[远程脚本名]:[返回字符串的javascript代码]</p>
-<p>重启浏览器，长按搜索按钮，则弹出远程脚本菜单。</p>
+[远程脚本名]:[返回js脚本url的javascript代码]</p>
+<p>其中js脚本url可以为<a href="../html5">本地html5应用</a>脚本地址。譬如'file:///sdcard/uweb/app[XXX]/....../[XXX].js'。<br>
+清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单。</p>
 
 </div>
 
