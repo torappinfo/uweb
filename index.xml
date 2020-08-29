@@ -66,7 +66,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;default.siteconf&amp;quot;:网站独立设置
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
-&amp;quot;home5.html&amp;quot;:自定义主屏
+&amp;quot;home5.html&amp;quot;:自定义主屏，html6.html, html6.search, html7.html ... 多主屏（前进按钮可进）
 &amp;quot;home5.search&amp;quot;:主屏搜索引擎
 &amp;quot;bookmark.html&amp;quot;:主书签
 &amp;quot;quickstart.html&amp;quot;:快速访问
@@ -99,7 +99,11 @@ default.gesture及default.button文件采用了完全一样的格式。.gesture�
 httpproxy::010[proxy host]:[port]
 socks5::011[socks host]:[port]
 noproxy::010:
-点击安装Cookie延期等</description>
+点击安装Cookie延期等
+&amp;quot;i:&amp;quot;内部链接：
+i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
+读取第三方应用输入。
+譬如访问如下url: &amp;quot;i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity&amp;quot; 则使用via二维码扫描器。其它扫描器也都可以使用，只需要把上面的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</description>
     </item>
     
     <item>
@@ -124,9 +128,16 @@ noproxy::010:
 比较有用的是mozilla的pdf.js，可用来显示在线或本地pdf文件。直接解压缩下载的pdf.js包至appXXX子目录下，并在超微浏览器下访问如下url:
 file:///sdcard/uweb/appXXX....../web/viewer.html?file=[绝对或相对路径].pdf#page=[xxx]
 则浏览器直接跳转到pdf文件指定页。与主屏多引擎搜索及少量脚本结合使用，可对任何pdf文件进行字典检索。
-下面是一些类似的应用，
+下面是一些类似的应用：
 djvu.js应用的访问url如下：
-file:///sdcard/uweb/appXXX....../djvu.html?url=[绝对或相对路径或url].pdf#page=[xxx]</description>
+file:///sdcard/uweb/appXXX....../djvu.html?url=[绝对或相对路径或url].pdf#page=[xxx]
+epub.js
+sampotts/plyr : video, YouTube and Vimeo player
+videojs/video.js
+bilibili/flv.js
+MoePlayer/DPlayer
+Streamedian/html5_rtsp_player
+MoePlayer/APlayer : music player</description>
     </item>
     
     <item>
@@ -139,7 +150,10 @@ file:///sdcard/uweb/appXXX....../djvu.html?url=[绝对或相对路径或url].pdf
 紧靠工具条左右划动切换当前窗口; 左右大幅度划动切换到第一或最后一个窗口。
 起点终点紧靠地址栏划动操作调用&amp;quot;default.gesture&amp;quot;文件中对应链接。文件格式与文件default.link完全相同。每行第一部分为助记名，第二部分为链接。手势操作对应方式如下：
  将屏幕宽度平分为三部分，分别对应数字0,1,2 将终点对应的屏幕数字加上起点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。
-超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推）  </description>
+超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推）  常用操作链接：
+back:javascript:history.back()
+forward:javascript:history.forward()
+back2:javascript:history.go(-2)</description>
     </item>
     
     <item>
