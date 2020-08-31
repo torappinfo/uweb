@@ -62,7 +62,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。
 &amp;quot;default.filecap&amp;quot;:文件特殊处理
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
-&amp;quot;default.engine&amp;quot;:搜索引擎url列表(搜索词部分用%s代替)，供自动顺序搜索使用。
+&amp;quot;default.engine&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
 &amp;quot;default.siteconf&amp;quot;:网站独立设置
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
@@ -365,7 +365,7 @@ ad.xiaomi.com</description>
       <guid>https://jamesfengcao.gitee.io/uweb/bookmarklet/</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
 查看浏览器UA
-&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
+&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(html))})()&#34;网页源码
 maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
 切换复选框状态
 解除选择复制限制（无效时可设UA为PC）
