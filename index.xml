@@ -58,6 +58,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
 &amp;quot;default.link&amp;quot;:长按“书签”按钮配置
 &amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
+&amp;quot;default.gesture2&amp;quot;:右边缘手势操作，类似default.gesture。
 &amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
 &amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。
 &amp;quot;default.filecap&amp;quot;:文件特殊处理
@@ -150,7 +151,8 @@ MoePlayer/APlayer : music player</description>
 紧靠工具条左右划动切换当前窗口; 左右大幅度划动切换到第一或最后一个窗口。
 起点终点紧靠地址栏划动操作调用&amp;quot;default.gesture&amp;quot;文件中对应链接。文件格式与文件default.link完全相同。每行第一部分为助记名，第二部分为链接。手势操作对应方式如下：
  将屏幕宽度平分为三部分，分别对应数字0,1,2 将终点对应的屏幕数字加上起点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。
-超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推）  常用操作链接：
+超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推）  右边缘划动操作调用&amp;quot;default.gesture2&amp;quot;文件中对应链接。对应方法同&amp;quot;default.gesture&amp;quot;。
+常用操作链接：
 back:javascript:history.back()
 forward:javascript:history.forward()
 back2:javascript:history.go(-2)</description>
@@ -365,7 +367,7 @@ ad.xiaomi.com</description>
       <guid>https://jamesfengcao.gitee.io/uweb/bookmarklet/</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
 查看浏览器UA
-&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(html))})()&#34;网页源码
+&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
 maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
 切换复选框状态
 解除选择复制限制（无效时可设UA为PC）
