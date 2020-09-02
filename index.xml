@@ -64,7 +64,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;default.filecap&amp;quot;:文件特殊处理
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
 &amp;quot;default.engine&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
-&amp;quot;default.siteconf&amp;quot;:网站独立设置
+&amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方js、当前激活脚本。
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
 &amp;quot;home5.html&amp;quot;:自定义主屏，html6.html, html6.search, html7.html ... 多主屏（前进按钮可进）
