@@ -550,24 +550,6 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
     </item>
     
     <item>
-      <title>运行javascript脚本</title>
-      <link>https://jamesfengcao.gitee.io/uweb/rjs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/rjs/</guid>
-      <description>uweb浏览器支持运行本地及远程javascript脚本。
-大型脚本可安装到&amp;quot;/sdcard/uweb/bookmarklet&amp;quot;目录下：
-彩云小译
-远程及小型脚本可安装到default.rjs文件中：
-点击安装站内搜索、背景图、新窗口打开链接、移除覆盖物等
-远程脚本配置文件/sdcard/uweb/default.rjs示例如下：
-彩云小译:&#39;https://caiyunapp.com/dest/trs.js&#39; 移除覆盖物:&#39;https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js&#39; 新窗口打开链接:&#39;&#39;;{d=document,b=d.createElement(&#39;base&#39;);b.setAttribute(&#39;target&#39;,&#39;_blank&#39;);d.head.appendChild(b);} google translate:&#39;https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit&#39;;b=d.body;v=d.createElement(&#39;div&#39;);v.id=&#39;google_translate_element&#39;;v.style.display=&#39;none&#39;;b.insertBefore(v,b.firstChild);p=d.createElement(&#39;script&#39;);p.text=&#34;function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: &#39;auto&#39;,includedLanguages:&#39;zh-CN,zh-TW,en&#39;},&#39;google_translate_element&#39;);}&#34;;p.type=&#39;text/javascript&#39;;b.appendChild(p)  default.rjs每行格式如下 (url部分支持js代码运算)：
-[远程脚本名]:[返回js脚本url的javascript代码]
-其中js脚本url可以为本地html5应用脚本地址。譬如&#39;file:///sdcard/uweb/app[XXX]/....../[XXX].js&#39;。
-清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单。</description>
-    </item>
-    
-    <item>
       <title>配置浏览器地址栏作为超级计算器(bc)</title>
       <link>https://jamesfengcao.gitee.io/uweb/bc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

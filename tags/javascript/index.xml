@@ -39,23 +39,5 @@ nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(table
  与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到/sdcard/uweb/sitecss目录下。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“/sdcard/uweb/default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。  </description>
     </item>
     
-    <item>
-      <title>运行javascript脚本</title>
-      <link>https://jamesfengcao.gitee.io/uweb/rjs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/rjs/</guid>
-      <description>uweb浏览器支持运行本地及远程javascript脚本。
-大型脚本可安装到&amp;quot;/sdcard/uweb/bookmarklet&amp;quot;目录下：
-彩云小译
-远程及小型脚本可安装到default.rjs文件中：
-点击安装站内搜索、背景图、新窗口打开链接、移除覆盖物等
-远程脚本配置文件/sdcard/uweb/default.rjs示例如下：
-彩云小译:&#39;https://caiyunapp.com/dest/trs.js&#39; 移除覆盖物:&#39;https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js&#39; 新窗口打开链接:&#39;&#39;;{d=document,b=d.createElement(&#39;base&#39;);b.setAttribute(&#39;target&#39;,&#39;_blank&#39;);d.head.appendChild(b);} google translate:&#39;https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit&#39;;b=d.body;v=d.createElement(&#39;div&#39;);v.id=&#39;google_translate_element&#39;;v.style.display=&#39;none&#39;;b.insertBefore(v,b.firstChild);p=d.createElement(&#39;script&#39;);p.text=&#34;function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: &#39;auto&#39;,includedLanguages:&#39;zh-CN,zh-TW,en&#39;},&#39;google_translate_element&#39;);}&#34;;p.type=&#39;text/javascript&#39;;b.appendChild(p)  default.rjs每行格式如下 (url部分支持js代码运算)：
-[远程脚本名]:[返回js脚本url的javascript代码]
-其中js脚本url可以为本地html5应用脚本地址。譬如&#39;file:///sdcard/uweb/app[XXX]/....../[XXX].js&#39;。
-清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单。</description>
-    </item>
-    
   </channel>
 </rss>
