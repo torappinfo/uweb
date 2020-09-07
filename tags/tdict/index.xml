@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tdict on </title>
+    <link>https://jamesfengcao.gitee.io/uweb/tags/tdict/</link>
+    <description>Recent content in tdict on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/tdict/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>工具汇总</title>
+      <link>https://jamesfengcao.gitee.io/uweb/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/tools/</guid>
+      <description>除少数特别标记外，需先安装uweb定制Termux应用，并启动一次完成初始化。
+点击自动安装tdict词典工具
+安装完tdict词典工具以后，对/sdcrd/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
+汉语大字典:c:zd xz %s dictXXX
+字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
+插件页面也提供了词典方案，但手动配置会比较麻烦。</description>
+    </item>
+    
+  </channel>
+</rss>
