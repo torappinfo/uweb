@@ -4,20 +4,18 @@
 <p>点击以下链接自动安装远程脚本 (清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单)：<br>
 
 
-<a href="i:04彩云小译:'https://caiyunapp.com/dest/trs.js'">彩云小译:'https://caiyunapp.com/dest/trs.js'</a><br>
-<a href="i:04移除覆盖物:'https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js'">移除覆盖物:'https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js'</a><br>
-<a href="i:04显示数学公式:'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'">显示数学公式:'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'</a><br>
-<a href="i:04md内容的html文件显示:'https://cdn.jsdelivr.net/npm/mdme'">md内容的html文件显示:'https://cdn.jsdelivr.net/npm/mdme'</a><br>
-<a href="i:04md+tex内容的html文件:'https://cdn.jsdelivr.net/npm/texme'">md+tex内容的html文件:'https://cdn.jsdelivr.net/npm/texme'</a><br>
-<a href="i:04编辑器拼写检查:'';let t=d.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v">编辑器拼写检查:'';let t=d.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v</a><br>
+<a href="i:04彩云小译:'https://caiyunapp.com/dest/trs.js'">彩云小译:'https://caiyunapp.com/dest/trs.js'</a><br><br>
+<a href="i:04移除覆盖物:'https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js'">移除覆盖物:'https://jamesfengcao.gitee.io/uweb/searchurl/bml/content/rmo.js'</a><br><br>
+<a href="i:04显示数学公式:'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'">显示数学公式:'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'</a><br><br>
+<a href="i:04md内容的html文件显示:'https://cdn.jsdelivr.net/npm/mdme'">md内容的html文件显示:'https://cdn.jsdelivr.net/npm/mdme'</a><br><br>
+<a href="i:04md+tex内容的html文件:'https://cdn.jsdelivr.net/npm/texme'">md+tex内容的html文件:'https://cdn.jsdelivr.net/npm/texme'</a><br><br>
+<a href="i:04新窗口打开链接:'';b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)">新窗口打开链接:'';b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)</a><br><br>
+<a href="i:04站内搜索:'';open('i:15site:' + location.hostname)">站内搜索:'';open('i:15site:' + location.hostname)</a><br><br>
+<a href="i:04编辑器拼写检查:'';let t=d.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v">编辑器拼写检查:'';let t=d.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v</a><br><br>
 </p>
-<p><a href="..">uweb浏览器</a>支持运行本地及远程javascript脚本。<br><b>大型脚本可安装到&quot;/sdcard/uweb/bookmarklet&quot;目录下（长按js按钮）：</b><br><a target="_self" href="i:0h/sdcard/uweb/bookmarklet/彩云小译.js:https://caiyunapp.com/dest/trs.js">彩云小译</a></p>
-<p><b>远程及小型脚本可安装到default.rjs文件中：</b><br><a target="_self" href="i:0g/sdcard/uweb/default.rjs:https://jamesfengcao.gitee.io/uweb/searchurl/txt/rjs.cfg">点击安装站内搜索、背景图、新窗口打开链接等</a></p>
-<p><b>远程脚本配置文件/sdcard/uweb/default.rjs示例如下：</b>
-<pre>新窗口打开链接:'';{d=document,b=d.createElement('base');b.setAttribute('target','<em>blank');d.head.appendChild(b);}
-google translate:'https://translate.google.cn/translate</em>a/element.js?cb=googleTranslateElementInit';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style.display='none';b.insertBefore(v,b.firstChild);p=d.createElement('script');p.text="function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: 'auto',includedLanguages:'zh-CN,zh-TW,en'},'google_translate_element');}";p.type='text/javascript';b.appendChild(p)
-</pre></p>
-<p>default.rjs每行格式如下 (url部分支持js代码运算)：<br>[远程脚本名]:[返回js脚本url的javascript代码]</p>
+<p><a href="..">uweb浏览器</a>支持运行本地及远程javascript脚本。<br>大型脚本可安装到&quot;/sdcard/uweb/bookmarklet&quot;目录下（长按js按钮）：<br><a target="_self" href="i:0h/sdcard/uweb/bookmarklet/彩云小译.js:https://caiyunapp.com/dest/trs.js">彩云小译</a></p>
+<p>远程及小型脚本可安装到default.rjs文件中：<br><a target="_self" href="i:0g/sdcard/uweb/default.rjs:https://jamesfengcao.gitee.io/uweb/searchurl/txt/rjs.cfg">点击安装google翻译、背景图等</a></p>
+<p>远程脚本配置文件/sdcard/uweb/default.rjs每行格式如下 (url部分支持js代码运算)：<br>[远程脚本名]:[返回js脚本url的javascript代码]</p>
 <p>其中js脚本url可以为<a href="../html5">本地html5应用</a>脚本地址。譬如&#39;file:///sdcard/uweb/app[XXX]/....../[XXX].js&#39;。此时，js脚本也可使用<a href="../links">.link文件</a>方式调用。</p>
 
 
