@@ -104,7 +104,9 @@ noproxy::010:
 &amp;quot;i:&amp;quot;内部链接：
 i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
 读取第三方应用输入。
-譬如访问如下url: &amp;quot;i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity&amp;quot; 则使用via二维码扫描器。其它扫描器也都可以使用，只需要把上面的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</description>
+譬如访问如下url: &amp;quot;i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity&amp;quot; 则使用via二维码扫描器。其它扫描器也都可以使用，只需要把上面的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
+i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity
+i:16uweb:android.intent.action.VIEW:com.tencent.mm:?</description>
     </item>
     
     <item>
@@ -387,7 +389,7 @@ nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(table
 安装完tdict词典工具以后，对/sdcrd/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
 汉语大字典:c:zd xz %s dictXXX
 字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
-插件页面也提供了词典方案，但手动配置会比较麻烦。</description>
+插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
     </item>
     
     <item>
