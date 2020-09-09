@@ -88,7 +88,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
-      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中。每行格式如下：
+      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
 其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
 脚本将在链接访问结束时自动执行。
@@ -104,9 +104,8 @@ noproxy::010:
 &amp;quot;i:&amp;quot;内部链接：
 i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
 读取第三方应用输入。
-譬如访问如下url: &amp;quot;i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity&amp;quot; 则使用via二维码扫描器。其它扫描器也都可以使用，只需要把上面的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
-i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity
-i:16uweb:android.intent.action.VIEW:com.tencent.mm:?</description>
+点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
+点击安装酷安扫描至常用链接</description>
     </item>
     
     <item>

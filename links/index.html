@@ -23,7 +23,7 @@
   <ul class="tags">
     
   </ul>
-  <p><a href="..">uweb浏览器</a>中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&quot;default.link&quot;中。每行格式如下：<br>
+  <p><a href="..">uweb浏览器</a>中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&quot;default.link&quot;中，改动过的文件清后台重启动后生效。。每行格式如下：<br>
 [菜单名]:[url][空格][javascript脚本]<br>
 其中空格及之后的脚本为可选项。url及之后的脚本支持<a href="../cmd">&quot;%u&quot;,&quot;%s&quot;等替换</a>。<br>
 脚本将在链接访问结束时自动执行。</p>
@@ -39,9 +39,8 @@ noproxy::010:</p>
 <p>&quot;i:&quot;内部链接：<br>
 i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
 读取第三方应用输入。<br>
-譬如访问如下url: &quot;i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity&quot; 则使用via二维码扫描器。其它扫描器也都可以使用，只需要把上面的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</p>
-<p>i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity</p>
-<p>i:16uweb:android.intent.action.VIEW:com.tencent.mm:?</p>
+点击安装<a href="i:51i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</p>
+<p>点击安装<a href="i:51i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a>至常用链接</p>
 
 </div>
 
