@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <link rel="stylesheet" href="https://jamesfengcao.gitee.io/uweb/style.css" type="text/css" />
-    <title>操作选中（富）文本</title>
+    <title>操作选中（富）文本／元素</title>
   </head>
   <body>
     <header class='header'>
@@ -16,7 +16,7 @@
     <br />
     
 <div class="container">
-  <h1 class="title">操作选中（富）文本
+  <h1 class="title">操作选中（富）文本／元素
     <br>
     <span class="subtitle"></span>
   </h1>
@@ -34,13 +34,14 @@
     
   </ul>
   <p>技巧等级：笔记(中级) PC剪贴板(高级)</p>
-<p>配置文件&quot;/sdcard/uweb/default.select&quot;定义了<a href="..">超微浏览器</a>对选中（富）文本进行的操作。每行格式如下：<br>
+<p>配置文件&quot;/sdcard/uweb/default.select&quot;定义了<a href="..">超微浏览器</a>对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：<br>
 &lt;菜单名&gt;:<mimetype>:&lt;命令行&gt;</p>
 <p>选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。<br>
-mimetype用来表示命令的输入输出类型。格式为&quot;&lt;输入mimetype&gt;/&lt;输出mimetype&gt;&quot;，&lt;输入mimetype&gt;可为&quot;html&quot;或空（txt格式）; 输出可为标准的mimetype或超微特殊扩充。如：<br>
+mimetype用来表示命令的输入输出类型。格式为&quot;&lt;输入mimetype&gt;/&lt;输出mimetype&gt;&quot;，&lt;输入mimetype&gt;可为&quot;html&quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：<br>
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 /uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。<br>
-/termux: 命令运行结果将作为termux下命令运行。</p>
+/termux: 命令运行结果将作为termux下命令运行。<br>
+<a target="_self" href="i:0g/sdcard/uweb/check.js:https://jamesfengcao.gitee.io/uweb/searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。</p>
 <p><a target="_self" href="i:0g/sdcard/uweb/default.select:https://jamesfengcao.gitee.io/uweb/searchurl/txt/select.cfg">点击安装&quot;保存文本&quot;等</a></p>
 <p>配置/sdcard/uweb/default.select如下：<br>
 复制文本到地址栏:uweb:echo i:15`cat`<br>

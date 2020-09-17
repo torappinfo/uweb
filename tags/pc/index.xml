@@ -5,25 +5,22 @@
     <link>https://jamesfengcao.gitee.io/uweb/tags/pc/</link>
     <description>Recent content in PC on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/pc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/pc/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>操作选中（富）文本</title>
+      <title>操作选中（富）文本／元素</title>
       <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
-配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本进行的操作。每行格式如下：
+配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
 &amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
 选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
-mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）; 输出可为标准的mimetype或超微特殊扩充。如：
+mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
 /termux: 命令运行结果将作为termux下命令运行。
+checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。
 点击安装&amp;quot;保存文本&amp;quot;等
 配置/sdcard/uweb/default.select如下：
 复制文本到地址栏:uweb:echo i:15`cat`

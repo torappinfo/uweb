@@ -5,11 +5,7 @@
     <link>https://jamesfengcao.gitee.io/uweb/tags/css/</link>
     <description>Recent content in css on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://jamesfengcao.gitee.io/uweb/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用用户自定义样式屏蔽广告</title>
       <link>https://jamesfengcao.gitee.io/uweb/adblock_css/</link>
