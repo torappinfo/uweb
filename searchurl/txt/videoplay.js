@@ -232,13 +232,14 @@ function create_control_panel() {
     div.append.apply(div, content_divs);
 
     div.style.cssText = `
-    width: 100%;
+    width: 50%;
     height: 100%;
     margin: 0;
     padding: 0;
     position: absolute;
     z-index: 9999999999;
     top: 0;
+    left: 30%;
     background-color: rgba(51, 51, 51, 0.8);
     color: white;
     box-sizing: border-box;
@@ -585,18 +586,24 @@ const hook_video_control = hook => {
     };
 
     speed_div.addEventListener('tap', throttle(e => {
-        e.stopImmediatePropagation();
-        clear_content();
-        const split = video.playbackRate.toString().split('.');
-        control.content_divs[0].innerText = split[0];
-        control.content_divs[1].innerText = '.';
-        control.content_divs[2].innerText = (split[1] || '00').split('')[0] || 0;
-        control.content_divs[3].innerText = (split[1] || '00').split('')[1] || 0;
-        control.content_divs[4].innerText = 'x';
-        modifier = speed_modifier;
-        set_content_tap_fn(speed_activate);
-        control.display();
-        wrap.style.pointerEvents = 'auto';
+      e.stopImmediatePropagation();
+      clear_content();
+      if(control.div.style != 'none'){
+        if(window.playbackRate>=2.0) window.playbackRate=0.5;
+        else if(window.playbackRate<=0.5) window.playbackRate=1.0;
+        else window.playbackRate=2.0;
+      }else
+        window.playbackRate = video.playbackRate;
+      const split = window.playbackRate.toString().split('.');
+      control.content_divs[0].innerText = split[0];
+      control.content_divs[1].innerText = '.';
+      control.content_divs[2].innerText = (split[1] || '00').split('')[0] || 0;
+      control.content_divs[3].innerText = (split[1] || '00').split('')[1] || 0;
+      control.content_divs[4].innerText = 'x';
+      modifier = speed_modifier;
+      set_content_tap_fn(speed_activate);
+      control.display();
+      wrap.style.pointerEvents = 'auto';
     }, 500));
 
     jump_div.addEventListener('tap', throttle(e => {
