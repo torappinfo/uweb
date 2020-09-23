@@ -70,6 +70,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;colors.txt&amp;quot;:护眼背景色
 &amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式
 &amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
+&amp;quot;videoplayer.js&amp;quot;:用户定义视频播放
 &amp;quot;types.sniff&amp;quot;:嗅探类型
 &amp;quot;sniff.log&amp;quot;:嗅探结果
 &amp;quot;history.rec&amp;quot;:访问历史
@@ -410,6 +411,7 @@ checked.js: 运行配置目录下checked.js，其返回值作为命令行标准�
 命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
 复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
 复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
 如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
 此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
 重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
@@ -557,6 +559,7 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
       
       <guid>https://jamesfengcao.gitee.io/uweb/video/</guid>
       <description>本文以超微浏览器为例来说明。
+点击安装&amp;quot;视频播放增强(倍速等)&amp;quot;
  长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切广告。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么广告。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现广告占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动广告”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切广告。方法如下：  长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。   对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切广告：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。  视频搜索预配置(超过400个引擎)
 视频资源：
  视频解析配置 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播  </description>

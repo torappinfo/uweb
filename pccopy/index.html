@@ -49,7 +49,8 @@ html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 富文本笔记:html:(cat;echo '&lt;p&gt;&lt;/p&gt;';echo;)&gt;&gt;notes.html<br>
 命名笔记::(cat;echo;echo;)&gt;&gt;%s<br>
 复制至PC剪贴板::ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 xsel -i&quot;<br>
-复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 xsel -i&quot;</p>
+复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 xsel -i&quot;<br>
+复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done</p>
 <p>如使用剪贴板功能手机需安装uweb定制<a href="../pcdown">Termux</a>，并在termux下安装openssl。<br>
 此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。</p>
 <p>重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。</p>

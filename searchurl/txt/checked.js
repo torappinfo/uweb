@@ -4,9 +4,8 @@
  for(let i=0;i<ea.length;i++){
    let sibling = ea[i].nextElementSibling;
    if(sibling==null) sibling=ea[i].previousElementSibling;
-   let str = sibling.alt;
-   if(null==str) str=sibling.src;
-   if(null==str) str=sibling.href;
+   let str = sibling.getAttribute("href");
+   if(null==str) str=sibling.getAttribute("src");
    s = s+str+"\n";
  }
  return s;
