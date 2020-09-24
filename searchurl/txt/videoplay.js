@@ -41,14 +41,28 @@ function is_same_size_position(ele1, ele2) {
   function find_top_wrap_ele(ele) {
     let origE = ele;
     let wrap = ele;
-    while (ele.tagName !== 'BODY') {
+    do {
       ele = ele.parentElement;
       if (is_same_size_position(wrap, ele)) {
         wrap = ele;
       }
+    }while (ele.tagName !== 'BODY');
+    
+    if(wrap == origE) {
+      wrap = document.createElement('div');
+      origE.parentElement.insertBefore(wrap, origE);
+      wrap.append(origE);
     }
-    if(wrap == origE) wrap = origE.parentElement;
     return wrap;
+  }
+
+  function fullscreen2Element(ele) {
+    if (document.fullscreen) {
+      let curFS = document.fullscreenElement;
+      if(curFS.tagName === 'VIDEO') {
+        document.exitFullscreen();
+      }
+    }
   }
 
 function is_parent(ele, parent) {
@@ -289,10 +303,10 @@ const get_video_touch_hook = (video, e) => {
 
     let start_x, start_time;
     const touch_start = e => {
-        start_x = e.touches[0].screenX;
-        start_time = video.currentTime;
-
-        hook_fn.start.forEach(fn => fn(e, start_time));
+      start_x = e.touches[0].screenX;
+      start_time = video.currentTime;
+      
+      hook_fn.start.forEach(fn => fn(e, start_time));
     };
     if (e) {
         setTimeout(touch_start, 0, e);
@@ -304,6 +318,7 @@ const get_video_touch_hook = (video, e) => {
         const time_length = px2cm(x_distance_px) * (this.sec_1cm || 1);
 
         hook_fn.move.forEach(fn => fn(e, start_time, x_distance_px, time_length));
+        fullscreen2Element(top_wrap);
     };
 
     const touch_end = e => {
