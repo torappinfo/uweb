@@ -38,16 +38,18 @@ function is_same_size_position(ele1, ele2) {
     }
 }
 
-function find_top_wrap_ele(ele) {
+  function find_top_wrap_ele(ele) {
+    let origE = ele;
     let wrap = ele;
     while (ele.tagName !== 'BODY') {
-        ele = ele.parentElement;
-        if (is_same_size_position(wrap, ele)) {
-            wrap = ele;
-        }
+      ele = ele.parentElement;
+      if (is_same_size_position(wrap, ele)) {
+        wrap = ele;
+      }
     }
+    if(wrap == origE) wrap = origE.parentElement;
     return wrap;
-}
+  }
 
 function is_parent(ele, parent) {
     while (ele.tagName !== 'BODY' &&
