@@ -605,12 +605,11 @@ const hook_video_control = hook => {
     speed_div.addEventListener('tap', throttle(e => {
       e.stopImmediatePropagation();
       clear_content();
-      if(control.div.style != 'none'){
-        if(window.playbackRate>=2.0) window.playbackRate=0.5;
-        else if(window.playbackRate<=0.5) window.playbackRate=1.0;
-        else window.playbackRate=2.0;
-      }else
-        window.playbackRate = video.playbackRate;
+
+      if(window.playbackRate>=2.0) window.playbackRate=0.5;
+      else if(window.playbackRate<=0.5) window.playbackRate=1.0;
+      else window.playbackRate=2.0;
+      
       const split = window.playbackRate.toString().split('.');
       control.content_divs[0].innerText = split[0];
       control.content_divs[1].innerText = '.';
@@ -624,9 +623,18 @@ const hook_video_control = hook => {
     }, 500));
 
     jump_div.addEventListener('tap', throttle(e => {
-        e.stopImmediatePropagation();
-        clear_content();
-        const time = sec2HHMMSS(video.currentTime);
+      e.stopImmediatePropagation();
+      clear_content();
+      
+      if(control.div.style.display === 'none')
+        window.playbackPos = video.currentTime;
+      else {
+        if(!window.playbackPos)
+          window.playbackPos = video.currentTime;
+        window.playbackPos += 180;
+      }
+      
+        const time = sec2HHMMSS(window.playbackPos);
         const split = time.split(':');
         if (split.length < 3) {
             split.unshift('00');
