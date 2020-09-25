@@ -99,6 +99,7 @@ socks5::011[socks host]:[port]
 noproxy::010:
 点击安装Cookie延期等
 &amp;quot;i:&amp;quot;内部链接：
+点击安装笔记菜单
 i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
 读取第三方应用输入。
 点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
