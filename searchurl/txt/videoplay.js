@@ -1,6 +1,5 @@
 (function(){
 /* lib begin */
-
 function debounce(fn, ms = 0) {
     let timeoutId;
     return function(...args) {
@@ -71,16 +70,6 @@ function is_parent(ele, parent) {
         ele = ele.parentElement;
     }
     return ele.parentElement === parent;
-}
-
-function flatten(array) {
-    if (!Array.isArray(array)) {
-        return [array];
-    } else if (array.length == 0) {
-        return [];
-    } else {
-        return flatten(array[0]).concat(flatten(array.slice(1)));
-    }
 }
 
 function zero_padding(number, length = 2) {
@@ -656,29 +645,6 @@ const hook_video_control = hook => {
     });
 };
 
-function get_frames(window) {
-    const frames = [window];
-    for (let i = 0; i < window.frames.length; i++) {
-        try {
-            window.frames[i].document;
-        } catch {
-            continue;
-        }
-
-        frames.push(...get_frames(window.frames[i]))
-    }
-    return frames;
-}
-
-function get_videos() {
-    const frames = get_frames(window);
-    const frame_video = frame => Array.from(frame.document.querySelectorAll('video'));
-    const shadow = frame => Array.from(frame.document.querySelectorAll("shadow-output"));
-    const shadow_video = shadow => Array.from(shadow.shadowRoot.querySelectorAll("video"));
-    return flatten(frames.map(frame_video)
-                   .concat(frames.map(f => shadow(f).map(shadow_video))));
-}
-
 function find_hook(video) {
     window.__hook_video__ = window.__hook_video__ || [];
     const exist_video = window.__hook_video__.find(v => v.video === video);
@@ -712,5 +678,44 @@ const hook_video = (video) => {
     }
 };
 
-get_videos().forEach(hook_video);
+  let videos;
+  if (document.fullscreen) {
+    videos = document.fullscreenElement.querySelectorAll('video');
+  }else { 
+    function get_frames(window) {
+      const frames = [window];
+      for (let i = 0; i < window.frames.length; i++) {
+        try {
+          window.frames[i].document;
+        } catch {
+          continue;
+        }
+
+        frames.push(...get_frames(window.frames[i]))
+      }
+      return frames;
+    }
+
+    function flatten(array) {
+      if (!Array.isArray(array)) {
+        return [array];
+      } else if (array.length == 0) {
+        return [];
+      } else {
+        return flatten(array[0]).concat(flatten(array.slice(1)));
+      }
+    }
+
+    function get_videos() {
+      const frames = get_frames(window);
+      const frame_video = frame => Array.from(frame.document.querySelectorAll('video'));
+      const shadow = frame => Array.from(frame.document.querySelectorAll("shadow-output"));
+      const shadow_video = shadow => Array.from(shadow.shadowRoot.querySelectorAll("video"));
+      return flatten(frames.map(frame_video)
+                     .concat(frames.map(f => shadow(f).map(shadow_video))));
+    }
+    videos = get_videos();
+  }
+
+  videos.forEach(hook_video);
 })()

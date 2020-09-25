@@ -70,7 +70,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;colors.txt&amp;quot;:护眼背景色
 &amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式
 &amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
-&amp;quot;videoplayer.js&amp;quot;:用户定义视频播放
+&amp;quot;bookmarklet/videoplayer.js&amp;quot;:用户定义视频播放
 &amp;quot;types.sniff&amp;quot;:嗅探类型
 &amp;quot;sniff.log&amp;quot;:嗅探结果
 &amp;quot;history.rec&amp;quot;:访问历史
