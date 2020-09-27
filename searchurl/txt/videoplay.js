@@ -1,4 +1,8 @@
-(function(){
+if(window.__videoplayer_enhancer__){
+  window.__videoplayer_enhancer__();
+  throw '';
+}else{
+window.__videoplayer_enhancer__ = function(){
 /* lib begin */
 function debounce(fn, ms = 0) {
     let timeoutId;
@@ -296,6 +300,8 @@ const get_video_touch_hook = (video, e) => {
       start_time = video.currentTime;
       
       hook_fn.start.forEach(fn => fn(e, start_time));
+      //window.playbackRate = video.playbackRate;
+      //video.playbackRate = 4.0;
     };
     if (e) {
         setTimeout(touch_start, 0, e);
@@ -310,9 +316,15 @@ const get_video_touch_hook = (video, e) => {
         fullscreen2Element(top_wrap);
     };
 
-    const touch_end = e => {
-        hook_fn.end.forEach(fn => fn(e));
-    };
+  const touch_end = e => {
+    hook_fn.end.forEach(fn => fn(e));
+    /*
+    video.playbackRate = window.playbackRate;
+    const end_x = e.changedTouches[0].pageX;
+    if(!(end_x - start_x === 0 ))
+      fullscreen2Element(top_wrap);
+    */
+  };
 
     top_wrap.addEventListener('touchstart', touch_start, { passive: false });
     top_wrap.addEventListener('touchmove', touch_move, { passive: false });
@@ -596,8 +608,10 @@ const hook_video_control = hook => {
       clear_content();
 
       if(window.playbackRate>=2.0) window.playbackRate=0.5;
-      else if(window.playbackRate<=0.5) window.playbackRate=1.0;
-      else window.playbackRate=2.0;
+      else if(window.playbackRate<1.0) window.playbackRate=1.0;
+      else if(window.playbackRate<1.25) window.playbackRate=1.25;
+      else if(window.playbackRate<1.5) window.playbackRate=1.5;
+      else window.playbackRate = 2.0;
       
       const split = window.playbackRate.toString().split('.');
       control.content_divs[0].innerText = split[0];
@@ -615,13 +629,9 @@ const hook_video_control = hook => {
       e.stopImmediatePropagation();
       clear_content();
       
-      if(control.div.style.display === 'none')
+      if(control.div.style.display === 'none'||!window.playbackPos)
         window.playbackPos = video.currentTime;
-      else {
-        if(!window.playbackPos)
-          window.playbackPos = video.currentTime;
-        window.playbackPos += 180;
-      }
+      window.playbackPos += 180;
       
         const time = sec2HHMMSS(window.playbackPos);
         const split = time.split(':');
@@ -718,4 +728,6 @@ const hook_video = (video) => {
   }
 
   videos.forEach(hook_video);
-})()
+};
+}
+window.__videoplayer_enhancer__();
