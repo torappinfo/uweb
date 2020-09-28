@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr/dist/plyr.css"/>
+<video id="player" playsinline controls>
+  <source id="src" />
+</video>
+<script src="https://cdn.jsdelivr.net/npm/plyr"></script>
+<script>
+  {//?u=
+    let url = location.search.substring(3);
+    let d = document;
+    let e = d.getElementById("src");
+    e.src = url;
+  }
+  const player = new Plyr('#player');
+</script>

@@ -1,0 +1,9 @@
+<script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js"></script>
+<div id="area"></div>
+<script>
+  let url = location.search.substring(3);
+  var book = ePub(url);
+  var rendition = book.renderTo("area");
+  var displayed = rendition.display();
+</script>
