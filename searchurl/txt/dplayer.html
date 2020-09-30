@@ -1,0 +1,10 @@
+<div id="dplayer"></div>
+<script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<script>
+  const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    video: {
+      url: location.search.substring(3),
+    },
+  });
+</script>
