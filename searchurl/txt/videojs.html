@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js/dist/video-js.min.css"/>
+<video
+  id="player"
+  class="video-js"
+  preload="auto"
+  controls >
+  <source id="src" />
+</video>
+<script src="https://cdn.jsdelivr.net/npm/video.js/dist/video.min.js"></script>
+<script>
+  const source = location.search.substring(3);
+  document.getElementById("src").src = source;
+  let  setup = {
+    playbackRates: [0.5, 1, 1.25, 1.5, 2, 4],
+  };
+  let player = videojs('player',setup);
+</script>
