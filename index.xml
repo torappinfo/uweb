@@ -85,7 +85,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
-      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。。每行格式如下：
+      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
 其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
 脚本将在链接访问结束时自动执行。
@@ -265,7 +265,10 @@ seedr的问题是首次登录需要google人机验证，登录成功以后可以
       <guid>https://jamesfengcao.gitee.io/uweb/gnuplot/</guid>
       <description>使用Android端uweb浏览器。
 Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。
-安装gnuplot  安装[uweb定制Termux应用](https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==) Termux下运行以下命令： apt update apt upgrade apt install gnuplot  地址栏功能配置：  配置文件/sdcard/uweb/default.acmd每行格式如下：
+安装gnuplot  安装 uweb定制Termux应用 Termux下运行以下命令：
+apt update
+apt upgrade
+apt install gnuplot  地址栏功能配置：  配置文件/sdcard/uweb/default.acmd每行格式如下：
 菜单名:mimeType:命令行 命令行可包含参数%s，运行时自动用地址栏输入内容替换。 如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。  配置文件/sdcard/uweb/default.acmd如下： 命令:text/plain:%s 函数作图:image/svg+xml:gnuplot -e &#39;set term svg;set output; plot %s&#39; 函数作图(3d):image/svg+xml:gnuplot -e &#39;set term svg;set output; splot %s&#39; 超级计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q  长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。
 常见问题及诊断  确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&amp;quot;gnuplot&amp;gt;&amp;quot;。 确保gnuplot正常运行, 在Termux提示符下，执行下面命令：
 gnuplot -e &#39;set term svg;set output; plot x&#39;
@@ -583,7 +586,10 @@ apt update;apt install wget 下载必要离线数据，termux下运行如下命�
       <guid>https://jamesfengcao.gitee.io/uweb/bc/</guid>
       <description>使用Android端uweb浏览器。
 Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。
-安装bc  安装[uweb定制Termux应用](https://www.wocloud.com.cn/webclient/share/sindex.action?id=1p00SB1kA2JpoBce2QHhbgmbxuq0yhuZAjUZYCZyVGCLivSf0dTfmw==)  Termux下运行以下命令： apt update apt upgrade apt install bc  配置文件/sdcard/uweb/default.acmd如下： 计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q
+安装bc  安装uweb定制Termux应用 Termux下运行以下命令：
+apt update
+apt upgrade
+apt install bc  配置文件/sdcard/uweb/default.acmd如下： 计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q
 更多bc扩展库： 扩展库可下载至/sdcard/uweb目录）
 https://github.com/susca/bc-extensions
 http://phodd.net/gnu-bc
