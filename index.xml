@@ -98,12 +98,13 @@ httpproxy::010[proxy host]:[port]
 socks5::011[socks host]:[port]
 noproxy::010:
 点击安装Cookie延期等
-&amp;quot;i:&amp;quot;内部链接：
-点击安装笔记菜单
-i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
-读取第三方应用输入。
-点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
-点击安装酷安扫描至常用链接</description>
+&amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
+ i:16:::读取第三方应用输入。
+点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。  点击安装酷安扫描至常用链接
+ i:18::
+读取url部分数据并使用指定mimetype强制处理。
+:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;
+:可以为标准的mimetype。也可以在标准mimetype后面添加&amp;quot;.&amp;lt;文件名&amp;gt;&amp;quot;，此时uweb配置目录下的文件“&amp;lt;文件名&amp;gt;”内容会附在url部分数据后面一起显示。  </description>
     </item>
     
     <item>
@@ -393,6 +394,9 @@ nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(table
       <description>安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。
 安装双解字典索引
 安装双解字典至主屏
+Merriam Webster International Unabridged 索引
+&amp;lt;a href=&amp;quot;i:0h/sdcard/uweb/ahd.tidx:https://cdn.jsdelivr.net/gh/torappinfo/uwebjs/bin/soed.tidx&amp;gt;soed6索引
+&amp;lt;a href=&amp;quot;i:0h/sdcard/uweb/ahd.tidx:https://cdn.jsdelivr.net/gh/torappinfo/uwebjs/bin/enja.tidx&amp;gt;英语活用大词典索引
 以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
 安装tdict词典工具
 安装完tdict词典工具以后，对/sdcrd/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：

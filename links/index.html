@@ -36,12 +36,20 @@ httpproxy::010[proxy host]:[port]<br>
 socks5::011[socks host]:[port]<br>
 noproxy::010:</p>
 <p><a href="i:0g/sdcard/uweb/default.link:https://jamesfengcao.gitee.io/uweb/searchurl/txt/link.cfg">点击安装Cookie延期等</a></p>
-<p>&quot;i:&quot;内部链接：<br>
-点击安装<a href="i:53i:52">笔记</a>菜单<br>
-i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
+<h3 id="i内部链接">&quot;i:&quot;内部链接：</h3>
+<p>点击安装<a href="i:53i:52">笔记</a>菜单</p>
+<ul>
+<li>i:16<mimetype>:<Action Name>:<App Name>:<Activity Name><br>
 读取第三方应用输入。<br>
-点击安装<a href="i:53i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</p>
+点击安装<a href="i:53i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</li>
+</ul>
 <p>点击安装<a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a>至常用链接</p>
+<ul>
+<li>i:18<extended mimetype>:<range>:<url><br>
+读取url部分数据并使用指定mimetype强制处理。<br>
+<range>:格式同http header。譬如&quot;500-1000,-300&quot;<br>
+<extended mimetype>:可以为标准的mimetype。也可以在标准mimetype后面添加&quot;.&lt;文件名&gt;&quot;，此时uweb配置目录下的文件“&lt;文件名&gt;”内容会附在url部分数据后面一起显示。</li>
+</ul>
 
 </div>
 
