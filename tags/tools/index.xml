@@ -16,8 +16,8 @@
 安装双解字典索引
 安装双解字典至主屏
 Merriam Webster International Unabridged 索引
-&amp;lt;a href=&amp;quot;i:0h/sdcard/uweb/ahd.tidx:https://cdn.jsdelivr.net/gh/torappinfo/uwebjs/bin/soed.tidx&amp;gt;soed6索引
-&amp;lt;a href=&amp;quot;i:0h/sdcard/uweb/ahd.tidx:https://cdn.jsdelivr.net/gh/torappinfo/uwebjs/bin/enja.tidx&amp;gt;英语活用大词典索引
+soed6索引
+英语活用大词典索引
 以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
 安装tdict词典工具
 安装完tdict词典工具以后，对/sdcrd/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
