@@ -101,15 +101,11 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
       <description>安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。
 安装双解字典索引
 安装双解字典至主屏
-Merriam Webster International Unabridged 索引
-安装mwi至主屏
-安装markdown处理器 (mwi显示得会更好)
-soed6索引
-安装soed至主屏
 英语活用大词典索引
 安装英语活用至主屏
 汉语大词典索引
 安装汉语词典至主屏
+安装markdown处理器
 以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
 安装tdict词典工具
 安装完tdict词典工具以后，对/sdcrd/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
