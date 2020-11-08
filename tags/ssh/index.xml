@@ -6,34 +6,11 @@
     <description>Recent content in ssh on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
-      <link>https://jamesfengcao.gitee.io/uweb/cmd/</link>
-      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/cmd/</guid>
-      <description>技巧等级：中级 PC剪贴板(高级)
-uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
-手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。
-预定义命令保存在文件&amp;quot;/sdcard/uweb/default.cmds&amp;quot;中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。
-资深用户可能注意到文件名与default.acmd类似。default.acmd中的命令适合以不同的参数反复执行；而default.cmds一般以单次执行为多。default.acmd结果会显示在浏览器当前窗口；而default.cmds中命令执行结果会显示在新窗口之中。这两个文件格式也完全相同，每行格式如下：
-[命令名称]:[mimetype]:[命令代码]
-命令代码可以是任意命令，其中可以包含%c（当前网址cookie）、%s (地址栏输入)、 %t (当前窗口标题)、 %u (当前窗口url或文件路径)。执行时这些特殊标识将会被相应内容自动替换。
-mimetype用来表示命令的输出类型。除了标准的mimetype之外，超微对此还作了扩充，便利与剪贴板交互。下面是扩充版的mimetype：
-&amp;quot;clip/clip&amp;quot; : 以剪贴板作为命令输入，输出结果复制到剪贴板。
-&amp;quot;/clip&amp;quot; : 输出结果复制到剪贴板。
-&amp;quot;clip/text/html&amp;quot; : 以剪贴板作为命令输入，输出结果mimetype类型为“text/html”。
-&amp;quot;termux/*&amp;quot;: 在termux中执行命令。
-&amp;quot;uweb&amp;quot;: 输出结果作为链接来处理。
-下面是笔者使用的default.cmds配置（命令具体解释）：
-复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34;   </description>
-    </item>
-    
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
@@ -65,6 +42,29 @@ Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如�
 复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
 其它推荐工具(读取PC剪贴板)：
 pclip</description>
+    </item>
+    
+    <item>
+      <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
+      <link>https://jamesfengcao.gitee.io/uweb/cmd/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/cmd/</guid>
+      <description>技巧等级：中级 PC剪贴板(高级)
+uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
+手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。
+预定义命令保存在文件&amp;quot;/sdcard/uweb/default.cmds&amp;quot;中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。
+资深用户可能注意到文件名与default.acmd类似。default.acmd中的命令适合以不同的参数反复执行；而default.cmds一般以单次执行为多。default.acmd结果会显示在浏览器当前窗口；而default.cmds中命令执行结果会显示在新窗口之中。这两个文件格式也完全相同，每行格式如下：
+[命令名称]:[mimetype]:[命令代码]
+命令代码可以是任意命令，其中可以包含%c（当前网址cookie）、%s (地址栏输入)、 %t (当前窗口标题)、 %u (当前窗口url或文件路径)。执行时这些特殊标识将会被相应内容自动替换。
+mimetype用来表示命令的输出类型。除了标准的mimetype之外，超微对此还作了扩充，便利与剪贴板交互。下面是扩充版的mimetype：
+&amp;quot;clip/clip&amp;quot; : 以剪贴板作为命令输入，输出结果复制到剪贴板。
+&amp;quot;/clip&amp;quot; : 输出结果复制到剪贴板。
+&amp;quot;clip/text/html&amp;quot; : 以剪贴板作为命令输入，输出结果mimetype类型为“text/html”。
+&amp;quot;termux/*&amp;quot;: 在termux中执行命令。
+&amp;quot;uweb&amp;quot;: 输出结果作为链接来处理。
+下面是笔者使用的default.cmds配置（命令具体解释）：
+复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34;   </description>
     </item>
     
     <item>

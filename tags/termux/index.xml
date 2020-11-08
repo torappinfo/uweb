@@ -6,7 +6,79 @@
     <description>Recent content in termux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>操作选中（富）文本／元素</title>
+      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <description>技巧等级：笔记(中级) PC剪贴板(高级)
+配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
+&amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
+选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
+mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
+html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
+/uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
+/termux: 命令运行结果将作为termux下命令运行。
+checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。
+点击安装&amp;quot;保存文本&amp;quot;等
+配置/sdcard/uweb/default.select如下：
+复制文本到地址栏:uweb:echo i:15`cat`
+笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
+富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
+命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
+复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
+如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
+此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
+重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
+采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。
+手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。
+[在超微浏览器中长按并在新窗口打开此链接](data:text/html;charset=utf-8,&amp;lt;body contenteditable%3E)，然后点击窗口并粘贴文本。长按链接按钮选择适当功能即可复制至PC剪贴板。
+通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。
+Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：
+复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
+其它推荐工具(读取PC剪贴板)：
+pclip</description>
+    </item>
+    
+    <item>
+      <title>工具汇总</title>
+      <link>https://jamesfengcao.gitee.io/uweb/tools/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/tools/</guid>
+      <description>安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
+安装双解字典索引
+安装双解字典至主屏
+英语活用大词典索引
+安装英语活用至主屏
+汉语大词典索引
+安装汉语词典至主屏
+soed6索引
+安装soed至主屏
+以下字典最好安装markdown处理器。
+安装markdown处理器
+Merriam Webster International Unabridged 索引
+安装mwi至主屏
+ode3索引
+安装ode至主屏
+oed索引
+安装oed至主屏
+大英百科索引
+安装be至主屏
+Merriam Webster Unabridged
+安装mwu至主屏
+以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
+安装tdict词典工具
+安装完tdict词典工具以后，对/sdcard/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
+汉语大字典:c:zd xz %s dictXXX
+字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
+插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
+    </item>
+    
     <item>
       <title>利用文件预处理预览/查看/播放一切可下载资源</title>
       <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
@@ -90,78 +162,6 @@ apt install gnuplot  地址栏功能配置：  配置文件/sdcard/uweb/default.
 常见问题及诊断  确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&amp;quot;gnuplot&amp;gt;&amp;quot;。 确保gnuplot正常运行, 在Termux提示符下，执行下面命令：
 gnuplot -e &#39;set term svg;set output; plot x&#39;
 屏幕输出应该为正常的svg文件（类似html文本）。 Termux应为uweb定制包，否则有一堆设定需要修改。 超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。 为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&amp;quot;x&amp;quot;，即整个地址栏内输入为&amp;quot;x&amp;quot;。  </description>
-    </item>
-    
-    <item>
-      <title>工具汇总</title>
-      <link>https://jamesfengcao.gitee.io/uweb/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/tools/</guid>
-      <description>安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
-安装双解字典索引
-安装双解字典至主屏
-英语活用大词典索引
-安装英语活用至主屏
-汉语大词典索引
-安装汉语词典至主屏
-soed6索引
-安装soed至主屏
-以下字典最好安装markdown处理器。
-安装markdown处理器
-Merriam Webster International Unabridged 索引
-安装mwi至主屏
-ode3索引
-安装ode至主屏
-oed索引
-安装oed至主屏
-大英百科索引
-安装be至主屏
-Merriam Webster Unabridged
-安装mwu至主屏
-以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
-安装tdict词典工具
-安装完tdict词典工具以后，对/sdcard/uweb/dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
-汉语大字典:c:zd xz %s dictXXX
-字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
-插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
-    </item>
-    
-    <item>
-      <title>操作选中（富）文本／元素</title>
-      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
-      <description>技巧等级：笔记(中级) PC剪贴板(高级)
-配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
-&amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
-选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
-mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
-html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
-/uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
-/termux: 命令运行结果将作为termux下命令运行。
-checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。
-点击安装&amp;quot;保存文本&amp;quot;等
-配置/sdcard/uweb/default.select如下：
-复制文本到地址栏:uweb:echo i:15`cat`
-笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
-富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
-命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
-复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
-复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
-复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
-如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
-此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
-重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
-采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。
-手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。
-[在超微浏览器中长按并在新窗口打开此链接](data:text/html;charset=utf-8,&amp;lt;body contenteditable%3E)，然后点击窗口并粘贴文本。长按链接按钮选择适当功能即可复制至PC剪贴板。
-通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。
-Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：
-复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
-其它推荐工具(读取PC剪贴板)：
-pclip</description>
     </item>
     
     <item>

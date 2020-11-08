@@ -4,26 +4,96 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/_posts/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/curl/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/javascript/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/tags/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/longclick/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E6%90%9C%E7%B4%A2/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/video/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E8%B5%84%E6%BA%90/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/pc/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/ssh/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/tags/termux/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/windows/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/pccopy/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/tdict/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/tools/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tools/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesfengcao.gitee.io/uweb/tags/curl/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,11 +113,6 @@
   </url>
   
   <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesfengcao.gitee.io/uweb/adblock/</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url>
@@ -63,17 +128,7 @@
   </url>
   
   <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/ssh/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesfengcao.gitee.io/uweb/cmd/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -87,26 +142,6 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/globalcss/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/javascript/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/pc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/tdict/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/tools/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/windows/</loc>
   </url>
   
   <url>
@@ -154,18 +189,6 @@
   </url>
   
   <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tools/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E6%90%9C%E7%B4%A2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/pccopy/</loc>
-  </url>
-  
-  <url>
     <loc>https://jamesfengcao.gitee.io/uweb/pcdown/</loc>
   </url>
   
@@ -191,14 +214,6 @@
   
   <url>
     <loc>https://jamesfengcao.gitee.io/uweb/offlinecache/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/video/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jamesfengcao.gitee.io/uweb/tags/%E8%B5%84%E6%BA%90/</loc>
   </url>
   
   <url>

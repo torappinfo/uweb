@@ -5,7 +5,22 @@
     <link>https://jamesfengcao.gitee.io/uweb/tags/javascript/</link>
     <description>Recent content in javascript on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>长按链接弹出菜单</title>
+      <link>https://jamesfengcao.gitee.io/uweb/longclick/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/longclick/</guid>
+      <description>长按链接运行第三方程序 配置文件/sdcard/uweb/default.longclick每行格式如下（同default.cmds）
+菜单名:mimetype:命令路径
+命令可以包含%c（当前网址cookie）等，执行时会被相应内容自动替换。
+长按链接运行js文件 长按链接弹出菜单显示/sdcard/uweb/longclick目录下所有js文件供用户挑选执行。
+js文件格式如下：
+ 首行可以&amp;quot;//&amp;quot;开头，后面紧跟目标网页url，url中可包含&amp;quot;%u&amp;quot;等，打开网页时会用长按的链接替换。 首行非&amp;quot;//&amp;quot;开头者，整个脚本作用于当前网页，不再打开新网页。 第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。  </description>
+    </item>
+    
     <item>
       <title>小书签</title>
       <link>https://jamesfengcao.gitee.io/uweb/bookmarklet/</link>
