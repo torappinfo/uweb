@@ -6,11 +6,11 @@
     <description>Recent content in termux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
@@ -21,7 +21,7 @@ mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
 /termux: 命令运行结果将作为termux下命令运行。
-checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。
+checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?&amp;lt;文件后缀&amp;gt;&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)
 点击安装&amp;quot;保存文本&amp;quot;等
 配置/sdcard/uweb/default.select如下：
 复制文本到地址栏:uweb:echo i:15`cat`

@@ -6,7 +6,91 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>操作选中（富）文本／元素</title>
+      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <description>技巧等级：笔记(中级) PC剪贴板(高级)
+配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
+&amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
+选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
+mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
+html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
+/uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
+/termux: 命令运行结果将作为termux下命令运行。
+checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?&amp;lt;文件后缀&amp;gt;&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)
+点击安装&amp;quot;保存文本&amp;quot;等
+配置/sdcard/uweb/default.select如下：
+复制文本到地址栏:uweb:echo i:15`cat`
+笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
+富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
+命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
+复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
+如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
+此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
+重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
+采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。
+手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。
+[在超微浏览器中长按并在新窗口打开此链接](data:text/html;charset=utf-8,&amp;lt;body contenteditable%3E)，然后点击窗口并粘贴文本。长按链接按钮选择适当功能即可复制至PC剪贴板。
+通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。
+Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：
+复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
+其它推荐工具(读取PC剪贴板)：
+pclip</description>
+    </item>
+    
+    <item>
+      <title>常用链接</title>
+      <link>https://jamesfengcao.gitee.io/uweb/links/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
+      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
+[菜单名]:[url][空格][javascript脚本]
+其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
+脚本将在链接访问结束时自动执行。
+url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
+不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
+.js文件(同长按链接运行js文件): 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。推荐将常用js脚本本地链接保存在.link文件中。
+default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
+各类代理配置如下:
+httpproxy::010:
+socks5::011:
+noproxy::010:
+点击安装Cookie延期等
+&amp;quot;:&amp;quot;为首字符特殊链接   :0000
+Cookie延期至70年，但服务器有可能否决。
+  :0001
+自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
+  :010:
+设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
+  :011:
+socks代理
+  :31
+执行js代码，即使网页禁用js。
+  &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
+  i:16:::读取第三方应用输入。
+点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
+点击安装酷安扫描至常用链接
+  i:18::
+读取url部分数据并使用指定mimetype强制处理。
+:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;
+:可以为标准的mimetype。也可以在标准mimetype后面添加&amp;quot;.&amp;lt;文件名&amp;gt;&amp;quot;，此时uweb配置目录下的文件“&amp;lt;文件名&amp;gt;”内容会附在url部分数据后面一起显示。
+  i:50兼容其它浏览器的方式打开本地文件。
+  i:51
+保存为书签
+  i:52
+保存为笔记
+  i:53
+保存为链接
+  </description>
+    </item>
+    
     <item>
       <title>长按链接弹出菜单</title>
       <link>https://jamesfengcao.gitee.io/uweb/longclick/</link>
@@ -32,43 +116,6 @@ js文件格式如下：
  长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切广告。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么广告。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现广告占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动广告”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切广告。方法如下：  长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。   对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切广告：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。  视频搜索预配置(超过400个引擎)
 视频资源：
  视频解析配置 ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播  </description>
-    </item>
-    
-    <item>
-      <title>操作选中（富）文本／元素</title>
-      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
-      <description>技巧等级：笔记(中级) PC剪贴板(高级)
-配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
-&amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
-选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
-mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
-html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
-/uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
-/termux: 命令运行结果将作为termux下命令运行。
-checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。
-点击安装&amp;quot;保存文本&amp;quot;等
-配置/sdcard/uweb/default.select如下：
-复制文本到地址栏:uweb:echo i:15`cat`
-笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
-富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
-命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
-复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
-复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
-复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
-如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
-此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
-重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
-采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。
-手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。
-[在超微浏览器中长按并在新窗口打开此链接](data:text/html;charset=utf-8,&amp;lt;body contenteditable%3E)，然后点击窗口并粘贴文本。长按链接按钮选择适当功能即可复制至PC剪贴板。
-通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。
-Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：
-复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
-其它推荐工具(读取PC剪贴板)：
-pclip</description>
     </item>
     
     <item>
@@ -176,34 +223,6 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
 &amp;quot;query.rec&amp;quot;:查询历史
 应用内部保护目录(/data/data/info.torapp.uweb/files/):
 &amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
-    </item>
-    
-    <item>
-      <title>常用链接</title>
-      <link>https://jamesfengcao.gitee.io/uweb/links/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uweb/links/</guid>
-      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
-[菜单名]:[url][空格][javascript脚本]
-其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
-脚本将在链接访问结束时自动执行。
-url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
-不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
-.js文件: 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。推荐将常用js脚本本地链接保存在.link文件中。
-default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
-各类代理配置如下:
-httpproxy::010[proxy host]:[port]
-socks5::011[socks host]:[port]
-noproxy::010:
-点击安装Cookie延期等
-&amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
- i:16:::读取第三方应用输入。
-点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。  点击安装酷安扫描至常用链接
- i:18::
-读取url部分数据并使用指定mimetype强制处理。
-:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;
-:可以为标准的mimetype。也可以在标准mimetype后面添加&amp;quot;.&amp;lt;文件名&amp;gt;&amp;quot;，此时uweb配置目录下的文件“&amp;lt;文件名&amp;gt;”内容会附在url部分数据后面一起显示。  </description>
     </item>
     
     <item>

@@ -29,26 +29,67 @@
 脚本将在链接访问结束时自动执行。</p>
 <p>url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&quot;:&quot;为链接第二个字符）及特殊链接（&quot;:&quot;为链接首字符）。</p>
 <p>不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：<br>
-.js文件:  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmd">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。推荐将常用js脚本本地链接保存在.link文件中。</p>
+.js文件(同<a href="../longclick">长按链接运行js文件</a>):  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmd">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。推荐将常用js脚本本地链接保存在.link文件中。</p>
 <p><a href="../gesture">default.gesture</a>及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。</p>
 <p>各类代理配置如下:<br>
-httpproxy::010[proxy host]:[port]<br>
-socks5::011[socks host]:[port]<br>
+httpproxy::010<proxy host>:<port><br>
+socks5::011<socks host>:<port><br>
 noproxy::010:</p>
 <p><a href="i:0g/sdcard/uweb/default.link:https://jamesfengcao.gitee.io/uweb/searchurl/txt/link.cfg">点击安装Cookie延期等</a></p>
+<h3 id="为首字符特殊链接">&quot;:&quot;为首字符特殊链接</h3>
+<ul>
+<li>
+<p>:0000<br>
+Cookie延期至70年，但服务器有可能否决。</p>
+</li>
+<li>
+<p>:0001<br>
+自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)</p>
+</li>
+<li>
+<p>:010<proxy host>:<port><br>
+设置http代理, &quot;:010:&quot;禁用代理。</p>
+</li>
+<li>
+<p>:011<socks host>:<port><br>
+socks代理</p>
+</li>
+<li>
+<p>:31<jscode><br>
+执行js代码，即使网页禁用js。</p>
+</li>
+</ul>
 <h3 id="i内部链接">&quot;i:&quot;内部链接：</h3>
 <p>点击安装<a href="i:53i:52">笔记</a>菜单</p>
 <ul>
-<li>i:16<mimetype>:<Action Name>:<App Name>:<Activity Name><br>
+<li>
+<p>i:16<mimetype>:<Action Name>:<App Name>:<Activity Name><br>
 读取第三方应用输入。<br>
-点击安装<a href="i:53i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。</li>
-</ul>
-<p>点击安装<a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a>至常用链接</p>
-<ul>
-<li>i:18<extended mimetype>:<range>:<url><br>
+点击安装<a href="i:53i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。<br>
+点击安装<a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a>至常用链接</p>
+</li>
+<li>
+<p>i:18<extended mimetype>:<range>:<url><br>
 读取url部分数据并使用指定mimetype强制处理。<br>
 <range>:格式同http header。譬如&quot;500-1000,-300&quot;<br>
-<extended mimetype>:可以为标准的mimetype。也可以在标准mimetype后面添加&quot;.&lt;文件名&gt;&quot;，此时uweb配置目录下的文件“&lt;文件名&gt;”内容会附在url部分数据后面一起显示。</li>
+<extended mimetype>:可以为标准的mimetype。也可以在标准mimetype后面添加&quot;.&lt;文件名&gt;&quot;，此时uweb配置目录下的文件“&lt;文件名&gt;”内容会附在url部分数据后面一起显示。</p>
+</li>
+<li>
+<p>i:50<file url><br>
+兼容其它浏览器的方式打开本地文件。</p>
+</li>
+<li>
+<p>i:51<url><br>
+保存为书签</p>
+</li>
+<li>
+<p>i:52<string><br>
+保存为笔记</p>
+</li>
+<li>
+<p>i:53<url><br>
+保存为链接</p>
+</li>
 </ul>
 
 </div>
