@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>curl on </title>
-    <link>https://jamesfengcao.gitee.io/uweb/tags/curl/</link>
+    <link>https://jamesfengcao.gitee.io/uwebzh/tags/curl/</link>
     <description>Recent content in curl on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用文件预处理预览/查看/播放一切可下载资源</title>
-      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/filecap/</guid>
       <description>技巧等级：中级
 文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
 [文件后缀]:[mimetype]:[处理命令]

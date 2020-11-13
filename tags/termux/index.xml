@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>termux on </title>
-    <link>https://jamesfengcao.gitee.io/uweb/tags/termux/</link>
+    <link>https://jamesfengcao.gitee.io/uwebzh/tags/termux/</link>
     <description>Recent content in termux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uweb/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
-      <link>https://jamesfengcao.gitee.io/uweb/pccopy/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/pccopy/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/pccopy/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
 配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
 &amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
@@ -46,10 +46,10 @@ pclip</description>
     
     <item>
       <title>工具汇总</title>
-      <link>https://jamesfengcao.gitee.io/uweb/tools/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/tools/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/tools/</guid>
       <description>安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
 安装双解字典索引
 安装双解字典至主屏
@@ -81,10 +81,10 @@ Merriam Webster Unabridged
     
     <item>
       <title>利用文件预处理预览/查看/播放一切可下载资源</title>
-      <link>https://jamesfengcao.gitee.io/uweb/filecap/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/filecap/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/filecap/</guid>
       <description>技巧等级：中级
 文件预处理配置文件为/sdcard/uweb/default.filecap，每行格式如下：
 [文件后缀]:[mimetype]:[处理命令]
@@ -101,10 +101,10 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
     
     <item>
       <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
-      <link>https://jamesfengcao.gitee.io/uweb/cmd/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/cmd/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/cmd/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)
 uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
 手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。
@@ -124,10 +124,10 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
     
     <item>
       <title>利用国外离线网盘囤积资源</title>
-      <link>https://jamesfengcao.gitee.io/uweb/loadbt/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/loadbt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/loadbt/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/loadbt/</guid>
       <description>百度网盘存储空间大，还支持离线下载。但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
   注册国外离线网盘账号
@@ -148,10 +148,10 @@ mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/. 配置/sdcard/uweb/default.
     
     <item>
       <title>利用浏览器地址栏对函数作图</title>
-      <link>https://jamesfengcao.gitee.io/uweb/gnuplot/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/gnuplot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/gnuplot/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/gnuplot/</guid>
       <description>使用Android端uweb浏览器。
 Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。
 安装gnuplot  安装 uweb定制Termux应用 Termux下运行以下命令：
@@ -166,10 +166,10 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
     
     <item>
       <title>浏览器一键控制台式机/服务器下载资源</title>
-      <link>https://jamesfengcao.gitee.io/uweb/pcdown/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uweb/pcdown/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/pcdown/</guid>
       <description>技巧等级：高级
 小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
 手机需安装uweb定制Termux，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：
