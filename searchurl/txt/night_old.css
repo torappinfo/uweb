@@ -1,0 +1,1 @@
+html,img,video{-webkit-filter:invert(1) hue-rotate(180deg) !important;filter:invert(1) hue-rotate(180deg) !important;}body{background:black !important;}html img[src],html input[type=image]{opacity:.9;}
