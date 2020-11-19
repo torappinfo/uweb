@@ -82,33 +82,7 @@ fbcdn.net
 default.hosts文件格式每行如下：
 根域名[空格]域名前缀正则表达式[空格]网址路径正则表达式
 空格及后面两个正则表达式为可选择项。正则表达式采用java标准。
-  部分国内大厂不良信息 (将下列内容放入/sdcard/uweb/default.hosts，点击本链接自动用以下内容覆盖default.hosts)：
-lianmeng.360.cn
-appjiagu.com
-adm-cnzz.net
-alimama.com
-ipinyou.com
-mct01.com
-tanx.com
-wrating.com
-cpro.baidu.com
-pos.baidu.com
-share.baidu.com
-e.qq.com
-gdt.qq.com
-l.qq.com
-push.qq.com
-beacon.sina.com.cn
-mix.sina.com.cn
-go.sohu.com
-inte.sogou.com
-epro.sogou.com
-golden1.sogou.com
-uranus.sogou.com
-inte.sogoucdn.com
-lu.sogoucdn.com
-theta.sogoucdn.com
-ad.xiaomi.com</description>
+  点击本链接自动用样例覆盖default.hosts</description>
     </item>
     
   </channel>
