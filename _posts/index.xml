@@ -6,7 +6,35 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>定时脚本</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/tcron/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/tcron/</guid>
+      <description>如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管
+理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。
+tcron usage: tcron logfile command hours [timezone delay_sec elsecommand]
+指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
+其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
+hours: 每隔多长时间运行一次命令。
+timezone: 时区：譬如“8”表示北京时间。(默认为8)
+delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。
+elsecommand: 无需执行命令command时执行。
+ex:
+set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
+#天翼云每天签到一次
+tcron /sdcard/a &amp;quot;cloud189-go sign;toybox touch /sdcard/a&amp;quot; 24
+#每30天清空baidu目录
+tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720
+可能用到的命令:
+termux中安装remind，可配置各类提醒功能，十分强大。
+apt install remind
+am start -n info.torapp.uweb/.wvActivity -d &#39;javascript:alert(&amp;quot;remind&amp;quot;)&#39; #提醒
+其中-d后面参数可以为任意url包括超微内部&amp;quot;i:&amp;quot; url。</description>
+    </item>
+    
     <item>
       <title>超微浏览器配置文件列表</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/filenames/</link>
@@ -173,8 +201,7 @@ js文件格式如下：
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/tools/</guid>
-      <description>安装tcron定时管理工具 usage: tcron logfile command hours [timezone delay_sec elsecommand]
-安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
+      <description>安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
 安装双解字典索引
 安装双解字典至主屏
 英语活用大词典索引
@@ -399,9 +426,8 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</guid>
       <description>超微浏览器支持超级hosts文件，这一技术可以完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱hosts文件绝杀。
 对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。
-下载下面文件（可改名成“不良信息屏蔽.css”），将其放到/scard/uweb/css目录下：
-不良信息屏蔽css文件
-重启浏览器，长按底部工具条[☰]按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。</description>
+安装不良信息屏蔽.css
+重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。</description>
     </item>
     
     <item>
