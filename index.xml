@@ -6,7 +6,17 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小技巧</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/tips/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/tips/</guid>
+      <description>PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot; 可准确显示一切PC网页。
+多主屏: home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ...需用户自定义自动往前翻页操作。</description>
+    </item>
+    
     <item>
       <title>定时脚本</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/tcron/</link>
@@ -522,16 +532,6 @@ maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new
 恢复长按菜单
 =0){spannode=document.createElement(&amp;quot;SPAN&amp;quot;);spannode.style.backgroundColor=&amp;quot;yellow&amp;quot;;middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 &amp;amp;&amp;amp; node.childNodes &amp;amp;&amp;amp; node.tagName.toUpperCase()!=&amp;quot;SCRIPT&amp;quot; &amp;amp;&amp;amp; node.tagName.toUpperCase!=&amp;quot;STYLE&amp;quot;){for (var child=0; child 正则搜索
 nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序</description>
-    </item>
-    
-    <item>
-      <title>小技巧</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/tips/</guid>
-      <description>PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot; 可准确显示一切PC网页。
-多主屏: home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ...需用户自定义自动往前翻页操作。</description>
     </item>
     
     <item>
