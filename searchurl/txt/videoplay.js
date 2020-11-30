@@ -607,10 +607,10 @@ const hook_video_control = hook => {
       e.stopImmediatePropagation();
       clear_content();
 
-      if(window.playbackRate>=2.0) window.playbackRate=0.5;
+      if(window.playbackRate>=4.0) window.playbackRate=0.5;
       else if(window.playbackRate<1.0) window.playbackRate=1.0;
-      else if(window.playbackRate<1.25) window.playbackRate=1.25;
       else if(window.playbackRate<1.5) window.playbackRate=1.5;
+      else if(window.playbackRate>=2.0) window.playbackRate=4;
       else window.playbackRate = 2.0;
       
       const split = window.playbackRate.toString().split('.');
