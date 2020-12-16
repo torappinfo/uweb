@@ -31,11 +31,11 @@
     <li><a href="../tags/%e8%b5%84%e6%ba%90">资源</a> </li>
     
   </ul>
-  <p>Telegram用户可使用<a href="../searchurl/urls.html">特色服务</a>利用tg bot离线下载至bot支持网盘。</p>
-<p>百度网盘存储空间大，还支持离线下载。但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。<br>
+  <ul>
+<li>Telegram用户可使用<a href="../searchurl/urls.html">特色服务</a>利用tg bot离线下载至bot支持网盘。使用时长按链接-&gt;命令-&gt;tg...。</li>
+</ul>
+<p>百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。<br>
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。</p>
-<ul>
-<li>
 <p><a href="..">超微浏览器</a>上配置百度离线下载</p>
 <ul>
 <li>
@@ -46,7 +46,7 @@
 <ul>
 <li>直接下载<a href="https://github.com/felixonmars/BaiduPCS-Go/releases">BaiduPCS-Go</a>，安卓手机请选择arm64版本。</li>
 <li>解压下载文件</li>
-<li>移动解压后文件至最终目的地。Termux运行以下命令<br>
+<li>移动解压后文件至最终目的地。Termux运行以下命令:<br>
 <code>mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.<br>
 chmod 777 /data/data/com.termux/files/usr/bin/BaiduPCS-Go<br>
 </code></li>
@@ -64,10 +64,11 @@ BaiduPCS-Go config set -appid=266719</p>
 <li>
 <p>重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。</p>
 </li>
-</ul>
-</li>
 <li>
 <p>离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。</p>
+</li>
+<li>
+<p>其它支持离线下载的网页也可<a href="../longclick">定义为一键离线</a>。</p>
 </li>
 </ul>
 
