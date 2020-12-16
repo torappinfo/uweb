@@ -6,7 +6,32 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>离线下载</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/offlinedownload/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/offlinedownload/</guid>
+      <description>Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。
+百度网盘存储空间大，还支持离线下载。但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
+本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
+  超微浏览器上配置百度离线下载
+  安装uweb定制Termux应用。
+  安装baidupcs-go：
+ 直接下载BaiduPCS-Go，安卓手机请选择arm64版本。 解压下载文件 移动解压后文件至最终目的地。Termux运行以下命令
+mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.
+chmod 777 /data/data/com.termux/files/usr/bin/BaiduPCS-Go
+    登录百度网盘, Termux执行如下命令：
+BaiduPCS-Go login
+BaiduPCS-Go config set -appid=266719
+  /sdcard/uweb/default.longclick配置如下：
+百度离线下载:termux/*:BaiduPCS-Go od add
+  重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。
+    离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
+  </description>
+    </item>
+    
     <item>
       <title>小技巧</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/tips/</link>
@@ -395,30 +420,6 @@ c:[含%s的命令行]
 d:mimetype:[含%s的命令行]:[外部资源url]
 查询时关键词会自动替换命令行中的%s。
 笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</description>
-    </item>
-    
-    <item>
-      <title>利用国外离线网盘囤积资源</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/loadbt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/loadbt/</guid>
-      <description>百度网盘存储空间大，还支持离线下载。但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
-本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
-  注册国外离线网盘账号
-  超微浏览器上配置百度离线下载
- 安装uweb定制Termux应用。 更新Termux, Termux执行如下命令：
-echo &amp;quot;deb [trusted=yes] http://termux.iikira.com stable main&amp;quot; &amp;gt;&amp;gt;/data/data/com.termux/files/usr/etc/apt/sources.list
-apt update
-apt upgrade
-apt install baidupcs-go 登录百度网盘, Termux执行如下命令：
-BaiduPCS-Go login
-BaiduPCS-Go config set -appid=266719 /sdcard/uweb/default.longclick配置如下：
-百度离线下载:termux/*:/data/data/com.termux/files/usr/bin/BaiduPCS-Go od add 重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。 (其它安装方法)用户亦可直接下载BaiduPCS-Go至termux目录/data/data/com.termux/files/usr/bin.  安卓手机请选择arm64版本。 解压，Termux运行以下命令
-unzip /sdcard/Download/BaiduPCS-Go-v3.5.6-android-21-arm64.zip 移动解压后文件至最终目的地。Termux运行以下命令
-mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/. 配置/sdcard/uweb/default.longclick如下：
-百度离线下载:termux/*:/data/data/com.termux/files/usr/bin/BaiduPCS-Go od add 重启超微浏览器，长按链接运行百度离线下载，发现百度网盘还没登录。本步骤会将BaiduPCS-Go设置为可运行程序。 termux下执行&amp;quot;BaiduPCS-Go login&amp;quot;登录百度网盘。再次长按链接完美运行百度离线下载。      离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
-  </description>
     </item>
     
     <item>
