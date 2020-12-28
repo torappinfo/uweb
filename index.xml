@@ -6,7 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安卓系统出错诊断</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/logcat/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/logcat/</guid>
+      <description>超微浏览器如果闪退，会生成出错文件&amp;quot;/sdcard/uweb/error.log&amp;quot;。
+如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：
+ 访问常用命令网页，点击安装logcat相关的两个命令。 清空后台并重启超微浏览器。 长按历史按钮，执行命令&amp;quot;清空logcat&amp;quot;。 触发有问题的功能。 长按历史按钮，执行命令&amp;quot;输出logcat.log&amp;quot;. 检查文件&amp;quot;/sdcard/uweb/logcat.log&amp;quot;内容。  超微浏览器是手机上调试javascript脚本的最佳工具，无需打包就可有多种方式运行javascript代码。webview dev版自带devtools，运行此工具，打开flag &amp;quot;webview-log-js-console-messages&amp;quot;以后所有js出错信息及console输出会被复制到logcat中。然后用户可根据上一段所述方法诊断。
+非dev版本webview可点击如下链接运行devtools。
+devtools for com.google.android.webview
+devtools for com.android.webview</description>
+    </item>
+    
     <item>
       <title>离线下载</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/loadbt/</link>
@@ -505,17 +519,6 @@ default.hosts文件格式每行如下：
 根域名[空格]域名前缀正则表达式[空格]网址路径正则表达式
 空格及后面两个正则表达式为可选择项。正则表达式采用java标准。
   点击本链接自动用样例覆盖default.hosts</description>
-    </item>
-    
-    <item>
-      <title>安卓系统出错诊断</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/logcat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/logcat/</guid>
-      <description>超微浏览器如果闪退，会生成出错文件&amp;quot;/sdcard/uweb/error.log&amp;quot;。
-如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：
- 访问常用命令网页，点击安装logcat相关的两个命令。 清空后台并重启超微浏览器。 长按历史按钮，执行命令&amp;quot;清空logcat&amp;quot;。 触发有问题的功能。 长按历史按钮，执行命令&amp;quot;输出logcat.log&amp;quot;. 检查文件&amp;quot;/sdcard/uweb/logcat.log&amp;quot;内容。  超微浏览器是手机上调试javascript脚本的最佳工具，无需打包就可有多种方式运行javascript代码。webview dev版自带devtools，运行此工具，打开flag &amp;quot;webview-log-js-console-messages&amp;quot;以后所有js出错信息及console输出会被复制到logcat中。然后用户可根据上一段所述方法诊断。</description>
     </item>
     
     <item>
