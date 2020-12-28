@@ -1,0 +1,6 @@
+html, body, header, div, section, main, table, td, thead, tr, th, article, form, li, ul, nav, iframe { background-color: black !important; color: rgba(255, 255, 255, 0.8) !important; border-color: transparent !important;}
+code, input, textarea { border-color: white !important; background-color: black !important;  color: white !important;  border: 0px 0px 0px 1px; }
+span, h1, h2, h3, h4, h5, h6, pre, li, p , b { color: rgba(255, 255, 255, 0.8) !important; border-color: transparent !important; }
+l a, a:link, a b { color: rgba(53, 221, 162) !important; border-color: transparent !important; }
+span, h1, h2, h3, h4, h5, h6, pre, li, p, a, a:link { background-color: transparent !important;}
+*:empty, div:empty, td:empty, span:empty{ background-color: rgba(0,0,0,0) !important;}
