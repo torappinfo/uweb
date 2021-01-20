@@ -122,11 +122,17 @@ set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
 tcron /sdcard/a &amp;quot;cloud189-go sign;toybox touch /sdcard/a&amp;quot; 24
 #每30天清空baidu目录
 tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720
+安装default.rc模板文件（termux）
 可能用到的命令:
 termux中安装remind，可配置各类提醒功能，十分强大。
 apt install remind
 am start -n info.torapp.uweb/.wvActivity -d &#39;javascript:alert(&amp;quot;remind&amp;quot;)&#39; #提醒
-其中-d后面参数可以为任意url包括超微内部&amp;quot;i:&amp;quot; url。</description>
+其中-d后面参数可以为任意url包括超微内部&amp;quot;i:&amp;quot; url。
+cron Termux下安装cronie:
+apt install cronie
+crontab -e
+crontab例子内容如下：
+30,31 20-23/1 * * * node Loon/jd_live_redrain.</description>
     </item>
     
     <item>
