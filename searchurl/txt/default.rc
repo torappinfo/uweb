@@ -1,5 +1,5 @@
 export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
-export PATH=/data/data/com.termux/files/usr/bin:/data/data/info.torapp.uweb/files:/system/bin:/system/xbin
+export PATH=/data/data/com.termux/files/usr/bin:/data/data/info.torapp.uweb/files/bin:/system/bin:/system/xbin
 export HOME=/data/data/com.termux/files/home
 cd
 #tcron /sdcard/a "cloud189-go sign;toybox touch /sdcard/a" 24 
