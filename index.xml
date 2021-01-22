@@ -112,7 +112,7 @@ home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主
 tcron usage: tcron logfile command hours [timezone delay_sec elsecommand]
 指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
 其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
-hours: 每隔多长时间运行一次命令。
+hours: 如果为正整数，则将每天划分为不同的时间区间（单位小时），每个区间命令只能执行一次。如果为负整数，则取绝对值，并且单位为分钟，保证下一次执行至少间隔这么多分钟。
 timezone: 时区：譬如“8”表示北京时间。(默认为8)
 delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。
 elsecommand: 无需执行命令command时执行。
