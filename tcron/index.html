@@ -25,6 +25,7 @@
   </ul>
   <p>如果勾选“文件预处理”，则uweb启动时运行&quot;default.rc&quot; shell脚本。可与tcron定时管<br>
 理工具(<a href="i:0bhttps://cdn.jsdelivr.net/gh/torappinfo/uwebjs/bin/tcron.tgz">安装tcron</a>)配合运行定时任务，如存储清理、网页签到等。</p>
+<p>勾选“文件预处理”的情况下，如果存在文件&quot;default.rc2&quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&quot;default.rc&quot;将没有任何执行机会，而&quot;default.rc2&quot;保证即使超微长时间不重启，定时脚本仍可以执行。</p>
 <h4 id="tcron">tcron</h4>
 <p>usage: tcron logfile command hours [timezone delay_sec elsecommand]<br>
 指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。<br>

@@ -109,6 +109,7 @@ home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主
       <guid>https://jamesfengcao.gitee.io/uwebzh/tcron/</guid>
       <description>如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管
 理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。
+勾选“文件预处理”的情况下，如果存在文件&amp;quot;default.rc2&amp;quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&amp;quot;default.rc&amp;quot;将没有任何执行机会，而&amp;quot;default.rc2&amp;quot;保证即使超微长时间不重启，定时脚本仍可以执行。
 tcron usage: tcron logfile command hours [timezone delay_sec elsecommand]
 指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
 其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
