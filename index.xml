@@ -424,6 +424,15 @@ webview 81+ 夜间模式</description>
     </item>
     
     <item>
+      <title>便利链接</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/urls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/urls/</guid>
+      <description>Termux内部目录</description>
+    </item>
+    
+    <item>
       <title>分类多引擎搜索</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/searchcat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
