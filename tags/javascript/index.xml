@@ -29,6 +29,7 @@ js文件格式如下：
       <guid>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
 查看浏览器UA
+&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.cookie))})()&#34;网页cookie
 &#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
 maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
 切换复选框状态
