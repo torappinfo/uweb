@@ -6,7 +6,43 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>定时脚本</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/tcron/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/tcron/</guid>
+      <description>如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管
+理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。
+勾选“文件预处理”的情况下，如果存在文件&amp;quot;default.rc2&amp;quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&amp;quot;default.rc&amp;quot;将没有任何执行机会，而&amp;quot;default.rc2&amp;quot;保证即使超微长时间不重启，定时脚本仍可以执行。
+tcron usage: tcron logfile command hours [timezone delay_sec elsecommand]
+指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
+其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
+hours: 如果为正整数，则将每天划分为不同的时间区间（单位小时），每个区间命令只能执行一次。如果为负整数，则取绝对值，并且单位为分钟，保证下一次执行至少间隔这么多分钟。
+hours也可以为&amp;quot;hh:mm-hh:mm,...&amp;quot;格式, 譬如&amp;quot;6:00-8:30,11:00-13:00,5:30-6:30&amp;quot;为每天三餐时间脚本执行一次。
+timezone: 时区：譬如“8”表示北京时间。(默认为8)
+delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。
+elsecommand: 无需执行命令command时执行。
+ex:
+set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
+#天翼云每天签到一次
+tcron /sdcard/a &amp;quot;cloud189-go sign;toybox touch /sdcard/a&amp;quot; 24
+#每30天清空baidu目录
+tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720
+安装default.rc模板文件（termux）
+可能用到的命令:
+termux中安装remind，可配置各类提醒功能，十分强大。
+apt install remind
+am start -n info.torapp.uweb/.wvActivity -d &#39;javascript:alert(&amp;quot;remind&amp;quot;)&#39; #提醒
+其中-d后面参数可以为任意url包括超微内部&amp;quot;i:&amp;quot; url。
+cron Termux下安装cronie:
+apt install cronie
+crontab -e
+crontab例子内容如下：
+30,31 20-23/1 * * * node Loon/jd_live_redrain.</description>
+    </item>
+    
     <item>
       <title>常用链接</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/links/</link>
@@ -99,41 +135,6 @@ BaiduPCS-Go config set -appid=266719
 PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot;。
 多主屏:
 home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ...需用户自定义自动往前翻页操作。</description>
-    </item>
-    
-    <item>
-      <title>定时脚本</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/tcron/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/tcron/</guid>
-      <description>如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管
-理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。
-勾选“文件预处理”的情况下，如果存在文件&amp;quot;default.rc2&amp;quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&amp;quot;default.rc&amp;quot;将没有任何执行机会，而&amp;quot;default.rc2&amp;quot;保证即使超微长时间不重启，定时脚本仍可以执行。
-tcron usage: tcron logfile command hours [timezone delay_sec elsecommand]
-指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
-其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
-hours: 如果为正整数，则将每天划分为不同的时间区间（单位小时），每个区间命令只能执行一次。如果为负整数，则取绝对值，并且单位为分钟，保证下一次执行至少间隔这么多分钟。
-timezone: 时区：譬如“8”表示北京时间。(默认为8)
-delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。
-elsecommand: 无需执行命令command时执行。
-ex:
-set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
-#天翼云每天签到一次
-tcron /sdcard/a &amp;quot;cloud189-go sign;toybox touch /sdcard/a&amp;quot; 24
-#每30天清空baidu目录
-tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720
-安装default.rc模板文件（termux）
-可能用到的命令:
-termux中安装remind，可配置各类提醒功能，十分强大。
-apt install remind
-am start -n info.torapp.uweb/.wvActivity -d &#39;javascript:alert(&amp;quot;remind&amp;quot;)&#39; #提醒
-其中-d后面参数可以为任意url包括超微内部&amp;quot;i:&amp;quot; url。
-cron Termux下安装cronie:
-apt install cronie
-crontab -e
-crontab例子内容如下：
-30,31 20-23/1 * * * node Loon/jd_live_redrain.</description>
     </item>
     
     <item>
