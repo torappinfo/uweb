@@ -6,7 +6,21 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小技巧</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/tips/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/tips/</guid>
+      <description>准确显示一切PC网页:
+PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot;。
+多主屏:
+home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ...需用户自定义自动往前翻页操作。
+配置临时修改
+配置后如果没有正常退出或转入后台的话，超微不会自动保存设置更改，此时如果清后台强制退出，下次启动超微会使用原有配置。</description>
+    </item>
+    
     <item>
       <title>定时脚本</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/tcron/</link>
@@ -68,6 +82,8 @@ Cookie延期至70年，但服务器有可能否决。
 自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
   :001[fileurl]
 加入媒体库
+  :002[url]
+显示此url下安全cookie
   :010[proxy host]:[port]
 设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
   :011[socks host]:[port]
@@ -81,9 +97,7 @@ socks代理
 读取url部分数据并使用指定mimetype强制处理。
 :格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;
 :可以为标准的mimetype。也可以在标准mimetype后面添加&amp;quot;.&amp;lt;文件名&amp;gt;&amp;quot;，此时uweb配置目录下的文件“&amp;lt;文件名&amp;gt;”内容会附在url部分数据后面一起显示。
-  i:50[file url]
-兼容其它浏览器的方式打开本地文件。
-  i:51[url]</description>
+  i:50[file url]</description>
     </item>
     
     <item>
@@ -123,18 +137,6 @@ BaiduPCS-Go config set -appid=266719
   离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
   其它支持离线下载的网页也可定义为一键离线。
   </description>
-    </item>
-    
-    <item>
-      <title>小技巧</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/tips/</link>
-      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/tips/</guid>
-      <description>准确显示一切PC网页:
-PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot;。
-多主屏:
-home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ...需用户自定义自动往前翻页操作。</description>
     </item>
     
     <item>
@@ -222,9 +224,9 @@ http://www.numbertheory.org/gnubc/gnubc.html
       <guid>https://jamesfengcao.gitee.io/uwebzh/pccopy/</guid>
       <description>技巧等级：笔记(中级) PC剪贴板(高级)
 配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
-&amp;lt;菜单名&amp;gt;::&amp;lt;命令行&amp;gt;
+[菜单名]:[mimetype]:[命令行]
 选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
-mimetype用来表示命令的输入输出类型。格式为&amp;quot;&amp;lt;输入mimetype&amp;gt;/&amp;lt;输出mimetype&amp;gt;&amp;quot;，&amp;lt;输入mimetype&amp;gt;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
+mimetype用来表示命令的输入输出类型。格式为&amp;quot;[输入mimetype]/[输出mimetype]&amp;quot;，&amp;quot;[输入mimetype]&amp;quot;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
 /termux: 命令运行结果将作为termux下命令运行。
