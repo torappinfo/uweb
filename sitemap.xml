@@ -1,250 +1,144 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/_posts/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tips/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tcron/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/links/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/logcat/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/termux/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E7%A6%BB%E7%BA%BF/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/loadbt/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/bc/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/filenames/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/pc/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/ssh/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/windows/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/pccopy/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/javascript/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/longclick/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/video/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/tdict/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/tools/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tools/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/curl/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/filecap/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/adblock/</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/html5/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/gesture/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/cmd/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/css/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/globalcss/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E4%B8%8B%E8%BD%BD/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/urls/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/searchcat/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/multiaccount/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/gnuplot/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/hosts/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/pcdown/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/sitejs/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E7%94%B5%E8%A7%86/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tvlive/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/offlinecache/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E9%87%8D%E5%AE%9A%E5%90%91/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/redirect/</loc>
   </url>
-  
 </urlset>
