@@ -424,7 +424,8 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
       <description>超微浏览器自动装载&amp;quot;/sdcard/uweb/css&amp;quot;目录下所有.css文件作为全局样式供用户选用。点击以下配置链接可自动添加为全局样式：
 配合透明状态栏(沉浸)
 文件&amp;quot;/sdcard/uweb/night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：
-webview 81+ 夜间模式</description>
+webview 81+ 夜间模式
+webview 80- 夜间模式</description>
     </item>
     
     <item>
