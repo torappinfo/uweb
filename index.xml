@@ -174,7 +174,7 @@ http://www.numbertheory.org/gnubc/gnubc.html
 &amp;quot;js/&amp;quot;: 全局脚本目录
 &amp;quot;sitejs/&amp;quot;:类油猴脚本，针对特定网址
 &amp;quot;sitecss/&amp;quot;:针对特定网址css样式
-&amp;quot;bookmarklet/&amp;quot;:js脚本目录
+&amp;quot;bookmarklet/&amp;quot;:js脚本目录，长按JS按钮可执行。
 &amp;quot;offline/&amp;quot;:离线下载目录
 &amp;quot;sbookmark/&amp;quot;:超级书签默认目录
 &amp;quot;sitecache/&amp;quot;:用户供应网站离线数据
@@ -196,6 +196,7 @@ http://www.numbertheory.org/gnubc/gnubc.html
 &amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。
 &amp;quot;default.filecap&amp;quot;:文件特殊处理
 &amp;quot;default.rc&amp;quot;:如果勾选“文件预处理”，则uweb启动时运行此shell脚本。可与tcron配合运行定时任务，如存储清理、网页签到等。
+&amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。
 &amp;quot;default.engine&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
 &amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方js、当前激活脚本。
 &amp;quot;default.playrate&amp;quot;:全屏倍速播放菜单项，每行一个菜单，譬如&amp;quot;.5x&amp;quot;。
@@ -203,6 +204,7 @@ http://www.numbertheory.org/gnubc/gnubc.html
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
 &amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ...需用户自定义自动往前翻页操作。
 &amp;quot;home5.search&amp;quot;:主屏搜索引擎
+&amp;quot;home.css&amp;quot;:主屏风格
 &amp;quot;bookmark.html&amp;quot;:主书签
 &amp;quot;quickstart.html&amp;quot;:快速访问
 &amp;quot;colors.txt&amp;quot;:护眼背景色
