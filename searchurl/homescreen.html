@@ -6,11 +6,22 @@
                                                },100);
   return false;
 }
+function g2(){
+  let d=document;
+  let f=d.forms[1];
+  d.location.href="i:0i/sdcard/uweb/home6.html:"+f.b.value+":http://jamesfengcao.gitee.io/uwebzh/searchurl/template/refresh.html";
+}
 </script><style>
 input{height:40px;width:100%;border-radius:50px;}
 </style>
 <title>主屏设置</title></head><body>
 <form onsubmit="return g();" style="margin:5px 0 5px 0;padding:0px">
-  <input name=b placeholder="背景图片url, 可为配置目录下图像文件名"/><br>
+  <input name=b placeholder="背景图片网址, 可为配置目录下图像文件名"/><br>
   <input type="submit" value="设置主屏">
 </form>
+
+<form onsubmit="return g2();" style="margin:5px 0 5px 0;padding:0px">
+  <input name=b placeholder="第二主屏网址"/><br>
+  <input type="submit" value="设置第二主屏">
+</form>
+</body></html>
