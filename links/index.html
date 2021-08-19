@@ -29,13 +29,13 @@
 脚本将在链接访问结束时自动执行。</p>
 <p>url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&quot;:&quot;为链接第二个字符）及特殊链接（&quot;:&quot;为链接首字符）。</p>
 <p>不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：<br>
-.js文件(同<a href="../longclick">长按链接运行js文件</a>):  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmd">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。推荐将常用js脚本本地链接保存在.link文件中。</p>
+.js文件(同<a href="../longclick">长按链接运行js文件</a>):  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmd">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。</p>
 <p><a href="../gesture">default.gesture</a>及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。</p>
 <p>各类代理配置如下:<br>
 httpproxy::010[proxy host]:[port]<br>
 socks5::011[socks host]:[port]<br>
 noproxy::010:</p>
-<p><a href="i:0g/sdcard/uweb/default.link:https://jamesfengcao.gitee.io/uwebzh/searchurl/txt/link.cfg">点击安装Cookie延期等</a></p>
+<p><a href="i:0g/sdcard/uweb/default.link:https://jamesfengcao.gitee.io/uwebzh/searchurl/txt/link.cfg">点击安装Cookie延期，地址栏内删除特殊字符等</a></p>
 <h3 id="为首字符特殊链接">&quot;:&quot;为首字符特殊链接</h3>
 <ul>
 <li>
@@ -66,6 +66,10 @@ socks代理</p>
 <h3 id="i内部链接">&quot;i:&quot;内部链接：</h3>
 <p>点击安装<a href="i:53i:52">笔记</a>菜单</p>
 <ul>
+<li>
+<p>i:15[string]<br>
+设置地址栏内容为[string]</p>
+</li>
 <li>
 <p>i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
 读取第三方应用输入。<br>
