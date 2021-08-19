@@ -21,16 +21,6 @@
     </item>
     
     <item>
-      <title>不良信息屏蔽技术总览</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description>超微浏览器提供了形形色色的不良信息屏蔽技术，善于使用的话根本无需求助于复杂的屏蔽规则。
- 如果网站并非视频类小网站，长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;，此法可屏蔽大多数不良信息。更多可参看自定义样式屏蔽不良信息。 对非复杂交互非大厂网页而言（譬如云盘管理属复杂交互），特别是小说网站，可以长按设置，选取&amp;quot;屏蔽外链脚本&amp;quot;。 利用视频全屏播放屏蔽一切不良信息。 长按[☰]按钮可屏蔽浮动不良信息。 双正则表达式hosts文件绝杀不良信息。 针对特定网站的脚本样式屏蔽不良信息。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
-    </item>
-    
-    <item>
       <title>利用用户自定义样式屏蔽不良信息</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
