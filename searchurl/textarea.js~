@@ -1,0 +1,13 @@
+var textarea;
+function deleteLine(ta){
+  let startPos = ta.selectionStart;
+  let endPos = ta.selectionEnd;
+  let text = ta.value;
+  let lStart = startPos-1;
+  while(lStart>=0 && text.charAt(lStart)!='\n') lStart--;
+  let lEnd = endPos;
+  let len = text.length;
+  while(lEnd<len && text.charAt(lEnd)!='\n') lEnd++;
+  ta.value = text.substring(0,lStart+1) + text.substring(lEnd+1);
+  ta.selectionStart = ta.selectionEnd = lStart +1;
+}
