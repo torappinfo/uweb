@@ -1,4 +1,8 @@
 var textarea;
+onload=function(){
+  textarea=document.getElementsByTagName('textarea')[0];
+}
+
 function getNewlinePos_back(text,pos){
   while(pos>=0 && text.charAt(pos)!='\n') pos--;
   return pos;
@@ -74,26 +78,6 @@ function moveDown(ta){
 }
 
 
-function onSave(){
-  if(!textarea)textarea=document.getElementsByTagName('textarea')[0];let u8=new TextEncoder().encode(textarea.value);let r='';for(let i=0;i<u8.byteLength;i++)r+=String.fromCharCode(u8[i]);location.href='i:0l%f:'+btoa(r);
-}
-
-function onDelete(){
-  if(!textarea)textarea=document.getElementsByTagName('textarea')[0];deleteLine(textarea);
-}
-
-function onUp(){
-  if(!textarea)textarea=document.getElementsByTagName('textarea')[0];moveUp(textarea);
-}
-
-function onDown(){
-  if(!textarea)textarea=document.getElementsByTagName('textarea')[0];moveDown(textarea);
-}
-
-function onTop(){
-  if(!textarea)textarea=document.getElementsByTagName('textarea')[0];move2Top(textarea);
-}
-
-function onBottom(){
-  if(!textarea)textarea=document.getElementsByTagName('textarea')[0];move2Bottom(textarea);
+function onSave(fn){
+  let u8=new TextEncoder().encode(textarea.value);let r='';for(let i=0;i<u8.byteLength;i++)r+=String.fromCharCode(u8[i]);location.href='i:0l'+fn+':'+btoa(r);
 }
