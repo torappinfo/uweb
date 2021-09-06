@@ -30,6 +30,3 @@ function onSave(fn){
   let u8=new TextEncoder().encode(editor.session.getValue());let r='';for(let i=0;i<u8.byteLength;i++)r+=String.fromCharCode(u8[i]);location.href='i:0l'+fn+':'+btoa(r);
 }
 
-function onRun(fn){
-  location.href='i:0m'+fn;
-}
