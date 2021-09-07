@@ -1,20 +1,18 @@
 var editor;
 onload=function(){
-  var e = document.getElementById("editor");
+  var d=document;
   var ext = location.href.split('.').pop();
-  outer:{
+  {
+    var ta=d.getElementById("textarea");
+    var text=ta.innerHTML;
+    var e = d.getElementById("editor");
+    
     switch(ext){
-    case "html":
-      {
-        var text = e.innerHTML;
-        editor = ace.edit(e);
-        editor.session.setValue(text);
-      }
-      break outer;
     case "js":
       ext = "javascript";
     }
     editor = ace.edit(e);
+    editor.session.setValue(text);
   }
   editor.session.setMode("ace/mode/"+ext);
   editor.setTheme("ace/theme/clouds");

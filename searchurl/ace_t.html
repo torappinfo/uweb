@@ -6,10 +6,11 @@
         bottom: 0;
         left: 0;
     }
+    #textarea{display:none}
 </style>
 <script src='http://cdn.bootcss.com/ace/1.2.3/ace.js'></script>
 <script src='http://cdn.bootcss.com/ace/1.2.3/ext-language_tools.js'></script>
+<pre id='editor'></pre>
 <script src='ace.js'></script>
-<pre id='editor'>
-<h1>title</h1>
-<div>hi</div>
+<textarea id='textarea'>
+html.replace(/<font.+\/font>/,'');
