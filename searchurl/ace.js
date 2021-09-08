@@ -4,7 +4,7 @@ onload=function(){
   var ext = location.href.split('.').pop();
   {
     var ta=d.getElementById("textarea");
-    var text=ta.innerHTML;
+    var text=ta.value;
     var e = d.getElementById("editor");
     
     switch(ext){
