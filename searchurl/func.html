@@ -1,53 +1,67 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" /><script>function g(t){document.location.href=t+document.forms[0].q.value}</script>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" />
+<script>function g(t){document.location.href=t+document.forms[0].q.value}
+  var flg=%1%;
+  var checkBoxes;
+  function checkbox_set(num){var i;for(i=0;i<num;i++)checkBoxes[i].checked=true;return true;}
+  function checkbox_reset(num){var i;for(i=0;i<num;i++)checkBoxes[i].checked=false;return true;}
+  function checkbox_toggle(num){var i;for(i=0;i<num;i++)checkBoxes[i].checked=!checkBoxes[i].checked;return true;}
+</script>
 <style>
-input{height: 40px; width: 100%;background-color:transparent;border-radius: 50px;}
+#NUM{height: 40px; width: 100%;background-color:transparent;border-radius: 50px;}
 </style>
 <title>超微浏览器界面配置及杂项功能
 </title>
   </head><body>
 <p>点击以下链接可触发超微浏览器各类相关功能</p>
 <ul>
-  <li><a href="i:13">恢复默认设置</a>
+  <li><a href="i:13" onclick="return checkbox_reset(checkBoxes.length);">恢复默认设置</a>
   <li><a href="i:11">刷新动态快捷方式（内部目录shortcut或分类书签目录/sdcard/uweb/bookmark下文件）</a></li>
   <li><a href="i:12">系统转屏模式下反向竖屏切换</a></li>
 </ul>
 <hr/>
 
-<p><a href="i:252097151">切换</a>/<a href="i:260">重置</a>/<a href="i:262097151">反置所有</a>/<a href="i:2631">反置前五个</a>/<a href="i:26511">反置前九个</a>以下功能 (点击链接可切换)：</p>
+<p><a href="i:252097151" onclick="return checkbox_toggle(checkBoxes.length);">切换</a>/<a href="i:260" onclick="return checkbox_reset(checkBoxes.length);">重置</a>/<a href="i:262097151" onclick="return checkbox_set(checkBoxes.length);">反置所有</a>/<a href="i:2631" onclick="return checkbox_set(5);">反置前五个</a>/<a href="i:26511" onclick="return checkbox_set(9);">反置前九个</a>以下功能 (点击链接可切换)：</p>
 <ul>
+  <li><label><a href="i:251"><input type="checkbox"/>新窗口打开服务 (长按图像/历史按钮等)</a></label></li>
   <li>工具按钮短按长按功能互换
     <ul>
-      <li><a href="i:254">设置</a></li>
-      <li><a href="i:252">[☰]</a></li>
+      <li><label><a href="i:252"><input type="checkbox"/>[☰]</a></label></li>
+      <li><label><a href="i:254"><input type="checkbox"/>设置</a></label></li>
     </ul>
   </li>
-  <li><a href="i:251">新窗口打开服务 (长按图像/历史按钮等)</a></li>
-  <li><a href="i:258">被调用20秒内按后退键后台装载页面</a></li>
-  <li><a href="i:2516">无安全证书警告</a></li>
+  <li><label><a href="i:258"><input type="checkbox"/>被调用20秒内按后退键后台装载页面</a></label></li>
+  <li><label><a href="i:2516"><input type="checkbox"/>无安全证书警告</a></label></li>
   ----------------5---------------
-  <li><a href="i:2532">新窗口打开下个引擎搜索</a></li>
-  <li><a href="i:2564">自动填充采用从头开始匹配</a></li>
-  <li><a href="i:25128">禁用videoplayer.js</a></li>
-  <li><a href="i:25256">自动调整文本大小</a></li>
+  <li><label><a href="i:2532"><input type="checkbox"/>新窗口打开下个引擎搜索</a></label></li>
+  <li><label><a href="i:2564"><input type="checkbox"/>自动填充采用从头开始匹配</a></label></li>
+  <li><label><a href="i:25128"><input type="checkbox"/>禁用videoplayer.js</a></label></li>
+  <li><label><a href="i:25256"><input type="checkbox"/>自动调整文本大小</a></label></li>
   ----------------9---------------
-  <li><a href="i:25512">长按链接命令菜单切换为常用链接</a></li>
-  <li><a href="i:251024">长按链接命令菜单切换为常用命令</a></li>
-  <li><a href="i:252048">隐藏地址栏</a></li>
-  <li><a href="i:254096">隐藏工具条</a></li>
-  <li><a href="i:258192">不使用双列书签</a></li>
-  <li><a href="i:2516384">主屏使用"query.autoc"常用查询列表（android8+以上webview有bug）</a></li>
-  <li><a href="i:2532768">全屏播放不自动横屏</a></li>
-  <li><a href="i:2565536">禁止弹出JS确认框</a></li>
-  <li><a href="i:25131072">保存查询历史</a></li>
-  <li><a href="i:25262144">切换窗口时保留面板</a></li>
-  <li><a href="i:25524288">弹出视频地址时同时弹出iframe地址</a></li>
-  <li><a href="i:251048576">关闭窗口保持音频播放</a></li>
+  <li><label><a href="i:25512"><input type="checkbox"/>长按链接命令菜单切换为常用链接</a></label></li>
+  <li><label><a href="i:251024"><input type="checkbox"/>长按链接命令菜单切换为常用命令</a></label></li>
+  <li><label><a href="i:252048"><input type="checkbox"/>隐藏地址栏</a></label></li>
+  <li><label><a href="i:254096"><input type="checkbox"/>隐藏工具条</a></label></li>
+  <li><label><a href="i:258192"><input type="checkbox"/>不使用双列书签</a></label></li>
+  <li><label><a href="i:2516384"><input type="checkbox"/>主屏使用"query.autoc"常用查询列表（android8+以上webview有bug）</a></label></li>
+  <li><label><a href="i:2532768"><input type="checkbox"/>全屏播放不自动横屏</a></label></li>
+  <li><label><a href="i:2565536"><input type="checkbox"/>禁止弹出JS确认框</a></label></li>
+  <li><label><a href="i:25131072"><input type="checkbox"/>保存查询历史</a></label></li>
+  <li><label><a href="i:25262144"><input type="checkbox"/>切换窗口时保留面板</a></label></li>
+  <li><label><a href="i:25524288"><input type="checkbox"/>弹出视频地址时同时弹出iframe地址</a></label></li>
+  <li><label><a href="i:251048576"><input type="checkbox"/>关闭窗口保持音频播放</a></label></li>
 </ul>
+<script>
+  checkBoxes=document.getElementsByTagName("input");
+  let len=checkBoxes.length;
+  for(let i=0;i<len;i++){
+    if(flg&(1<<i))checkBoxes[i].checked=true;
+  }
+</script>
 
 <hr/><br/>
 <div>
 <form action="javascript:" style="margin:5px 0 5px 0;padding:0px">
-<input name=q placeholder="输入配置参数后请点击下面功能列表"/>
+<input id="NUM" name=q placeholder="输入配置参数后请点击下面功能列表"/>
 </form>
   <a href="javascript:g('i:22')">底部工具栏留空（整数，默认：10）</a> <br/>
   <a href="javascript:g('i:23')">底部工具栏图标大小（整数，默认：16）</a> <br/>
