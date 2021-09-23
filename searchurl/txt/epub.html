@@ -3,6 +3,8 @@
 <div id="area"></div>
 <script>
   let url = location.search.substring(3);
+  if(url.startsWith("file:///"))
+    url = "https://local/"+url.substring(8);
   var book = ePub(url);
   var rendition = book.renderTo("area");
   var displayed = rendition.display();

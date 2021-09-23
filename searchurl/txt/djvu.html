@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="utf-8">
+    <script src="https://djvu.js.org/assets/dist/djvu.js"></script>
+    <script src="https://djvu.js.org/assets/dist/djvu_viewer.js"></script>
+ 
+    <style>
+      #for_viewer {
+          height: 80vh;
+          width: 90vw;
+          margin: 5vh auto;
+          border: 1px solid black;
+      }
+    </style>
+  </header>
+
+  <body>
+    <div id="for_viewer"></div>
+    <script>
+      function makeRequest (method, url) {
+        return new Promise(function (resolve, reject) {
+          var xhr = new XMLHttpRequest();
+          xhr.open(method, url);
+          //xhr.overrideMimeType("application/octet-stream");
+          xhr.responseType="arraybuffer";
+          xhr.onload = function () {
+            if (this.status == 0 || (this.status >= 200 && this.status < 300)) {
+              resolve(xhr.response);
+            } else {
+              reject({
+                status: this.status,
+                statusText: xhr.statusText
+              });
+            }
+          };
+          xhr.onerror = function () {
+            reject({
+              status: this.status,
+              statusText: xhr.statusText
+            });
+          };
+
+          xhr.send();
+        });
+      }
+      // save as a global value
+      window.viewer = new DjVu.Viewer();
+      viewer.render(document.querySelector("#for_viewer"));
+      {
+        //?url=#page=
+        let url = location.search.substring(5);
+        if(url.startsWith("file:///"))
+          url = "https://local/"+url.substring(8);
+        let page = 1;
+        let lhash = location.hash;
+        if(lhash)
+          page = parseInt(lhash.substring(6),10);
+        //viewer.loadDocumentByUrl(url,{"pageNumber": page,});
+
+        /*fetch(new Request(url))
+                  .then(function(response) {
+          return response.arrayBuffer();
+          })
+        */
+        makeRequest('GET', url)
+          .then(function(buffer) {
+          viewer.loadDocument(buffer," ",{"pageNumber":page,});
+          });
+
+      }
+      
+    </script>
+
+  </body>
+
+</html>
