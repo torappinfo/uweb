@@ -10,6 +10,10 @@ onload=function(){
     switch(ext){
     case "js":
       ext = "javascript";
+      break;
+    case "py":
+      ext = "python";
+      break;
     }
     editor = ace.edit(e);
     editor.session.setValue(text);

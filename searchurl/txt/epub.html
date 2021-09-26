@@ -1,11 +1,365 @@
-<script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js"></script>
-<div id="area"></div>
-<script>
-  let url = location.search.substring(3);
-  if(url.startsWith("file:///"))
-    url = "https://local/"+url.substring(8);
-  var book = ePub(url);
-  var rendition = book.renderTo("area");
-  var displayed = rendition.display();
-</script>
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <title>EPUB</title>
+
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/epubjs@0.3.88/dist/epub.min.js"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const html = document.querySelector('html')
+
+            let fontSize = window.innerWidth / 10
+
+            fontSize = fontSize > 50 ? 50 : fontSize
+
+            html.style.fontSize = fontSize + 'px'
+
+        })
+
+    </script>
+
+    <style>
+
+        * {
+
+            padding: 0;
+
+            margin: 0;
+
+        }
+
+
+        .mask {
+
+            position: absolute;
+
+            display: flex;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            flex-direction: column;
+
+        }
+
+
+        .meun {
+
+            display: flex;
+
+            height: 1em;
+
+            align-items: center;
+
+        }
+
+
+        #toc {
+
+            flex: 1;
+
+            z-index: 100;
+
+            font-size: 0.6em;
+
+            padding-left: 0.7em;
+
+            color: #333;
+
+        }
+
+
+        #toc-content {
+
+            position: absolute;
+
+            bottom: 0;
+
+            right: 0;
+
+            z-index: 102;
+
+            width: auto;
+
+            height: 100%;
+
+            background: white;
+
+        }
+
+
+        #toc-mask {
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: 101;
+
+            width: 100%;
+
+            height: 100%;
+
+            background: rgba(51, 51, 51, .8);
+
+        }
+
+
+        #content {
+
+            width: 100%;
+
+            height: 100%;
+
+            overflow: auto;
+
+        }
+
+
+        .item {
+
+            padding: 0.4em 0.4em;
+
+            border-bottom: 0.1em solid #f4f4f4;
+
+            font-size: 0.4em;
+
+            color: #333;
+
+        }
+
+
+        #open {
+
+            flex: 1;
+
+            z-index: 100;
+
+            font-size: 0.4em;
+
+            text-align: right;
+
+            padding-right: 1em;
+
+            color: #333;
+
+        }
+
+
+        .read {
+
+            display: flex;
+
+            flex: 1 1 auto;
+
+        }
+
+
+        #prev {
+
+            flex: 0 0 2em;
+
+            z-index: 100;
+
+        }
+
+
+        #viewer {
+
+            flex: 1;
+
+        }
+
+
+        #next {
+
+            flex: 0 0 2em;
+
+            z-index: 100;
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div id="ebook">
+
+        <div class="mask">
+
+
+            <div class="read">
+
+                <div id="prev" onclick="rendition.prev()"></div>
+
+                <div id="viewer"></div>
+
+                <div id="next" onclick="rendition.next()"></div>
+
+            </div>
+
+            <div class="meun">
+
+                <div id="toc" onclick="showhide()">≡</div>
+
+                <div id="open">
+
+                    <span onclick="document.getElementById('input').click()">⊕</span>
+
+                    <input type="file" id="input" style="display: none;">
+
+                </div>
+
+            </div>
+
+            <div id="toc-mask" style="display: none;" onclick="showhide()"></div>
+
+            <div id="toc-content" style="display: none;">
+
+                <div id="content"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        let url = location.search.substring(3);
+
+        if (url !== "") {
+
+            var book = ePub(url);
+
+        } else {
+
+            var book = ePub();
+
+            var inputElement = document.getElementById("input");
+
+            inputElement.addEventListener('change', function (e) {
+
+                var file = e.target.files[0];
+
+                if (window.FileReader) {
+
+                    var reader = new FileReader();
+
+                    reader.onload = openBook;
+
+                    reader.readAsArrayBuffer(file);
+
+                }
+
+            });
+
+            function openBook(e) {
+
+                var bookData = e.target.result;
+
+                book.open(bookData, "binary");
+
+            }
+
+        }
+
+        //渲染
+
+        var rendition = book.renderTo("ebook", {
+
+            with: window.innerWidth,
+
+            height: window.innerHeight - 20
+
+        });
+
+        rendition.display();
+
+        var displayed = rendition.display();
+
+
+        function showhide() {
+
+            var $toc = document.getElementById("toc-content")
+
+            var $mask = document.getElementById("toc-mask")
+
+            if ($toc.style.display == "none") {
+
+                $toc.style.display = ""
+
+                $mask.style.display = ""
+
+            } else {
+
+                $toc.style.display = "none"
+
+                $mask.style.display = "none"
+
+            }
+
+        }
+
+
+        // 目录
+
+        book.loaded.navigation.then(function (toc) {
+
+            var $content = document.getElementById("content")
+
+            toc.forEach(function (chapter) {
+
+                var div = document.createElement("div");
+
+                div.className = "item";
+
+                div.textContent = chapter.label;
+
+                div.addEventListener("click", function () {
+
+                    rendition.display(chapter.href);
+
+                    showhide()
+
+                });
+
+                $content.appendChild(div)
+
+            })
+
+        })
+
+    </script>
+
+</body>
+
+
+</html>

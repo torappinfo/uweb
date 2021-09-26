@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <base href="https://cdn.jsdelivr.net/gh/fengdh/mdict-js/">
+    <title>mdict</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="selectize.default.css" media="screen">
+    <style>
+      #btnLookup {
+        border: none;
+        height: 36px;
+        font-size: 12pt;
+        font-weight: bold;
+        vertical-align: top;
+        border-radius: 3px;
+      }
+
+      #btnLookup:not([disabled]) {
+        background: #1A4FDD;
+        color: white;
+      }
+
+      #dict-title {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        max-width: 300px;
+        font-size: 10px;
+        opacity: 0.9;
+        background: #DDD;
+        box-shadow: -2px -2px 4px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      #dict-title * {
+        font-size: 10px!important;
+      }
+      
+      #mdict-online-viewer {
+        font-size: 14px;
+        font-family: "Georgia", "Times New Roman";
+        height: 600px;
+        width: 100%;
+      }
+      
+      #mdict-online-viewer #definition {
+        font-size: 14px;
+        height: 500px;
+        overflow: auto;
+      }
+      
+      #word + .selectize-control {
+        display: inline-block;
+        min-width: 18em;
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    <section class="main-content">
+
+      <div id="mdict-online-viewer">
+        Choose a dictionary file (*.mdx + optional *.mdd): <input id="dictfile" type="file" multiple>
+        <p>
+        <input id="word" type="text" value="">
+        <input id="btnLookup" type="button" value="look up" disabled="false">
+
+        <div id="dict-title"></div>
+        <div id="definition">
+        </div>
+        <script type="text/javascript" src="conf.js"></script>
+        <script src="require.js" data-main="mdict"></script>
+      </div>
+      
+    </section>
+
+  
+  </body>
+</html>
