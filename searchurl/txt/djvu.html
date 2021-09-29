@@ -50,8 +50,6 @@
       {
         //?url=#page=
         let url = location.search.substring(5);
-        if(url.startsWith("file:///"))
-          url = "https://local/"+url.substring(8);
         let page = 1;
         let lhash = location.hash;
         if(lhash)
