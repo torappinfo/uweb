@@ -361,7 +361,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
       <description>点击安装plyr视频播放器
 点击安装dplayer视频播放器
 点击安装pdf阅读器
-点击安装epub阅读器
+点击安装epub阅读器(作者：llili)
 点击安装djvu阅读器
 相应的菜单安装可见浏览器特色服务
 超微配置目录下的子目录名如果以&amp;quot;app&amp;quot;开始(譬如&amp;quot;/sdcard/uweb/appPDF&amp;quot;)，则这些&amp;quot;app&amp;quot;开头目录树下放置的html5应用将可获得功能增强。

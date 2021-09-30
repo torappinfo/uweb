@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <title>EPUB</title>
-
     <script src="https://cdn.bootcdn.net/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/epubjs@0.3.88/dist/epub.min.js"></script>
     <script>
@@ -22,7 +20,6 @@
           padding: 0;
           margin: 0;
       }
-
       .mask {
           position: absolute;
           display: flex;
@@ -31,31 +28,31 @@
           height: 100%;
           flex-direction: column;
       }
-
       .meun {
           display: flex;
-          height: 1em;
+          height: 1rem;
           align-items: center;
       }
-
-      #toc {
+      #toc,
+      #page {
           flex: 1;
           z-index: 100;
-          font-size: 0.6em;
-          padding-left: 0.7em;
+          font-size: .3rem;
+          padding-left: .4rem;
           color: #333;
       }
-
       #toc-content {
           position: absolute;
-          bottom: 0;
+          display: flex;
+          top: 0;
           right: 0;
           z-index: 102;
-          width: auto;
+          min-width: auto;
+          max-width: 80%;
           height: 100%;
           background: white;
+          flex-direction: column
       }
-
       #toc-mask {
           position: absolute;
           top: 0;
@@ -65,79 +62,115 @@
           height: 100%;
           background: rgba(51, 51, 51, .8);
       }
-
-      #content {
+      .intro {
           width: 100%;
-          height: 100%;
-          overflow: auto;
+          height: 2.4rem;
+          padding: .2rem .4rem;
+          box-sizing: border-box;
+          height: 3rem;
+          display: flex;
+          border-bottom: .1rem solid #f4f4f4;
       }
-
+      .txt {
+          display: flex;
+          flex: 1;
+          align-items: center;
+          padding: 0 .2rem;
+          font-size: .3rem;
+      }
+      #content {
+          overflow-y: auto;
+      }
       .item {
-          padding: 0.4em 0.4em;
-          border-bottom: 0.1em solid #f4f4f4;
-          font-size: 0.4em;
+          padding: .2rem .4rem;
+          border-bottom: .07rem solid #f4f4f4;
+          font-size: .4rem;
           color: #333;
       }
-
       #open {
+          display: flex;
           flex: 1;
           z-index: 100;
-          font-size: 0.4em;
-          text-align: right;
-          padding-right: 1em;
+          font-size: .4rem;
           color: #333;
-      }
+          align-items: flex-end;
+          justify-content: center;
 
+      }
+      #open span {
+          padding: .3rem .3rem;
+          border: .05rem solid #333;
+          border-radius: .2rem;
+      }
       .read {
           display: flex;
           flex: 1 1 auto;
       }
-
       #prev {
-          flex: 0 0 2em;
+          flex: 0 0 2rem;
           z-index: 100;
       }
-
       #viewer {
           flex: 1;
       }
-
       #next {
-          flex: 0 0 2em;
+          flex: 0 0 2rem;
           z-index: 100;
+      }
+      .save {
+          display: flex;
+      }
+
+      .box {
+          padding: .2rem .2rem;
+          justify-content: center;
+          border-bottom: .1rem solid #f4f4f4;
       }
     </style>
   </head>
-
   <body>
-
     <div id="ebook">
       <div class="mask">
-
+        <div id="open">
+          <span
+            onclick="document.getElementById('input').click();document.getElementById('open').style.display = 'none'">选择本地书籍</span>
+          <input type="file" id="input" style="display: none;">
+        </div>
         <div class="read">
           <div id="prev" onclick="rendition.prev()"></div>
           <div id="viewer"></div>
           <div id="next" onclick="rendition.next()"></div>
         </div>
         <div class="meun">
-          <div id="toc" onclick="showhide()">≡</div>
-          <div id="open">
-            <span onclick="document.getElementById('input').click()">⊕</span>
-            <input type="file" id="input" style="display: none;">
-          </div>
+          <div id="toc" onclick="showhide()"></div>
+          <div id="page" style="padding-left: 0;padding-right: 0.4rem;text-align: right;flex: 0 0 .5rem;"></div>
         </div>
         <div id="toc-mask" style="display: none;" onclick="showhide()"></div>
         <div id="toc-content" style="display: none;">
+          <div class="intro">
+            <img id="cover">
+            <div style="display: flex;flex: 1;flex-direction: column;overflow-y: auto;">
+              <div id="title" class="txt"></div>
+              <div id="author" class="txt"></div>
+              <div id="publisher" class="txt"></div>
+              <div id="pubdate" class="txt"></div>
+            </div>
+          </div>
+          <div class="save">
+            <div class="txt box" onclick="save()">存档</div>
+            <div class="txt box" onclick="get()">读档</div>
+            <div class="txt box" onclick="del()">删档</div>
+          </div>
           <div id="content"></div>
         </div>
-
       </div>
     </div>
-
     <script>
+      var local = [];
       let url = location.search.substring(3);
       if (url !== "") {
         var book = ePub(url);
+        document.getElementById("open").style.display = "none"
       } else {
         var book = ePub();
         var inputElement = document.getElementById("input");
@@ -160,23 +193,13 @@
         height: window.innerHeight - 20
       });
       rendition.display();
-      var displayed = rendition.display();
-
-      function showhide() {
-        var $toc = document.getElementById("toc-content")
-        var $mask = document.getElementById("toc-mask")
-        if ($toc.style.display == "none") {
-          $toc.style.display = ""
-          $mask.style.display = ""
-        } else {
-          $toc.style.display = "none"
-          $mask.style.display = "none"
-        }
-      }
-
       // 目录
       book.loaded.navigation.then(function (toc) {
-        var $content = document.getElementById("content")
+        var stored = localStorage.getItem(book.key() + '-locations');
+        if (stored) {
+          rendition.display(stored);
+        }
+        var $content = document.getElementById("content");
         toc.forEach(function (chapter) {
           var div = document.createElement("div");
           div.className = "item";
@@ -188,7 +211,60 @@
           $content.appendChild(div)
         })
       })
+      //简介
+      book.loaded.metadata.then(function (meta) {
+        var $title = document.getElementById("title");
+        var $author = document.getElementById("author");
+        var $cover = document.getElementById("cover");
+        var $publisher = document.getElementById("publisher");
+        var $pubdate = document.getElementById("pubdate");
+        $title.textContent = `书名：${meta.title}`;
+        $author.textContent = `作者：${meta.creator}`;
+        $publisher.textContent = `出版社：${meta.publisher}`;
+        $pubdate.textContent = `时间：${meta.pubdate}`;
+        if (book.archive) {
+          book.archive.createUrl(book.cover)
+            .then(function (url) {
+              $cover.src = url;
+            })
+        } else {
+          $cover.src = book.cover;
+        }
+      });
+      //页数
+      rendition.on('relocated', function (location) {
+        var $page = document.getElementById("page");
+        $page.textContent = location.end.displayed.page + '/' + location.end.displayed.total;
+      })
+      //章节
+      rendition.on("rendered", function (section) {
+        var $toc = document.getElementById("toc");
+        $toc.textContent = "目录";
+        $toc.textContent = book.navigation.get(section.href).label;
+      })
+      function showhide() {
+        var $toc_content = document.getElementById("toc-content")
+        var $mask = document.getElementById("toc-mask")
+        if ($toc_content.style.display == "none") {
+          $toc_content.style.display = ""
+          $mask.style.display = ""
+        } else {
+          $toc_content.style.display = "none"
+          $mask.style.display = "none"
+        }
+      }
+      function save() {
+        localStorage.setItem(book.key() + '-locations', rendition.currentLocation().start.cfi)
+        showhide()
+      }
+      function get() {
+        rendition.display(localStorage.getItem(book.key() + '-locations'));
+        showhide()
+      }
+      function del() {
+        localStorage.removeItem(book.key() + '-locations');
+        showhide()
+      }
     </script>
   </body>
-
 </html>
