@@ -1,0 +1,12 @@
+<script src="https://cdn.jsdelivr.net/npm/@accusoft/pdf-viewer@latest/bundle.js"></script>
+<div id="viewer"></div>
+<script>
+  let url = location.search.substring(6);
+  (async () => {
+    const pdfViewer = await window.Accusoft.PdfViewerControl.create({
+      sourceDocument: url,
+      container: document.getElementById('viewer')
+    });
+  })();
+</script>
+
