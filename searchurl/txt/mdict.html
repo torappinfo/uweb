@@ -55,7 +55,8 @@
       }
 
     </style>
-    
+    <script type="text/javascript" src="conf.js"></script>
+    <script src="require.js" data-main="mdict"></script>
   </head>
   <body>
     <section class="main-content">
@@ -69,12 +70,112 @@
         <div id="dict-title"></div>
         <div id="definition">
         </div>
-        <script type="text/javascript" src="conf.js"></script>
-        <script src="require.js" data-main="mdict"></script>
       </div>
       
     </section>
+    <script>
+      function AbstractFile(url) {    
+        this.name=url;
+        this.slice = async(offset, length) =>{    
+          const headers = new Headers();
+          headers.append( 'Range', 'bytes=' + offset + '-' + ( offset + length ).toString() );
 
-  
+          const opts = {
+            credentials: 'include',
+            headers    : headers
+          };
+
+          const resp = await fetch( this.name, opts );
+          alert(resp.type);
+          return await resp.blob();
+        }
+      }
+      //?url=#word=
+      let url = location.search.substring(5);
+      let word = location.hash.substring(6);
+      var fileList = [new AbstractFile(url)];
+
+      var mdict;
+      define('mdict-parseXml', function() {
+        return function (str) {
+          return (new DOMParser()).parseFromString(str, 'text/xml');
+        }
+      });
+
+      require(['jquery', 'mdict-common', 'mdict-parser', 'mdict-renderer', 'selectize'], function($, MCommon, MParser, MRenderer, Selectize) {
+        $('#btnLookup').addClass('stripes');
+        $('#word').on('keyup', function(e) { e.which === 13 && $('#btnLookup').click(); });
+      MParser(fileList).then(function(resources) {
+        mdict = MRenderer(resources);
+
+        function doSearch(phrase, offset) {
+          console.log(phrase + '');
+          mdict.lookup(phrase, offset).then(function($content) {
+            $('#definition').empty().append($content.contents());
+            console.log('--');
+          });
+        }
+        
+        $('#dict-title').html((resources['mdx'] || resources['mdd']).value().description || '** no description **');
+        mdict.render($('#dict-title'));
+
+        $('#btnLookup')
+          .attr('disabled', false)
+          .off('.#mdict')
+          .on('click.#mdict', function() {
+            doSearch($('#word').val());
+          }).click();
+        $('#word')[0].selectize.destroy();
+
+        $('#word').selectize({
+          plugins: ['restore_on_backspace'],
+          maxItems: 1,
+          maxOptions: 1 << 20,
+          valueField: 'value',
+          labelField: 'word',
+          searchField: 'word',
+          delimiter: '~~',
+          loadThrottle: 10,
+          create: function(v, callback) {
+            return callback({word: v, value: v});
+          },
+          createOnBlur: true,
+          closeAfterSelect: true,
+          allowEmptyOption: true,
+          score: function(search) {
+            var score = this.getScoreFunction(search);
+            return function(item) {return 1;};
+          },
+          load: function(query, callback) {
+            var self = this;
+            if (!query.length) {
+              this.clearOptions();
+              this.refreshOptions();
+              return;
+            };
+            mdict.search({phrase: query, max: 5000}).then(function(list) {
+              //                  console.log(list.join(', '));
+              // TODO: filter candidate keyword starting with "_"
+              list = list.map(function(v) {
+                return {word: v, value: v.offset};
+              });
+              self.clearOptions();
+              callback(list);
+            });
+          },
+          onChange: function(value) {
+            var item = this.options[value];
+            if (item) {
+              var value = item.word;
+              doSearch(value, value.offset);
+              $('#word').val(value);
+            } else {
+              $('#definition').empty();
+            }
+          },
+        });
+      });
+      });
+    </script>
   </body>
 </html>
