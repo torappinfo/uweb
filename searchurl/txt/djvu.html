@@ -18,32 +18,6 @@
   <body>
     <div id="for_viewer"></div>
     <script>
-      function makeRequest (method, url) {
-        return new Promise(function (resolve, reject) {
-          var xhr = new XMLHttpRequest();
-          xhr.open(method, url);
-          //xhr.overrideMimeType("application/octet-stream");
-          xhr.responseType="arraybuffer";
-          xhr.onload = function () {
-            if (this.status == 0 || (this.status >= 200 && this.status < 300)) {
-              resolve(xhr.response);
-            } else {
-              reject({
-                status: this.status,
-                statusText: xhr.statusText
-              });
-            }
-          };
-          xhr.onerror = function () {
-            reject({
-              status: this.status,
-              statusText: xhr.statusText
-            });
-          };
-
-          xhr.send();
-        });
-      }
       // save as a global value
       window.viewer = new DjVu.Viewer();
       viewer.render(document.querySelector("#for_viewer"));
@@ -54,20 +28,22 @@
         let lhash = location.hash;
         if(lhash)
           page = parseInt(lhash.substring(6),10);
-        //viewer.loadDocumentByUrl(url,{"pageNumber": page,});
-
-        /*fetch(new Request(url))
-                  .then(function(response) {
-          return response.arrayBuffer();
-          })
-        */
-        makeRequest('GET', url)
-          .then(function(buffer) {
-          viewer.loadDocument(buffer," ",{"pageNumber":page,});
-          });
-
+        viewer.loadDocumentByUrl(url,{"pageNumber": page,});
       }
-      
+      window.addEventListener('hashchange', function() {
+        let page = 1;
+        let lhash = location.hash;
+        if(lhash)
+          page = parseInt(lhash.substring(6),10);
+        viewer.configure({pageNumber: page,});
+        /*
+        viewer.store.dispatch({
+          type: DjVu.Viewer.ActionTypes.SET_NEW_PAGE_NUMBER_ACTION,
+          pageNumber: page,
+          shouldScrollToPage: true,
+        });
+        */
+      });
     </script>
 
   </body>
