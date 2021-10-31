@@ -1,0 +1,54 @@
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    function absFile(url) {
+      this.name=url;
+      this.slice = async(offset, length) =>{
+        const headers = new Headers();
+        headers.append('range', 'bytes=' + offset + '-' + ( offset + length -1).toString());
+
+        const opts = {
+          credentials: 'include',
+          headers    : headers
+        };
+
+        const resp = await fetch( this.name, opts );
+        return await resp.arrayBuffer();
+        //alert(JSON.stringify(resp.headers));
+        //return await resp.text();
+      }
+    }
+    
+    var url;
+    var page = 1;
+    var blocksize = 1024;
+    var extrasize = 2048;
+    var file;
+    function loadSlice(){
+      let lhash = location.hash;
+      if(lhash)
+        page = parseInt(lhash.substring(6),10);
+      file.slice(blocksize*(page-1),blocksize+extrasize).then((buffer)=>{
+        let u8 = new Uint8Array(buffer);
+        let iStart = 0;
+        if(1!=page){
+          while(10!=u8[iStart]) iStart++;
+        }
+        let iEnd = u8.indexOf(10,blocksize);//fine newline(10)
+        if(-1==iEnd) iEnd = blocksize;
+        iEnd++;
+        document.body.innerHTML = marked(new TextDecoder().decode(u8.slice(iStart,iEnd)));
+      });
+
+    }
+    window.addEventListener('hashchange',loadSlice);
+  </script>
+</head>
+<body>
+  <script>
+    //?url=#page=
+    file = new absFile(location.search.substring(5));
+    //let viewElement = document.querySelector("#viewer");
+    loadSlice();
+  </script>
+<body>
