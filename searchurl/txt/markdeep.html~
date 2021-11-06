@@ -1,5 +1,5 @@
 <head>
-  <script src="https://cdn.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     function absFile(url) {
       this.name=url;
@@ -22,7 +22,7 @@
     var url;
     var page = 1;
     var blocksize = 1024;
-    var extrasize = 1024; //extrasize should <= blocksize
+    var extrasize = 2048;
     var file;
     function loadSlice(){
       let lhash = location.hash;
@@ -32,20 +32,11 @@
         let u8 = new Uint8Array(buffer);
         let iStart = 0;
         if(1!=page){
-          for(let i=1;i<extrasize;i=i+2){
-            if(10==u8[i] && 10==u8[i-1]) {
-              iStart = i+1;
-              break;
-            }
-          }
+          while(10!=u8[iStart]) iStart++;
         }
-        let iEnd = blocksize;
-        for(let i=blocksize+1;i<blocksize+extrasize;i=i+2){
-          if(10==u8[i] && 10==u8[i-1]) {
-            iEnd = i+1;
-            break;
-          }
-        }
+        let iEnd = u8.indexOf(10,blocksize);//fine newline(10)
+        if(-1==iEnd) iEnd = blocksize;
+        iEnd++;
         document.body.innerHTML = marked(new TextDecoder().decode(u8.slice(iStart,iEnd)));
       });
 
