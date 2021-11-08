@@ -1,8 +1,8 @@
 <head>
-  <link rel="stylesheet" href="https://morgan3d.github.io/markdeep/latest/latex.css?"><!-- Markdeep: --><style class="fallback">body{visibility:hidden}</style>
-  <script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
+  <script>window.markdeepOptions = {mode: 'script'};</script>
+  <script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script>
-    window.addEventListener('hashchange',loadSlice);
     function absFile(url) {
       this.name=url;
       this.slice = async(offset, length) =>{
@@ -21,32 +21,42 @@
       }
     }
     
-    var uwebfile;
+    var file = new absFile(location.search.substring(5));//?url=#page=
+    window.addEventListener('hashchange',loadSlice);
+    loadSlice();
+
     function loadSlice(){
+      var url;
       var page = 1;
       var blocksize = 1024;
-      var extrasize = 2048;
-
+      var extrasize = 1024; //extrasize should <= blocksize
       let lhash = location.hash;
       if(lhash)
         page = parseInt(lhash.substring(6),10);
-      uwebfile.slice(blocksize*(page-1),blocksize+extrasize).then((buffer)=>{
+      file.slice(blocksize*(page-1),blocksize+extrasize).then((buffer)=>{
         let u8 = new Uint8Array(buffer);
         let iStart = 0;
         if(1!=page){
-          while(10!=u8[iStart]) iStart++;
+          for(let i=1;i<extrasize;i=i+2){
+            if(10==u8[i] && 10==u8[i-1]) {
+              iStart = i+1;
+              break;
+            }
+          }
         }
-        let iEnd = u8.indexOf(10,blocksize);//fine newline(10)
-        if(-1==iEnd) iEnd = blocksize;
-        iEnd++;
-        document.body.innerHTML = new TextDecoder().decode(u8.slice(iStart,iEnd));
+        let iEnd = blocksize;
+        for(let i=blocksize+1;i<blocksize+extrasize;i=i+2){
+          if(10==u8[i] && 10==u8[i-1]) {
+            iEnd = i+1;
+            break;
+          }
+        }
+        document.body.innerHTML = window.markdeep.format(new TextDecoder().decode(u8.slice(iStart,iEnd)),true);
+        MathJax.typesetPromise();
       });
 
     }
-    //?url=#page=
-    uwebfile = new absFile(location.search.substring(5));
-    loadSlice();
   </script>
 </head>
 <body>
-<body>
+</body>

@@ -360,7 +360,8 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/html5/</guid>
-      <description>点击安装超大文件阅读器（支持markdown）
+      <description>点击安装超大文件阅读器（支持txt, html, markdown）
+点击安装超大文件阅读器（markdeep版, tex, diagram等）
 点击安装plyr视频播放器
 点击安装dplayer视频播放器
 点击安装pdf阅读器

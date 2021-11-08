@@ -19,12 +19,12 @@
       }
     }
     
-    var url;
-    var page = 1;
-    var blocksize = 1024;
-    var extrasize = 1024; //extrasize should <= blocksize
     var file;
     function loadSlice(){
+      var url;
+      var page = 1;
+      var blocksize = 1024;
+      var extrasize = 1024; //extrasize should <= blocksize
       let lhash = location.hash;
       if(lhash)
         page = parseInt(lhash.substring(6),10);
@@ -51,13 +51,11 @@
 
     }
     window.addEventListener('hashchange',loadSlice);
-  </script>
-</head>
-<body>
-  <script>
     //?url=#page=
     file = new absFile(location.search.substring(5));
     //let viewElement = document.querySelector("#viewer");
     loadSlice();
   </script>
+</head>
 <body>
+</body>
