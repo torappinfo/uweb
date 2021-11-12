@@ -18,44 +18,71 @@
         //return await resp.text();
       }
     }
+
+    function render(u8array){
+      document.body.innerHTML = marked(new TextDecoder().decode(u8array));
+    }
     
     var file;
+    var blocksize = 1024;
     function loadSlice(){
       var url;
       var page = 1;
-      var blocksize = 1024;
-      var extrasize = 1024; //extrasize should <= blocksize
+      var extrasize = blocksize; //extrasize should <= blocksize
       let lhash = location.hash;
-      if(lhash)
-        page = parseInt(lhash.substring(6),10);
+      if(lhash){
+        if("p"!==lhash.charAt(1)){//#offset=&[len]
+          let iAmpersand = lhash.indexOf('&',8);
+          let offset = parseInt(lhash.substring(8,iAmpersand));
+          let len = parseInt(lhash.substring(iAmpersand+1));
+          {//update urlInc() url
+            let href = location.href;
+            let iHash = href.indexOf('#');
+            href="i:5c"+href.substring(0,iHash)+"#page="+Math.floor((offset+len)/blocksize);
+            let d=document;
+            let a = d.createElement('a');
+            a.href = href;
+            a.click();
+          }
+          file.slice(offset,len).then((buffer)=>{
+            let u8 = new Uint8Array(buffer);
+            render(u8);
+          });
+          return;
+        }
+        //#page=
+        page = parseInt(lhash.substring(6));
+      }
       file.slice(blocksize*(page-1),blocksize+extrasize).then((buffer)=>{
         let u8 = new Uint8Array(buffer);
+        let u8len = u8.length;
         let iStart = 0;
+        let limit = Math.min(u8len,extrasize);
         if(1!=page){
-          for(let i=1;i<extrasize;i=i+2){
+          for(let i=1;i<limit;i=i+2){
             if(10==u8[i] && 10==u8[i-1]) {
               iStart = i+1;
               break;
             }
           }
         }
-        let iEnd = blocksize;
-        for(let i=blocksize+1;i<blocksize+extrasize;i=i+2){
+        let iEnd = Math.min(u8len,blocksize);
+        limit = Math.min(u8len,blocksize+extrasize);
+        for(let i=blocksize+1;i<limit;i=i+2){
           if(10==u8[i] && 10==u8[i-1]) {
             iEnd = i+1;
             break;
           }
         }
-        document.body.innerHTML = marked(new TextDecoder().decode(u8.slice(iStart,iEnd)));
+        render(u8.slice(iStart,iEnd));
       });
 
     }
-    window.addEventListener('hashchange',loadSlice);
-    //?url=#page=
+    //?url=#offset=&[len]&page=
     file = new absFile(location.search.substring(5));
-    //let viewElement = document.querySelector("#viewer");
-    loadSlice();
+    window.addEventListener('hashchange',loadSlice);
   </script>
 </head>
 <body>
+  <script>loadSlice();</script>
 </body>
