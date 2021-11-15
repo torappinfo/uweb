@@ -20,15 +20,20 @@
         //return await resp.text();
       }
     }
-
-    function render(u8array){
-      document.body.innerHTML = window.markdeep.format(new TextDecoder().decode(u8array),true);
-      MathJax.typesetPromise();
-    }
     
     var file;
     var blocksize = 1024;
     function loadSlice(){
+      function render(u8array){
+        document.body.innerHTML = window.markdeep.format(new TextDecoder().decode(u8array),true);
+        MathJax.typesetPromise();
+      }
+      function setPageUrl(pageurl){
+        let a = document.createElement('a');
+        a.href = "i:5c"+pageurl;
+        a.click();
+      }
+
       var url;
       var page = 1;
       var extrasize = blocksize; //extrasize should <= blocksize
@@ -41,11 +46,8 @@
           {//update urlInc() url
             let href = location.href;
             let iHash = href.indexOf('#');
-            href="i:5c"+href.substring(0,iHash)+"#page="+Math.floor((offset+len)/blocksize);
-            let d=document;
-            let a = d.createElement('a');
-            a.href = href;
-            a.click();
+            href=href.substring(0,iHash)+"#page="+Math.floor((offset+len)/blocksize);
+            setPageUrl(href);
           }
           file.slice(offset,len).then((buffer)=>{
             let u8 = new Uint8Array(buffer);
@@ -55,7 +57,8 @@
         }
         //#page=
         page = parseInt(lhash.substring(6));
-      }
+      }else
+        setPageUrl(location.href+"#page=1");
       file.slice(blocksize*(page-1),blocksize+extrasize).then((buffer)=>{
         let u8 = new Uint8Array(buffer);
         let u8len = u8.length;
