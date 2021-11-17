@@ -126,7 +126,9 @@ crontab例子内容如下：
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
-      <description>uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
+      <description>点击以下链接可安装至常用链接
+酷安扫描
+uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
 其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
 脚本将在链接访问结束时自动执行。
@@ -160,8 +162,7 @@ socks代理
 点击安装酷安扫描至常用链接
   i:18[extended mimetype]:[range]:[url]
 读取url部分数据并使用指定mimetype强制处理。
-:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;
-:可以为标准的mimetype。也可以在标准mimetype后面添加&amp;quot;.&amp;lt;文件名&amp;gt;&amp;quot;，此时uweb配置目录下的文件“&amp;lt;文件名&amp;gt;”内容会附在url部分数据后面一起显示。</description>
+:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;</description>
     </item>
     
     <item>

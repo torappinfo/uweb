@@ -1,4 +1,5 @@
 <head>
+  <base>
   <script src="https://cdn.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
   <script>
     function absFile(url) {
@@ -24,6 +25,7 @@
     function loadSlice(){
       function render(u8array){
         document.body.innerHTML = marked(new TextDecoder().decode(u8array));
+        scroll(0,0);
       }
       function setPageUrl(pageurl){
         let a = document.createElement('a');
@@ -31,7 +33,6 @@
         a.click();
       }
 
-      var url;
       var page = 1;
       var extrasize = blocksize; //extrasize should <= blocksize
       let lhash = location.hash;
@@ -82,7 +83,11 @@
 
     }
     //?url=#offset=&[len]&page=
-    file = new absFile(location.search.substring(5));
+    {
+      let url = location.search.substring(5);
+      file = new absFile(url);
+      document.getElementsByTagName('base')[0].href=url;
+    }
     window.addEventListener('hashchange',loadSlice);
   </script>
 </head>
