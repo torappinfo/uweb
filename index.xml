@@ -15,7 +15,8 @@
       <guid>https://jamesfengcao.gitee.io/uwebzh/icons/</guid>
       <description>超微浏览器配置目录下如果存在目录&amp;quot;icon&amp;quot;，则此目录下的文件名为&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
 会作为底部工具栏图标。文件&amp;quot;0&amp;quot;替换原后退按钮，&amp;quot;1&amp;quot;为前进按钮，&amp;quot;2&amp;quot;为设置按钮，&amp;quot;3&amp;quot;为主页按钮......。
-注意：刷新按钮及窗口按钮图标暂时不能重定义。</description>
+注意：刷新按钮及窗口按钮图标暂时不能重定义。
+由于不同图标设计风格可能不同，图像分辨率越高，图标之间的空白会显得越大。如果用户混用不同系列图标，可适当调低分辨率，譬如96x96就是一个不错的选择。</description>
     </item>
     
     <item>
@@ -55,6 +56,7 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 &amp;quot;sbookmark/&amp;quot;:超级书签默认目录
 &amp;quot;sitecache/&amp;quot;:用户供应网站离线数据
 &amp;quot;longclick/&amp;quot;:长按链接菜单(js)
+&amp;quot;icon/&amp;quot;:图标定制
 &amp;quot;app[XXX]/&amp;quot;:html5应用目录
 &amp;quot;default.longclick&amp;quot;:长按链接菜单
 &amp;quot;default.uas&amp;quot;:浏览器标识
