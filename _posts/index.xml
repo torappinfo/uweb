@@ -15,6 +15,7 @@
       <guid>https://jamesfengcao.gitee.io/uwebzh/icons/</guid>
       <description>超微浏览器配置目录下如果存在目录&amp;quot;icon&amp;quot;，则此目录下的文件名为&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
 会作为底部工具栏图标。文件&amp;quot;0&amp;quot;替换原后退按钮，&amp;quot;1&amp;quot;为前进按钮，&amp;quot;2&amp;quot;为设置按钮，&amp;quot;3&amp;quot;为主页按钮......。
+用户可定义任意多个按钮(100个按钮毫无压力)，其短按长按功能可在文件default.button及default.button2中定义，格式与文件default.link完全相同，每行从最后一个按钮开始重定义功能。
 注意：刷新按钮及窗口按钮图标暂时不能重定义。</description>
     </item>
     
