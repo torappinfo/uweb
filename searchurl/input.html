@@ -101,7 +101,7 @@ var did = (window.name.slice(0, 3) == "if_") ? parseInt(window.name.slice(3)) : 
 // $UCh$ 表示漢字的16進制小寫Unicode變數
 // $UCH$ 表示漢字的16進制大寫Unicode變數
 var ref = did ? ("href='content://mdict.cn/entry/"+did+"/$CHR$'") :
-	"title='U+$UCH$' href='http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=$ENC$' target='_blank'";
+	"title='U+$UCH$' href='i:19$ENC$'";
 var cpy = "title='U+$UCH$' href='#1' onclick='SetClipBoard(\"$CHR$\")'";
 var ime = 0;
 
@@ -440,7 +440,7 @@ var Init=function()
 	document.getElementById("variant").checked = GetCookie("variant", "1") == "1";
 	document.getElementById("onthefly").checked = GetCookie("onthefly", "1") == "1";
 	document.getElementById("largefont").checked = GetCookie("largefont", "0") == "1";
-	document.getElementById("copymode").checked = GetCookie("copymode", "1") == "1";
+	document.getElementById("copymode").checked = GetCookie("copymode", "0") == "1";
 	document.getElementById((ie > 7) ? "input" : "input7").addEventListener('compositionstart', function(){ ime = true; });
 	document.getElementById((ie > 7) ? "input" : "input7").addEventListener('compositionend', function(){ setTimeout(function(){ ime = false; FindMatch(99,true); }, 1); });
 
