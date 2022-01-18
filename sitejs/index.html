@@ -36,10 +36,11 @@
 <li>脚本执行对浏览器无性能影响，即使有百万脚本存在。</li>
 <li>目前支持两段、三段及少数四段域名。所以脚本请不要以很长的域名来命名。</li>
 </ul>
-<p>样式</p>
+<p>样式及第一时间装载js脚本</p>
 <ul>
 <li>与此类似，用户样式需命名为 &quot;[根域名].css&quot;，譬如baidu.com.css 或tieba.baidu.com.css。</li>
 <li>样式文件需放到/sdcard/uweb/sitecss目录下。</li>
+<li>sitecss目录下&quot;[根域名].js&quot;文件会在第一时间装载。</li>
 <li>长按窗口按钮，勾选“使用网址用户样式”。</li>
 <li>如果文件“/sdcard/uweb/default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。</li>
 <li>default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。</li>
