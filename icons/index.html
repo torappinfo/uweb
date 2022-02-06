@@ -25,6 +25,7 @@
   </ul>
   <p>超微浏览器配置目录下如果存在目录&quot;icon&quot;，则此目录下的文件名为&quot;0&quot;,&quot;1&quot;,&quot;2&quot;...<br>
 会作为底部工具栏图标。文件&quot;0&quot;替换原后退按钮，&quot;1&quot;为前进按钮，&quot;2&quot;为设置按钮，&quot;3&quot;为主页按钮......。</p>
+<p>如果定义有新按钮（当前版本存在文件&quot;20&quot;），则uweb支持向量格式图标VectorDrawable，格式为compiled XML。此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。</p>
 <p>用户可定义任意多个按钮(100个按钮毫无压力)，其短按长按功能可在文件default.button及default.button2中定义，格式与文件<a href="../links">default.link</a>完全相同，每行从最后一个按钮开始重定义功能。</p>
 <p>注意：刷新按钮及窗口按钮图标暂时不能重定义。</p>
 
