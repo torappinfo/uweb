@@ -6,11 +6,11 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>图标定制</title>
+      <title>工具栏定制</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/icons/</link>
-      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/icons/</guid>
       <description>超微浏览器配置目录下如果存在目录&amp;quot;icon&amp;quot;，则此目录下的文件名为&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
@@ -366,7 +366,7 @@ pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:e
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description> 长按底部工具栏[☰]按钮，选取&amp;quot;iframe&amp;quot;。更多可参看自定义样式。 对非复杂交互非大厂网页而言，特别是小说网站，可以长按设置，选取&amp;quot;XX外链脚本&amp;quot;。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式hosts文件。 针对特定网站的脚本样式。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
+      <description> 长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 对非复杂交互非大厂网页而言，特别是小说网站，可以长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式根域名隐藏。 针对特定网站的脚本样式。 对非图片为主的网站可直接关闭图像。 对非交互性网站，可关闭[JS]脚本。  </description>
     </item>
     
     <item>
