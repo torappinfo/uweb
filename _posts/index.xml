@@ -6,7 +6,31 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>超级计算器(bc)</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/bc/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/bc/</guid>
+      <description>使用uweb浏览器。
+Gnu bc计算器支持无限精度，可扩展函数库、常数库。
+安装bc (Android11+无需安装)  安装uweb定制Termux应用 Termux下运行以下命令：
+apt update
+apt upgrade
+apt install bc  使用书签调用计算器 &amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。
+bc
+全能bc
+浏览器地址栏作为超级计算器 配置文件/sdcard/uweb/default.acmd如下：
+计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q
+更多bc扩展库： 扩展库可下载至/sdcard/uweb目录）
+https://github.com/susca/bc-extensions
+http://phodd.net/gnu-bc
+http://www.numbertheory.org/gnubc/gnubc.html
+使用扩展库以后default.acmd配置如下： 计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q extensions.bc scientific_constants.bc
+全能计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q *.bc</description>
+    </item>
+    
     <item>
       <title>工具栏定制</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/icons/</link>
@@ -216,30 +240,6 @@ BaiduPCS-Go config set -appid=266719
   离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
   其它支持离线下载的网页也可定义为一键离线。
   </description>
-    </item>
-    
-    <item>
-      <title>超级计算器(bc)</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/bc/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/bc/</guid>
-      <description>使用uweb浏览器。
-Gnu bc计算器支持无限精度，可轻易扩展函数库、常数库。
-安装bc  安装uweb定制Termux应用 Termux下运行以下命令：
-apt update
-apt upgrade
-apt install bc  使用书签调用计算器 &amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。
-bc
-全能bc
-浏览器地址栏作为超级计算器 配置文件/sdcard/uweb/default.acmd如下：
-计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q
-更多bc扩展库： 扩展库可下载至/sdcard/uweb目录）
-https://github.com/susca/bc-extensions
-http://phodd.net/gnu-bc
-http://www.numbertheory.org/gnubc/gnubc.html
-使用扩展库以后default.acmd配置如下： 计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l －q extensions.bc scientific_constants.bc
-全能计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l －q *.bc</description>
     </item>
     
     <item>
