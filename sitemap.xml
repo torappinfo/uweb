@@ -47,21 +47,6 @@
     <loc>https://jamesfengcao.gitee.io/uwebzh/bc/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/pc/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/ssh/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/windows/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/pccopy/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/javascript/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -101,7 +86,13 @@
     <loc>https://jamesfengcao.gitee.io/uwebzh/gesture/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/ssh/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/cmd/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/categories/</loc>
@@ -109,6 +100,10 @@
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/css/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/globalcss/</loc>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/pc/</loc>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/windows/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E4%B8%8B%E8%BD%BD/</loc>
   </url><url>
@@ -129,6 +124,8 @@
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</loc>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/pccopy/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/pcdown/</loc>
   </url><url>
