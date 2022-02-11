@@ -593,6 +593,18 @@ pclip</description>
     </item>
     
     <item>
+      <title>文件管理器及文件挑选并批量处理</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/filemanager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/filemanager/</guid>
+      <description>超微浏览器访问以&amp;quot;/&amp;quot;结尾 （包括&amp;quot;/?&amp;quot;及后面参数）的&amp;quot;file://&amp;quot; url，则进入文件管理器。
+对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。&amp;quot;?IMG&amp;quot;列举出所有IMG开头的文件。此时可选定文件，并安装checked.js对选取文件进行批量处理。
+文件批量处理配置default.select例子：
+图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</description>
+    </item>
+    
+    <item>
       <title>浏览器一键控制台式机/服务器下载资源</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
