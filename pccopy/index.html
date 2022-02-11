@@ -42,7 +42,7 @@ mimetype用来表示命令的输入输出类型。格式为&quot;[输入mimetype
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 /uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。<br>
 /termux: 命令运行结果将作为termux下命令运行。<br>
-<a target="_self" href="i:0h/sdcard/uweb/check.js:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&quot;?&lt;文件后缀&gt;&quot;。譬如&quot;file:///sdcard/?.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)</p>
+<a target="_self" href="i:0h/sdcard/uweb/check.js:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][<em>[文件后缀]]&quot;。譬如&quot;file:///sdcard/?</em>.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)</p>
 <p>配置/sdcard/uweb/default.select如下：<br>
 复制文本到地址栏:uweb:echo i:15`cat`<br>
 笔记::(cat;echo;echo;)&gt;&gt;notes.txt<br>
