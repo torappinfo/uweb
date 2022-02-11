@@ -6,7 +6,43 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小书签</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</guid>
+      <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
+查看浏览器UA
+&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.cookie))})()&#34;网页cookie
+&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
+maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
+POST转GET
+Shows all form elements
+Enables all form elements
+切换复选框状态
+全选复选框
+复选框全不选
+切换表内复选框状态
+解除选择复制限制（无效时可设UA为PC）
+恢复长按菜单
+=0){spannode=document.createElement(&amp;quot;SPAN&amp;quot;);spannode.style.backgroundColor=&amp;quot;yellow&amp;quot;;middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 &amp;amp;&amp;amp; node.childNodes &amp;amp;&amp;amp; node.tagName.toUpperCase()!=&amp;quot;SCRIPT&amp;quot; &amp;amp;&amp;amp; node.tagName.toUpperCase!=&amp;quot;STYLE&amp;quot;){for (var child=0; child 正则搜索
+nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序</description>
+    </item>
+    
+    <item>
+      <title>文件管理器及文件挑选并批量处理</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/filemanager/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/filemanager/</guid>
+      <description>超微浏览器访问以&amp;quot;/&amp;quot;结尾 （包括&amp;quot;/?&amp;quot;及后面参数）的&amp;quot;file://&amp;quot; url，则进入文件管理器。
+对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。&amp;quot;?IMG&amp;quot;列举出所有IMG开头的文件。此时可选定文件，并安装checked.js对选取文件进行批量处理。
+文件批量处理配置default.select例子：
+图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</description>
+    </item>
+    
     <item>
       <title>超级计算器(bc)</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/bc/</link>
@@ -539,24 +575,6 @@ default.hosts文件格式每行如下：
     </item>
     
     <item>
-      <title>小书签</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</guid>
-      <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
-查看浏览器UA
-&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.cookie))})()&#34;网页cookie
-&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
-maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
-切换复选框状态
-解除选择复制限制（无效时可设UA为PC）
-恢复长按菜单
-=0){spannode=document.createElement(&amp;quot;SPAN&amp;quot;);spannode.style.backgroundColor=&amp;quot;yellow&amp;quot;;middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 &amp;amp;&amp;amp; node.childNodes &amp;amp;&amp;amp; node.tagName.toUpperCase()!=&amp;quot;SCRIPT&amp;quot; &amp;amp;&amp;amp; node.tagName.toUpperCase!=&amp;quot;STYLE&amp;quot;){for (var child=0; child 正则搜索
-nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序</description>
-    </item>
-    
-    <item>
       <title>操作选中（富）文本／元素</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/pccopy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -590,18 +608,6 @@ Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如�
 复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
 其它推荐工具(读取PC剪贴板)：
 pclip</description>
-    </item>
-    
-    <item>
-      <title>文件管理器及文件挑选并批量处理</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/filemanager/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/filemanager/</guid>
-      <description>超微浏览器访问以&amp;quot;/&amp;quot;结尾 （包括&amp;quot;/?&amp;quot;及后面参数）的&amp;quot;file://&amp;quot; url，则进入文件管理器。
-对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。&amp;quot;?IMG&amp;quot;列举出所有IMG开头的文件。此时可选定文件，并安装checked.js对选取文件进行批量处理。
-文件批量处理配置default.select例子：
-图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</description>
     </item>
     
     <item>

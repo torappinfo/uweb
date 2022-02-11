@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/_posts/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/javascript/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/filemanager/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/bc/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
@@ -29,9 +41,6 @@
     <loc>https://jamesfengcao.gitee.io/uwebzh/logcat/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/</loc>
-    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/termux/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,9 +55,6 @@
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/javascript/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/longclick/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
@@ -123,11 +129,7 @@
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
   </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</loc>
-  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/pccopy/</loc>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/filemanager/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/pcdown/</loc>
   </url><url>
