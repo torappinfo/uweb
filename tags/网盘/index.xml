@@ -25,7 +25,7 @@ chmod 777 /data/data/com.termux/files/usr/bin/BaiduPCS-Go
 BaiduPCS-Go login
 BaiduPCS-Go config set -appid=266719
   /sdcard/uweb/default.longclick配置如下：
-百度离线下载:termux/*:BaiduPCS-Go od add
+百度离线下载:termux/*:BaiduPCS-Go od add &amp;quot;%u&amp;quot;;exit 1
   重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。
   离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
   其它支持离线下载的网页也可定义为一键离线。

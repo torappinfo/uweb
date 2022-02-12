@@ -5,11 +5,12 @@
     <link>https://jamesfengcao.gitee.io/uwebzh/tags/windows/</link>
     <description>Recent content in Windows on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/pccopy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/pccopy/</guid>
       <description>点击安装&amp;quot;保存文本&amp;quot;等
@@ -33,9 +34,7 @@ checked.js: 运行配置目录下checked.js，其返回值作为命令行标准�
 如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
 此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
 采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。
-手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。
-[在超微浏览器中长按并在新窗口打开此链接](data:text/html;charset=utf-8,&amp;lt;body contenteditable%3E)，然后点击窗口并粘贴文本。长按链接按钮选择适当功能即可复制至PC剪贴板。
-通过新窗口打开上述链接，超微浏览器因此亦可用作简单的文本/html编辑器。用户可通过“命名笔记”存为地址栏输入框指定文件。
+手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。长按链接按钮选择适当功能即可复制至PC剪贴板。
 Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：
 复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
 其它推荐工具(读取PC剪贴板)：
