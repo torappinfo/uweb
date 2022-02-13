@@ -235,6 +235,7 @@ crontab例子内容如下：
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
       <description>点击以下链接可安装至常用链接
+点击安装Cookie延期，地址栏内删除特殊字符，站内搜索等
 酷安扫描
 uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
@@ -248,7 +249,6 @@ default.gesture及default.button文件采用了完全一样的格式。.gesture�
 httpproxy::010[proxy host]:[port]
 socks5::011[socks host]:[port]
 noproxy::010:
-点击安装Cookie延期，地址栏内删除特殊字符等
 &amp;quot;:&amp;quot;为首字符特殊链接   :0000
 Cookie延期至70年，但服务器有可能否决。
   :0001
