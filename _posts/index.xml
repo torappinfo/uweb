@@ -6,7 +6,24 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用书签</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
+      <description>以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
+&amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。
+Termux命令书签 需安装定制版termux及相应工具，
+计算器bc
+全能计算器bc
+以下书签需安装gopher.
+CNN news gopher
+wikipedia search gopher
+reddit gopher</description>
+    </item>
+    
     <item>
       <title>信息隐藏技术总览</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
