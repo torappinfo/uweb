@@ -12,9 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/hosts/</guid>
-      <description>不少国外网站本身虽可访问，但由于网站需要下载google,facebook等屏蔽网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。
+      <description>不少国外网站本身虽可访问，但由于网站需要下载屏蔽网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。
 使用Android端uweb浏览器。
-&amp;quot;/sdcard/uweb/default.hosts&amp;quot;内容如下：
+域名文件内容如下：
 googleadservices.com
 googlesyndication.com
 adsense.com
