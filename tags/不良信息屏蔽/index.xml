@@ -38,10 +38,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/hosts/</guid>
-      <description>不少国外网站本身虽可访问，但由于网站需要下载google,
-facebook等屏蔽网址的资源而导致无法访问。超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、......，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。
+      <description>不少国外网站本身虽可访问，但由于网站需要下载google,facebook等屏蔽网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动屏蔽这些网址，最终允许浏览器快速访问合法网站。
 使用Android端uweb浏览器。
-/sdcard/uweb/default.hosts内容如下：
+&amp;quot;/sdcard/uweb/default.hosts&amp;quot;内容如下：
 googleadservices.com
 googlesyndication.com
 adsense.com
@@ -61,13 +60,13 @@ fbcdn.net
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</guid>
-      <description>超级hosts文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（少数很短的域名可取四段）。
+      <description>&amp;quot;default.hosts&amp;quot;文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（少数很短的域名可取四段）。
   长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
   部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。
   可长按设置开启&amp;quot;资源嗅探&amp;quot;，推荐设置文件&amp;quot;/sdcard/uweb/types.sniff&amp;quot;内容为js，刷新网页后关闭&amp;quot;资源嗅探&amp;quot;选项。在弹出的资源网页上长按链接，屏蔽根域名。
   (可选) 长按不良信息链接，点击“屏蔽根域名”，屏蔽链接网址。
   (可选) 某些不良信息靠javascript激发，链接中不出现域名，可点击激发至新网址后将新网址根域名屏蔽。
-  超级hosts文件支持域名及整个网址正则表达式
+  支持域名及整个网址正则表达式
 default.hosts文件格式每行如下：
 根域名[空格]域名前缀正则表达式[空格]整个网址去掉协议部分后正则表达式
 空格及后面两个正则表达式为可选择项。正则表达式采用java标准。
