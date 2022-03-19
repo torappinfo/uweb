@@ -6,7 +6,66 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>超微浏览器配置文件列表</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/filenames/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/filenames/</guid>
+      <description>下面列表中以&amp;quot;/&amp;quot;结尾者为目录，其余为文件。如果用户勾选“使用内部目录配置”，&amp;quot;sitejs/&amp;quot;,&amp;quot;sitecache/&amp;quot;等位于应用内部保护目录下。否则以下所有文件／目录均位于&amp;quot;/sdcard/uweb&amp;quot;：
+&amp;quot;css/&amp;quot;:全局样式目录
+&amp;quot;js/&amp;quot;: 全局脚本目录
+&amp;quot;sitejs/&amp;quot;:类油猴脚本，针对特定网址
+&amp;quot;sitecss/&amp;quot;:针对特定网址css样式
+&amp;quot;bookmarklet/&amp;quot;:js脚本目录，长按JS按钮可执行。
+&amp;quot;offline/&amp;quot;:离线下载目录
+&amp;quot;sbookmark/&amp;quot;:超级书签默认目录
+&amp;quot;sitecache/&amp;quot;:用户供应网站离线数据
+&amp;quot;longclick/&amp;quot;:长按链接菜单(js)
+&amp;quot;icon/&amp;quot;:图标定制
+&amp;quot;app[XXX]/&amp;quot;:html5应用目录
+&amp;quot;default.longclick&amp;quot;:长按链接菜单
+&amp;quot;default.uas&amp;quot;:浏览器标识
+&amp;quot;default.urls&amp;quot;:特色服务
+&amp;quot;default.acmd&amp;quot;:浏览器地址栏功能配置
+&amp;quot;default.hosts&amp;quot;:不良信息屏蔽文件
+&amp;quot;default.redirect&amp;quot;:重定向配置
+&amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
+&amp;quot;default.link&amp;quot;:长按“书签”按钮配置
+&amp;quot;default.rjs&amp;quot;:远程及简单脚本
+&amp;quot;default.select&amp;quot;:长按“链接”按钮配置
+&amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
+&amp;quot;default.gesture2&amp;quot;:右边缘手势操作，类似default.gesture。
+&amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
+&amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。
+&amp;quot;default.filecap&amp;quot;:文件特殊处理
+&amp;quot;default.rc&amp;quot;:如果勾选“文件预处理”，则uweb启动时运行此shell脚本。可与tcron配合运行定时任务，如存储清理、网页签到等。
+&amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。
+&amp;quot;default.engine&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
+&amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方(js,可疑资源)、当前激活脚本。当前设置与默认不同才会保存。比如当前不屏蔽第三方js，但屏蔽第三方可疑资源，则屏蔽第三方设置与默认不同，站点设置被保存。
+&amp;quot;default.playrate&amp;quot;:全屏倍速播放菜单项，每行一个菜单，譬如&amp;quot;.5x&amp;quot;。
+&amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
+&amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
+&amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。
+&amp;quot;home5.search&amp;quot;:主屏搜索引擎
+&amp;quot;home.css&amp;quot;:主屏风格
+&amp;quot;bookmark.html&amp;quot;:主书签
+&amp;quot;quickstart.html&amp;quot;:快速访问
+&amp;quot;colors.txt&amp;quot;:护眼背景色
+&amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式
+&amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
+&amp;quot;bookmarklet/videoplayer.js&amp;quot;:用户定义视频播放
+&amp;quot;types.sniff&amp;quot;:嗅探类型
+&amp;quot;js.allow&amp;quot;:外链js白名单
+&amp;quot;url.deny&amp;quot;:需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。
+&amp;quot;sniff.log&amp;quot;:嗅探结果
+&amp;quot;history.rec&amp;quot;:访问历史
+&amp;quot;query.rec&amp;quot;:查询历史
+应用内部保护目录(/data/data/info.torapp.uweb/files/):
+&amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
+    </item>
+    
     <item>
       <title>常用书签</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
@@ -159,65 +218,6 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 快速编辑文件
 在浏览器文件管理器中长按文件名，弹出菜单中选择分享，系统会优先弹出相应的文件编辑器。
 配置文件列表中直接点击文件名即可编辑。</description>
-    </item>
-    
-    <item>
-      <title>超微浏览器配置文件列表</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/filenames/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/filenames/</guid>
-      <description>下面列表中以&amp;quot;/&amp;quot;结尾者为目录，其余为文件。如果用户勾选“使用内部目录配置”，&amp;quot;sitejs/&amp;quot;,&amp;quot;sitecache/&amp;quot;等位于应用内部保护目录下。否则以下所有文件／目录均位于&amp;quot;/sdcard/uweb&amp;quot;：
-&amp;quot;css/&amp;quot;:全局样式目录
-&amp;quot;js/&amp;quot;: 全局脚本目录
-&amp;quot;sitejs/&amp;quot;:类油猴脚本，针对特定网址
-&amp;quot;sitecss/&amp;quot;:针对特定网址css样式
-&amp;quot;bookmarklet/&amp;quot;:js脚本目录，长按JS按钮可执行。
-&amp;quot;offline/&amp;quot;:离线下载目录
-&amp;quot;sbookmark/&amp;quot;:超级书签默认目录
-&amp;quot;sitecache/&amp;quot;:用户供应网站离线数据
-&amp;quot;longclick/&amp;quot;:长按链接菜单(js)
-&amp;quot;icon/&amp;quot;:图标定制
-&amp;quot;app[XXX]/&amp;quot;:html5应用目录
-&amp;quot;default.longclick&amp;quot;:长按链接菜单
-&amp;quot;default.uas&amp;quot;:浏览器标识
-&amp;quot;default.urls&amp;quot;:特色服务
-&amp;quot;default.acmd&amp;quot;:浏览器地址栏功能配置
-&amp;quot;default.hosts&amp;quot;:不良信息屏蔽文件
-&amp;quot;default.redirect&amp;quot;:重定向配置
-&amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置
-&amp;quot;default.link&amp;quot;:长按“书签”按钮配置
-&amp;quot;default.rjs&amp;quot;:远程及简单脚本
-&amp;quot;default.select&amp;quot;:长按“链接”按钮配置
-&amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
-&amp;quot;default.gesture2&amp;quot;:右边缘手势操作，类似default.gesture。
-&amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
-&amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。
-&amp;quot;default.filecap&amp;quot;:文件特殊处理
-&amp;quot;default.rc&amp;quot;:如果勾选“文件预处理”，则uweb启动时运行此shell脚本。可与tcron配合运行定时任务，如存储清理、网页签到等。
-&amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。
-&amp;quot;default.engine&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
-&amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方js、当前激活脚本。
-&amp;quot;default.playrate&amp;quot;:全屏倍速播放菜单项，每行一个菜单，譬如&amp;quot;.5x&amp;quot;。
-&amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
-&amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
-&amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。
-&amp;quot;home5.search&amp;quot;:主屏搜索引擎
-&amp;quot;home.css&amp;quot;:主屏风格
-&amp;quot;bookmark.html&amp;quot;:主书签
-&amp;quot;quickstart.html&amp;quot;:快速访问
-&amp;quot;colors.txt&amp;quot;:护眼背景色
-&amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式
-&amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
-&amp;quot;bookmarklet/videoplayer.js&amp;quot;:用户定义视频播放
-&amp;quot;types.sniff&amp;quot;:嗅探类型
-&amp;quot;js.allow&amp;quot;:外链js白名单
-&amp;quot;url.deny&amp;quot;:需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。
-&amp;quot;sniff.log&amp;quot;:嗅探结果
-&amp;quot;history.rec&amp;quot;:访问历史
-&amp;quot;query.rec&amp;quot;:查询历史
-应用内部保护目录(/data/data/info.torapp.uweb/files/):
-&amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
     </item>
     
     <item>
