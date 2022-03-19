@@ -3,19 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/</loc>
-    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/_posts/</loc>
-    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/adblock/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/links/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/filenames/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/bookmark/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/adblock/</loc>
-    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/javascript/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
@@ -58,9 +61,6 @@
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tcron/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/links/</loc>
-    <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/logcat/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
@@ -143,7 +143,7 @@
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tvlive/</loc>
   </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</loc>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/offlinecache/</loc>
   </url><url>

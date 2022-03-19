@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</guid>
-      <description>超微浏览器支持超级hosts文件，这一技术可以完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱hosts文件绝杀。
+      <description>超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。
 对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。
 安装不良信息屏蔽.css
 重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。</description>
@@ -56,10 +56,10 @@ fbcdn.net
     
     <item>
       <title>绝杀完整域名树</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</guid>
       <description>域名文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（最后两段不超过6字符如com.cn的域名可取四段）。
   长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
   部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。

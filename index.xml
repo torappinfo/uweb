@@ -6,7 +6,61 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>信息隐藏技术总览</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
+      <description> 长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 对简单网页，特别是小说网站，可以长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
+    </item>
+    
+    <item>
+      <title>常用链接</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/links/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
+      <description>点击以下链接可安装至常用链接
+点击安装Cookie延期，地址栏内删除特殊字符，站内搜索等
+酷安扫描
+uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
+[菜单名]:[url][空格][javascript脚本]
+其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
+脚本将在链接访问结束时自动执行。
+url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
+不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
+.js文件(同长按链接运行js文件): 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。
+default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
+各类代理配置如下:
+httpproxy::010[proxy host]:[port]
+socks5::011[socks host]:[port]
+noproxy::010:
+&amp;quot;:&amp;quot;为首字符特殊链接   :0000
+Cookie延期至70年，但服务器有可能否决。
+  :0001
+自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
+  :001[fileurl]
+加入媒体库
+  :002[url]
+显示此url下安全cookie
+  :010[proxy host]:[port]
+设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
+  :011[socks host]:[port]
+socks代理
+  &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
+  i:0m[url]
+将url作为网站访问。
+  i:15[string]
+设置地址栏内容为[string]
+  i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
+读取第三方应用输入。
+点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
+点击安装酷安扫描至常用链接
+  i:18[extended mimetype]:[range]:[url]</description>
+    </item>
+    
     <item>
       <title>超微浏览器配置文件列表</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/filenames/</link>
@@ -72,8 +126,11 @@
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
-      <description>以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
-&amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。
+      <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
+Mirror list
+mirror.js.org
+界面配置及杂项
+以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
 Termux命令书签 需安装定制版termux及相应工具，
 计算器bc
 全能计算器bc
@@ -81,15 +138,6 @@ Termux命令书签 需安装定制版termux及相应工具，
 CNN news gopher
 wikipedia search gopher
 reddit gopher</description>
-    </item>
-    
-    <item>
-      <title>信息隐藏技术总览</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description> 长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 对简单网页，特别是小说网站，可以长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
     </item>
     
     <item>
@@ -254,51 +302,6 @@ apt install cronie
 crontab -e
 crontab例子内容如下：
 30,31 20-23/1 * * * node Loon/jd_live_redrain.</description>
-    </item>
-    
-    <item>
-      <title>常用链接</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/links/</link>
-      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
-      <description>点击以下链接可安装至常用链接
-点击安装Cookie延期，地址栏内删除特殊字符，站内搜索等
-酷安扫描
-uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
-[菜单名]:[url][空格][javascript脚本]
-其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
-脚本将在链接访问结束时自动执行。
-url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
-不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
-.js文件(同长按链接运行js文件): 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。
-default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
-各类代理配置如下:
-httpproxy::010[proxy host]:[port]
-socks5::011[socks host]:[port]
-noproxy::010:
-&amp;quot;:&amp;quot;为首字符特殊链接   :0000
-Cookie延期至70年，但服务器有可能否决。
-  :0001
-自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
-  :001[fileurl]
-加入媒体库
-  :002[url]
-显示此url下安全cookie
-  :010[proxy host]:[port]
-设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
-  :011[socks host]:[port]
-socks代理
-  &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
-  i:15[string]
-设置地址栏内容为[string]
-  i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
-读取第三方应用输入。
-点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
-点击安装酷安扫描至常用链接
-  i:18[extended mimetype]:[range]:[url]
-读取url部分数据并使用指定mimetype强制处理。
-:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;</description>
     </item>
     
     <item>
@@ -579,7 +582,7 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</guid>
-      <description>超微浏览器支持超级hosts文件，这一技术可以完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱hosts文件绝杀。
+      <description>超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。
 对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。
 安装不良信息屏蔽.css
 重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。</description>
@@ -639,8 +642,8 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
       <guid>https://jamesfengcao.gitee.io/uwebzh/sitejs/</guid>
       <description>技巧等级：中级
 脚本 (第一时间装载js脚本见下面sitecss条目)
- 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/sdcard/uweb/sitejs或/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。如果内部目录下sitejs存在，则/sdcard/uweb/sitejs不起任何作用。内部sitejs目录的存在同时也影响一切对安全敏感的资源（包括网站离线资源等）的配置，一旦内部sitejs目录存在，则这些资源必须位于内部目录才会生效。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名。所以脚本请不要以很长的域名来命名。  样式及第一时间装载js脚本
- 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到/sdcard/uweb/sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“/sdcard/uweb/default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。  </description>
+ 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/sdcard/uweb/sitejs或/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。如果内部目录下sitejs存在，则/sdcard/uweb/sitejs不起任何作用。内部sitejs目录的存在同时也影响一切对安全敏感的资源（包括网站离线资源等）的配置，一旦内部sitejs目录存在，则这些资源必须位于内部目录才会生效。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。  样式及第一时间装载js脚本
+ 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到/sdcard/uweb/sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“/sdcard/uweb/default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。  文件sitejs/.js 和sitecss/.css, sitecss/.js可作用于一切非http url（本地文件，浏览器界面等）。</description>
     </item>
     
     <item>
@@ -722,10 +725,10 @@ CCTV17农村
     
     <item>
       <title>绝杀完整域名树</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</link>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_hosts/</guid>
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</guid>
       <description>域名文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（最后两段不超过6字符如com.cn的域名可取四段）。
   长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
   部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。
