@@ -6,7 +6,29 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用书签</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
+      <description>点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
+点击安装&amp;quot;小说.html&amp;quot;分类书签模板
+所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
+Mirror list
+mirror.js.org
+界面配置及杂项
+以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
+Termux命令书签 需安装定制版termux及相应工具，
+计算器bc
+全能计算器bc
+以下书签需安装gopher.
+CNN news gopher
+wikipedia search gopher
+reddit gopher</description>
+    </item>
+    
     <item>
       <title>信息隐藏技术总览</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
@@ -118,26 +140,6 @@ socks代理
 &amp;quot;query.rec&amp;quot;:查询历史
 应用内部保护目录(/data/data/info.torapp.uweb/files/):
 &amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;/sdcard/uweb/bookmark&amp;quot;目录。</description>
-    </item>
-    
-    <item>
-      <title>常用书签</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
-      <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
-Mirror list
-mirror.js.org
-界面配置及杂项
-以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
-Termux命令书签 需安装定制版termux及相应工具，
-计算器bc
-全能计算器bc
-以下书签需安装gopher.
-CNN news gopher
-wikipedia search gopher
-reddit gopher</description>
     </item>
     
     <item>
