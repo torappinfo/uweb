@@ -6,7 +6,16 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>信息隐藏技术总览</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
+      <description> 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
+    </item>
+    
     <item>
       <title>常用书签</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
@@ -28,15 +37,6 @@ Termux命令书签 需安装定制版termux及相应工具，
 CNN news gopher
 wikipedia search gopher
 reddit gopher</description>
-    </item>
-    
-    <item>
-      <title>信息隐藏技术总览</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
-      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description> 长按底部工具栏[☰]按钮，选取&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 对简单网页，特别是小说网站，可以长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
     </item>
     
     <item>
@@ -120,7 +120,7 @@ socks代理
 &amp;quot;default.rc&amp;quot;:如果勾选“文件预处理”，则uweb启动时运行此shell脚本。可与tcron配合运行定时任务，如存储清理、网页签到等。
 &amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。
 &amp;quot;default.engine&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
-&amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方(js,可疑资源)、当前激活脚本。当前设置与默认不同才会保存。比如当前不屏蔽第三方js，但屏蔽第三方可疑资源，则屏蔽第三方设置与默认不同，站点设置被保存。
+&amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方(js,可疑资源)、当前激活脚本、全局脚本。当前设置与默认不同才会保存。比如当前不屏蔽第三方js，但屏蔽第三方可疑资源，则屏蔽第三方设置与默认不同，站点设置被保存。
 &amp;quot;default.playrate&amp;quot;:全屏倍速播放菜单项，每行一个菜单，譬如&amp;quot;.5x&amp;quot;。
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
@@ -154,6 +154,8 @@ socks代理
 &#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.cookie))})()&#34;网页cookie
 &#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
 maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
+&amp;lt;a href=&amp;quot;javascript:(function () { var script = document.createElement(&#39;script&#39;); script.src=&amp;quot;//cdn.jsdelivr.net/npm/eruda&amp;quot;; document.body.appendChild(script); script.onload=function(){eruda.init()}})()&amp;quot;&amp;gt;Eruda: mobile console
+生成二维码
 POST转GET
 Shows all form elements
 Enables all form elements
@@ -164,7 +166,8 @@ Enables all form elements
 解除选择复制限制（无效时可设UA为PC）
 恢复长按菜单
 =0){spannode=document.createElement(&amp;quot;SPAN&amp;quot;);spannode.style.backgroundColor=&amp;quot;yellow&amp;quot;;middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 &amp;amp;&amp;amp; node.childNodes &amp;amp;&amp;amp; node.tagName.toUpperCase()!=&amp;quot;SCRIPT&amp;quot; &amp;amp;&amp;amp; node.tagName.toUpperCase!=&amp;quot;STYLE&amp;quot;){for (var child=0; child 正则搜索
-nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序</description>
+nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序
+BugMeNot</description>
     </item>
     
     <item>
@@ -196,7 +199,7 @@ html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /termux: 命令运行结果将作为termux下命令运行。
 checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)
 配置/sdcard/uweb/default.select如下：
-复制文本到地址栏:uweb:echo i:15`cat`
+复制文本到地址栏:uweb:printf i:15;cat
 笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
 富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
 命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
