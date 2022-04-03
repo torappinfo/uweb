@@ -6,7 +6,21 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS样式</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/globalcss/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/globalcss/</guid>
+      <description>超微浏览器自动装载&amp;quot;/sdcard/uweb/css&amp;quot;目录下所有.css文件作为全局样式供用户选用。点击以下配置链接可自动添加为全局样式：
+强制使用默认字体
+配合透明状态栏(沉浸)
+文件&amp;quot;/sdcard/uweb/night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：
+webview 81+ 夜间模式
+webview 80- 夜间模式</description>
+    </item>
+    
     <item>
       <title>信息隐藏技术总览</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
@@ -507,19 +521,6 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
 &amp;quot;uweb&amp;quot;: 输出结果作为链接来处理。
 下面是笔者使用的default.cmds配置（命令具体解释）：
 复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34;   </description>
-    </item>
-    
-    <item>
-      <title>CSS样式</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/globalcss/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/globalcss/</guid>
-      <description>超微浏览器自动装载&amp;quot;/sdcard/uweb/css&amp;quot;目录下所有.css文件作为全局样式供用户选用。点击以下配置链接可自动添加为全局样式：
-配合透明状态栏(沉浸)
-文件&amp;quot;/sdcard/uweb/night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：
-webview 81+ 夜间模式
-webview 80- 夜间模式</description>
     </item>
     
     <item>
