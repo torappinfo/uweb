@@ -168,7 +168,7 @@ socks代理
 &#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.cookie))})()&#34;网页cookie
 &#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
 maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
-&amp;lt;a href=&amp;quot;javascript:(function () { var script = document.createElement(&#39;script&#39;); script.src=&amp;quot;//cdn.jsdelivr.net/npm/eruda&amp;quot;; document.body.appendChild(script); script.onload=function(){eruda.init()}})()&amp;quot;&amp;gt;Eruda: mobile console
+Eruda: mobile console
 生成二维码
 POST转GET
 Shows all form elements
@@ -688,8 +688,6 @@ CCTV17农村
 大足综合频道
 綦江综合频道
 涪陵电视台
-荣昌综合频道
-万盛新闻综合
 黔江综合频道
 江津新闻综合
 南川新闻综合
@@ -717,18 +715,20 @@ CCTV17农村
 甘肃品质生活
 甘南藏语频道
 敦煌综合频道
-天水新闻综合
-天水公共频道
 金昌公共频道
-临夏综合频道
-临夏公共频道
 广东经济科教
 广东体育频道
 广东珠江台
 广东新闻频道
 广东公共频道
 广东房产频道
-广东国际频道</description>
+广东国际频道
+广东综艺频道
+广州经济频道
+广州新闻频道
+深圳都市频道
+深圳财经频道
+深圳娱乐频道</description>
     </item>
     
     <item>
