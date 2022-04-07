@@ -6,9 +6,9 @@
                                                },100);
   return false;
 }
-function g3(i,filename){
+function g3(iF,filename){
   let d=document;
-  let f=d.forms[i];
+  let f=d.forms[iF];
   d.location.href="i:0i/sdcard/uweb/"+filename+":"+f.b.value+":https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/template/refresh.html";
   return false;
 }
@@ -22,7 +22,7 @@ input{height:40px;width:100%;border-radius:50px;}
 </form>
 
 <p>
-<form onsubmit="return g3(1,"home5.html");" style="margin:5px 0 5px 0;padding:0px">
+<form onsubmit="return g3(1,'home5.html');" style="margin:5px 0 5px 0;padding:0px">
   <input name=b placeholder="主屏网址" value="https://m.inftab.com"/><br>
   <input type="submit" value="设置主屏网址">
 </form>
@@ -32,7 +32,7 @@ input{height:40px;width:100%;border-radius:50px;}
 <a href="i:0h/sdcard/uweb/home6.html:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/nav.cfg">设置第二主屏为默认导航页</a>
 </p>
     
-<form onsubmit="return g3(2,"home7.html");" style="margin:5px 0 5px 0;padding:0px">
+<form onsubmit="return g3(2,'home7.html');" style="margin:5px 0 5px 0;padding:0px">
   <input name=b placeholder="第三主屏网址"/><br>
   <input type="submit" value="设置第三主屏">
 </form>
