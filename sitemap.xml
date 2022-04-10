@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/_posts/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E9%87%8D%E5%AE%9A%E5%90%91/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesfengcao.gitee.io/uwebzh/redirect/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/globalcss/</loc>
     <lastmod>2022-04-03T00:00:00+00:00</lastmod>
@@ -24,9 +36,6 @@
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/tags/javascript/</loc>
-    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</loc>
@@ -134,8 +143,6 @@
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/hosts/</loc>
   </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
-  </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/pcdown/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/sitejs/</loc>
@@ -147,9 +154,5 @@
     <loc>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</loc>
   </url><url>
     <loc>https://jamesfengcao.gitee.io/uwebzh/offlinecache/</loc>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/tags/%E9%87%8D%E5%AE%9A%E5%90%91/</loc>
-  </url><url>
-    <loc>https://jamesfengcao.gitee.io/uwebzh/redirect/</loc>
   </url>
 </urlset>

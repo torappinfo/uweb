@@ -5,36 +5,16 @@
     <link>https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</link>
     <description>Recent content in 国外网址 on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>加速访问国外网站</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/hosts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/hosts/</guid>
-      <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。
-使用Android端uweb浏览器。
-域名文件内容如下：
-googleadservices.com
-googlesyndication.com
-adsense.com
-googleapis.com
-google-analytics.com
-googletagservices.com
-twitter.com
-facebook.com
-fbcdn.net
-其它国外网址访问技巧：
- 尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片  </description>
-    </item>
-    
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/redirect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/redirect/</guid>
-      <description>使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。
+      <description>点击添加google recaptcha国内镜像
+使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。
 其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。
 本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。
 配置/sdcard/uweb/default.redirect:
@@ -66,6 +46,28 @@ item.yhd.com::item.yhdvvv.com
 goods.kaola.com::goods.kaolavvv.com
 product.dangdang.com::product.dangdangvvv.com
 item.gome.com.cn::item.gomevvv.com.cn</description>
+    </item>
+    
+    <item>
+      <title>加速访问国外网站</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/hosts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/hosts/</guid>
+      <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。
+使用Android端uweb浏览器。
+域名文件内容如下：
+googleadservices.com
+googlesyndication.com
+adsense.com
+googleapis.com
+google-analytics.com
+googletagservices.com
+twitter.com
+facebook.com
+fbcdn.net
+其它国外网址访问技巧：
+ 尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片  </description>
     </item>
     
   </channel>
