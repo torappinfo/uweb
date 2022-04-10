@@ -29,7 +29,7 @@
 <a href="i:04站内搜索:'';open('i:15site:' + location.hostname)">站内搜索:'';open('i:15site:' + location.hostname)</a><br><br>
 <a href="i:04编辑器拼写检查:'';let t=d.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v">编辑器拼写检查:'';let t=d.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v</a><br><br>
 </p>
-<p>远程及小型脚本可安装到default.rjs文件中(远程脚本对CSP网站无效)：<br><a target="_self" href="i:0g/sdcard/uweb/default.rjs:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/rjs.cfg">点击安装google翻译、背景图等</a></p>
+<p>远程及小型脚本可安装到default.rjs文件中。远程脚本虽对CSP网站无效，勾选&quot;网址附加内容&quot;并添加空文件&quot;siteextra/[完整域名].html&quot;后可运行一切远程脚本：<br><a target="_self" href="i:0g/sdcard/uweb/default.rjs:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/rjs.cfg">点击安装google翻译、背景图等</a></p>
 <p>远程脚本配置文件/sdcard/uweb/default.rjs每行格式如下 (url部分支持js代码运算)：<br>[远程脚本名]:[返回url的javascript代码]</p>
 <p>其中url可以为<a href="../html5">本地html5应用</a>脚本地址。譬如&#39;https://local/sdcard/uweb/app[XXX]/....../[XXX].js&#39;。此时，js脚本也可使用<a href="../links">.link文件</a>方式调用。</p>
 
