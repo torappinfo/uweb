@@ -101,7 +101,7 @@ reddit gopher</description>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
       <description>点击以下链接可安装至常用链接
-点击安装Cookie延期，地址栏内删除特殊字符，站内搜索等
+点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等
 酷安扫描
 uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
 [菜单名]:[url][空格][javascript脚本]
@@ -385,7 +385,7 @@ devtools for com.android.webview</description>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/loadbt/</guid>
-      <description> Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。  百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
+      <description> seedr用户可使用常用链接利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。 Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。  百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
 超微浏览器上配置百度离线下载
   安装uweb定制Termux应用。
