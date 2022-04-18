@@ -6,7 +6,51 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用链接</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/links/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
+      <description>点击以下链接可安装至常用链接
+a:nth-child(2)&#39;);if(offBtn){clearInterval(rsc);var wsc=setInterval(function(){offBtn.click();var textarea=document.querySelector(&#39;.fileurl-input__containertextarea&#39;);if(textarea){clearInterval(wsc);textarea.value=&#39;%25u&#39;;var event=document.createEvent(&#39;HTMLEvents&#39;);event.initEvent(&#39;input&#39;,false,true);textarea.dispatchEvent(event);document.querySelector(&#39;.pan-dialog-btn__primary&#39;).click();}},200);}},1000);}%0A&#34;迅雷盘离线
+点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等
+点击安装离线下载(pcloud,furk,微云等)
+酷安扫描
+uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
+[菜单名]:[url][空格][javascript脚本]
+其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
+脚本将在链接访问结束时自动执行。
+url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
+不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
+.js文件(同长按链接运行js文件): 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。
+default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
+各类代理配置如下:
+httpproxy::010[proxy host]:[port]
+socks5::011[socks host]:[port]
+noproxy::010:
+&amp;quot;:&amp;quot;为首字符特殊链接   :0000
+Cookie延期至70年，但服务器有可能否决。
+  :0001
+自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
+  :001[fileurl]
+加入媒体库
+  :002[url]
+显示此url下安全cookie
+  :010[proxy host]:[port]
+设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
+  :011[socks host]:[port]
+socks代理
+  &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
+  i:0m[url]
+将url作为网站访问。
+  i:15[string]
+设置地址栏内容为[string]
+  i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
+读取第三方应用输入。</description>
+    </item>
+    
     <item>
       <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/redirect/</link>
@@ -92,52 +136,6 @@ Termux命令书签 需安装定制版termux及相应工具，
 CNN news gopher
 wikipedia search gopher
 reddit gopher</description>
-    </item>
-    
-    <item>
-      <title>常用链接</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/links/</link>
-      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
-      <description>点击以下链接可安装至常用链接
-点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等
-点击安装离线下载(pcloud,furk,微云等)
-酷安扫描
-uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：
-[菜单名]:[url][空格][javascript脚本]
-其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。
-脚本将在链接访问结束时自动执行。
-url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。
-不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：
-.js文件(同长按链接运行js文件): 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。
-default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。
-各类代理配置如下:
-httpproxy::010[proxy host]:[port]
-socks5::011[socks host]:[port]
-noproxy::010:
-&amp;quot;:&amp;quot;为首字符特殊链接   :0000
-Cookie延期至70年，但服务器有可能否决。
-  :0001
-自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
-  :001[fileurl]
-加入媒体库
-  :002[url]
-显示此url下安全cookie
-  :010[proxy host]:[port]
-设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
-  :011[socks host]:[port]
-socks代理
-  &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
-  i:0m[url]
-将url作为网站访问。
-  i:15[string]
-设置地址栏内容为[string]
-  i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
-读取第三方应用输入。
-点击安装via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
-点击安装酷安扫描至常用链接
-  i:18[extended mimetype]:[range]:[url]</description>
     </item>
     
     <item>
