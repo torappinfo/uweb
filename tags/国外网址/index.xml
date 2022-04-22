@@ -6,11 +6,11 @@
     <description>Recent content in 国外网址 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/redirect/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/redirect/</guid>
       <description>点击添加google recaptcha国内镜像
@@ -20,7 +20,7 @@
 配置/sdcard/uweb/default.redirect:
 文件每一行格式为：
 域名:正则表达式:替换表达式
-其中正则表达式以java语言规定为准，表达式中不能包含&#39;:&#39;。正则表达式为空时系统默认为与域名相同。
+其中正则表达式以java语言规定为准，表达式中不能包含&#39;:&#39;。正则表达式为空时系统默认为与域名相同。正则表达式,替换表达式同时为空时无重定向作用，但域名会允许CORS跨域访问 (目前仅对&amp;quot;GET&amp;quot; request生效)。
 例子文件内容如下：
 developer.android.com::developer.android.google.cn
 四种使用重定向的方法：

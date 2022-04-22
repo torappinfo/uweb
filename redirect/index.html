@@ -34,7 +34,7 @@
 <p>配置/sdcard/uweb/default.redirect:<br>
 文件每一行格式为：<br>
 域名:正则表达式:替换表达式</p>
-<p>其中正则表达式以java语言规定为准，表达式中不能包含':'。正则表达式为空时系统默认为与域名相同。</p>
+<p>其中正则表达式以java语言规定为准，表达式中不能包含':'。正则表达式为空时系统默认为与域名相同。正则表达式,替换表达式同时为空时无重定向作用，但域名会允许CORS跨域访问 (目前仅对&quot;GET&quot; request生效)。</p>
 <p>例子文件内容如下：<br>
 developer.android.com::developer.android.google.cn</p>
 <p>四种使用重定向的方法：</p>
