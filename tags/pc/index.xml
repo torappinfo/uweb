@@ -14,6 +14,9 @@
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/pccopy/</guid>
       <description>google划词翻译
+bing翻译
+有道翻译
+搜狗翻译
 点击安装&amp;quot;保存文本&amp;quot;等
 重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
 配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
