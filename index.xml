@@ -6,14 +6,59 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/redirect/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/redirect/</guid>
+      <description>github mirror:fastgit
+github mirror 2
+github mirror 3
+点击添加google recaptcha国内镜像
+使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。
+其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。
+本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。
+配置/sdcard/uweb/default.redirect:
+文件每一行格式为：
+域名:正则表达式:替换表达式
+其中正则表达式以java语言规定为准，表达式中不能包含&#39;:&#39;。正则表达式为空时系统默认为与域名相同。正则表达式,替换表达式同时为空时无重定向作用，但域名会允许CORS跨域访问 (目前仅对&amp;quot;GET&amp;quot; request生效)。
+例子文件内容如下：
+developer.android.com::developer.android.google.cn
+四种使用重定向的方法：
+  长按链接
+添加文件&amp;quot;国内镜像.js&amp;quot;至&amp;quot;/sdcard/uweb/longclick&amp;quot;目录下。
+文件内容如下：
+//e:%u 其中&amp;quot;e:&amp;quot;为uweb特殊url协议，意为&amp;quot;edit&amp;quot;，即&amp;quot;编辑&amp;quot;。当后面紧跟url网址的情况下会重定向网址。
+重启uweb后长按链接弹出菜单选&amp;quot;国内镜像&amp;quot;，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。
+  长按工具条图像按钮。
+  长按设置，选中&amp;quot;自定义重定向&amp;quot;。
+  长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。
+  更多重定向网址：
+www.bilibili.com::www.ibilibili.com
+pan.baidu.com::pan.baiduwp.com
+www.docin.com::www.docin365.com
+wenku.baidu.com::wenku.baiduvvv.com
+detail.tmall.com::detail.tmallvvv.com
+detail.m.tmall.com::detail.m.tmallvvv.com
+item.taobao.com::item.taobaovvv.com
+h5.m.taobao.com::h5.m.taobaovvv.com
+jd.com::jdvvv.com
+item.yhd.com::item.yhdvvv.com
+goods.kaola.com::goods.kaolavvv.com
+product.dangdang.com::product.dangdangvvv.com
+item.gome.com.cn::item.gomevvv.com.cn</description>
+    </item>
+    
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/pccopy/</guid>
-      <description>google划词翻译
+      <description>点击以下链接可安装长按“链接”按钮菜单:
+google划词翻译
 bing翻译
 papago翻译
 iciba
@@ -92,47 +137,6 @@ socks代理
   i:15[string]
 设置地址栏内容为[string]
   i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]</description>
-    </item>
-    
-    <item>
-      <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/redirect/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/redirect/</guid>
-      <description>点击添加google recaptcha国内镜像
-使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。
-其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。
-本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。
-配置/sdcard/uweb/default.redirect:
-文件每一行格式为：
-域名:正则表达式:替换表达式
-其中正则表达式以java语言规定为准，表达式中不能包含&#39;:&#39;。正则表达式为空时系统默认为与域名相同。正则表达式,替换表达式同时为空时无重定向作用，但域名会允许CORS跨域访问 (目前仅对&amp;quot;GET&amp;quot; request生效)。
-例子文件内容如下：
-developer.android.com::developer.android.google.cn
-四种使用重定向的方法：
-  长按链接
-添加文件&amp;quot;国内镜像.js&amp;quot;至&amp;quot;/sdcard/uweb/longclick&amp;quot;目录下。
-文件内容如下：
-//e:%u 其中&amp;quot;e:&amp;quot;为uweb特殊url协议，意为&amp;quot;edit&amp;quot;，即&amp;quot;编辑&amp;quot;。当后面紧跟url网址的情况下会重定向网址。
-重启uweb后长按链接弹出菜单选&amp;quot;国内镜像&amp;quot;，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。
-  长按工具条图像按钮。
-  长按设置，选中&amp;quot;自定义重定向&amp;quot;。
-  长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。
-  更多重定向网址：
-www.bilibili.com::www.ibilibili.com
-pan.baidu.com::pan.baiduwp.com
-www.docin.com::www.docin365.com
-wenku.baidu.com::wenku.baiduvvv.com
-detail.tmall.com::detail.tmallvvv.com
-detail.m.tmall.com::detail.m.tmallvvv.com
-item.taobao.com::item.taobaovvv.com
-h5.m.taobao.com::h5.m.taobaovvv.com
-jd.com::jdvvv.com
-item.yhd.com::item.yhdvvv.com
-goods.kaola.com::goods.kaolavvv.com
-product.dangdang.com::product.dangdangvvv.com
-item.gome.com.cn::item.gomevvv.com.cn</description>
     </item>
     
     <item>
@@ -274,7 +278,7 @@ BugMeNot</description>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/filemanager/</guid>
       <description>超微浏览器访问以&amp;quot;/&amp;quot;结尾 （包括&amp;quot;/?&amp;quot;及后面参数）的&amp;quot;file://&amp;quot; url，则进入文件管理器。
-对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。&amp;quot;?IMG&amp;quot;列举出所有IMG开头的文件。此时可选定文件，并安装checked.js对选取文件进行批量处理。
+对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][*[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?*.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。&amp;quot;?IMG&amp;quot;列举出所有IMG开头的文件。此时可选定文件，并安装checked.js对选取文件进行批量处理。
 文件批量处理配置default.select例子：
 图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</description>
     </item>
