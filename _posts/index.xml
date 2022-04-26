@@ -6,7 +6,25 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技巧网站导航</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/sitemap/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/sitemap/</guid>
+      <description>界面配置  搜索引擎 主页  快速访问   界面配置及杂项  个性化  工具条按钮长按菜单  浏览器标识 js脚本 常用服务 常用链接 常用命令 远程脚本 选中文本类菜单   底部工具条定制 手势 高级个性化定制  </description>
+    </item>
+    
+    <item>
+      <title>信息隐藏技术总览</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
+      <description> 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
+    </item>
+    
     <item>
       <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/redirect/</link>
@@ -151,15 +169,6 @@ socks代理
 文件&amp;quot;/sdcard/uweb/night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：
 webview 81+ 夜间模式
 webview 80- 夜间模式</description>
-    </item>
-    
-    <item>
-      <title>信息隐藏技术总览</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description> 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
     </item>
     
     <item>
