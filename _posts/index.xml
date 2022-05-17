@@ -19,10 +19,11 @@
     <item>
       <title>信息隐藏技术总览</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description> 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 直接关闭图像。 关闭[JS]脚本。  </description>
+      <description>总体来说，分为手动控制和针对特定网站的规则两大类办法。手动控制可以保存为网站配置从而自动化。
+ 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 直接关闭图像。 关闭[JS]脚本。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。  </description>
     </item>
     
     <item>
