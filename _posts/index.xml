@@ -6,7 +6,33 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用书签</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
+      <description>点击以下链接可直接设置主屏为以下书签(Android TV可从手机端接收视频url并打开)：
+等待从网络接收url并打开%0A&#34;等待从网络接收url并打开
+等待接收url沉默版%0A&#34;等待接收url沉默版
+点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
+&amp;quot;小说.html&amp;quot;: 自动使用阅读模式
+href=&amp;quot;i:0h/sdcard/uweb/bookmark/txt.html:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
+所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
+Mirror list
+mirror.js.org
+界面配置及杂项
+以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
+Termux命令书签 需安装定制版termux及相应工具，
+计算器bc
+全能计算器bc
+以下书签需安装gopher.
+CNN news gopher
+wikipedia search gopher
+reddit gopher</description>
+    </item>
+    
     <item>
       <title>技巧网站导航</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/sitemap/</link>
@@ -170,29 +196,6 @@ pclip</description>
 文件&amp;quot;/sdcard/uweb/night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：
 webview 81+ 夜间模式
 webview 80- 夜间模式</description>
-    </item>
-    
-    <item>
-      <title>常用书签</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
-      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
-      <description>点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
-&amp;quot;小说.html&amp;quot;: 自动使用阅读模式
-href=&amp;quot;i:0h/sdcard/uweb/bookmark/txt.html:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
-所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
-Mirror list
-mirror.js.org
-界面配置及杂项
-以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
-Termux命令书签 需安装定制版termux及相应工具，
-计算器bc
-全能计算器bc
-以下书签需安装gopher.
-CNN news gopher
-wikipedia search gopher
-reddit gopher</description>
     </item>
     
     <item>
