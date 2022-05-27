@@ -6,7 +6,17 @@
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>信息隐藏技术总览</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
+      <description>总体来说，分为手动控制和针对特定网站的规则两大类办法。手动控制可以保存为网站配置从而自动化。
+ 直接全屏无干扰播放。不良信息没有任何机会出现。使用常用服务自动全屏播放菜单(长按视频链接-&amp;gt;命令)，则页面视频会自动全屏播放。按设置按钮，如果勾选“允许自动播放”，则今后此窗口内其它任何视频网址都将会自动全屏无干扰播放。 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 直接关闭图像。 关闭[JS]脚本。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。  </description>
+    </item>
+    
     <item>
       <title>Android TV</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/androidtv/</link>
@@ -96,16 +106,6 @@ socks代理
   i:15[string]
 设置地址栏内容为[string]
   i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]</description>
-    </item>
-    
-    <item>
-      <title>信息隐藏技术总览</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
-      <description>总体来说，分为手动控制和针对特定网站的规则两大类办法。手动控制可以保存为网站配置从而自动化。
- 长按底部工具栏窗口管理按钮，选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 全屏无干扰播放。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 直接关闭图像。 关闭[JS]脚本。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。  </description>
     </item>
     
     <item>
@@ -462,10 +462,9 @@ js文件格式如下：
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/video/</guid>
       <description>本文以超微浏览器为例来说明。
-点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;
  创建文件&amp;quot;default.playrate&amp;quot;可定制全屏倍速播放菜单项，每行一个菜单，譬如&amp;quot;.5x&amp;quot;。 长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切不良信息。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么不良信息。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现不良信息占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动不良信息”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切不良信息。方法如下：  长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。   对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切不良信息：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。  视频搜索预配置(超过400个引擎)
 视频资源：
- 视频解析配置 ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播  </description>
+ 视频解析配置 ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播  点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
     
     <item>
