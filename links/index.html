@@ -72,8 +72,8 @@ socks代理</p>
 <p>点击安装<a href="i:53i:52">笔记</a>菜单</p>
 <ul>
 <li>
-<p>i:0m[url]<br>
-将url作为网站访问。</p>
+<p>i:0m[bookmarklet index]:[url]<br>
+将url作为网站访问，[bookmarklet index]至少占两个字符。</p>
 </li>
 <li>
 <p>i:15[string]<br>
@@ -169,19 +169,23 @@ TTS</p>
 </li>
 <li>
 <p>i:5f[videourl]<br>
-play video fullscreen</p>
+play video fullscreen. if videourl is empty, then make following requestFullscreen() work.</p>
 </li>
 <li>
 <p>i:5g[videourl]<br>
 play video in external player</p>
 </li>
 <li>
-<p>i:5h[string]<br>
-Send string to network</p>
+<p>i:5h[url]<br>
+force html for url</p>
 </li>
 <li>
 <p>i:5i[url]<br>
 重用已有窗口跳转至不同anchor。</p>
+</li>
+<li>
+<p>i:5j[string]<br>
+Send string to network</p>
 </li>
 <li>
 <p>i:60[path]:[url]<br>
