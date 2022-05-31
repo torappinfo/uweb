@@ -35,6 +35,8 @@
       <description>点击以下链接可直接设置主屏为书签并添加链接。Android TV可从手机端接收视频url并打开，发送见常用服务：
 等待从网络接收url并打开%0A&#34;等待从网络接收url并打开
 等待接收url沉默版%0A&#34;等待接收url沉默版
+zhenbuka%0A&#34;zhenbuka
+1090%0A&#34;1090
 书签%0A&#34;书签
 点击以下链接添加常用服务：
 添加书签至主屏
@@ -101,7 +103,7 @@ Cookie延期至70年，但服务器有可能否决。
   :011[socks host]:[port]
 socks代理
   &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
-  i:0m[bookmarklet index]:[url]
+  i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]
 将url作为网站访问，[bookmarklet index]至少占两个字符。
   i:15[string]
 设置地址栏内容为[string]
