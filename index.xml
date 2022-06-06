@@ -93,6 +93,10 @@ noproxy::010:
 Cookie延期至70年，但服务器有可能否决。
   :0001
 自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
+  :0003
+切换全屏模式
+  :0004
+屏幕旋转
   :001[fileurl]
 加入媒体库
   :002[url]
@@ -103,10 +107,7 @@ Cookie延期至70年，但服务器有可能否决。
 socks代理
   &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
   i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]
-将url作为网站访问，[bookmarklet index]至少占两个字符。
-  i:15[string]
-设置地址栏内容为[string]
-  i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]</description>
+将url作为网站访问，[bookmarklet index]至少占两个字符。</description>
     </item>
     
     <item>
@@ -248,7 +249,7 @@ webview 80- 夜间模式</description>
 &amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。
 &amp;quot;engine.search&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
 &amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方(js,可疑资源)、当前激活脚本、全局脚本。当前设置与默认不同才会保存。比如当前不屏蔽第三方js，但屏蔽第三方可疑资源，则屏蔽第三方设置与默认不同，站点设置被保存。
-&amp;quot;default.playrate&amp;quot;:全屏倍速播放菜单项，每行一个菜单，譬如&amp;quot;.5x&amp;quot;。
+&amp;quot;default.playrate&amp;quot;:全屏播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空。譬如&amp;quot;.5x:&amp;quot;，链接部分非空的菜单必须在所有倍速菜单之后。
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
 &amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。
