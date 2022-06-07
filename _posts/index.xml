@@ -50,7 +50,7 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
       <guid>https://jamesfengcao.gitee.io/uwebzh/bookmark/</guid>
       <description>点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
 &amp;quot;小说.html&amp;quot;: 自动使用阅读模式
-href=&amp;quot;i:0h/sdcard/uweb/bookmark/txt.html:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
+href=&amp;quot;i:0h/sdcard/uweb/bookmark/txt.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
 所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
 Mirror list
 mirror.js.org
@@ -249,7 +249,7 @@ webview 80- 夜间模式</description>
 &amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。
 &amp;quot;engine.search&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。
 &amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方(js,可疑资源)、当前激活脚本、全局脚本。当前设置与默认不同才会保存。比如当前不屏蔽第三方js，但屏蔽第三方可疑资源，则屏蔽第三方设置与默认不同，站点设置被保存。
-&amp;quot;default.playrate&amp;quot;:全屏播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空。譬如&amp;quot;.5x:&amp;quot;，链接部分非空的菜单必须在所有倍速菜单之后。
+&amp;quot;default.playrate&amp;quot;:全屏播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空，譬如&amp;quot;.5x:&amp;quot;，倍速菜单至少有一个。链接部分非空的菜单必须在所有倍速菜单之后。
 &amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
 &amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。
@@ -262,7 +262,7 @@ webview 80- 夜间模式</description>
 &amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现
 &amp;quot;bookmarklet/videoplayer.js&amp;quot;:用户定义视频播放
 &amp;quot;types.sniff&amp;quot;:嗅探类型
-&amp;quot;js.allow&amp;quot;:外链js白名单
+&amp;quot;js.allow&amp;quot;:外链js白名单,每行一个域名。
 &amp;quot;url.deny&amp;quot;:需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。
 &amp;quot;sniff.log&amp;quot;:嗅探结果
 &amp;quot;history.rec&amp;quot;:访问历史
