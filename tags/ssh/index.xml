@@ -71,7 +71,7 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
 &amp;quot;termux/*&amp;quot;: 在termux中执行命令。
 &amp;quot;uweb&amp;quot;: 输出结果作为链接来处理。
 下面是笔者使用的default.cmds配置（命令具体解释）：
-复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34;   </description>
+复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34; </description>
     </item>
     
     <item>

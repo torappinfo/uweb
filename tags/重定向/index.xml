@@ -27,15 +27,15 @@ github mirror 3
 例子文件内容如下：
 developer.android.com::developer.android.google.cn
 四种使用重定向的方法：
-  长按链接
+长按链接
 添加文件&amp;quot;国内镜像.js&amp;quot;至&amp;quot;/sdcard/uweb/longclick&amp;quot;目录下。
 文件内容如下：
 //e:%u 其中&amp;quot;e:&amp;quot;为uweb特殊url协议，意为&amp;quot;edit&amp;quot;，即&amp;quot;编辑&amp;quot;。当后面紧跟url网址的情况下会重定向网址。
 重启uweb后长按链接弹出菜单选&amp;quot;国内镜像&amp;quot;，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。
-  长按工具条图像按钮。
-  长按设置，选中&amp;quot;自定义重定向&amp;quot;。
-  长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。
-  更多重定向网址：
+长按工具条图像按钮。
+长按设置，选中&amp;quot;自定义重定向&amp;quot;。
+长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。
+更多重定向网址：
 www.bilibili.com::www.ibilibili.com
 pan.baidu.com::pan.baiduwp.com
 www.docin.com::www.docin365.com

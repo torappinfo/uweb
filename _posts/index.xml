@@ -13,7 +13,7 @@
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/sitemap/</guid>
-      <description>界面配置  搜索引擎 主页  快速访问   界面配置及杂项 (gitee镜像) 备份与恢复  个性化  工具条按钮长按菜单  浏览器标识 js脚本 常用服务 常用链接 常用命令 远程脚本 选中文本类菜单   长按链接弹出菜单 底部工具条定制 手势 高级个性化定制  高级设置 内容类  信息隐藏 CSS样式 重定向 特定网址用户脚本及样式 网站离线资源  工具应用类  小书签 文件预处理 html5应用 文件管理器 工具汇总 终端应用及Termux  超级计算器 函数作图 定时脚本 离线下载   输入法辅助  部件检索    综合  配置文件列表 插件  使用技巧  使用技巧 视频 安卓系统出错诊断  </description>
+      <description>界面配置 搜索引擎 主页 快速访问 界面配置及杂项 (gitee镜像) 备份与恢复 个性化 工具条按钮长按菜单 浏览器标识 js脚本 常用服务 常用链接 常用命令 远程脚本 选中文本类菜单 长按链接弹出菜单 底部工具条定制 手势 高级个性化定制 高级设置 内容类 信息隐藏 CSS样式 重定向 特定网址用户脚本及样式 网站离线资源 工具应用类 小书签 文件预处理 html5应用 文件管理器 工具汇总 终端应用及Termux 超级计算器 函数作图 定时脚本 离线下载 输入法辅助 部件检索 综合 配置文件列表 插件 使用技巧 使用技巧 视频 安卓系统出错诊断 </description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
       <description>总体来说，分为手动控制和针对特定网站的规则两大类办法。手动控制可以保存为网站配置从而自动化。
- 长按底部工具栏窗口管理按钮，选取&amp;quot;仅显示图片&amp;quot;或&amp;quot;仅显示视频&amp;quot;，图片视频网站彻底干净。选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 长按[☰]按钮&amp;quot;自动全屏播放&amp;quot;，直接全屏无干扰播放。不良信息没有任何机会出现。不使用全局脚本“自动全屏播放”的情况下，还可以有以下几种方法：  使用常用服务自动全屏播放菜单(长按视频链接-&amp;gt;命令)，则页面视频会自动全屏播放。按设置按钮，如果勾选“允许自动播放”，则今后此窗口内其它任何视频网址都将会自动全屏无干扰播放。保存书签时可在网址前面添加&amp;quot;i:5f&amp;quot;。 保存书签时可在网址前面添加&amp;quot;i:0mi:5f:&amp;quot;，则整个网址树自动全屏播放。   长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 直接关闭图像。 关闭[JS]脚本。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。  </description>
+长按底部工具栏窗口管理按钮，选取&amp;quot;仅显示图片&amp;quot;或&amp;quot;仅显示视频&amp;quot;，图片视频网站彻底干净。选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。 保存书签时可在网址前面添加&amp;quot;i:0mc32:&amp;quot;，则整个网址树自动采用&amp;quot;仅显示图片&amp;quot;。没有任何不良信息。改为&amp;quot;c16&amp;quot;则为&amp;quot;仅显示视频&amp;quot;。&amp;quot;c12&amp;quot;则同时采用&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。 长按[☰]按钮&amp;quot;自动全屏播放&amp;quot;，直接全屏无干扰播放。不良信息没有任何机会出现。不使用全局脚本“自动全屏播放”的情况下，还可以有以下几种方法： 使用常用服务自动全屏播放菜单(长按视频链接-&amp;gt;命令)，则页面视频会自动全屏播放。按设置按钮，如果勾选“允许自动播放”，则今后此窗口内其它任何视频网址都将会自动全屏无干扰播放。保存书签时可在网址前面添加&amp;quot;i:5f&amp;quot;。 保存书签时可在网址前面添加&amp;quot;i:0mi:5f:&amp;quot;，则整个网址树自动全屏播放。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。 直接关闭图像。 关闭[JS]脚本。 双正则表达式根域名隐藏。 url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。 针对特定网站的脚本样式。 </description>
     </item>
     
     <item>
@@ -34,9 +34,9 @@
       <guid>https://jamesfengcao.gitee.io/uwebzh/androidtv/</guid>
       <description>TV端推荐打开自动播放选项，全局脚本打开自动全屏播放，全局样式打开“仅显示图片“，禁止js confirm对话框。
 点击以下链接可直接设置主屏为书签并添加链接。Android TV可从手机端接收视频url并打开，发送见常用服务：
-等待从网络接收url并打开%0A&#34;等待从网络接收url并打开
-等待接收url沉默版%0A&#34;等待接收url沉默版
-书签%0A&#34;书签
+等待从网络接收url并打开
+等待接收url沉默版
+书签
 点击以下链接添加常用服务：
 添加书签至主屏
 Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引擎文件engine.search中的搜索引擎url如果不包含&#39;%s&#39;，则搜索引擎只是简单的固定网页url，此时顺序搜索表现为频道切换。更多信息见多引擎搜索页面。</description>
@@ -74,8 +74,7 @@ reddit gopher</description>
       <guid>https://jamesfengcao.gitee.io/uwebzh/links/</guid>
       <description>点击以下链接可安装至常用链接
 显示网站安全证书
-a:nth-child(2)&#39;);if(offBtn){clearInterval(rsc);var wsc=setInterval(function(){offBtn.click();var textarea=document.querySelector(&#39;.fileurl-input__containertextarea&#39;);if(textarea){clearInterval(wsc);textarea.value=&#39;%25u&#39;;var event=document.createEvent(&#39;HTMLEvents&#39;);event.initEvent(&#39;input&#39;,false,true);textarea.dispatchEvent(event);document.querySelector(&#39;.pan-dialog-btn__primary&#39;).click();}},200);}},1000);}%0A&#34;迅雷盘离线
-document.documentElement.requestFullscreen(),50);&#39;;%0A&#34;
+迅雷盘离线
 点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等
 点击安装离线下载(pcloud,furk,微云等)
 酷安扫描
@@ -91,25 +90,41 @@ default.gesture及default.button文件采用了完全一样的格式。.gesture�
 httpproxy::010[proxy host]:[port]
 socks5::011[socks host]:[port]
 noproxy::010:
-&amp;quot;:&amp;quot;为首字符特殊链接   :0000
+&amp;quot;:&amp;quot;为首字符特殊链接 :0000
 Cookie延期至70年，但服务器有可能否决。
-  :0001
+:0001
 自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)
-  :0003
+:0003
 切换全屏模式
-  :0004
+:0004
 屏幕旋转
-  :001[fileurl]
+:001[fileurl]
 加入媒体库
-  :002[url]
+:002[url]
 显示此url下安全cookie
-  :010[proxy host]:[port]
+:010[proxy host]:[port]
 设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
-  :011[socks host]:[port]
+:011[socks host]:[port]
 socks代理
-  &amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
-  i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]
-将url作为网站访问，[bookmarklet index]至少占两个字符。</description>
+&amp;quot;i:&amp;quot;内部链接： 点击安装笔记菜单
+i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]
+将url作为网站访问，[bookmarklet index]至少占两个字符。
+i:15[string]
+设置地址栏内容为[string]
+i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]
+读取第三方应用输入。
+点击安装 via扫码菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。
+点击安装酷安扫描至常用链接
+i:18[extended mimetype]:[range]:[url]
+读取url部分数据并使用指定mimetype强制处理。
+:格式同http header。譬如&amp;quot;500-1000,-300&amp;quot;
+:可以为标准的mimetype。也可以在标准mimetype后面添加&amp;quot;.&amp;lt;文件名&amp;gt;&amp;quot;，此时uweb配置目录下的文件“&amp;lt;文件名&amp;gt;”内容会附在url部分数据后面一起显示。
+i:19[string]
+地址栏内容末尾附加[string]
+i:1b
+显示网站证书
+i:1c
+等待从网络接收url并打开</description>
     </item>
     
     <item>
@@ -132,15 +147,15 @@ github mirror 3
 例子文件内容如下：
 developer.android.com::developer.android.google.cn
 四种使用重定向的方法：
-  长按链接
+长按链接
 添加文件&amp;quot;国内镜像.js&amp;quot;至&amp;quot;/sdcard/uweb/longclick&amp;quot;目录下。
 文件内容如下：
 //e:%u 其中&amp;quot;e:&amp;quot;为uweb特殊url协议，意为&amp;quot;edit&amp;quot;，即&amp;quot;编辑&amp;quot;。当后面紧跟url网址的情况下会重定向网址。
 重启uweb后长按链接弹出菜单选&amp;quot;国内镜像&amp;quot;，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。
-  长按工具条图像按钮。
-  长按设置，选中&amp;quot;自定义重定向&amp;quot;。
-  长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。
-  更多重定向网址：
+长按工具条图像按钮。
+长按设置，选中&amp;quot;自定义重定向&amp;quot;。
+长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。
+更多重定向网址：
 www.bilibili.com::www.ibilibili.com
 pan.baidu.com::pan.baiduwp.com
 www.docin.com::www.docin365.com
@@ -242,6 +257,7 @@ webview 80- 夜间模式</description>
 &amp;quot;default.link&amp;quot;:长按“书签”按钮配置
 &amp;quot;default.rjs&amp;quot;:远程及简单脚本
 &amp;quot;default.select&amp;quot;:长按“链接”按钮配置
+&amp;quot;default.input&amp;quot;:每行一个网页常用输入短语
 &amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作
 &amp;quot;default.gesture2&amp;quot;:右边缘手势操作，类似default.gesture。
 &amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。
@@ -281,9 +297,9 @@ webview 80- 夜间模式</description>
       <guid>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
 查看浏览器UA
-&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.cookie))})()&#34;网页cookie
-&#39;);s.close();var pre=s.body.appendChild(s.createElement(&#39;pre&#39;));pre.style.overflow=&#39;auto&#39;;pre.style.whiteSpace=&#39;pre-wrap&#39;;pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()&#34;网页源码
-maxd)maxd=lm;for(var%20i=0;F=w.frames[i];i++){gett(F);}}catch(e){}}var%20now=new%20Date();var%20maxd=new%20Date(document.lastModified);gett(window);if(maxd.getTime()==0||now.toUTCString()==maxd.toUTCString()){alert(&#39;Page%20is%20dynamically%20generated,%20cannot%20determine%20date.&#39;);}else{alert(&#39;Page%20was%20last%20modified%20&#39;+maxd.toLocaleString());}&#34; class=&#34;bookmarklet&#34; rel=&#34;nofollow&#34;显示网页最后更改时间
+网页cookie
+网页源码
+显示网页最后更改时间
 Eruda: mobile console
 生成二维码
 POST转GET
@@ -295,8 +311,8 @@ Enables all form elements
 切换表内复选框状态
 解除选择复制限制（无效时可设UA为PC）
 恢复长按菜单
-=0){spannode=document.createElement(&amp;quot;SPAN&amp;quot;);spannode.style.backgroundColor=&amp;quot;yellow&amp;quot;;middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 &amp;amp;&amp;amp; node.childNodes &amp;amp;&amp;amp; node.tagName.toUpperCase()!=&amp;quot;SCRIPT&amp;quot; &amp;amp;&amp;amp; node.tagName.toUpperCase!=&amp;quot;STYLE&amp;quot;){for (var child=0; child 正则搜索
-nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement(&#39;a&#39;);link.href=&#39;javascript:sortTable(&#39;+tableNo+&#39;,&#39;+colNo+&#39;,&#39;+ord+&#39;);&#39;;link.appendChild(document.createTextNode((ord0)?&#39;a&#39;:&#39;d&#39;));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement(&#39;tr&#39;);for(i=0;i表格排序
+正则搜索
+表格排序
 BugMeNot</description>
     </item>
     
@@ -320,10 +336,10 @@ BugMeNot</description>
       <guid>https://jamesfengcao.gitee.io/uwebzh/bc/</guid>
       <description>使用uweb浏览器。
 Gnu bc计算器支持无限精度，可扩展函数库、常数库。
-安装bc (Android11+无需安装)  安装uweb定制Termux应用 Termux下运行以下命令：
+安装bc (Android11+无需安装) 安装uweb定制Termux应用 Termux下运行以下命令：
 apt update
 apt upgrade
-apt install bc  使用书签调用计算器 &amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。
+apt install bc 使用书签调用计算器 &amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。
 bc
 全能bc
 浏览器地址栏作为超级计算器 配置文件/sdcard/uweb/default.acmd如下：
@@ -414,7 +430,7 @@ crontab例子内容如下：
       <guid>https://jamesfengcao.gitee.io/uwebzh/logcat/</guid>
       <description>超微浏览器如果闪退，会生成出错文件&amp;quot;/sdcard/uweb/error.log&amp;quot;。
 如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：
- 访问常用命令网页，点击安装logcat相关的两个命令。 清空后台并重启超微浏览器。 长按历史按钮，执行命令&amp;quot;清空logcat&amp;quot;。 触发有问题的功能。 长按历史按钮，执行命令&amp;quot;输出logcat.log&amp;quot;. 检查文件&amp;quot;/sdcard/uweb/logcat.log&amp;quot;内容。  超微浏览器是手机上调试javascript脚本的最佳工具，无需打包就可有多种方式运行javascript代码。webview dev版自带devtools，运行此工具，打开flag &amp;quot;webview-log-js-console-messages&amp;quot;以后所有js出错信息及console输出会被复制到logcat中。然后用户可根据上一段所述方法诊断。
+访问常用命令网页，点击安装logcat相关的两个命令。 清空后台并重启超微浏览器。 长按历史按钮，执行命令&amp;quot;清空logcat&amp;quot;。 触发有问题的功能。 长按历史按钮，执行命令&amp;quot;输出logcat.log&amp;quot;. 检查文件&amp;quot;/sdcard/uweb/logcat.log&amp;quot;内容。 超微浏览器是手机上调试javascript脚本的最佳工具，无需打包就可有多种方式运行javascript代码。webview dev版自带devtools，运行此工具，打开flag &amp;quot;webview-log-js-console-messages&amp;quot;以后所有js出错信息及console输出会被复制到logcat中。然后用户可根据上一段所述方法诊断。
 非dev版本webview可点击如下链接运行devtools。
 devtools for com.google.android.webview
 devtools for com.android.webview</description>
@@ -426,23 +442,22 @@ devtools for com.android.webview</description>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/loadbt/</guid>
-      <description> seedr用户可使用常用链接利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。 Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。  百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
+      <description>seedr用户可使用常用链接利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。 Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。 百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
 超微浏览器上配置百度离线下载
-  安装uweb定制Termux应用。
-  安装baidupcs-go：
- 直接下载BaiduPCS-Go，安卓手机请选择arm64版本。 解压下载文件 移动解压后文件至最终目的地。Termux运行以下命令:
+安装uweb定制Termux应用。
+安装baidupcs-go：
+直接下载BaiduPCS-Go，安卓手机请选择arm64版本。 解压下载文件 移动解压后文件至最终目的地。Termux运行以下命令:
 mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.
 chmod 777 /data/data/com.termux/files/usr/bin/BaiduPCS-Go
-    登录百度网盘, Termux执行如下命令：
+登录百度网盘, Termux执行如下命令：
 BaiduPCS-Go login
 BaiduPCS-Go config set -appid=266719
-  /sdcard/uweb/default.longclick配置如下：
+/sdcard/uweb/default.longclick配置如下：
 百度离线下载:termux/*:BaiduPCS-Go od add &amp;quot;%u&amp;quot;;exit 1
-  重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。
-  离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
-  其它支持离线下载的网页也可定义为一键离线。
-  </description>
+重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。
+离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
+其它支持离线下载的网页也可定义为一键离线。</description>
     </item>
     
     <item>
@@ -456,7 +471,7 @@ BaiduPCS-Go config set -appid=266719
 命令可以包含%c（当前网址cookie）等，执行时会被相应内容自动替换。
 长按链接运行js文件 长按链接弹出菜单显示/sdcard/uweb/longclick目录下所有js文件供用户挑选执行。
 js文件格式如下：
- 首行可以&amp;quot;//&amp;quot;开头，后面紧跟目标网页url，url中可包含&amp;quot;%u&amp;quot;等，打开网页时会用长按的链接替换。 首行非&amp;quot;//&amp;quot;开头者，整个脚本作用于当前网页，不再打开新网页。 第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。  </description>
+首行可以&amp;quot;//&amp;quot;开头，后面紧跟目标网页url，url中可包含&amp;quot;%u&amp;quot;等，打开网页时会用长按的链接替换。 首行非&amp;quot;//&amp;quot;开头者，整个脚本作用于当前网页，不再打开新网页。 第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。 </description>
     </item>
     
     <item>
@@ -467,9 +482,9 @@ js文件格式如下：
       <guid>https://jamesfengcao.gitee.io/uwebzh/video/</guid>
       <description>覆盖安装全屏播放菜单示例：屏幕旋转,退出
 本文以超微浏览器为例来说明。
- 创建文件&amp;quot;default.playrate&amp;quot;可定制全屏倍速播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空，譬如&amp;quot;.5x:&amp;quot;，倍速菜单至少有一个。链接部分非空的菜单必须在所有倍速菜单之后。 长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切不良信息。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么不良信息。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现不良信息占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动不良信息”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切不良信息。方法如下：  长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。   对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切不良信息：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。  视频搜索预配置(超过400个引擎)
+创建文件&amp;quot;default.playrate&amp;quot;可定制全屏倍速播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空，譬如&amp;quot;.5x:&amp;quot;，倍速菜单至少有一个。链接部分非空的菜单必须在所有倍速菜单之后。 长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切不良信息。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“/sdcard/uweb/types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么不良信息。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现不良信息占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动不良信息”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切不良信息。方法如下： 长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。 对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切不良信息：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。 视频搜索预配置(超过400个引擎)
 视频资源：
- 视频解析配置 mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播  点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
+视频解析配置 mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播 点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
     
     <item>
@@ -521,7 +536,7 @@ mimetype表示命令处理后的输出内容格式。
 %u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。
 利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。
 配置/sdcard/uweb/default.filecap如下：
-txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/audio&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&amp;lt;source src=&#34;%u&#34;&amp;lt;/video&#39; doc:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xls:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U ppt:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U docx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xlsx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U pptx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：
+txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; doc:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xls:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U ppt:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U docx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xlsx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U pptx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：
 pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///sdcard/uweb/app/djvu.html?url=%u epub:uweb:echo file:///sdcard/uweb/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。
 如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
     </item>
@@ -574,8 +589,8 @@ MoePlayer/APlayer : music player</description>
       <description>顶部下拉弹出地址栏; 顶部上划隐藏地址栏。底部下划隐藏工具条; 底部左右角落划动弹出工具条。
 紧靠工具条左右划动切换当前窗口; 左右大幅度划动切换到第一或最后一个窗口。
 起点终点紧靠地址栏划动操作调用&amp;quot;default.gesture&amp;quot;文件中对应链接。文件格式与文件default.link完全相同。每行第一部分为助记名，第二部分为链接。手势操作对应方式如下：
- 将屏幕宽度平分为三部分，分别对应数字0,1,2 将终点对应的屏幕数字加上起点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。
-超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推）  右边缘划动操作调用&amp;quot;default.gesture2&amp;quot;文件中对应链接。对应方法同&amp;quot;default.gesture&amp;quot;。
+将屏幕宽度平分为三部分，分别对应数字0,1,2 将终点对应的屏幕数字加上起点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。
+超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推） 右边缘划动操作调用&amp;quot;default.gesture2&amp;quot;文件中对应链接。对应方法同&amp;quot;default.gesture&amp;quot;。
 常用操作链接：
 back:javascript:history.back()
 forward:javascript:history.forward()
@@ -602,7 +617,7 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
 &amp;quot;termux/*&amp;quot;: 在termux中执行命令。
 &amp;quot;uweb&amp;quot;: 输出结果作为链接来处理。
 下面是笔者使用的default.cmds配置（命令具体解释）：
-复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34;   </description>
+复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34; </description>
     </item>
     
     <item>
@@ -655,14 +670,14 @@ seedr的问题是首次登录需要google人机验证，登录成功以后可以
       <guid>https://jamesfengcao.gitee.io/uwebzh/gnuplot/</guid>
       <description>使用Android端uweb浏览器。
 Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。
-安装gnuplot  安装 uweb定制Termux应用 Termux下运行以下命令：
+安装gnuplot 安装 uweb定制Termux应用 Termux下运行以下命令：
 apt update
 apt upgrade
-apt install gnuplot  地址栏功能配置：  配置文件/sdcard/uweb/default.acmd每行格式如下：
-菜单名:mimeType:命令行 命令行可包含参数%s，运行时自动用地址栏输入内容替换。 如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。  配置文件/sdcard/uweb/default.acmd如下： 命令:text/plain:%s 函数作图:image/svg+xml:gnuplot -e &#39;set term svg;set output; plot %s&#39; 函数作图(3d):image/svg+xml:gnuplot -e &#39;set term svg;set output; splot %s&#39; 超级计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q  长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。
-常见问题及诊断  确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&amp;quot;gnuplot&amp;gt;&amp;quot;。 确保gnuplot正常运行, 在Termux提示符下，执行下面命令：
+apt install gnuplot 地址栏功能配置： 配置文件/sdcard/uweb/default.acmd每行格式如下：
+菜单名:mimeType:命令行 命令行可包含参数%s，运行时自动用地址栏输入内容替换。 如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。 配置文件/sdcard/uweb/default.acmd如下： 命令:text/plain:%s 函数作图:image/svg+xml:gnuplot -e &#39;set term svg;set output; plot %s&#39; 函数作图(3d):image/svg+xml:gnuplot -e &#39;set term svg;set output; splot %s&#39; 超级计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q 长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。
+常见问题及诊断 确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&amp;quot;gnuplot&amp;gt;&amp;quot;。 确保gnuplot正常运行, 在Termux提示符下，执行下面命令：
 gnuplot -e &#39;set term svg;set output; plot x&#39;
-屏幕输出应该为正常的svg文件（类似html文本）。 Termux应为uweb定制包，否则有一堆设定需要修改。 超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。 为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&amp;quot;x&amp;quot;，即整个地址栏内输入为&amp;quot;x&amp;quot;。  </description>
+屏幕输出应该为正常的svg文件（类似html文本）。 Termux应为uweb定制包，否则有一堆设定需要修改。 超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。 为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&amp;quot;x&amp;quot;，即整个地址栏内输入为&amp;quot;x&amp;quot;。 </description>
     </item>
     
     <item>
@@ -696,7 +711,7 @@ twitter.com
 facebook.com
 fbcdn.net
 其它国外网址访问技巧：
- 尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片  </description>
+尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片 </description>
     </item>
     
     <item>
@@ -731,8 +746,8 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
       <guid>https://jamesfengcao.gitee.io/uwebzh/sitejs/</guid>
       <description>技巧等级：中级
 脚本 (第一时间装载js脚本见下面sitecss条目)
- 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/sdcard/uweb/sitejs或/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。如果内部目录下sitejs存在，则/sdcard/uweb/sitejs不起任何作用。内部sitejs目录的存在同时也影响一切对安全敏感的资源（包括网站离线资源等）的配置，一旦内部sitejs目录存在，则这些资源必须位于内部目录才会生效。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。  样式及第一时间装载js脚本
- 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到/sdcard/uweb/sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“/sdcard/uweb/default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。  文件sitejs/.js 和sitecss/.css, sitecss/.js可作用于一切非http url（本地文件，浏览器界面等）。</description>
+脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/sdcard/uweb/sitejs或/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。如果内部目录下sitejs存在，则/sdcard/uweb/sitejs不起任何作用。内部sitejs目录的存在同时也影响一切对安全敏感的资源（包括网站离线资源等）的配置，一旦内部sitejs目录存在，则这些资源必须位于内部目录才会生效。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。 样式及第一时间装载js脚本
+与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到/sdcard/uweb/sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“/sdcard/uweb/default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。 文件sitejs/.js 和sitecss/.css, sitecss/.js可作用于一切非http url（本地文件，浏览器界面等）。</description>
     </item>
     
     <item>
@@ -820,17 +835,17 @@ CCTV17农村
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_domain/</guid>
       <description>域名文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（最后两段不超过6字符如com.cn的域名可取四段）。
-  长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
-  部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。
-  可长按设置开启&amp;quot;资源嗅探&amp;quot;，推荐设置文件&amp;quot;/sdcard/uweb/types.sniff&amp;quot;内容为js，刷新网页后关闭&amp;quot;资源嗅探&amp;quot;选项。在弹出的资源网页上长按链接，屏蔽根域名。
-  (可选) 长按不良信息链接，点击“屏蔽根域名”，屏蔽链接网址。
-  (可选) 某些不良信息靠javascript激发，链接中不出现域名，可点击激发至新网址后将新网址根域名屏蔽。
-  支持域名及整个网址正则表达式
+长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。
+部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。
+可长按设置开启&amp;quot;资源嗅探&amp;quot;，推荐设置文件&amp;quot;/sdcard/uweb/types.sniff&amp;quot;内容为js，刷新网页后关闭&amp;quot;资源嗅探&amp;quot;选项。在弹出的资源网页上长按链接，屏蔽根域名。
+(可选) 长按不良信息链接，点击“屏蔽根域名”，屏蔽链接网址。
+(可选) 某些不良信息靠javascript激发，链接中不出现域名，可点击激发至新网址后将新网址根域名屏蔽。
+支持域名及整个网址正则表达式
 文件格式每行如下：
 根域名[空格]域名前缀正则表达式[空格]整个网址去掉协议部分后正则表达式
 空格及后面两个正则表达式为可选择项。正则表达式采用java标准。
 如果用到了第二个正则表达式，此时将域名前缀表达式合并到第二个正则表达式中，从而仅使用一个表达式可优化性能。
-  点击本链接自动用样例覆盖default.hosts</description>
+点击本链接自动用样例覆盖default.hosts</description>
     </item>
     
     <item>
@@ -843,8 +858,8 @@ CCTV17农村
 打开选项以后超微将自动装载这些离线资源。
 离线资源可作为缓存提高浏览器性能; 可作为国外网站部分备份修复服务访问; 也可替换部分网站资源达到定制网站的作用。
 下面以google翻译为例说明如何发现并备份离线资源。
- 首先使用教程&amp;quot;运行远程javascript&amp;quot;配置google翻译。 将文件&amp;quot;/sdcard/uweb/types.sniff&amp;quot;内容清空（不要删除文件，否则会恢复成默认文件）。重启浏览器以后长按设置打开资源嗅探。 准备好合适手段保证google系网站能正常访问，长按按钮在主屏运行google翻译。 出现google翻译工具条以后，长按设置关闭嗅探。 运行termux，安装下载工具wget：
-apt update;apt install wget 下载必要离线数据，termux下运行如下命令： cd /sdcard/uweb mkdir sitecache cd sitecache wget -U &#39;Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)&#39; -x -i ../sniff.log  下载结束后，离线资源就准备妥当，供以后随时使用。 google翻译的情况下，要对部分js作修改，防止每次访问url不同。  </description>
+首先使用教程&amp;quot;运行远程javascript&amp;quot;配置google翻译。 将文件&amp;quot;/sdcard/uweb/types.sniff&amp;quot;内容清空（不要删除文件，否则会恢复成默认文件）。重启浏览器以后长按设置打开资源嗅探。 准备好合适手段保证google系网站能正常访问，长按按钮在主屏运行google翻译。 出现google翻译工具条以后，长按设置关闭嗅探。 运行termux，安装下载工具wget：
+apt update;apt install wget 下载必要离线数据，termux下运行如下命令： cd /sdcard/uweb mkdir sitecache cd sitecache wget -U &#39;Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)&#39; -x -i ../sniff.log 下载结束后，离线资源就准备妥当，供以后随时使用。 google翻译的情况下，要对部分js作修改，防止每次访问url不同。 </description>
     </item>
     
   </channel>
