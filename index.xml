@@ -43,6 +43,19 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
     </item>
     
     <item>
+      <title>利用用户自定义样式屏蔽不良信息</title>
+      <link>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</guid>
+      <description>点击以下链接可安装全局样式，清后台重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。
+floppymoose 广告屏蔽样式
+gozer 广告屏蔽样式
+超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。
+对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。</description>
+    </item>
+    
+    <item>
       <title>常用书签</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/bookmark/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
@@ -678,18 +691,6 @@ apt install gnuplot 地址栏功能配置： 配置文件/sdcard/uweb/default.ac
 常见问题及诊断 确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&amp;quot;gnuplot&amp;gt;&amp;quot;。 确保gnuplot正常运行, 在Termux提示符下，执行下面命令：
 gnuplot -e &#39;set term svg;set output; plot x&#39;
 屏幕输出应该为正常的svg文件（类似html文本）。 Termux应为uweb定制包，否则有一堆设定需要修改。 超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。 为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&amp;quot;x&amp;quot;，即整个地址栏内输入为&amp;quot;x&amp;quot;。 </description>
-    </item>
-    
-    <item>
-      <title>利用用户自定义样式屏蔽不良信息</title>
-      <link>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesfengcao.gitee.io/uwebzh/adblock_css/</guid>
-      <description>超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。
-对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。
-安装不良信息屏蔽.css
-重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。</description>
     </item>
     
     <item>
