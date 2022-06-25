@@ -15,14 +15,14 @@
       <guid>https://jamesfengcao.gitee.io/uwebzh/adblock/</guid>
       <description>总体来说，分为手动控制和针对特定网站的规则两大类办法。手动控制可以保存为网站配置从而自动化。
 双正则表达式根域名隐藏。
-可使用列出外部脚本小书签生成外部js文件列表，然后长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;网址转链接&amp;quot;菜单命令，长按可疑链接（一般为域名不同的外链），执行“屏蔽根域名”。 长按底部工具栏窗口管理按钮，选取&amp;quot;仅显示图片&amp;quot;或&amp;quot;仅显示视频&amp;quot;，图片视频网站彻底干净。选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。
+可使用列出外部脚本小书签生成外部js文件列表，然后长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;网址转链接&amp;quot;菜单命令，长按可疑链接（一般为域名不同的外链），执行“屏蔽根域名”。 针对特定网站的脚本样式。
+长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;标记不良元素&amp;quot;菜单命令，点击页面元素会弹出对话框显示元素及祖先所有属性，并生成css屏蔽代码。默认使用“display:none”屏蔽，但如果上述显示属性中出现过&amp;quot;display&amp;quot;。则建议使用&amp;quot;transform:scale(0)!important&amp;quot;屏蔽。 长按底部工具栏窗口管理按钮，选取&amp;quot;仅显示图片&amp;quot;或&amp;quot;仅显示视频&amp;quot;，图片视频网站彻底干净。选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。
 保存书签时可在网址前面添加&amp;quot;i:0mc32:&amp;quot;，则整个网址树自动采用&amp;quot;仅显示图片&amp;quot;。没有任何不良信息。改为&amp;quot;c16&amp;quot;则为&amp;quot;仅显示视频&amp;quot;。&amp;quot;c12&amp;quot;则同时采用&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。 长按[☰]按钮&amp;quot;自动全屏播放&amp;quot;，直接全屏无干扰播放。不良信息没有任何机会出现。不使用全局脚本“自动全屏播放”的情况下，还可以有以下几种方法：
 使用常用服务自动全屏播放菜单(长按视频链接-&amp;gt;命令)，则页面视频会自动全屏播放。按设置按钮，如果勾选“允许自动播放”，则今后此窗口内其它任何视频网址都将会自动全屏无干扰播放。保存书签时可在网址前面添加&amp;quot;i:5f&amp;quot;。 保存书签时可在网址前面添加&amp;quot;i:0mi:5f:&amp;quot;，则整个网址树自动全屏播放。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。
 长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。
 直接关闭图像。
 关闭[JS]脚本。
-url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。
-针对特定网站的脚本样式。</description>
+url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。</description>
     </item>
     
     <item>
