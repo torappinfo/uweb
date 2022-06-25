@@ -6,14 +6,15 @@
     <description>Recent content in javascript on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesfengcao.gitee.io/uwebzh/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小书签</title>
       <link>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</link>
-      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesfengcao.gitee.io/uwebzh/bookmarklet/</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。
+列出外部脚本
 查看浏览器UA
 网页cookie
 网页源码
