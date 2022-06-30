@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>利用多账号登录获取资源</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">利用多账号登录获取资源
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>谈到资源就离不开bt, bt下载费时费力，离线bt是最佳选择。国内离线下载由于关键节点屏蔽，基本没啥用。我的个人体验是彻彻底底完全没用，但别人也许还有点用？国外唯一一个有好体验的是seedr, 不过seedr有个大问题需要解决。</p>
+<p>其它我曾推荐过的台湾bt, bug实在太多，现在看来也成了半个垃圾。万般无奈之下只能重拾seedr.</p>
+<p>seedr的问题是首次登录需要google人机验证，登录成功以后可以永久使用，无需小飞机辅助。</p>
+<p>以前偶尔飞飞一点问题也没有，毕竟1分钟飞行就可解决很长时间问题了。但目前的状态是信息基本被彻底封死，1分钟飞行也成了奢望。所以十分有必要珍惜这来之不易的1分钟飞行成果。</p>
+<p>现在直接上方案，使用超微浏览器多账号登录。飞行1分钟以后成功登录seedr, 此时退出浏览器，千万不能强退，一定要让运存中的登录信息写到内部存储。然后用户可备份应用内部目录下的.cjar文件，一旦浏览器失去登录状态，可恢复此文件，即可使用多账号登录重新登录，让这1分钟飞行成果保存下来，供万万年使用。需要注意的一点是：用户退出seedr账号会使保存的文件作废。故千万不要退出账号，需要用其它账号登录的请使用多账号登录。</p>
+
+</div>
+
+  </body>
+</html>

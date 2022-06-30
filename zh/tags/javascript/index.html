@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>javascript</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">javascript</h1>
+  <ul class="posts">
+    
+    <li class="post">
+      <a href="../../bookmarklet">
+        <span>小书签</span>
+      </a>
+    </li>
+    
+    <li class="post">
+      <a href="../../longclick">
+        <span>长按链接弹出菜单</span>
+      </a>
+    </li>
+    
+    <li class="post">
+      <a href="../../sitejs">
+        <span>特定网址用户脚本及样式</span>
+      </a>
+    </li>
+    
+  </ul>
+  <ul>
+</div>
+
+  </body>
+</html>

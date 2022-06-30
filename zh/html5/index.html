@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>html5应用</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">html5应用
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p><a target="_self" href="i:0h/sdcard/uweb/app/txtview.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/txtview.html">点击安装超大文件阅读器（支持txt, html, markdown）</a><br>
+<a target="_self" href="i:0h/sdcard/uweb/app/markdeep.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/markdeep.html">点击安装超大文件阅读器（markdeep版, latex, diagram,graphviz等）</a><br>
+<a target="_self" href="i:0h/sdcard/uweb/app/plyr.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/plyr.cfg">点击安装plyr视频播放器</a><br>
+<a target="_self" href="i:0h/sdcard/uweb/app/dplayer.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/dplayer.html">点击安装dplayer视频播放器</a><br>
+<a target="_self" href="i:0h/sdcard/uweb/app/pdfviewer.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/pdfviewer.html">点击安装pdf阅读器</a><br>
+<a target="_self" href="i:0h/sdcard/uweb/app/epub.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/epub.html">点击安装epub阅读器(作者：llili)</a><br>
+<a target="_self" href="i:0h/sdcard/uweb/app/djvu.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/djvu.html">点击安装djvu阅读器</a><br>
+相应的菜单安装可见<a href="../searchurl/urls.html">浏览器特色服务</a></p>
+<p>超微配置目录下的子目录名如果以&quot;app&quot;开始(譬如&quot;/sdcard/uweb/appPDF&quot;)，则这些&quot;app&quot;开头目录树下放置的html5应用将可获得功能增强。</p>
+<p><a href="../filecap">配置default.filecap</a>并打开选项“文件预处理”，清后台重启浏览器后超微可直接阅读应用对应格式文件。<br>
+<a target="_self" href="i:0g/sdcard/uweb/default.filecap:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/filecap.cfg">点击配置pdf.js,djvu.js,epub.js,超大文件阅读器</a></p>
+<p>超大文件阅读器txtview.html url如下:<br>
+file:///sdcard/uweb/app/txtview.html?url=[url]#page=[xxx]<br>
+file:///sdcard/uweb/app/txtview.html?url=[url]#offset=[xxxx]&amp;[length]<br>
+file:///sdcard/uweb/app/markdeep.html?url=[url]#page=[xxx]<br>
+file:///sdcard/uweb/app/markdeep.html?url=[url]#offset=[xxxx]&amp;[length]<br>
+譬如&quot;#offset=10000&amp;500&quot;会访问超大文件偏移量10000处长度为500的内容。<br>
+所有阅读器均支持箭头按钮(短按前进按钮或长按后退按钮)自动翻页。</p>
+<p>比较有用的是mozilla的pdf.js，可用来显示在线或本地pdf文件。url如下:<br>
+file:///sdcard/uweb/app/pdfviewer.html?file=[绝对或相对路径].pdf#page=[xxx]<br>
+则浏览器直接跳转到pdf文件指定页。与主屏多引擎搜索及少量脚本结合使用，可对任何pdf文件进行字典检索。</p>
+<p>下面是一些类似的应用：<br>
+djvu.js应用的访问url如下：<br>
+file:///sdcard/uweb/app/djvu.html?url=[绝对或相对路径或url].pdf#page=[xxx]</p>
+<p>epub.js<br>
+sampotts/plyr : video, YouTube and Vimeo player<br>
+videojs/video.js<br>
+bilibili/flv.js<br>
+MoePlayer/DPlayer<br>
+Streamedian/html5_rtsp_player<br>
+MoePlayer/APlayer : music player</p>
+
+</div>
+
+  </body>
+</html>

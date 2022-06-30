@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>国外网址</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">国外网址</h1>
+  <ul class="posts">
+    
+    <li class="post">
+      <a href="../../redirect">
+        <span>重定向国外网址至国内镜像（附编辑本地文件）</span>
+      </a>
+    </li>
+    
+    <li class="post">
+      <a href="../../hosts">
+        <span>加速访问国外网站</span>
+      </a>
+    </li>
+    
+  </ul>
+  <ul>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PC on </title>
+    <link>/zh/tags/pc/</link>
+    <description>Recent content in PC on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>操作选中（富）文本／元素</title>
+      <link>/zh/pccopy/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/pccopy/</guid>
+      <description>点击以下链接可安装长按“链接”按钮菜单:
+google划词翻译
+bing翻译
+papago翻译
+iciba
+百度翻译
+有道翻译
+搜狗翻译
+彩云小译
+deepL
+点击安装&amp;quot;保存文本&amp;quot;等
+重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。
+配置文件&amp;quot;/sdcard/uweb/default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：
+[菜单名]:[mimetype]:[命令行]
+选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。
+mimetype用来表示命令的输入输出类型。格式为&amp;quot;[输入mimetype]/[输出mimetype]&amp;quot;，&amp;quot;[输入mimetype]&amp;quot;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
+html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
+/uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
+/termux: 命令运行结果将作为termux下命令运行。
+checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)
+配置/sdcard/uweb/default.select如下：
+复制文本到地址栏:uweb:printf i:15;cat
+笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
+富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
+命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
+复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
+复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
+如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。
+此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。
+采用以上配置，笔记将储存在/sdcard/uweb目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。
+手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。长按链接按钮选择适当功能即可复制至PC剪贴板。
+Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：
+复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe
+其它推荐工具(读取PC剪贴板)：
+pclip</description>
+    </item>
+    
+    <item>
+      <title>浏览器一键控制台式机/服务器下载资源</title>
+      <link>/zh/pcdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/pcdown/</guid>
+      <description>技巧等级：高级
+小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
+手机需安装uweb定制Termux，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：
+apt update
+apt upgrade
+apt install openssl
+脚本pcdownload内容如下(可放置在任意应用内部目录下，并相应修改default.longclick配置中文件路径)：
+#!/data/data/com.termux/files/usr/bin/sh
+ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 firefox \&amp;quot;$1\&amp;quot;&amp;quot;
+脚本需设置为可执行，Termux下执行命令:
+chmod 755 /data/data/com.termux/files/usr/bin/pcdownload
+这里假定用户已经在台式机上设好ssh服务，台式机IP地址为192.168.2.102，准备用firefox下载。如果下载工具不是图形程序，则上述脚本中可删去“DISPLAY=:0”。
+配置文件/sdcard/uweb/default.longclick如下：
+PCdown:/data/data/com.termux/files/usr/bin/pcdownload
+重启超微浏览器，点击链接下载时会弹出菜单，选择&amp;quot;PCdown&amp;quot;，台式机会启动firefox下载手机指定文档。
+可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>分类多引擎搜索</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">分类多引擎搜索
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/%e6%90%9c%e7%b4%a2">搜索</a> </li>
+    
+  </ul>
+  <p><a target="_self" href="i:0bhttps://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/searchcat.tar.gz">点击本链接自动安装分类多引擎文件至&quot;/sdcard/uweb/bookmark&quot;目录下</a>。</p>
+<p><a href="..">超微浏览器</a>中通过“设置”-&gt;“总目录”-&gt;“↑”-&gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。</p>
+<p>.search文件每行格式为如下几种：<br>
+[搜索引擎名]:[不含%s的url]<br>
+[搜索引擎名]:[含%s的url]<br>
+[搜索引擎名]:POST:[含%s的post参数]:[url]</p>
+<p>.search文件首行必须为第一种类型的搜索引擎。由于其它两种类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。</p>
+<h4 id="本地引擎">本地引擎</h4>
+<p>搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为<br>
+c:[含%s的命令行]<br>
+d:mimetype:[含%s的命令行]:[外部资源url]<br>
+查询时关键词会自动替换命令行中的%s。</p>
+<p>笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</p>
+
+</div>
+
+  </body>
+</html>

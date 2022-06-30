@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>利用浏览器地址栏对函数作图</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">利用浏览器地址栏对函数作图
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/termux">termux</a> </li>
+    
+  </ul>
+  <p>使用Android端<a href="../index.html">uweb浏览器</a>。<br>
+Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。</p>
+<h4 id="安装gnuplot">安装gnuplot</h4>
+<ul>
+<li>安装 <a href="../searchurl/plugins.html">uweb定制Termux应用</a></li>
+<li>Termux下运行以下命令：<br>
+apt update<br>
+apt upgrade<br>
+apt install gnuplot</li>
+</ul>
+<h4 id="地址栏功能配置">地址栏功能配置：</h4>
+<ul>
+<li>配置文件<a href=e:/sdcard/uweb/default.acmd>/sdcard/uweb/default.acmd</a>每行格式如下：<br>
+菜单名:mimeType:命令行</li>
+<li>命令行可包含参数%s，运行时自动用地址栏输入内容替换。</li>
+<li>如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。</li>
+</ul>
+<h4 id="配置文件sdcarduwebdefaultacmd如下">配置文件/sdcard/uweb/default.acmd如下：</h4>
+<pre><code>命令:text/plain:%s
+函数作图:image/svg+xml:gnuplot -e 'set term svg;set output; plot %s'
+函数作图(3d):image/svg+xml:gnuplot -e 'set term svg;set output; splot %s'
+超级计算器:text/html:echo &quot;%s&quot;|bc -l -q
+</code></pre>
+<p>长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。</p>
+<h4 id="常见问题及诊断">常见问题及诊断</h4>
+<ul>
+<li>确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&quot;gnuplot&gt;&quot;。</li>
+<li>确保gnuplot正常运行, 在Termux提示符下，执行下面命令：<br>
+<code>gnuplot -e 'set term svg;set output; plot x'</code><br>
+屏幕输出应该为正常的svg文件（类似html文本）。</li>
+<li>Termux应为uweb定制包，否则有一堆设定需要修改。</li>
+<li>超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。</li>
+<li>为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&quot;x&quot;，即整个地址栏内输入为&quot;x&quot;。</li>
+</ul>
+
+</div>
+
+  </body>
+</html>

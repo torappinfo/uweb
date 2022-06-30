@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>常用链接</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">常用链接
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>点击以下链接可安装至常用链接<br>
+<a href="i:0g/sdcard/uweb/default.link::显示安全证书:i:1b%0A">显示网站安全证书</a><br>
+<a href="i:0g/sdcard/uweb/default.link::迅雷盘离线:http://pan.xunlei.com/ {let rsc=setInterval(function(){var offBtn=document.querySelector('.pan-dropdown-menu.plus-menu>a:nth-child(2)');if(offBtn){clearInterval(rsc);var wsc=setInterval(function(){offBtn.click();var textarea=document.querySelector('.fileurl-input__container>textarea');if(textarea){clearInterval(wsc);textarea.value='%25u';var event=document.createEvent('HTMLEvents');event.initEvent('input',false,true);textarea.dispatchEvent(event);document.querySelector('.pan-dialog-btn__primary').click();}},200);}},1000);}%0A">迅雷盘离线</a></p>
+<p><a href="i:0g/sdcard/uweb/default.link::网页全屏: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A"></a></p>
+<p><a href="i:0g/sdcard/uweb/default.link:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/link.cfg">点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等</a><br>
+<a href="i:0g/sdcard/uweb/default.link:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/offline.link">点击安装离线下载(pcloud,furk,微云等)</a></p>
+<p><a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a></p>
+<p><a href="../index.html">uweb浏览器</a>中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&quot;default.link&quot;中，改动过的文件清后台重启动后生效。每行格式如下：<br>
+[菜单名]:[url][空格][javascript脚本]<br>
+其中空格及之后的脚本为可选项。url及之后的脚本支持<a href="../cmd/index.html">&quot;%u&quot;,&quot;%s&quot;等替换</a>。<br>
+脚本将在链接访问结束时自动执行。</p>
+<p>url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&quot;:&quot;为链接第二个字符）及特殊链接（&quot;:&quot;为链接首字符）。</p>
+<p>不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：<br>
+.js文件(同<a href="../longclick/index.html">长按链接运行js文件</a>):  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmd/index.html">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。</p>
+<p><a href="../gesture/index.html">default.gesture</a>及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。</p>
+<p>各类代理配置如下:<br>
+httpproxy::010[proxy host]:[port]<br>
+socks5::011[socks host]:[port]<br>
+noproxy::010:</p>
+<h3 id="为首字符特殊链接">&quot;:&quot;为首字符特殊链接</h3>
+<ul>
+<li>
+<p>:0000<br>
+Cookie延期至70年，但服务器有可能否决。</p>
+</li>
+<li>
+<p>:0001<br>
+自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)</p>
+</li>
+<li>
+<p>:0003<br>
+切换全屏模式</p>
+</li>
+<li>
+<p>:0004<br>
+屏幕旋转</p>
+</li>
+<li>
+<p>:001[fileurl]<br>
+加入媒体库</p>
+</li>
+<li>
+<p>:002[url]<br>
+显示此url下安全cookie</p>
+</li>
+<li>
+<p>:010[proxy host]:[port]<br>
+设置http代理, &quot;:010:&quot;禁用代理。</p>
+</li>
+<li>
+<p>:011[socks host]:[port]<br>
+socks代理</p>
+</li>
+</ul>
+<h3 id="i内部链接">&quot;i:&quot;内部链接：</h3>
+<p>点击安装<a href="i:53i:52">笔记</a>菜单</p>
+<ul>
+<li>
+<p>i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]<br>
+将url作为网站访问，[bookmarklet index]至少占两个字符。</p>
+</li>
+<li>
+<p>i:15[string]<br>
+设置地址栏内容为[string]</p>
+</li>
+<li>
+<p>i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
+读取第三方应用输入。<br>
+点击安装<a href="i:53i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。<br>
+点击安装<a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a>至常用链接</p>
+</li>
+<li>
+<p>i:18[extended mimetype]:[range]:[url]<br>
+读取url部分数据并使用指定mimetype强制处理。<br>
+<range>:格式同http header。譬如&quot;500-1000,-300&quot;<br>
+<extended mimetype>:可以为标准的mimetype。也可以在标准mimetype后面添加&quot;.&lt;文件名&gt;&quot;，此时uweb配置目录下的文件“&lt;文件名&gt;”内容会附在url部分数据后面一起显示。</p>
+</li>
+<li>
+<p>i:19[string]<br>
+地址栏内容末尾附加[string]</p>
+</li>
+<li>
+<p>i:1b<br>
+显示网站证书</p>
+</li>
+<li>
+<p>i:1c<br>
+等待从网络接收url并打开</p>
+</li>
+<li>
+<p>i:1c1<br>
+等待从网络接收url并打开(不显示ip)</p>
+</li>
+<li>
+<p>i:50[path]:[string]<br>
+保存为文件。</p>
+</li>
+<li>
+<p>i:51[path]:[url]<br>
+保存为地址栏提示</p>
+</li>
+<li>
+<p>i:52[path]:[string]<br>
+保存为书签</p>
+</li>
+<li>
+<p>i:53[path]:[string]<br>
+保存为笔记</p>
+</li>
+<li>
+<p>i:54[path]:[url]<br>
+保存为搜索引擎</p>
+</li>
+<li>
+<p>i:55[path]:[url]<br>
+保存为链接</p>
+</li>
+<li>
+<p>i:56[string]<br>
+将string插入到网页当前输入框。</p>
+</li>
+<li>
+<p>i:57[jscode]<br>
+执行js代码，即使网页禁用js。</p>
+</li>
+<li>
+<p>i:58[url]<br>
+保存到桌面</p>
+</li>
+<li>
+<p>i:59[filename]<br>
+发送文件内容</p>
+</li>
+<li>
+<p>i:5a[filename]<br>
+接收信息至文件</p>
+</li>
+<li>
+<p>i:5b[string]<br>
+复制至剪贴板。</p>
+</li>
+<li>
+<p>i:5c[url]<br>
+更改自动翻页url</p>
+</li>
+<li>
+<p>i:5d[file url]<br>
+兼容其它浏览器的方式打开本地文件。</p>
+</li>
+<li>
+<p>i:5e[string]<br>
+TTS</p>
+</li>
+<li>
+<p>i:5f[videourl]<br>
+play video fullscreen. if videourl is empty, then make following requestFullscreen() work.</p>
+</li>
+<li>
+<p>i:5g[videourl]<br>
+play video in external player</p>
+</li>
+<li>
+<p>i:5h[url]<br>
+force html for url</p>
+</li>
+<li>
+<p>i:5i[url]<br>
+重用已有窗口跳转至不同anchor。</p>
+</li>
+<li>
+<p>i:5j[string]<br>
+Send string to network</p>
+</li>
+<li>
+<p>i:60[path]:[url]<br>
+如果本地文件存在就打开，否则访问远程url</p>
+</li>
+<li>
+<p>i:62[path]:[js code]<br>
+保存js返回值为文件</p>
+</li>
+<li>
+<p>i:63[bookmarklet index]:[url]</p>
+</li>
+<li>
+<p>i:70[url]:[自动翻页url]<br>
+访问网址url，但指定使用后一网址自动翻页</p>
+</li>
+</ul>
+
+</div>
+
+  </body>
+</html>
