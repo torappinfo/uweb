@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -12,6 +13,58 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
+                />
+  </url><url>
+    <loc>/en/_posts/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/_posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/_posts/"
+                />
+  </url><url>
+    <loc>/en/sitemap/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sitemap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/sitemap/"
+                />
+  </url><url>
+    <loc>/en/filenames/</loc>
+    <lastmod>2022-06-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/filenames/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/filenames/"
+                />
+  </url><url>
+    <loc>/en/links/</loc>
+    <lastmod>2022-06-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/links/"
                 />
   </url><url>
     <loc>/en/categories/</loc>

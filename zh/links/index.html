@@ -36,7 +36,7 @@
   <p>点击以下链接可安装至常用链接<br>
 <a href="i:0g/sdcard/uweb/default.link::显示安全证书:i:1b%0A">显示网站安全证书</a><br>
 <a href="i:0g/sdcard/uweb/default.link::迅雷盘离线:http://pan.xunlei.com/ {let rsc=setInterval(function(){var offBtn=document.querySelector('.pan-dropdown-menu.plus-menu>a:nth-child(2)');if(offBtn){clearInterval(rsc);var wsc=setInterval(function(){offBtn.click();var textarea=document.querySelector('.fileurl-input__container>textarea');if(textarea){clearInterval(wsc);textarea.value='%25u';var event=document.createEvent('HTMLEvents');event.initEvent('input',false,true);textarea.dispatchEvent(event);document.querySelector('.pan-dialog-btn__primary').click();}},200);}},1000);}%0A">迅雷盘离线</a></p>
-<p><a href="i:0g/sdcard/uweb/default.link::网页全屏: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A"></a></p>
+<p><a href="i:0g/sdcard/uweb/default.link::网页全屏: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">网页全屏</a></p>
 <p><a href="i:0g/sdcard/uweb/default.link:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/link.cfg">点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等</a><br>
 <a href="i:0g/sdcard/uweb/default.link:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/offline.link">点击安装离线下载(pcloud,furk,微云等)</a></p>
 <p><a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a></p>
@@ -88,11 +88,14 @@ socks代理</p>
 </li>
 </ul>
 <h3 id="i内部链接">&quot;i:&quot;内部链接：</h3>
-<p>点击安装<a href="i:53i:52">笔记</a>菜单</p>
 <ul>
 <li>
 <p>i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]<br>
 将url作为网站访问，[bookmarklet index]至少占两个字符。</p>
+<ul>
+<li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
+<li>All other cases will be treated as prefix, the real visited url is &quot;[prefix]+url&quot;.</li>
+</ul>
 </li>
 <li>
 <p>i:15[string]<br>
@@ -100,9 +103,7 @@ socks代理</p>
 </li>
 <li>
 <p>i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
-读取第三方应用输入。<br>
-点击安装<a href="i:53i:16uweb:mark.qrcode.SCAN:mark.qrcode:mark.qrcode.CaptureActivity"> via扫码</a>菜单至常用链接。其它扫描器也都可以使用，只需要把链接里的名字换掉就行。 上面的方案其实不仅可以扫描qr，也可以使用任何第三方应用获得任何种类的数据。其中有uweb表示特殊mimetype，作为url来使用。其他数据类型改成合适的mimetype即可。<br>
-点击安装<a href="i:53i:16uweb:android.intent.action.VIEW:com.coolapk.market:com.coolapk.market.view.photo.QRCodeActivity">酷安扫描</a>至常用链接</p>
+读取第三方应用输入。</p>
 </li>
 <li>
 <p>i:18[extended mimetype]:[range]:[url]<br>

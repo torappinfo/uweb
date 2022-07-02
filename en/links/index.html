@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Links</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Links
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>Clicking the following hypertext will install menus for long pressing the bookmark button (with star as icon):<br>
+<a href="i:0g/sdcard/uweb/default.link::Certificate info:i:1b%0A">Certificate info</a></p>
+<p><a href="i:0g/sdcard/uweb/default.link::web fullscreen: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">Web fullscreen</a></p>
+<p>Long pressing the bookmark button in <a href="../index.html">uweb browser</a> will popup menus defined in file &quot;default.link&quot;. The file format is as follows:<br>
+[Menu name]:[url][space][javascript code]</p>
+<p>in which space and later parts are optional. url and later parts support <a href="../cmd/index.html">&quot;%u&quot;,&quot;%s&quot; etc.</a>. The javascript code will be executed after url is fully loaded.</p>
+<p>url supports all standard scheme (http(s):,javascript: etc.) and uweb internal schemes ( ':' as second character in the url ) and special links that begins with ':'.</p>
+<p>uweb browser will handle local file urls (file:///) specially for some file types：</p>
+<ul>
+<li>.js file(same as <a href="../longclick/index.html">long pressing hypertext to execute js file</a>): If the &quot;.js&quot; file begins with &quot;//&quot;, then uweb browser will load the site following &quot;//&quot; and execute the following js code.</li>
+</ul>
+<p><a href="../gesture/index.html">default.gesture</a> and default.button have the exactly same file format. &quot;.gesture&quot; files define gestures while &quot;.button&quot; define bottom toolbar button pressing actions from the last button to the first.</p>
+<p>proxy config:<br>
+httpproxy::010[proxy host]:[port]<br>
+socks5::011[socks host]:[port]<br>
+noproxy::010:</p>
+<h3 id="special-links-beginning-with-">special links beginning with ':'</h3>
+<ul>
+<li>
+<p>:0000<br>
+Extend cookie expiracy to 70 years, may be denied by server.</p>
+</li>
+<li>
+<p>:0003<br>
+Toggle fullscreen mode</p>
+</li>
+<li>
+<p>:0004<br>
+Rotate the screen</p>
+</li>
+<li>
+<p>:001[fileurl]<br>
+Scan the fileurl and add it to media storage</p>
+</li>
+<li>
+<p>:002[url]<br>
+Show the secure cookie</p>
+</li>
+<li>
+<p>:010[proxy host]:[port]<br>
+Config http proxy, &quot;:010:&quot; to disable any proxy.</p>
+</li>
+<li>
+<p>:011[socks host]:[port]<br>
+Socks proxy</p>
+</li>
+</ul>
+<h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
+<ul>
+<li>
+<p>i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]<br>
+Visiting url and execute the uweb browser internal bookmarklet, [bookmarklet index] must have at least two digits. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ...</p>
+<ul>
+<li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
+<li>All other cases will be treated as prefix, the real visited url is &quot;[prefix]+url&quot;.</li>
+</ul>
+</li>
+<li>
+<p>i:15[string]<br>
+Set address bar text to be [string].</p>
+</li>
+<li>
+<p>i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
+Use third party app as input</p>
+</li>
+<li>
+<p>i:18[extended mimetype]:[range]:[url]<br>
+Read partial data from url.<br>
+<range>: the format is same as related http header, such as &quot;500-1000,-300&quot;.<br>
+<extended mimetype>: standard mimetype or mimetype followed by &quot;.<filename>&quot;. In the later case, the file in uweb configuration folder will be appended to the fetched data.</p>
+</li>
+<li>
+<p>i:19[string]<br>
+Append [string] to the address bar text.</p>
+</li>
+<li>
+<p>i:1b<br>
+Show web certificate.</p>
+</li>
+<li>
+<p>i:1c<br>
+Wait to receive url from the network and open the url.</p>
+</li>
+<li>
+<p>i:1c1<br>
+Wait to receive url from the network and open the url (not showing ip)</p>
+</li>
+<li>
+<p>i:50[path]:[string]<br>
+Save [string] as file</p>
+</li>
+<li>
+<p>i:51[path]:[url]<br>
+Save [url] to &quot;.autoc&quot; file.</p>
+</li>
+<li>
+<p>i:52[path]:[url]<br>
+Save bookmark.</p>
+</li>
+<li>
+<p>i:53[path]:[string]<br>
+Save notes.</p>
+</li>
+<li>
+<p>i:54[path]:[url]<br>
+Save as search engine.</p>
+</li>
+<li>
+<p>i:55[path]:[url]<br>
+Save as link.</p>
+</li>
+<li>
+<p>i:56[string]<br>
+Use [string] as user input on web page.</p>
+</li>
+<li>
+<p>i:57[jscode]<br>
+execute [jscode], even when js is disabled for the web page.</p>
+</li>
+<li>
+<p>i:58[url]<br>
+Save to the desktop.</p>
+</li>
+<li>
+<p>i:59[filename]<br>
+Send file content to network.</p>
+</li>
+<li>
+<p>i:5a[filename]<br>
+Receive content from network to the file.</p>
+</li>
+<li>
+<p>i:5b[string]<br>
+Copy [string] to the clipboard.</p>
+</li>
+<li>
+<p>i:5c[url]<br>
+Change auto page turning internal url to be [url].</p>
+</li>
+<li>
+<p>i:5d[file url]<br>
+Open the file url compatible to other browsers.</p>
+</li>
+<li>
+<p>i:5e[string]<br>
+TTS</p>
+</li>
+<li>
+<p>i:5f[videourl]<br>
+play video fullscreen. if videourl is empty, then make following requestFullscreen() work.</p>
+</li>
+<li>
+<p>i:5g[videourl]<br>
+play video in external player</p>
+</li>
+<li>
+<p>i:5h[url]<br>
+force html for url</p>
+</li>
+<li>
+<p>i:5i[url]<br>
+Use the existing tab for the url to jump to a different anchor.</p>
+</li>
+<li>
+<p>i:5j[string]<br>
+Send string to network</p>
+</li>
+<li>
+<p>i:60[path]:[url]<br>
+If existing local file, then open it or visit the [url].</p>
+</li>
+<li>
+<p>i:62[path]:[js code]<br>
+Evaluate the [js code] and save the returned string to file.</p>
+</li>
+<li>
+<p>i:63[bookmarklet index]:[url]<br>
+Visiting url and execute the bookmarklet. Only uweb predefined local bookmarlets are allowed.</p>
+</li>
+<li>
+<p>i:70[url]:[auto page turning url]<br>
+Visiting [url], but use the second url as auto paging url.</p>
+</li>
+</ul>
+
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" />
+<script>function g(t){document.location.href=t+document.forms[0].q.value}
+  var checkBoxes;
+  function checkbox_set(num){var i;for(i=0;i<num;i++)checkBoxes[i].checked=true;return true;}
+  function checkbox_reset(num){var i;for(i=0;i<num;i++)checkBoxes[i].checked=false;return true;}
+  function checkbox_toggle(num){var i;for(i=0;i<num;i++)checkBoxes[i].checked=!checkBoxes[i].checked;return true;}
+</script>
+<style>
+ul{list-style-type:none;}
+body>ul{padding-left:0;}
+#NUM{height: 40px; width: 100%;background-color:transparent;border-radius: 50px;}
+</style>
+<title>UI
+</title>
+  </head><body>
+<p>Click the following link to activate corresponding functionalities:</p>
+<ul>
+  <li><a href="i:0n">Generate global css</a> for all fonts under "/sdcard/uweb/app/fonts/"</li>
+  <li><a href="i:13" onclick="return checkbox_reset(checkBoxes.length);">Restore default settings</a>
+  <li><a href="i:11">Refresh dynamic shortcuts ("shortcut/" in internal folder or "/sdcard/uweb/bookmark")</a></li>
+  <li><a href="i:12">Toggle reverse portrait when screen rotation follows system</a></li>
+</ul>
+<hr/>
+
+<p><a href="i:2516777215" onclick="return checkbox_toggle(checkBoxes.length);">Toggle</a>/<a href="i:260" onclick="return checkbox_reset(checkBoxes.length);">Reset</a>/<a href="i:2616777215" onclick="return checkbox_set(checkBoxes.length);">Check all</a>/<a href="i:2631" onclick="return checkbox_set(5);">Check 1 - 5</a>/<a href="i:26511" onclick="return checkbox_set(9);">Check 1 - 9</a> following options (click individual link to toggle):</p>
+<ul>
+  <li><label><input type="checkbox" onchange="location.href='i:251'"/>New tab for services (long pressing buttons etc.)</label></li>
+  <li> Switch long and short pressing actions
+    <ul>
+      <li><label><input type="checkbox" onchange="location.href='i:252'"/>[☰]</label></li>
+      <li><label><input type="checkbox" onchange="location.href='i:254'"/>Setting</label></li>
+    </ul>
+  </li>
+  <li><label><input type="checkbox" onchange="location.href='i:258'"/>Backgroud page loading if pressing backward button within 20 seconds</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:2516'"/>No warning for invalid certificates</label></li>
+  ----------------5---------------
+  <li><label><input type="checkbox" onchange="location.href='i:2532'"/>New tab for next engine search</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:2564'"/>Autocomplete to match from the string beginning</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:25128'"/>Disable videoplayer.js</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:25256'"/>Automatically adjust text size</label></li>
+  ----------------9---------------
+  <li><label><input type="checkbox" onchange="location.href='i:25512'"/>Popup links menu for the menu item "command" when long pressing hypertext</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:251024'"/>Popup commands menu for the menu item "command" when long pressing hypertext</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:252048'"/>Hide address bar</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:254096'"/>Hide bottom toolbar</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:258192'"/>Not use 2-column bookmarks</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:2516384'"/>Home screen to use "query.autoc" for autocompletion</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:2532768'"/>Not rotates to landscape when fullscreen playing</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:2565536'"/>No JS alert & confirmation</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:25131072'"/>Save query history</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:25262144'"/>Keep panel when switching tabs</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:25524288'"/>Including iframe urls when popping up resources</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:251048576'"/>Keep audio playing when tab is closed</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:252097152'"/>Rightside menu</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:254194304'"/>Bottom address bar</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:258388608'"/>Maximize screen size for cutouts</label></li>
+  <li><label><input type="checkbox" onchange="location.href='i:2516777216'"/>Block dubious resources when blocking external scripts</label></li>
+</ul>
+<script>
+  checkBoxes=document.getElementsByTagName("input");
+</script><script>
+  let len=checkBoxes.length;
+  let flg=%1%;
+  for(let i=0;i<len;i++){
+    if(flg&(1<<i))checkBoxes[i].checked=true;
+  }
+</script>
+
+<hr/><br/>
+<div>
+<form action="javascript:" style="margin:5px 0 5px 0;padding:0px">
+<input id="NUM" name=q placeholder="Input parameters then click one of the following links"/>
+</form>
+  <a href="javascript:g('i:22')">Bottom toolbar bottom margin (Integer, default:10)</a> <br/>
+  <a href="javascript:g('i:23')">Bottom toolbar icon size (Integer, default:16)</a> <br/>
+  <a href="javascript:g('i:27')">Bottom toolbar spacing (Integer, default:22)</a> <br/>
+  <a href="javascript:g('i:14')">Foreground (Integer in hex, default:0 black）</a> <br/>
+  <a href="javascript:g('i:24')">UI font size (default:18, had better exit and re-launch the app)</a> <br/>
+  <a href="javascript:g('i:28')">Font size scale (default:100)</a> <br/>
+  <a href="javascript:g('i:29')">Web font size (default:16)</a> <br/>
+  <a href="javascript:g('i:2a')">History size (Integer, default:0 Unit:Kb, such as 90)</a> <br/>
+  <a href="javascript:g('i:2b')">Maximal lines for addressbar (default:2, <34)</a> <br/>
+</div><br/>
+</body></html>

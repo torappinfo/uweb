@@ -17,6 +17,16 @@
   </url><url>
     <loc>/zh/_posts/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/_posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/_posts/"
+                />
   </url><url>
     <loc>/zh/adblock/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
@@ -42,6 +52,16 @@
   </url><url>
     <loc>/zh/sitemap/</loc>
     <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/sitemap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sitemap/"
+                />
   </url><url>
     <loc>/zh/androidtv/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
@@ -60,6 +80,16 @@
   </url><url>
     <loc>/zh/links/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/links/"
+                />
   </url><url>
     <loc>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
@@ -93,6 +123,16 @@
   </url><url>
     <loc>/zh/filenames/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/filenames/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/filenames/"
+                />
   </url><url>
     <loc>/zh/filemanager/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
