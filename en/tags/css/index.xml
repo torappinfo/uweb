@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on </title>
+    <link>/en/tags/css/</link>
+    <description>Recent content in css on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/en/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript and CSS for domains</title>
+      <link>/en/sitejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/sitejs/</guid>
+      <description>Javascript (load when page completes, earliest loaded JS should use sitecss).
+Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;/sdcard/uweb/sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

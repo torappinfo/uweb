@@ -12,7 +12,7 @@
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/sitemap/</guid>
-      <description>UI Search engines Home screen Quick start UI (gitee) Backup and restore Customization Bottom toolbar button long pressing menus User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Font settings Advanced Content ADs block CSS styles redirection Javascript and CSS for domains Offline cache Tools Bookmarklets Custom file handling Html5 application File manager Tools Termux GNU bc Gnuplot tcron Offline download Miscellaneous Configuration files Plugins Tips Tips Video Debug </description>
+      <description>UI Search engines Home screen Quick start UI (gitee) Backup and restore Customization Bottom toolbar button long pressing menus User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Font settings Advanced Content AD blocking CSS styles redirection Javascript and CSS for domains Offline cache Tools Bookmarklets Custom file handling Html5 application File manager Tools Termux GNU bc Gnuplot tcron Offline download Miscellaneous Configuration files Plugins Tips Tips Video Debug </description>
     </item>
     
     <item>
@@ -44,6 +44,51 @@ Web fullscreen
 Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
 [Menu name]:[url][space][javascript code]
 in which space and later parts are optional. url and later parts support &amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot; etc.. The javascript code will be executed after url is fully loaded.</description>
+    </item>
+    
+    <item>
+      <title>AD blocking</title>
+      <link>/en/adblock/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/adblock/</guid>
+      <description>Host blocking。
+Use bookmarklet &amp;quot;list all script urls&amp;quot; to generate url links, long pressing dubious script (usually 3rd-party library) link, click &amp;quot;Block domain root&amp;quot;. Javascript and CSS for domains。
+Long press the button &amp;quot;js&amp;quot;, click the menu &amp;quot;MarkAD mode&amp;quot;. In &amp;quot;markAD mode&amp;quot;, click page element to show all attributes and generate CSS AD blocking styles. By default, &amp;quot;display:none&amp;quot; is used. If &amp;quot;display&amp;quot; appears in the attribute information, recommend to use &amp;quot;transform:scale(0)!</description>
+    </item>
+    
+    <item>
+      <title>Bookmarklets</title>
+      <link>/en/bookmarklet/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/bookmarklet/</guid>
+      <description>With a href=&amp;quot;../index.html&amp;quot;&amp;gt;uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.
+List all script urls
+User agent
+Cookie
+Source code
+Last modified date
+Eruda: mobile console
+QR code generation
+Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;
+Shows all form elements
+Enables all form elements
+Toggle checkboxes
+Check all checkboxes
+Uncheck all checkboxes
+Toggle all checkboxes in forms
+Enable selection</description>
+    </item>
+    
+    <item>
+      <title>Javascript and CSS for domains</title>
+      <link>/en/sitejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/sitejs/</guid>
+      <description>Javascript (load when page completes, earliest loaded JS should use sitecss).
+Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;/sdcard/uweb/sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
     
   </channel>

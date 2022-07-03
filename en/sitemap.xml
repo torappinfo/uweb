@@ -67,6 +67,58 @@
                 href="/en/links/"
                 />
   </url><url>
+    <loc>/en/adblock/</loc>
+    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/adblock/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/adblock/"
+                />
+  </url><url>
+    <loc>/en/bookmarklet/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/bookmarklet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/bookmarklet/"
+                />
+  </url><url>
+    <loc>/en/tags/javascript/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/javascript/"
+                />
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url><url>
     <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -79,16 +131,28 @@
                 href="/en/categories/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>/en/tags/css/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/"
+                href="/zh/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="/en/tags/css/"
+                />
+  </url><url>
+    <loc>/en/sitejs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sitejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/sitejs/"
                 />
   </url>
 </urlset>

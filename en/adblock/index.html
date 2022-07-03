@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>AD blocking</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">AD blocking
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <ul>
+<li>
+<p><a href="../adblock_domain/index.html">Host blocking</a>。</p>
+<ul>
+<li>Use <a href="../bookmarklet/index.html">bookmarklet &quot;list all script urls&quot;</a> to generate url links, long pressing dubious script (usually 3rd-party library) link, click &quot;Block domain root&quot;.</li>
+</ul>
+</li>
+<li>
+<p><a href="../sitejs/index.html">Javascript and CSS for domains</a>。</p>
+<ul>
+<li>Long press the button &quot;js&quot;, click the menu &quot;MarkAD mode&quot;. In &quot;markAD mode&quot;, click page element to show all attributes and generate CSS AD blocking styles. By default, &quot;display:none&quot; is used. If &quot;display&quot; appears in the attribute information, recommend to use &quot;transform:scale(0)!important&quot; instead.</li>
+</ul>
+</li>
+<li>
+<p>Long press the tab manager button, check &quot;Videos only&quot; for video sites and &quot;Images only&quot; for image sites. Other AD blocking options are &quot;Hide pseudo elements&quot; and &quot;Hide iframes&quot;.</p>
+<ul>
+<li>Add prefix &quot;i:0mc32:&quot; to url when bookmarking, then the option &quot;Images only&quot; applies to whole url subtree. Similarly, &quot;c16&quot; for the option &quot;Videos only&quot; and &quot;c12&quot; for hiding both pseudo elements and iframes.</li>
+<li>Long press the button [☰], check the option &quot;Fullscreen autoplay&quot;. Videos are autoplayed in fullscreen mode, ADs have no chance to appear.</li>
+</ul>
+</li>
+<li>
+<p>Long press the setting button, check the option &quot;Block external scripts&quot;. <a href="i:61:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/en/searchurl/func.html">UI</a> website has option to also block dubious 3rd party resources. <a href="file:///sdcard/uweb/js.allow">js.allow</a> whitelists js libraries.</p>
+</li>
+<li>
+<p>Long press the button [☰], &quot;Disable floating ADs&quot;, &quot;Disable banners&quot;, &quot;clear all timers&quot;, &quot;stop events&quot; and &quot;Sleep ...&quot; are also available.</p>
+</li>
+<li>
+<p>Click the button with image icon to hide all images.</p>
+</li>
+<li>
+<p>Click the button &quot;JS&quot; to disable javascript.</p>
+</li>
+<li>
+<p><a href="file:///sdcard/uweb/url.deny">url.deny</a>: one giant regular expression for blocked urls (java grammar), in which carriage returns (CR or newline) are ignored and &quot;#&quot; is for comments.</p>
+</li>
+</ul>
+
+</div>
+
+  </body>
+</html>

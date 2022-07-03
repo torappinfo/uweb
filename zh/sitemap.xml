@@ -30,9 +30,29 @@
   </url><url>
     <loc>/zh/adblock/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/adblock/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/adblock/"
+                />
   </url><url>
     <loc>/zh/tags/javascript/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/javascript/"
+                />
   </url><url>
     <loc>/zh/tags/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
@@ -49,6 +69,16 @@
   </url><url>
     <loc>/zh/bookmarklet/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/bookmarklet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/bookmarklet/"
+                />
   </url><url>
     <loc>/zh/sitemap/</loc>
     <lastmod>2022-05-28T00:00:00+00:00</lastmod>
@@ -68,6 +98,16 @@
   </url><url>
     <loc>/zh/tags/css/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/css/"
+                />
   </url><url>
     <loc>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
@@ -228,6 +268,16 @@
     <loc>/zh/pcdown/</loc>
   </url><url>
     <loc>/zh/sitejs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/sitejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sitejs/"
+                />
   </url><url>
     <loc>/zh/tags/%E4%B8%8B%E8%BD%BD/</loc>
   </url><url>
