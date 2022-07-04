@@ -51,12 +51,11 @@
 &quot;/clip&quot; : 输出结果复制到剪贴板。<br>
 &quot;clip/text/html&quot; : 以剪贴板作为命令输入，输出结果mimetype类型为“text/html”。<br>
 &quot;termux/*&quot;: 在termux中执行命令。<br>
-&quot;uweb&quot;: 输出结果作为<a href="../links/index.html">链接</a>来处理。</p>
+&quot;/uweb&quot;: 输出结果作为<a href="../links/index.html">链接</a>来处理。</p>
 <p>下面是笔者使用的default.cmds配置（<a href="../pccopy/index.html">命令具体解释</a>）：</p>
 <pre>复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -i"
 PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 "DISPLAY=:0 xsel -o"
-</pre><blockquote>
-</blockquote>
+</pre>
 
 </div>
 

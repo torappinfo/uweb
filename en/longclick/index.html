@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Long pressed link menu</title>
+    <script type="text/javascript">
+      function nav2(page){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            location.href = href.substring(0,i+1)+page;
+        }
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Long pressed link menu
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/javascript">javascript</a> </li>
+    
+  </ul>
+  <h4 id="to-run-commands">To run commands</h4>
+<p>Each line of file &quot;<a href="file:///sdcard/uweb/default.longclick">/sdcard/uweb/default.longclick</a>&quot; has the following format: (same as <a href="../searchurl/cmds.html">default.cmds</a>)<br>
+[Name]:[mimetype]:[command line]<br>
+in which [command line] can have <a href="../searchurl/cmds.html">&quot;%c&quot; (cookie), &quot;%u&quot; (current url), &quot;%t&quot; (title)</a> etc.</p>
+<h4 id="to-visit-url-and-load-javascript-file">To visit url and load javascript file</h4>
+<p>All &quot;.js&quot; files under the folder &quot;<a href="file:///sdcard/uweb/longclick/">/sdcard/uweb/longclick</a>&quot; are part of the popup menu.<br>
+These javascript files are in the following format:</p>
+<ul>
+<li>The very first line can begin with &quot;//&quot; followed by website url that can have <a href="../searchurl/cmds.html">&quot;%u&quot; (current url), &quot;%t&quot; (title)</a> etc. included. In this case, the website is visited, then the javascript file is loaded on the new loaded site.</li>
+<li>In the &quot;.js&quot; file, variable &quot;arguments&quot; can be used to get parameters. in which arguments[1] is the long-pressed link url, argument[2] is the text description and arguments[0] is the &quot;.js&quot; file name.</li>
+</ul>
+
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>termux on </title>
+    <link>/en/tags/termux/</link>
+    <description>Recent content in termux on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text selection</title>
+      <link>/en/pccopy/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pccopy/</guid>
+      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
+google Translate
+bing translate
+deepL
+The file &amp;quot;/sdcard/uweb/default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+[Name]:[mimetype]:[command line]
+[mimetype] specifies input/output for [command line].
+It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
+[input mimetype] can be the following:
+&amp;quot;html&amp;quot;: rich text &amp;quot;&amp;quot; (empty): text &amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

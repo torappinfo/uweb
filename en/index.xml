@@ -82,6 +82,59 @@ Enable selection</description>
     </item>
     
     <item>
+      <title>Text selection</title>
+      <link>/en/pccopy/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pccopy/</guid>
+      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
+google Translate
+bing translate
+deepL
+The file &amp;quot;/sdcard/uweb/default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+[Name]:[mimetype]:[command line]
+[mimetype] specifies input/output for [command line].
+It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
+[input mimetype] can be the following:
+&amp;quot;html&amp;quot;: rich text &amp;quot;&amp;quot; (empty): text &amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Toolbar customization</title>
+      <link>/en/icons/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/icons/</guid>
+      <description>If subfolder &amp;quot;icon&amp;quot; exists, then files named as &amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
+are used for icons in the bottom toolbar. file &amp;quot;0&amp;quot; to replace the left arrow button, &amp;quot;1&amp;quot; for right arrow button, &amp;quot;2&amp;quot; for the setting button,&amp;quot;3&amp;quot; for the home screen button,...
+If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also supports VectorDrawable with &amp;quot;android compiled XML&amp;quot; format. All icon files must be all VectorDrawables or 此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。</description>
+    </item>
+    
+    <item>
+      <title>Long pressed link menu</title>
+      <link>/en/longclick/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/longclick/</guid>
+      <description>To run commands Each line of file &amp;quot;/sdcard/uweb/default.longclick&amp;quot; has the following format: (same as default.cmds)
+[Name]:[mimetype]:[command line]
+in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.
+To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;/sdcard/uweb/longclick&amp;quot; are part of the popup menu.
+These javascript files are in the following format:
+The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
+    </item>
+    
+    <item>
+      <title>Blocking domain trees</title>
+      <link>/en/adblock_domain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/adblock_domain/</guid>
+      <description>hosts blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.pl&amp;quot;, then it is treated as one segment, so domains like &amp;quot;xxx.xxx.com.pl&amp;quot; are also valid in the hosts file.
+Each line of the hosts file has the following format:</description>
+    </item>
+    
+    <item>
       <title>Javascript and CSS for domains</title>
       <link>/en/sitejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

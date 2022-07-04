@@ -53,7 +53,7 @@
 <a href="i:0g/sdcard/uweb/default.select::搜狗翻译:/uweb:printf 'https://translate.sogou.com/text?transfrom=auto&transto=zh-CHS&model=general&keyword=';cat|tr ' ' '%2B'%0A">搜狗翻译</a></p>
 <p><a href="i:0g/sdcard/uweb/default.select::彩云小译:/uweb:print 'https://fanyi.caiyunapp.com/#/ {function tE(el,t){var e=new Event(t);el.dispatchEvent(e);}let s=document.querySelector(%22textarea%22);s.value=%60';cat;print '%60;tE(s,%22input%22);tE(s,%22keyup%22)}'%0A">彩云小译</a><br>
 <a href="i:0g/sdcard/uweb/default.select::deepL:/uweb:print 'https://www.deepl.com/translator {function tE(el,t){var e=new Event(t);el.dispatchEvent(e);}let s=document.querySelector(%22textarea%22);s.value=%60';cat;print '%60;tE(s,%22change%22)}'%0A">deepL</a></p>
-<p><a target="_self" href="i:0g/sdcard/uweb/default.select:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/select.cfg">点击安装&quot;保存文本&quot;等</a></p>
+<p><a target="_self" href="i:0g/sdcard/uweb/default.select:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/select.cfg">点击安装&quot;保存文本&quot;等</a></p>
 <p>重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。</p>
 <p>配置文件&quot;/sdcard/uweb/default.select&quot;定义了<a href="..">超微浏览器</a>对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：<br>
 [菜单名]:[mimetype]:[命令行]</p>
@@ -62,7 +62,7 @@ mimetype用来表示命令的输入输出类型。格式为&quot;[输入mimetype
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 /uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。<br>
 /termux: 命令运行结果将作为termux下命令运行。<br>
-<a target="_self" href="i:0h/sdcard/uweb/check.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][<em>[文件后缀]]&quot;。譬如&quot;file:///sdcard/?</em>.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)</p>
+<a target="_self" href="i:0h/sdcard/uweb/check.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][<em>[文件后缀]]&quot;。譬如&quot;file:///sdcard/?</em>.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)</p>
 <p>配置/sdcard/uweb/default.select如下：<br>
 复制文本到地址栏:uweb:printf i:15;cat<br>
 笔记::(cat;echo;echo;)&gt;&gt;notes.txt<br>

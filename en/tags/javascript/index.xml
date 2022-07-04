@@ -31,6 +31,20 @@ Enable selection</description>
     </item>
     
     <item>
+      <title>Long pressed link menu</title>
+      <link>/en/longclick/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/longclick/</guid>
+      <description>To run commands Each line of file &amp;quot;/sdcard/uweb/default.longclick&amp;quot; has the following format: (same as default.cmds)
+[Name]:[mimetype]:[command line]
+in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.
+To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;/sdcard/uweb/longclick&amp;quot; are part of the popup menu.
+These javascript files are in the following format:
+The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
+    </item>
+    
+    <item>
       <title>Javascript and CSS for domains</title>
       <link>/en/sitejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

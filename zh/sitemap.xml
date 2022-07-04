@@ -142,18 +142,68 @@
   </url><url>
     <loc>/zh/tags/pc/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/pc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/pc/"
+                />
   </url><url>
     <loc>/zh/tags/ssh/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/ssh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/ssh/"
+                />
   </url><url>
     <loc>/zh/tags/termux/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/termux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/termux/"
+                />
   </url><url>
     <loc>/zh/tags/windows/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/windows/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/windows/"
+                />
   </url><url>
     <loc>/zh/pccopy/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pccopy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/pccopy/"
+                />
   </url><url>
     <loc>/zh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
@@ -182,6 +232,16 @@
   </url><url>
     <loc>/zh/icons/</loc>
     <lastmod>2022-02-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/icons/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/icons/"
+                />
   </url><url>
     <loc>/zh/tips/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
@@ -206,6 +266,16 @@
   </url><url>
     <loc>/zh/longclick/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/longclick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/longclick/"
+                />
   </url><url>
     <loc>/zh/video/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
@@ -260,6 +330,16 @@
     <loc>/zh/hosts/</loc>
   </url><url>
     <loc>/zh/adblock_domain/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/adblock_domain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/adblock_domain/"
+                />
   </url><url>
     <loc>/zh/multiaccount/</loc>
   </url><url>

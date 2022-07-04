@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>adblock on </title>
+    <link>/en/tags/adblock/</link>
+    <description>Recent content in adblock on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/en/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blocking domain trees</title>
+      <link>/en/adblock_domain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/adblock_domain/</guid>
+      <description>hosts blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.pl&amp;quot;, then it is treated as one segment, so domains like &amp;quot;xxx.xxx.com.pl&amp;quot; are also valid in the hosts file.
+Each line of the hosts file has the following format:</description>
+    </item>
+    
+  </channel>
+</rss>
