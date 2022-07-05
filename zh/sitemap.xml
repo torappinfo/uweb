@@ -210,6 +210,16 @@
   </url><url>
     <loc>/zh/globalcss/</loc>
     <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/globalcss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/globalcss/"
+                />
   </url><url>
     <loc>/zh/filenames/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
@@ -294,9 +304,29 @@
   </url><url>
     <loc>/zh/tags/curl/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/curl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/curl/"
+                />
   </url><url>
     <loc>/zh/filecap/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/filecap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/filecap/"
+                />
   </url><url>
     <loc>/zh/html5/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>

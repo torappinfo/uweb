@@ -24,5 +24,19 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
 &amp;quot;html&amp;quot;: rich text &amp;quot;&amp;quot; (empty): text &amp;quot;.</description>
     </item>
     
+    <item>
+      <title>Custom file handling</title>
+      <link>/en/filecap/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/filecap/</guid>
+      <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
+The custom file handling configuration file is &amp;quot;/sdcard/uweb/default.filecap&amp;quot;, each line of it has the format as follows:
+[file extension]:[mimetype]:[command line]
+The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.
+&amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.
+&amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
+    </item>
+    
   </channel>
 </rss>

@@ -187,6 +187,19 @@
                 href="/en/tags/windows/"
                 />
   </url><url>
+    <loc>/en/globalcss/</loc>
+    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/globalcss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/globalcss/"
+                />
+  </url><url>
     <loc>/en/icons/</loc>
     <lastmod>2022-02-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -211,6 +224,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/longclick/"
+                />
+  </url><url>
+    <loc>/en/tags/curl/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/curl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/curl/"
+                />
+  </url><url>
+    <loc>/en/filecap/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/filecap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/filecap/"
                 />
   </url><url>
     <loc>/en/tags/adblock/</loc>

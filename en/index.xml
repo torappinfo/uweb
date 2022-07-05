@@ -100,6 +100,19 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
     </item>
     
     <item>
+      <title>CSS样式</title>
+      <link>/en/globalcss/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/globalcss/</guid>
+      <description>Uweb browser loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;/sdcard/uweb/css&amp;quot; as global css. Click the following links to install global css files:
+Clearing font settings
+The file &amp;quot;/sdcard/uweb/night.css&amp;quot; is used as night mode, click the following links to install one:
+webview 81+ night mode
+webview 80- night mode</description>
+    </item>
+    
+    <item>
       <title>Toolbar customization</title>
       <link>/en/icons/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
@@ -122,6 +135,20 @@ in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&a
 To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;/sdcard/uweb/longclick&amp;quot; are part of the popup menu.
 These javascript files are in the following format:
 The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
+    </item>
+    
+    <item>
+      <title>Custom file handling</title>
+      <link>/en/filecap/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/filecap/</guid>
+      <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
+The custom file handling configuration file is &amp;quot;/sdcard/uweb/default.filecap&amp;quot;, each line of it has the format as follows:
+[file extension]:[mimetype]:[command line]
+The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.
+&amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.
+&amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
     </item>
     
     <item>
