@@ -38,13 +38,13 @@
     
   </ul>
   <p>Long press the settings button, check the option &quot;custom file handling&quot; to enable the functionality.</p>
-<p>The custom file handling configuration file is &quot;/sdcard/uweb/default.filecap&quot;, each line of it has the format as follows:<br>
+<p>The custom file handling configuration file is &quot;default.filecap&quot;, each line of it has the format as follows:<br>
 [file extension]:[mimetype]:[command line]</p>
 <p>The &quot;[file extension]&quot; part can have at most two-segment of extensions such as &quot;txt.xz&quot;,&quot;html.gz&quot;.<br>
 &quot;[mimetype]&quot; indicates the type of &quot;[command line]&quot; output.<br>
 &quot;[command line]&quot; is same as the one in <a href="../searchurl/cmds.html">default.cmds</a>. The most often used replacements are:<br>
 %u (url), %U (urlencoded url), %c (cookie), %p (site password, curl format).</p>
-<p>/sdcard/uweb/default.filecap example:</p>
+<p>default.filecap example:</p>
 <pre><code>txt:text/html:curl %p "%u"
 mp3:text/html:echo '&lt;audio controls width=100% height=100%>&lt;source src="%u">&lt;/audio>'
 m4b:text/html:echo '&lt;audio controls width=100% height=100%>&lt;source src="%u">&lt;/audio>'
@@ -59,9 +59,9 @@ xlsx:uweb:echo http://docs.google.com/gview?embedded=true&url=%U
 pptx:uweb:echo http://docs.google.com/gview?embedded=true&url=%U
 xz:text/plain:curl %p "%u"|xz -d --</code></pre>
 <p>Examples for <a href="../html5/index.html">html5 application</a>:</p>
-<pre><code>pdf:uweb:echo file:///sdcard/uweb/app/pdf.js/web/viewer.html?file=%u
-djvu:uweb:echo file:///sdcard/uweb/app/djvu.html?url=%u
-epub:uweb:echo file:///sdcard/uweb/app/reader/index.html?bookPath==%u</code></pre>
+<pre><code>pdf:uweb:echo file:///data/data/info.torinfo.uweb/files/app/pdf.js/web/viewer.html?file=%u
+djvu:uweb:echo file:///data/data/info.torinfo.uweb/files/app/djvu.html?url=%u
+epub:uweb:echo file:///data/data/info.torinfo.uweb/files/app/reader/index.html?bookPath==%u</code></pre>
 
 </div>
 

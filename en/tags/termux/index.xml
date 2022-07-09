@@ -16,7 +16,7 @@
 google Translate
 bing translate
 deepL
-The file &amp;quot;/sdcard/uweb/default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+The file &amp;quot;default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
 [Name]:[mimetype]:[command line]
 [mimetype] specifies input/output for [command line].
 It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
@@ -31,7 +31,7 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
       
       <guid>/en/filecap/</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
-The custom file handling configuration file is &amp;quot;/sdcard/uweb/default.filecap&amp;quot;, each line of it has the format as follows:
+The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:
 [file extension]:[mimetype]:[command line]
 The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.
 &amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.

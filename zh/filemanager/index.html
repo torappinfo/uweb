@@ -34,7 +34,7 @@
     
   </ul>
   <p><a href="..">超微浏览器</a>访问以&quot;/&quot;结尾 （包括&quot;/?&quot;及后面参数）的&quot;file://&quot; url，则进入文件管理器。</p>
-<p>对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][*[文件后缀]]&quot;。譬如&quot;file:///sdcard/?*.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。&quot;?IMG&quot;列举出所有IMG开头的文件。此时可选定文件，并<a target="_self" href="i:0h/sdcard/uweb/check.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/check.js">安装checked.js</a>对选取文件进行批量处理。</p>
+<p>对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][*[文件后缀]]&quot;。譬如&quot;file:///sdcard/?*.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。&quot;?IMG&quot;列举出所有IMG开头的文件。此时可选定文件，并<a target="_self" href="i:0hcheck.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/check.js">安装checked.js</a>对选取文件进行批量处理。</p>
 <p>文件批量处理配置<a href="../pccopy">default.select</a>例子：<br>
 图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</p>
 

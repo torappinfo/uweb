@@ -13,7 +13,7 @@
       
       <guid>/en/filecap/</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
-The custom file handling configuration file is &amp;quot;/sdcard/uweb/default.filecap&amp;quot;, each line of it has the format as follows:
+The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:
 [file extension]:[mimetype]:[command line]
 The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.
 &amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.

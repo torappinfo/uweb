@@ -47,12 +47,12 @@ apt install gnuplot</li>
 </ul>
 <h4 id="地址栏功能配置">地址栏功能配置：</h4>
 <ul>
-<li>配置文件<a href=e:/sdcard/uweb/default.acmd>/sdcard/uweb/default.acmd</a>每行格式如下：<br>
+<li>配置文件<a href=e:default.acmd>default.acmd</a>每行格式如下：<br>
 菜单名:mimeType:命令行</li>
 <li>命令行可包含参数%s，运行时自动用地址栏输入内容替换。</li>
 <li>如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。</li>
 </ul>
-<h4 id="配置文件sdcarduwebdefaultacmd如下">配置文件/sdcard/uweb/default.acmd如下：</h4>
+<h4 id="配置文件defaultacmd如下">配置文件default.acmd如下：</h4>
 <pre><code>命令:text/plain:%s
 函数作图:image/svg+xml:gnuplot -e 'set term svg;set output; plot %s'
 函数作图(3d):image/svg+xml:gnuplot -e 'set term svg;set output; splot %s'

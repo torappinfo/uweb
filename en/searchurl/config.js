@@ -18,7 +18,7 @@ let sa = [`<style>input{height:40px;width:100%;border-radius:50px;}</style>
 <option value="monospace">
 <option value="cursive">
 </datalist>
-<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:0i/sdcard/uweb/config.html:'+f.font.value+
+<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:0i/data/data/info.torinfo.uweb/files/config.html:'+f.font.value+
 '&'+ f.cursive.value +
 '&'+ f.fantasy.value +
 '&'+ f.fixed.value +

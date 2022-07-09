@@ -21,7 +21,7 @@
       <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/filenames/</guid>
-      <description>All folders end with character &amp;quot;/&amp;quot; and others are files. If option &amp;quot;use in-app config&amp;quot; is checked, then &amp;quot;sitejs/&amp;quot; and &amp;quot;sitecache/&amp;quot; locate inside app internal folder (/data/data/info.torapp.uweb/files), otherwise all folders/files locate in &amp;quot;/sdcard/uweb&amp;quot;:
+      <description>All folders end with character &amp;quot;/&amp;quot; and others are files. All folders/files locate in &amp;quot;/data/data/info.torapp.uweb/files&amp;quot;:
 &amp;quot;css/&amp;quot;: global css folder
 &amp;quot;js/&amp;quot;: global script folder
 &amp;quot;sitejs/&amp;quot;: script folder for domains
@@ -29,7 +29,11 @@
 &amp;quot;bookmarklet/&amp;quot;:bookmarklets, long pressing the &amp;quot;JS&amp;quot; button to execute.
 &amp;quot;offline/&amp;quot;: to save offline pages
 &amp;quot;sbookmark/&amp;quot;: to save super bookmarks
-&amp;quot;sitecache/&amp;quot;:offline cache</description>
+&amp;quot;sitecache/&amp;quot;:offline cache
+&amp;quot;longclick/&amp;quot;: menus to appear when long-pressing hypertext (js files)
+&amp;quot;icon/&amp;quot;:customized icons
+&amp;quot;app[XXX]/&amp;quot;:html5 applications
+&amp;quot;default.longclick&amp;quot;: to configure menus when long-pressing hypertext.</description>
     </item>
     
     <item>
@@ -91,7 +95,7 @@ Enable selection</description>
 google Translate
 bing translate
 deepL
-The file &amp;quot;/sdcard/uweb/default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+The file &amp;quot;default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
 [Name]:[mimetype]:[command line]
 [mimetype] specifies input/output for [command line].
 It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
@@ -105,9 +109,9 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/globalcss/</guid>
-      <description>Uweb browser loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;/sdcard/uweb/css&amp;quot; as global css. Click the following links to install global css files:
+      <description>Uweb browser loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;css&amp;quot; as global css. Click the following links to install global css files:
 Clearing font settings
-The file &amp;quot;/sdcard/uweb/night.css&amp;quot; is used as night mode, click the following links to install one:
+The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:
 webview 81+ night mode
 webview 80- night mode</description>
     </item>
@@ -129,10 +133,10 @@ If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also 
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/en/longclick/</guid>
-      <description>To run commands Each line of file &amp;quot;/sdcard/uweb/default.longclick&amp;quot; has the following format: (same as default.cmds)
+      <description>To run commands Each line of file &amp;quot;default.longclick&amp;quot; has the following format: (same as default.cmds)
 [Name]:[mimetype]:[command line]
 in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.
-To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;/sdcard/uweb/longclick&amp;quot; are part of the popup menu.
+To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;longclick&amp;quot; are part of the popup menu.
 These javascript files are in the following format:
 The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
     </item>
@@ -144,7 +148,7 @@ The very first line can begin with &amp;quot;//&amp;quot; followed by website ur
       
       <guid>/en/filecap/</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
-The custom file handling configuration file is &amp;quot;/sdcard/uweb/default.filecap&amp;quot;, each line of it has the format as follows:
+The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:
 [file extension]:[mimetype]:[command line]
 The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.
 &amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.
@@ -162,13 +166,22 @@ Each line of the hosts file has the following format:</description>
     </item>
     
     <item>
+      <title>Change log</title>
+      <link>/en/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/changelog/</guid>
+      <description>901: Use in-app files folder for configuration</description>
+    </item>
+    
+    <item>
       <title>Javascript and CSS for domains</title>
       <link>/en/sitejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/sitejs/</guid>
       <description>Javascript (load when page completes, earliest loaded JS should use sitecss).
-Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;/sdcard/uweb/sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
+Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
     
   </channel>

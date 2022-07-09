@@ -35,7 +35,7 @@
     <li><a href="../tags/adblock">adblock</a> </li>
     
   </ul>
-  <p><a href="file:///sdcard/uweb/default.hosts">hosts</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
+  <p><a href="file:///data/data/info.torinfo.uweb/files/default.hosts">hosts</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
 <p>Each line of the hosts file has the following format:<br>
 [rootDomain][space][regex for domain prefix before rootDomain][space][regex for the whole url without &quot;http(s)://&quot;]<br>
 The first part [rootDomain] is required and the others are optional. regex is java-grammar regular expression. If the second regex is used, it is recommended to merge the first regex to the second one for performance.</p>

@@ -278,6 +278,8 @@
                 href="/en/categories/"
                 />
   </url><url>
+    <loc>/en/changelog/</loc>
+  </url><url>
     <loc>/en/tags/css/</loc>
     <xhtml:link
                 rel="alternate"

@@ -42,7 +42,7 @@
   <p>技巧等级：中级 PC剪贴板(高级)</p>
 <p><a href="../index.html">uweb浏览器</a>支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。</p>
 <p>手机推荐安装uweb定制<a href="../gnuplot/index.html">Termux</a>，否则能够执行的命令极其有限。</p>
-<p>预定义命令保存在文件&quot;/sdcard/uweb/default.cmds&quot;中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。</p>
+<p>预定义命令保存在文件&quot;default.cmds&quot;中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。</p>
 <p>资深用户可能注意到文件名与<a href="../gnuplot/index.html">default.acmd</a>类似。default.acmd中的命令适合以不同的参数反复执行；而default.cmds一般以单次执行为多。default.acmd结果会显示在浏览器当前窗口；而default.cmds中命令执行结果会显示在新窗口之中。这两个文件格式也完全相同，每行格式如下：<br>
 [命令名称]:[mimetype]:[命令代码]</p>
 <p>命令代码可以是任意命令，其中可以包含%c（当前网址cookie）、%s (地址栏输入)、 %t (当前窗口标题)、 %u (当前窗口url或文件路径)。执行时这些特殊标识将会被相应内容自动替换。</p>
