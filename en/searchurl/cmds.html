@@ -10,17 +10,24 @@ Click the following links to install commands with <a href="../index.html">uweb 
 Clipboard2PC needs to modify username, PC needs xsel. ssh needs to be installed inside termux (apt install openssh).
 Clipboard broadcast needs socat（apt install socat)。
 Clipboard2QR needs libqrencode.</p>
+<h4 id="more-commands-click-to-install">More commands (click to install)</h4>
+<p><a href="i:0gdefault.cmds::mdme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/mdme></script><textarea>%22;cat %25f%0A">mdme: Show local markdown file</a>  </p>
+<p><a href="i:0gdefault.cmds::texme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/texme></script><textarea>%22;cat %25f%0A">texme: Show local tex+markdown file</a></p>
+<p><a href="i:0gdefault.cmds::markdeep:text/html:cat %25f;echo %22<style class=fallback>body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility=visible)</script>%22%0A">markdeep: Show local markdown+tex+diagrams file</a></p>
+<p><a href="i:0gdefault.cmds::remark slide:text/html:echo %22<script src=https://remarkjs.com/downloads/remark-latest.min.js></script><script>window.onload=function(){var slideshow=remark.create({navigation:{click:true,},});}</script><textarea id=%27source%27>class:middle%22;cat %25f%0A">remark slide: slide show for local markdown file</a></p>
+<p><a href="i:0gdefault.cmds:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/en/searchurl/txt/cmds.cfg">Code editor, open url in clipboard etc.</a></p>
 <h4 id="cmds-file-format">&quot;.cmds&quot; file format</h4>
-<p>Each line has the following format:
-[Name]:[mimetype]:[command line]</p>
+<p>Each line has the following format:<br>[Name]:[mimetype]:[command line]</p>
 <p>[command line] can have &quot;%c&quot; (cookie), &quot;%s&quot; (address bar text), &quot;%u&quot; (url), &quot;%t&quot; (title).
-[mimetype] have the following formats:
-- regular mimetype such as &quot;text/html&quot; to indicate the content type of the command output.
-- &quot;clip/clip&quot; to indicate &quot;clipboard&quot; as input and the command output is copied to clipboard.
-- &quot;/clip&quot;: copy the command output to clipboard.
-- &quot;clip/text/html&quot; : clipboard as input, and the command output is processed as &quot;text/html&quot;.
-- &quot;termux/*&quot;: command line is executed under termux.
-- &quot;/uweb&quot;: the command output is processed as <a href="../links/index.html">links</a>.</p>
+[mimetype] have the following formats:</p>
+<ul>
+<li>regular mimetype such as &quot;text/html&quot; to indicate the content type of the command output.</li>
+<li>&quot;clip/clip&quot; to indicate &quot;clipboard&quot; as input and the command output is copied to clipboard.</li>
+<li>&quot;/clip&quot;: copy the command output to clipboard.</li>
+<li>&quot;clip/text/html&quot; : clipboard as input, and the command output is processed as &quot;text/html&quot;.</li>
+<li>&quot;termux/*&quot;: command line is executed under termux.</li>
+<li>&quot;/uweb&quot;: the command output is processed as <a href="../links/index.html">links</a>.</li>
+</ul>
 
 
 </body></html>
