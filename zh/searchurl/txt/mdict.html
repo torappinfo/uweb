@@ -79,11 +79,16 @@
       let word = location.hash.substring(6);
       let dictinput = document.getElementById('dictfile');
       let wordinput = document.getElementById('word');
+      let btnLookup = document.getElementById('btnLookup');
       wordinput.value = word;
       {
         dictinput.setAttribute('accept',filenames);
-        location.href="i:5fsetTimeout(()=>{dictinput.click()},20);setTimeout(()=>{document.getElementById('btnLookup').click();dictinput.removeAttribute('accept');},70)";
+        location.href="i:5fsetTimeout(()=>{dictinput.click()},20);setTimeout(()=>{btnLookup.click();dictinput.removeAttribute('accept');},70)";
       }
+      window.addEventListener('hashchange', function() {
+        wordinput.value = location.hash.substring(6);
+        btnLookup.click();
+      });
     </script>
   </body>
 </html>

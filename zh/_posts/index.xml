@@ -5,7 +5,49 @@
     <link>/zh/_posts/</link>
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>html5应用</title>
+      <link>/zh/html5/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/html5/</guid>
+      <description>mdict字典搜索引擎:
+https://uweb-zh.vercel.app/zh/searchurl/txt/mdict.html?file=./mdict/xxx.mdx,./mdict/xxx.mdd#word=
+字典文件必须位于配置目录应用子目录&amp;quot;app&amp;quot;下。上述字典搜索引擎例子中文件&amp;quot;xxx.mdx&amp;quot;及&amp;quot;xxx.mdd&amp;quot;位于&amp;quot;.../app/mdict&amp;quot;下。
+点击安装超大文件阅读器（支持txt, html, markdown）
+点击安装超大文件阅读器（markdeep版, latex, diagram,graphviz等）
+点击安装plyr视频播放器
+点击安装dplayer视频播放器
+点击安装pdf阅读器
+点击安装epub阅读器(作者：llili)
+点击安装djvu阅读器
+相应的菜单安装可见浏览器特色服务
+超微配置目录下的子目录名如果以&amp;quot;app&amp;quot;开始(譬如&amp;quot;appPDF&amp;quot;)，则这些&amp;quot;app&amp;quot;开头目录树下放置的html5应用将可获得功能增强。
+配置default.filecap并打开选项“文件预处理”，清后台重启浏览器后超微可直接阅读应用对应格式文件。
+点击配置pdf.js,djvu.js,epub.js,超大文件阅读器
+超大文件阅读器txtview.html url如下:
+file:///data/data/info.torinfo.uweb/files/app/txtview.html?url=[url]#page=[xxx]
+file:///data/data/info.torinfo.uweb/files/app/txtview.html?url=[url]#offset=[xxxx]&amp;amp;[length]
+file:///data/data/info.torinfo.uweb/files/app/markdeep.html?url=[url]#page=[xxx]
+file:///data/data/info.torinfo.uweb/files/app/markdeep.html?url=[url]#offset=[xxxx]&amp;amp;[length]
+譬如&amp;quot;#offset=10000&amp;amp;500&amp;quot;会访问超大文件偏移量10000处长度为500的内容。
+所有阅读器均支持箭头按钮(短按前进按钮或长按后退按钮)自动翻页。
+比较有用的是mozilla的pdf.js，可用来显示在线或本地pdf文件。url如下:
+file:///data/data/info.torinfo.uweb/files/app/pdfviewer.html?file=[绝对或相对路径].pdf#page=[xxx]
+则浏览器直接跳转到pdf文件指定页。与主屏多引擎搜索及少量脚本结合使用，可对任何pdf文件进行字典检索。
+下面是一些类似的应用：
+djvu.js应用的访问url如下：
+file:///data/data/info.torinfo.uweb/files/app/djvu.html?url=[绝对或相对路径或url].pdf#page=[xxx]
+epub.js
+sampotts/plyr : video, YouTube and Vimeo player
+videojs/video.js
+bilibili/flv.js
+MoePlayer/DPlayer
+Streamedian/html5_rtsp_player
+MoePlayer/APlayer : music player</description>
+    </item>
+    
     <item>
       <title>信息隐藏技术总览</title>
       <link>/zh/adblock/</link>
@@ -544,45 +586,6 @@ mimetype表示命令处理后的输出内容格式。
 txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; doc:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xls:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U ppt:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U docx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xlsx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U pptx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：
 pdf:uweb:echo file:///data/data/info.torinfo.uweb/files/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///data/data/info.torinfo.uweb/files/app/djvu.html?url=%u epub:uweb:echo file:///data/data/info.torinfo.uweb/files/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。
 如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
-    </item>
-    
-    <item>
-      <title>html5应用</title>
-      <link>/zh/html5/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/html5/</guid>
-      <description>点击安装超大文件阅读器（支持txt, html, markdown）
-点击安装超大文件阅读器（markdeep版, latex, diagram,graphviz等）
-点击安装plyr视频播放器
-点击安装dplayer视频播放器
-点击安装pdf阅读器
-点击安装epub阅读器(作者：llili)
-点击安装djvu阅读器
-相应的菜单安装可见浏览器特色服务
-超微配置目录下的子目录名如果以&amp;quot;app&amp;quot;开始(譬如&amp;quot;appPDF&amp;quot;)，则这些&amp;quot;app&amp;quot;开头目录树下放置的html5应用将可获得功能增强。
-配置default.filecap并打开选项“文件预处理”，清后台重启浏览器后超微可直接阅读应用对应格式文件。
-点击配置pdf.js,djvu.js,epub.js,超大文件阅读器
-超大文件阅读器txtview.html url如下:
-file:///data/data/info.torinfo.uweb/files/app/txtview.html?url=[url]#page=[xxx]
-file:///data/data/info.torinfo.uweb/files/app/txtview.html?url=[url]#offset=[xxxx]&amp;amp;[length]
-file:///data/data/info.torinfo.uweb/files/app/markdeep.html?url=[url]#page=[xxx]
-file:///data/data/info.torinfo.uweb/files/app/markdeep.html?url=[url]#offset=[xxxx]&amp;amp;[length]
-譬如&amp;quot;#offset=10000&amp;amp;500&amp;quot;会访问超大文件偏移量10000处长度为500的内容。
-所有阅读器均支持箭头按钮(短按前进按钮或长按后退按钮)自动翻页。
-比较有用的是mozilla的pdf.js，可用来显示在线或本地pdf文件。url如下:
-file:///data/data/info.torinfo.uweb/files/app/pdfviewer.html?file=[绝对或相对路径].pdf#page=[xxx]
-则浏览器直接跳转到pdf文件指定页。与主屏多引擎搜索及少量脚本结合使用，可对任何pdf文件进行字典检索。
-下面是一些类似的应用：
-djvu.js应用的访问url如下：
-file:///data/data/info.torinfo.uweb/files/app/djvu.html?url=[绝对或相对路径或url].pdf#page=[xxx]
-epub.js
-sampotts/plyr : video, YouTube and Vimeo player
-videojs/video.js
-bilibili/flv.js
-MoePlayer/DPlayer
-Streamedian/html5_rtsp_player
-MoePlayer/APlayer : music player</description>
     </item>
     
     <item>
