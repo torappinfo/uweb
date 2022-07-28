@@ -1,5 +1,5 @@
 ### Uweb: Tiny and powerful android browser
-[中文](blob/master/README.zh.md)
+[中文](README.zh.md)
 
 [Uweb browser: updates, plugins and tips](https://torappinfo.github.io/uwebzh/en)  
 (Mirrors: [vercel](https://uweb-zh.vercel.app/en)
