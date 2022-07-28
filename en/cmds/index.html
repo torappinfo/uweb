@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Commands</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Commands
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>Click the following links to install commands with <a href="../index.html">uweb browser</a>. <b>Force exit and re-launch the app</b>, then long press the button with clock icon to popup the command menu.</p>
+<p>Configuration file &quot;default.cmds&quot; examples:</p>
+<p><a href="i:03Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' -type f -delete">Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' -type f -delete</a></p>
+<p><a href="i:03VPN::am start -a android.net.vpn.SETTINGS">VPN::am start -a android.net.vpn.SETTINGS</a></p>
+<p><a href="i:03wireless::am start -a android.settings.WIRELESS_SETTINGS">wireless::am start -a android.settings.WIRELESS_SETTINGS</a></p>
+<p><a href="i:03Append query to autocomplete:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i>a.tmp;mv a.tmp default.autoc;>query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc">Append query to autocomplete:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&gt;a.tmp;mv a.tmp default.autoc;&gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc</a></p>
+<p><a href="i:03Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache">Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache</a></p>
+<p><a href="i:03Clear logcat::logcat -c">Clear logcat::logcat -c</a></p>
+<p><a href="i:03logcat.log::logcat -d > logcat.log">logcat.log::logcat -d &gt; logcat.log</a></p>
+<p><a href="i:03copy cookie:/clip:printf '%c'">copy cookie:/clip:printf '%c'</a></p>
+<p><a href="i:03config in Download::cd /data/data/info.torinfo.uweb;rm -rf files;mkdir -p /sdcard/Download/uweb;ln -s /sdcard/Download/uweb files">config in Download::cd /data/data/info.torinfo.uweb;rm -rf files;mkdir -p /sdcard/Download/uweb;ln -s /sdcard/Download/uweb files</a></p>
+<p><a href="i:03html5 in Download::cd /data/data/info.torinfo.uweb/files;rm -rf app;mkdir -p /sdcard/Download/app;ln -s /sdcard/Download/app">html5 in Download::cd /data/data/info.torinfo.uweb/files;rm -rf app;mkdir -p /sdcard/Download/app;ln -s /sdcard/Download/app</a></p>
+<p><a href="i:03tgz install::toybox tar -xzf %f -C /">tgz install::toybox tar -xzf %f -C /</a></p>
+<p>Need root permissions:</p>
+<p>Need termux:<br>
+<a href="i:03cd:termux/*:cd %f;exit 1">cd:termux/*:cd %f;exit 1</a></p>
+<p><a href="i:03vim:termux/*:vim %f">vim:termux/*:vim %f</a></p>
+<p><a href="i:03deduplicate history::awk -F'\t' '!s[\$2]++' /data/data/info.torinfo.uweb/files/history.rec>/sdcard/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/history.rec">deduplicate history::awk -F'\t' '!s[$2]++' /data/data/info.torinfo.uweb/files/history.rec&gt;/sdcard/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/history.rec</a></p>
+<p><a href="i:03deduplicate bookmarks::awk '!s[\$0]++' /data/data/info.torinfo.uweb/files/bookmark.html>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/bookmark.html">deduplicate bookmarks::awk '!s[$0]++' /data/data/info.torinfo.uweb/files/bookmark.html&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/bookmark.html</a></p>
+<p><a href="i:03deduplicate hosts::toybox tac /data/data/info.torinfo.uweb/files/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/default.hosts">deduplicate hosts::toybox tac /data/data/info.torinfo.uweb/files/default.hosts|awk -F' ' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/default.hosts</a></p>
+<p><a href="i:03deduplicate siteconf::toybox tac /data/data/info.torinfo.uweb/files/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/default.siteconf">deduplicate siteconf::toybox tac /data/data/info.torinfo.uweb/files/default.siteconf|awk -F':' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torinfo.uweb/files/default.siteconf</a></p>
+<p><a href="i:03Send url::printf '%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url::printf '%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03Send url(player)::printf 'i:5g%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url(player)::printf 'i:5g%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03Sendurl(bookmark)::printf 'i:51../home5:i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">Sendurl(bookmark)::printf 'i:51../home5:i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03Send url(fullscreen)::printf 'i:5f%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url(fullscreen)::printf 'i:5f%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03Send url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03Send url(clipboard):clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500">Send url(clipboard):clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03Clipboard2PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'">Clipboard2PC:clip:ssh <a href="mailto:fengcao@192.168.2.120">fengcao@192.168.2.120</a> 'DISPLAY=:0 xsel -i'</a></p>
+<p><a href="i:03ClipboardFromPC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'">ClipboardFromPC:/clip:ssh <a href="mailto:fengcao@192.168.2.120">fengcao@192.168.2.120</a> 'DISPLAY=:0 xsel -o'</a></p>
+<p><a href="i:03Clipboard broadcast:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast">Clipboard broadcast:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast</a></p>
+<p><a href="i:03Clipboard from broadcast:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'">Clipboard from broadcast:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'</a></p>
+<p><a href="i:03Clipboard2QR:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png">Clipboard2QR:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png</a></p>
+<p>&quot;Send url&quot; needs to modify Android TV ip address.<br>
+Clipboard2PC needs to modify username, PC needs xsel. ssh needs to be installed inside termux (apt install openssh).<br>
+Clipboard broadcast needs socat（apt install socat)。<br>
+Clipboard2QR needs libqrencode.</p>
+<h4 id="more-commands-click-to-install">More commands (click to install)</h4>
+<p><a href="i:0gdefault.cmds::mdme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/mdme></script><textarea>%22;cat %25f%0A">mdme: Show local markdown file</a></p>
+<p><a href="i:0gdefault.cmds::texme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/texme></script><textarea>%22;cat %25f%0A">texme: Show local tex+markdown file</a></p>
+<p><a href="i:0gdefault.cmds::markdeep:text/html:cat %25f;echo %22<style class=fallback>body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility=visible)</script>%22%0A">markdeep: Show local markdown+tex+diagrams file</a></p>
+<p><a href="i:0gdefault.cmds::remark slide:text/html:echo %22<script src=https://remarkjs.com/downloads/remark-latest.min.js></script><script>window.onload=function(){var slideshow=remark.create({navigation:{click:true,},});}</script><textarea id=%27source%27>class:middle%22;cat %25f%0A">remark slide: slide show for local markdown file</a></p>
+<p><a href="i:0gdefault.cmds:https://cdn.jsdelivr.net/gh/torappinfo/uwebzh/en/searchurl/txt/cmds.cfg">Code editor, open url in clipboard etc.</a></p>
+<h4 id="cmds-file-format">&quot;.cmds&quot; file format</h4>
+<p>Each line has the following format:<br>
+[Name]:[mimetype]:[command line]</p>
+<p>[command line] can have &quot;%c&quot; (cookie), &quot;%s&quot; (address bar text), &quot;%u&quot; (url), &quot;%t&quot; (title).<br>
+[mimetype] have the following formats:</p>
+<ul>
+<li>regular mimetype such as &quot;text/html&quot; to indicate the content type of the command output.</li>
+<li>&quot;clip/clip&quot; to indicate &quot;clipboard&quot; as input and the command output is copied to clipboard.</li>
+<li>&quot;/clip&quot;: copy the command output to clipboard.</li>
+<li>&quot;clip/text/html&quot; : clipboard as input, and the command output is processed as &quot;text/html&quot;.</li>
+<li>&quot;termux/*&quot;: command line is executed under termux.</li>
+<li>&quot;/uweb&quot;: the command output is processed as <a href="../links/index.html">links</a>.</li>
+</ul>
+
+</div>
+
+  </body>
+</html>
