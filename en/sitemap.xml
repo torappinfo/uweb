@@ -15,7 +15,7 @@
                 href="/en/"
                 />
   </url><url>
-    <loc>/en/topposts/search/</loc>
+    <loc>/en/search/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/topposts/</loc>
@@ -31,20 +31,20 @@
                 href="/en/topposts/"
                 />
   </url><url>
-    <loc>/en/topposts/sitemap/</loc>
+    <loc>/en/sitemap/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/topposts/sitemap/"
+                href="/zh/sitemap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/topposts/sitemap/"
+                href="/en/sitemap/"
                 />
   </url><url>
-    <loc>/en/topposts/changelog/</loc>
+    <loc>/en/changelog/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/_posts/</loc>
@@ -138,13 +138,13 @@
                 href="/en/tags/"
                 />
   </url><url>
-    <loc>/en/topposts/urls/</loc>
+    <loc>/en/urls/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/en/topposts/cmds/</loc>
+    <loc>/en/cmds/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/en/topposts/rjs/</loc>
+    <loc>/en/rjs/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/tags/clipboard/</loc>

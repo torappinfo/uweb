@@ -53,8 +53,8 @@
 <p><a href="i:03Clear logcat::logcat -c">Clear logcat::logcat -c</a></p>
 <p><a href="i:03logcat.log::logcat -d > logcat.log">logcat.log::logcat -d &gt; logcat.log</a></p>
 <p><a href="i:03copy cookie:/clip:printf '%c'">copy cookie:/clip:printf '%c'</a></p>
-<p><a href="i:03config in Download::cd /data/data/info.torinfo.uweb;rm -rf files;mkdir -p /sdcard/Download/uweb;ln -s /sdcard/Download/uweb files">config in Download::cd /data/data/info.torinfo.uweb;rm -rf files;mkdir -p /sdcard/Download/uweb;ln -s /sdcard/Download/uweb files</a></p>
-<p><a href="i:03html5 in Download::cd /data/data/info.torinfo.uweb/files;rm -rf app;mkdir -p /sdcard/Download/app;ln -s /sdcard/Download/app">html5 in Download::cd /data/data/info.torinfo.uweb/files;rm -rf app;mkdir -p /sdcard/Download/app;ln -s /sdcard/Download/app</a></p>
+<p><a href="i:03config in Download::cd /data/data/info.torinfo.uweb;toybox rm -rf files;toybox mkdir -p /sdcard/Download/uweb;toybox ln -s /sdcard/Download/uweb files">config in Download::cd /data/data/info.torinfo.uweb;toybox rm -rf files;toybox mkdir -p /sdcard/Download/uweb;toybox ln -s /sdcard/Download/uweb files</a></p>
+<p><a href="i:03html5 in Download::cd /data/data/info.torinfo.uweb/files;toybox rm -rf app;toybox mkdir -p /sdcard/Download/app;toybox ln -s /sdcard/Download/app">html5 in Download::cd /data/data/info.torinfo.uweb/files;toybox rm -rf app;toybox mkdir -p /sdcard/Download/app;toybox ln -s /sdcard/Download/app</a></p>
 <p><a href="i:03tgz install::toybox tar -xzf %f -C /">tgz install::toybox tar -xzf %f -C /</a></p>
 <p>Need root permissions:</p>
 <p>Need termux:<br>
