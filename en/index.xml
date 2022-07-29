@@ -13,7 +13,7 @@
       
       <guid>/en/search/</guid>
       <description>Clicking the following links to install search engines to uweb&#39;s home screen.
-Recommended engines (append any of following to file &amp;quot;home5.search&amp;quot;)：
+Recommended engines (click or append any of the following to the file &amp;quot;home5.search&amp;quot;)：
 Engines:i:40%s_00
 bing image:http://bing.com/images/search?q=
 wolfram:https://www.wolframalpha.com/input/?i=
