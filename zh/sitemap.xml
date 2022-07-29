@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/zh/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/"
+                />
+  </url><url>
+    <loc>/zh/topposts/</loc>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/"
+                />
+  </url><url>
+    <loc>/zh/search/</loc>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/search/"
                 />
   </url><url>
     <loc>/zh/_posts/</loc>
@@ -30,6 +56,32 @@
   </url><url>
     <loc>/zh/html5/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/zh/sitemap/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/sitemap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sitemap/"
+                />
+  </url><url>
+    <loc>/zh/urls/</loc>
+    <lastmod>2022-06-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/urls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/urls/"
+                />
   </url><url>
     <loc>/zh/adblock/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
@@ -83,30 +135,17 @@
                 href="/zh/bookmarklet/"
                 />
   </url><url>
-    <loc>/zh/topposts/</loc>
-    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <loc>/zh/cmds/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/topposts/"
+                href="/en/cmds/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/topposts/"
-                />
-  </url><url>
-    <loc>/zh/sitemap/</loc>
-    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/sitemap/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sitemap/"
+                href="/zh/cmds/"
                 />
   </url><url>
     <loc>/zh/androidtv/</loc>
@@ -145,6 +184,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/links/"
+                />
+  </url><url>
+    <loc>/zh/rjs/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/rjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/rjs/"
                 />
   </url><url>
     <loc>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>

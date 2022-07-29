@@ -17,6 +17,16 @@
   </url><url>
     <loc>/en/search/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/search/"
+                />
   </url><url>
     <loc>/en/topposts/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
@@ -140,12 +150,42 @@
   </url><url>
     <loc>/en/urls/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/urls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/urls/"
+                />
   </url><url>
     <loc>/en/cmds/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/cmds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/cmds/"
+                />
   </url><url>
     <loc>/en/rjs/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/rjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/rjs/"
+                />
   </url><url>
     <loc>/en/tags/clipboard/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
