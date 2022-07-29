@@ -20,9 +20,29 @@
   </url><url>
     <loc>/en/topposts/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/"
+                />
   </url><url>
     <loc>/en/topposts/sitemap/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/sitemap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/sitemap/"
+                />
   </url><url>
     <loc>/en/topposts/changelog/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>

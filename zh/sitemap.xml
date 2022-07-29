@@ -83,8 +83,31 @@
                 href="/zh/bookmarklet/"
                 />
   </url><url>
-    <loc>/zh/sitemap/</loc>
+    <loc>/zh/topposts/</loc>
     <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/"
+                />
+  </url><url>
+    <loc>/zh/topposts/sitemap/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/sitemap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/sitemap/"
+                />
   </url><url>
     <loc>/zh/androidtv/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>

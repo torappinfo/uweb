@@ -53,15 +53,6 @@ Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is sam
       <guid>/en/topposts/urls/</guid>
       <description>Click the following links to install url services with uweb browser. Force exit and re-launch the app, then long press the &amp;quot;image&amp;quot; button to popup the menu.
 Fullscreen video:i:5f
-Send url:i:5j
-Send url(player):i:5ji:5g
-Send url(bookmark):i:5ji:52../home5:
-Send url(clipboard):i:5ji:5b
-Send url(fullscreen):i:5ji:5f
-Send url(bookmark fullscreen):i:5ji:52../home5:i:5f
-Send url(site fullscreen):i:5ji:0mi:5f:
-Send url(video):i:5ji:0mc16:
-Send url(bookmark site fullscreen):i:5ji:52../home5:i:0mi:5f:
 Redirect/edit:e:
 Save2autocomplete:i:51:
 Bookmark:i:52:
@@ -71,8 +62,23 @@ Save link:i:55:
 Save to desktop:i:58
 Add to media storage::001
 tgurl:https://tx.me/share/url?url=
-tgdownload:https://tx.me/share/url?url=/download
-Compatible mode:i:5d</description>
+tgdownload:https://tx.me/share/url?url=/download Compatible mode:i:5d
+papago:https://papago.naver.net/website?locale=en&amp;amp;target=en&amp;amp;url=
+google translate:https://translate.google.com/translate?sl=auto&amp;amp;tl=en&amp;amp;u=
+Source:view-source:
+outline:https://www.outline.com/
+2pdf:https://www.web2pdfconvert.com#
+printfriendly:https://www.printfriendly.com/print/?url=
+htmlview:https://htmlview.glitch.me/?
+htmlpreview:https://htmlpreview.github.io/?
+webarchive:https://web.archive.org/web/*/
+archive:https://archive.is/?run=1&amp;amp;url=
+google by image:https://www.google.com/searchbyimage?image_url=
+tinyeye:https://tineye.com/search?url=
+Yandex image:https://yandex.com/images/search?text=
+Yandex by image:https://yandex.com/images/search?family=yes&amp;amp;rpt=imageview&amp;amp;url=
+ascii2d:https://ascii2d.net/search/url/
+trace.moe:https://trace.moe/?url=</description>
     </item>
     
     <item>
