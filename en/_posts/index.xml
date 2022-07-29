@@ -5,32 +5,7 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Commands</title>
-      <link>/en/cmds/</link>
-      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/cmds/</guid>
-      <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.
-Configuration file &amp;quot;default.cmds&amp;quot; examples:
-Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
-VPN::am start -a android.net.vpn.SETTINGS
-wireless::am start -a android.settings.WIRELESS_SETTINGS
-Append query to autocomplete:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc
-Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache
-Clear logcat::logcat -c</description>
-    </item>
-    
-    <item>
-      <title>Site map</title>
-      <link>/en/sitemap/</link>
-      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/sitemap/</guid>
-      <description>UI Search engines Home screen Quick start UI (gitee) Backup and restore Customization Bottom toolbar button long pressing menus User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Font settings Advanced Content AD blocking CSS styles redirection Javascript and CSS for domains Offline cache Tools Bookmarklets Custom file handling Html5 application File manager Tools Termux GNU bc Gnuplot tcron Offline download Miscellaneous Configuration files Plugins Tips Tips Video Debug </description>
-    </item>
-    
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuration folders/files</title>
       <link>/en/filenames/</link>
@@ -120,7 +95,7 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
     </item>
     
     <item>
-      <title>CSS样式</title>
+      <title>CSS styles</title>
       <link>/en/globalcss/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -179,16 +154,6 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
       <guid>/en/adblock_domain/</guid>
       <description>hosts blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.pl&amp;quot;, then it is treated as one segment, so domains like &amp;quot;xxx.xxx.com.pl&amp;quot; are also valid in the hosts file.
 Each line of the hosts file has the following format:</description>
-    </item>
-    
-    <item>
-      <title>Change log</title>
-      <link>/en/changelog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/changelog/</guid>
-      <description>903: Enhance html5 apps. (ex. mdict-js, a dictionary lookup app, works like native with minimal change)
-901: Use in-app files folder for configuration</description>
     </item>
     
     <item>
