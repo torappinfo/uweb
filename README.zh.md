@@ -4,6 +4,8 @@
 [超微浏览器更新及使用技巧](https://uweb-zh.vercel.app/zh)
 (镜像: [netlify](https://uwebzh.netlify.app/zh)
 [pages](https://uwebzh.pages.dev/zh)
+[stormkit](https://uweb.stormkit.dev/en)
+[surge](https://uweb.surge.sh/en/)
 [github](https://torappinfo.github.io/uwebzh/zh))
 
 - 微：不到200K。

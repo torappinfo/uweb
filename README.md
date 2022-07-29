@@ -4,7 +4,11 @@
 [Uweb browser: updates, plugins and tips](https://torappinfo.github.io/uwebzh/en)  
 (Mirrors: [vercel](https://uweb-zh.vercel.app/en)
 [netlify](https://uwebzh.netlify.app/en)
-[pages](https://uwebzh.pages.dev/en))
+[pages](https://uwebzh.pages.dev/en)
+[stormkit](https://uweb.stormkit.dev/en)
+[surge](https://uweb.surge.sh/en/)
+[render](https://uwebzh.onrender.com/en)
+)
 
 - Tiny, less than 200k
 - Efficient: run fast and less touches
