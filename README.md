@@ -7,17 +7,19 @@
 [pages](https://uwebzh.pages.dev/en)
 [stormkit](https://uweb.stormkit.dev/en)
 [surge](https://uweb.surge.sh/en/)
+[gitlab](https://jamesfengcao.gitlab.io/uweb/en)
 [render](https://uwebzh.onrender.com/en)
 )
 
-- Tiny, less than 200k
-- Efficient: run fast and less touches
-- Powerful: supports user-defined menus (or buttons/gestures) for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
+- Tiny: less than 200k
+- Fast: run fast, more apparently with thousands of user provided css/scripts
+- Efficient: less touches, one click to reach any number of search engines without repeated input.
+- Customizable: user-defined menus (or buttons/gestures) for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
+- Powerful: enabling html5 applications to work like native; javascript and shell scripting for general processing and more with uweb compatible Termux.
 
 #### Main features
 TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url redirection, webdav/http backup & restore, auto next page, sending/receiving msg/file(s), site config (UA, no JS, no image, no 3rd party script/resource,active script, global scripts), http(s)/socks proxy, enabling html5 apps for local files (pdf/djvu/epub viewer, mdict dictionary lookup etc.).
 
-- One click to reach any number of search engines without repeated input.
 - Resizable floating video support.
 - User-defined global and site-specific CSS and javascript.
 - Bookmarklets (with option to auto apply to similar sites)

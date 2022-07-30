@@ -148,6 +148,19 @@
                 href="/zh/cmds/"
                 />
   </url><url>
+    <loc>/zh/cmds/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/cmds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/cmds/"
+                />
+  </url><url>
     <loc>/zh/androidtv/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>

@@ -95,6 +95,32 @@ BugMeNot</description>
     </item>
     
     <item>
+      <title>配置浏览器常用命令</title>
+      <link>/zh/cmds/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/cmds/</guid>
+      <description>超微浏览器下点击配置链接可自动添加常用命令，强制清空后台重启后长按历史按钮可用。
+打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等
+配置文件&amp;quot;default.cmds&amp;quot;示例：
+清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
+本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb
+本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.
+VPN::am start -a android.net.vpn.SETTINGS
+无线::am start -a android.settings.WIRELESS_SETTINGS
+合并查询历史至自动填充:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc
+清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache
+清空logcat::logcat -c
+输出logcat.log::logcat -d &amp;gt; logcat.log
+复制cookie:/clip:printf &#39;%c&#39;
+tgz install::toybox tar -xzf %f -C /
+以下命令需修改接收端IP定制。另外，发送消息前接收端需首先执行“等待网络消息”命令。
+发送剪贴板:clip/uweb:printf &#39;i:5ji:5b&#39;;cat
+发送url::printf &#39;%u&#39;|/system/bin/toybox nc 192.168.2.155 1500
+发送url(播放器)::printf &#39;i:5g%u&#39;|/system/bin/toybox nc 192.</description>
+    </item>
+    
+    <item>
       <title>Android TV</title>
       <link>/zh/androidtv/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>

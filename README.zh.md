@@ -6,6 +6,7 @@
 [pages](https://uwebzh.pages.dev/zh)
 [stormkit](https://uweb.stormkit.dev/en)
 [surge](https://uweb.surge.sh/en/)
+[gitlab](https://jamesfengcao.gitlab.io/uweb/zh)
 [github](https://torappinfo.github.io/uwebzh/zh))
 
 - 微：不到200K。
