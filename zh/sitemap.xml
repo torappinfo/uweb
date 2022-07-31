@@ -56,6 +56,16 @@
   </url><url>
     <loc>/zh/html5/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/html5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/html5/"
+                />
   </url><url>
     <loc>/zh/sitemap/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
@@ -137,16 +147,6 @@
   </url><url>
     <loc>/zh/cmds/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/cmds/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/cmds/"
-                />
   </url><url>
     <loc>/zh/cmds/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>

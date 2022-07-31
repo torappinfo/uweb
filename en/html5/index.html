@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Html5 applications</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Html5 applications
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>mdict dictionary lookup search engine:<br>
+i:5ihttps://uweb-zh.vercel.app/zh/searchurl/txt/mdict.html?file=./mdict/xxx.mdx,./mdict/xxx.mdd#word=</p>
+<p>The dictionary files (mdx, mdd) must locate in the &quot;app&quot; subfolder under the configuration folder. In above example, the files &quot;xxx.mdx&quot; and &quot;xxx.mdd&quot; locate in the folder &quot;.../app/mdict&quot;.</p>
+<h4 id="html5-applications">Html5 applications</h4>
+<p>Click to install the following html5 apps:<br>
+<a target="_self" href="i:0happ/txtview.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/txtview.html">Huge markdown file viewer</a><br>
+<a target="_self" href="i:0happ/markdeep.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/markdeep.html">Huge markdeep file viewer (markdown, latex, diagram,graphviz etc.)</a><br>
+<a target="_self" href="i:0happ/plyr.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/plyr.cfg">plyr video player</a><br>
+<a target="_self" href="i:0happ/dplayer.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/dplayer.html">dplayer video player</a><br>
+<a target="_self" href="i:0happ/pdfviewer.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/pdfviewer.html">pdf viewer</a><br>
+<a target="_self" href="i:0happ/epub.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/epub.html">epub reader (author：llili)</a><br>
+<a target="_self" href="i:0happ/djvu.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/djvu.html">djvu viewer</a></p>
+<p>The corresponding menu can be installed with <a href="../urls/index.html">url services</a>.</p>
+<h4 id="features">Features</h4>
+<p>The following mentioned subfolders locate in the configuration folder.</p>
+<ul>
+<li>All html5 applications locating in a subfolder whose name begins with &quot;app&quot; (such as &quot;appPDF&quot;) are allowed to read local files. Use url &quot;https://local/sdcard/...&quot; for a local file.</li>
+<li><span style="color:red">All files under the subfolder &quot;app&quot; can be automatically choosed as file objects by any web page</span>.</li>
+</ul>
+<p>Click to configure <a href="../filecap/index.html">default.filecap</a> to open local files, and to open remote files with the option &quot;custom file handling&quot;:<br>
+<a target="_self" href="i:0gdefault.filecap:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/filecap.cfg">use pdf.js,djvu.js,epub.js, huge markdown viewer for local files</a></p>
+<p>url examples are as follows:</p>
+<ul>
+<li>file:///data/data/info.torinfo.uweb/files/app/pdfviewer.html?file=[path].pdf#page=[xxx]</li>
+<li>file:///data/data/info.torinfo.uweb/files/app/djvu.html?url=...xx.pdf#page=[xxx]</li>
+<li>file:///data/data/info.torinfo.uweb/files/app/txtview.html?url=[url]#page=[xxx]</li>
+<li>file:///data/data/info.torinfo.uweb/files/app/txtview.html?url=[url]#offset=[xxxx]&amp;[length]</li>
+<li>file:///data/data/info.torinfo.uweb/files/app/markdeep.html?url=[url]#page=[xxx]</li>
+<li>file:///data/data/info.torinfo.uweb/files/app/markdeep.html?url=[url]#offset=[xxxx]&amp;[length]</li>
+</ul>
+<p>Ex. &quot;#offset=10000&amp;500&quot; will retrieve 500 bytes from offset 10000. Click the right arrow button to next page in all above file viewers.</p>
+
+</div>
+
+  </body>
+</html>

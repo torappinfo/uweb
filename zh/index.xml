@@ -611,8 +611,7 @@ webview 80- 夜间模式</description>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/zh/bc/</guid>
-      <description>使用uweb浏览器。
-Gnu bc计算器支持无限精度，可扩展函数库、常数库。
+      <description>Gnu bc计算器支持无限精度，可扩展函数库、常数库。
 安装bc (Android11+无需安装) 安装uweb定制Termux应用 Termux下运行以下命令：
 apt update
 apt upgrade

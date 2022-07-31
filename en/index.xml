@@ -5,7 +5,39 @@
     <link>/en/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Html5 applications</title>
+      <link>/en/html5/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/html5/</guid>
+      <description>mdict dictionary lookup search engine:
+i:5ihttps://uweb-zh.vercel.app/zh/searchurl/txt/mdict.html?file=./mdict/xxx.mdx,./mdict/xxx.mdd#word=
+The dictionary files (mdx, mdd) must locate in the &amp;quot;app&amp;quot; subfolder under the configuration folder. In above example, the files &amp;quot;xxx.mdx&amp;quot; and &amp;quot;xxx.mdd&amp;quot; locate in the folder &amp;quot;.../app/mdict&amp;quot;.
+Html5 applications Click to install the following html5 apps:
+Huge markdown file viewer
+Huge markdeep file viewer (markdown, latex, diagram,graphviz etc.)
+plyr video player
+dplayer video player
+pdf viewer
+epub reader (author：llili)
+djvu viewer
+The corresponding menu can be installed with url services.</description>
+    </item>
+    
+    <item>
+      <title>Address bar command modes</title>
+      <link>/en/acmd/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/acmd/</guid>
+      <description>Commands are the best for repeated execution of an instruction. Address bar command modes provide ways to run different commands in the same category easyly.
+The configure file &amp;quot;default.acmd&amp;quot; has the exactly same format as default.cmds. Click the following links to install new modes (cold start the app to take effect, then long click the &amp;quot;refresh&amp;quot; botton to switch modes):
+Shell command mode
+&amp;lt;a href=&amp;quot;i:0gdefault.acmd::bc:text/plain:echo &amp;quot;%25s&amp;quot;|bc -l -q%0A&amp;quot;&amp;gt;GNU bc (basic calculator) command mode (need termux for Android 10- )</description>
+    </item>
+    
     <item>
       <title>Search engines</title>
       <link>/en/search/</link>
@@ -150,22 +182,6 @@ Yandex image:https://yandex.com/images/search?text=
 Yandex by image:https://yandex.com/images/search?family=yes&amp;amp;rpt=imageview&amp;amp;url=
 ascii2d:https://ascii2d.net/search/url/
 trace.moe:https://trace.moe/?url=</description>
-    </item>
-    
-    <item>
-      <title>Commands</title>
-      <link>/en/cmds/</link>
-      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/cmds/</guid>
-      <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.
-Configuration file &amp;quot;default.cmds&amp;quot; examples:
-Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
-VPN::am start -a android.net.vpn.SETTINGS
-wireless::am start -a android.settings.WIRELESS_SETTINGS
-Append query to autocomplete:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc
-Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache
-Clear logcat::logcat -c</description>
     </item>
     
     <item>
