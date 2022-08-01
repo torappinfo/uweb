@@ -1,0 +1,44 @@
+unset HISTFILE
+if [[ $EUID -ne 0 ]]; then
+    history -r ~/.bash_history
+  else
+      history -r ~/.bash_history.root
+fi
+export HISTCONTROL=ignoreboth:erasedups
+#shopt -s histappend
+
+shopt -s globstar
+
+export _Z_CMD=j
+. z.sh
+. commacd.sh
+
+alias j="_z"
+v(){
+  file=
+  if [ $1 ]; then
+    file=${1}
+    shift
+  fi
+  url="file://${PWD}/${file}"
+  am start -a android.intent.action.VIEW -d "$url" $@
+}
+
+d(){
+  word=$1
+  dict=${2:-ahd}
+  tdict ~/share/dict/$dict $1
+}
+
+z(){
+#usage: z word dictname percent
+  word=$1
+  dict=~/share/dict/$2.xz
+  percent=''
+  if [ "$3" ]; then
+    percent=${3}p
+  fi
+  xz -cdf -- "$dict" | less -n +"${percent}/####$word"
+}
+
+export LESS=-inR

@@ -1,0 +1,12 @@
+set editing-mode vi
+
+$if Bash
+  Space: magic-space
+$endif
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+set completion-prefix-display-length 2
+
+Control-j: menu-complete
+Control-k: menu-complete-backward

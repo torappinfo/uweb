@@ -65,7 +65,7 @@ Shell command mode
       <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/links/</guid>
-      <description>Clicking the following hypertext will install menus for long pressing the bookmark button (with star as icon):
+      <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
 Wait for network msg
 Certificate info
 Web fullscreen
@@ -149,6 +149,20 @@ webview 80- night mode</description>
       <description>If subfolder &amp;quot;icon&amp;quot; exists, then files named as &amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
 are used for icons in the bottom toolbar. file &amp;quot;0&amp;quot; to replace the left arrow button, &amp;quot;1&amp;quot; for right arrow button, &amp;quot;2&amp;quot; for the setting button,&amp;quot;3&amp;quot; for the home screen button,...
 If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also supports VectorDrawable with &amp;quot;android compiled XML&amp;quot; format. All icon files must be all VectorDrawables or 此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。</description>
+    </item>
+    
+    <item>
+      <title>Termux</title>
+      <link>/en/termux/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/termux/</guid>
+      <description>Only the termux versions provided along with uweb browser can work seamlessly.
+Click the following links to install termux configurations: .bashrc
+.inputrc
+z.sh
+commacd.sh
+Copy existing termux installation to other devices target device: install termux app, then run &amp;quot;apt install openssh&amp;quot; inside the termux. source device: Send the &amp;quot;~/.ssh&amp;quot; folder with uweb browser to the network. target device: Uweb to visit &amp;quot;file://data/data/com.termux/files/home/&amp;quot; to reach the folder, then receive the data sent by the above source device.</description>
     </item>
     
     <item>
