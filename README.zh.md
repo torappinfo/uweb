@@ -1,13 +1,13 @@
 ### 超微浏览器: 微、威、快、高效、极致优化
 [English](README.md)
 
-[超微浏览器更新及使用技巧](https://uweb-zh.vercel.app/zh)
-(镜像: [netlify](https://uwebzh.netlify.app/zh)
-[pages](https://uwebzh.pages.dev/zh)
-[stormkit](https://uweb.stormkit.dev/en)
-[surge](https://uweb.surge.sh/en/)
-[gitlab](https://jamesfengcao.gitlab.io/uweb/zh)
-[github](https://torappinfo.github.io/uwebzh/zh))
+[超微浏览器更新及使用技巧](https://uweb-zh.vercel.app/zh/)
+(镜像: [netlify](https://uwebzh.netlify.app/zh/)
+[pages](https://uwebzh.pages.dev/zh/)
+[stormkit](https://uweb.stormkit.dev/zh/)
+[surge](https://uweb.surge.sh/zh/)
+[gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)
+[github](https://torappinfo.github.io/uwebzh/zh/))
 
 - 微：不到200K。
 - 威：支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; html+js应用增强为本地应用。
