@@ -180,6 +180,17 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
     </item>
     
     <item>
+      <title>Gestures</title>
+      <link>/en/gesture/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/gesture/</guid>
+      <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.
+Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.
+Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
+    </item>
+    
+    <item>
       <title>Blocking domain trees</title>
       <link>/en/adblock_domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

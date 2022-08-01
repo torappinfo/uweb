@@ -39,13 +39,13 @@
       #mdict-online-viewer {
         font-size: 14px;
         font-family: "Georgia", "Times New Roman";
-        height: 600px;
+        height: 100%;
         width: 100%;
       }
       
       #mdict-online-viewer #definition {
         font-size: 14px;
-        height: 500px;
+        height: 100%;
         overflow: auto;
       }
       
@@ -90,7 +90,7 @@
       let filenames = location.search.substring(6);
       if(filenames.length>0){
         dictinput.setAttribute('accept',filenames);
-        location.href="i:5fsetTimeout(()=>{dictinput.click()},20);setTimeout(()=>{btnLookup.click();dictinput.removeAttribute('accept');},70)";
+        location.href="i:5fdictinput.click();setTimeout(()=>{btnLookup.click();dictinput.removeAttribute('accept');},70)";
       }
       window.onhashchange();
     </script>
