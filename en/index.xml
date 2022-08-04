@@ -5,17 +5,14 @@
     <link>/en/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Html5 applications</title>
       <link>/en/html5/</link>
-      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/html5/</guid>
-      <description>mdict dictionary lookup search engine:
-i:5ihttps://uweb-zh.vercel.app/zh/searchurl/txt/mdict.html?file=./mdict/xxx.mdx,./mdict/xxx.mdd#word=
-The dictionary files (mdx, mdd) must locate in the &amp;quot;app&amp;quot; subfolder under the configuration folder. In above example, the files &amp;quot;xxx.mdx&amp;quot; and &amp;quot;xxx.mdd&amp;quot; locate in the folder &amp;quot;.../app/mdict&amp;quot;.
-Html5 applications Click to install the following html5 apps:
+      <description>Html5 applications Click to install the following html5 apps:
 Huge markdown file viewer
 Huge markdeep file viewer (markdown, latex, diagram,graphviz etc.)
 plyr video player
@@ -23,7 +20,9 @@ dplayer video player
 pdf viewer
 epub reader (author：llili)
 djvu viewer
-The corresponding menu can be installed with url services.</description>
+The corresponding menu can be installed with url services.
+Features The following mentioned subfolders locate in the configuration folder.
+All html5 applications locating in a subfolder whose name begins with &amp;quot;app&amp;quot; (such as &amp;quot;appPDF&amp;quot;) are allowed to read local files.</description>
     </item>
     
     <item>
