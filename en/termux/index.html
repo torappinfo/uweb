@@ -58,8 +58,8 @@
 <ul>
 <li>target device: install termux app.</li>
 <li>(optional)<a href="d::mkdir -p /data/data/com.termux/files/usr;cd /data/data/com.termux/files;mkdir home:">fix termux quick crash</a></li>
-<li>source device: <a href="c:cd ..;toybox tar -czf - .|toybox nc -l -p 1500">send  termux installation</a></li>
-<li>target device: <a href="c:cd ..;toybox nc 1500|toybox tar -xzf -">receive termux installation</a></li>
+<li>source device: <a href="c:cd ..;/system/bin/toybox tar -czf - .|/system/bin/toybox nc -l -p 1500">send  termux installation</a></li>
+<li>target device: <a href="c:cd ..;/system/bin/toybox nc 1500|/system/bin/toybox tar -xzf -">receive termux installation</a></li>
 </ul>
 <h5 id="using-ssh-to-copy">Using ssh to copy</h5>
 <ul>
