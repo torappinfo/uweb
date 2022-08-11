@@ -54,9 +54,10 @@
 <p><a href="i:0h/data/data/com.termux/files/home/z.sh:https://fastly.jsdelivr.net/gh/rupa/z/z.sh">z.sh</a></p>
 <p><a href="i:0h/data/data/com.termux/files/home/commacd.sh:https://fastly.jsdelivr.net/gh/shyiko/commacd/commacd.sh">commacd.sh</a></p>
 <h4 id="copy-existing-termux-installation-to-other-devices">Copy existing termux installation to other devices</h4>
-<p>Using uweb to copy (Long pressing the following two links and &quot;open in new tab&quot; to send/receive):</p>
+<p>Using uweb to copy (Long pressing the following links and &quot;open in new tab&quot; to fix/send/receive):</p>
 <ul>
 <li>target device: install termux app.</li>
+<li>(optional)<a href="d::mkdir -p /data/data/com.termux/files/usr;cd /data/data/com.termux/files;mkdir home:">fix termux quick crash</a></li>
 <li>source device: <a href="c:cd ..;toybox tar -czf - .|toybox nc -l -p 1500">send  termux installation</a></li>
 <li>target device: <a href="c:cd ..;toybox nc 1500|toybox tar -xzf -">receive termux installation</a></li>
 </ul>
