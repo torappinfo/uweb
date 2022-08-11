@@ -44,12 +44,23 @@
     
   </ul>
   <p>Only the termux versions provided along with uweb browser can work seamlessly.</p>
+<h4 id="termux-bookmarks">Termux bookmarks</h4>
+<p>Long pressing the following links then either &quot;commands&quot;-&gt;&quot;<a href="../urls/index.html">bookmark</a>&quot; to add bookmarks or &quot;open in new tab&quot; to execute.<br>
+<a href="c:bc -l">GNU bc (basic calculator)</a><br>
+<a href="c:bc -l *.bc">bc with all extensions</a></p>
 <h4 id="click-the-following-links-to-install-termux-configurations">Click the following links to install termux configurations:</h4>
 <p><a href="i:0h/data/data/com.termux/files/home/.bashrc:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/termux/bashrc">.bashrc</a></p>
 <p><a href="i:0h/data/data/com.termux/files/home/.inputrc:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/termux/inputrc">.inputrc</a></p>
 <p><a href="i:0h/data/data/com.termux/files/home/z.sh:https://fastly.jsdelivr.net/gh/rupa/z/z.sh">z.sh</a></p>
 <p><a href="i:0h/data/data/com.termux/files/home/commacd.sh:https://fastly.jsdelivr.net/gh/shyiko/commacd/commacd.sh">commacd.sh</a></p>
 <h4 id="copy-existing-termux-installation-to-other-devices">Copy existing termux installation to other devices</h4>
+<p>Using uweb to copy (Long pressing the following two links and &quot;open in new tab&quot; to send/receive):</p>
+<ul>
+<li>target device: install termux app.</li>
+<li>source device: <a href="c:cd ..;toybox tar -czf - .|toybox nc -l -p 1500">send  termux installation</a></li>
+<li>target device: <a href="c:cd ..;toybox nc 1500|toybox tar -xzf -">receive termux installation</a></li>
+</ul>
+<h5 id="using-ssh-to-copy">Using ssh to copy</h5>
 <ul>
 <li>target device: install termux app, then run &quot;apt install openssh&quot; inside the termux.</li>
 <li>source device: Send the &quot;~/.ssh&quot; folder with uweb browser to the network.</li>

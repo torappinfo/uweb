@@ -265,11 +265,14 @@ If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also 
       
       <guid>/en/termux/</guid>
       <description>Only the termux versions provided along with uweb browser can work seamlessly.
+Termux bookmarks Long pressing the following links then either &amp;quot;commands&amp;quot;-&amp;gt;&amp;quot;bookmark&amp;quot; to add bookmarks or &amp;quot;open in new tab&amp;quot; to execute.
+GNU bc (basic calculator)
+bc with all extensions
 Click the following links to install termux configurations: .bashrc
 .inputrc
 z.sh
 commacd.sh
-Copy existing termux installation to other devices target device: install termux app, then run &amp;quot;apt install openssh&amp;quot; inside the termux. source device: Send the &amp;quot;~/.ssh&amp;quot; folder with uweb browser to the network. target device: Uweb to visit &amp;quot;file://data/data/com.termux/files/home/&amp;quot; to reach the folder, then receive the data sent by the above source device.</description>
+Copy existing termux installation to other devices Using uweb to copy (Long pressing the following two links and &amp;quot;open in new tab&amp;quot; to send/receive):</description>
     </item>
     
     <item>

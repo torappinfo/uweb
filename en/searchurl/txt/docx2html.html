@@ -1,15 +1,7 @@
 <!DOCTYPE html><html>
 <title>docx2html</title>
 <head>
-  <script src="https://fastly.jsdelivr.net/gh/lalalic/docx2html/docs/index.js"></script>
-  <script>
-    function convert(input){
-      require("docx2html")
-        (input.files[0],
-         {container:document.querySelector("#container")})
-        .then(html=>{input.value="";});
-    }
-</script>
+  <script src="https://fastly.jsdelivr.net/npm/mammoth@1.4.8/mammoth.browser.min.js"></script>
 </head>
 <body>
   <div>
@@ -17,7 +9,23 @@
       <h2>select a docx to convert to html</h2>
       <input type="file" onchange="convert(this)"/>
     </center>
-    <div id="container" style="margin:10px;padding:10px;border:1px solid; text-align:left; min-height:1000px;"></div>
+    <div id="container"></div>
   </div>
+  <script>
+    var container = document.querySelector("#container");
+    function convert(input){
+      var files = input.files||[];
+      if (!files.length) return;
+      var file = files[0];
+      var reader = new FileReader();
+      reader.onloadend = function(event) {
+        var arrayBuffer = reader.result;
+        mammoth.convertToHtml({arrayBuffer: arrayBuffer}).then(function (resultObject) {
+          container.innerHTML = resultObject.value
+        });
+      }
+      reader.readAsArrayBuffer(file);
+    }
+  </script>
 </body>
 </html>
