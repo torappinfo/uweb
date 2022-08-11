@@ -1,7 +1,7 @@
 ### Uweb browser for android
 [中文](README.zh.md)
 
-[Uweb browser: updates, plugins and tips](https://torappinfo.github.io/uwebzh/en/)  
+[Uweb browser: updates, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [vercel](https://uweb-zh.vercel.app/en/)
 [netlify](https://uwebzh.netlify.app/en/)
 [pages](https://uwebzh.pages.dev/en/)

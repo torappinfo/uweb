@@ -7,7 +7,7 @@
 [stormkit](https://uweb.stormkit.dev/zh/)
 [surge](https://uweb.surge.sh/zh/)
 [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)
-[github](https://torappinfo.github.io/uwebzh/zh/))
+[github](https://torappinfo.github.io/uweb/zh/))
 
 - 微：不到200K。
 - 威：支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; html+js应用增强为本地应用。

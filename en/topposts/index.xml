@@ -105,7 +105,7 @@ Clear logcat::logcat -c</description>
       <guid>/en/rjs/</guid>
       <description>javascript for domains
 Global javascript files locates in the subfolder &amp;quot;js&amp;quot; of app private folder. Long press button [☰] to configure. Click the following links to install:
-&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/savePassword.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;Save password
+&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/savePassword.js:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;Save password
 Instant page
 large size javascript code can be installed to the folder &amp;quot;bookmarklet&amp;quot; (long pressing button &amp;quot;js&amp;quot; to popup menu):
 Eruda

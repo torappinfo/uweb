@@ -298,7 +298,7 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
       <description>gamezop
 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
 &amp;quot;小说.html&amp;quot;: 自动使用阅读模式
-href=&amp;quot;i:0hbookmark/txt.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/zh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
+href=&amp;quot;i:0hbookmark/txt.html:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
 所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
 Mirror list
 mirror.js.org
@@ -381,7 +381,7 @@ c[cssFlag]: For example, &amp;quot;c12&amp;quot; will apply the third and fourth
       <description>特定网址用户脚本
 全局脚本位于js子目录, 长按[☰]按钮配置。点击以下链
 接安装：
-&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
+&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
 极速网页
 大型脚本可安装到&amp;quot;bookmarklet&amp;quot;目录下（长按js按钮）：
 google翻译

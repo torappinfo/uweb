@@ -194,7 +194,7 @@ tgz install::toybox tar -xzf %f -C /
       <description>特定网址用户脚本
 全局脚本位于js子目录, 长按[☰]按钮配置。点击以下链
 接安装：
-&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
+&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
 极速网页
 大型脚本可安装到&amp;quot;bookmarklet&amp;quot;目录下（长按js按钮）：
 google翻译
