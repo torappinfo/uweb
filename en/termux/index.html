@@ -58,7 +58,7 @@
 <p>Using uweb to copy (Long pressing the following links and &quot;open in new tab&quot; to fix/send/receive):</p>
 <ul>
 <li>target device: install termux app.</li>
-<li>(optional)<a href="d::mkdir -p /data/data/com.termux/files/usr;cd /data/data/com.termux/files;mkdir home:">fix termux quick crash</a></li>
+<li>(optional)<a href="d::mkdir -p /data/data/com.termux/files/usr;cd /data/data/com.termux/files;mkdir -p home/.termux;cd home/.termux;ln -s /system/bin/sh shell:">fix termux quick crash</a></li>
 <li>source device: <a href="c:cd ..;/system/bin/toybox tar -czf - .|/system/bin/toybox nc -l -p 1500">send  termux installation</a></li>
 <li>target device: <a href="c:cd ..;/system/bin/toybox nc 1500|/system/bin/toybox tar -xzf -">receive termux installation</a></li>
 </ul>
