@@ -165,7 +165,7 @@ Click the following links to install termux configurations: .bashrc
 .inputrc
 z.sh
 commacd.sh
-Copy existing termux installation to other devices Using uweb to copy (Long pressing the following links and &amp;quot;open in new tab&amp;quot; to fix/send/receive):</description>
+.profile : only for kshell with naked termux (no initial packages, need the following fix for termux quick crash to be launched)</description>
     </item>
     
     <item>

@@ -24,7 +24,7 @@ let sa = [`<style>input{height:40px;width:100%;border-radius:50px;}</style>
 '&'+ f.fixed.value +
 '&'+ f.sansserif.value +
 '&'+ f.serif.value +
-':https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
+':https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
 
 
 let strs = text.split('\n');

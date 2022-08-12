@@ -193,11 +193,11 @@ trace.moe:https://trace.moe/?url=</description>
       <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.
 Configuration file &amp;quot;default.cmds&amp;quot; examples:
 Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
-VPN::am start -a android.net.vpn.SETTINGS
-wireless::am start -a android.settings.WIRELESS_SETTINGS
 Append query to autocomplete:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc
 Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache
-Clear logcat::logcat -c</description>
+Clear logcat::logcat -c
+logcat.log::logcat -d &amp;gt; logcat.log
+copy cookie:/clip:printf &#39;%c&#39;</description>
     </item>
     
     <item>
@@ -272,7 +272,7 @@ Click the following links to install termux configurations: .bashrc
 .inputrc
 z.sh
 commacd.sh
-Copy existing termux installation to other devices Using uweb to copy (Long pressing the following links and &amp;quot;open in new tab&amp;quot; to fix/send/receive):</description>
+.profile : only for kshell with naked termux (no initial packages, need the following fix for termux quick crash to be launched)</description>
     </item>
     
     <item>
