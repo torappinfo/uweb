@@ -73,8 +73,8 @@ Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is sam
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/changelog/</guid>
-      <description>903: Enhance html5 apps. (ex. mdict-js, a dictionary lookup app, works like native with minimal change)
-901: Use in-app files folder for configuration</description>
+      <description>908:
+Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer. Better support for naked Termux (without any initial packages with updateonly version). 903: Enhance html5 apps. (ex. mdict-js, a dictionary lookup app, works like native with minimal change)</description>
     </item>
     
     <item>
@@ -105,6 +105,7 @@ Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is sam
       
       <guid>/en/links/</guid>
       <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
+VPN
 Wait for network msg
 Certificate info
 Web fullscreen

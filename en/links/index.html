@@ -48,7 +48,8 @@
     
   </ul>
   <p>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):<br>
-<a href="i:0gdefault.link::Wait msg:i:1c%0A">Wait for network msg</a></p>
+<a href="i:0gdefault.link::vpn:i:1dandroid.net.vpn.SETTINGS:::%0A">VPN</a></p>
+<p><a href="i:0gdefault.link::Wait msg:i:1c%0A">Wait for network msg</a></p>
 <p><a href="i:0gdefault.link::Certificate info:i:1b%0A">Certificate info</a></p>
 <p><a href="i:0gdefault.link::web fullscreen: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">Web fullscreen</a></p>
 <p>Long pressing the bookmark button in <a href="../index.html">uweb browser</a> will popup menus defined in file &quot;default.link&quot;. The file format is as follows:<br>
@@ -134,6 +135,10 @@ Wait to receive url from the network and open the url.</p>
 <li>
 <p>i:1c1<br>
 Wait to receive url from the network and open the url (not showing ip)</p>
+</li>
+<li>
+<p>i:1d<action>:<type>:<Category>:<data><br>
+Launch app for specific <action>.</p>
 </li>
 <li>
 <p>i:50[path]:[string]<br>
