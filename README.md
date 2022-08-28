@@ -35,3 +35,11 @@ TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url
 ![](https://i.postimg.cc/HLV3TYLy/longclick.png)
 ![](https://i.postimg.cc/XJ58ysdN/option1.png)
 ![](https://i.postimg.cc/0NFnQT6H/option2.png)
+
+#### Help with localization
+We encourage everyone to help with localization. The following is how to do.
+
+- Fork this repository
+- Copy res/values/strings.xml to path like res/values-%(lang)/, replace %(lang) with [the ISO 639-1 language code](http://www.loc.gov/standards/iso639-2/php/code_list.php).
+- Translate app/src/main/res/values-%(lang)/strings.xml
+- Make a Pull Request

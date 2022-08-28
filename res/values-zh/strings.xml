@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="str_agree">同意</string>
+  <string name="str_disagree">不同意</string>
+  <string name="str_elua_info">在你使用本软件之前，请你务必阅读服务条款以及隐私政策。在确保您理解其内容含义后，再做出选择，一旦您选择了同意即代表您已经仔细阅读了用户协议并接受其内容条款。</string>
+  <string name="str_privacy">隐私政策</string>
+  <string name="str_tos">服务条款</string>
+  <string name="app_name">超微浏览器</string>
+  <string name="langid">zh</string>
+  <string name="enterUrl">网址|关键字</string>
+  <string name="m_save">保存在线网页/复制本地内容到目录</string>
+  <string name="hint_save">离线文件名/内部目录（一般留空）</string>
+  <string name="m_profile">切换账户</string>
+
+  <string name="m_append2file">添加到文件</string>
+  <string name="m_savefile">保存为文件</string>
+  <string name="m_addautoc">添加地址栏提示</string>
+  <string name="m_addbookmark">添加书签</string>
+  <string name="m_addnote">添加笔记</string>
+  <string name="m_addlink">添加为链接</string>
+  <string name="m_superbookmark">添加超级书签</string>
+  <string name="m_addquickstart">添加到快速访问</string>
+  <string name="m_shortcut">添加到桌面</string>
+  <string name="m_addengine">添加为搜索引擎</string>
+  <string name="m_clearhistory">⌫ 清空历史</string>
+  <string name="m_receivefile">接收文件</string>
+  <string name="m_savesitesettings">保存网站设置</string>
+  <string name="m_print">打印</string>
+
+  <string name="m_copyurl">复制链接</string>
+  <string name="m_share">分享</string>
+
+  <string name="lineeditor">编辑器</string>
+  
+  <string name="bm_reflow2">文本重排</string>
+  <string name="m_url2link">网址转链接</string>
+  <string name="bm_forcehtml">显示html</string>
+  <string name="bm_readermode">阅读模式</string>
+  <string name="bm_picturemode">图片模式</string>
+  <string name="bm_markAD">标记不良元素</string>
+  
+  <string name="bm_forcezoomable">强制缩放</string>
+  <string name="bm_sleep">等待2s</string>
+  <string name="bm_sleep4">等待4s</string>
+  <string name="bm_noevent">中断可疑事件</string>
+  <string name="bm_cleartimers">清空定时器</string>
+  <string name="bm_nobanner">移除横幅</string>
+  <string name="bm_nofloat">移除浮动元素</string>
+  <string name="bm_autofullscreen">自动全屏播放</string>
+  <string name="bm_fullscreenvideo">允许全屏视频</string>
+  
+  <string name="deletebookmark">删除</string>
+  <string name="move2top">移动到顶部/发送</string>
+  <string name="m_newtab">新窗口打开</string>
+  <string name="openinbackground">后台窗口打开</string>
+  <string name="download">下载</string>
+  
+  <string name="blockdomain">屏蔽根域名</string>
+  <string name="commands">命令</string>
+  
+  <string name="saveimage">保存图片</string>
+  <string name="copyimgurl">复制图片链接</string>
+  <string name="shareimg">分享图片</string>
+  <string name="imgurl">图片： </string>
+
+  <string name="blockpopup">拦截弹出窗口</string>
+  <string name="blockad">拦截不良信息</string>
+  <string name="block3rdpartyimg">拦截第三方脚本</string>
+  <string name="fullscreenvideo_clear">无干扰全屏播放</string>
+  <string name="floatingvideo">悬浮视频</string>
+  <string name="blockapp">禁止启动外部应用</string>
+  <string name="autoplay">允许自动播放</string>
+  <string name="cacheelsenetwork">缓存优先</string>
+  <string name="jsauto">激活用户脚本</string>
+  <string name="sitejs">执行网址用户脚本</string>
+  <string name="sitecss">使用网址用户样式</string>
+  <string name="siteextra">网址附加内容</string>
+  <string name="wideviewport">宽屏显示</string>
+  <string name="pageoverview">页面概览模式</string>
+  <string name="fullscreen">全屏显示</string>
+  <string name="transparent_statusbar">透明状态栏</string>
+  <string name="ressniffer">资源嗅探</string>
+  <string name="popup_videourl">弹出资源地址</string>
+  <string name="incognito">匿名模式</string>
+  <string name="disallow3rdpartycookie">禁止第三方cookie</string>
+  <string name="allowmixedcontent">允许混合内容</string>
+  <string name="useofflineres">使用离线资源</string>
+  <string name="redirecturl">自定义网址重定向</string>
+  <string name="redirectres">自定义资源重定向</string>
+  <string name="save_history">保存历史</string>
+  <string name="keepscreenon">屏幕保持常亮</string>
+  <string name="newtabinbackground">后台打开新窗口</string>
+  <string name="alwayssametab">同窗口打开链接</string>
+  <string name="alwaysnewtab">新窗口打开链接</string>
+  <string name="customfilehandling">文件预处理</string>
+  <string name="hide_bottommenu">底部下划隐藏工具栏</string>
+  <string name="site_config">使用网站设置</string>
+  <string name="config_internal">使用内部目录配置</string>
+  <string name="download_removable">下载至可卸式存储</string>
+  <string name="show_stderr">显示标准错误输出</string>
+
+  <string name="edittextm_clearpaste">清空粘贴</string>
+
+  <string name="restartapp">切换账户并重启浏览器</string>
+  <string name="hint_dir">书签路径（一般留空）</string>
+  <string name="hint_profile">账户标识（仅作区分用途）</string>
+  <string name="hint_username">用户名</string>
+  <string name="hint_passwd">密码</string>
+  <string name="sslcertificateerror">无效SSL证书</string>
+  <string name="installconfirm">确定要自动安装远程资源吗？\n</string>
+
+  <string name="background_color">护眼背景色</string>
+  <string name="address_bar_mode">地址栏功能</string>
+  <string name="useragent">应用标识(UA)</string>
+  <string name="defaultstr">默认</string>
+
+  <string name="global_css">全局样式</string>
+  <string name="global_js">全局脚本</string>
+  
+  <string name="css_invert">夜间模式</string>
+  <string name="css_unsetbg">强制护眼背景色</string>
+  <string name="css_nopseudo">禁用伪元素</string>
+  <string name="css_noiframe">禁用iframe</string>
+  <string name="css_onlyvideo">仅显示视频</string>
+  <string name="css_onlyimage">仅显示图片</string>
+  
+  <string name="toast_repeat_to_exit">再按返回退出浏览器</string>
+  <string name="msg_send2net">可保留此对话框并在10分钟内使用其它设备接收/发送。服务器地址为：</string>
+  <string name="msg_kill_process">终止发送</string>
+  <string name="serverip">服务器地址</string>
+</resources>

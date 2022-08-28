@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="str_agree">Agree</string>
+  <string name="str_disagree">Disagree</string>
+  <string name="str_elua_info"></string>
+  <string name="str_privacy">Privacy policy</string>
+  <string name="str_tos">Terms of service</string>
+
+  <string name="app_name">uWeb</string>
+  <string name="langid">en</string>
+  <string name="enterUrl">URL/keywords</string>
+  <string name="m_save">Save remote page as/Copy local to</string>
+  <string name="hint_save">Offline archive name/Internal folder (leave blank normally)</string>
+  <string name="m_profile">Switch Profile</string>
+
+  <string name="m_append2file">Append to file</string>
+  <string name="m_savefile">Save as file</string>
+  <string name="m_addautoc">Add to autocomplete</string>
+  <string name="m_addbookmark">Add bookmark</string>
+  <string name="m_addnote">Add notes</string>
+  <string name="m_addengine">Add as search engine</string>
+  <string name="m_addlink">Add as link</string>
+  <string name="m_superbookmark">Add superbookmark</string>
+  <string name="m_addquickstart">Add to quick start</string>
+  <string name="m_shortcut">Add shortcut</string>
+  <string name="m_clearhistory">⌫ Clear history</string>
+  <string name="m_receivefile">Receive file</string>
+  <string name="m_savesitesettings">Save site settings</string>
+  <string name="m_print">Print</string>
+
+  <string name="m_copyurl">Copy url</string>
+  <string name="m_share">Share</string>
+
+  <string name="lineeditor">Editor</string>
+  
+  <string name="bm_reflow2">Reflow</string>
+  <string name="m_url2link">URL to link</string>
+  <string name="bm_forcehtml">Show as html</string>
+  <string name="bm_readermode">Reader mode</string>
+  <string name="bm_picturemode">Picture mode</string>
+  <string name="bm_markAD">Mark AD mode</string>
+  
+  <string name="bm_forcezoomable">Force page resizable</string>
+  <string name="bm_sleep">Sleep 2s</string>
+  <string name="bm_sleep4">Sleep 4s</string>
+  <string name="bm_noevent">Stop events</string>
+  <string name="bm_cleartimers">Clear all timers</string>
+  <string name="bm_nobanner">Disable banners</string>
+  <string name="bm_nofloat">Disable floating ADs</string>
+  <string name="bm_fullscreenvideo">Enable fullscreen video</string>
+  <string name="bm_autofullscreen">Fullscreen autoplay</string>
+  
+  <string name="deletebookmark">Delete</string>
+  <string name="move2top">Move to the top/Send</string>
+  <string name="m_newtab">Open in new tab</string>
+  <string name="openinbackground">Open in background tab</string>
+  <string name="download">Download</string>
+
+  <string name="blockdomain">Block domain root</string>
+  <string name="commands">Commands</string>
+  
+  <string name="saveimage">Save image</string>
+  <string name="copyimgurl">Copy image link</string>
+  <string name="shareimg">Share image</string>
+  <string name="imgurl">Image: </string>
+
+  <string name="blockpopup">Block popups</string>
+  <string name="blockad">Block AD</string>
+  <string name="block3rdpartyimg">No 3rd party scripts</string>
+  <string name="fullscreenvideo_clear">No-AD fullscreen video</string>
+  <string name="floatingvideo">Floating video</string>
+  <string name="blockapp">Block external app</string>
+  <string name="autoplay">Allow autoplay</string>
+  <string name="cacheelsenetwork">Cache then network</string>
+  <string name="jsauto">Activate user script</string>
+  <string name="sitejs">Run user scripts</string>
+  <string name="sitecss">Apply user styles</string>
+  <string name="siteextra">Apply user extra</string>
+  <string name="wideviewport">Wide viewport</string>
+  <string name="pageoverview">Pages in overview</string>
+  <string name="fullscreen">Full screen</string>
+  <string name="transparent_statusbar">Transparent status</string>
+  <string name="ressniffer">Resource sniffer</string>
+  <string name="popup_videourl">Popup video urls</string>
+  <string name="incognito">Incognito Mode</string>
+  <string name="disallow3rdpartycookie">No 3rd party cookies</string>
+  <string name="allowmixedcontent">Allow mixed content</string>
+  <string name="useofflineres">Use offline resources</string>
+  <string name="redirecturl">Url redirection</string>
+  <string name="redirectres">Resource redirection</string>
+  <string name="save_history">Save history</string>
+  <string name="keepscreenon">Keep screen on</string>
+  <string name="newtabinbackground">Background new tab</string>
+  <string name="alwayssametab">Open in same tab</string>
+  <string name="alwaysnewtab">Open in new tab</string>
+  <string name="customfilehandling">Custom file handling</string>
+  <string name="hide_bottommenu">Swipe to hide tools</string>
+  <string name="site_config">Site settings</string>
+  <string name="config_internal">Use in-app config</string>
+  <string name="download_removable">Download to removable storage</string>
+  <string name="show_stderr">Show stderr output</string>
+
+  <string name="edittextm_clearpaste">✖ &amp; Paste</string>
+
+  <string name="restartapp">Switch profile and restart app</string>
+  <string name="hint_dir">Bookmark path</string>
+  <string name="hint_profile">Profile ID</string>
+  <string name="hint_username">Username</string>
+  <string name="hint_passwd">Password</string>
+  <string name="sslcertificateerror">Invalid SSL certificate</string>
+  <string name="installconfirm">Are you sure to install remote resource?\n</string>
+
+  <string name="background_color">Background color</string>
+  <string name="address_bar_mode">Address bar mode</string>
+  <string name="useragent">User agent</string>
+  <string name="defaultstr">Default</string>
+
+  <string name="global_css">Global CSS</string>
+  <string name="global_js">Global scripts</string>
+  
+  <string name="css_invert">Night mode</string>
+  <string name="css_unsetbg">Use system background</string>
+  <string name="css_nopseudo">Hide pseudo elements</string>
+  <string name="css_noiframe">Hide iframes</string>
+  <string name="css_onlyvideo">Videos only</string>
+  <string name="css_onlyimage">Images only</string>
+  
+  <string name="toast_repeat_to_exit">Press back again to Exit.</string>
+
+  <string name="msg_send2net">Keep this dialog and use uweb to receive/send. This server has ip address </string>
+  <string name="msg_kill_process">Stop service</string>
+  <string name="serverip">Server address</string>
+  
+  <string name="snifftypes">m3u8\nmkv\nmp3\n</string>
+</resources>
