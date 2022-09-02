@@ -1,0 +1,12 @@
+<head>
+<script type="text/javascript">
+  var langs = navigator.languages;
+  var href = location.href;
+  var i = href.lastIndexOf('/');
+  var base = href.substring(0,i+1);
+  for(var l in langs){
+    if(l.startsWith("en")) {location.href=base+"en/index.html";break;}
+    if(l.startsWith("zh")) {location.href=base+"zh/index.html";break;}
+  }
+</script>
+</head>
