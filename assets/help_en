@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" /><base href="https://uweb-zh.vercel.app/en/"><title>Manual</title></head><body>
+<center><h3>Manual</h3></center>
+
+<b>Frequently visited links::</b><br>
+<a href=".">Updates, plugins and tips</a> (
+<a href="https://torappinfo.github.io/uweb/en/">github</a>
+<a href="https://uweb-zh.vercel.app/en/">vercel</a>
+<a href="https://uwebzh.netlify.app/en/">netlify</a>
+<a href="https://uwebzh.pages.dev/en/">pages</a>
+<a href="https://uweb.stormkit.dev/en/">stormkit</a>
+<a href="https://uweb.surge.sh/en/">surge</a>
+<a href="https://jamesfengcao.gitlab.io/uweb/en/">gitlab</a>
+<a href="i:0mi:5h:https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html">Test mirror</a>
+<a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">Test mirror 2</a>
+<a href="https://uwebzh.onrender.com/en">render</a>
+)<br>
+
+<a href="i:61:https://fastly.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/func.html">UI configuration</a>(<a href="i:61:https://gitee.com/jamesfengcao/uweb/raw/master/en/searchurl/func.html">gitee</a>)<br>
+
+
+<a href="file:///data/data/info.torapp.uweb/files/">Configuration folder</a><br>
+<a href="file:///sdcard/Download/">Download</a><br>
+<a href="file:///data/data/info.torapp.uweb/files/offline/">Offline</a><br>
+<a href="file:///data/data/info.torapp.uweb/files/bookmark/">Classified bookmarks</a><br>
+<a href="file:///data/data/info.torapp.uweb/files/sbookmark/">Super bookmarks</a><br>
+<a href="file:///data/data/info.torapp.uweb/files/">App internal folder</a><br>
+<a href="file:///sdcard/Download/uweb.log">Error log</a><br>
+
+<a href="https://github.com/uweb">Project home</a><br>
+<br>
+
+<b>Use multiple engines::</b><br>
+Type in main screen input or address bar, then click on any search engine.<br>
+<br>
+
+<b>Toolbar::</b><br>
+Swipe down at top or swipe at any bottom corner to show.<br>
+<ul>
+  <li>[⟳]  reload/stop web page; long press for <a href=#spinneroptions>options</a>.</li>
+  <li><- : long press for auto page turning</li>
+  <li>-> : long press for app menu.</li>
+  <li>Settings: long press for <a href=#options>options</a>.</li>
+  <li>[□] tab management: long pressed to configure <a href="file:///data/data/info.torapp.uweb/files/js/">global javascripts</a>.</li>
+  <li>Home screen: long press for new tab. </li>
+  <li>[☰] more tools; long press for <a href="file:///data/data/info.torapp.uweb/files/css/">global css</a>.</li>
+</ul>
+
+<b>More tools::</b><br>
+<ul>
+<li>[PC] fake as desktop PC; long press for <a href=file:///data/data/info.torapp.uweb/files/default.uas>more UAs</a>.</li>
+<li>[JS] disable/enable javascript; long press for <a href="file:///data/data/info.torapp.uweb/files/bookmarklet/">more javascripts</a>.</li>
+<li>[IMG] hide/show images; long press for <a href=file:///data/data/info.torapp.uweb/files/default.urls>more services</a>. </li>
+  <li>[✰] add bookmark; long press for <a href=file:///data/data/info.torapp.uweb/files/default.select>operations on selected texts</a>.</li>
+  <li>[⌚] history, long press for <a href=file:///data/data/info.torapp.uweb/files/default.cmds>user defined commands</a>. </li>
+<li>Search: long press for <a href=file:///data/data/info.torapp.uweb/files/default.rjs>remote scripts</a>.</li>
+<li>Copy link, long press for <a href=file:///data/data/info.torapp.uweb/files/default.select>menus for text selection</a>.</li>
+<li>Exit browser.</li>
+<li>Go to the bottom.</li>
+<li>Go to the top.</li>
+<li>Speak: non-url address bar texts/selected texts/whole web page.</li>
+<li>Share the url: share clipboard text when in home screen, otherwise share the page url.</li>
+<li>Text reflow.</li>
+<li>Download/Copy local files.</li>
+<li>Switch profile.</li>
+</ul>
+
+<b><a id="options">Options</a>::</b><br>
+Long press "settings" button to configure options.
+<ul>
+<li>adblock: block all subdomains.<br>
+  Need hosts file <a href=file:///data/data/info.torapp.uweb/files/default.hosts>default.hosts</a>.
+</li>
+<li>Activate user script: when activated, the script will be run on similiar sites, until another script is activated or app exits.</li>
+<li><a href="http://jamesfengcao.gitee.io/uweb/sitejs/">Run user scripts for sites</a>.</li>
+<li>Resource sniffer: Show results when deselected. Use file <a href=file:///data/data/info.torapp.uweb/files/types.sniff>types.sniff</a> to sniff specified file types. Empty file to sniff all kinds.</li>
+</ul>
+
+</body></html>
