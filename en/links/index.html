@@ -100,11 +100,14 @@ Socks proxy</p>
 <ul>
 <li>
 <p>i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]<br>
-Visiting url and execute the uweb browser internal bookmarklet, [bookmarklet index] must have at least two digits. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ...</p>
-<ul>
-<li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
-<li>All other cases will be treated as prefix, the real visited url is &quot;[prefix]+url&quot;.</li>
-</ul>
+Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</p>
+</li>
+<li></li>
+<li>
+<p>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</p>
+</li>
+<li>
+<p>All other cases will be treated as prefix, the real visited url is &quot;[prefix]+url&quot;.</p>
 </li>
 <li>
 <p>i:15[string]<br>

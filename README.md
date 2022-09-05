@@ -1,7 +1,8 @@
-### Uweb browser for android
+### Uweb browser for geeks: tiny and powerful
 [中文](README.zh.md)
+[Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 
-[Uweb browser: updates, plugins and tips](https://torappinfo.github.io/uweb/en/)  
+[Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [vercel](https://uweb-zh.vercel.app/en/)
 [netlify](https://uwebzh.netlify.app/en/)
 [pages](https://uwebzh.pages.dev/en/)

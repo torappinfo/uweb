@@ -1,30 +1,33 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" /><base href="https://uweb-zh.vercel.app/zh/"><title>使用攻略</title></head><body>
-<center><h3>使用攻略</h3></center>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" /><base href="https://uwebzh.netlify.app/zh/"><title>使用攻略</title></head><body>
+<center><b>使用攻略</b> <a href="https://jamesfengcao.gitlab.io/uweb/assets/help_en">English</a></center>
 <p>访问以下网站并点击网页内部功能链接可扩充浏览器功能。<br>
   <a href=".">更新、插件、设置及使用技巧</a> (
 <a href="https://uwebzh.netlify.app/zh/">netlify</a>
-<a href="https://uwebzh.pages.dev/zh/">pages</a>
 <a href="https://uweb.stormkit.dev/zh/">stormkit</a>
 <a href="https://uweb.surge.sh/zh/">surge</a>
 <a href="https://jamesfengcao.gitlab.io/uweb/zh/">gitlab</a>
 <a href="https://torappinfo.github.io/uweb/zh/">github</a>
-<a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验镜像</a>
-<a href="i:0m04:https://code.aliyun.com/torappinfo/uweb/raw/master/redirect.html">试验镜像2</a>
-<a href="i:0m04:https://gitcode.net/spoony1971/uweb/-/raw/master/redirect.html">试验镜像3</a>
-<a href="i:0mi:5h:https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html">试验镜像4</a>
+<a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验</a>
+<a href="i:0m04:https://code.aliyun.com/torappinfo/uweb/raw/master/redirect.html">试验2</a>
+<a href="i:0m04:https://gitcode.net/spoony1971/uweb/-/raw/master/redirect.html">试验3</a>
+<a href="i:0mi:5h:https://jihulab.com/torappinfo/uweb/-/raw/master/redirect.html">试验4</a>
+<a href="i:0m04:https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html">试验5</a>
+<a href="i:0mi:5h:https://git.launchpad.net/uweb/plain/redirect.html">试验6</a>
+<a href="i:0mi:5h:https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html">试验7</a>
 <a href="https://uweb-zh.vercel.app/zh/">vercel</a>
+<a href="https://uwebzh.pages.dev/zh/">pages</a>
 )<br>
   <i>高级用户: 点击本页面文件名链接弹出文本编辑器，部分链接为文件目录，长按可显示目录路径; 如果目录存在，点击可进入。创建目录并放入指定类型的文件，可以扩展浏览器功能。</i></p>
 <b>常用链接::</b><br>
 <a href="i:61:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/func.html">界面配置及杂项</a>(<a href="i:61:https://gitee.com/jamesfengcao/uweb/raw/master/zh/searchurl/func.html">gitee镜像</a>)<br>
 <a href="i:60/data/data/info.torapp.uweb/files/config.html:https://gitee.com/jamesfengcao/uweb/raw/master/zh/searchurl/config.html">高级个性化定制</a><br>
-<a href="file:///data/data/info.torapp.uweb/files/">内部目录</a><br>
-<a href="file:///sdcard/Download/">下载</a><br>
-<a href="file:///data/data/info.torapp.uweb/files/offline/">离线网页</a><br>
-<a href="file:///data/data/info.torapp.uweb/files/bookmark/">分类书签</a><br>
-<a href="file:///data/data/info.torapp.uweb/files/sbookmark/">超级书签</a><br>
+<a target="_blank" href="file:///data/data/info.torapp.uweb/files/">内部目录</a><br>
+<a target="_blank" href="file:///sdcard/Download/">下载</a><br>
+<a target="_blank" href="file:///data/data/info.torapp.uweb/files/offline/">离线网页</a><br>
+<a target="_blank" href="file:///data/data/info.torapp.uweb/files/bookmark/">分类书签</a><br>
+<a target="_blank" href="file:///data/data/info.torapp.uweb/files/sbookmark/">超级书签</a><br>
 
-<a href="file:///sdcard/Download/uweb.log">出错报告</a><br>
+<a target="_blank" href="file:///sdcard/Download/uweb.log">出错报告</a><br>
 <a href="https://gitee.com/jamesfengcao/uweb">项目主页</a><br>
 <a target="_blank" href="data:text/html;charset=utf-8,<body contenteditable%3E">空白便签</a><br>
 <br>
@@ -50,15 +53,15 @@
   <li>后退: 长按智能翻页。</li>
   <li>前进: 无前进历史时智能翻页。长按弹出系统菜单。</li>
   <li>设置: 长按显示<a href=#options>系统设置</a>。</li>
-  <li>[□] 窗口管理；长按打开<a href="file:///data/data/info.torapp.uweb/files/css/">全局用户css样式选项</a>。</li>
+  <li>[□] 窗口管理；长按打开<a target="_blank" href="file:///data/data/info.torapp.uweb/files/css/">全局用户css样式选项</a>。</li>
   <li>主屏，长按打开新窗口。</li>
-  <li>[☰] 更多工具；长按弹出<a href="file:///data/data/info.torapp.uweb/files/js/">全局js脚本设置</a>。</li>
+  <li>[☰] 更多工具；长按弹出<a target="_blank" href="file:///data/data/info.torapp.uweb/files/js/">全局js脚本设置</a>。</li>
 </ul>
 
 更多工具:
 <ul>
   <li>[PC] 伪装成桌面浏览器；长按则在左上角弹出菜单显示更多<a href=file:///data/data/info.torapp.uweb/files/default.uas>用户配置UA</a>。</li>
-  <li>[JS] 关闭/打开javascript支持；长按显示<a href="file:///data/data/info.torapp.uweb/files/bookmarklet/">更多脚本功能</a>。</li>
+  <li>[JS] 关闭/打开javascript支持；长按显示<a target="_blank" href="file:///data/data/info.torapp.uweb/files/bookmarklet/">更多脚本功能</a>。</li>
   <li>[IMG] 关闭/打开图像显示；长按显示更多<a href=file:///data/data/info.torapp.uweb/files/default.urls>特色服务</a>。<a href="urls.html">攻略</a></li>
   <li>[✰] 添加书签；长按显示常用链接。<a href="links.html">攻略</a></li>
   <li>[⌚] 访问历史，长按显示<a href=file:///data/data/info.torapp.uweb/files/default.cmds>预定义命令</a>菜单。<a href="cmd/">攻略</a></li>
@@ -110,7 +113,7 @@
 <b>高级配置::</b>
 <ul>
   <li>如果存在文件<a href=file:///data/data/info.torapp.uweb/files/home5.html>home5.html</a>，就以此为主屏。</li>
-  <li>运行用户javascript： 长按底部工具条[JS]按钮则弹出菜单显示<a href="file:///data/data/info.torapp.uweb/files/bookmarklet/">bookmarklet</a>目录下所有js文件供用户挑选执行。</li>
+  <li>运行用户javascript： 长按底部工具条[JS]按钮则弹出菜单显示<a target="_blank" href="file:///data/data/info.torapp.uweb/files/bookmarklet/">bookmarklet</a>目录下所有js文件供用户挑选执行。</li>
   <li>用户代理(user agent)配置： <a href=file:///data/data/info.torapp.uweb/files/default.uas>default.uas</a>。文件每行以回车结尾，格式为：<br>
     [UA名]:[UA字符串]</li>
   <li><a href="search.html">搜索引擎配置</a>： <a href=file:///data/data/info.torapp.uweb/files/home5.search>home5.search</a>。文件每行以回车结尾，格式为：<br>
