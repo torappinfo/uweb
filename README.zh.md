@@ -1,12 +1,16 @@
 ### 超微浏览器: 微、威、快、高效、极致优化
 [English](README.md)
 
+[Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
+
 [超微浏览器下载及使用技巧](https://uwebzh.netlify.app/zh/)
-(Mirrors: [netlify](https://uwebzh.netlify.app/zh/)
+(Mirrors:
+[bitbucket](https://torappinfo.bitbucket.io/zh/)
+[gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)
+[netlify](https://uwebzh.netlify.app/zh/)
 [pages](https://uwebzh.pages.dev/zh/)
 [stormkit](https://uweb.stormkit.dev/zh/)
 [surge](https://uweb.surge.sh/zh/)
-[gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)
 [github](https://torappinfo.github.io/uweb/zh/)
 [vercel](https://uweb-zh.vercel.app/zh/))
 

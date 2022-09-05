@@ -1,10 +1,12 @@
 ### Uweb browser for geeks: tiny and powerful
 [中文](README.zh.md)
+
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [vercel](https://uweb-zh.vercel.app/en/)
 [netlify](https://uwebzh.netlify.app/en/)
+[bitbucket](https://torappinfo.bitbucket.io/en/)
 [pages](https://uwebzh.pages.dev/en/)
 [stormkit](https://uweb.stormkit.dev/en/)
 [surge](https://uweb.surge.sh/en/)
@@ -43,5 +45,5 @@ We encourage everyone to help with localization. The following is how to do.
 - Fork this repository
 - Copy res/values/strings.xml to path like res/values-%(lang)/, replace %(lang) with [the ISO 639-1 language code](http://www.loc.gov/standards/iso639-2/php/code_list.php).
 - Translate res/values-%(lang)/strings.xml
-- Translate assets/help_%(lang) from assets/help_en
+- Translate assets/help_%(lang).html from assets/help_en.html
 - Make a Pull Request
