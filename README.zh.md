@@ -7,6 +7,7 @@
 (Mirrors:
 [bitbucket](https://torappinfo.bitbucket.io/zh/)
 [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)
+[repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
 [netlify](https://uwebzh.netlify.app/zh/)
 [pages](https://uwebzh.pages.dev/zh/)
 [stormkit](https://uweb.stormkit.dev/zh/)
