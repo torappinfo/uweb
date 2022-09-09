@@ -4,13 +4,16 @@
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
-(Mirrors: [vercel](https://uweb-zh.vercel.app/en/)
+(Mirrors: 
 [netlify](https://uwebzh.netlify.app/en/)
+[gitlab](https://jamesfengcao.gitlab.io/uweb/en/)
 [bitbucket](https://torappinfo.bitbucket.io/en/)
+[repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html)
 [pages](https://uwebzh.pages.dev/en/)
+[vercel](https://uweb-zh.vercel.app/en/)
+[codeberg](https://jamesfengcao.codeberg.page/en/)
 [stormkit](https://uweb.stormkit.dev/en/)
 [surge](https://uweb.surge.sh/en/)
-[gitlab](https://jamesfengcao.gitlab.io/uweb/en/)
 [render](https://uwebzh.onrender.com/en/)
 )
 

@@ -98,12 +98,15 @@ Socks proxy</p>
 </ul>
 <h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
 <ul>
-<li>i:0m[bookmarklet index|prefix?postfix|c[cssFlag]]:[url]<br>
+<li>i:0m[bookmarklet index|prefix?postfix|/regex/replacement|c[cssFlag]]:[url]<br>
 Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</li>
 <li></li>
 </ul>
 <p>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</p>
 <ul>
+<li>
+<p>/regex/replacement: for [url], replace all matched regular expression &quot;regex&quot; with &quot;replacement&quot;.</p>
+</li>
 <li>
 <p>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</p>
 </li>
