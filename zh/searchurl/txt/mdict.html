@@ -78,27 +78,26 @@
       let dictinput = document.getElementById('dictfile');
       let wordinput = document.getElementById('word');
       let btnLookup = document.getElementById('btnLookup');
-      let v = location.hash.substring(6);
-      wordinput.value = v;
-      window.onhashchange = function() {
-        let v = location.hash.substring(6);
-        if(v.length>0){
-          wordinput.value = v;
-          //wordinput.dispatchEvent(new Event('change', {'bubbles': true}));
-          btnLookup.click();
-        }
-      };
 
-      //dictinput.onClick = {(e)=>{e.target.value="";}};
       window.onload = function() {
+        let v = location.hash.substring(6);
+        wordinput.value = v;
+
         let filenames = location.search.substring(6);
         if(filenames.length>0){
           dictinput.setAttribute('accept',filenames);
           location.href="i:5fdictinput.click()";
-          //setTimeout(()=>{location.href="i:5fdictinput.click();"},100);
-          //setTimeout(()=>{location.href="i:5fdictinput.click();"},300);
           setTimeout(()=>{dictinput.dispatchEvent(new Event('change'));dictinput.removeAttribute('accept')},500);
         }
+        window.onhashchange = function() {
+          let v = location.hash.substring(6);
+          if(v.length>0){
+            wordinput.value = v;
+            //wordinput.dispatchEvent(new Event('change', {'bubbles': true}));
+            btnLookup.click();
+          }
+        };
+
       }
     </script>
   </body>
