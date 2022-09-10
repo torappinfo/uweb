@@ -90,14 +90,16 @@
       };
 
       //dictinput.onClick = {(e)=>{e.target.value="";}};
-      let filenames = location.search.substring(6);
-      if(filenames.length>0){
-        dictinput.setAttribute('accept',filenames);
-        setTimeout(()=>{location.href="i:5fdictinput.click();"},100);
-        setTimeout(()=>{location.href="i:5fdictinput.click();"},300);
-        setTimeout(()=>{dictinput.dispatchEvent(new Event('change'));dictinput.removeAttribute('accept')},500);
+      window.onload = function() {
+        let filenames = location.search.substring(6);
+        if(filenames.length>0){
+          dictinput.setAttribute('accept',filenames);
+          location.href="i:5fdictinput.click()";
+          //setTimeout(()=>{location.href="i:5fdictinput.click();"},100);
+          //setTimeout(()=>{location.href="i:5fdictinput.click();"},300);
+          setTimeout(()=>{dictinput.dispatchEvent(new Event('change'));dictinput.removeAttribute('accept')},500);
+        }
       }
-      
     </script>
   </body>
 </html>
