@@ -297,6 +297,22 @@
                 href="/en/icons/"
                 />
   </url><url>
+    <loc>/en/tags/search-engine/</loc>
+    <lastmod>2022-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/searchcat/</loc>
+    <lastmod>2022-01-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/searchcat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/searchcat/"
+                />
+  </url><url>
     <loc>/en/termux/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>

@@ -439,6 +439,16 @@
     <loc>/zh/tvlive/</loc>
   </url><url>
     <loc>/zh/searchcat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/searchcat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/searchcat/"
+                />
   </url><url>
     <loc>/zh/hosts/</loc>
   </url><url>

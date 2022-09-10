@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Search engine files</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Search engine files
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/search%20engine">search engine</a> </li>
+    
+  </ul>
+  <p>Any &quot;.search&quot; file can be opened as search engine file, each line of which has one of the following formats:<br>
+[Engine name]:[url without '%s' inside]<br>
+[Engine name]:[url with '%s' as keyword]<br>
+[Engine name]:POST:[post params with '%s' as keyword]:[url]</p>
+<p>Limitations (they are here for performance reasons):</p>
+<ul>
+<li>The first engine in the file must be the first type that has no '%s' in the engine url.</li>
+<li>Internal scheme engine urls (such as i:, d:, c:) must have '%s', since '%s' format is more general (only type 2 is allowed, since POST makes no sense for internal schemes).</li>
+</ul>
+<h4 id="local-engines">Local engines</h4>
+<p>c:[command line with '%s' as keyword]<br>
+d:mimetype:[command line with '%s' as keyword]:[base url for external resources]</p>
+
+</div>
+
+  </body>
+</html>

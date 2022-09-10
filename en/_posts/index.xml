@@ -153,6 +153,20 @@ If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also 
     </item>
     
     <item>
+      <title>Search engine files</title>
+      <link>/en/searchcat/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/searchcat/</guid>
+      <description>Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:
+[Engine name]:[url without &#39;%s&#39; inside]
+[Engine name]:[url with &#39;%s&#39; as keyword]
+[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]
+Limitations (they are here for performance reasons):
+The first engine in the file must be the first type that has no &#39;%s&#39; in the engine url. Internal scheme engine urls (such as i:, d:, c:) must have &#39;%s&#39;, since &#39;%s&#39; format is more general (only type 2 is allowed, since POST makes no sense for internal schemes).</description>
+    </item>
+    
+    <item>
       <title>Termux</title>
       <link>/en/termux/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
