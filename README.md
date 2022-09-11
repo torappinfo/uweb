@@ -1,5 +1,5 @@
 ### Uweb browser for geeks: tiny and powerful
-[中文](README.zh.md)
+[中文](README.zh_Hans.md)
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 
