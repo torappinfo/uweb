@@ -203,6 +203,22 @@
                 href="/en/rjs/"
                 />
   </url><url>
+    <loc>/en/tags/redirection/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/redirect/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/redirect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/redirect/"
+                />
+  </url><url>
     <loc>/en/tags/clipboard/</loc>
     <lastmod>2022-04-23T00:00:00+00:00</lastmod>
   </url><url>

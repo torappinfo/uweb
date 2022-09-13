@@ -111,6 +111,22 @@ Enable selection</description>
     </item>
     
     <item>
+      <title>Resource redirection</title>
+      <link>/en/redirect/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/redirect/</guid>
+      <description>Click the following links to append mirrors to the file &amp;quot;default.redirect&amp;quot;:
+github mirror:fastgit
+github mirror 2
+google recaptcha mirror
+Each line of the file &amp;quot;default.redirect&amp;quot; has the following format:
+[domain name]:[regular expression]:[replacement expression]
+in which &amp;quot;[regular expression]&amp;quot; is as defined by java language, and cannot have &amp;quot;:&amp;quot; inside; if empty, it defaults to be same as &amp;quot;[domain name]&amp;quot;.
+Ways to enable redirection: Long the image button。 Long pressing the setting button, enable the option &amp;quot;url redirection&amp;quot;.</description>
+    </item>
+    
+    <item>
       <title>Text selection</title>
       <link>/en/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>

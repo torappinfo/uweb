@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redirection on </title>
+    <link>/en/tags/redirection/</link>
+    <description>Recent content in redirection on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/redirection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resource redirection</title>
+      <link>/en/redirect/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/redirect/</guid>
+      <description>Click the following links to append mirrors to the file &amp;quot;default.redirect&amp;quot;:
+github mirror:fastgit
+github mirror 2
+google recaptcha mirror
+Each line of the file &amp;quot;default.redirect&amp;quot; has the following format:
+[domain name]:[regular expression]:[replacement expression]
+in which &amp;quot;[regular expression]&amp;quot; is as defined by java language, and cannot have &amp;quot;:&amp;quot; inside; if empty, it defaults to be same as &amp;quot;[domain name]&amp;quot;.
+Ways to enable redirection: Long the image button。 Long pressing the setting button, enable the option &amp;quot;url redirection&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Resource redirection</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Resource redirection
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/redirection">redirection</a> </li>
+    
+  </ul>
+  <p>Click the following links to append mirrors to the file &quot;default.redirect&quot;:<br>
+<a href="i:0gdefault.redirect::github.com::hub.fastgit.xyz%0A">github mirror:fastgit</a><br>
+<a href="i:0gdefault.redirect::github.com::hub.0z.gs%0A">github mirror 2</a></p>
+<p><a target="_self" href="i:0gdefault.redirect:http://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/txt/redirect.cfg">google recaptcha mirror</a></p>
+<p>Each line of the file &quot;default.redirect&quot; has the following format:<br>
+[domain name]:[regular expression]:[replacement expression]</p>
+<p>in which &quot;[regular expression]&quot; is as defined by java language, and cannot have &quot;:&quot; inside; if empty, it defaults to be same as &quot;[domain name]&quot;.</p>
+<h4 id="ways-to-enable-redirection">Ways to enable redirection:</h4>
+<ul>
+<li><a href="../urls/index.html">Long the image button</a>。</li>
+<li>Long pressing the setting button, enable the option &quot;url redirection&quot;.</li>
+<li>Long pressing the setting button, enable the option &quot;Resource redirection&quot;.</li>
+</ul>
+
+</div>
+
+  </body>
+</html>
