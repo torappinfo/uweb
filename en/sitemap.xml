@@ -203,6 +203,19 @@
                 href="/en/rjs/"
                 />
   </url><url>
+    <loc>/en/offlinecache/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/offlinecache/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/offlinecache/"
+                />
+  </url><url>
     <loc>/en/tags/redirection/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>

@@ -111,6 +111,15 @@ Enable selection</description>
     </item>
     
     <item>
+      <title>Offline resources</title>
+      <link>/en/offlinecache/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/offlinecache/</guid>
+      <description>Corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, &#39;?&#39; , &#39;&amp;amp;&#39; , &#39;=&#39;. exactly as url]&amp;quot; are loaded with option &amp;quot;use offline resources&amp;quot;.</description>
+    </item>
+    
+    <item>
       <title>Resource redirection</title>
       <link>/en/redirect/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>

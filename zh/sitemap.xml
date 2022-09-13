@@ -495,5 +495,15 @@
     <loc>/zh/tags/%E4%B8%8B%E8%BD%BD/</loc>
   </url><url>
     <loc>/zh/offlinecache/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/offlinecache/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/offlinecache/"
+                />
   </url>
 </urlset>
