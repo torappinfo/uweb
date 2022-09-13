@@ -21,7 +21,7 @@ dplayer video player
 pdf viewer
 epub reader (author：llili)
 djvu viewer
-The corresponding menu can be installed with url services.
+The corresponding menus can be installed with url services.
 Features The following mentioned subfolders locate in the configuration folder.
 All html5 applications locating in a subfolder whose name begins with &amp;quot;app&amp;quot; (such as &amp;quot;appPDF&amp;quot;) are allowed to read local files.</description>
     </item>

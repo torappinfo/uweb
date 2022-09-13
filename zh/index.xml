@@ -88,7 +88,7 @@ novip:https://www.novipnoad.com/s=
       
       <guid>/zh/html5/</guid>
       <description>mdict字典搜索引擎:
-i:5ihttps://uweb-zh.vercel.app/zh/searchurl/txt/mdict.html?file=./mdict/xxx.mdx,./mdict/xxx.mdd#word=
+i:5ihttps://uwebzh.netlify.app/zh/searchurl/txt/mdict.html?file=mdict/xxx.mdx,mdict/xxx.mdd#word=
 字典文件必须位于配置目录应用子目录&amp;quot;app&amp;quot;下。上述字典搜索引擎例子中文件&amp;quot;xxx.mdx&amp;quot;及&amp;quot;xxx.mdd&amp;quot;位于&amp;quot;.../app/mdict&amp;quot;下。
 点击安装超大文件阅读器（支持txt, html, markdown）
 点击安装超大文件阅读器（markdeep版, latex, diagram,graphviz等）
