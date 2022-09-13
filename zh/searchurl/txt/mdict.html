@@ -89,7 +89,7 @@
       };
 
       {
-        let v = location.hash.substring(6);
+        let v = decodeURIComponent(location.hash.substring(6));
         wordinput.value = v;
       }
       
@@ -97,6 +97,7 @@
         let filenames = location.search.substring(6);
         window.onload = function(){
         if(filenames.length>0){
+          filenames = decodeURIComponent(filenames);
           let clickurl = "i:5fdictinput.click():"+filenames;
           location.href=clickurl;
           //setTimeout(()=>{dictinput.dispatchEvent(new Event('change', {'bubbles': true}));},100);
