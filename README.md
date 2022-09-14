@@ -1,4 +1,4 @@
-### Uweb browser for geeks: tiny and powerful
+### Uweb browser for geeks: unlimited power with html5 & termux
 [中文](README.zh-Hans.md)
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
