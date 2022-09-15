@@ -90,6 +90,7 @@ Click to install the following html5 apps:<br>
 <h4 id="mdict-dictionary-lookup-search-engine">mdict dictionary lookup search engine:</h4>
 <p>i:5ihttps://uwebzh.netlify.app/zh/searchurl/txt/mdict.html?file=mdict/xxx.mdx,mdict/xxx.mdd#word=%s</p>
 <p>The dictionary files (mdx, mdd) must locate in the &quot;app&quot; subfolder under the configuration folder. In above example, the files &quot;xxx.mdx&quot; and &quot;xxx.mdd&quot; locate in the folder &quot;.../app/mdict&quot;.</p>
+<p>To make life easier, users can <a href="../acmd/index.html">link the &quot;app&quot; subfolder</a> to any public accessible folder.</p>
 <p><a href="i:15d:text/plain:cd /data/data/info.torapp.uweb/files/app/mdict;for i in *.mdx; do b=`basename ${i} .mdx`;fs=%22./mdict/${i}%22;if [ -f ${b}.mdd ];then fs=${fs}%22,./mdict/${b}.mdd%22;fi;echo ${b}:i:5ihttps://uwebzh.netlify.app/zh/searchurl/txt/mdict.html?file=${fs}#word=%25s >>../../home5.search;done:">Clip to paste commands to the address bar</a>, the commands scan mdx/mdd files under app/mdict and add search engines to home screen.</p>
 <p>After pasting the command to the address bar, press home screen button, then press &quot;enter&quot; on the address bar to execute the command.</p>
 
