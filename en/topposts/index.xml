@@ -5,7 +5,22 @@
     <link>/en/topposts/</link>
     <description>Recent content in Topposts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/topposts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/topposts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Downloads &amp; change logs</title>
+      <link>/en/changelog/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/changelog/</guid>
+      <description>Amazon appstore
+uweb, termux &amp;amp; history versions
+github
+sourceforge
+Change logs 917:
+re-implement html5 enhancement for better mdict lookup support. 908:
+Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer. Better support for naked Termux (without any initial packages with updateonly version).</description>
+    </item>
+    
     <item>
       <title>Search engines</title>
       <link>/en/search/</link>
@@ -33,16 +48,6 @@ Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is sam
       
       <guid>/en/sitemap/</guid>
       <description>UI Search engines UI (gitee) Customization Long pressing menus for toolbar buttons User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Address bar command modes Font settings Advanced Content AD blocking CSS styles Redirection Offline cache Javascript and CSS for domains Tools Bookmarklets Custom file handling Html5 application Termux Miscellaneous Configuration files Tips Manual </description>
-    </item>
-    
-    <item>
-      <title>Change log</title>
-      <link>/en/changelog/</link>
-      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/changelog/</guid>
-      <description>908:
-Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer. Better support for naked Termux (without any initial packages with updateonly version). 903: Enhance html5 apps. (ex. mdict-js, a dictionary lookup app, works like native with minimal change)</description>
     </item>
     
     <item>

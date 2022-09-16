@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
+                />
+  </url><url>
+    <loc>/en/changelog/</loc>
+    <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/topposts/</loc>
+    <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/"
                 />
   </url><url>
     <loc>/en/_posts/</loc>
@@ -57,19 +73,6 @@
                 href="/en/search/"
                 />
   </url><url>
-    <loc>/en/topposts/</loc>
-    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/topposts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/topposts/"
-                />
-  </url><url>
     <loc>/en/sitemap/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -82,9 +85,6 @@
                 hreflang="en"
                 href="/en/sitemap/"
                 />
-  </url><url>
-    <loc>/en/changelog/</loc>
-    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/filenames/</loc>
     <lastmod>2022-06-30T00:00:00+00:00</lastmod>
