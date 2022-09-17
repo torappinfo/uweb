@@ -209,6 +209,20 @@ commacd.sh
     </item>
     
     <item>
+      <title>Tips</title>
+      <link>/en/tips/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tips/</guid>
+      <description>Configuration folder and file managers
+With shell command mode, configuration folders can be symbolic linked to other public folders or managed by 3rd party file managers via termux.
+To show web pages in desktop mode:
+PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
+Multiple home screens and Next/Prev page:
+home5.html, home6.html/home6.search, home7.html/home7.search, ... can be visited via pressing the right arrow button while home4.html/home4.search, home3.html/home3.search ... with long pressing the left arrow.</description>
+    </item>
+    
+    <item>
       <title>Long pressed link menu</title>
       <link>/en/longclick/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>

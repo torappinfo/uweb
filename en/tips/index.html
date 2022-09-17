@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/uwebzh/style.css" type="text/css" />
+    <title>Tips</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Tips
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p><strong>Configuration folder and file managers</strong><br>
+With <a href="../../en/acmd/index.html">shell command mode</a>, configuration folders can be symbolic linked to other public folders or managed by 3rd party file managers via termux.</p>
+<p><strong>To show web pages in desktop mode</strong>:<br>
+PC button + option &quot;wide viewport&quot; + global js &quot;force page resizable&quot;.</p>
+<p><strong>Multiple home screens and Next/Prev page</strong>:<br>
+home5.html, home6.html/home6.search, home7.html/home7.search, ... can be visited via pressing the right arrow button while home4.html/home4.search, home3.html/home3.search ... with long pressing the left arrow.</p>
+
+</div>
+
+  </body>
+</html>

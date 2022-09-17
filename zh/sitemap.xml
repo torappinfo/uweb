@@ -343,6 +343,16 @@
   </url><url>
     <loc>/zh/tips/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tips/"
+                />
   </url><url>
     <loc>/zh/tcron/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>

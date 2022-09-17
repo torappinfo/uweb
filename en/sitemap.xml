@@ -345,6 +345,19 @@
     <loc>/en/termux/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/en/tips/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tips/"
+                />
+  </url><url>
     <loc>/en/longclick/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
     <xhtml:link

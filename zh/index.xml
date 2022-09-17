@@ -621,7 +621,9 @@ http://www.numbertheory.org/gnubc/gnubc.html
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>/zh/tips/</guid>
-      <description>准确显示一切PC网页:
+      <description>目录配置及使用外部文件管理器
+超微浏览器可以将配置目录或子目录符号链接至任意外部公共目录。安装有定制termux的用户也可以使用移动设备自带或第三方文件管理器管理超微内部指定目录。具体配置可见Shell command mode。
+准确显示PC网页:
 PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot;。
 多主屏:
 home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。
