@@ -98,20 +98,20 @@ Socks proxy</p>
 </ul>
 <h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
 <ul>
-<li>i:0m[bookmarklet index|prefix?postfix|/regex/replacement|c[cssFlag]]:[url]<br>
+<li>i:0m[bookmarklet index|prefix|?postfix|c[cssFlag]]:[url]<br>
 Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</li>
 <li></li>
 </ul>
 <p>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</p>
 <ul>
 <li>
-<p>/regex/replacement: for [url], replace all matched regular expression &quot;regex&quot; with &quot;replacement&quot;.</p>
-</li>
-<li>
 <p>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</p>
 </li>
 <li>
-<p>All other cases will be treated as [prefix?postfix], the real visited url is &quot;[prefix]+[url]+[?postfix]&quot;.</p>
+<p>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</p>
+</li>
+<li>
+<p>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</p>
 </li>
 <li>
 <p>i:15[string]<br>
@@ -212,8 +212,12 @@ play video fullscreen. if videourl is empty, then make following requestFullscre
 play video in external player</p>
 </li>
 <li>
-<p>i:5h[url]<br>
-force html for url</p>
+<p>i:5h[?postfix:|/regex/replacement:][url]<br>
+force html for [url] visiting</p>
+<ul>
+<li>[?postfix:] : the real url visited is &quot;[url]+[?postfix]&quot;</li>
+<li>[/regex/replacement:]: execute regular expression replacement for the &quot;[url]&quot;, then visit the resulting url.</li>
+</ul>
 </li>
 <li>
 <p>i:5i[url]<br>
