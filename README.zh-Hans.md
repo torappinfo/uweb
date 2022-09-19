@@ -2,6 +2,7 @@
 [English](README.md)
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
+[Downloads](en/download.md)
 
 [超微浏览器下载及使用技巧](https://uwebzh.netlify.app/zh/)
 (Mirrors:

@@ -2,6 +2,7 @@
 [中文](README.zh-Hans.md)
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
+[Downloads](en/download.md)
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: 

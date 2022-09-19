@@ -41,4 +41,10 @@ z(){
   xz -cdf -- "$dict" | less -n +"${percent}/####$word"
 }
 
+zb(){
+  word=$1
+  dict=~/share/xz/$2.xz
+  xz -cdf -- "$dict" | less -n +"/$word"
+}
+
 export LESS=-inR
