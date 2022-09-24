@@ -96,7 +96,7 @@ trace.moe:https://trace.moe/?url=</description>
       <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.
 Configuration file &amp;quot;default.cmds&amp;quot; examples:
 Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
-Append query to autocomplete:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc
+Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc
 Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache
 Clear logcat::logcat -c
 logcat.log::logcat -d &amp;gt; logcat.log

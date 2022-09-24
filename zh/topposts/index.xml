@@ -172,7 +172,7 @@ google docs:http://docs.google.com/gview?embedded=true&amp;amp;url=
 清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
 本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb
 本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.
-合并查询历史至自动填充:uweb:cd /data/data/info.torinfo.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torinfo.uweb/files/default.autoc
+合并查询历史至自动填充:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc
 清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache
 清空logcat::logcat -c
 输出logcat.log::logcat -d &amp;gt; logcat.log
