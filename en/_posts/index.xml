@@ -237,6 +237,24 @@ The very first line can begin with &amp;quot;//&amp;quot; followed by website ur
     </item>
     
     <item>
+      <title>Tools</title>
+      <link>/en/tools/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tools/</guid>
+      <description>install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).
+install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;
+Install AHD to home screen
+Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;
+Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;
+Indexes for SOED6
+install SOED
+The following dictionaries work better with markdown processor.
+Install markdown processor
+Indexes for &amp;quot;Merriam Webster International Unabridged&amp;quot;</description>
+    </item>
+    
+    <item>
       <title>Custom file handling</title>
       <link>/en/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>

@@ -12,32 +12,16 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/en/tools/</guid>
-      <description>Install tdict (local search with remote content) With tdict,
-安装双解字典索引
-安装双解字典至主屏
-英语活用大词典索引
-安装英语活用至主屏
-汉语大词典索引
-安装汉语词典至主屏
-soed6索引
-安装soed至主屏
-以下字典最好安装markdown处理器。
-安装markdown处理器
-Merriam Webster International Unabridged 索引
-安装mwi至主屏
-ode3索引
-安装ode至主屏
-oed索引
-安装oed至主屏
-大英百科索引
-安装be至主屏
-Merriam Webster Unabridged
-安装mwu至主屏
-以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
-安装tdict词典工具 安装完tdict词典工具以后，对dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
-汉语大字典:c:zd xz %s dictXXX
-字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
-插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
+      <description>install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).
+install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;
+Install AHD to home screen
+Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;
+Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;
+Indexes for SOED6
+install SOED
+The following dictionaries work better with markdown processor.
+Install markdown processor
+Indexes for &amp;quot;Merriam Webster International Unabridged&amp;quot;</description>
     </item>
     
   </channel>

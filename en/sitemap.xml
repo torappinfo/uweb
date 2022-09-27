@@ -371,6 +371,45 @@
                 href="/en/longclick/"
                 />
   </url><url>
+    <loc>/en/tags/tdict/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/tdict/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/tdict/"
+                />
+  </url><url>
+    <loc>/en/tags/tools/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/tools/"
+                />
+  </url><url>
+    <loc>/en/tools/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tools/"
+                />
+  </url><url>
     <loc>/en/tags/curl/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
     <xhtml:link
