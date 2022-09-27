@@ -215,7 +215,7 @@ Selection to paragraph:;let g=&#39;paragraph&#39;;getSelection().modify(&#39;mov
 点击安装google翻译、背景图等
 远程脚本配置文件default.rjs每行格式如下 (url部分支持js代码运算)：
 [远程脚本名]:[返回url数组的javascript代码]
-其中url可以为本地html5应用脚本地址。譬如&#39;https://localapp[XXX]/....../[XXX].js&#39;。此时，js脚本也可使用.link文件方式调用。</description>
+其中url可以为本地html5应用脚本地址。譬如&#39;https://local/.../app[XXX]/....../[XXX].js&#39;。此时，js脚本也可使用.link文件方式调用。</description>
     </item>
     
   </channel>
