@@ -13,13 +13,14 @@
       
       <guid>/en/changelog/</guid>
       <description>Amazon appstore
-pagure
 uweb, termux &amp;amp; history versions
 github
+pagure
 sourceforge
-Change logs 917:
+Change logs 921: fix remote file decompression.
+917:
 re-implement html5 enhancement for better mdict lookup support. 908:
-Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer. Better support for naked Termux (without any initial packages with updateonly version).</description>
+Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer.</description>
     </item>
     
     <item>
