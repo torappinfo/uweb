@@ -155,6 +155,7 @@ gozer 广告屏蔽样式
       <guid>/zh/links/</guid>
       <description>点击以下链接可安装至常用链接:
 VPN
+wireless
 显示网站安全证书
 迅雷盘离线
 网页全屏
@@ -552,8 +553,6 @@ oed索引
 安装oed至主屏
 大英百科索引
 安装be至主屏
-Merriam Webster Unabridged
-安装mwu至主屏
 以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。
 安装tdict词典工具 安装完tdict词典工具以后，对dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：
 汉语大字典:c:zd xz %s dictXXX

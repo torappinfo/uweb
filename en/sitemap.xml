@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/en/_posts/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/_posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/_posts/"
+                />
+  </url><url>
+    <loc>/en/html5/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/html5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/html5/"
+                />
+  </url><url>
+    <loc>/en/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url><url>
     <loc>/en/changelog/</loc>
     <lastmod>2022-09-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -16,45 +55,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/topposts/"
-                />
-  </url><url>
-    <loc>/en/</loc>
-    <lastmod>2022-09-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url><url>
-    <loc>/en/_posts/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/_posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/_posts/"
-                />
-  </url><url>
-    <loc>/en/html5/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/html5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/html5/"
                 />
   </url><url>
     <loc>/en/acmd/</loc>

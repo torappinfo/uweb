@@ -62,8 +62,9 @@ Click to install the following html5 apps:<br>
 <ul>
 <li>All html5 applications locating in a subfolder whose name begins with &quot;app&quot; (such as &quot;appPDF&quot;) are allowed to read local files. Use url &quot;https://local/sdcard/...&quot; for a local file.</li>
 <li><span style="color:red">All files under the subfolder &quot;app&quot; can be automatically choosed as file objects by any web page</span>.</li>
+<li><span style="color:red">Local files (including binary files) can be processed by appending &quot;?app=[html5 app url] to the file urls.</span> Ex. &quot;file:///..../xx.md?app=https://...../app.html&quot; loads &quot;app.html&quot; first, then &quot;app.html&quot; processes the local file.</li>
 </ul>
-<p>With the first approach, the html5 application is installed locally and can read any file allowed by the OS; while in the second approach, the html5 application can be either local or remote, and only files under the subfolder &quot;app&quot; can be accessed.</p>
+<p>With the first approach, the html5 application is installed locally and can read any file allowed by the OS; while in the second approach, the html5 application can be either local or remote, and only files under the subfolder &quot;app&quot; can be accessed; The third approach allows easy access of other external resources (ex. local media).</p>
 <h4 id="open-local-files-with-html5-apps">Open local files with html5 apps</h4>
 <p>Click to configure <a href="../filecap/index.html">default.filecap</a> to open local files, and to open remote files with the option &quot;custom file handling&quot;:<br>
 <a target="_self" href="i:0gdefault.filecap:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/txt/filecap.cfg">use pdf.js,djvu.js,epub.js, huge markdown viewer for local files</a></p>
