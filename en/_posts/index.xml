@@ -33,7 +33,7 @@ All html5 applications locating in a subfolder whose name begins with &amp;quot;
       
       <guid>/en/acmd/</guid>
       <description>Commands are the best for repeated execution of an instruction. Address bar command modes provide ways to run different commands in the same category easily.
-The configure file &amp;quot;default.acmd&amp;quot; has the exactly same format as default.cmds. Click the following links to install new modes (cold start the app to take effect, then long click the &amp;quot;refresh&amp;quot; botton to switch modes):
+The configure file &amp;quot;default.acmd&amp;quot; has the exactly same format as default.cmds. Click the following links to install new modes (cold start the app to take effect, then long click the &amp;quot;refresh&amp;quot; button to switch modes):
 Shell command mode
 GNU bc (basic calculator) command mode (need termux for Android 10- )</description>
     </item>
