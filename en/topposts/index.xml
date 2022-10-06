@@ -17,8 +17,8 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 925: Security enhancements.
-921: fix remote file decompression.
+Change logs 925:
+remote js: wait for remote js to be fully loaded. html5 apps are as powerful as native ones now and still secure. Security enhancements. 921: fix remote file decompression.
 917:
 re-implement html5 enhancement for better mdict lookup support. 908:
 Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer.</description>

@@ -111,6 +111,22 @@ Enable selection</description>
     </item>
     
     <item>
+      <title>Bookmarks</title>
+      <link>/en/bookmark/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/bookmark/</guid>
+      <description>gamezop
+Science Chemistry chemspider
+molecule SMILES
+Templates Click following links to install bookmark templates, bookmarks saved to the template have corresponding features enabled.
+&amp;quot;novel.html&amp;quot;: auto reader&#39;s mode
+Termux The following bookmarks need termux. Clicking to run is only allowed from local pages.
+GNU bc (basic calculator)
+bc with all extensions</description>
+    </item>
+    
+    <item>
       <title>Offline resources</title>
       <link>/en/offlinecache/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>

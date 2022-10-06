@@ -37,8 +37,8 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 925: Security enhancements.
-921: fix remote file decompression.
+Change logs 925:
+remote js: wait for remote js to be fully loaded. html5 apps are as powerful as native ones now and still secure. Security enhancements. 921: fix remote file decompression.
 917:
 re-implement html5 enhancement for better mdict lookup support. 908:
 Add internal links &amp;quot;i:1d&amp;quot; to launch apps. (to fix &amp;quot;am&amp;quot; issues for Android 8+) File sending now supports pseudo file manager (page url faked as a file url for folder), thus scripts of internal links &amp;quot;d:&amp;quot; can generate any kind of pseudo file manager for file transfer.</description>
@@ -223,6 +223,22 @@ large size javascript code can be installed to the folder &amp;quot;bookmarklet&
 Eruda
 Performance
 Remote javascript is defined in default.rjs. Click the following link to install. (Force exit and re-launch the app, then long press the &amp;quot;search&amp;quot; button to popup the menu.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>/en/bookmark/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/bookmark/</guid>
+      <description>gamezop
+Science Chemistry chemspider
+molecule SMILES
+Templates Click following links to install bookmark templates, bookmarks saved to the template have corresponding features enabled.
+&amp;quot;novel.html&amp;quot;: auto reader&#39;s mode
+Termux The following bookmarks need termux. Clicking to run is only allowed from local pages.
+GNU bc (basic calculator)
+bc with all extensions</description>
     </item>
     
     <item>
