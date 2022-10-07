@@ -231,14 +231,15 @@ Remote javascript is defined in default.rjs. Click the following link to install
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/bookmark/</guid>
-      <description>gamezop
-Science Chemistry chemspider
-molecule SMILES
+      <description>Wait for url from other devices
 Templates Click following links to install bookmark templates, bookmarks saved to the template have corresponding features enabled.
 &amp;quot;novel.html&amp;quot;: auto reader&#39;s mode
 Termux The following bookmarks need termux. Clicking to run is only allowed from local pages.
 GNU bc (basic calculator)
-bc with all extensions</description>
+bc with all extensions
+Science Physics Feynman lectures
+Chemistry chemspider
+molecule SMILES</description>
     </item>
     
     <item>
@@ -426,8 +427,7 @@ Each line of the hosts file has the following format:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/sitejs/</guid>
-      <description>Javascript (load when page completes, earliest loaded JS should use sitecss).
-Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
+      <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
     
   </channel>

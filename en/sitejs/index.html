@@ -51,14 +51,14 @@
     <li><a href="../tags/css">css</a> </li>
     
   </ul>
-  <p>Javascript (load when page completes, earliest loaded JS should use sitecss).</p>
+  <h3 id="javascript-load-when-page-completes-earliest-loaded-js-should-use-sitecss">Javascript (load when page completes, earliest loaded JS should use sitecss).</h3>
 <ul>
 <li>Need to be named as &quot;[domain root].js&quot;, such as &quot;yahoo.com.js&quot; or &quot;finance.yahoo.com.js&quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded.</li>
 <li>Script must be put under the folder &quot;sitejs&quot; or &quot;/data/data/info.torapp.uweb/files/sitejs&quot;. The later folder has the priority.</li>
 <li>Long press the button &quot;settings&quot;, check the option &quot;Run user scripts&quot;.</li>
 <li>Support 2/3-segment domains. If the length of the last 2-segments of domain is less than 7 (ex. &quot;com.pl&quot;), then it is treated as one segment.</li>
 </ul>
-<p>CSS style and earliest loaded JS</p>
+<h3 id="css-style-and-earliest-loaded-js">CSS style and earliest loaded JS</h3>
 <ul>
 <li>Need to be named as &quot;[domain root].css&quot;, such as yahoo.com.css or finance.yahoo.com.css。</li>
 <li>Under folder &quot;sitecss&quot;.</li>
@@ -66,6 +66,13 @@
 <li>Long press the button &quot;settings&quot;, check the option &quot;Apply user styles&quot;.</li>
 </ul>
 <p>If file &quot;default.css&quot; exists, the style will be applied to all sites without matching [domain root].css.</p>
+<h3 id="extra-html-experimental">Extra html (experimental)</h3>
+<ul>
+<li>Need to be named as &quot;[domain].html&quot;.</li>
+<li>Under folder &quot;siteextra&quot;.</li>
+<li>Long press the button &quot;settings&quot;, check the option &quot;Apply user extra&quot;.</li>
+<li>May have issues with some redirected urls.</li>
+</ul>
 <p>&quot;sitejs/.js&quot; , &quot;sitecss/.css&quot; and &quot;sitecss/.js&quot; are applied to all non-http urls (file urls etc.).</p>
 
 </div>

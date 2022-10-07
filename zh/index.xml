@@ -295,16 +295,18 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       
       <guid>/zh/bookmark/</guid>
-      <description>gamezop
-点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
+      <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
+Personal use, not for public
+Wait for url from other devices
+gamezop
+分类书签模板 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
 &amp;quot;小说.html&amp;quot;: 自动使用阅读模式
 href=&amp;quot;i:0hbookmark/txt.html:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
-所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
-Mirror list
+Mirrors Mirror list
+zlibirary
 mirror.js.org
-界面配置及杂项
-以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
-Termux命令书签 需安装定制版termux及相应工具，
+Termux命令书签 以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。
+需安装定制版termux及相应工具，
 计算器bc
 全能计算器bc
 以下书签需安装gopher.
