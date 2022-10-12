@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>mdict</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="selectize.default.css" media="screen">
+    <style>
+      #btnLookup {
+        border: none;
+        height: 36px;
+        font-size: 12pt;
+        font-weight: bold;
+        vertical-align: top;
+        border-radius: 3px;
+      }
+
+      #btnLookup:not([disabled]) {
+        background: #1A4FDD;
+        color: white;
+      }
+
+      #word + .selectize-control {
+        display: inline-block;
+        min-width: 18em;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/fengdh/mdict-js/selectize.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/nodeca/pako/dist/pako_inflate.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bluebird@3.7.2/js/browser/bluebird.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/mdict/ripemd128.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/mdict/mdict-common.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/mdict/mdict-parser.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/mdict/mdict-renderer.min.js"></script>
+  </head>
+  <body>
+        Choose a dictionary file (*.mdx + optional *.mdd): <input id="dictfile" type="file" multiple>
+        <p>
+        <input id="word" type="text" value="">
+        <input id="btnLookup" type="button" value="look up" disabled="false">
+        <div id="definition">
+        </div>
+      
+    <script>
+      //file:///...mdictstem?app=....html#word=
+      var dictinput = document.getElementById('dictfile');
+      var wordinput = document.getElementById('word');
+      var btnLookup = document.getElementById('btnLookup');
+      var definition = document.getElementById('definition');
+
+      window.onhashchange = function() {
+        let v = location.hash.substring(6);
+        if(v.length>0){
+          wordinput.value = v;
+          //wordinput.dispatchEvent(new Event('change', {'bubbles': true}));
+          btnLookup.click();
+        }
+      };
+
+      {
+        let v = decodeURIComponent(location.hash.substring(6));
+        wordinput.value = v;
+      }
+
+      $(wordinput).selectize({maxItems: 1});
+      function accept(e) {
+        var fileList = $(e.target).prop('files');
+        $(btnLookup).attr('disabled', true);
+        if (fileList.length > 0) {
+          $(btnLookup).addClass('stripes');
+          $(wordinput).on('keyup', function(e) { e.which === 13
+                                               && $(btnLookup).click(); });
+          MParser(fileList).then(function(resources) {
+            var mdict = MRenderer(resources);
+            function doSearch(phrase, offset) {
+              console.log(phrase + '');
+              mdict.lookup(phrase, offset).then(function($content) {
+                $(definition).empty().append($content.contents());
+                console.log('--');
+              });
+            }
+
+            $(btnLookup)
+              .attr('disabled', false)
+              .off('.#mdict')
+              .on('click.#mdict', function() {
+                doSearch($(wordinput).val());
+              }).click();
+
+            $(wordinput)[0].selectize.destroy();
+
+            $(wordinput).selectize({
+              plugins: ['restore_on_backspace'],
+              maxItems: 1,
+              maxOptions: 1 << 20,
+              valueField: 'value',
+              labelField: 'word',
+              searchField: 'word',
+              delimiter: '~~',
+              loadThrottle: 10,
+              create: function(v, callback) {
+                return callback({word: v, value: v});
+              },
+              createOnBlur: true,
+              closeAfterSelect: true,
+              allowEmptyOption: true,
+              score: function(search) {
+                var score =
+                    this.getScoreFunction(search);
+                return function(item) {
+                  return 1;
+                };
+              },
+              load: function(query, callback) {
+                var self = this;
+                if (!query.length) {
+                  this.clearOptions();
+                  this.refreshOptions();
+                  return;
+                };
+
+                mdict.search({phrase: query, max: 5000}).then(function(list) {
+                  //                  console.log(list.join(', '));
+                  // TODO: filter candidate keyword starting with "_"
+                  list = list.map(function(v) {
+                    return {word: v, value: v.offset};
+                  });
+                  self.clearOptions();
+                  callback(list);
+                });
+              },
+              onChange: function(value) {
+                var item = this.options[value];
+                if (item) {
+                  var value = item.word;
+                  doSearch(value, value.offset);
+                  $(wordinput).val(value);
+                } else {
+                  $(definition).empty();
+                }
+              },
+            });
+          }).catch(err => alert(err)) ;
+        } else {
+          $(btnLookup).attr('disabled', false);
+        }
+
+        // jump to word with link started with "entry://"
+        // TODO: have to ignore in-page jump
+        $(definition).on('click', 'a', function(e) {
+          var href = $(this).attr('href');
+          if (href && href.substring(0, 8) === 'entry://') {
+            var word = href.substring(8);
+            // TODO: remove '#' to get jump target
+            if (word.charAt(0) !== '#') {
+              word = word.replace(/(^[/\\])|([/]$)/, '');
+
+              $(wordinput).val(word);
+              $(btnLookup).click();
+            } else {
+              var currentUrl = location.href;
+              location.href = word;                       //Go to the target element.
+              history.replaceState(null,null,currentUrl);
+            }
+            return false;
+          }
+        });
+      }
+      $(dictinput).on('change', accept);
+ 
+      {
+        let path = location.pathname;
+        let iSlash = path.lastIndexOf('/');
+        let filenames=path.substring(iSlash+1);
+        {
+          let iDot = filenames.indexOf('.');
+          if(iDot>0)
+            document.getElementsByTagName("link")[0].href =
+              filenames.substring(0,iDot)+"css";
+        }
+        window.onload = function(){
+        if(filenames.length>0){
+          let clickurl = "i:5fdictinput.click():"+filenames;
+          location.href=clickurl;
+       
+          var callbackTimer = setInterval(function() {
+            let files = dictinput.files;
+            if(files.length>0){
+              if(!btnLookup.disabled){
+                clearInterval(callbackTimer);
+                return;
+              }
+            }else
+              location.href=clickurl;
+            dictinput.dispatchEvent(new Event('change', {'bubbles': true}));
+          }, 100);
+        
+        }
+        };
+      }
+      
+    </script>
+  </body>
+</html>

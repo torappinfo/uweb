@@ -21,7 +21,7 @@
     }
     
     var file;
-    var blocksize = 1024;
+    var blocksize = 20480;
     function loadSlice(){
       function render(u8array){
         document.body.innerHTML = marked(new TextDecoder().decode(u8array));

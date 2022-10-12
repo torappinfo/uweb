@@ -22,31 +22,7 @@
       }
 
       #dict-title {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        max-width: 300px;
-        font-size: 10px;
-        opacity: 0.9;
-        background: #DDD;
-        box-shadow: -2px -2px 4px 4px rgba(0, 0, 0, 0.3);
-      }
-
-      #dict-title * {
-        font-size: 10px!important;
-      }
-      
-      #mdict-online-viewer {
-        font-size: 14px;
-        font-family: "Georgia", "Times New Roman";
-        height: 100%;
-        width: 100%;
-      }
-      
-      #mdict-online-viewer #definition {
-        font-size: 14px;
-        height: 100%;
-        overflow: auto;
+        display:none;
       }
       
       #word + .selectize-control {
@@ -59,9 +35,6 @@
     <script src="require.js" data-main="mdict"></script>
   </head>
   <body>
-    <section class="main-content">
-
-      <div id="mdict-online-viewer">
         Choose a dictionary file (*.mdx + optional *.mdd): <input id="dictfile" type="file" multiple>
         <p>
         <input id="word" type="text" value="">
@@ -70,9 +43,6 @@
         <div id="dict-title"></div>
         <div id="definition">
         </div>
-      </div>
-      
-    </section>
     <script>
       //?file=.../xx.xx,.../xx.xxx#word=
       var dictinput = document.getElementById('dictfile');
@@ -97,7 +67,6 @@
         let filenames = location.search.substring(6);
         window.onload = function(){
         if(filenames.length>0){
-          filenames = decodeURIComponent(filenames);
           let clickurl = "i:5fdictinput.click():"+filenames;
           location.href=clickurl;
           //setTimeout(()=>{dictinput.dispatchEvent(new Event('change', {'bubbles': true}));},100);
