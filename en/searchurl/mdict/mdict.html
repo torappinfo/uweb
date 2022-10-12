@@ -171,10 +171,9 @@
       $(dictinput).on('change', accept);
  
       {
-        let href = location.href;
-        let iQ = href.indexOf('?');
-        let iSlash = path.lastIndexOf('/',iQ-1);
-        let filenames=path.substring(iSlash+1,iQ);
+        let path = location.pathname;
+        let iSlash = path.lastIndexOf('/');
+        let filenames=path.substring(iSlash+1);
         {
           let iDot = filenames.indexOf('.');
           if(iDot>0)
