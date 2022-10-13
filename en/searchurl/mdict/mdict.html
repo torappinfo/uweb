@@ -176,9 +176,8 @@
         let filenames=path.substring(iSlash+1);
         {
           let iDot = filenames.indexOf('.');
-          if(iDot>0)
-            document.getElementsByTagName("link")[0].href =
-              filenames.substring(0,iDot)+"css";
+          document.getElementsByTagName("link")[0].href =
+            filenames.substring(0,iDot+1)+"css";
         }
         window.onload = function(){
         if(filenames.length>0){
