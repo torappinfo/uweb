@@ -88,8 +88,11 @@ novip:https://www.novipnoad.com/s=</description>
       
       <guid>/zh/html5/</guid>
       <description>mdict字典搜索引擎:
+长按底部右箭头弹出系统菜单=&amp;gt;添加搜索引擎=&amp;gt;第三行输入搜索引擎串。对于需要批量添加的用户，显示主屏时，可长按底部时钟按钮，点击编辑器，然后添加保存，清后台重启生效。mdict搜索引擎串有以下两类（推荐第一类）。
+i:5ifile:///.../xxx.mdx,xxx.mdd?app=https://uwebzh.netlify.app/en/searchurl/mdict/mdict.html#word=%s
+其中&amp;quot;/.../xxx.mdx,xxx.md&amp;quot;为词典文件全路径。
 i:5ihttps://uwebzh.netlify.app/zh/searchurl/txt/mdict.html?file=mdict/xxx.mdx,mdict/xxx.mdd#word=%s
-字典文件必须位于配置目录应用子目录&amp;quot;app&amp;quot;下。上述字典搜索引擎例子中文件&amp;quot;xxx.mdx&amp;quot;及&amp;quot;xxx.mdd&amp;quot;位于&amp;quot;.../app/mdict&amp;quot;下。为方便文件操作，用户可符号链接&amp;quot;app&amp;quot;至任意公共目录。
+对于这类搜索引擎，字典文件必须位于配置目录应用子目录&amp;quot;app&amp;quot;下。上述字典搜索引擎例子中文件&amp;quot;xxx.mdx&amp;quot;及&amp;quot;xxx.mdd&amp;quot;位于&amp;quot;.../app/mdict&amp;quot;下。为方便文件操作，用户可符号链接&amp;quot;app&amp;quot;至任意公共目录。
 点击安装超大文件阅读器（支持txt, html, markdown）
 点击安装超大文件阅读器（markdeep版, latex, diagram,graphviz等）
 点击安装plyr视频播放器
