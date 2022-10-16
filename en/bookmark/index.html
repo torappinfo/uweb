@@ -54,6 +54,7 @@
 <p><a href="d::mkdir -p /sdcard/Download/uweb;cd /data/data/info.torapp.uweb;cp -r files /sdcard/Download/uweb;rm -rf files;ln -s /sdcard/Download/uweb files:">symbolic link configuration folder to &quot;/sdcard/Download/uweb&quot;</a></p>
 <p><a href="d::cd /data/data/com.termux/files/home;ln -s ../../../info.torapp.uweb/files uweb:">Make uweb configuration folder accessible by file managers with termux installed</a><br>
 (<a href="https://wiki.termux.com/wiki/Internal_and_external_storage">File manager list at end of the page</a>)</p>
+<p><a href="d::cd /sdcard/Download/mdict;for i in *.mdx; do b=`basename ${i} .mdx`;fs=%22${i}%22;if [ -f ${b}.mdd ];then fs=${fs}%22,${b}.mdd%22;fi;echo ${b}:i:5ifile:///sdcard/Download/mdict/${fs}?app=https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/mdict/mdict.html#word=%25s >>/data/data/info.torapp.uweb/files/home5.search;done:">Scan mdx/mdd files under the folder &quot;/sdcard/Download/mdicts&quot; and add search engines</a>.</p>
 <h4 id="termux">Termux</h4>
 <p>The following bookmarks need termux.<br>
 <a href="c:bc -l">GNU bc (basic calculator)</a><br>

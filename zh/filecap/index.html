@@ -66,12 +66,12 @@ m4b:text/html:echo '&lt;audio controls width=100% height=100%>&lt;source src="%u
 m3u8:text/html:echo '&lt;video controls width=100% height=100%>&lt;source src="%u">&lt;/video>'
 mp4:text/html:echo '&lt;video controls width=100% height=100%>&lt;source src="%u">&lt;/video>'
 mkv:text/html:echo '&lt;video controls width=100% height=100%>&lt;source src="%u">&lt;/video>'
-doc:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U
-xls:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U
-ppt:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U
-docx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U
-xlsx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U
-pptx:uweb:echo https://view.officeapps.live.com/op/view.aspx?src=%U
+doc:uweb:echo https://view.xdocin.com/view?src=%U
+xls:uweb:echo https://view.xdocin.com/view?src=%U
+ppt:uweb:echo https://view.xdocin.com/view?src=%U
+docx:uweb:echo https://view.xdocin.com/view?src=%U
+xlsx:uweb:echo https://view.xdocin.com/view?src=%U
+pptx:uweb:echo https://view.xdocin.com/view?src=%U
 xz:text/plain:curl %p "%u"|xz -d --</code></pre>
 <p>安装过相应的<a href="../html5/index.html">html5应用</a>，则如下配置阅读相应格式文件：</p>
 <pre><code>pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u
@@ -80,7 +80,7 @@ epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html?bo
 <p>长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。</p>
 <p>如果用户配置中处理命令用到curl，则需要安装<a href="../gnuplot/index.html">Termux</a>，并在Termux中安装curl (&quot;apt install curl&quot;)。<br>
 如果用户不安装Termux，则上述配置命令中的&quot;am&quot;需要全部路径，需用&quot;/system/bin/am&quot;替换。</p>
-<p>以上配置使用了微软服务预览office文档，微软服务必需当前UA为PC，否则会出现空白页面。有条件的用户建议使用google docs (&quot;http://docs.google.com/gview?embedded=true&amp;url=&quot;) 服务替换。</p>
+<p>使用微软服务预览office文档 (<a href="https://view.officeapps.live.com/op/view.aspx?src=">https://view.officeapps.live.com/op/view.aspx?src=</a>)必需当前UA为PC，否则会出现空白页面。有条件的用户建议使用google docs (&quot;http://docs.google.com/gview?embedded=true&amp;url=&quot;) 服务替换。</p>
 <p>若使用手机应用预览文件，则docx处理命令可改为：</p>
 <pre>am start --user 0 -a android.intent.action.VIEW -d "%u" -t "application/docx"</pre>
 <p>其余常见文件的类型名：<br>
