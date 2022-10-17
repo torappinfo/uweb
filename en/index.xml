@@ -341,7 +341,7 @@ commacd.sh
       
       <guid>/en/tips/</guid>
       <description>Configuration folder and file managers
-With shell command mode, configuration folders can be symbolic linked to other public folders or managed by 3rd party file managers via termux.
+With bookmark, configuration folders can be symbolic linked to other public folders or managed by 3rd party file managers via termux.
 To show web pages in desktop mode:
 PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
 Multiple home screens and Next/Prev page:
