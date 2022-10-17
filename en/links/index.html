@@ -225,7 +225,7 @@ force html for [url] visiting</p>
 </li>
 <li>
 <p>i:5i[url]<br>
-Use the existing tab for the url to jump to a different anchor.</p>
+Use the existing tab for the url with possible different url hash part.</p>
 </li>
 <li>
 <p>i:5j[string]<br>
@@ -242,6 +242,10 @@ Evaluate the [js code] and save the returned string to file.</p>
 <li>
 <p>i:63[bookmarklet index]:[url]<br>
 Visiting url and execute the bookmarklet. Only uweb predefined local bookmarlets are allowed.</p>
+</li>
+<li>
+<p>i:6i[js file path relative to configuration folder]:[url]<br>
+Similar to i:5i, except executing the js file after possible url hash change.</p>
 </li>
 <li>
 <p>i:70[url]:[auto page turning url]<br>
