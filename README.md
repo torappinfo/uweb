@@ -34,6 +34,8 @@ TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url
 - AD blocking (block whole root domain trees etc.)
 - Customization (define extra menus/buttons/gestures with user-defined functionalities)
 - Support shell scripts, javascript for general processing, other languages (python etc.) are also supported by installing uweb compatible Termux versions.
+- Serverless local sites: PWA-kind web extension (chrome .crx & firefox .xpi) support.
+- pipe support: command line output to uweb tabs.
 
 #### Screenshots
 ![](https://i.postimg.cc/rsL9G5N1/home1.png)
