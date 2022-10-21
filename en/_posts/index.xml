@@ -5,7 +5,17 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on uweb browser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Offline resources</title>
+      <link>/en/offlinecache/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/offlinecache/</guid>
+      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, &#39;?&#39; , &#39;&amp;amp;&#39; , &#39;=&#39;. exactly as url]&amp;quot; are loaded first before reaching the network.
+PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp;amp; .xpi for firefox) are just packaged websites. Ex. the &amp;quot;kiwix&amp;quot; extension can be extracted to the folder &amp;quot;sitecache/kiwix&amp;quot;, then the kiwix extension can be accessed via url &amp;quot;https://kiwix/www/index.</description>
+    </item>
+    
     <item>
       <title>Html5 applications</title>
       <link>/en/html5/</link>
@@ -24,7 +34,7 @@ epub reader (author：llili)
 djvu viewer
 The corresponding menus can be installed with url services.
 Features The following mentioned subfolders locate in the configuration folder.
-All html5 applications locating in a subfolder whose name begins with &amp;quot;app&amp;quot; (such as &amp;quot;appPDF&amp;quot;) are allowed to read local files.</description>
+The following html5 applications are allowed to read local files referred by &amp;quot;https://local/sdcard/.</description>
     </item>
     
     <item>
@@ -120,15 +130,6 @@ Enable selection</description>
       <description>Wait for url from other devices
 Commands Clicking to run is only allowed from local pages for bookmarks in this section. Users need to either save the bookmarks to local or long press the link =&amp;gt; &amp;quot;open in new tab&amp;quot; to execute.
 To save the bookmarks to local, users firstly need to install &amp;quot;bookmark&amp;quot; menu by clicking corresponding link in the url services page, then long press the bookmark link =&amp;gt; &amp;quot;open in new tab&amp;quot; =&amp;gt; &amp;quot;Commands&amp;quot; =&amp;gt; &amp;quot;bookmark&amp;quot; to save the bookmark.</description>
-    </item>
-    
-    <item>
-      <title>Offline resources</title>
-      <link>/en/offlinecache/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/offlinecache/</guid>
-      <description>Corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, &#39;?&#39; , &#39;&amp;amp;&#39; , &#39;=&#39;. exactly as url]&amp;quot; are loaded with option &amp;quot;use offline resources&amp;quot;.</description>
     </item>
     
     <item>
