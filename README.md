@@ -18,10 +18,10 @@
 [render](https://uwebzh.onrender.com/en/)
 )
 
-- Tiny: less than 200k
-- Fast: run fast, even with thousands of user provided css/scripts
+- Tiny: less than 200k.
+- Fast: run fast, even with thousands of user provided css/scripts.
 - Efficient: less touches, one click to reach any number of search engines without repeated input.
-- Convenient: any book (pdf/djvu)/dictionary (mdict)/txt/command line/app can be search engine.
+- Convenient: Any book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
 - Powerful: enabling html5 applications to work like native; javascript and shell scripting for general processing and more if enhanced by Termux.
 

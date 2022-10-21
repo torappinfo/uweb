@@ -98,8 +98,14 @@ Socks proxy</p>
 </ul>
 <h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
 <ul>
-<li>i:0m[bookmarklet index|prefix|?postfix|c[cssFlag]]:[url]<br>
-Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</li>
+<li>
+<p>i:0b[path]:[url]<br>
+Extract remote content (tar/tgz/zip) under the folder [path]. If [path] ends with &quot;/&quot;, then put unzipped file under the folder &quot;[path]/[file name stem]&quot; (for zipped files only, not for tar/tgz).</p>
+</li>
+<li>
+<p>i:0m[bookmarklet index|prefix|?postfix|c[cssFlag]]:[url]<br>
+Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</p>
+</li>
 <li></li>
 </ul>
 <p>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</p>

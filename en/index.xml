@@ -12,8 +12,9 @@
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>/en/offlinecache/</guid>
-      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, &#39;?&#39; , &#39;&amp;amp;&#39; , &#39;=&#39;. exactly as url]&amp;quot; are loaded first before reaching the network.
-PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp;amp; .xpi for firefox) are just packaged websites. Ex. the &amp;quot;kiwix&amp;quot; extension can be extracted to the folder &amp;quot;sitecache/kiwix&amp;quot;, then the kiwix extension can be accessed via url &amp;quot;https://kiwix/www/index.</description>
+      <description>Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.crx for chrome &amp;amp; .xpi for firefox).
+Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, &#39;?&#39; , &#39;&amp;amp;&#39; , &#39;=&#39;. exactly as url]&amp;quot; are loaded first before reaching the network.
+PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp;amp; .</description>
     </item>
     
     <item>
