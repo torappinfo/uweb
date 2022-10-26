@@ -117,7 +117,6 @@ vveby:https://www.vveby.com/search?keyword=
 历史价格3:http://www.xitie.com/s.php?no=
 买买买:https://just998.com/price?url=
 网页快照:https://his.sh/
-微软翻译:http://www.translatetheweb.com/?to=zh-Hans&amp;amp;a=
 有道翻译:http://webtrans.yodao.com/webTransPc/index.html?from=auto&amp;amp;to=zh-CHS&amp;amp;type=1&amp;amp;url=
 搜狗翻译:http://translate.sogoucdn.com/pcvtsnapshot?to=zh-CHS&amp;amp;tfr=translatepc&amp;amp;url=
 papago翻译:https://papago.naver.net/website?locale=en&amp;amp;source=en&amp;amp;target=zh-CN&amp;amp;url=
@@ -150,14 +149,15 @@ google docs:http://docs.google.com/gview?embedded=true&amp;amp;url=
 其中&amp;quot;重定向&amp;quot;由文件default.redirect配置，对&amp;quot;file://&amp;quot;重定向将调用合适编辑器编辑文件。
 适合向TV端发送：（TV端需先执行“等待接收...”）
 发送url/file:i:5j
-发送url(播放器):i:5ji:5g
+发送url(播放器):i:5ji:5p
 发送url(书签):i:5ji:52../home5:
 发送url(剪贴板):i:5ji:5b
 发送url(全屏播放):i:5ji:5f
 发送url(书签全屏):i:5ji:52../home5:i:5f
 发送url(整网全屏):i:5ji:0mi:5f:
 发送url(只显视频):i:5ji:0mc16:
-发送url(书签整网全屏):i:5ji:52../home5:i:0mi:5f:</description>
+发送url(书签整网全屏):i:5ji:52../home5:i:0mi:5f:
+以下需安装相应的html5应用至匹配的目录：</description>
     </item>
     
     <item>

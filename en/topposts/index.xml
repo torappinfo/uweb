@@ -68,6 +68,7 @@ Save engine:i:54:
 Save link:i:55:
 Save to desktop:i:58
 Add to media storage::001
+Extract web app:i:0bsitecache/local/:
 tgurl:https://tx.me/share/url?url=
 tgdownload:https://tx.me/share/url?url=/download Compatible mode:i:5d
 papago:https://papago.naver.net/website?locale=en&amp;amp;target=en&amp;amp;url=
@@ -84,8 +85,7 @@ googlecache:http://webcache.googleusercontent.com/search?q=cache:
 google by image:https://www.google.com/searchbyimage?image_url=
 tinyeye:https://tineye.com/search?url=
 Yandex image:https://yandex.com/images/search?text=
-Yandex by image:https://yandex.com/images/search?family=yes&amp;amp;rpt=imageview&amp;amp;url=
-ascii2d:https://ascii2d.net/search/url/</description>
+Yandex by image:https://yandex.</description>
     </item>
     
     <item>
