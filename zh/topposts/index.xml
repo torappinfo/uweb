@@ -215,8 +215,7 @@ Selection to paragraph:;let g=&#39;paragraph&#39;;getSelection().modify(&#39;mov
 点击安装google翻译、背景图等
 远程脚本配置文件default.rjs每行格式如下 (url部分支持js代码运算)：
 [远程脚本名]:[返回url数组的javascript代码]
-其中url可以为本地http脚本地址。譬如&#39;https://local/...&#39; (本地html5应用或离线缓存)。此时，js脚本也可使用.link文件方式调用。
-CORS (Cross-Origin Resource Share)白名单 &amp;quot;default.redirect&amp;quot;文件中放入需要允许的域名，后面再跟两个冒号，表示这个重定向实际上不发生作用。勾写选项“资源重定向”后可无条件允许访问此域名的CORS请求。</description>
+其中url可以为本地http脚本地址。譬如&#39;https://local/...&#39; (本地html5应用或离线缓存)。此时，js脚本也可使用.link文件方式调用。</description>
     </item>
     
   </channel>
