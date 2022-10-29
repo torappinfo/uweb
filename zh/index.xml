@@ -15,7 +15,7 @@
       <description>超微浏览器下点击搜索引擎配置链接可自动添加到主屏。
 推荐引擎(将下面文本添加到home5.search中)：
 顺序:i:40%s_00
-google镜像:https://go-xyz.xyz/search?q=
+google镜像:https://note.cm/search?q=
 apkdl:https://apkdl.in/app/search?q=
 apkbog:https://www.apkbog.com/en/apks/search/
 知乎:https://www.zhihu.com/search?type=content&amp;amp;q=
@@ -60,6 +60,7 @@ paulgo:https://paulgo.io/search?q=
 you:https://you.com/search?q=
 neeva:https://neeva.com/search?q=
 seekr:https://www.seekr.com/search?query=
+sese:https://sese.yyj.moe/search?q=
 神马:http://m.sm.cn/s?q=
 夸克AI:https://quark.sm.cn/s?q=
 无追:https://www.wuzhuiso.com/s?q=
@@ -77,8 +78,7 @@ louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 4444影视:http://k.4444.li/search.php?searchword=
 nfmovies:https://www.nfmovies.com/search.php?searchword=
 电影狗:https://www.dianyinggou.com/so/
-pianku:https://www.pianku.la/search/%s-------------.html
-novip:https://www.novipnoad.com/s=</description>
+pianku:https://www.pianku.la/search/%s-------------.html</description>
     </item>
     
     <item>
