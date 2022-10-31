@@ -191,6 +191,7 @@ Audio download:https://tbvd.herokuapp.com/video?audio=on&amp;amp;url=
 Site analyzer:https://www.similarweb.com/website/
 Site buildwith:https://builtwith.com/?
 instapaper:https://www.instapaper.com/text?u=
+xdocin:https://view.xdocin.com/view?src=
 google docs:http://docs.google.com/gview?embedded=true&amp;amp;url=
 其中&amp;quot;重定向&amp;quot;由文件default.redirect配置，对&amp;quot;file://&amp;quot;重定向将调用合适编辑器编辑文件。
 适合向TV端发送：（TV端需先执行“等待接收...”）
@@ -202,8 +203,7 @@ google docs:http://docs.google.com/gview?embedded=true&amp;amp;url=
 发送url(书签全屏):i:5ji:52../home5:i:5f
 发送url(整网全屏):i:5ji:0mi:5f:
 发送url(只显视频):i:5ji:0mc16:
-发送url(书签整网全屏):i:5ji:52../home5:i:0mi:5f:
-以下需安装相应的html5应用至匹配的目录：</description>
+发送url(书签整网全屏):i:5ji:52../home5:i:0mi:5f:</description>
     </item>
     
     <item>
