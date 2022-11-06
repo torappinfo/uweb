@@ -302,7 +302,7 @@ webview 80- night mode</description>
       <guid>/en/icons/</guid>
       <description>If subfolder &amp;quot;icon&amp;quot; exists, then files named as &amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
 are used for icons in the bottom toolbar. file &amp;quot;0&amp;quot; to replace the left arrow button, &amp;quot;1&amp;quot; for right arrow button, &amp;quot;2&amp;quot; for the setting button,&amp;quot;3&amp;quot; for the home screen button,...
-If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also supports VectorDrawable with &amp;quot;android compiled XML&amp;quot; format. All icon files must be all VectorDrawables or 此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。</description>
+If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also supports VectorDrawable with &amp;quot;android compiled XML&amp;quot; format. All icon files must be either all compiled VectorDrawables or common image formats.</description>
     </item>
     
     <item>
