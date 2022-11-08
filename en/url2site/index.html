@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <title>Make any url as website</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Make any url as website
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>The <a href="../index.html">uweb</a> internal link &quot;<a href="../links/index.html">i:0m</a>&quot; make any url such as download or indirect link visitable as a website. The test mirrors in the uweb manual are examples using the following tricks:</p>
+<ul>
+<li>&quot;i:0m04:[url]&quot;: to treat the [url] content as html with bookmarklet.</li>
+<li>&quot;i:0mi:5h:[url]&quot;: to treat the [url] content as html (for download or no-script links etc.)</li>
+<li>&quot;i:0mi:5h?[postfix]::[url]&quot;: auto append query postfix to url to retrieve content.</li>
+<li>&quot;i:0mi:5h/[regex]/[replacement]::[url]&quot;: use the result of regular expression replacement to retrieve the content.</li>
+</ul>
+<p>For more complicated links such as cloud storage shared links, which needs user gestures to reach temporary generated content link, use<br>
+&quot;i:0m/.../[local.html]:[url]&quot;, where the local file &quot;/.../[local.html]&quot; processes &quot;[url]&quot; as needed.</p>
+
+</div>
+
+  </body>
+</html>

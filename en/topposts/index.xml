@@ -17,11 +17,11 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 940: url pre-processing with local html (&amp;quot;i:0m/..../xxx.html:url&amp;quot;)
+Change logs 940: Any url as website with local html processing (&amp;quot;i:0m/..../xxx.html:url&amp;quot;)
 935:
 Pipe support: command line output to uweb tabs. 934:
 Serverless local sites: PWA-kind web extension (chrome .crx &amp;amp; firefox .xpi) support. PWAs and web extensions to be used as search engines, ex. kiwix zim as search engines. 925:
-remote js: wait for remote js to be fully loaded. html5 apps are as powerful as native ones now and still secure.</description>
+remote js: wait for remote js to be fully loaded.</description>
     </item>
     
     <item>

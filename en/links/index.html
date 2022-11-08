@@ -103,7 +103,7 @@ Socks proxy</p>
 Extract remote content (tar/tgz/zip) under the folder [path]. If [path] ends with &quot;/&quot;, then put unzipped file under the folder &quot;[path]/[file name stem]&quot; (for zipped files only, not for tar/tgz).</p>
 </li>
 <li>
-<p>i:0m[bookmarklet index|prefix|?postfix|/...localhtml|c[cssFlag]]:[url]<br>
+<p>i:0m[bookmarklet index|prefix|?postfix|/.../localfile|c[cssFlag]]:[url]<br>
 Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</p>
 </li>
 <li></li>
@@ -117,7 +117,7 @@ Visiting url and execute the uweb browser internal bookmarklet that keeps valid 
 <p>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</p>
 </li>
 <li>
-<p>[/...localhtml]: load the local html file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</p>
+<p>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</p>
 </li>
 <li>
 <p>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</p>
