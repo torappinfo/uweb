@@ -238,12 +238,11 @@ commacd.sh
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/tips/</guid>
-      <description>Configuration folder and file managers
-With bookmark, configuration folders can be symbolic linked to other public folders or managed by 3rd party file managers via termux.
-To show web pages in desktop mode:
+      <description>To show web pages in desktop mode:
 PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
 Multiple home screens and Next/Prev page:
-home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... can be visited via pressing the right arrow button while home4.</description>
+home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... can be visited via pressing the right arrow button while home4.mht(or .html or .search), home3.mht(or .html or .search) ... with long pressing the left arrow.
+Click download button on the bottom toolbar to save remote webpage, the resulted offline file can be used as one of the home screens.</description>
     </item>
     
     <item>
