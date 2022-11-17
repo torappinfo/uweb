@@ -12,8 +12,20 @@
   d.location.href="i:0i/data/data/info.torapp.uweb/files/"+filename+":"+f.b.value+'&'+fakeurl +":https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/template/refresh.html";
   return false;
 }
+
+  function g4(iF){
+    let d=document;
+    let f=d.forms[iF];
+    let fname = f.f.value+".html";
+    if(f.s.checked){
+      d.location.href="i:0h"+fname+":"+f.b.value;
+      return false;
+    } else
+      return g3(iF,fname,'file:///data/data/info.torapp.uweb/files/'+fname);
+  }
 </script><style>
-input{height:40px;width:100%;border-radius:50px;}
+  input{height:40px;width:100%;border-radius:50px;}
+  label>input{height: auto; width: auto;};
 </style>
 <title>主屏设置</title></head><body>
 <form onsubmit="return g();" style="margin:5px 0 5px 0;padding:0px">
@@ -29,10 +41,16 @@ input{height:40px;width:100%;border-radius:50px;}
 </p>
 
 <p>
+  <form onsubmit="return g4(2);" style="margin:5px 0 5px 0;padding:0px">
+  <input name=f placeholder="主屏文件名" value="home6"/><br>
+  <input name=b placeholder="第n主屏网址"/><br>
+  <label><input name=s type="checkbox">Save as single html</label><br>
+  <input type="submit" value="设置第n主屏">
+</form>
 </p>
 
 <p>
-  <a href="i:0gdefault.link::保存为主屏:i:020../home6%0A">点击安装常用链接：保存为（第二）主屏</a> <a href="../links/index.html">帮助</a><br>
+  <a href="i:0gdefault.link::保存为主屏:i:020../home6%0A">点击安装常用链接：保存为（第二）主屏 (.mht)</a> <a href="../links/index.html">帮助</a><br>
 </p>
 
 <p>
