@@ -254,8 +254,9 @@ Remote javascript is defined in default.rjs. Click the following link to install
       
       <guid>/en/bookmark/</guid>
       <description>Wait for url from other devices
-Commands Clicking to run is only allowed from local pages for bookmarks in this section. Users need to either save the bookmarks to local or long press the link =&amp;gt; &amp;quot;open in new tab&amp;quot; to execute.
-To save the bookmarks to local, users firstly need to install &amp;quot;bookmark&amp;quot; menu by clicking corresponding link in the url services page, then long press the bookmark link =&amp;gt; &amp;quot;open in new tab&amp;quot; =&amp;gt; &amp;quot;Commands&amp;quot; =&amp;gt; &amp;quot;bookmark&amp;quot; to save the bookmark.</description>
+Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret. Here is an example bookmark for webdav cloud storage (replace &amp;quot;xxx&amp;quot; with real user and password):
+box cloud:POST:type=webdav&amp;amp;url=https://dav.box.com/dav&amp;amp;username=xxx&amp;amp;password=xxx:https://demo.filestash.app/login
+Commands Clicking to run is only allowed from local pages for bookmarks in this section. Users need to either save the bookmarks to local or long press the link =&amp;gt; &amp;quot;open in new tab&amp;quot; to execute.</description>
     </item>
     
     <item>
