@@ -66,6 +66,9 @@
 <p><a href="i:03Send url(fullscreen)::printf 'i:5f%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url(fullscreen)::printf 'i:5f%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
 <p><a href="i:03Send url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
 <p><a href="i:03Send url(clipboard):clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500">Send url(clipboard):clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p>Modify with your own info:<br>
+<a href="i:03dynv6_sim1:/uweb:print 'http://dynv6.com/api/update?hostname=&token=&ipv6=';ip addr|grep 'inet6 [^f]'|grep global|grep -v temporary|head -n 1|sed 's/^.*inet6 //'|sed 's/\/.*$//'">Refresh dynv6 ddns for sim card 1</a></p>
+<p><a href="i:03dynv6_wifi:/uweb:print 'http://dynv6.com/api/update?hostname=&token=&ipv6=';ip addr|grep 'inet6 [^f]'|grep global|grep -v temporary|tail -n 1|sed 's/^.*inet6 //'|sed 's/\/.*$//'">Refresh dynv6 ddns for wifi</a></p>
 <p>Need root permissions:</p>
 <p>Need termux:<br>
 <a href="i:03VPN::am start -a android.net.vpn.SETTINGS">VPN::am start -a android.net.vpn.SETTINGS</a></p>
@@ -96,7 +99,7 @@ Clipboard2QR needs libqrencode.</p>
 <p>[command line] can have &quot;%c&quot; (cookie), &quot;%s&quot; (address bar text), &quot;%u&quot; (url), &quot;%t&quot; (title).<br>
 [mimetype] have the following formats:</p>
 <ul>
-<li>regular mimetype such as &quot;text/html&quot; to indicate the content type of the command output.</li>
+<li>regular mimetype such as &quot;text/html&quot; to indicate the content type of the command output. Ex. &quot;text/javascript&quot; makes browser to evaluate the js code.</li>
 <li>&quot;clip/clip&quot; to indicate &quot;clipboard&quot; as input and the command output is copied to clipboard.</li>
 <li>&quot;/clip&quot;: copy the command output to clipboard.</li>
 <li>&quot;clip/text/html&quot; : clipboard as input, and the command output is processed as &quot;text/html&quot;.</li>

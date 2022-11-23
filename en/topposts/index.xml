@@ -17,11 +17,12 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 943: Multiple home screens support .mht (offline webpage), .search &amp;amp; .html local files.
+Change logs 945: commands to support evaluation of generated js code.
+943: Multiple home screens support .mht (offline webpage), .search &amp;amp; .html local files.
 940: Any url as website with local html processing (&amp;quot;i:0m/..../xxx.html:url&amp;quot;)
 935:
 Pipe support: command line output to uweb tabs. 934:
-Serverless local sites: PWA-kind web extension (chrome .crx &amp;amp; firefox .xpi) support. PWAs and web extensions to be used as search engines, ex. kiwix zim as search engines.</description>
+Serverless local sites: PWA-kind web extension (chrome .crx &amp;amp; firefox .xpi) support. PWAs and web extensions to be used as search engines, ex.</description>
     </item>
     
     <item>
