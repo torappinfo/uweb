@@ -67,8 +67,8 @@
 <p><a href="i:03Send url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
 <p><a href="i:03Send url(clipboard):clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500">Send url(clipboard):clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500</a></p>
 <p>Modify with your own info:<br>
-<a href="i:03dynv6_sim1:/uweb:print 'http://dynv6.com/api/update?hostname=&token=&ipv6=';ip addr|grep 'inet6 [^f]'|grep global|grep -v temporary|head -n 1|sed 's/^.*inet6 //'|sed 's/\/.*$//'">Refresh dynv6 ddns for sim card 1</a></p>
-<p><a href="i:03dynv6_wifi:/uweb:print 'http://dynv6.com/api/update?hostname=&token=&ipv6=';ip addr|grep 'inet6 [^f]'|grep global|grep -v temporary|tail -n 1|sed 's/^.*inet6 //'|sed 's/\/.*$//'">Refresh dynv6 ddns for wifi</a></p>
+<a href="i:03dynv6_sim1:uweb:print 'http://dynv6.com/api/update?hostname=&token=&ipv6=';ip addr|grep 'inet6 [^f]'|grep global|grep -v temporary|head -n 1|sed 's/^.*inet6 //'|sed 's/\/.*$//'">Refresh dynv6 ddns for sim card 1</a></p>
+<p><a href="i:03dynv6_wifi:uweb:print 'http://dynv6.com/api/update?hostname=&token=&ipv6=';ip addr|grep 'inet6 [^f]'|grep global|grep -v temporary|tail -n 1|sed 's/^.*inet6 //'|sed 's/\/.*$//'">Refresh dynv6 ddns for wifi</a></p>
 <p>Need root permissions:</p>
 <p>Need termux:<br>
 <a href="i:03VPN::am start -a android.net.vpn.SETTINGS">VPN::am start -a android.net.vpn.SETTINGS</a></p>
