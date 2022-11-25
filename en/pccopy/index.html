@@ -79,7 +79,7 @@ It formats as &quot;[input mimetype]/[output mimetype]&quot;.<br>
 </ul>
 <p><a target="_self" href="i:0hcheck.js:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/txt/check.js">checked.js</a>: Evaluate checked.js and return value as standard input for the command line. For any file url ending with &quot;/&quot;, optionally append &quot;?[prefix][<em>[postfix]]&quot;. For example, &quot;file:///sdcard/?</em>.png&quot; lists all .png files under the folder &quot;/sdcard&quot;. Select files and process them with checked.js(such as &quot;copy to PC&quot; as the later example).</p>
 <p>default.select sample file:<br>
-copy2addressbar:uweb:printf i:15;cat<br>
+copy2addressbar:/uweb:printf i:15;cat<br>
 copy2PCClipboard::ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 xsel -i&quot;<br>
 richtext2PCClipboard:html:ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 xsel -i&quot;<br>
 copyFiles:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done</p>

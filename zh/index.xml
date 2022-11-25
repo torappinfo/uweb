@@ -487,10 +487,7 @@ html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /termux: 命令运行结果将作为termux下命令运行。
 checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)
 配置default.select如下：
-复制文本到地址栏:uweb:printf i:15;cat
-笔记::(cat;echo;echo;)&amp;gt;&amp;gt;notes.txt
-富文本笔记:html:(cat;echo &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&#39;;echo;)&amp;gt;&amp;gt;notes.html
-命名笔记::(cat;echo;echo;)&amp;gt;&amp;gt;%s
+复制文本到地址栏:/uweb:printf i:15;cat
 复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
 复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;
 复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done
