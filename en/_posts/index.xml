@@ -5,7 +5,18 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on uweb browser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Offline resources</title>
+      <link>/en/offlinecache/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/offlinecache/</guid>
+      <description>Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.crx for chrome &amp;amp; .xpi for firefox).
+Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.
+PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp;amp; .xpi for firefox) are just packaged websites.</description>
+    </item>
+    
     <item>
       <title>Make any url as website</title>
       <link>/en/url2site/</link>
@@ -14,17 +25,6 @@
       <guid>/en/url2site/</guid>
       <description>The uweb internal link &amp;quot;i:0m&amp;quot; make any url such as download or indirect link visitable as a website. The test mirrors in the uweb manual are examples using the following tricks:
 &amp;quot;i:0m04:[url]&amp;quot;: to treat the [url] content as html with bookmarklet. &amp;quot;i:0mi:5h:[url]&amp;quot;: to treat the [url] content as html (for download or no-script links etc.) &amp;quot;i:0mi:5h?[postfix]::[url]&amp;quot;: auto append query postfix to url to retrieve content. &amp;quot;i:0mi:5h/[regex]/[replacement]::[url]&amp;quot;: use the result of regular expression replacement to retrieve the content.</description>
-    </item>
-    
-    <item>
-      <title>Offline resources</title>
-      <link>/en/offlinecache/</link>
-      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/offlinecache/</guid>
-      <description>Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.crx for chrome &amp;amp; .xpi for firefox).
-Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, &#39;?&#39; , &#39;&amp;amp;&#39; , &#39;=&#39;. exactly as url]&amp;quot; are loaded first before reaching the network.
-PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp;amp; .</description>
     </item>
     
     <item>

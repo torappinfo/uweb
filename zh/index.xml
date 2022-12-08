@@ -56,7 +56,6 @@ google:https://google.com/search?q=
 必应4:http://www4.bing.com/search?q=
 百度:https://m.baidu.com/s?wd=
 Fsou:https://fsoufsou.com/search?q=
-paulgo:https://paulgo.io/search?q=
 you:https://you.com/search?q=
 neeva:https://neeva.com/search?q=
 seekr:https://www.seekr.com/search?query=
@@ -78,7 +77,8 @@ louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 4444影视:http://k.4444.li/search.php?searchword=
 nfmovies:https://www.nfmovies.com/search.php?searchword=
 电影狗:https://www.dianyinggou.com/so/
-pianku:https://www.pianku.la/search/%s-------------.html</description>
+pianku:https://www.pianku.la/search/%s-------------.html
+novip:https://www.novipnoad.com/s=</description>
     </item>
     
     <item>
@@ -1053,8 +1053,8 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/offlinecache/</guid>
-      <description>uweb浏览器支持装载网站离线资源。只需要将离线资源存为文件&amp;quot;sitecache/[域名]/[全部路径，包括文件名，?,&amp;amp;,=, 与url一模一样]&amp;quot;。
-打开选项以后超微将自动装载这些离线资源。
+      <description>uweb浏览器支持装载网站离线资源。只需要将离线资源存为文件&amp;quot;sitecache/[域名]/[全部路径，包括文件名，url中的路径部分]&amp;quot;。
+打开选项&amp;quot;使用离线资源&amp;quot;以后超微将自动装载这些离线资源。
 离线资源可作为缓存提高浏览器性能; 可作为国外网站部分备份修复服务访问; 也可替换部分网站资源达到定制网站的作用。</description>
     </item>
     

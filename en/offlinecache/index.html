@@ -48,8 +48,10 @@
     
   </ul>
   <p><a href="i:01Extract webapp:i:0bsitecache/local/:">Click to install url service that extracts web apps to the folder &quot;sitecache/local/&quot;</a>: support web extensions (.crx for chrome &amp; .xpi for firefox).</p>
-<p>Offline resources locate in the folder &quot;sitecache&quot;. With the option &quot;use offline resources&quot; enabled, the corresponding files in &quot;sitecache/[domain name]/[full path including filename, '?' , '&amp;' , '='. exactly as url]&quot; are loaded first before reaching the network.</p>
+<p>Offline resources locate in the folder &quot;sitecache&quot;. With the option &quot;use offline resources&quot; enabled, the corresponding files in &quot;sitecache/[domain name]/[full path including filename, the url path part]&quot; are loaded first before reaching the network.</p>
 <p>PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp; .xpi for firefox) are just packaged websites. Ex. the &quot;kiwix&quot; extension can be extracted to the folder &quot;sitecache/local/kiwix&quot;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, then the kiwix extension can be accessed via url &quot;https://local/kiwix/www/index.html&quot; in the browser.</p>
+<h4 id="serverless-local-sites">Serverless local sites</h4>
+<p>Any folder under &quot;sitecache&quot; can be visited as a local site. Urls with search queries can be dynamically processed by the js/wasm code in the local file.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/_posts/</loc>
-    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -15,11 +15,21 @@
                 href="/en/_posts/"
                 />
   </url><url>
-    <loc>/en/url2site/</loc>
-    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+    <loc>/en/offlinecache/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/offlinecache/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/offlinecache/"
+                />
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -31,18 +41,8 @@
                 href="/en/"
                 />
   </url><url>
-    <loc>/en/offlinecache/</loc>
-    <lastmod>2022-10-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/offlinecache/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/offlinecache/"
-                />
+    <loc>/en/url2site/</loc>
+    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/html5/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
