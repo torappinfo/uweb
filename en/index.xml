@@ -59,7 +59,7 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 948: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size
+Change logs 949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size
 946: Option &amp;quot;use offline cache&amp;quot; to support serverless local websites.
 945: commands to support evaluation of generated js code.
 943: Multiple home screens support .mht (offline webpage), .search &amp;amp; .html local files.
