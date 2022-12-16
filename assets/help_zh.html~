@@ -39,7 +39,7 @@
   <i>高级用户: 点击本页面文件名链接弹出文本编辑器，部分链接为文件目录，长按可显示目录路径; 如果目录存在，点击可进入。创建目录并放入指定类型的文件，可以扩展浏览器功能。</i></p>
 <b>常用链接::</b><br>
 <a href="i:61:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/func.html">界面配置及杂项</a>(<a href="i:61:https://gitee.com/jamesfengcao/uweb/raw/master/zh/searchurl/func.html">gitee镜像</a>)<br>
-<a href="i:60/data/data/info.torapp.uweb/files/config.html:../zh/searchurl/config.html">高级个性化定制</a><br>
+<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://gitee.com/jamesfengcao/uweb/raw/master/zh/searchurl/config.html">高级个性化定制</a><br>
 <a target="_blank" href="file:///data/data/info.torapp.uweb/files/">内部目录</a><br>
 <a target="_blank" href="file:///sdcard/Download/">下载</a><br>
 <a target="_blank" href="file:///data/data/info.torapp.uweb/files/offline/">离线网页</a><br>
