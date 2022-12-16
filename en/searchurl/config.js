@@ -1,12 +1,7 @@
 let labels = ["Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
 let names = ["font","cursive","fantasy","fixed","sansserif","serif"];
 
-let text;
 let d=document;
-if(d.body)
-  text = d.body.innerHTML;
-else
-  text = "\n".repeat(labels.length-1);
 
 let sa = [`<style>input{height:40px;width:100%;border-radius:50px;}</style>
 <datalist id="family">
@@ -24,15 +19,27 @@ let sa = [`<style>input{height:40px;width:100%;border-radius:50px;}</style>
 '&'+ f.fixed.value +
 '&'+ f.sansserif.value +
 '&'+ f.serif.value +
-':https://fastly.jsdelivr.net/gh/torappinfo/uwebzh/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
+':https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
 
+function gen(text) {
+  let strs = text.split('\n');
+  let i=0;
+  for (i = 0; i < labels.length; i++){
+    sa.push("<label>"+labels[i]+"<input list='family' type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
+  }
 
-let strs = text.split('\n');
-let i=0;
-for (i = 0; i < labels.length; i++){
-  sa.push("<label>"+labels[i]+"<input list='family' type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
+  sa.push('<input type="submit" value="Save"></form>');
+  let r = sa.join('<br>');
+  d.documentElement.innerHTML = r;
 }
 
-sa.push('<input type="submit" value="Save"></form>');
-let r = sa.join('<br>');
-d.documentElement.innerHTML = r;
+if(d.body){
+  fetch(location.href)
+    .then(res => res.text())
+    .then(text => {
+      gen(text);
+    });
+}else {
+  let text = "\n".repeat(labels.length-1);
+  gen(text);
+}
