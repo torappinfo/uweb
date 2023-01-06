@@ -43,6 +43,7 @@ Facebook:https://www.facebook.com/search/str/%s/keywords_search
 Instagram:https://www.instagram.com/explore/tags/%s/
 boardreader:https://boardreader.com/s/%s.html
 book_google:https://google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&amp;amp;num=100&amp;amp;filter=0
+annas-archive:https://annas-archive.org/search?q=
 Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is same as &#34;home.search&#34; except that the keyword part of url must be denoted with &#34;%s&#34;. Pressing the right arrow button on the search result page will automatically query with next engine in the file.</description>
     </item>
     
