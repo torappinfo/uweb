@@ -17,13 +17,12 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size
+Change logs 954: Address bar: &amp;quot;:!&amp;quot; for command line support (.js/.sh files as executables).
+953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!&amp;quot; to set focus on address bar
+949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size
 946: Option &amp;quot;use offline cache&amp;quot; to support serverless local websites.
 945: commands to support evaluation of generated js code.
-943: Multiple home screens support .mht (offline webpage), .search &amp;amp; .html local files.
-940: Any url as website with local html processing (&amp;quot;i:0m/..../xxx.html:url&amp;quot;)
-935:
-Pipe support: command line output to uweb tabs.</description>
+943: Multiple home screens support .</description>
     </item>
     
     <item>
