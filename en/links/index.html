@@ -98,16 +98,15 @@ Socks proxy</p>
 </ul>
 <h4 id="commands">commands</h4>
 <ul>
-<li>
-<p>:![command line]<br>
-The command line could be a &quot;.js&quot; file as executable with arguments. Ex. &quot;:!s youtube keyword&quot; could invoke &quot;s.js&quot;(if file exists) executable with the whole string as arguments.</p>
-</li>
-<li>
-<p>:p [width in milliInch]x[height] [top margin]:[right margin]:[bottom margin]:[left margin]<br>
+<li>:![command line]<br>
+The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable with arguments. Ex. &quot;:!s youtube keyword&quot; could invoke &quot;s.js&quot; executable with the whole string as arguments (&quot;s.sh&quot; or &quot;s&quot; if file exists); &quot;:! youtube keyword&quot; would invoke the file &quot;.js&quot; or &quot;.sh&quot; as executable.</li>
+</ul>
+<p>For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</p>
+<ul>
+<li>:p [width in milliInch]x[height] [top margin]:[right margin]:[bottom margin]:[left margin]<br>
 Generate/Print PDF file in the &quot;/sdcard/Download&quot; folder, all units are milliinch.<br>
 Ex. &quot;:p x&quot; or &quot;:px&quot; for screen width and infinite height (as long vector screenshot).<br>
-&quot;:p x[height]&quot; or &quot;:px[height]&quot; for screen width.</p>
-</li>
+&quot;:p x[height]&quot; or &quot;:px[height]&quot; for screen width.</li>
 </ul>
 <h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
 <ul>
