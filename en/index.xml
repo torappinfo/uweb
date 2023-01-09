@@ -5,7 +5,18 @@
     <link>/en/</link>
     <description>Recent content on uweb browser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Address bar command line</title>
+      <link>/en/acmd/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/acmd/</guid>
+      <description>&amp;quot;:!&amp;quot; command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
+The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.
+For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</description>
+    </item>
+    
     <item>
       <title>Offline resources</title>
       <link>/en/offlinecache/</link>
@@ -65,18 +76,6 @@ Change logs 954: Address bar: &amp;quot;:!&amp;quot; for command line support (.
 946: Option &amp;quot;use offline cache&amp;quot; to support serverless local websites.
 945: commands to support evaluation of generated js code.
 943: Multiple home screens support .</description>
-    </item>
-    
-    <item>
-      <title>Address bar command modes</title>
-      <link>/en/acmd/</link>
-      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/acmd/</guid>
-      <description>Commands are the best for repeated execution of an instruction. Address bar command modes provide ways to run different commands in the same category easily.
-The configure file &amp;quot;default.acmd&amp;quot; has the exactly same format as default.cmds. Click the following links to install new modes (cold start the app to take effect, then long click the &amp;quot;refresh&amp;quot; button to switch modes):
-Shell command mode
-GNU bc (basic calculator) command mode (need termux for Android 10- )</description>
     </item>
     
     <item>

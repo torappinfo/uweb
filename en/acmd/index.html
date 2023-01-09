@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <link rel="stylesheet" href="../style.css" type="text/css" />
-    <title>Address bar command modes</title>
+    <title>Address bar command line</title>
     <script type="text/javascript">
       function findLang(){
         let href = location.href;
@@ -36,14 +36,21 @@
     <br />
     
 <div class="container">
-  <h1 class="title">Address bar command modes
+  <h1 class="title">Address bar command line
     <br>
     <span class="subtitle"></span>
   </h1>
   <ul class="tags">
     
   </ul>
-  <p><a href="../cmds/index.html">Commands</a> are the best for repeated execution of an instruction. Address bar command modes provide ways to run different commands in the same category easily.</p>
+  <h3 id="-command-line">&quot;:!&quot; command line</h3>
+<p>Pressing &quot;:&quot; or &quot;!&quot; with hardware keyboard sets focus on the address bar.<br>
+The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable with arguments. Ex. &quot;:!s g keyword&quot; could invoke &quot;s.js&quot; executable with the whole string as arguments (&quot;s.sh&quot; or &quot;s&quot; if file exists, here &quot;g&quot; as google search engine); &quot;:! g keyword&quot; would invoke the file &quot;.js&quot; or &quot;.sh&quot; as executable.</p>
+<p>For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</p>
+<p><a href="i:0h.sh:../searchurl/txt/web.sh">Click to install the example file &quot;.sh&quot;</a><br>
+<a href="i:0hs.js:../searchurl/txt/web.js">Click to install the example file &quot;s.js&quot;</a></p>
+<h3 id="address-bar-command-modes">Address bar command modes</h3>
+<p><a href="../cmds/index.html">Commands</a> are the best for repeated execution of an instruction. Address bar command modes provide ways to run different commands in the same category easily.</p>
 <p>The configure file &quot;default.acmd&quot; has the exactly same format as <a href="../cmds/index.html">default.cmds</a>. Click the following links to install new modes (cold start the app to take effect, then long click the &quot;refresh&quot; button to switch modes):</p>
 <p><a href="i:0gdefault.acmd::shell:text/plain:%25s%0A">Shell command mode</a></p>
 <p><a href="i:0gdefault.acmd::bc:text/plain:echo '%25s'|bc -l -q%0A">GNU bc (basic calculator) command mode (need termux for Android 10- )</a></p>

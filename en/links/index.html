@@ -98,17 +98,19 @@ Socks proxy</p>
 </ul>
 <h4 id="commands">commands</h4>
 <ul>
-<li>:![command line]<br>
-The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable with arguments. Ex. &quot;:!s youtube keyword&quot; could invoke &quot;s.js&quot; executable with the whole string as arguments (&quot;s.sh&quot; or &quot;s&quot; if file exists); &quot;:! youtube keyword&quot; would invoke the file &quot;.js&quot; or &quot;.sh&quot; as executable.</li>
-</ul>
+<li>
+<p>:![command line]<br>
+The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable with arguments. Ex. &quot;:!s g keyword&quot; could invoke &quot;s.js&quot; executable with the whole string as arguments (&quot;s.sh&quot; or &quot;s&quot; if file exists, here &quot;g&quot; as google search engine); &quot;:! g keyword&quot; would invoke the file &quot;.js&quot; or &quot;.sh&quot; as executable.</p>
 <p>For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</p>
 <p><a href="i:0h.sh:../searchurl/txt/web.sh">Click to install the example file &quot;.sh&quot;</a><br>
 <a href="i:0hs.js:../searchurl/txt/web.js">Click to install the example file &quot;s.js&quot;</a></p>
-<ul>
-<li>:p [width in milliInch]x[height] [top margin]:[right margin]:[bottom margin]:[left margin]<br>
+</li>
+<li>
+<p>:p [width in milliInch]x[height] [top margin]:[right margin]:[bottom margin]:[left margin]<br>
 Generate/Print PDF file in the &quot;/sdcard/Download&quot; folder, all units are milliinch.<br>
 Ex. &quot;:p x&quot; or &quot;:px&quot; for screen width and infinite height (as long vector screenshot).<br>
-&quot;:p x[height]&quot; or &quot;:px[height]&quot; for screen width.</li>
+&quot;:p x[height]&quot; or &quot;:px[height]&quot; for screen width.</p>
+</li>
 </ul>
 <h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
 <ul>
@@ -119,22 +121,13 @@ Extract remote content (tar/tgz/zip) under the folder [path]. If [path] ends wit
 <li>
 <p>i:0m[bookmarklet index|prefix|?postfix|/.../localfile|c[cssFlag]]:[url]<br>
 Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</p>
-</li>
-<li></li>
-</ul>
-<p>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</p>
 <ul>
-<li>
-<p>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</p>
-</li>
-<li>
-<p>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</p>
-</li>
-<li>
-<p>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</p>
-</li>
-<li>
-<p>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</p>
+<li>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</li>
+<li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
+<li>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</li>
+<li>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</li>
+<li>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</li>
+</ul>
 </li>
 <li>
 <p>i:15[string]<br>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/_posts/</loc>
-    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/_posts/"
+                />
+  </url><url>
+    <loc>/en/acmd/</loc>
+    <lastmod>2023-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/</loc>
+    <lastmod>2023-01-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
                 />
   </url><url>
     <loc>/en/offlinecache/</loc>
@@ -26,19 +42,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/offlinecache/"
-                />
-  </url><url>
-    <loc>/en/</loc>
-    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
                 />
   </url><url>
     <loc>/en/url2site/</loc>
@@ -72,9 +75,6 @@
                 hreflang="en"
                 href="/en/topposts/"
                 />
-  </url><url>
-    <loc>/en/acmd/</loc>
-    <lastmod>2022-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/search/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
