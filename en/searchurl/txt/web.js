@@ -1,9 +1,18 @@
-let ess = {};
-ess["g"]=["https://google.com/search?q=",];
-ess["v"]=["https://www.youtube.com/results?search_query=",];
-ess["b"]=["http://www.bing.com/search?q=",];
-ess["w"]=["https://encyclopedia.thefreedictionary.com/",];
-ess["a"]=["http://www.amazon.com/s?url=search-alias%3Daps&field-keywords=",];
+let ess = {
+  "a":["http://www.amazon.com/s?url=search-alias%3Daps&field-keywords=",],
+  "ab":["http://audiobookbay.se/?s=",],
+  "b":["http://www.bing.com/search?q=",],
+  "bi":["http://bing.com/images/search?q=",],
+  "bv":["https://www.bing.com/videos/search?q=",],
+  "g":["https://google.com/search?q=",],
+  "gi":["http://www.google.com/images?as_q=",],
+  "gf":["https://google.com/search?q=intitle:index.of+%22parent+directory%22+",],
+  "n":["https://neeva.com/search?q=",],
+  "sx":["https://searx.be/?q=",],
+  "w":["https://en.wikipedia.org/wiki/Special:Search?search=",],
+  "wf":["https://encyclopedia.thefreedictionary.com/",],
+  "yt":["https://www.youtube.com/results?search_query=",],
+};
 
 let url=arguments[1];
 let iS1 = url.search(/ [^ ]/);
