@@ -14,7 +14,7 @@
       <guid>/en/acmd/</guid>
       <description>&amp;quot;:!&amp;quot; command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
 The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.
-For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</description>
+For regular (non-js) executables, the standard output of the command line could be treated as lines of urls (or html, plain text).</description>
     </item>
     
     <item>
@@ -88,15 +88,28 @@ Change logs 954: Address bar: &amp;quot;:!&amp;quot; for command line support (.
 Recommended engines (click or append any of the following to the file &amp;quot;home5.search&amp;quot;)：
 Engines:i:40%s_00
 bing image:http://bing.com/images/search?q=
+google image:http://www.google.com/images?as_q=
+flickr:http://www.flickr.com/photos/tags/
 wolfram:https://www.wolframalpha.com/input/?i=
 wiki:https://en.wikipedia.org/wiki/Special:Search?search=
+wikipedia:http://en.wikipedia.org/?search=
+wikifull:http://en.wikipedia.org/wiki/Special:Search?fulltext=Search&amp;amp;search=
 Youtube:https://www.youtube.com/results?search_query=
+answer:http://mobile.answers.com/
+twitter:https://twitter.com/search?q=
 Facebook:https://www.facebook.com/search/str/%s/keywords_search
 Instagram:https://www.instagram.com/explore/tags/%s/
+social-search:https://www.social-searcher.com/social-buzz/?q5=
+reddit:http://reddit.com/search?q=
 boardreader:https://boardreader.com/s/%s.html
+bingvideo:https://www.bing.com/videos/search?q=
+vsearch:https://www.vsearch.me/s?q=
+groups:http://groups.google.com/groups/search?q=
 book_google:https://google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&amp;amp;num=100&amp;amp;filter=0
 annas-archive:https://annas-archive.org/search?q=
-Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is same as &#34;home.search&#34; except that the keyword part of url must be denoted with &#34;%s&#34;. Pressing the right arrow button on the search result page will automatically query with next engine in the file.</description>
+libgen:http://gen.lib.rus.ec/search.php?req=
+google_file:https://google.com/search?q=intitle:index.of+%22parent+directory%22+
+Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is same as &#34;home.search&#34; except that the keyword part of url must be denoted with &#34;</description>
     </item>
     
     <item>
@@ -197,6 +210,7 @@ Save link:i:55:
 Save to desktop:i:58
 Add to media storage::001
 Extract web app:i:0bsitecache/local/:
+httplocal:i:5g/^file:.+sitecache/https:/:
 tgurl:https://tx.me/share/url?url=
 tgdownload:https://tx.me/share/url?url=/download Compatible mode:i:5d
 papago:https://papago.naver.net/website?locale=en&amp;amp;target=en&amp;amp;url=
@@ -212,8 +226,7 @@ archive:https://archive.is/?run=1&amp;amp;url=
 googlecache:http://webcache.googleusercontent.com/search?q=cache:
 google by image:https://www.google.com/searchbyimage?image_url=
 tinyeye:https://tineye.com/search?url=
-Yandex image:https://yandex.com/images/search?text=
-Yandex by image:https://yandex.</description>
+Yandex image:https://yandex.com/images/search?text=</description>
     </item>
     
     <item>
@@ -255,6 +268,7 @@ Remote javascript is defined in default.rjs. Click the following link to install
       
       <guid>/en/bookmark/</guid>
       <description>Wait for url from other devices
+berify: reverse image search for video
 Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret. Here is an example bookmark for webdav cloud storage (replace &amp;quot;xxx&amp;quot; with real user and password):
 box cloud:POST:type=webdav&amp;amp;url=https://dav.box.com/dav&amp;amp;username=xxx&amp;amp;password=xxx:https://demo.filestash.app/login
 Commands Clicking to run is only allowed from local pages for bookmarks in this section. Users need to either save the bookmarks to local or long press the link =&amp;gt; &amp;quot;open in new tab&amp;quot; to execute.</description>

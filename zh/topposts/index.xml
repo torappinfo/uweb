@@ -51,6 +51,7 @@ toplinks:https://www.toplinks.cc/s/?keyword=
 除了批量添加引擎外，超微可以将任意支持搜索的网址添加为搜索引擎。方法如下：
 访问网站并搜索。 按菜单键，没有的话可长按底部工具条前进按钮弹出菜单。 选择&amp;quot;添加为搜索引擎&amp;quot;，对话框中将出现的地址适当编辑。不少网址后半部分为用&amp;quot;&amp;amp;&amp;quot;分割的等式，将包含搜索条目的等式移动到最后，删除搜索条目本身，其余等式可删可留。若无等式，一般在网址中直接删除搜索条目本身即可。 常用引擎，供用户查漏添加：
 google:https://google.com/search?q=
+谷歌:https://谷歌.ml/search?q=
 必应:http://cn.bing.com/search?q=
 必应4:http://www4.bing.com/search?q=
 百度:https://m.baidu.com/s?wd=
@@ -77,8 +78,7 @@ libvio:https://libvio.me/search/-------------.html?wd=
 louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 4444影视:http://k.4444.li/search.php?searchword=
 nfmovies:https://www.nfmovies.com/search.php?searchword=
-电影狗:https://www.dianyinggou.com/so/
-pianku:https://www.pianku.la/search/%s-------------.html</description>
+电影狗:https://www.dianyinggou.com/so/</description>
     </item>
     
     <item>

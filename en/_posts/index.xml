@@ -14,7 +14,7 @@
       <guid>/en/acmd/</guid>
       <description>&amp;quot;:!&amp;quot; command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
 The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.
-For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</description>
+For regular (non-js) executables, the standard output of the command line could be treated as lines of urls (or html, plain text).</description>
     </item>
     
     <item>
@@ -138,6 +138,7 @@ Enable selection</description>
       
       <guid>/en/bookmark/</guid>
       <description>Wait for url from other devices
+berify: reverse image search for video
 Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret. Here is an example bookmark for webdav cloud storage (replace &amp;quot;xxx&amp;quot; with real user and password):
 box cloud:POST:type=webdav&amp;amp;url=https://dav.box.com/dav&amp;amp;username=xxx&amp;amp;password=xxx:https://demo.filestash.app/login
 Commands Clicking to run is only allowed from local pages for bookmarks in this section. Users need to either save the bookmarks to local or long press the link =&amp;gt; &amp;quot;open in new tab&amp;quot; to execute.</description>
