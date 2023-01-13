@@ -90,6 +90,7 @@ Engines:i:40%s_00
 bing image:http://bing.com/images/search?q=
 google image:http://www.google.com/images?as_q=
 flickr:http://www.flickr.com/photos/tags/
+Yandex image:https://yandex.com/images/search?text=
 wolfram:https://www.wolframalpha.com/input/?i=
 wiki:https://en.wikipedia.org/wiki/Special:Search?search=
 wikipedia:http://en.wikipedia.org/?search=
