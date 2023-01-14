@@ -12,9 +12,8 @@
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/acmd/</guid>
-      <description>&amp;quot;:!&amp;quot; command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
-The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.
-For regular (non-js) executables, the standard output of the command line could be treated as lines of urls (or html, plain text).</description>
+      <description>&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
+The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.</description>
     </item>
     
     <item>

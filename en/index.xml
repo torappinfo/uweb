@@ -12,9 +12,8 @@
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/acmd/</guid>
-      <description>&amp;quot;:!&amp;quot; command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
-The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.
-For regular (non-js) executables, the standard output of the command line could be treated as lines of urls (or html, plain text).</description>
+      <description>&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
+The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.</description>
     </item>
     
     <item>
@@ -70,7 +69,7 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 954: Address bar: &amp;quot;:!&amp;quot; for command line support (.js/.sh files as executables).
+Change logs 955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.js/.sh files as executables).
 953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!&amp;quot; to set focus on address bar
 949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size
 946: Option &amp;quot;use offline cache&amp;quot; to support serverless local websites.

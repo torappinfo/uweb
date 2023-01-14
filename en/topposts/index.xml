@@ -17,7 +17,7 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 954: Address bar: &amp;quot;:!&amp;quot; for command line support (.js/.sh files as executables).
+Change logs 955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.js/.sh files as executables).
 953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!&amp;quot; to set focus on address bar
 949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size
 946: Option &amp;quot;use offline cache&amp;quot; to support serverless local websites.
