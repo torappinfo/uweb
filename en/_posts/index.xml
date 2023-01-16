@@ -5,7 +5,22 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on uweb browser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips</title>
+      <link>/en/tips/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tips/</guid>
+      <description>To show web pages in desktop mode:
+PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
+Playing audio when screen off
+Option &amp;quot;Floating video&amp;quot; + video fullscreen playing
+** Use POST-type search engine as bookmark to auto login **
+Multiple home screens and Next/Prev page:
+home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... can be visited via pressing the right arrow button while home4.mht(or .html or .</description>
+    </item>
+    
     <item>
       <title>Address bar command line</title>
       <link>/en/acmd/</link>
@@ -140,7 +155,8 @@ Enable selection</description>
 berify: reverse image search for video
 Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret. Here is an example bookmark for webdav cloud storage (replace &amp;quot;xxx&amp;quot; with real user and password):
 box cloud:POST:type=webdav&amp;amp;url=https://dav.box.com/dav&amp;amp;username=xxx&amp;amp;password=xxx:https://demo.filestash.app/login
-Commands Clicking to run is only allowed from local pages for bookmarks in this section. Users need to either save the bookmarks to local or long press the link =&amp;gt; &amp;quot;open in new tab&amp;quot; to execute.</description>
+Use the file &amp;quot;home.css&amp;quot; in the same folder to style the search engines.
+Commands Clicking to run is only allowed from local pages for bookmarks in this section.</description>
     </item>
     
     <item>
@@ -230,20 +246,6 @@ Click the following links to install termux configurations: .bashrc
 z.sh
 commacd.sh
 .profile : only for kshell with naked termux (no initial packages, need the following fix for termux quick crash to be launched)</description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>/en/tips/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tips/</guid>
-      <description>To show web pages in desktop mode:
-PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
-Playing audio when screen off
-Option &amp;quot;Floating video&amp;quot; + video fullscreen playing
-Multiple home screens and Next/Prev page:
-home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... can be visited via pressing the right arrow button while home4.mht(or .html or .search), home3.mht(or .html or .search) ... with long pressing the left arrow.</description>
     </item>
     
     <item>
