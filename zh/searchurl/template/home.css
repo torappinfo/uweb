@@ -1,5 +1,6 @@
 <style>
 a{color:inherit;text-decoration:inherit;}.O{display:none}
+.se+.se:before{content:' • '}
 .L{line-height:1;}.G{display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;}input{height:40px;width:100%;border-radius:50px;}
 a.icon{display:inline-block;margin:0 10px 0 10px;text-align:center;}a.icon>img{width:40px;height:40px;font-size:28px;border-radius:20px;position:relative;}a.icon>img:after{content:attr(alt);font-size:28px;display:block;position:absolute;z-index:2;top:0;left:0;width:100%;height:100%;background-color:#fff;}a.icon>span{display:block;overflow:hidden;height:24px;line-height:24px;}
 
