@@ -1,8 +1,10 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" />
 <script>function g(){
   let d=document;
-  let f=d.forms[0];  
-  window.open("f:"+f.i.value+"::"+f.e.value+"&"+f.u.value+":template/backup.html");
+  let f=d.forms[0];
+  let loc = window.location.href;
+  let dir = loc.substring(0, loc.lastIndexOf ("/")+1);
+  window.open("f:"+f.i.value+"::"+f.e.value+"&"+f.u.value+":"+dir+"template/backup.html");
   return false;
 }
 </script><style>
@@ -26,7 +28,8 @@ input{height:40px;width:100%;border-radius:50px;}
   <input type="submit" value="备份与恢复">
 </form>
 
-<p><a href="javascript:document.forms[0].u.value='https://dav.jianguoyun.com/dav/%e6%88%91%e7%9a%84%e5%9d%9a%e6%9e%9c%e4%ba%91/uweb.tgz';void(0)">坚果云</a> <a href="javascript:document.forms[0].u.value='https://asytech.cn/cloud/remote.php/webdav/uweb.tgz';void(0)">易云</a><br>
+<p><a href="javascript:document.forms[0].u.value='https://dav.jianguoyun.com/dav/%e6%88%91%e7%9a%84%e5%9d%9a%e6%9e%9c%e4%ba%91/uweb.tgz';void(0)">坚果云</a>
+
 <a href="javascript:document.forms[0].i.value='/data/data/info.torapp.uweb/files';void(0)">uweb目录</a>
 <a href="javascript:document.forms[0].i.value='/data/data/info.torapp.uweb/app_webview/Default/Cookies';void(0)">Cookie (webview 76+)</a>  
 </p>

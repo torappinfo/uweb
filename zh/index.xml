@@ -32,10 +32,7 @@ bing图片:http://bing.com/images/search?q=
 微信:https://weixin.sogou.com/weixin?type=2&amp;amp;s_from=input&amp;amp;query=
 大百科全书:http://h.bkzx.cn/search?sublibId=2&amp;amp;query=
 wolfram:https://www.wolframalpha.com/input/?i=
-维基:POST:kw=%s:https://www.wanweibaike.com/search
-wiki:POST:kw=%s:https://en.wanweibaike.com/search
-volupedia:https://en.volupedia.org/wiki/Special:Search?search=
-wiki:https://en.wikipedia.org/wiki/Special:Search?search=
+bookmarkearth:https://www.bookmarkearth.com/s/search?q=
 答案答案:https://daandaan.com/search?q=
 问答库:https://m.asklib.com/s/
 ACG:http://www.acgsou.com/?bound=content&amp;amp;local=1&amp;amp;keyword=
@@ -78,7 +75,10 @@ libvio:https://libvio.me/search/-------------.html?wd=
 louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 4444影视:http://k.4444.li/search.php?searchword=
 nfmovies:https://www.nfmovies.com/search.php?searchword=
-电影狗:https://www.dianyinggou.com/so/</description>
+电影狗:https://www.dianyinggou.com/so/
+pianku:https://www.pianku.la/search/%s-------------.html
+novip:https://www.novipnoad.com/s=
+555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=</description>
     </item>
     
     <item>
@@ -300,12 +300,13 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
       
       <guid>/zh/bookmark/</guid>
       <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
-Personal use, not for public
-Personal use 2
 网络剪贴板
 txtpad
+cmd.im
 Wait for url from other devices
 gamezop
+Personal use, not for public
+Personal use 2
 分类书签模板 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
 &amp;quot;小说.html&amp;quot;: 自动使用阅读模式
 href=&amp;quot;i:0hbookmark/txt.html:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)

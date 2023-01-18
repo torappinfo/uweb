@@ -32,10 +32,7 @@ bing图片:http://bing.com/images/search?q=
 微信:https://weixin.sogou.com/weixin?type=2&amp;amp;s_from=input&amp;amp;query=
 大百科全书:http://h.bkzx.cn/search?sublibId=2&amp;amp;query=
 wolfram:https://www.wolframalpha.com/input/?i=
-维基:POST:kw=%s:https://www.wanweibaike.com/search
-wiki:POST:kw=%s:https://en.wanweibaike.com/search
-volupedia:https://en.volupedia.org/wiki/Special:Search?search=
-wiki:https://en.wikipedia.org/wiki/Special:Search?search=
+bookmarkearth:https://www.bookmarkearth.com/s/search?q=
 答案答案:https://daandaan.com/search?q=
 问答库:https://m.asklib.com/s/
 ACG:http://www.acgsou.com/?bound=content&amp;amp;local=1&amp;amp;keyword=
@@ -78,7 +75,10 @@ libvio:https://libvio.me/search/-------------.html?wd=
 louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 4444影视:http://k.4444.li/search.php?searchword=
 nfmovies:https://www.nfmovies.com/search.php?searchword=
-电影狗:https://www.dianyinggou.com/so/</description>
+电影狗:https://www.dianyinggou.com/so/
+pianku:https://www.pianku.la/search/%s-------------.html
+novip:https://www.novipnoad.com/s=
+555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=</description>
     </item>
     
     <item>
