@@ -84,7 +84,8 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
+Change logs 958: Add webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
+956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
 955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.js/.sh files as executables).
 953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!&amp;quot; to set focus on address bar
 949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size</description>
@@ -165,6 +166,7 @@ Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is sam
 VPN
 Wait for network msg
 Certificate info
+upload to box.com
 Web fullscreen
 Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
 [Menu name]:[url][space][javascript code]

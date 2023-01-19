@@ -104,6 +104,7 @@ The following html5 applications are allowed to read local files referred by &am
 VPN
 Wait for network msg
 Certificate info
+upload to box.com
 Web fullscreen
 Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
 [Menu name]:[url][space][javascript code]
