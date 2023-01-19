@@ -51,7 +51,7 @@
 <a href="i:0gdefault.link::vpn:i:1dandroid.net.vpn.SETTINGS:::%0A">VPN</a></p>
 <p><a href="i:0gdefault.link::Wait msg:i:1c%0A">Wait for network msg</a></p>
 <p><a href="i:0gdefault.link::Certificate info:i:1b%0A">Certificate info</a></p>
-<p><a href="i:0gdefault.link::up2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])let f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':https://dav.box.com/dav/'+f;}%0A">upload to box.com</a></p>
+<p><a href="i:0gdefault.link::up2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':https://dav.box.com/dav/'+f;}%0A">upload to box.com</a></p>
 <p><a href="i:0gdefault.link::web fullscreen: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">Web fullscreen</a></p>
 <p>Long pressing the bookmark button in <a href="../index.html">uweb browser</a> will popup menus defined in file &quot;default.link&quot;. The file format is as follows:<br>
 [Menu name]:[url][space][javascript code]</p>
