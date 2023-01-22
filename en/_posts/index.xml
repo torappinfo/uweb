@@ -104,11 +104,14 @@ The following html5 applications are allowed to read local files referred by &am
 VPN
 Wait for network msg
 Certificate info
+Backup to box.com
+Restore from box.com
 upload to box.com
+More webdav link menu items
 Web fullscreen
 Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
 [Menu name]:[url][space][javascript code]
-in which space and later parts are optional. url and later parts support &amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot; etc.. The javascript code will be executed after url is fully loaded.</description>
+in which space and later parts are optional.</description>
     </item>
     
     <item>

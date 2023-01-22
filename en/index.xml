@@ -104,7 +104,6 @@ bing image:http://bing.com/images/search?q=
 google image:http://www.google.com/images?as_q=
 flickr:http://www.flickr.com/photos/tags/
 Yandex image:https://yandex.com/images/search?text=
-wolfram:https://www.wolframalpha.com/input/?i=
 wiki:https://en.wikipedia.org/wiki/Special:Search?search=
 wikipedia:http://en.wikipedia.org/?search=
 wikifull:http://en.wikipedia.org/wiki/Special:Search?fulltext=Search&amp;amp;search=
@@ -119,6 +118,8 @@ boardreader:https://boardreader.com/s/%s.html
 bingvideo:https://www.bing.com/videos/search?q=
 vsearch:https://www.vsearch.me/s?q=
 groups:http://groups.google.com/groups/search?q=
+wolfram:https://www.wolframalpha.com/input/?i=
+fxsolver:https://www.fxsolver.com/browse/?q=
 book_google:https://google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&amp;amp;num=100&amp;amp;filter=0
 annas-archive:https://annas-archive.org/search?q=
 libgen:http://gen.lib.rus.ec/search.php?req=
@@ -166,11 +167,14 @@ Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is sam
 VPN
 Wait for network msg
 Certificate info
+Backup to box.com
+Restore from box.com
 upload to box.com
+More webdav link menu items
 Web fullscreen
 Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
 [Menu name]:[url][space][javascript code]
-in which space and later parts are optional. url and later parts support &amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot; etc.. The javascript code will be executed after url is fully loaded.</description>
+in which space and later parts are optional.</description>
     </item>
     
     <item>

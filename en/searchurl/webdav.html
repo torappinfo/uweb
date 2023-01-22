@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" />
+<script>function g(){
+  let d=document;
+  let f=d.forms[0];
+  let loc = window.location.href;
+  let dir = loc.substring(0, loc.lastIndexOf ("/")+1);
+  window.open("f:"+f.i.value+"&"+f.u.value+":"+dir+"template/webdav.html");
+  return false;
+}
+</script><style>
+input{height:40px;width:100%;border-radius:50px;}
+</style>
+<title>webdav storage</title></head><body>
+<p>This page is to generate install-able menu items and bookmarks for webdav cloud storage operations (upload, backup/restore, delete and create directory).</p>
+
+Bookmark the generated page for later use.<br>
+<form onsubmit="return g();" style="margin:5px 0 5px 0;padding:0px">
+  <input name=i placeholder="Name"/><br>
+  <input name=u placeholder="Server url including path"/><br>
+  <input type="submit" value="webdav links">
+</form>
+
+<p>
+  <a href="javascript:{let f=document.forms[0];f.i.value='Box';f.u.value='https://dav.box.com/dav';void(0)}">Box</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='koofr';f.u.value='https://app.koofr.net/dav/koofr';void(0)}">koofr</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='pcloud';f.u.value='https://webdav.pcloud.com';void(0)}">pcloud</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='powerfolder';f.u.value='https://my.powerfolder.com/webdav/personal';void(0)}">powerfolder</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='yandex';f.u.value='https://webdav.yandex.com';void(0)}">yandex</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='opendrive';f.u.value='https://webdav.opendrive.com';void(0)}">opendrive</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='sme';f.u.value='https://webdav.storagemadeeasy.com';void(0)}">storagemadeeasy</a>
+  <a href="javascript:{let f=document.forms[0];f.i.value='teracloud';f.u.value='https://yura.teracloud.jp/dav';void(0)}">teracloud</a>
+</p>
+
+
+</body></html>
+
+
+
+
+
+
+
+    

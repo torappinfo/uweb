@@ -37,7 +37,6 @@ bing image:http://bing.com/images/search?q=
 google image:http://www.google.com/images?as_q=
 flickr:http://www.flickr.com/photos/tags/
 Yandex image:https://yandex.com/images/search?text=
-wolfram:https://www.wolframalpha.com/input/?i=
 wiki:https://en.wikipedia.org/wiki/Special:Search?search=
 wikipedia:http://en.wikipedia.org/?search=
 wikifull:http://en.wikipedia.org/wiki/Special:Search?fulltext=Search&amp;amp;search=
@@ -52,6 +51,8 @@ boardreader:https://boardreader.com/s/%s.html
 bingvideo:https://www.bing.com/videos/search?q=
 vsearch:https://www.vsearch.me/s?q=
 groups:http://groups.google.com/groups/search?q=
+wolfram:https://www.wolframalpha.com/input/?i=
+fxsolver:https://www.fxsolver.com/browse/?q=
 book_google:https://google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&amp;amp;num=100&amp;amp;filter=0
 annas-archive:https://annas-archive.org/search?q=
 libgen:http://gen.lib.rus.ec/search.php?req=
