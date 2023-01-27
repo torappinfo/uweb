@@ -17,7 +17,7 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 958: Add webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
+Change logs 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
 956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
 955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.js/.sh files as executables).
 953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!&amp;quot; to set focus on address bar

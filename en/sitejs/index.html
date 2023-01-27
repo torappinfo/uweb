@@ -66,14 +66,14 @@
 <li>Long press the button &quot;settings&quot;, check the option &quot;Apply user styles&quot;.</li>
 </ul>
 <p>If file &quot;default.css&quot; exists, the style will be applied to all sites without matching [domain root].css.</p>
-<h3 id="extra-html-experimental">Extra html (experimental)</h3>
+<h3 id="extra-html">Extra html</h3>
 <ul>
-<li>Need to be named as &quot;[domain].html&quot;.</li>
+<li>Need to be named as &quot;[domain].html&quot;. Notice: the file name here is &quot;[full domain]&quot; not &quot;[domain root]&quot;.</li>
 <li>Under folder &quot;siteextra&quot;.</li>
 <li>Long press the button &quot;settings&quot;, check the option &quot;Apply user extra&quot;.</li>
-<li>May have issues with some redirected urls.</li>
 </ul>
-<p>&quot;sitejs/.js&quot; , &quot;sitecss/.css&quot; and &quot;sitecss/.js&quot; are applied to all non-http urls (file urls etc.).</p>
+<p>The extra html could be placed before the site source html (uweb uses an algorithm to merge the extra html with the site source html automatically). Ex. when the extra html ends with &quot;<textarea>&quot;, the site source html appears as the value of the textarea element, thus the extra html can further process the the site source html before rendering. For sites with textarea elements, &quot;<div><textarea>&quot; could be used.</p>
+<p>&quot;sitejs/.js&quot;, &quot;sitecss/.css&quot;, &quot;sitecss/.js&quot; and &quot;siteextra/.html&quot; are applied to all non-http urls (file urls etc.).</p>
 
 </div>
 
