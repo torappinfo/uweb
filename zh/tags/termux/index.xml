@@ -104,7 +104,7 @@ oed索引
     </item>
     
     <item>
-      <title>利用文件预处理预览/查看/播放一切可下载资源</title>
+      <title>利用文件预处理预览/查看/播放可下载资源</title>
       <link>/zh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -124,7 +124,7 @@ pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.htm
     </item>
     
     <item>
-      <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
+      <title>一键执行预定义命令</title>
       <link>/zh/cmd/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -165,7 +165,7 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
     </item>
     
     <item>
-      <title>浏览器一键控制台式机/服务器下载资源</title>
+      <title>浏览器控制服务器下载资源</title>
       <link>/zh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -5,7 +5,18 @@
     <link>/zh/</link>
     <description>Recent content on 超微浏览器</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>特定网址脚本、样式、额外html及预处理</title>
+      <link>/zh/sitejs/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sitejs/</guid>
+      <description>技巧等级：中级
+脚本 (第一时间装载js脚本见下面sitecss条目) 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。 样式及第一时间装载js脚本 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。 额外html及预处理 需命名为 &amp;quot;[域名].html&amp;quot;，譬如baidu.com.html。注意此处与sitejs, sitecss不同，不再是&amp;quot;[根域名]&amp;quot;。 文件需放到siteextra目录下。 长按窗口按钮，勾选“网址附加内容”。 额外html可以以&amp;quot;&amp;lt;textarea&amp;gt;&amp;quot;或&amp;quot;&amp;lt;div&amp;gt;&amp;lt;textarea&amp;gt;&amp;quot;等结尾，此时超微算法自动判定用户欲对网址html源代码进行处理，并将网址html源码附加在用户html后面，从而成为textarea元素的内容，供用户进行预处理。
+文件&amp;quot;sitejs/.js&amp;quot;,&amp;quot;sitecss/.css&amp;quot;,&amp;quot;sitecss/.js&amp;quot;和&amp;quot;siteextra/.html&amp;quot;可作用于一切非http url（本地文件，浏览器界面等）。</description>
+    </item>
+    
     <item>
       <title>浏览器多搜索引擎一键直达</title>
       <link>/zh/search/</link>
@@ -420,7 +431,7 @@ Selection to paragraph:;let g=&#39;paragraph&#39;;getSelection().modify(&#39;mov
     </item>
     
     <item>
-      <title>重定向国外网址至国内镜像（附编辑本地文件）</title>
+      <title>重定向网址至国内镜像</title>
       <link>/zh/redirect/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -782,7 +793,7 @@ oed索引
     </item>
     
     <item>
-      <title>利用文件预处理预览/查看/播放一切可下载资源</title>
+      <title>利用文件预处理预览/查看/播放可下载资源</title>
       <link>/zh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -819,7 +830,7 @@ back2:javascript:history.go(-2)</description>
     </item>
     
     <item>
-      <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
+      <title>一键执行预定义命令</title>
       <link>/zh/cmd/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -1014,7 +1025,7 @@ gnuplot -e &#39;set term svg;set output; plot x&#39;
     </item>
     
     <item>
-      <title>浏览器一键控制台式机/服务器下载资源</title>
+      <title>浏览器控制服务器下载资源</title>
       <link>/zh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1035,17 +1046,6 @@ chmod 755 /data/data/com.termux/files/usr/bin/pcdownload
 PCdown:/data/data/com.termux/files/usr/bin/pcdownload
 重启超微浏览器，点击链接下载时会弹出菜单，选择&amp;quot;PCdown&amp;quot;，台式机会启动firefox下载手机指定文档。
 可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</description>
-    </item>
-    
-    <item>
-      <title>特定网址用户脚本、样式、额外html及预处理</title>
-      <link>/zh/sitejs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sitejs/</guid>
-      <description>技巧等级：中级
-脚本 (第一时间装载js脚本见下面sitecss条目) 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。 样式及第一时间装载js脚本 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。 额外html及预处理 需命名为 &amp;quot;[域名].html&amp;quot;，譬如baidu.com.html。注意此处与sitejs, sitecss不同，不再是&amp;quot;[根域名]&amp;quot;。 文件需放到siteextra目录下。 长按窗口按钮，勾选“网址附加内容”。 额外html可以以&amp;quot;&amp;lt;textarea&amp;gt;&amp;quot;或&amp;quot;&amp;lt;div&amp;gt;&amp;lt;textarea&amp;gt;&amp;quot;等结尾，此时超微算法自动判定用户欲对网址html源代码进行处理，并将网址html源码附加在用户html后面，从而成为textarea元素的内容，供用户进行预处理。
-文件&amp;quot;sitejs/.js&amp;quot;,&amp;quot;sitecss/.css&amp;quot;,&amp;quot;sitecss/.js&amp;quot;和&amp;quot;siteextra/.html&amp;quot;可作用于一切非http url（本地文件，浏览器界面等）。</description>
     </item>
     
     <item>

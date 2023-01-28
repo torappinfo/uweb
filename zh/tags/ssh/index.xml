@@ -47,7 +47,7 @@ pclip</description>
     </item>
     
     <item>
-      <title>一键执行任意预定义命令（附手机PC剪贴板互通）</title>
+      <title>一键执行预定义命令</title>
       <link>/zh/cmd/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -70,7 +70,7 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
     </item>
     
     <item>
-      <title>浏览器一键控制台式机/服务器下载资源</title>
+      <title>浏览器控制服务器下载资源</title>
       <link>/zh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
