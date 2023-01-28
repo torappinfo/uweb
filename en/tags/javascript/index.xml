@@ -5,7 +5,16 @@
     <link>/en/tags/javascript/</link>
     <description>Recent content in javascript on uweb browser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS/CSS/HTML/preprocessing for domains</title>
+      <link>/en/sitejs/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/sitejs/</guid>
+      <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
+    </item>
+    
     <item>
       <title>Bookmarklets</title>
       <link>/en/bookmarklet/</link>
@@ -42,15 +51,6 @@ in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&a
 To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;longclick&amp;quot; are part of the popup menu.
 These javascript files are in the following format:
 The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
-    </item>
-    
-    <item>
-      <title>Javascript and CSS for domains</title>
-      <link>/en/sitejs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/sitejs/</guid>
-      <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
     
   </channel>

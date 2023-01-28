@@ -5,7 +5,16 @@
     <link>/en/</link>
     <description>Recent content on uweb browser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS/CSS/HTML/preprocessing for domains</title>
+      <link>/en/sitejs/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/sitejs/</guid>
+      <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
+    </item>
+    
     <item>
       <title>Tips</title>
       <link>/en/tips/</link>
@@ -448,15 +457,6 @@ Swiping on the top part of content window (near the top address bar by default) 
       <guid>/en/adblock_domain/</guid>
       <description>hosts blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.pl&amp;quot;, then it is treated as one segment, so domains like &amp;quot;xxx.xxx.com.pl&amp;quot; are also valid in the hosts file.
 Each line of the hosts file has the following format:</description>
-    </item>
-    
-    <item>
-      <title>Javascript and CSS for domains</title>
-      <link>/en/sitejs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/sitejs/</guid>
-      <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
     
   </channel>

@@ -20,13 +20,14 @@ gozer 广告屏蔽样式
     </item>
     
     <item>
-      <title>特定网址用户脚本及样式</title>
+      <title>特定网址用户脚本、样式、额外html及预处理</title>
       <link>/zh/sitejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/sitejs/</guid>
       <description>技巧等级：中级
-脚本 (第一时间装载js脚本见下面sitecss条目) 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到sitejs或/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。如果内部目录下sitejs存在，则sitejs不起任何作用。内部sitejs目录的存在同时也影响一切对安全敏感的资源（包括网站离线资源等）的配置，一旦内部sitejs目录存在，则这些资源必须位于内部目录才会生效。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。 样式及第一时间装载js脚本 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。 额外html 需命名为 &amp;quot;[域名].html&amp;quot;，譬如baidu.com.html。注意此处与sitejs, sitecss不同，不再是&amp;quot;[根域名]&amp;quot;。 文件需放到siteextra目录下。 文件&amp;quot;sitejs/.js&amp;quot;,&amp;quot;sitecss/.css&amp;quot;,&amp;quot;sitecss/.js&amp;quot;和&amp;quot;siteextra/.html&amp;quot;可作用于一切非http url（本地文件，浏览器界面等）。</description>
+脚本 (第一时间装载js脚本见下面sitecss条目) 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。 样式及第一时间装载js脚本 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。 额外html及预处理 需命名为 &amp;quot;[域名].html&amp;quot;，譬如baidu.com.html。注意此处与sitejs, sitecss不同，不再是&amp;quot;[根域名]&amp;quot;。 文件需放到siteextra目录下。 长按窗口按钮，勾选“网址附加内容”。 额外html可以以&amp;quot;&amp;lt;textarea&amp;gt;&amp;quot;或&amp;quot;&amp;lt;div&amp;gt;&amp;lt;textarea&amp;gt;&amp;quot;等结尾，此时超微算法自动判定用户欲对网址html源代码进行处理，并将网址html源码附加在用户html后面，从而成为textarea元素的内容，供用户进行预处理。
+文件&amp;quot;sitejs/.js&amp;quot;,&amp;quot;sitecss/.css&amp;quot;,&amp;quot;sitecss/.js&amp;quot;和&amp;quot;siteextra/.html&amp;quot;可作用于一切非http url（本地文件，浏览器界面等）。</description>
     </item>
     
   </channel>
