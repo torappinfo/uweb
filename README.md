@@ -8,23 +8,24 @@
 (Mirrors: 
 [netlify](https://uwebzh.netlify.app/en/)
 [gitlab](https://jamesfengcao.gitlab.io/uweb/en/)
-[bitbucket](https://torappinfo.bitbucket.io/en/)
+[stormkit](https://uweb.stormkit.dev/en/)
+[surge](https://uweb.surge.sh/en/)
+[codeberg](https://jamesfengcao.codeberg.page/en/)
 [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html)
 [pages](https://uwebzh.pages.dev/en/)
 [vercel](https://uweb-zh.vercel.app/en/)
-[codeberg](https://jamesfengcao.codeberg.page/en/)
-[stormkit](https://uweb.stormkit.dev/en/)
-[surge](https://uweb.surge.sh/en/)
+[bitbucket](https://torappinfo.bitbucket.io/en/)
 [render](https://uwebzh.onrender.com/en/)
 )
 
-- Powerful: any native functionality with html5 enhancement and still secure; any urls to host a website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
+- Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
 - Convenient: Any book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
 - Tiny: less than 200k.
-- Fast: run fast, even with thousands of user provided css/scripts.
+- Fast: run fast, even with thousands of user provided css/scripts/htmls.
 - Efficient: less touches, one click to reach any number of search engines without repeated input.
 - URL bar command line support (better with hardware keyboard).
+- user-defined JS/CSS/HTML/preprocessing for specified domains.
 
 #### Main features
 Custom paper size PDF export and long vector screenshot, TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url redirection, webdav/http backup & restore, auto next page, sending/receiving msg/file(s), site config (UA, no JS, no image, no 3rd party script/resource,active script, global scripts), http(s)/socks proxy, enabling html5 apps for local files (pdf/djvu/epub viewer, mdict dictionary lookup etc.).

@@ -72,7 +72,7 @@
 <li>Under folder &quot;siteextra&quot;.</li>
 <li>Long press the button &quot;settings&quot;, check the option &quot;Apply user extra&quot;.</li>
 </ul>
-<p>The extra html could be placed before the site source html (uweb merges the extra html with the site source html intelligently). Ex. when the extra html ends with &quot;&lt;textarea&gt;&quot;, the site source html appears as the value of the textarea element, thus the extra html can further process the the site source html before rendering. For sites with textarea elements, &quot;&lt;div&gt;&lt;textarea&gt;&quot; could be used.</p>
+<p>An open tag as the last tag in the last 50 bytes of the user extra html expects more content to follow, thus the extra html is placed before the site html. Ex. when the extra html ends with &quot;&lt;textarea&gt;&quot; or &quot;&lt;plaintext&gt;&quot;, the site source html appears as the value of the textarea/plaintext element, thus the extra html can further process the the site source html before rendering. A self closed tag such as &quot;&lt;br&gt;&quot; acts like open tags, also makes the site source follow the extra html.</p>
 <p>&quot;sitejs/.js&quot;, &quot;sitecss/.css&quot;, &quot;sitecss/.js&quot; and &quot;siteextra/.html&quot; are applied to all non-http urls (file urls etc.).</p>
 
 </div>
