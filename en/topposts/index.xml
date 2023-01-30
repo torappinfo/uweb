@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Topposts on uweb browser</title>
+    <title>Topposts on uweb browser: unlimited power</title>
     <link>/en/topposts/</link>
-    <description>Recent content in Topposts on uweb browser</description>
+    <description>Recent content in Topposts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 16 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/topposts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,11 +17,11 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 964: site source html preprocessing before rendering with user site extra html.
+Main features Change logs 964: site source html preprocessing before rendering with user site extra html.
 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
 956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
 955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.js/.sh files as executables).
-953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!</description>
+949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size</description>
     </item>
     
     <item>

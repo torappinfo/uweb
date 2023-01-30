@@ -495,6 +495,18 @@
     <loc>/zh/cmd/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/zh/readme/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/readme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/readme/"
+                />
+  </url><url>
     <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -505,6 +517,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/categories/"
+                />
+  </url><url>
+    <loc>/zh/unlist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/unlist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/unlist/"
                 />
   </url><url>
     <loc>/zh/tags/%E7%94%B5%E8%A7%86/</loc>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>uweb browser</title>
+    <title>uweb browser: unlimited power</title>
     <link>/en/</link>
-    <description>Recent content on uweb browser</description>
+    <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -93,11 +93,11 @@ uweb, termux &amp;amp; history versions
 github
 pagure
 sourceforge
-Change logs 964: site source html preprocessing before rendering with user site extra html.
+Main features Change logs 964: site source html preprocessing before rendering with user site extra html.
 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
 956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
 955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.js/.sh files as executables).
-953: hardware keyboard: &amp;quot;:&amp;quot;, &amp;quot;!</description>
+949: Address bar: &amp;quot;:p [width in milliInch]x[height]&amp;quot; to generate PDF in custom size</description>
     </item>
     
     <item>
@@ -447,6 +447,20 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.
 Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.
 Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/readme/</guid>
+      <description>Uweb browser for geeks: unlimited power with html5 &amp;amp; termux 中文
+Amazon appstore
+Downloads
+Uweb browser: downloads, plugins and tips
+(Mirrors: netlify gitlab stormkit surge codeberg repo pages vercel bitbucket render)
+Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux. Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</description>
     </item>
     
     <item>

@@ -491,6 +491,18 @@
                 href="/en/gesture/"
                 />
   </url><url>
+    <loc>/en/readme/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/readme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/readme/"
+                />
+  </url><url>
     <loc>/en/tags/adblock/</loc>
   </url><url>
     <loc>/en/adblock_domain/</loc>
@@ -515,6 +527,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/categories/"
+                />
+  </url><url>
+    <loc>/en/unlist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/unlist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/unlist/"
                 />
   </url>
 </urlset>

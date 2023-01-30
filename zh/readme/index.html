@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <title></title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('en')">English</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <h3 id="超微浏览器-微威快高效极致优化">超微浏览器: 微、威、快、高效、极致优化</h3>
+<p><a href="README.md">English</a></p>
+<p><a href="https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5">Amazon appstore</a><br>
+<a href="en/download.md">Downloads</a></p>
+<p><a href="https://uwebzh.netlify.app/zh/">超微浏览器下载及使用技巧</a><br>
+(Mirrors: <a href="https://jamesfengcao.gitlab.io/uweb/zh/">gitlab</a> <a href="https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html">repo</a> <a href="https://jamesfengcao.codeberg.page/zh/">codeberg</a> <a href="https://uwebzh.netlify.app/zh/">netlify</a> <a href="https://uweb.stormkit.dev/zh/">stormkit</a> <a href="https://uweb.surge.sh/zh/">surge</a> <a href="https://torappinfo.github.io/uweb/zh/">github</a> <a href="https://uwebzh.pages.dev/zh/">pages</a> <a href="https://torappinfo.bitbucket.io/zh/">bitbucket</a> <a href="https://uweb-zh.vercel.app/zh/">vercel</a>)</p>
+<ul>
+<li>微：不到200K。</li>
+<li>威：支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。html5应用增强，可匹配本地应用。</li>
+<li>便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。</li>
+<li>快：手机越慢，脚本插件越多越明显。</li>
+<li>高效：最少的操作，在线服务全自动（参看常用链接网页）。</li>
+<li>极致优化：</li>
+<li>地址栏支持命令行 (&quot;!&quot;, 物理键盘支持更佳)</li>
+<li>指定域名: 用户定义JS/CSS/HTML/显示前源码预处理</li>
+</ul>
+<h4 id="软件功能">软件功能</h4>
+<p>输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、代码编辑器（支持120多种语言，语法高亮、错误提示、自动提示、直接运行测试、其它网页上直接测试）。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。</p>
+<p>小书签(bookmarklet)再也不用手工输入，直接将小书签网站加入书签即可。运行时长按出菜单后选择“在新窗口中打开”，小书签将作用于最后一个窗口。</p>
+<p>独创不良信息绝杀：阻止指定根域名的一切子域名、孙域名...，不良信息一网打尽。 支持根域名前缀、网址路径正则表达式。</p>
+<p>独创脚本激活模式，脚本执行后被激活，此后自动作用于同类网址。</p>
+<p>支持全局用户脚本/样式，可任意叠加，轻松切换。</p>
+<p>支持网址特定脚本/样式，可轻松支持百万以上不同脚本。</p>
+<p>支持自定义任意多个搜索引擎; 支持执行用户提供任何js文件; 支持用户定义任意多个useragent; 长按链接支持运行第三方程序; 长按链接支持运行用户js文件。</p>
+<p>配套安装uWeb定制Termux应用，可用地址栏作图（类似matlab功能）、超级计算器（无限精度/π的前万位或更多、无限函数、无限常量）、符号演算（解方程、分解因式、求积分导数）、离线字典查找等。譬如地址栏输入sin(x)**5就直接得到函数图形。利用好第三方代码，才能真正发挥出uWeb的潜能。</p>
+
+</div>
+
+  </body>
+</html>
