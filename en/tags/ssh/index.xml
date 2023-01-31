@@ -13,6 +13,7 @@
       
       <guid>/en/pccopy/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
+Search with home screen
 google Translate
 bing translate
 deepL
@@ -20,8 +21,7 @@ The file &amp;quot;default.select&amp;quot; defines menus for selected text. If 
 [Name]:[mimetype]:[command line]
 [mimetype] specifies input/output for [command line].
 It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
-[input mimetype] can be the following:
-&amp;quot;html&amp;quot;: rich text &amp;quot;&amp;quot; (empty): text &amp;quot;.</description>
+[input mimetype] can be the following:</description>
     </item>
     
   </channel>

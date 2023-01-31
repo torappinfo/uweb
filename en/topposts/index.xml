@@ -16,6 +16,7 @@
 uweb, termux &amp;amp; history versions
 github
 sourceforge
+powerfolder
 pagure
 Main features Change logs 964: site source html preprocessing before rendering with user site extra html.
 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
