@@ -1,8 +1,8 @@
 ### Uweb browser for geeks: unlimited power with html5 & termux
-[中文](README.zh-Hans.md)
+[中文](https://uwebzh.netlify.app/zh/readme/index.html)
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
-[Downloads](en/download.md)
+[Downloads](https://uwebzh.netlify.app/en/changelog/index.html)
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [netlify](https://uwebzh.netlify.app/en/) [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [stormkit](https://uweb.stormkit.dev/en/) [surge](https://uweb.surge.sh/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [pages](https://uwebzh.pages.dev/en/) [vercel](https://uweb-zh.vercel.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [render](https://uwebzh.onrender.com/en/))
@@ -12,9 +12,9 @@
 - Convenient: Any book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
 - Tiny: less than 200k.
 - Fast: run fast, even with thousands of user provided css/scripts/htmls.
-- Efficient: less touches, one click to reach any number of search engines without repeated input.
-- URL bar command line support ("!", better with hardware keyboard).
-- user-defined JS/CSS/HTML/preprocessing for specified domains.
+- Efficient: less touches, one click to reach any number of search engines without repeated input; automate online services.
+- URL bar command line support ("!" and .js file as command).
+- user-defined site-specific JS/CSS/HTML/preprocessing.
 
 #### Main features
 Custom paper size PDF export and long vector screenshot, TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url redirection, webdav/http backup & restore, auto next page, sending/receiving msg/file(s), site config (UA, no JS, no image, no 3rd party script/resource,active script, global scripts), http(s)/socks proxy, enabling html5 apps for local files (pdf/djvu/epub viewer, mdict dictionary lookup etc.).

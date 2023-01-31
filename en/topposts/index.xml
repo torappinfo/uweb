@@ -15,8 +15,8 @@
       <description>Amazon appstore
 uweb, termux &amp;amp; history versions
 github
-pagure
 sourceforge
+pagure
 Main features Change logs 964: site source html preprocessing before rendering with user site extra html.
 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
 956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
