@@ -1,8 +1,8 @@
 defaultTasks 'genApk'
 task genApk() {
   doFirst {
-    mkdir "build/outputs/apk"
-    def f = new File('build/outputs/apk/uweb.apk')
+    mkdir "build/outputs/apk/release"
+    def f = new File('build/outputs/apk/release/uweb.apk')
     new URL('https://releases.pagure.org/uweb/uweb_latest.apk').withInputStream{ i -> f.withOutputStream{ it << i }}
   }
 }
