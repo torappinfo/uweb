@@ -5,4 +5,6 @@
 
 [sourceforge](https://sourceforge.net/projects/uwebbrowser/files/v1/)
 
+[powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
+
 [pagure](https://releases.pagure.org/uweb/)
