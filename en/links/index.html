@@ -57,7 +57,9 @@
 <p><a href="../searchurl/webdav.html">More webdav link menu items</a></p>
 <p><a href="i:0gdefault.link::web fullscreen: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">Web fullscreen</a></p>
 <p>Long pressing the bookmark button in <a href="../index.html">uweb browser</a> will popup menus defined in file &quot;default.link&quot;. The file format is as follows:<br>
-[Menu name]:[url][space][javascript code]</p>
+[Menu name]:[one or more links delimited by &quot; \n &quot;]</p>
+<p>and each link has the following format:<br>
+[url][space][javascript code]</p>
 <p>in which space and later parts are optional. url and later parts support <a href="../cmd/index.html">&quot;%u&quot;,&quot;%s&quot; etc.</a>. The javascript code will be executed after url is fully loaded.</p>
 <p>url supports all standard scheme (http(s):,javascript: etc.) and uweb internal schemes ( ':' as second character in the url ) and special links that begins with ':'.</p>
 <p>uweb browser will handle local file urls (file:///) specially for some file types：</p>

@@ -119,8 +119,7 @@ upload to box.com
 More webdav link menu items
 Web fullscreen
 Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
-[Menu name]:[url][space][javascript code]
-in which space and later parts are optional.</description>
+[Menu name]:[one or more links delimited by &amp;quot; \n &amp;quot;]</description>
     </item>
     
     <item>
