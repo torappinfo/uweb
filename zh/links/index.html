@@ -50,7 +50,7 @@
   <p>点击以下链接可安装至常用链接:<br>
 <a href="i:0gdefault.link::vpn:i:1dandroid.net.vpn.SETTINGS:::%0A">VPN</a><br>
 <a href="i:0gdefault.link::wireless:i:1dandroid.settings.WIRELESS_SETTINGS:::%0A">wireless</a><br>
-<a href="i:0gdefault.link::显示安全证书:i:1b%0A">显示网站安全证书</a><br>
+<a href="i:0gdefault.link::显示安全证书:i:1c%0A">显示网站安全证书</a><br>
 <a href="i:0gdefault.link::上传坚果云: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':https://dav.jianguoyun.com/dav/%e6%88%91%e7%9a%84%e5%9d%9a%e6%9e%9c%e4%ba%91/'+f;}%0A">上传坚果云</a></p>
 <p><a href="../../en/searchurl/webdav.html">更多 webdav ...</a></p>
 <p><a href="i:0gdefault.link::迅雷盘离线:http://pan.xunlei.com/ {let rsc=setInterval(function(){var offBtn=document.querySelector('.pan-dropdown-menu.plus-menu>a:nth-child(2)');if(offBtn){clearInterval(rsc);var wsc=setInterval(function(){offBtn.click();var textarea=document.querySelector('.fileurl-input__container>textarea');if(textarea){clearInterval(wsc);textarea.value='%25u';var event=document.createEvent('HTMLEvents');event.initEvent('input',false,true);textarea.dispatchEvent(event);document.querySelector('.pan-dialog-btn__primary').click();}},200);}},1000);}%0A">迅雷盘离线</a></p>
@@ -134,20 +134,20 @@ socks代理</p>
 地址栏内容末尾附加[string]</p>
 </li>
 <li>
-<p>i:1b<br>
-显示网站证书</p>
-</li>
-<li>
 <p>i:1c<br>
-等待从网络接收url并打开</p>
-</li>
-<li>
-<p>i:1c1<br>
-等待从网络接收url并打开(不显示ip)</p>
+显示网站证书</p>
 </li>
 <li>
 <p>i:1d<action>:<type>:<Category>:<data><br>
 Launch app for specific <action></p>
+</li>
+<li>
+<p>i:1w<br>
+等待从网络接收url并打开</p>
+</li>
+<li>
+<p>i:1w1<br>
+等待从网络接收url并打开(不显示ip)</p>
 </li>
 <li>
 <p>i:50[path]:[string]<br>

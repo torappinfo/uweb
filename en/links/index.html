@@ -49,8 +49,9 @@
   </ul>
   <p>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):<br>
 <a href="i:0gdefault.link::vpn:i:1dandroid.net.vpn.SETTINGS:::%0A">VPN</a></p>
-<p><a href="i:0gdefault.link::Wait msg:i:1c%0A">Wait for network msg</a></p>
-<p><a href="i:0gdefault.link::Certificate info:i:1b%0A">Certificate info</a></p>
+<p><a href="i:0gdefault.link::profile_config::cprofile . files .conf%0A">Switch configuration</a></p>
+<p><a href="i:0gdefault.link::Wait msg:i:1w%0A">Wait for network msg</a></p>
+<p><a href="i:0gdefault.link::Certificate info:i:1c%0A">Certificate info</a></p>
 <p><a href="i:0gdefault.link::Backup2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0e'+path+':https://dav.box.com/dav/'+f+'.tgz';}%0A">Backup to box.com</a></p>
 <p><a href="i:0gdefault.link::restoreFromBox: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0dhttps://dav.box.com/dav/'+f+'.tgz';}%0A">Restore from box.com</a></p>
 <p><a href="i:0gdefault.link::up2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':https://dav.box.com/dav/'+f;}%0A">upload to box.com</a></p>
@@ -112,6 +113,15 @@ The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable
 <a href="i:0h.js:../searchurl/txt/web.js">Click to install the example file &quot;.js&quot;</a></p>
 </li>
 <li>
+<p>:c[command]</p>
+<ul>
+<li>close<br>
+&quot;:cclose&quot; to close the current window/tab.</li>
+<li>profile [parent folder] [file/folder] [optional ID]<br>
+Ex. &quot;:cprofile . files&quot; to switch configurations</li>
+</ul>
+</li>
+<li>
 <p>:p [width in milliInch]x[height] [top margin]:[right margin]:[bottom margin]:[left margin]<br>
 Generate/Print PDF file in the &quot;/sdcard/Download&quot; folder, all units are milliinch.<br>
 Ex. &quot;:p x&quot; or &quot;:px&quot; for screen width and infinite height (as long vector screenshot).<br>
@@ -154,20 +164,20 @@ Read partial data from url.<br>
 Append [string] to the address bar text.</p>
 </li>
 <li>
-<p>i:1b<br>
-Show web certificate.</p>
-</li>
-<li>
 <p>i:1c<br>
-Wait to receive url from the network and open the url.</p>
-</li>
-<li>
-<p>i:1c1<br>
-Wait to receive url from the network and open the url (not showing ip)</p>
+Show web certificate.</p>
 </li>
 <li>
 <p>i:1d<action>:<type>:<Category>:<data><br>
 Launch app for specific <action>.</p>
+</li>
+<li>
+<p>i:1w<br>
+Wait to receive url from the network and open the url.</p>
+</li>
+<li>
+<p>i:1w1<br>
+Wait to receive url from the network and open the url (not showing ip)</p>
 </li>
 <li>
 <p>i:1e<br>

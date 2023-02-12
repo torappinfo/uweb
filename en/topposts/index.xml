@@ -18,11 +18,11 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 968: multiple links support for single MENU/(New)Button/GESTURE definition.
+Main features Change logs 971: multiple type profiles to switch website logins, http auth, user configurations and more orthogonally.
+968: multiple links support for single MENU/(New)Button/GESTURE definition.
 964: site source html preprocessing before rendering with user site extra html.
 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
-956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.
-955: Address bar: &amp;quot;:!&amp;quot; or &amp;quot;!&amp;quot; for command line support (.</description>
+956: Search engines (.search file) to apply same folder &amp;quot;home.css&amp;quot;. Use POST type search engine as bookmark for auto login.</description>
     </item>
     
     <item>

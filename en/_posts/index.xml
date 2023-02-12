@@ -111,6 +111,7 @@ The following html5 applications are allowed to read local files referred by &am
       <guid>/en/links/</guid>
       <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
 VPN
+Switch configuration
 Wait for network msg
 Certificate info
 Backup to box.com

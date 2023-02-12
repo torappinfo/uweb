@@ -1,4 +1,4 @@
-### Uweb browser for geeks: unlimited power with html5 & termux
+### Uweb browser: unlimited power
 <a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../zh/readme/index.html'}">中文</a>
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
