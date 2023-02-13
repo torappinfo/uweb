@@ -94,7 +94,7 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 971: multiple type profiles to switch website logins, http auth, user configurations and more orthogonally.
+Main features Change logs 971: multiple type profiles: switch any data including website logins, user configurations orthogonally.
 968: multiple links support for single MENU/(New)Button/GESTURE definition.
 964: site source html preprocessing before rendering with user site extra html.
 961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
