@@ -167,9 +167,9 @@ Enable selection</description>
       <guid>/en/bookmark/</guid>
       <description>Wait for url from other devices
 berify: reverse image search for video
+Tips Use the file &amp;quot;home.css&amp;quot; in the same folder or parent folder to style the search engines and bookmarks.
 Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret. Here is an example bookmark for webdav cloud storage (replace &amp;quot;xxx&amp;quot; with real user and password):
 box cloud:POST:type=webdav&amp;amp;url=https://dav.box.com/dav&amp;amp;username=xxx&amp;amp;password=xxx:https://demo.filestash.app/login
-Use the file &amp;quot;home.css&amp;quot; in the same folder to style the search engines.
 Commands Clicking to run is only allowed from local pages for bookmarks in this section.</description>
     </item>
     
