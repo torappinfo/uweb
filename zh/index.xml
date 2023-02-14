@@ -320,7 +320,7 @@ Personal use, not for public
 Personal use 2
 分类书签模板 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。
 &amp;quot;小说.html&amp;quot;: 自动使用阅读模式
-href=&amp;quot;i:0hbookmark/txt.html:https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
+href=&amp;quot;i:0hbookmark/txt.html:../searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)
 Mirrors Mirror list
 zlibirary
 mirror.js.org
