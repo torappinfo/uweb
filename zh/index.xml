@@ -571,7 +571,7 @@ webview 80- 夜间模式</description>
 &amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串
 &amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。
 &amp;quot;home5.search&amp;quot;:主屏搜索引擎
-&amp;quot;home.css&amp;quot;:主屏风格
+&amp;quot;home.css&amp;quot;:主屏风格，虽然后缀名为css，但其格式为html，故css代码需放在&amp;quot;&amp;lt;style&amp;gt;&amp;quot;元素内。
 &amp;quot;bookmark.html&amp;quot;:主书签
 &amp;quot;quickstart.html&amp;quot;:快速访问
 &amp;quot;colors.txt&amp;quot;:护眼背景色

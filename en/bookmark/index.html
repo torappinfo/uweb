@@ -50,7 +50,11 @@
   <p><a href="i:1w">Wait for url from other devices</a><br>
 <a href="https://berify.com">berify: reverse image search for video</a></p>
 <h3 id="tips">Tips</h3>
-<p>Use the file &quot;home.css&quot; in the same folder or parent folder to style the search engines and bookmarks.</p>
+<h4 id="file-handling-and-styling-with-homecss">File handling and styling with home.css</h4>
+<p>&quot;home.css&quot; styles bookmarks and search engines in the same folder or subfolders. The file is in html format instead of CSS, so it needs &quot;&lt;style&gt;&quot; tag for CSS.</p>
+<h5 id="markdeep-for-markdown-files-under-the-folder-bookmarkmd">Markdeep for markdown files under the folder &quot;bookmark/md/&quot;</h5>
+<p><a href="i:0hbookmark/md/home.css:../searchurl/txt/markdeep.html">Install markdeep styling</a><br>
+<a href="i:0gdefault.link::Markdowns:file:///data/data/info.torapp.uweb/files/bookmark/md/ {let as=document.getElementsByTagName('a');for(let i=as.length-1;i>=0;i--){let h=as[i].href;if(h.startsWith('file:')&&h.endsWith('.md'))as[i].href=h%2B'.search';}}%0A">Install link for markdown files</a></p>
 <h3 id="bookmarks-with-secrets-post-instead-of-get">Bookmarks with secrets (POST instead of GET)</h3>
 <p>The search engine (&quot;.search&quot;) file can be used as bookmarks with secret. Here is an example bookmark for webdav cloud storage (replace &quot;xxx&quot; with real user and password):<br>
 box cloud:POST:type=webdav&amp;url=https://dav.box.com/dav&amp;username=xxx&amp;password=xxx:https://demo.filestash.app/login</p>

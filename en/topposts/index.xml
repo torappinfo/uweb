@@ -18,7 +18,7 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 973: Bookmarks to support css styling.
+Main features Change logs 974: Bookmarks to support styling for markdown etc.
 971: multiple type profiles: switch any data including website logins, user configurations orthogonally.
 968: multiple links support for single MENU/(New)Button/GESTURE definition.
 964: site source html preprocessing before rendering with user site extra html.

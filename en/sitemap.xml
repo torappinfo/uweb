@@ -80,6 +80,19 @@
                 href="/en/"
                 />
   </url><url>
+    <loc>/en/bookmark/</loc>
+    <lastmod>2023-01-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/bookmark/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/bookmark/"
+                />
+  </url><url>
     <loc>/en/tips/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -256,19 +269,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/rjs/"
-                />
-  </url><url>
-    <loc>/en/bookmark/</loc>
-    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/bookmark/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/bookmark/"
                 />
   </url><url>
     <loc>/en/tags/redirection/</loc>
