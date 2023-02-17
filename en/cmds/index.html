@@ -49,7 +49,8 @@
   </ul>
   <p>Click the following links to install commands with <a href="../index.html">uweb browser</a>. <b>Force exit and re-launch the app</b>, then long press the button with clock icon to popup the command menu.</p>
 <p>Configuration file &quot;default.cmds&quot; examples:</p>
-<p><a href="i:03Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' -type f -delete">Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' -type f -delete</a></p>
+<p><a href="i:03Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
+<p><a href="i:03Clear database::rm -rf /data/data/info.torapp.uweb/databases/*">Clear database::rm -rf /data/data/info.torapp.uweb/databases/*</a></p>
 <p><a href="i:03Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i>a.tmp;mv a.tmp default.autoc;>query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc">Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&gt;a.tmp;mv a.tmp default.autoc;&gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc</a></p>
 <p><a href="i:03Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache">Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache</a></p>
 <p><a href="i:03Clear logcat::logcat -c">Clear logcat::logcat -c</a></p>
@@ -91,6 +92,7 @@ Clipboard2QR needs libqrencode.</p>
 <p><a href="i:0gdefault.cmds::mdme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/mdme></script><textarea>%22;cat %25f%0A">mdme: Show local markdown file</a></p>
 <p><a href="i:0gdefault.cmds::texme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/texme></script><textarea>%22;cat %25f%0A">texme: Show local tex+markdown file</a></p>
 <p><a href="i:0gdefault.cmds::markdeep:text/html:cat %25f;echo %22<style class=fallback>body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility=visible)</script>%22%0A">markdeep: Show local markdown+tex+diagrams file</a></p>
+<p>&lt;a href=&quot;i:0gdefault.cmds::markdeep slide:text/html:cat %25f;echo %22<link rel='stylesheet' href="https://casual-effects.com/markdeep/latest/slides.css?"><script>markdeepOptions={tocStyle:'none'}</script><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script>%22%0A&quot;&gt;markdeep slide: markdown+tex+diagrams</a></p>
 <p><a href="i:0gdefault.cmds::remark slide:text/html:echo %22<script src=https://remarkjs.com/downloads/remark-latest.min.js></script><script>window.onload=function(){var slideshow=remark.create({navigation:{click:true,},});}</script><textarea id=%27source%27>class:middle%22;cat %25f%0A">remark slide: slide show for local markdown file</a></p>
 <p><a href="i:0gdefault.cmds:https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/txt/cmds.cfg">Code editor, open url in clipboard etc.</a></p>
 <h4 id="cmds-file-format">&quot;.cmds&quot; file format</h4>

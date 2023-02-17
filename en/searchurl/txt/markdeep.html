@@ -1,3 +1,15 @@
-<script>window.markdeepOptions = {onload};</script>
-<script src=https://casual-effects.com/markdeep/latest/markdeep.min.js? charset=utf-8></script>
-
+<script>
+  if(location.href.endsWith('/')){
+    window.onload=function (){
+      let as=document.getElementsByTagName('a');for(let i=as.length-1;i>=0;i--){let h=as[i].href;if(h.startsWith('file:')&&h.endsWith('.md'))as[i].href=h+'.search';}
+    }
+  }else{
+    function loadJS(u){
+      let d=document;
+      let e=d.createElement('script');e.src=u;
+      d.head.appendChild(e);
+    }
+    window.markdeepOptions = {onload};
+    loadJS("https://casual-effects.com/markdeep/latest/markdeep.min.js?");
+  }
+</script>

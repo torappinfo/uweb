@@ -23,9 +23,8 @@
       <guid>/en/bookmark/</guid>
       <description>Wait for url from other devices
 berify: reverse image search for video
-Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; styles bookmarks and search engines in the same folder or subfolders. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
-Markdeep for markdown files under the folder &amp;quot;bookmark/md/&amp;quot; Install markdeep styling
-Install link for markdown files
+Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; styles bookmarks, search engines in the same folder or subfolders (it styles the folders too). The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
+Install markdeep styling for markdown files under the folder &amp;quot;bookmark/md/&amp;quot;
 Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</description>
     </item>
     
@@ -108,7 +107,7 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 974: Bookmarks to support styling for markdown etc.
+Main features Change logs 975: Bookmarks to support styling for markdown etc.
 971: multiple type profiles: switch any data including website logins, user configurations orthogonally.
 968: multiple links support for single MENU/(New)Button/GESTURE definition.
 964: site source html preprocessing before rendering with user site extra html.
@@ -283,12 +282,11 @@ Yandex image:https://yandex.com/images/search?text=</description>
       <guid>/en/cmds/</guid>
       <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.
 Configuration file &amp;quot;default.cmds&amp;quot; examples:
-Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
+Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete
+Clear database::rm -rf /data/data/info.torapp.uweb/databases/*
 Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc
 Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache
-Clear logcat::logcat -c
-logcat.log::logcat -d &amp;gt; logcat.log
-copy cookie:/clip:printf &#39;%c&#39;</description>
+Clear logcat::logcat -c</description>
     </item>
     
     <item>
