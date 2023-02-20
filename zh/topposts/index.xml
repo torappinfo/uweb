@@ -194,16 +194,14 @@ tgz install::toybox tar -xzf %f -C /
       <description>特定网址用户脚本
 全局脚本位于js子目录, 长按[☰]按钮配置。点击以下链
 接安装：
-&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
+&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:../searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
 极速网页
 大型脚本可安装到&amp;quot;bookmarklet&amp;quot;目录下（长按js按钮）：
 google翻译
 Eruda
-彩云小译
 Performance
 移除覆盖物
 远程脚本配置文件default.rjs样列如下，点击以下链接自动安装 (清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单)：
-彩云小译:[&#39;https://caiyunapp.com/dest/trs.js&#39;]
 Selection to sentence:;let g=&#39;sentence&#39;;getSelection().modify(&#39;move&#39;,&#39;forward&#39;,g);getSelection().modify(&#39;extend&#39;,&#39;backward&#39;,g);
 Selection to line:;let g=&#39;line&#39;;getSelection().modify(&#39;move&#39;,&#39;forward&#39;,g);getSelection().modify(&#39;extend&#39;,&#39;backward&#39;,g);
 Selection to paragraph:;let g=&#39;paragraph&#39;;getSelection().modify(&#39;move&#39;,&#39;forward&#39;,g);getSelection().modify(&#39;extend&#39;,&#39;backward&#39;,g);
