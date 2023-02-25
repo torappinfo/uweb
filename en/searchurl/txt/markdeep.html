@@ -1,7 +1,8 @@
+<style>a{color:inherit;text-decoration:inherit;}</style>
 <script>
   if(location.href.endsWith('/')){
     window.onload=function (){
-      let as=document.getElementsByTagName('a');for(let i=as.length-1;i>=0;i--){let h=as[i].href;if(h.startsWith('file:')&&h.endsWith('.md'))as[i].href=h+'.search';}
+      let as=document.getElementsByTagName('a');for(let i=as.length-1;i>=0;i--){let h=as[i].href;if(h.startsWith('file:')&&h.endsWith('.md'))as[i].onclick=function(){location.href=this.href+'.search';}}
     }
   }else{
     function loadJS(u){
@@ -9,7 +10,9 @@
       let e=d.createElement('script');e.src=u;
       d.head.appendChild(e);
     }
-    window.markdeepOptions = {onload};
-    loadJS("https://casual-effects.com/markdeep/latest/markdeep.min.js?");
+    if(location.href.endsWith('.md.search')){
+      window.markdeepOptions = {onload};
+      loadJS("https://casual-effects.com/markdeep/latest/markdeep.min.js?");
+    }
   }
 </script>

@@ -23,9 +23,9 @@
       <guid>/en/bookmark/</guid>
       <description>Wait for url from other devices
 berify: reverse image search for video
-Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; styles bookmarks, search engines in the same folder or subfolders (it styles the folders too). The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
-Install markdeep styling for markdown files under the folder &amp;quot;bookmark/md/&amp;quot;
-Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</description>
+Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
+Install markdeep styling for markdown files
+Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret.</description>
     </item>
     
     <item>
