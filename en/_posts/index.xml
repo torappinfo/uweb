@@ -21,11 +21,12 @@
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/bookmark/</guid>
-      <description>Wait for url from other devices
+      <description>AI, chatgpt etc.
+rebbe freegpt Wait for url from other devices
 berify: reverse image search for video
 Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
 Install markdeep styling for markdown files
-Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret.</description>
+Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</description>
     </item>
     
     <item>
@@ -240,8 +241,9 @@ If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also 
 [Engine name]:[url without &#39;%s&#39; inside]
 [Engine name]:[url with &#39;%s&#39; as keyword]
 [Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]
-Limitations (they are here for performance reasons):
-The first engine in the file must be the first type that has no &#39;%s&#39; in the engine url. Internal scheme engine urls (such as i:, d:, c:) must have &#39;%s&#39;, since &#39;%s&#39; format is more general (only type 2 is allowed, since POST makes no sense for internal schemes).</description>
+[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]
+[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; Limitations (they are here for performance reasons):
+The first engine in the file must be the first type that has no &#39;%s&#39; in the engine url.</description>
     </item>
     
     <item>

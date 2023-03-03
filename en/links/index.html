@@ -136,11 +136,12 @@ Ex. &quot;:p x&quot; or &quot;:px&quot; for screen width and infinite height (as
 Extract remote content (tar/tgz/zip) under the folder [path]. If [path] ends with &quot;/&quot;, then put unzipped file under the folder &quot;[path]/[file name stem]&quot; (for zipped files only, not for tar/tgz).</p>
 </li>
 <li>
-<p>i:0m[bookmarklet index|prefix|?postfix|/.../localfile|c[cssFlag]]:[url]<br>
+<p>i:0m[bookmarklet index|prefix|?postfix|/.../localfile|H[headers]|c[cssFlag]]:[url]<br>
 Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</p>
 <ul>
 <li>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</li>
 <li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
+<li>H[headers]: Ex. &quot;HX-Forwarded-For;8.8.8.8&quot; adds extra http request header &quot;X-Forwarded-For:8.8.8.8&quot;.</li>
 <li>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</li>
 <li>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</li>
 <li>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</li>

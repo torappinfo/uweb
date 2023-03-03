@@ -60,14 +60,13 @@ toplinks:https://www.toplinks.cc/s/?keyword=
 访问网站并搜索。 按菜单键，没有的话可长按底部工具条前进按钮弹出菜单。 选择&amp;quot;添加为搜索引擎&amp;quot;，对话框中将出现的地址适当编辑。不少网址后半部分为用&amp;quot;&amp;amp;&amp;quot;分割的等式，将包含搜索条目的等式移动到最后，删除搜索条目本身，其余等式可删可留。若无等式，一般在网址中直接删除搜索条目本身即可。 常用引擎，供用户查漏添加：
 google:https://google.com/search?q=
 谷歌:https://谷歌.ml/search?q=
-必应:http://cn.bing.com/search?q=
-必应4:http://www4.bing.com/search?q=
+必应:http://www.bing.com/search?q=
 百度:https://m.baidu.com/s?wd=
 Fsou:https://fsoufsou.com/search?q=
-you:https://you.com/search?q=
 neeva:https://neeva.com/search?q=
 seekr:https://www.seekr.com/search?query=
 sese:https://sese.yyj.moe/search?q=
+you:https://you.com/search?q=
 神马:http://m.sm.cn/s?q=
 夸克AI:https://quark.sm.cn/s?q=
 无追:https://www.wuzhuiso.com/s?q=
@@ -89,7 +88,8 @@ nfmovies:https://www.nfmovies.com/search.php?searchword=
 电影狗:https://www.dianyinggou.com/so/
 pianku:https://www.pianku.la/search/%s-------------.html
 novip:https://www.novipnoad.com/s=
-555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=</description>
+555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=
+zhenbuka:https://www.zhenbuka.net/search/-------------.html?wd=</description>
     </item>
     
     <item>
@@ -272,7 +272,8 @@ BugMeNot</description>
       <description>超微浏览器下点击配置链接可自动添加常用命令，强制清空后台重启后长按历史按钮可用。
 打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等
 配置文件&amp;quot;default.cmds&amp;quot;示例：
-清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; -type f -delete
+清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete
+清空应用数据库::rm -rf /data/data/info.torapp.uweb/databases/*
 本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb
 本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.
 合并查询历史至自动填充:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc
@@ -284,8 +285,7 @@ tgz install::toybox tar -xzf %f -C /
 以下命令需修改接收端IP定制。另外，发送消息前接收端需首先执行“等待网络消息”命令。
 发送剪贴板:clip/uweb:printf &#39;i:5ji:5b&#39;;cat
 发送url::printf &#39;%u&#39;|/system/bin/toybox nc 192.168.2.155 1500
-发送url(播放器)::printf &#39;i:5g%u&#39;|/system/bin/toybox nc 192.168.2.155 1500
-发送url(书签)::printf &#39;i:51../home5:i:0mc16:%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
+发送url(播放器)::printf &#39;i:5g%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
     </item>
     
     <item>
@@ -314,6 +314,7 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
 网络剪贴板
 txtpad
 cmd.im
+Bing international (chatgpt requires UA to be &#39;edge&#39; and some scripts)
 Wait for url from other devices
 gamezop
 Personal use, not for public

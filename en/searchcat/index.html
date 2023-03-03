@@ -52,7 +52,11 @@
   <p>Any &quot;.search&quot; file can be opened as search engine file, each line of which has one of the following formats:<br>
 [Engine name]:[url without '%s' inside]<br>
 [Engine name]:[url with '%s' as keyword]<br>
-[Engine name]:POST:[post params with '%s' as keyword]:[url]</p>
+[Engine name]:POST:[post params with '%s' as keyword]:[url]<br>
+[Engine name]:[Extra request headers]:[post params with '%s' as keyword]:[url]</p>
+<ul>
+<li>[Extra request headers] Ex. &quot;X-Forwarded-For;8.8.8.8&quot;</li>
+</ul>
 <p>Limitations (they are here for performance reasons):</p>
 <ul>
 <li>The first engine in the file must be the first type that has no '%s' in the engine url.</li>
