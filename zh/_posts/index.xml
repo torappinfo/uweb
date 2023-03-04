@@ -733,7 +733,8 @@ CCTV17农村
 [搜索引擎名]:[不含%s的url]
 [搜索引擎名]:[含%s的url]
 [搜索引擎名]:POST:[含%s的post参数]:[url]
-.search文件首行必须为第一种类型的搜索引擎。由于其它两种类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。
+[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]
+[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt .search文件首行必须为第一种类型的搜索引擎。由于其它两种类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。
 本地引擎 搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为
 c:[含%s的命令行]
 d:mimetype:[含%s的命令行]:[外部资源url]
