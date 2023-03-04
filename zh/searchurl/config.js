@@ -3,7 +3,7 @@ let names = ["font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;
 
-let sa = [`<style>input{height:40px;width:100%;border-radius:50px;}</style>
+let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=device-width" /></head><style>input{height:40px;width:100%;border-radius:50px;}</style>
 <datalist id="family">
 <option value="sans-serif">
 <option value="sans-serif-condensed">
