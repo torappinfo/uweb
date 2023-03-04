@@ -375,8 +375,7 @@ If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also 
 [Engine name]:[url with &#39;%s&#39; as keyword]
 [Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]
 [Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]
-[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; Limitations (they are here for performance reasons):
-The first engine in the file must be the first type that has no &#39;%s&#39; in the engine url.</description>
+[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt Limitations (they are here for performance reasons):</description>
     </item>
     
     <item>

@@ -60,7 +60,8 @@ toplinks:https://www.toplinks.cc/s/?keyword=
 访问网站并搜索。 按菜单键，没有的话可长按底部工具条前进按钮弹出菜单。 选择&amp;quot;添加为搜索引擎&amp;quot;，对话框中将出现的地址适当编辑。不少网址后半部分为用&amp;quot;&amp;amp;&amp;quot;分割的等式，将包含搜索条目的等式移动到最后，删除搜索条目本身，其余等式可删可留。若无等式，一般在网址中直接删除搜索条目本身即可。 常用引擎，供用户查漏添加：
 google:https://google.com/search?q=
 谷歌:https://谷歌.ml/search?q=
-必应:http://www.bing.com/search?q=
+必应:https://www.bing.com/search?q=
+bingUS:X-Forwarded-For;8.8.8.8::https://www.bing.com/search?q=%s
 百度:https://m.baidu.com/s?wd=
 Fsou:https://fsoufsou.com/search?q=
 neeva:https://neeva.com/search?q=
@@ -88,8 +89,7 @@ nfmovies:https://www.nfmovies.com/search.php?searchword=
 电影狗:https://www.dianyinggou.com/so/
 pianku:https://www.pianku.la/search/%s-------------.html
 novip:https://www.novipnoad.com/s=
-555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=
-zhenbuka:https://www.zhenbuka.net/search/-------------.html?wd=</description>
+555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=</description>
     </item>
     
     <item>
