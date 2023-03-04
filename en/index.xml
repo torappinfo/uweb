@@ -108,12 +108,12 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 975: Bookmarks to support styling for markdown etc.
+Main features Change logs 976: Support user defined http request headers
+975: Bookmarks to support styling for markdown etc.
 971: multiple type profiles: switch any data including website logins, user configurations orthogonally.
 968: multiple links support for single MENU/(New)Button/GESTURE definition.
 964: site source html preprocessing before rendering with user site extra html.
-961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.
-956: Search engines (.search file) to apply same folder &amp;quot;home.</description>
+961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.</description>
     </item>
     
     <item>
