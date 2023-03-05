@@ -21,12 +21,11 @@
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/bookmark/</guid>
-      <description>AI, chatgpt etc.
-rebbe freegpt Wait for url from other devices
+      <description>Wait for url from other devices
 berify: reverse image search for video
 Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
 Install markdeep styling for markdown files
-Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</description>
+Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret.</description>
     </item>
     
     <item>
