@@ -21,11 +21,12 @@
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/bookmark/</guid>
-      <description>Wait for url from other devices
+      <description>AI, chatgpt etc.
+teach-anything magickpen Wait for url from other devices
 berify: reverse image search for video
 Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
 Install markdeep styling for markdown files
-Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.search&amp;quot;) file can be used as bookmarks with secret.</description>
+Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</description>
     </item>
     
     <item>
@@ -123,7 +124,8 @@ The following html5 applications are allowed to read local files referred by &am
       
       <guid>/en/links/</guid>
       <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
-Classified bookmarks
+Extend site cookies to 10 years
+Clear site cookies
 VPN
 Switch configuration
 Wait for network msg
@@ -133,8 +135,7 @@ Restore from box.com
 upload to box.com
 More webdav link menu items
 Web fullscreen
-Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:
-[Menu name]:[one or more links delimited by &amp;quot; \n &amp;quot;]</description>
+Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:</description>
     </item>
     
     <item>
