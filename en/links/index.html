@@ -146,6 +146,7 @@ Visiting url and execute the uweb browser internal bookmarklet that keeps valid 
 <li>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</li>
 <li>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</li>
 <li>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</li>
+<li>Since <a href="../rjs/index.html">activated scripts</a> use internal mechanism of &quot;i:0m&quot; urls, the script itself cannot have 'H', '?' or '/' as its very first character.</li>
 </ul>
 </li>
 <li>
@@ -289,8 +290,8 @@ Visiting [url], but use the second url as auto paging url.</p>
 </ul>
 
 </div>
-<p>Last Modified: 5 March 2023<br>
-optimize bingUS engine</p>
+<p>Last Modified: 6 March 2023<br>
+newbing could be default engine in China</p>
 
   </body>
 </html>

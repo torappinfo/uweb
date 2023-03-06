@@ -1,28 +1,19 @@
 ### 超微浏览器: 微、威、快、高效、极致优化
-[English](README.md)
+<a href="README.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/readme/index.html'}">English</a>
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
-[Downloads](en/download.md)
+<a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/changelog/index.html'}">Downloads</a>
 
 [超微浏览器下载及使用技巧](https://uwebzh.netlify.app/zh/)
-(Mirrors:
-[gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)
-[repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
-[codeberg](https://jamesfengcao.codeberg.page/zh/)
-[netlify](https://uwebzh.netlify.app/zh/)
-[stormkit](https://uweb.stormkit.dev/zh/)
-[surge](https://uweb.surge.sh/zh/)
-[github](https://torappinfo.github.io/uweb/zh/)
-[pages](https://uwebzh.pages.dev/zh/)
-[bitbucket](https://torappinfo.bitbucket.io/zh/)
-[vercel](https://uweb-zh.vercel.app/zh/))
+(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [netlify](https://uwebzh.netlify.app/zh/) [stormkit](https://uweb.stormkit.dev/zh/) [surge](https://uweb.surge.sh/zh/) [github](https://torappinfo.github.io/uweb/zh/) [pages](https://uwebzh.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [vercel](https://uweb-zh.vercel.app/zh/))
 
+- <span  style="color:red">国内可以直接使用newbing (chatgpt)</span>
 - 微：不到200K。
 - 威：支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。html5应用增强，可匹配本地应用。
 - 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
 - 快：手机越慢，脚本插件越多越明显。
 - 高效：最少的操作，在线服务全自动（参看常用链接网页）。
-- 极致优化：
+- 极致优化：最少存储写操作，比如浏览器转到后台前配置变化如恢复成原样则无写操作。
 - 地址栏支持命令行 ("!", 物理键盘支持更佳)
 - 指定域名: 用户定义JS/CSS/HTML/显示前源码预处理
 

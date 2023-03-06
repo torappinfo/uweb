@@ -18,12 +18,11 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 976: Support user defined http request headers
+Main features Change logs 978: Support user defined http request headers. Newbing/chatGPT can be default engine in China etc.
 975: Bookmarks to support styling for markdown etc.
 971: multiple type profiles: switch any data including website logins, user configurations orthogonally.
 968: multiple links support for single MENU/(New)Button/GESTURE definition.
-964: site source html preprocessing before rendering with user site extra html.
-961: webdav/http file upload support with &amp;quot;i:0u&amp;quot; links.</description>
+964: site source html preprocessing before rendering with user site extra html.</description>
     </item>
     
     <item>
