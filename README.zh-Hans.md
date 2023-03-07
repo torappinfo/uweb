@@ -17,6 +17,14 @@
 - 地址栏支持命令行 ("!", 物理键盘支持更佳)
 - 指定域名: 用户定义JS/CSS/HTML/显示前源码预处理
 
+#### 截屏
+![](https://i.postimg.cc/rsL9G5N1/home1.png)
+![](https://i.postimg.cc/9QxJ3Rc2/globalcss.png)
+![](https://i.postimg.cc/VksDHBQ4/globaljs.png)
+![](https://i.postimg.cc/HLV3TYLy/longclick.png)
+![](https://i.postimg.cc/XJ58ysdN/option1.png)
+![](https://i.postimg.cc/0NFnQT6H/option2.png)
+
 #### 软件功能
 输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、代码编辑器（支持120多种语言，语法高亮、错误提示、自动提示、直接运行测试、其它网页上直接测试）。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。
 
@@ -33,3 +41,4 @@
 支持自定义任意多个搜索引擎; 支持执行用户提供任何js文件; 支持用户定义任意多个useragent; 长按链接支持运行第三方程序; 长按链接支持运行用户js文件。
 
 配套安装uWeb定制Termux应用，可用地址栏作图（类似matlab功能）、超级计算器（无限精度/π的前万位或更多、无限函数、无限常量）、符号演算（解方程、分解因式、求积分导数）、离线字典查找等。譬如地址栏输入sin(x)**5就直接得到函数图形。利用好第三方代码，才能真正发挥出uWeb的潜能。
+
