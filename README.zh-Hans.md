@@ -5,7 +5,7 @@
 <a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/changelog/index.html'}">Downloads</a>
 
 [超微浏览器下载及使用技巧](https://uwebzh.netlify.app/zh/)
-(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [netlify](https://uwebzh.netlify.app/zh/) [stormkit](https://uweb.stormkit.dev/zh/) [surge](https://uweb.surge.sh/zh/) [github](https://torappinfo.github.io/uweb/zh/) [pages](https://uwebzh.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [vercel](https://uweb-zh.vercel.app/zh/))
+(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [netlify](https://uwebzh.netlify.app/zh/) [stormkit](https://uweb.stormkit.dev/zh/) [surge](https://uweb.surge.sh/zh/) [github](https://torappinfo.github.io/uweb/zh/) [epizy](http://uweb.epizy.com/) [pages](https://uwebzh.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [vercel](https://uweb-zh.vercel.app/zh/))
 
 - <span  style="color:red">国内可以直接使用<a href="https://uwebzh.netlify.app/en/search/index.html" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/search/index.html'}">newbing/chatgpt</a></span>
 - 微：不到200K。
