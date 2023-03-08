@@ -1,5 +1,7 @@
 ### 超微浏览器: 微、威、快、高效、极致优化
 <a href="README.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/readme/index.html'}">English</a>
+<a href="zh/donate.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../searchurl/donate.html'}">捐赠</a>
+
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 <a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/changelog/index.html'}">Downloads</a>
