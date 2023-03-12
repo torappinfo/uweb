@@ -13,7 +13,8 @@
       
       <guid>/en/search/</guid>
       <description>Clicking the following links to install search engines to uweb&#39;s home screen.
-bingUS: bypass censorship to access bingchat (long press the &amp;quot;PC&amp;quot; button to use &amp;quot;edge&amp;quot; as UA. The account region setting is recommended to be &amp;quot;US&amp;quot;)
+bingChat: bypass censorship to access bingchat
+bingUS: bypass censorship to access bingchat (need to long press the &amp;quot;PC&amp;quot; button to use &amp;quot;edge&amp;quot; as UA. The account region setting is recommended to be &amp;quot;US&amp;quot;)
 Recommended engines (click or append any of the following to the file &amp;quot;home5.search&amp;quot;)：
 Engines:i:40%s_00
 bing image:http://bing.com/images/search?q=
@@ -23,15 +24,7 @@ Yandex image:https://yandex.com/images/search?text=
 wiki:https://en.wikipedia.org/wiki/Special:Search?search=
 wikipedia:http://en.wikipedia.org/?search=
 wikifull:http://en.wikipedia.org/wiki/Special:Search?fulltext=Search&amp;amp;search=
-Youtube:https://www.youtube.com/results?search_query=
-incaption:https://incaptions.com/
-perplexity:https://www.perplexity.ai/?q=
-answer:http://mobile.answers.com/
-twitter:https://twitter.com/search?q=
-Facebook:https://www.facebook.com/search/str/%s/keywords_search
-Instagram:https://www.instagram.com/explore/tags/%s/
-social-search:https://www.social-searcher.com/social-buzz/?q5=
-reddit:http://reddit.com/search?q=</description>
+Youtube:https://www.youtube.com/results?search_query=</description>
     </item>
     
     <item>

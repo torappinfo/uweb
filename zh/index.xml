@@ -87,6 +87,7 @@ google:https://google.com/search?q=
 谷歌:https://谷歌.ml/search?q=
 必应:https://www.bing.com/search?q=
 bingUS:i:92X-Forwarded-For;8.8.8.8:https://www.bing.com/search?q=
+简单搜索:i:92User-Agent;SearchCraft:https://m.baidu.com/s?wd=
 百度:https://m.baidu.com/s?wd=
 Fsou:https://fsoufsou.com/search?q=
 neeva:https://neeva.com/search?q=
@@ -113,8 +114,7 @@ louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 nfmovies:https://www.nfmovies.com/search.php?searchword=
 电影狗:https://www.dianyinggou.com/so/
 pianku:https://www.pianku.la/search/%s-------------.html
-novip:https://www.novipnoad.com/s=
-555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=</description>
+novip:https://www.novipnoad.com/s=</description>
     </item>
     
     <item>
