@@ -30,7 +30,8 @@ function gen(text) {
 
   sa.push('<input type="submit" value="Save"></form>');
   let r = sa.join('<br>');
-  d.documentElement.innerHTML = r;
+  d.write(r);
+  d.close();
 }
 
 if(d.body){

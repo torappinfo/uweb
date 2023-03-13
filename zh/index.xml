@@ -50,6 +50,7 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
       <guid>/zh/search/</guid>
       <description>超微浏览器下点击搜索引擎配置链接可自动添加到主屏。
 推荐引擎(将下面文本添加到home5.search中)：
+bingChat:i:92X-Forwarded-For;8.8.8.8;User-Agent;Mobile Safari EdgA/111.0.1624.80:https://www.bing.com/search?q=
 顺序:i:40%s_00
 apkdl:https://apkdl.in/app/search?q=
 apkbog:https://www.apkbog.com/en/apks/search/
@@ -111,10 +112,7 @@ libvio:https://libvio.me/search/-------------.html?wd=
 努努影院:https://www.nunuyy.top/so/%s---.html
 louk:https://www.louk.cn/vodsearch/-------------.html?wd=
 4444影视:http://k.4444.li/search.php?searchword=
-nfmovies:https://www.nfmovies.com/search.php?searchword=
-电影狗:https://www.dianyinggou.com/so/
-pianku:https://www.pianku.la/search/%s-------------.html
-novip:https://www.novipnoad.com/s=</description>
+nfmovies:https://www.nfmovies.com/search.php?searchword=</description>
     </item>
     
     <item>
