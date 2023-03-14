@@ -63,11 +63,8 @@ Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</des
       
       <guid>/en/tips/</guid>
       <description>newbing/chatGPT access from censored area
-Use the bingChat search engine. Save the bing chat webpage (when you can use) as super bookmark by long pressing right-arrow button, and load back when you need it. To show web pages in desktop mode:
-PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
-Playing audio when screen off
-Option &amp;quot;Floating video&amp;quot; + video fullscreen playing
-** Use POST-type search engine as bookmark to auto login **</description>
+Use the bingChat search engine. This approach may fail with &amp;quot;ref a&amp;quot; blank pages, if so, use the next approach. Save the bing chat webpage (when you can use) as super bookmark by long pressing right-arrow button, and load back when you need it (pressing the setting button, then click the super bookmark link). To show web pages in desktop mode:
+PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.</description>
     </item>
     
     <item>
