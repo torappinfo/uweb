@@ -1,4 +1,4 @@
-### 超微浏览器: 微、威、快、高效、极致优化
+### 超微浏览器 (uweb browser): 微、威、快、高效、极致优化
 <a href="README.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/readme/index.html'}">English</a>
 <a href="zh/donate.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../searchurl/donate.html'}">捐赠</a>
 
@@ -9,7 +9,7 @@
 [超微浏览器下载及使用技巧](https://uwebzh.netlify.app/zh/)
 (Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [netlify](https://uwebzh.netlify.app/zh/) [stormkit](https://uweb.stormkit.dev/zh/) [surge](https://uweb.surge.sh/zh/) [github](https://torappinfo.github.io/uweb/zh/) [epizy](http://uweb.epizy.com/) [pages](https://uwebzh.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [vercel](https://uweb-zh.vercel.app/zh/))
 
-- <span  style="color:red">国内可以直接使用<a href="https://uwebzh.netlify.app/en/search/index.html" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/search/index.html'}">newbing/chatgpt</a></span>
+- <span  style="color:red">国内可以直接使用<a href="https://uwebzh.netlify.app/zh/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../tips/index.html'}">newbing/chatgpt</a></span>
 - 微：不到200K。
 - 威：支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。html5应用增强，可匹配本地应用。
 - 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
@@ -30,7 +30,7 @@
 #### 软件功能
 输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、代码编辑器（支持120多种语言，语法高亮、错误提示、自动提示、直接运行测试、其它网页上直接测试）。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。
 
-修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫"超级书签"。成功使用时保存，需要时就可以无限恢复。(比如newbing的使用)
+修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫"超级书签"。成功使用时保存，需要时就可以无限恢复。(比如newbing/chatGPT的直接使用)
 
 小书签(bookmarklet)再也不用手工输入，直接将小书签网站加入书签即可。运行时长按出菜单后选择“在新窗口中打开”，小书签将作用于最后一个窗口。
 

@@ -287,10 +287,16 @@ Similar to i:5i, except executing the js file after possible url hash change.</p
 <p>i:70[url]:[auto page turning url]<br>
 Visiting [url], but use the second url as auto paging url.</p>
 </li>
+<li>
+<p>i:92[http request headers separated by ';']:[url]<br>
+The &quot;Host&quot; Header (fake header, different from the standard) must be the first header.<br>
+Ex. i:92Host;209.216.230.240:https://news.ycombinator.com<br>
+use &quot;i:0mi:92Host;209.216.230.240::https://news.ycombinator.com&quot; to visit the site with specified IP address.</p>
+</li>
 </ul>
 
 </div>
-<p>Last Modified: 13 March 2023<br>
+<p>Last Modified: 20 March 2023<br>
 add revision history<br>
 <pre>Add &#39;clear cookie
 enhance i:0m
