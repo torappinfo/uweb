@@ -452,13 +452,15 @@ newbing/chatgpt for censored area Powerful: any native functionality with html5 
     </item>
     
     <item>
-      <title>Blocking domain trees</title>
+      <title>Hosts files</title>
       <link>/en/adblock_domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/adblock_domain/</guid>
-      <description>hosts blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.pl&amp;quot;, then it is treated as one segment, so domains like &amp;quot;xxx.xxx.com.pl&amp;quot; are also valid in the hosts file.
-Each line of the hosts file has the following format:</description>
+      <description>The hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
+The file &amp;quot;hosts&amp;quot; defines IP addresses for domains. Each line has the following format:
+[IP address][single space][domain name]
+&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.</description>
     </item>
     
   </channel>
