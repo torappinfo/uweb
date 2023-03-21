@@ -5,7 +5,19 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosts files</title>
+      <link>/en/adblock_domain/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/adblock_domain/</guid>
+      <description>The hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
+The file &amp;quot;hosts&amp;quot; defines IP addresses for domains. Each line has the following format:
+[IP address][single space][domain name]
+&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.</description>
+    </item>
+    
     <item>
       <title>JS/CSS/HTML/preprocessing for domains</title>
       <link>/en/sitejs/</link>
@@ -36,8 +48,10 @@ Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</des
       
       <guid>/en/tips/</guid>
       <description>newbing/chatGPT access from censored area
-Use the bingChat search engine. This approach may fail with &amp;quot;ref a&amp;quot; blank pages, if so, use the next approach. Save the bing chat webpage (when you can use) as super bookmark by long pressing right-arrow button, and load back when you need it (pressing the setting button, then click the super bookmark link). To show web pages in desktop mode:
-PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.</description>
+Save the bing chat webpage (when you can use) as super bookmark by long pressing right-arrow button, and load back when you need it (pressing the setting button, then click the super bookmark link). To show web pages in desktop mode:
+PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
+Playing audio when screen off
+Option &amp;quot;Floating video&amp;quot; + video fullscreen playing</description>
     </item>
     
     <item>
@@ -313,18 +327,6 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.
 Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.
 Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
-    </item>
-    
-    <item>
-      <title>Hosts files</title>
-      <link>/en/adblock_domain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/adblock_domain/</guid>
-      <description>The hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
-The file &amp;quot;hosts&amp;quot; defines IP addresses for domains. Each line has the following format:
-[IP address][single space][domain name]
-&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.com&amp;quot; and &amp;quot;finance.yahoo.com&amp;quot;. If the length of the last 2 segments is less than 7, such as &amp;quot;com.</description>
     </item>
     
   </channel>

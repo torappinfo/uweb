@@ -4,11 +4,12 @@
     <title>adblock on uweb browser: unlimited power</title>
     <link>/en/tags/adblock/</link>
     <description>Recent content in adblock on uweb browser: unlimited power</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/en/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosts files</title>
       <link>/en/adblock_domain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/adblock_domain/</guid>
       <description>The hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.

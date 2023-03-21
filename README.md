@@ -7,7 +7,6 @@
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [netlify](https://uwebzh.netlify.app/en/) [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [stormkit](https://uweb.stormkit.dev/en/) [surge](https://uweb.surge.sh/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [pages](https://uwebzh.pages.dev/en/) [vercel](https://uweb-zh.vercel.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [render](https://uwebzh.onrender.com/en/))
 
-- <a href="https://uwebzh.netlify.app/en/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/tips/index.html'}">newbing/chatgpt</a> for censored area
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
 - Convenient: Any book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
