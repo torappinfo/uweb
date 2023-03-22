@@ -5,7 +5,28 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>/en/links/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/links/</guid>
+      <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
+Extend site cookies to 10 years
+Clear site cookies
+VPN
+Switch configuration
+Wait for network msg
+Certificate info
+Backup to box.com
+Restore from box.com
+upload to box.com
+More webdav link menu items
+Web fullscreen
+Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:</description>
+    </item>
+    
     <item>
       <title>Hosts files</title>
       <link>/en/adblock_domain/</link>
@@ -125,27 +146,6 @@ The following html5 applications are allowed to read local files referred by &am
 &amp;quot;icon/&amp;quot;:customized icons
 &amp;quot;app[XXX]/&amp;quot;:html5 applications
 &amp;quot;default.longclick&amp;quot;: to configure menus when long-pressing hypertext.</description>
-    </item>
-    
-    <item>
-      <title>Links</title>
-      <link>/en/links/</link>
-      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/links/</guid>
-      <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
-Extend site cookies to 10 years
-Clear site cookies
-VPN
-Switch configuration
-Wait for network msg
-Certificate info
-Backup to box.com
-Restore from box.com
-upload to box.com
-More webdav link menu items
-Web fullscreen
-Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:</description>
     </item>
     
     <item>

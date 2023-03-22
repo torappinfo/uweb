@@ -213,7 +213,8 @@ Save as link.</p>
 </li>
 <li>
 <p>i:56[string]<br>
-Use [string] as user input on web page.</p>
+Use [string] as user input on web page.<br>
+The string can have any character such as ascii code 0-26, where code 0 means clear, and code 1-26 are from ctrl-A to ctrl-Z as shortcut keys. (to type &quot;Ctrl-A&quot; into a text file, use &quot;Ctrl-Q Ctrl-A&quot; with emacs or &quot;Ctrl-V Ctrl-A&quot; with vim)</p>
 </li>
 <li>
 <p>i:57[jscode]<br>
@@ -296,10 +297,9 @@ use &quot;i:0mi:92Host;209.216.230.240::https://news.ycombinator.com&quot; to vi
 </ul>
 
 </div>
-<p>Last Modified: 20 March 2023<br>
-supports hosts<br>
-<pre>Add &#39;clear cookie
-enhance i:0m
+<p>Last Modified: 22 March 2023<br>
+i:56 to support ctrl-a to ctrl-z<br>
+<pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>
 

@@ -64,11 +64,10 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.
+Main features Change logs 985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
+983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.
 975: Bookmarks to support styling for markdown etc.
-971: multiple type profiles: switch any data including website logins, user configurations orthogonally.
-968: multiple links support for single MENU/(New)Button/GESTURE definition.
-964: site source html preprocessing before rendering with user site extra html.</description>
+971: multiple type profiles: switch any data including website logins, user configurations orthogonally.</description>
     </item>
     
     <item>
