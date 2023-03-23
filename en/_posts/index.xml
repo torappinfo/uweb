@@ -13,6 +13,7 @@
       
       <guid>/en/links/</guid>
       <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
+Select All:CTRL-A/undo:CTRL-Z/Redo:CTRL-Y
 Extend site cookies to 10 years
 Clear site cookies
 VPN
@@ -68,11 +69,13 @@ Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</des
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/tips/</guid>
-      <description>newbing/chatGPT access from censored area
-Save the bing chat webpage (when you can use) as super bookmark by long pressing right-arrow button, and load back when you need it (pressing the setting button, then click the super bookmark link). To show web pages in desktop mode:
+      <description>To show web pages in desktop mode:
 PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
 Playing audio when screen off
-Option &amp;quot;Floating video&amp;quot; + video fullscreen playing</description>
+Option &amp;quot;Floating video&amp;quot; + video fullscreen playing
+** Use POST-type search engine as bookmark to auto login **
+Multiple home screens and Next/Prev page:
+home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... can be visited via pressing the right arrow button while home4.mht(or .html or .</description>
     </item>
     
     <item>

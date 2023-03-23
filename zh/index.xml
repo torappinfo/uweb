@@ -12,9 +12,7 @@
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/zh/tips/</guid>
-      <description>免魔法直接使用newbing (chatgpt)
-bingChat能够正常使用时保存为超级书签 (长按底部右箭头按钮)，下次再次需要使用时恢复即可 (按设置按钮然后点击超级书签链接)。
-修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫&amp;quot;超级书签&amp;quot;。成功使用newbing时保存，需要时就可以无限恢复。 目录配置及使用外部文件管理器
+      <description>目录配置及使用外部文件管理器
 超微浏览器可以将配置目录或子目录符号链接至任意外部公共目录。安装有定制termux的用户也可以使用移动设备自带或第三方文件管理器管理超微内部指定目录。具体配置可见Shell command mode。
 准确显示PC网页:
 PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot;。
