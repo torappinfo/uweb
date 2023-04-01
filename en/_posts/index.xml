@@ -5,7 +5,19 @@
     <link>/en/_posts/</link>
     <description>Recent content in _posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Offline resources</title>
+      <link>/en/offlinecache/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/offlinecache/</guid>
+      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.
+bingChat UI Install bingChat UI ai.html for censored area (bingChat UI)
+The default proxy &amp;quot;mybing2.xn--xyza.top&amp;quot; needs &amp;quot;bing.com&amp;quot; cookies to establish chat. So copy the cookie before accessing the above UI.
+Click to install link menu to copy &amp;quot;bing.</description>
+    </item>
+    
     <item>
       <title>Links</title>
       <link>/en/links/</link>
@@ -90,17 +102,6 @@ home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... 
       <guid>/en/acmd/</guid>
       <description>&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
 The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.</description>
-    </item>
-    
-    <item>
-      <title>Offline resources</title>
-      <link>/en/offlinecache/</link>
-      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/en/offlinecache/</guid>
-      <description>Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.crx for chrome &amp;amp; .xpi for firefox).
-Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.
-PWAs (Progresssive Web Applications) and some web extensions (.crx for chrome &amp;amp; .xpi for firefox) are just packaged websites.</description>
     </item>
     
     <item>

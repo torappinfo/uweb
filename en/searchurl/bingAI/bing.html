@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <base href="https://gitee.com/jamesfengcao/uweb/raw/master/en/searchurl/bingAI/">
+    <title id="docTitle">NewBingGoGo</title>
+    <link rel="stylesheet" href="./css/github-markdown-css.css">
+    <link rel="stylesheet" href="./css/katex.min.css">
+    <link rel="stylesheet" href="./css/bing.css">
+</head>
+
+<body>
+    <div id="background" class="b"></div>
+    <div id="tail">
+        <div id="tail-in">
+            <input id="restartNewChat" class="onShow" type="button" value="new chat">
+            <input id="restart" type="button" value="restart">
+            <div id="input-div">
+                <textarea id="input" type="text" enterkeyhint="send" maxlength="2000" autocapitalize="off" autocomplete="off" aria-autocomplete="both" spellcheck="false" aria-label="ask Bing" autocorrect="off" placeholder="type question here..."></textarea>
+                <input id="send" type="button" value="submit">
+            </div>
+
+        </div>
+        <div id="SearchSuggestions">
+        </div>
+    </div>
+
+    <div id="body">
+        <div id="body-top"></div>
+        <div style="text-align: center;">
+            <h3>chat with bing</h3>
+        </div>
+        <div id="chatTypeDiv" style="opacity: 1;">
+            <div class="chatTypeChose" id="chatTypeChoseCreate">
+                <p>More</p>
+                <h3>Creative</h3>
+            </div>
+            <div class="chatTypeChose Chose" id="chatTypeChoseBalance">
+                <p>More</p>
+                <h3>Balanced</h3>
+            </div>
+            <div class="chatTypeChose" id="chatTypeChoseAccurate">
+                <p>More</p>
+                <h3>Precise</h3>
+            </div>
+        </div>
+        <div id="chat">
+            <div class="bing">
+                <div class="adaptiveCardsFatherDIV">
+                    <div class="textBlock markdown-body">
+                      I am ready to chat
+                    </div>
+                    <div class="throttling">
+                        0 / 0
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="body-bottom"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/auto-render.min.js"></script>
+    <script src="./js/GetSet.js"></script>
+    <script src="./js/ChatMessages.js"></script>
+    <script src="./js/bingChatHub.js"></script>
+    <script src="./js/parserReturn.js"></script>
+    <script src="./js/bing.js"></script>
+</body>
+
+</html>
