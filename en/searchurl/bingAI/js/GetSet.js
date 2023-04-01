@@ -15,8 +15,17 @@ async function setChatHubWithMagic(user) {
 // ture|false|'repeat'
 async function getChatHubWithMagic() {
   let v = localStorage.ChatHubWithMagic;
-  if (v) return v;
-  return true;
+  if (v) {
+    switch(v){
+    case 0:
+      break;
+    case 1:
+      return false;
+    case 2:
+      return true;
+    }
+  }
+  return 'repeat';
 }
 
 //设置上次创建的聊天

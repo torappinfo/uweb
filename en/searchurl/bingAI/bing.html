@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <base href="https://gitee.com/jamesfengcao/uweb/raw/master/en/searchurl/bingAI/">
     <title id="docTitle">NewBingGoGo</title>
-    <link rel="stylesheet" href="./css/github-markdown-css.css">
-    <link rel="stylesheet" href="./css/katex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.css">
     <link rel="stylesheet" href="./css/bing.css">
 </head>
 
@@ -27,6 +27,17 @@
     </div>
 
     <div id="body">
+      <div id="popup">
+        <h5 style="text-align: center; margin:0;">输入魔法链接</h5>
+        <input type="text" id="url-input" style="width: 97%;display: inline-block;"
+          onkeydown="if (event.keyCode == 13) {let v=this.value;localStorage.setItem('GoGoUrl',v);}">
+        <h5 style="text-align: center; margin:0;">聊天方式</h5>
+        <select id="tallSelect" style="width: 100%;" onchange="localStorage.setItem('ChatHubWithMagic',this.selectedIndex);">
+          <option>复用聊天(最快)(用魔法创建聊天后在失效前都使用这个聊天)</option>
+          <option>正常聊天(推荐)(用魔法创建聊天后正常聊天)</option>
+          <option>魔法聊天(较慢)(用魔法创建聊天后继续使用魔法聊天)</option>
+        </select>
+      </div>
         <div id="body-top"></div>
         <div style="text-align: center;">
             <h3>chat with bing</h3>

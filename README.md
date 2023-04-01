@@ -1,8 +1,8 @@
 ### Uweb browser: unlimited power
-<a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../zh/readme/index.html'}">中文</a>
+<a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../zh/readme/index.html';return false;}}">中文</a>
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
-<a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html'))location='../../en/changelog/index.html'}">Downloads</a>
+<a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../en/changelog/index.html';return false;}}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [netlify](https://uwebzh.netlify.app/en/) [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [stormkit](https://uweb.stormkit.dev/en/) [surge](https://uweb.surge.sh/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [render](https://uweb.onrender.com/en/))
