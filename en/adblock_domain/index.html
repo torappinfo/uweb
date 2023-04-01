@@ -52,14 +52,18 @@
   <p>The hosts files &quot;hosts&quot; and &quot;default.hosts&quot; take effect when the setting option &quot;using hosts&quot; is checked.</p>
 <p>The file <a href="file:///data/data/info.torapp.uweb/files/hosts">&quot;hosts&quot;</a> defines IP addresses for domains. Each line has the following format:<br>
 [IP address][single space][domain name]</p>
+<p>Here is an example line with ipv4:<br>
+172.67.157.211 torapp.eu.org</p>
+<p>or with ipv6:<br>
+[2606:4700:3037::6815:8c3] torapp.eu.org</p>
 <p><a href="file:///data/data/info.torapp.uweb/files/default.hosts">&quot;default.hosts&quot;</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
 <p>Each line of the hosts file has the following format:<br>
 [rootDomain][space][regex for domain prefix before rootDomain][space][regex for the whole url without &quot;http(s)://&quot;]<br>
 The first part [rootDomain] is required and the others are optional. regex is java-grammar regular expression. If the second regex is used, it is recommended to merge the first regex to the second one for performance.</p>
 
 </div>
-<p>Last Modified: 21 March 2023<br>
-supports hosts<br>
+<p>Last Modified: 1 April 2023<br>
+use [ipv6] in hosts<br>
 <pre></pre>
 </p>
 

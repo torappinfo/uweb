@@ -4,7 +4,7 @@
     if("https://www.bing.com/turing/conversation/create"==url){
       url = "https://mybing1.xn--xyza.top/Create";
       options = {
-        headers:{"Cookie1":document.cookie},
+        headers:{},
       };
     }
     return oFetch(url,options)
