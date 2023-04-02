@@ -13,7 +13,7 @@
       
       <guid>/zh/tips/</guid>
       <description>免魔法直接使用newbing (chatgpt)
-总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;
+总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
 方法1: bingChat自带魔法直接界面
 要求: 安装界面html
 勾选选项“使用离线缓存”
