@@ -74,6 +74,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/auto-render.min.js"></script>
+    <script>
+      async function getMagicUrl() {
+        let v = localStorage.GoGoUrl;
+        if(v) return v;
+        return "https://mybing2.xn--xyza.top/";
+      }
+    </script>
     <script src="./js/GetSet.js"></script>
     <script src="./js/ChatMessages.js"></script>
     <script src="./js/bingChatHub.js"></script>

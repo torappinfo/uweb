@@ -44,11 +44,15 @@ var throttling = {
 function porserType2Item(item){
     let chatDiv = document.getElementById('chat');
     if(item.result){
-        if(item.result.value=='Success'){
+        let result = item.result;
+        if(result.value=='Success'){
             
-        }else if (item.result.value == 'Throttled') {
-            addError(item.result.message);
+        }else if (result.value == 'Throttled') {
+            addError(result.message);
             addError('24消息请求数达到了限制！');
+        }else{
+            addError(result.message);
+            addError('发生未知错误！');
         }
     }
     if (item.throttling) {
@@ -112,9 +116,16 @@ function porserMessages(messages, father) {
         }else if (message.messageType == 'RenderCardRequest'){//渲染卡片请求，目前不知道有什么用
             renderCardRequest(message, father);
 
+        }else if(message.messageType == 'Disengaged'){
+            let div = getByID(message.messageId, 'div', chat, 'error');
+            div.innerHTML = `
+            ${message.hiddenText}<br>聊天中断！试试开始新主题？
+            `;
+
         }else if(message.contentOrigin == 'TurnLimiter'){
             addError(message.text);
             addError('聊天被限制了，试试开始新主题？');
+
         } else {
             console.log('发现一个另类message', JSON.stringify(message));
         }
@@ -232,7 +243,7 @@ function generateContentQueryImg(message, father){
                     img.src = imgs[el].src;
                     theUrls.append('imgs',img.src.split('?')[0]);
                     img.onclick = ()=>{
-                        window.open('GeneratePicture/img.html?'+theUrls.toString(), '_blank');
+                        window.open('chrome-extension://'+chrome.runtime.id+'/GeneratePicture/img.html?'+theUrls.toString(), '_blank');
                     }
                     father.appendChild(img);
                 }

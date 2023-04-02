@@ -2,12 +2,6 @@ async function setMagicUrl(url) {
   localStorage.setItem('GoGoUrl',url);
 }
 
-async function getMagicUrl() {
-  let v = localStorage.GoGoUrl;
-  if(v) return v;
-  return "https://mybing2.xn--xyza.top/";
-}
-
 // ture:开启使用魔法聊天|false:关闭使用魔法聊天|'repeat':开启聊天复用
 async function setChatHubWithMagic(user) {
   localStorage.setItem('ChatHubWithMagic',user);
