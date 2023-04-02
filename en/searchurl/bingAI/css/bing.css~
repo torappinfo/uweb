@@ -518,7 +518,7 @@ div.markdown-body {
 
 @media screen and (orientation:portrait) and (max-device-width:800px) and (max-device-height:1000px) {
     :root {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     div.markdown-body {
