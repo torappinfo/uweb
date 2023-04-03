@@ -68,6 +68,11 @@
 </li>
 </ul>
 <p>which will make all git repositories on the domain visitable as websites with raw file access url.</p>
+<ul>
+<li>response headers, separeded by ';', Ex.:<br>
+Access-Control-Allow-Origin;*;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top</li>
+</ul>
+<p>which makes &quot;mybing2.xn--xyza.top&quot; to accept CORS requests with cookies.</p>
 <p><a href="file:///data/data/info.torapp.uweb/files/default.hosts">&quot;default.hosts&quot;</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
 <p>Each line of the hosts file has the following format:<br>
 [rootDomain][space][regex for domain prefix before rootDomain][space][regex for the whole url without &quot;http(s)://&quot;]<br>
@@ -75,7 +80,7 @@ The first part [rootDomain] is required and the others are optional. regex is ja
 
 </div>
 <p>Last Modified: 3 April 2023<br>
-enhance hosts file to add attributes to domains<br>
+bingAI to support cors with cookies<br>
 <pre></pre>
 </p>
 

@@ -4,6 +4,7 @@
     if("https://www.bing.com/turing/conversation/create"==url){
       url = "https://mybing2.xn--xyza.top/Create";
       options = {
+        credentials: 'include',
         headers:{},
       };
     }
