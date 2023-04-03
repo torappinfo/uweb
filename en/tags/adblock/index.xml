@@ -12,14 +12,17 @@
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/adblock_domain/</guid>
-      <description>The hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
-The file &amp;quot;hosts&amp;quot; defines IP addresses for domains. Each line has the following format:
-[IP address][single space][domain name]
-Here is an example line with ipv4:
+      <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
+The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:
+[IP address/attributes][single space][domain name]
+where &amp;quot;[IP address/attributes]&amp;quot; could be:
+ipv4 address such as:
 172.67.157.211 torapp.eu.org
-or with ipv6:
+ipv6 address, Ex.:
 [2606:4700:3037::6815:8c3] torapp.eu.org
-&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &amp;quot;yahoo.</description>
+empty, that would lift all server-imposed limitations. Ex.:
+[single space]gitee.com
+&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains.</description>
     </item>
     
   </channel>
