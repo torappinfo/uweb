@@ -56,7 +56,7 @@ ipv6 address, Ex.:
 [2606:4700:3037::6815:8c3] torapp.eu.org
 empty, that would lift all server-imposed limitations. Ex.:
 [single space]gitee.com
-&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains.</description>
+which will make all git repositories on the domain visitable as websites with raw file access url.</description>
     </item>
     
     <item>

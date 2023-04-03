@@ -56,7 +56,7 @@ ipv6 address, Ex.:
 [2606:4700:3037::6815:8c3] torapp.eu.org
 empty, that would lift all server-imposed limitations. Ex.:
 [single space]gitee.com
-&amp;quot;default.hosts&amp;quot; blocks whole domain trees including all descedant domains.</description>
+which will make all git repositories on the domain visitable as websites with raw file access url.</description>
     </item>
     
     <item>
@@ -196,10 +196,10 @@ github
 sourceforge
 powerfolder
 pagure
-Main features Change logs 985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
+Main features Change logs 987: enhance hosts file to support domain attributes, such as lifting limitations with empty ip address.
+985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
 983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.
-975: Bookmarks to support styling for markdown etc.
-971: multiple type profiles: switch any data including website logins, user configurations orthogonally.</description>
+975: Bookmarks to support styling for markdown etc.</description>
     </item>
     
     <item>
