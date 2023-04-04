@@ -439,7 +439,7 @@ async function createChat(theChatType) {
 	}
 	try {
 		await copyCookies(magicUrl);
-	  let res = await fetch(URLTrue(magicUrl, 'Create'),{credentials: 'include'});
+	  let res = await fetch(URLTrue(magicUrl, 'turing/conversation/create'),{credentials: 'include'});
 		let resjson = await res.json();
 		if (!resjson.result) {
 			console.warn(resjson);
