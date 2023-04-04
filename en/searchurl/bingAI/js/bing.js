@@ -5,7 +5,7 @@ var restart_button = document.getElementById('restart');
 var input_text = document.getElementById('input');
 var send_button = document.getElementById('send');
 let restartNewChat = document.getElementById('restartNewChat');
-var thisChatType;
+var thisChatType = chatTypes.balance;
 
 reSetStartChatMessage();
 
@@ -83,6 +83,9 @@ var isSpeaking = false;
 
 /**重置聊天框和聊天建议到初始状态 */
 function reSetStartChatMessage(type) {
+  createChat(thisChatType).then((r) => {
+    if(r.ok) talk = r.obj;
+  });
 	getChatHubWithMagic().then(async a => {
 		let t = 0;
 		if (a == 'repeat') {
@@ -105,7 +108,6 @@ function reSetStartChatMessage(type) {
 			restartNewChat.classList.add('onShow');
 		}
 	});
-	docTitle.innerText = 'NewBingGoGo:聊天啦啦啦啦';
 }
 
 /**正在创建聊天 */
