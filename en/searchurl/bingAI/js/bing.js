@@ -1,6 +1,4 @@
 var chat = document.getElementById('chat');
-var searchSuggestions = document.getElementById('SearchSuggestions');
-searchSuggestions.style.opacity = 1;
 var chatTypeDiv = document.getElementById('chatTypeDiv');
 var docTitle = document.getElementById('docTitle');
 var restart_button = document.getElementById('restart');
@@ -30,28 +28,6 @@ function addError(message) {
 	go.classList.add('error');
 	go.innerHTML = message;
 	chat.appendChild(go);
-}
-
-//尝试获取聊天权限按钮
-function addNoPower() {
-	let go = document.createElement('div');
-	go.classList.add('NoPower');
-	go.innerHTML = '点击尝试申请加入候补名单获取NewBing聊天权限';
-	chat.appendChild(go);
-	go.onclick = () => {
-		if (go.geting) {
-			return;
-		}
-		go.geting = true;
-		go.innerHTML = '正在请求申请加入候补名单..';
-		getPower().then((rett) => {
-			if (rett.ok == true) {
-				go.innerHTML = '请求成功！请刷新页面重试，如果无权限使用请等待几天后重试。'
-				return;
-			}
-			go.innerHTML = '发生错误：' + rett.message;
-		});
-	}
 }
 
 let onMessageIsOKClose = false;
@@ -116,7 +92,6 @@ function reSetStartChatMessage(type) {
 		<div class="bing">
 			<div class="adaptiveCardsFatherDIV">
 				<div class="textBlock markdown-body">
-					${nextStartMessage(type)}
 				</div>
 				<div class="throttling">
 					${t} / 0
@@ -130,18 +105,6 @@ function reSetStartChatMessage(type) {
 			restartNewChat.classList.add('onShow');
 		}
 	});
-	searchSuggestions.innerHTML = '';
-	let prs = nextStartProposes();
-	prs.forEach((s) => {
-		let a = document.createElement('a');
-		a.innerHTML = s;
-		a.onclick = (even) => {
-			if (searchSuggestions.style.opacity >= 1) {
-				send(even.target.innerHTML);
-			}
-		}
-		searchSuggestions.appendChild(a);
-	});
 	docTitle.innerText = 'NewBingGoGo:聊天啦啦啦啦';
 }
 
@@ -149,7 +112,6 @@ function reSetStartChatMessage(type) {
 function isAskingToMagic() {
 	isSpeaking = true;
 	send_button.value = '施法中.';
-	searchSuggestions.innerHTML = '';
 }
 
 /**bing正在回复 */
@@ -160,7 +122,6 @@ function isSpeakingStart(chatWithMagic, sendText) {
 		docTitle.innerText = sendText;
 	}
 	send_button.value = '响应中.';
-	searchSuggestions.innerHTML = '';
 }
 
 /**bing回复结束 */
@@ -180,9 +141,6 @@ function send(text) {
 		createChat(thisChatType).then((r) => {
 			if (!r.ok) {
 				addError(r.message);
-				if (r.type == 'NoPower') {
-					addNoPower();
-				}
 				isSpeakingFinish();
 				return;
 			}
@@ -247,11 +205,6 @@ function handleScroll() {
 	var docHeight = document.body.scrollHeight;
 	var scrollPos = window.pageYOffset;
 	// 如果滚动到底部，显示元素，否则隐藏元素
-	if (scrollPos + window.innerHeight >= docHeight - 50) {
-		searchSuggestions.style.opacity = 1;
-	} else {
-		searchSuggestions.style.opacity = 0;
-	}
 }
 // 添加滚动事件监听器
 window.addEventListener("scroll", handleScroll);

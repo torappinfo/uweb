@@ -348,51 +348,12 @@ class Chat {
 	}
 }
 
-/***
- * 补齐url
- */
 function URLTrue(magicUrl, thiePath) {
-	let url = magicUrl;
-	if (!url.endsWith('/')) {
-		url = url + '/';
-	}
-	url = url + thiePath;
-	return url;
+  return url + thiePath;
 }
 
 //获取newbing权限
-async function getPower() {
-	//设置cookies到魔法链接
-	let magicUrl = await getMagicUrl();
-	if (!magicUrl) {
-		return {
-			ok: false,
-			message: "需要设置魔法链接才能获取权限哦！"
-		};
-	}
-	if (!expUrl.test(magicUrl)) {
-		return {
-			ok: false,
-			message: "魔法链接不正确！请修改魔法链接。"
-		};
-	}
-	await copyCookies(magicUrl);
-
-	try {
-		await fetch(URLTrue(magicUrl, 'bingcopilotwaitlist'));
-		return {
-			ok: true,
-			message: "ok"
-		};
-	} catch (e) {
-		console.warn(e);
-		return {
-			ok: false,
-			message: "发生错误,可能是魔法链接无法链接:" + e.message
-		};
-	}
-}
-
+async function getPower() {}
 
 async function copyCookies(magicUrl) {}
 
@@ -406,21 +367,8 @@ async function copyCookies(magicUrl) {}
  }
  */
 async function createChat(theChatType) {
-	//设置cookies到魔法链接
 	let chatWithMagic = await getChatHubWithMagic();
 	let magicUrl = await getMagicUrl();
-	if (!magicUrl) {
-		return {
-			ok: false,
-			message: "需要设置魔法链接才能聊天哦！"
-		};
-	}
-	if (!expUrl.test(magicUrl)) {
-		return {
-			ok: false,
-			message: "魔法链接不正确！请修改魔法链接。"
-		};
-	}
 	let restartNewChat = document.getElementById('restartNewChat');
 	if(chatWithMagic=='repeat'){//如果是聊天复用
 		restartNewChat.classList.remove('onShow');
@@ -437,47 +385,28 @@ async function createChat(theChatType) {
 			};
 		}
 	}
-	try {
-		await copyCookies(magicUrl);
-	  let res = await fetch(URLTrue(magicUrl, 'turing/conversation/create'),{credentials: 'include'});
-		let resjson = await res.json();
-		if (!resjson.result) {
-			console.warn(resjson);
-			return {
-				ok: false,
-				message: "未知错误！"
-			};
-		}
-		if (resjson.result.value != 'Success') {
-			let type = resjson.result.value;
-			let mess = resjson.result.message;
-			if (resjson.result.value == 'UnauthorizedRequest') {
-				type = 'NoLogin'
-				mess = '首先你需要在bing登录微软账号！请前往 https://cn.bing.com/ 登录微软账号。';
-			} else if (resjson.result.value == 'Forbidden') {
-				type = 'NoPower'
-				mess = '你还没有获得NewBing的使用权限';
-			}
-			console.warn(resjson);
-			return {
-				ok: false,
-				type: type,
-				message: mess
-			};
-		}
-		//保存成功的聊天
-		setLastChatJson(resjson);
-		return {
-			ok: true,
-			message: 'ok',
-			obj: new Chat(magicUrl, chatWithMagic, resjson.conversationId, resjson.clientId, resjson.conversationSignature, theChatType)
-		};
-	} catch (e) {
-		console.warn(e);
-		return {
-			ok: false,
-			message: "发生错误,可能是魔法链接无法链接:" + e.message
-		};
-	}
-
+  let mes;
+  do {
+    try {
+      let res = await fetch(URLTrue(magicUrl,'turing/conversation/create'),
+                            {credentials: 'include'});
+      let resjson = await res.json();
+      if (!resjson.result || resjson.result.value != 'Success') {
+        mes = resjson;
+        break;
+      }
+      //保存成功的聊天
+      setLastChatJson(resjson);
+      return {
+        ok: true,
+        message: 'ok',
+        obj: new Chat(magicUrl, chatWithMagic, resjson.conversationId, resjson.clientId, resjson.conversationSignature, theChatType)
+      };
+    } catch (e) {mes = e.message;}
+  }while(false);
+  
+  return {
+    ok: false,
+    message: mes
+  };
 }
