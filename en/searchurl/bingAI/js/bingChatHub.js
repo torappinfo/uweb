@@ -348,7 +348,7 @@ class Chat {
 	}
 }
 
-function URLTrue(magicUrl, thiePath) {
+function URLTrue(url, thiePath) {
   return url + thiePath;
 }
 
@@ -367,9 +367,10 @@ async function copyCookies(magicUrl) {}
  }
  */
 async function createChat(theChatType) {
-	let chatWithMagic = await getChatHubWithMagic();
-	let magicUrl = await getMagicUrl();
-	let restartNewChat = document.getElementById('restartNewChat');
+  let chatWithMagic = await getChatHubWithMagic();
+  let magicUrl = await getMagicUrl();
+  let restartNewChat = document.getElementById('restartNewChat');
+  
 	if(chatWithMagic=='repeat'){//如果是聊天复用
 		restartNewChat.classList.remove('onShow');
 		let resjson = await getLastChatJson();
@@ -385,11 +386,12 @@ async function createChat(theChatType) {
 			};
 		}
 	}
+  
   let mes;
   do {
     try {
-      let res = await fetch(URLTrue(magicUrl,'turing/conversation/create'),
-                            {credentials: 'include'});
+      let url = URLTrue(magicUrl,'turing/conversation/create');
+      let res = await fetch(url, {credentials: 'include'});
       let resjson = await res.json();
       if (!resjson.result || resjson.result.value != 'Success') {
         mes = resjson;

@@ -48,13 +48,17 @@ function onMessage(json, returnMessage) {
 	if (json.type == 3) {
 		onMessageIsOKClose = true;
 		returnMessage.getCatWebSocket().close(1000, 'ok');
-	} else if (json.type == 1) {
-		porserArguments(json.arguments);
-	} else if (json.type == 2) {
-		porserType2Item(json.item);
 	} else {
-		console.log(JSON.stringify(json));
-	}
+          talk = undefined;
+          localStorage.removeItem('LastChatJson');
+          if (json.type == 1) {
+	    porserArguments(json.arguments);
+	  } else if (json.type == 2) {
+	    porserType2Item(json.item);
+	  } else {
+	    console.log(JSON.stringify(json));
+	  }
+        }
 }
 
 
@@ -289,7 +293,7 @@ input_update_input_text_sstyle_show_update({ target: input_text });
 
 //开始新聊天按钮逻辑，仅在聊天复用
 restartNewChat.onclick = async () => {
-	await setLastChatJson(null);
+	localStorage.removeItem('LastChatJson');
 	await setLastInvocationId(1);
 	restart_button.onclick();
 }
