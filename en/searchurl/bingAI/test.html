@@ -1,0 +1,14 @@
+<script>
+  let url = "https://muweb.us.to/turing/conversation/create"; 
+  /*
+  fetch(url, {credentials: 'include'})
+  .then(r=>r.text()).then(data=>{alert(data);});
+  */
+  const xhr = new XMLHttpRequest();
+  xhr.open("GET", url, true);
+  xhr.withCredentials = true;
+  xhr.onload = function(){
+    alert(xhr.responseText);
+  };
+  xhr.send();
+</script>

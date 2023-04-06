@@ -16,10 +16,12 @@
 总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
 方法1: bingChat自带魔法直接界面
 要求: 安装界面html
-勾选选项“使用离线缓存”
 复制bing.com cookies至魔法域名
+勾选选项“使用离线缓存”, &amp;quot;使用hosts&amp;quot;
+hosts文件内添加一行（允许发送cookie至魔法url）:
+Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true muweb.us.to
 点击界面入口
-可配置魔法url, 详情
+可配置魔法url, 上述hosts文件作相应修改, 复制bing.com cookies至魔法域名。 详情
 方法2: 可以采用超级书签/直接界面+脚本+hosts。
 其中超级书签固定bingchat入口。
 脚本重定向api至魔法师.

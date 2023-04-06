@@ -53,10 +53,12 @@
 <li>
 <p>方法1: <a href="../../en/offlinecache/index.html">bingChat自带魔法直接界面</a><br>
 要求: 安装界面html<br>
-勾选选项“使用离线缓存”<br>
 复制bing.com cookies至魔法域名<br>
-点击界面入口<br>
-可配置魔法url, <a href="https://gitee.com/jja8/NewBingGoGo/blob/master/docs/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5.md">详情</a></p>
+勾选选项“使用离线缓存”, &quot;使用hosts&quot;</p>
+<p>hosts文件内添加一行（允许发送cookie至魔法url）:<br>
+Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true muweb.us.to</p>
+<p>点击界面入口<br>
+可配置魔法url, 上述hosts文件作相应修改, 复制bing.com cookies至魔法域名。 <a href="https://gitee.com/jja8/NewBingGoGo/blob/master/docs/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5.md">详情</a></p>
 </li>
 <li>
 <p>方法2: 可以采用超级书签/直接界面+脚本+hosts。<br>
@@ -84,8 +86,8 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 <a href="../filenames">配置文件列表</a>中直接点击文件名即可编辑。</p>
 
 </div>
-<p>Last Modified: 2 April 2023<br>
-sync newbinggogo<br>
+<p>Last Modified: 6 April 2023<br>
+bingAI: complete<br>
 <pre></pre>
 </p>
 
