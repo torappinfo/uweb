@@ -49,10 +49,8 @@ function onMessage(json, returnMessage) {
 		onMessageIsOKClose = true;
 		returnMessage.getCatWebSocket().close(1000, 'ok');
 	} else {
+          talk = undefined;
           localStorage.removeItem('LastChatJson');
-          createChat(thisChatType).then((r) => {
-            if(r.ok) talk = r.obj;
-          });
           if (json.type == 1) {
 	    porserArguments(json.arguments);
 	  } else if (json.type == 2) {
