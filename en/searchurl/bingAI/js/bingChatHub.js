@@ -130,9 +130,9 @@ class SendMessageManager {
 	//获取用于发送的聊天数据
 	//(WebSocket,sreing)
 	sendChatMessage(chatWebSocket, chat) {
-		let pos = getStartProposes();
+	  let pos = ['','','']; //initial 3 suggestions
 		let previousMessages = [{
-			"text": getStartMessage(),
+			"text": '',
 			"author": "bot",
 			"adaptiveCards": [],
 			"suggestedResponses": [{
