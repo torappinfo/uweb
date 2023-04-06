@@ -211,11 +211,6 @@ body {
     overflow-x: hidden;
 }
 
-#body-top {
-    height: 20vh;
-    width: 100%;
-}
-
 #body-bottom {
     height: 15rem;
     width: 100%;
@@ -517,14 +512,6 @@ div.markdown-body {
 /*手机 css*/
 
 @media screen and (orientation:portrait) and (max-device-width:800px) and (max-device-height:1000px) {
-    :root {
-        font-size: 1rem;
-    }
-
-    div.markdown-body {
-        font-size: 1rem;
-    }
-
     .InternalSearchQuery,
     .InternalLoaderMessage {
         width: 90%;
