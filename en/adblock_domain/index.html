@@ -51,8 +51,8 @@
   </ul>
   <p>The enhanced hosts files &quot;hosts&quot; and &quot;default.hosts&quot; take effect when the setting option &quot;using hosts&quot; is checked.</p>
 <p>The <span  style="color:red">enhanced</span> file <a href="file:///data/data/info.torapp.uweb/files/hosts">&quot;hosts&quot;</a> defines IP addresses/attributes for domains. Each line has the following format:<br>
-[IP address/attributes][single space][domain name]</p>
-<p>where &quot;[IP address/attributes]&quot; could be:</p>
+[[IP address][attributes]][single space][domain name]</p>
+<p>where &quot;[[IP address][attributes]]&quot; could be:</p>
 <ul>
 <li>
 <p>ipv4 address such as:<br>
@@ -65,22 +65,26 @@
 <li>
 <p>empty, that would lift all server-imposed limitations. Ex.:<br>
 [single space]gitee.com</p>
+<p>which will make all git repositories on the domain visitable as websites with raw file access url.</p>
+</li>
+<li>
+<p>response headers, separeded by ';', Ex.:<br>
+Access-Control-Allow-Origin;*;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top</p>
+<p>which makes &quot;mybing2.xn--xyza.top&quot; to accept CORS requests with cookies.</p>
+</li>
+<li>
+<p>IP address and response headers, separeded by ';', Ex.:<br>
+172.64.80.1;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true wild-cake-ff77.jamesfengcao.workers.dev</p>
 </li>
 </ul>
-<p>which will make all git repositories on the domain visitable as websites with raw file access url.</p>
-<ul>
-<li>response headers, separeded by ';', Ex.:<br>
-Access-Control-Allow-Origin;*;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top</li>
-</ul>
-<p>which makes &quot;mybing2.xn--xyza.top&quot; to accept CORS requests with cookies.</p>
 <p><a href="file:///data/data/info.torapp.uweb/files/default.hosts">&quot;default.hosts&quot;</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
 <p>Each line of the hosts file has the following format:<br>
 [rootDomain][space][regex for domain prefix before rootDomain][space][regex for the whole url without &quot;http(s)://&quot;]<br>
 The first part [rootDomain] is required and the others are optional. regex is java-grammar regular expression. If the second regex is used, it is recommended to merge the first regex to the second one for performance.</p>
 
 </div>
-<p>Last Modified: 3 April 2023<br>
-bingAI to support cors with cookies<br>
+<p>Last Modified: 7 April 2023<br>
+hosts to support both ip address and response headers<br>
 <pre></pre>
 </p>
 
