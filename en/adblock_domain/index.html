@@ -69,12 +69,12 @@
 </li>
 <li>
 <p>response headers, separeded by ';', Ex.:<br>
-Access-Control-Allow-Origin;*;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top</p>
+Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true mybing.xn--xyza.top</p>
 <p>which makes &quot;mybing2.xn--xyza.top&quot; to accept CORS requests with cookies.</p>
 </li>
 <li>
 <p>IP address and response headers, separeded by ';', Ex.:<br>
-172.64.80.1;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true wild-cake-ff77.jamesfengcao.workers.dev</p>
+104.21.8.195;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true uweb.torapp.eu.org</p>
 </li>
 </ul>
 <p><a href="file:///data/data/info.torapp.uweb/files/default.hosts">&quot;default.hosts&quot;</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
@@ -84,7 +84,7 @@ The first part [rootDomain] is required and the others are optional. regex is ja
 
 </div>
 <p>Last Modified: 7 April 2023<br>
-hosts to support both ip address and response headers<br>
+add cloudflare/bing.js<br>
 <pre></pre>
 </p>
 
