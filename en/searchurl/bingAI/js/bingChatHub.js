@@ -45,10 +45,13 @@ let chatTypes = {
 		"responsible_ai_policy_235",
 		"enablemm",
 		"galileo",
-		"telmet",
-		"jbfv2",
-		"c2b47e4f",
-		"dv3sugg"
+          "jbf101",
+          "cachewriteext",
+               "e2ecachewrite",
+               "nodlcpcwrite",
+               "dv3sugg",
+               "dlwebtrunc",
+               "glpromptv6"
 	],
 	//精准选项
 	accurate: [
@@ -82,18 +85,18 @@ let allowedMessageTypes = [
 
 //切片id，也不知道是啥意思，反正官网的更新了
 let sliceIds = [
-	"semserpsup3",
-	"styleqnatg",
-	"lgintsuppcf",
-	"sydpayajax",
-	"toneexp",
-	"327telmet",
-	"325contents0",
-	"324jbfv2",
-	"303hubcancls0",
-	"321jobsgndv0",
-	"328throt",
-	"328postclss0"
+  "audseq",
+        "chk1cln",
+        "nofbkcf",
+        "nosharepre",
+        "fixsacodecf",
+        "405suggbs0",
+        "scctl",
+        "403jbf101",
+        "udstrclm8cmp",
+        "udstrclm8",
+        "329v6webtrunc",
+        "404e2ewrt"
 ]
 
 class SendMessageManager {
