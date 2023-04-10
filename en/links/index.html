@@ -49,8 +49,8 @@
   </ul>
   <p>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):<br>
 <a href="i:0gdefault.link:../searchurl/txt/link.cfg">Select All:CTRL-A/undo:CTRL-Z/Redo:CTRL-Y</a><br>
-<a href="i:0gdefault.link::Extend cookies::0000%0A">Extend site cookies to 10 years</a><br>
-<a href="i:0gdefault.link::Clear cookies::00000%0A">Clear site cookies</a></p>
+<a href="i:0gdefault.link::Extend cookies::0cc;Max-Age=315360000%0A">Extend site cookies to 10 years</a><br>
+<a href="i:0gdefault.link::Clear cookies::0cc;Max-Age=0%0A">Clear site cookies</a></p>
 <p><a href="i:0gdefault.link::vpn:i:1dandroid.net.vpn.SETTINGS:::%0A">VPN</a></p>
 <p><a href="i:0gdefault.link::profile_config::cprofile . files .conf%0A">Switch configuration</a></p>
 <p><a href="i:0gdefault.link::Wait msg:i:1w%0A">Wait for network msg</a></p>
@@ -78,10 +78,6 @@ noproxy::010:</p>
 <h3 id="special-links-beginning-with-">special links beginning with ':'</h3>
 <ul>
 <li>
-<p>:0000<br>
-Extend cookie expiracy to 70 years, may be denied by server.</p>
-</li>
-<li>
 <p>:0003<br>
 Toggle fullscreen mode</p>
 </li>
@@ -106,8 +102,8 @@ Config http proxy, &quot;:010:&quot; to disable any proxy.</p>
 Socks proxy</p>
 </li>
 <li>
-<p>:0cc[url1]:[url2]<br>
-cookie copy from url1 to url2</p>
+<p>:0cc[url1]:[url2][:;[cookie attributes]]<br>
+cookie copy from url1 to url2, the last part &quot;[:;[cookie attributes]]&quot; is optionable.</p>
 </li>
 </ul>
 <h4 id="commands">commands</h4>
@@ -302,8 +298,8 @@ use &quot;i:0mi:92Host;209.216.230.240::https://news.ycombinator.com&quot; to vi
 </ul>
 
 </div>
-<p>Last Modified: 1 April 2023<br>
-use [ipv6] in hosts<br>
+<p>Last Modified: 10 April 2023<br>
+enhance :0cc cookie copy<br>
 <pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>

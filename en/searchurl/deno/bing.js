@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
+import { serve } from "https://deno.land/std/http/server.ts";
 async function handler(req: Request): Promise<Response> {
   let url = req.url;
   let iSlash = url.indexOf('/',11);

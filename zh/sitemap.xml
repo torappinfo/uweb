@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/zh/_posts/</loc>
-    <lastmod>2023-04-07T14:38:07+08:00</lastmod>
+    <lastmod>2023-04-10T08:19:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,21 @@
                 href="/zh/_posts/"
                 />
   </url><url>
+    <loc>/zh/links/</loc>
+    <lastmod>2023-04-10T08:19:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/links/"
+                />
+  </url><url>
     <loc>/zh/</loc>
-    <lastmod>2023-04-07T14:38:07+08:00</lastmod>
+    <lastmod>2023-04-10T08:19:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -218,19 +231,6 @@
   </url><url>
     <loc>/zh/adblock_css/</loc>
     <lastmod>2022-09-24T14:06:03+08:00</lastmod>
-  </url><url>
-    <loc>/zh/links/</loc>
-    <lastmod>2023-04-04T10:48:55+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/links/"
-                />
   </url><url>
     <loc>/zh/rjs/</loc>
     <lastmod>2023-03-01T16:37:19+08:00</lastmod>

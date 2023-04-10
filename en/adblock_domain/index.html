@@ -77,14 +77,14 @@ Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credential
 104.21.8.195;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true uweb.torapp.eu.org</p>
 </li>
 </ul>
-<p><a href="file:///data/data/info.torapp.uweb/files/default.hosts">&quot;default.hosts&quot;</a> blocks whole domain trees including all descedant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
+<p><a href="file:///data/data/info.torapp.uweb/files/default.hosts">&quot;default.hosts&quot;</a> blocks whole domain trees including all descendant domains. The domains in the hosts file must be 2 or 3 segment domains, such as &quot;yahoo.com&quot; and &quot;finance.yahoo.com&quot;. If the length of the last 2 segments is less than 7, such as &quot;com.pl&quot;, then it is treated as one segment, so domains like &quot;xxx.xxx.com.pl&quot; are also valid in the hosts file.</p>
 <p>Each line of the hosts file has the following format:<br>
 [rootDomain][space][regex for domain prefix before rootDomain][space][regex for the whole url without &quot;http(s)://&quot;]<br>
 The first part [rootDomain] is required and the others are optional. regex is java-grammar regular expression. If the second regex is used, it is recommended to merge the first regex to the second one for performance.</p>
 
 </div>
-<p>Last Modified: 7 April 2023<br>
-add bing.js for cf &amp; deno<br>
+<p>Last Modified: 8 April 2023<br>
+add cloudflare/bing.js<br>
 <pre></pre>
 </p>
 
