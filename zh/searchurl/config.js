@@ -1,5 +1,5 @@
-let labels = ["网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
-let names = ["font","cursive","fantasy","fixed","sansserif","serif"];
+let labels = ["全局重定向网址","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
+let names = ["redirecturl","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;
 
@@ -13,18 +13,21 @@ let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=devi
 <option value="monospace">
 <option value="cursive">
 </datalist>
-<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:0i/data/data/info.torapp.uweb/files/config.html:'+f.font.value+
+<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:0i/data/data/info.torapp.uweb/files/config.html:'
++f.redirecturl.value+
+'&'+ f.font.value+
 '&'+ f.cursive.value +
 '&'+ f.fantasy.value +
 '&'+ f.fixed.value +
 '&'+ f.sansserif.value +
 '&'+ f.serif.value +
-':https://fastly.jsdelivr.net/gh/torappinfo/uweb/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
+':https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
 
 function gen(text) {
   let strs = text.split('\n');
   let i=0;
-  for (i = 0; i < labels.length; i++){
+  sa.push("<label>"+labels[i]+"<input type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
+  for (i = 1; i < labels.length; i++){
     sa.push("<label>"+labels[i]+"<input list='family' type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
   }
 
