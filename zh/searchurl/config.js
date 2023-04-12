@@ -38,11 +38,13 @@ function gen(text) {
 }
 
 if(d.body){
-  fetch(location.href)
-    .then(res => res.text())
-    .then(text => {
-      gen(text);
-    });
+  var r=new XMLHttpRequest;
+  r.onload=function(){
+    var t=r.responseText;
+    gen(t);
+  }
+  r.open("GET",location.href,!0);
+  r.send(null);
 }else {
   let text = "\n".repeat(labels.length-1);
   gen(text);
