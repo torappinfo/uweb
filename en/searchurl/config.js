@@ -38,7 +38,7 @@ function gen(text) {
 }
 
 if(d.body){
-  fetch(location.href)
+  fetch("view-source:"+location.href)
     .then(res => res.text())
     .then(text => {
       gen(text);
