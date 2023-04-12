@@ -1,4 +1,4 @@
-let labels = ["Redirect url","Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
+let labels = ["Global redirect url","Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
 let names = ["redirecturl","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;

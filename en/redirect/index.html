@@ -49,14 +49,16 @@
     <li><a href="../tags/redirection">redirection</a> </li>
     
   </ul>
-  <p>Click the following links to append mirrors to the file &quot;default.redirect&quot;:<br>
-<a href="i:0gdefault.redirect::github.com::hub.fastgit.xyz%0A">github mirror:fastgit</a><br>
-<a href="i:0gdefault.redirect::github.com::hub.0z.gs%0A">github mirror 2</a></p>
-<p><a target="_self" href="i:0gdefault.redirect:../../zh/searchurl/txt/redirect.cfg">google recaptcha mirror</a></p>
+  <h4 id="global-redirection">Global redirection</h4>
+<p><a href="i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/en/searchurl/config.html">Global redirection</a> is enabled with the setting option &quot;Resource redirection&quot;.</p>
+<p>When a valid global redirection url is set, the &quot;default.redirect&quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.</p>
+<h4 id="defaultredirect-valid-only-without-global-redirection-url">&quot;default.redirect&quot; (valid only without global redirection url)</h4>
+<p>Click the following links to append mirrors to the file &quot;default.redirect&quot;:<br>
+<a target="_self" href="i:0gdefault.redirect:../../zh/searchurl/txt/redirect.cfg">google recaptcha mirror</a></p>
 <p>Each line of the file &quot;default.redirect&quot; has the following format:<br>
 [domain name]:[regular expression]:[replacement expression]</p>
 <p>in which &quot;[regular expression]&quot; is as defined by java language, and cannot have &quot;:&quot; inside; if empty, it defaults to be same as &quot;[domain name]&quot;.</p>
-<h4 id="ways-to-enable-redirection">Ways to enable redirection:</h4>
+<h5 id="ways-to-enable-domain-redirection">Ways to enable domain redirection:</h5>
 <ul>
 <li><a href="../urls/index.html">Long the image button</a>。</li>
 <li>Long pressing the setting button, enable the option &quot;url redirection&quot;.</li>
@@ -64,8 +66,8 @@
 </ul>
 
 </div>
-<p>Last Modified: 20 February 2023<br>
-use relative path<br>
+<p>Last Modified: 12 April 2023<br>
+global redirection support in config.js<br>
 <pre></pre>
 </p>
 
