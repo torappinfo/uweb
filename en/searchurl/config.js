@@ -38,11 +38,7 @@ function gen(text) {
 }
 
 if(d.body){
-  fetch("view-source:"+location.href)
-    .then(res => res.text())
-    .then(text => {
-      gen(text);
-    });
+  gen(d.documentElement.outerHTML);
 }else {
   let text = "\n".repeat(labels.length-1);
   gen(text);
