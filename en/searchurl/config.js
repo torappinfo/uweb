@@ -38,7 +38,7 @@ function gen(text) {
 }
 
 if(d.body){
-  gen(d.documentElement.outerHTML);
+  gen(d.body.innerHTML);
 }else {
   let text = "\n".repeat(labels.length-1);
   gen(text);
