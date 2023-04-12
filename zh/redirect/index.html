@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <link rel="stylesheet" href="../style.css" type="text/css" />
-    <title>重定向网址至国内镜像</title>
+    <title>重定向网址</title>
     <script type="text/javascript">
       function findLang(){
         let href = location.href;
@@ -40,7 +40,7 @@
     <br />
     
 <div class="container">
-  <h1 class="title">重定向网址至国内镜像
+  <h1 class="title">重定向网址
     <br>
     <span class="subtitle"></span>
   </h1>
@@ -51,9 +51,11 @@
     <li><a href="../tags/%e5%9b%bd%e5%a4%96%e7%bd%91%e5%9d%80">国外网址</a> </li>
     
   </ul>
-  <p><a href="i:0gdefault.redirect::github.com::hub.fastgit.xyz%0A">github mirror:fastgit</a><br>
-<a href="i:0gdefault.redirect::github.com::hub.0z.gs%0A">github mirror 2</a><br>
-<a href="i:0gdefault.redirect::github.com::api.mtr.pub%0A">github mirror 3</a></p>
+  <h4 id="全局重定向">全局重定向</h4>
+<p>长按设置，选中&quot;自定义资源重定向&quot;。此时如果<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/zh/searchurl/config.html">全局重定向url</a>为有效网址，则所有网络访问被内部重定向至url: &quot;[全局重定向url]+[原始url]&quot;。</p>
+<p><a href="https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/%E5%88%9B%E5%BB%BA%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5/%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E7%9A%84%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E5%95%86%E5%88%9B%E5%BB%BA%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5.md">创建免费魔法重定向，说明类似但代码不同</a><br>
+<a href="../../en/searchurl/cloudflare/redirect.js">cloudflare workers 全局重定向代码</a></p>
+<h4 id="重定向文件-defaultredirect-仅在无有效全局重定向url时生效">重定向文件 &quot;default.redirect&quot; (仅在无有效全局重定向url时生效)</h4>
 <p><a target="_self" href="i:0gdefault.redirect:../searchurl/txt/redirect.cfg">点击添加google recaptcha国内镜像</a></p>
 <p>使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。</p>
 <p>其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。</p>
@@ -100,8 +102,8 @@ product.dangdang.com::product.dangdangvvv.com<br>
 item.gome.com.cn::item.gomevvv.com.cn</p>
 
 </div>
-<p>Last Modified: 20 February 2023<br>
-use relative path<br>
+<p>Last Modified: 12 April 2023<br>
+update global redirection<br>
 <pre></pre>
 </p>
 
