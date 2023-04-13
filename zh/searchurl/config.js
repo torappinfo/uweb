@@ -1,4 +1,4 @@
-let labels = ["全局重定向网址","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
+let labels = ["<a href='https://jamesfengcao.codeberg.page/zh/redirect/index.html'>全局重定向网址</a>","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
 let names = ["redirecturl","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;

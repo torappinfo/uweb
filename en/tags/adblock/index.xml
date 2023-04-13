@@ -13,7 +13,7 @@
       
       <guid>/en/adblock_domain/</guid>
       <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
-The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:
+hosts The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:
 [[IP address][attributes]][single space][domain name]
 where &amp;quot;[[IP address][attributes]]&amp;quot; could be:
 ipv4 address such as:

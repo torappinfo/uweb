@@ -108,7 +108,6 @@ c[cssFlag]: For example, &amp;quot;c12&amp;quot; will apply the third and fourth
 总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
 方法1: bingChat自带魔法直接界面
 要求: 安装界面html
-复制bing.com cookies至魔法域名
 勾选选项“使用离线缓存”, &amp;quot;使用hosts&amp;quot;
 hosts文件内添加一行（允许发送cookie至魔法url）:
 Click to append to &amp;quot;hosts&amp;quot;, edit the last part as magic url domain
