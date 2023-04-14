@@ -112,7 +112,7 @@ c[cssFlag]: For example, &amp;quot;c12&amp;quot; will apply the third and fourth
 hosts文件内添加一行（允许发送cookie至魔法url）:
 Click to append to &amp;quot;hosts&amp;quot;, edit the last part as magic url domain
 点击界面入口
-可配置魔法url, 上述hosts文件作相应修改, 复制bing.com cookies至魔法域名。 详情
+可配置魔法url, 上述hosts文件作相应修改。 详情
 方法2: 可以采用超级书签/直接界面+脚本+hosts。
 其中超级书签固定bingchat入口。
 脚本重定向api至魔法师.
