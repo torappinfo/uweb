@@ -1,30 +1,12 @@
 var expUrl = new RegExp('^(https?://)([-a-zA-z0-9]+\\.)+([-a-zA-z0-9]+)+\\S*$');
-function timeString() {
-	var d = new Date();
-	var year = d.getFullYear();
-	var month = (d.getMonth() + 1).toString().padStart(2, "0");
-	var date = d.getDate().toString().padStart(2, "0");
-	var hour = d.getHours().toString().padStart(2, "0");
-	var minute = d.getMinutes().toString().padStart(2, "0");
-	var second = d.getSeconds().toString().padStart(2, "0");
-	var offset = "+08:00"; // 你可以根据需要修改这个值
-	var s = year + "-" + month + "-" + date + "T" + hour + ":" + minute + ":" + second + offset;
-	return s;
-}
-
 function getUuidNojian() {
 	return URL.createObjectURL(new Blob()).split('/')[3].replace(/-/g, '');
-}
-
-function getUuid() {
-	return URL.createObjectURL(new Blob()).split('/')[3];
 }
 
 class SendMessageManager {
 	//(会话id，客户端id，签名id，是否是开始)
 	//(string,string,string,boolena)
 	constructor(conversationId, clientId, conversationSignature,invocationId) {
-		this.startTime = timeString();
 		this.invocationId = invocationId==undefined?1:invocationId;
 		this.conversationId = conversationId;
 		this.clientId = clientId;
@@ -53,80 +35,18 @@ class SendMessageManager {
 	}
 	//获取用于发送的聊天数据
 	//(WebSocket,sreing)
-	sendChatMessage(chatWebSocket, chat) {
-	  let pos = ['','','']; //initial 3 suggestions
-		let previousMessages = [{
-			"text": '',
-			"author": "bot",
-			"adaptiveCards": [],
-			"suggestedResponses": [{
-				"text": pos[0],
-				"contentOrigin": "DeepLeo",
-				"messageType": "Suggestion",
-				"messageId": getUuid(),
-				"offense": "Unknown"
-			}, {
-				"text": pos[1],
-				"contentOrigin": "DeepLeo",
-				"messageType": "Suggestion",
-				"messageId": getUuid(),
-				"offense": "Unknown"
-			}, {
-				"text": pos[2],
-				"contentOrigin": "DeepLeo",
-				"messageType": "Suggestion",
-				"messageId": getUuid(),
-				"offense": "Unknown"
-			}],
-			"messageId": getUuid(),
-			"messageType": "Chat"
-		}];
+  async sendChatMessage(chatWebSocket, chat) {
+    let optionsSets = chatTypes[this.optionsSets];
 		let json = {
 			"arguments": [{
-				"source": "cib",
-				"optionsSets": this.optionsSets,
+				"source": source,
+				"optionsSets": optionsSets,
 				"allowedMessageTypes": allowedMessageTypes,
 				"sliceIds": sliceIds,
 				"verbosity": "verbose",
 				"traceId": getUuidNojian(),
 				"isStartOfSession": (this.invocationId <= 1) ? true : false,
-				"message": {
-					"locale": "zh-CN",
-					"market": "zh-CN",
-					"region": "US",
-					"location": "lat:47.639557;long:-122.128159;re=1000m;",
-					"locationHints": [
-						{
-							"Center": {
-								"Latitude": 30.474109798833613,
-								"Longitude": 114.39626256171093
-							},
-							"RegionType": 2,
-							"SourceType": 11
-						},
-						{
-							"country": "United States",
-							"state": "California",
-							"city": "Los Angeles",
-							"zipcode": "90060",
-							"timezoneoffset": -8,
-							"dma": 803,
-							"countryConfidence": 8,
-							"cityConfidence": 5,
-							"Center": {
-								"Latitude": 33.9757,
-								"Longitude": -118.2564
-							},
-							"RegionType": 2,
-							"SourceType": 1
-						}
-					],
-					"timestamp": this.startTime,
-					"author": "user",
-					"inputMethod": "Keyboard",
-					"text": chat,
-					"messageType": "Chat"
-				},
+				"message": await generateMessages(this,chat),
 				"conversationSignature": this.conversationSignature,
 				"participant": {
 					"id": this.clientId
@@ -140,7 +60,6 @@ class SendMessageManager {
 		};
 		this.sendJson(chatWebSocket, json);
 		this.invocationId++;
-		setLastInvocationId(this.invocationId);
 	}
 }
 
