@@ -52,7 +52,7 @@ class SendMessageManager {
 					"id": this.clientId
 				},
 				"conversationId": this.conversationId,
-				"previousMessages": (this.invocationId <= 1) ? previousMessages : undefined
+				"previousMessages": (this.invocationId <= 1) ? await getPreviousMessages() : undefined
 			}],
 			"invocationId": this.invocationId.toString(),
 			"target": "chat",
