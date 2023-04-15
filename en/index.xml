@@ -12,8 +12,9 @@
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/redirect/</guid>
-      <description>Redirection forwards cookies with all following three setting options enabled: &amp;quot;Resource redirection&amp;quot;, &amp;quot;Redirect w/ cookies&amp;quot; and &amp;quot;Hide certificate errors&amp;quot;, so use the options with care.
-Global redirection Global redirection is enabled with the setting option &amp;quot;Resource redirection&amp;quot;.
+      <description>⚠️Redirection forwards cookies with the setting option &amp;quot;Redirect cookies&amp;quot; enabled, so use the options with care.
+Setting options: &amp;quot;Url redirection&amp;quot; vs. &amp;quot;Resource redirection&amp;quot; &amp;quot;Url redirection&amp;quot; redirects the main/page url only while &amp;quot;Resource redirection&amp;quot; is for all urls in the page.
+Global redirection Global redirection is enabled with the setting option &amp;quot;Resource redirection&amp;quot; or both &amp;quot;Url redirection&amp;quot; and &amp;quot;Redirect cookies&amp;quot;.
 When a valid global redirection url is set, the &amp;quot;default.redirect&amp;quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.</description>
     </item>
     
@@ -205,13 +206,13 @@ uweb, termux &amp;amp; history versions
 github
 sourceforge
 powerfolder
+pcloud
 pagure
 Main features Change logs 991: global url redirection support.
 988: hosts file to support response headers.
 985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
 983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.
-975: Bookmarks to support styling for markdown etc.
-971: multiple type profiles: switch any data including website logins, user configurations orthogonally.</description>
+975: Bookmarks to support styling for markdown etc.</description>
     </item>
     
     <item>
