@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/_posts/</loc>
-    <lastmod>2023-04-15T18:08:03+08:00</lastmod>
+    <lastmod>2023-04-16T16:25:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/_posts/"
+                />
+  </url><url>
+    <loc>/en/offlinecache/</loc>
+    <lastmod>2023-04-16T16:25:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/offlinecache/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/offlinecache/"
                 />
   </url><url>
     <loc>/en/tags/redirection/</loc>
@@ -45,7 +58,7 @@
                 />
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2023-04-15T18:08:03+08:00</lastmod>
+    <lastmod>2023-04-16T16:25:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -55,19 +68,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
-                />
-  </url><url>
-    <loc>/en/offlinecache/</loc>
-    <lastmod>2023-04-13T11:00:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/offlinecache/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/offlinecache/"
                 />
   </url><url>
     <loc>/en/links/</loc>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <base href="https://jamesfengcao.codeberg.page/en/searchurl/bingAI/">
+  <title id="docTitle">Write</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.css">
+  <style>
+    #input {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+  </style>
+  <script>
+    function getSelectedText(select){
+      return select.options[select.selectedIndex].text;
+    }
+  </script>
+</head>
+
+<body>
+  <select id="toneSelect" onchange="window.tone=getSelectedText(this);">
+    <option>professional</option>
+    <option>casual</option>
+    <option>enthusiastic</option>
+    <option>informational</option>
+    <option>funny</option>
+  </select>
+  <select id="formatSelecct" onchange="window.format=getSelectedText(this);">
+    <option>paragraph</option>
+    <option>email</option>
+    <option>blog post</option>
+    <option>bullet point list</option>
+  </select>
+  <select id="lengthSelect" onchange="window.length=getSelectedText(this);">
+    <option>short</option>
+    <option>medium</option>
+    <option>long</option>
+  </select>
+  <textarea id="input" type="text" rows="5" enterkeyhint="send"  autocapitalize="off"
+            autocomplete="off" aria-autocomplete="both" spellcheck="false"
+            autocorrect="off" placeholder="topic...">
+  </textarea>
+  <input id="send" class="ThemeColors" type="button" value="Generate">
+  <div id="chat">
+    <div class="bing">
+      <div class="adaptiveCardsFatherDIV">
+        <div class="textBlock markdown-body">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dummy nodes -->
+  <div id='restart'></div>
+  <div id='restartNewChat'></div>
+  <div id='chatTypeDiv'>
+  <div id='chatTypeChoseCreate'></div>
+  <div id='chatTypeChoseBalance'></div>
+  <div id='chatTypeChoseAccurate'></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/auto-render.min.js"></script>
+
+  <script type="text/javascript" src="./js/GetSet.js"></script>
+  <script type="text/javascript" src="./js/w_optionsSets.js"></script>
+  <script type="text/javascript" src="./js/bingChatHub.js"></script>
+  <script type="text/javascript" src="./js/parserReturn.js"></script>
+  <script type="text/javascript" src="./js/bing.js"></script>
+  <script src="./js/Write.js"></script>
+</body>
+
+</html>
