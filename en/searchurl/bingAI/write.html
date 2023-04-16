@@ -44,7 +44,7 @@
             autocomplete="off" aria-autocomplete="both" spellcheck="false"
             autocorrect="off" placeholder="topic...">
   </textarea>
-  <input id="send" class="ThemeColors" type="button" value="Generate">
+  <input id="send" class="ThemeColors" type="button" value="Generate"><input id="restart" type="button" value="🧹"><input id="restartNewChat" type="button" value="new">
   <div id="chat">
     <div class="bing">
       <div class="adaptiveCardsFatherDIV">
@@ -56,14 +56,22 @@
   </div>
 
   <!-- dummy nodes -->
-  <div id='restart'></div>
-  <div id='restartNewChat'></div>
   <div id='chatTypeDiv'>
   <div id='chatTypeChoseCreate'></div>
   <div id='chatTypeChoseBalance'></div>
   <div id='chatTypeChoseAccurate'></div>
   </div>
 
+  <script>
+    async function getMagicUrl() {
+      let v = localStorage.GoGoUrl;
+      if(v && v.startsWith("http")) return v;
+      return "https://mybing2.xn--xyza.top/";
+    }
+    function getStartProposes(){return ["","",""];}
+    function getStartMessage(){return "";}
+  </script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/auto-render.min.js"></script>
