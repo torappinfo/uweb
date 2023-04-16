@@ -5,13 +5,16 @@ createChat(thisChatType).then((r) => {
 /**重写重置聊天到初始状态函数 */
 function reSetStartChatMessage(type) {
   chat.innerHTML = ``;
+  isSpeaking = false;
 }
 
 /**重写函数 */
 function isSpeakingStart(chatWithMagic, sendText) {
+  isSpeaking = true;
 }
 //重写
 function isSpeakingFinish() {
+  isSpeaking = false;
 }
 
 
