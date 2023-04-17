@@ -74,6 +74,7 @@
 mimetype用来表示命令的输入输出类型。格式为&quot;[输入mimetype]/[输出mimetype]&quot;，&quot;[输入mimetype]&quot;可为&quot;html&quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：<br>
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 /uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。<br>
+/uwebA: 超微将把输出作为&quot;单一&quot;链接来处理。<br>
 /termux: 命令运行结果将作为termux下命令运行。<br>
 <a target="_self" href="i:0hcheck.js:../searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][<em>[文件后缀]]&quot;。譬如&quot;file:///sdcard/?</em>.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)</p>
 <p>配置default.select如下：<br>
@@ -92,8 +93,8 @@ html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 <a href="http://unxutils.sourceforge.net/">pclip</a></p>
 
 </div>
-<p>Last Modified: 20 February 2023<br>
-use relative path<br>
+<p>Last Modified: 17 April 2023<br>
+add mimetype uwebA<br>
 <pre></pre>
 </p>
 

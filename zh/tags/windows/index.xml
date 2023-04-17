@@ -29,6 +29,7 @@ deepL
 mimetype用来表示命令的输入输出类型。格式为&amp;quot;[输入mimetype]/[输出mimetype]&amp;quot;，&amp;quot;[输入mimetype]&amp;quot;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。
 /uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。
+/uwebA: 超微将把输出作为&amp;quot;单一&amp;quot;链接来处理。
 /termux: 命令运行结果将作为termux下命令运行。
 checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)
 配置default.select如下：

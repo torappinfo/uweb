@@ -9,7 +9,7 @@
 [超微浏览器下载及使用技巧](https://uwebzh.netlify.app/zh/)
 (Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [netlify](https://uwebzh.netlify.app/zh/) [stormkit](https://uweb.stormkit.dev/zh/) [surge](https://uweb.surge.sh/zh/) [github](https://torappinfo.github.io/uweb/zh/) [torapp](https://torapp.eu.org) [epizy](http://uweb.epizy.com/) [pages](https://muweb.pages.dev/zh/) [render](https://uweb.onrender.com) [bitbucket](https://torappinfo.bitbucket.io/zh/) [vercel](https://uweb.vercel.app/zh/))
 
-- <span  style="color:red">国内可以直接使用<a href="https://uwebzh.netlify.app/zh/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../tips/index.html';return false;}}">newbing/chatgpt</a></span>
+- <span  style="color:red">国内可以直接使用<a href="https://uwebzh.netlify.app/zh/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../tips/index.html';return false;}}">bingChat/必应写作/chatgpt</a></span>
 - 微：不到200K。
 - 威：支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。html5应用增强，可匹配本地应用。
 - 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
