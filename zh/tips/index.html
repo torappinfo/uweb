@@ -51,13 +51,23 @@
 总要求：长按底部&quot;PC&quot;按钮选择user-agent为&quot;edge&quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。</p>
 <ul>
 <li>
-<p>方法1: <a href="../../en/offlinecache/index.html">bingChat &amp; Write自带魔法直接界面</a><br>
-要求: 安装界面html<br>
-勾选选项“使用离线缓存”, &quot;使用hosts&quot;</p>
+<p>方法1:</p>
+<ul>
+<li>
+<p>点击一键安装<a href="i:b1Install bing chat UI%0A%0Ai:0hsitecache/www.bing.com/ai.html:../../en/searchurl/bingAI/bing.html%0AInstall bing compose UI%0A%0Ai:0hsitecache/www.bing.com/write.html:../../en/searchurl/bingAI/write.html%0AConfig hosts%0A%0Ai:0ghosts::www.bing.com;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top%0Ai:52:https://www.bing.com/ai.html%0Ai:52:https://www.bing.com/write.html">必应AI</a></p>
+</li>
+<li>
+<p>或者分步安装:<br>
+安装界面html, <a href="../../en/offlinecache/index.html">bingChat &amp; Write自带魔法直接界面</a></p>
 <p>hosts文件内添加一行（允许发送cookie至魔法url）:<br>
 <a href="i:0ghosts::www.bing.com;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top%0A">Click to append to &quot;hosts&quot;, edit the last part as magic url domain</a></p>
-<p>点击界面入口<br>
+</li>
+<li>
+<p>使用: 勾选选项“使用离线缓存”, &quot;使用hosts&quot;<br>
+点击界面入口<br>
 可配置魔法url, 上述hosts文件作相应修改。 <a href="https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/%E5%88%9B%E5%BB%BA%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5/%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E7%9A%84%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E5%95%86%E5%88%9B%E5%BB%BA%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5.md">详情</a></p>
+</li>
+</ul>
 </li>
 <li>
 <p>方法2: 可以采用超级书签/直接界面+脚本+hosts。<br>
@@ -85,8 +95,8 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 <a href="../filenames">配置文件列表</a>中直接点击文件名即可编辑。</p>
 
 </div>
-<p>Last Modified: 17 April 2023<br>
-add mimetype uwebA<br>
+<p>Last Modified: 18 April 2023<br>
+support bundled installation<br>
 <pre></pre>
 </p>
 

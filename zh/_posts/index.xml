@@ -106,11 +106,13 @@ c[cssFlag]: For example, &amp;quot;c12&amp;quot; will apply the third and fourth
       <guid>/zh/tips/</guid>
       <description>免魔法直接使用newbing (chatgpt)
 总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
-方法1: bingChat &amp;amp; Write自带魔法直接界面
-要求: 安装界面html
-勾选选项“使用离线缓存”, &amp;quot;使用hosts&amp;quot;
+方法1:
+点击一键安装必应AI
+或者分步安装:
+安装界面html, bingChat &amp;amp; Write自带魔法直接界面
 hosts文件内添加一行（允许发送cookie至魔法url）:
 Click to append to &amp;quot;hosts&amp;quot;, edit the last part as magic url domain
+使用: 勾选选项“使用离线缓存”, &amp;quot;使用hosts&amp;quot;
 点击界面入口
 可配置魔法url, 上述hosts文件作相应修改。 详情
 方法2: 可以采用超级书签/直接界面+脚本+hosts。

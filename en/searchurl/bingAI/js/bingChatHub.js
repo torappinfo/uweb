@@ -234,7 +234,7 @@ async function createChat(theChatType) {
   do {
     try {
       let url = URLTrue(magicUrl,'turing/conversation/create');
-      let res = await fetch(url, {credentials: "include"});
+      let res = await fetch(url);
       let resjson = await res.json();
       if (!resjson.result || resjson.result.value != 'Success') {
         mes = resjson;
