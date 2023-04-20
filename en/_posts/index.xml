@@ -234,7 +234,8 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
 Clearing font settings
 The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:
 webview 81+ night mode
-webview 80- night mode</description>
+webview 80- night mode
+Earliest loaded global js The &amp;quot;.js&amp;quot; files under the folder &amp;quot;css&amp;quot; are loaded as earlier as possible on the page.</description>
     </item>
     
     <item>

@@ -339,13 +339,14 @@ Clear logcat::logcat -c</description>
       
       <guid>/en/rjs/</guid>
       <description>javascript for domains
+Earliest loaded global javascript files locates in the subfolder &amp;quot;css&amp;quot; of app private folder.
 Global javascript files locates in the subfolder &amp;quot;js&amp;quot; of app private folder. Long press button [☰] to configure. Click the following links to install:
 &amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/savePassword.js:../../zh/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;Save password
 Instant page
 large size javascript code can be installed to the folder &amp;quot;bookmarklet&amp;quot; (long pressing button &amp;quot;js&amp;quot; to popup menu):
 Eruda
 Performance
-Remote javascript is defined in default.rjs. Click the following link to install. (Force exit and re-launch the app, then long press the &amp;quot;search&amp;quot; button to popup the menu.</description>
+Remote javascript is defined in default.</description>
     </item>
     
     <item>
@@ -376,7 +377,8 @@ It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
 Clearing font settings
 The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:
 webview 81+ night mode
-webview 80- night mode</description>
+webview 80- night mode
+Earliest loaded global js The &amp;quot;.js&amp;quot; files under the folder &amp;quot;css&amp;quot; are loaded as earlier as possible on the page.</description>
     </item>
     
     <item>
