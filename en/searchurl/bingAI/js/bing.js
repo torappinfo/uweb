@@ -7,6 +7,11 @@ var send_button = document.getElementById('send');
 let restartNewChat = document.getElementById('restartNewChat');
 var thisChatType = chatTypes.balance;
 
+//全局变量
+var talk;
+var returnMessage;
+var isSpeaking = false;
+
 reSetStartChatMessage();
 
 //(string)
@@ -49,7 +54,6 @@ function onMessage(json, returnMessage) {
 		onMessageIsOKClose = true;
 		returnMessage.getCatWebSocket().close(1000, 'ok');
 	} else {
-          talk = undefined;
           localStorage.removeItem('LastChatJson');
           if (json.type == 1) {
 	    porserArguments(json.arguments);
@@ -77,13 +81,6 @@ input_text.addEventListener('keydown', (event) => {
 		input_text.value += "\n";
 	}
 });
-
-
-//全局变量
-var talk;
-var returnMessage;
-var isSpeaking = false;
-
 
 /**重置聊天框和聊天建议到初始状态 */
 function reSetStartChatMessage(type) {
