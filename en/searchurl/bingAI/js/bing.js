@@ -295,14 +295,5 @@ restartNewChat.onclick = async () => {
 	restart_button.onclick();
 }
 
-async function searchSuggestionsAddOnclick(){
-  let adds = document.querySelectorAll("#SearchSuggestions>a");
-  for(let add in adds){
-    adds[add].onclick = (event)=>{
-      if(searchSuggestions.style.opacity>=1){
-        send(event.target.innerHTML);
-      }
-    }
-  }
-}
+
 
