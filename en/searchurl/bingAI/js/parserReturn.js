@@ -196,29 +196,38 @@ function generateContentQueryImg(message, father){
         theUrls.append('SFX', '2');
         theUrls.append('q', message.text);
         theUrls.append('iframeid', message.requestId);
-        let theUrl = URLTrue(magicUrl,"AiDraw/Create?") + theUrls.toString();
+        let theUrl = URLTrue(magicUrl,"images/create?") + theUrls.toString();
         
         try{
             father.innerHTML = `正在生成${message.text}的图片.`;
             let html = (await (await fetch(theUrl)).text());
-            let urr = new RegExp('"/(images/create/async/results/(\\S*))"').exec(html);
-            if(!urr || !urr[1]){
-                urr = new RegExp('class="gil_err_mt">([^<>]*)</div>').exec(html);
-                if(urr || urr[1]){
-                    father.innerHTML = `${urr[1]}`
-                    return;
+
+            //如果有错误就输出错误
+            let urr = new RegExp('class="gil_err_mt">([^<>]*)</div>').exec(html);
+            if(urr && urr[1]){
+                father.innerHTML = `<h3>${urr[1]}</h3>`
+                urr = new RegExp('class="gil_err_sbt">(([^<>]*<(a|div)[^<>]*>[^<>]*</(a|div)>[^<>]*)*)</div>').exec(html);
+                if(urr && urr[1]){
+                    father.innerHTML = father.innerHTML+`<p>${urr[1]}</p>`;
                 }
+                return;
+            }
+
+            //如果没错误就匹配链接获取图片
+            urr = new RegExp('"/(images/create/async/results/(\\S*))"').exec(html);
+            if(!urr || !urr[1]){
                 console.log(html);
                 addError("请求图片返回不正确的页面，无法加载图片。");
                 return;
             }
             let ur = urr[1];
+            ur = ur.replaceAll('&amp;','&');
             let imgPageHtmlUrl = URLTrue(magicUrl,ur);
             let count = 0;
             let run = async ()=>{
                 father.innerHTML = `正在生成${message.text}的图片.${count}`;
                 if(count>20){
-                    addError("请求图片超时！");
+                    father.innerHTML = "请求图片超时！";
                     return;
                 }
                 count++;
@@ -232,22 +241,29 @@ function generateContentQueryImg(message, father){
                     setTimeout(run,3000);
                     return;
                 }
-                let div = document.createElement("div");
-                div.innerHTML = imgPageHtml;
-                let imgs = div.getElementsByTagName("img");
+
+                father.innerHTML = '';
                 let theUrls = new URLSearchParams();
                 theUrls.append('createmessage',message.text);
-                father.innerHTML = '';
-                for(let el=0;el<imgs.length;el++){
-                    let img = document.createElement('img');
-                    img.src = imgs[el].src;
-                    theUrls.append('imgs',img.src.split('?')[0]);
-                    img.onclick = ()=>{
-                        window.open('chrome-extension://'+chrome.runtime.id+'/GeneratePicture/img.html?'+theUrls.toString(), '_blank');
-                    }
-                    father.appendChild(img);
+                let a = document.createElement("a");
+                father.appendChild(a);
+                //用正则找全部图片
+                let allSrc = imgPageHtml.matchAll(/<img[^<>]*src="([^"]*)"[^<>]*>/g);
+                let src = undefined;
+                let ok = false;
+                while(!(src=allSrc.next()).done){
+                    ok =true;
+                    theUrls.append('imgs',src.value[1].split('?')[0]);
+                    let img = document.createElement("img");
+                    img.src = src.value[1];
+                    a.appendChild(img);
                 }
-                div.remove();
+                if(ok){
+                    a.target = '_blank';
+                    a.href = '../GeneratePicture/img.html?'+theUrls.toString();
+                }else{
+                    father.innerHTML = "服务器未正常返回图片！";
+                }
             }
             setTimeout(run,3000);
             
@@ -396,11 +412,7 @@ function porserSuggestedResponses(suggestedResponses) {
     for (let i = 0; i < suggestedResponses.length; i++) {
         let a = document.createElement('a');
         a.innerHTML = suggestedResponses[i].text;
-        a.onclick = (even) => {
-            if(searchSuggestions.style.opacity>=1){
-                send(even.target.innerHTML);
-            }
-        }
         searchSuggestions.appendChild(a);
     }
+    searchSuggestionsAddOnclick();
 }
