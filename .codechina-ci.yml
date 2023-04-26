@@ -1,0 +1,10 @@
+pages:
+  stage: deploy
+  script:
+    - rm -rf public
+    - mkdir tpublic
+    - ls | grep -v tpublic | xargs cp -r -t tpublic
+    - mv tpublic public
+  artifacts:
+    paths:
+      - public
