@@ -21,7 +21,7 @@ let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=devi
 '&'+ f.fixed.value +
 '&'+ f.sansserif.value +
 '&'+ f.serif.value +
-':https://fastly.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
+':https://jamesfengcao.codeberg.page/en/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
 
 function gen(text) {
   let strs = text.split('\n');
