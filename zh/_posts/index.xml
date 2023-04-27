@@ -104,23 +104,8 @@ c[cssFlag]: For example, &amp;quot;c12&amp;quot; will apply the third and fourth
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/zh/tips/</guid>
-      <description>免魔法直接使用newbing (chatgpt)
-总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
-方法1:
-点击一键安装必应AI
-或者分步安装:
-安装界面html, bingChat &amp;amp; Write自带魔法直接界面
-hosts文件内添加一行（允许发送cookie至魔法url）:
-Click to append to &amp;quot;hosts&amp;quot;, edit the last part as magic url domain
-使用: 勾选选项“使用离线缓存”, &amp;quot;使用hosts&amp;quot;
-点击界面入口
-可配置魔法url, 上述hosts文件作相应修改。 详情
-方法2: 可以采用超级书签/直接界面+脚本+hosts。
-其中超级书签固定bingchat入口。
-脚本重定向api至魔法师.
-hosts防污染。
-bingChat能够正常使用时保存为超级书签 (长按底部右箭头按钮)，下次再次需要使用时恢复即可 (按设置按钮然后点击超级书签链接)。
-修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫&amp;quot;超级书签&amp;quot;。成功使用newbing时保存，需要时就可以无限恢复。
+      <description>免魔法直接使用newbing/chatgpt
+使用重定向访问国外技术网址
 目录配置及使用外部文件管理器
 超微浏览器可以将配置目录或子目录符号链接至任意外部公共目录。安装有定制termux的用户也可以使用移动设备自带或第三方文件管理器管理超微内部指定目录。具体配置可见Shell command mode。
 准确显示PC网页:
@@ -135,7 +120,22 @@ home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主
 UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA状态，下次启动浏览器时恢复到原有UA。这样用户可常用一些有力的UA配置，仅偶尔使用默认配置，无需反复切换。
 快速编辑文件
 在浏览器文件管理器中长按文件名，弹出菜单中选择分享，系统会优先弹出相应的文件编辑器。
-配置文件列表中直接点击文件名即可编辑。</description>
+配置文件列表中直接点击文件名即可编辑。
+免魔法直接使用newbing (chatgpt) 总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
+方法1:
+点击一键安装必应AI
+或者分步安装:
+安装界面html, bingChat &amp;amp; Write自带魔法直接界面
+hosts文件内添加一行（允许发送cookie至魔法url）:
+Click to append to &amp;quot;hosts&amp;quot;, edit the last part as magic url domain
+使用: 勾选选项“使用离线缓存”, &amp;quot;使用hosts&amp;quot;
+点击界面入口
+可配置魔法url, 上述hosts文件作相应修改。 详情
+方法2: 可以采用超级书签/直接界面+脚本+hosts。
+其中超级书签固定bingchat入口。
+脚本重定向api至魔法师.
+hosts防污染。
+bingChat能够正常使用时保存为超级书签 (长按底部右箭头按钮)，下次再次需要使用时恢复即可 (按设置按钮然后点击超级书签链接)。</description>
     </item>
     
     <item>
