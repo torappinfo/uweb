@@ -66,7 +66,7 @@
 <p><a href="i:04Site search:;open('i:15site:' + location.hostname)">Site search:;open('i:15site:' + location.hostname)</a></p>
 <p><a href="i:04Spell check:;let t=document.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v">Spell check:;let t=document.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v</a></p>
 <p><a target="_self" href="i:0gdefault.rjs::google translate:['https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'];b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,pageLanguage:'auto',includedLanguages:[]},'google_translate_element');}%0A">Google translate</a></p>
-<p><a target="_self" href="i:0gdefault.rjs::google translate2en:['https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'];location.hash=location.hash+'#googtrans(en)';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,pageLanguage:'auto',includedLanguages:[]},'google_translate_element');}%0A">Google translate to English</a></p>
+<p><a target="_self" href="i:0gdefault.rjs::google translate2en:['https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'];location.hash=location.hash%2B'#googtrans(en)';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,pageLanguage:'auto',includedLanguages:[]},'google_translate_element');}%0A">Google translate to English</a></p>
 <p>Remote script configuration file &quot;default.rjs&quot; whose lines have the following format:<br>
 [script name]:[javascript code to return url arrays]</p>
 <h4 id="activated-scripts">Activated scripts</h4>
@@ -77,7 +77,7 @@
 
 </div>
 <p>Last Modified: 29 April 2023<br>
-add google translate for restricted area<br>
+fix &#39;&#43;&#39; in links for rjs.py<br>
 <pre></pre>
 </p>
 
