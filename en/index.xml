@@ -209,7 +209,8 @@ sourceforge
 powerfolder
 pcloud
 pagure
-Main features Change logs 991: global url redirection support.
+Main features Change logs 998: Bookmarklets to support CSP sites.
+991: global url redirection support.
 988: hosts file to support response headers.
 985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
 983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.
@@ -346,7 +347,7 @@ Instant page
 large size javascript code can be installed to the folder &amp;quot;bookmarklet&amp;quot; (long pressing button &amp;quot;js&amp;quot; to popup menu):
 Eruda
 Performance
-Remote javascript is defined in default.</description>
+Note: Bookmarklets whose names begin with &amp;quot;!</description>
     </item>
     
     <item>
