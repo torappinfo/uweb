@@ -54,6 +54,8 @@
 <a target="_self" href="i:0hjs/极速网页.js:https://fastly.jsdelivr.net/npm/instant.page">极速网页</a></p>
 <p><b>大型脚本</b>可安装到&quot;bookmarklet&quot;目录下（长按js按钮）：<br>
 <a target="_self" href="i:0hbookmarklet/!google翻译.js:https://fastly.jsdelivr.net/gh/torappinfo/js1@main/element.js:%0A{let d=document,b=d.body,v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,pageLanguage:'auto',includedLanguages:'zh-CN,zh-TW,en,ko,ja'},'google_translate_element');}}">免魔法google翻译</a></p>
+<p><a target="_self" href="i:0hbookmarklet/!Google至简体:https://fastly.jsdelivr.net/gh/torappinfo/js1@main/element.js:%0A{let d=document;location.hash=location.hash%2B'#googtrans(zh-CN)';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:true,pageLanguage:'auto',includedLanguages:'zh-CN,zh-TW,en,ko,ja'},'google_translate_element');}}">免魔法Google翻译至简体</a></p>
+<p><a target="_self" href="i:0hbookmarklet/!Google至英文:https://fastly.jsdelivr.net/gh/torappinfo/js1@main/element.js:%0A{let d=document;location.hash=location.hash%2B'#googtrans(en)';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:true,pageLanguage:'auto',includedLanguages:'zh-CN,zh-TW,en,ko,ja'},'google_translate_element');}}">免魔法Google翻译至英文</a></p>
 <p><a target="_self" href='i:0hbookmarklet/eruda.js:https://fastly.jsdelivr.net/npm/eruda:%0Aeruda.init()'>Eruda</a></p>
 <p><a target="_self" href="i:0hbookmarklet/performance.js:https://fastly.jsdelivr.net/gh/micmro/performance-bookmarklet/dist/performanceBookmarklet.min.js">Performance</a><br>
 <a target="_self" href="i:0hbookmarklet/移除覆盖物.js:../searchurl/bml/content/rmo.js">移除覆盖物</a></p>
@@ -65,17 +67,15 @@
 <p><a href="i:04新窗口打开链接:;let d=document;b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)">新窗口打开链接:;let d=document;b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)</a></p>
 <p><a href="i:04站内搜索:;open('i:15site:' + location.hostname)">站内搜索:;open('i:15site:' + location.hostname)</a></p>
 <p><a href="i:04编辑器拼写检查:;let t=document.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v">编辑器拼写检查:;let t=document.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v</a></p>
-<p><a target="_self" href="i:0gdefault.rjs::Google译至简体:['https://fastly.jsdelivr.net/gh/torappinfo/js1@main/element.js'];location.hash=location.hash%2B'#googtrans(zh-CN)';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:true,pageLanguage:'auto',includedLanguages:'zh-CN,zh-TW,en,ko,ja'},'google_translate_element');}%0A">免魔法Google翻译至简体</a></p>
-<p><a target="_self" href="i:0gdefault.rjs::Google translate2en:['https://fastly.jsdelivr.net/gh/torappinfo/js1@main/element.js'];location.hash=location.hash%2B'#googtrans(en)';b=d.body;v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:true,pageLanguage:'auto',includedLanguages:'zh-CN,zh-TW,en,ko,ja'},'google_translate_element');}%0A">免魔法Google翻译至英文</a></p>
 <p>远程及小型脚本可安装到default.rjs文件中。远程脚本对CSP网站仍然有效。：<br>
-<a target="_self" href="i:0gdefault.rjs:../searchurl/txt/rjs.cfg">点击安装免魔法google翻译、背景图等</a></p>
+<a target="_self" href="i:0gdefault.rjs:../searchurl/txt/rjs.cfg">点击安装背景图等</a></p>
 <p>远程脚本配置文件default.rjs每行格式如下 (url部分支持js代码运算)：<br>
 [远程脚本名]:[返回url数组的javascript代码]</p>
 <p>其中url可以为本地http脚本地址。譬如'https://local/...' (<a href="../html5/index.html">本地html5应用</a>或<a href="../offlinecache/index.html">离线缓存</a>)。此时，js脚本也可使用<a href="../links/index.html">.link文件</a>方式调用。</p>
 
 </div>
 <p>Last Modified: 29 April 2023<br>
-fix &#39;&#43;&#39; in links for rjs.py<br>
+add google translate in rjs.py<br>
 <pre></pre>
 </p>
 
