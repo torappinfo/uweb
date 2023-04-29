@@ -197,8 +197,6 @@ tgz install::toybox tar -xzf %f -C /
 &amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/记住密码.js:../searchurl/txt/passwdsave.js&amp;quot;&amp;gt;记住密码
 极速网页
 大型脚本可安装到&amp;quot;bookmarklet&amp;quot;目录下（长按js按钮）：
-免魔法google翻译
-google翻译
 Eruda
 Performance
 移除覆盖物
@@ -211,6 +209,7 @@ Selection to paragraph:;let g=&#39;paragraph&#39;;getSelection().modify(&#39;mov
 站内搜索:;open(&#39;i:15site:&#39; + location.hostname)
 编辑器拼写检查:;let t=document.getElementsByTagName(&#39;textarea&#39;);let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v
 免魔法Google翻译至简体
+免魔法Google翻译至英文
 远程及小型脚本可安装到default.rjs文件中。远程脚本对CSP网站仍然有效。：
 点击安装免魔法google翻译、背景图等
 远程脚本配置文件default.rjs每行格式如下 (url部分支持js代码运算)：
