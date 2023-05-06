@@ -84,21 +84,27 @@ AI/chatGPT:</p>
 use [ipv6] in hosts<br>
 <pre></pre>
 </p>
-<script data-repo="torappinfo/uweb"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
-        data-category="Announcements"
-        data-category-id="DIC_kwDOEgNLGc4CQjsh"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous" async>
-  if(location.host=='torappinfo.github.io')
-    document.currentScript.setAttribute('src', 'https://giscus.app/client.js');
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async disabled>
+</script>
+<script>
+  if(location.host=='torappinfo.github.io'){
+    let script = document.getElementById('jsgiscus');
+    script.disabled = false;
+  }
 </script>
 
   </body>
