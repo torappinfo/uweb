@@ -5,7 +5,7 @@
 <a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../en/changelog/index.html';return false;}}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
-(Mirrors: [netlify](https://uwebzh.netlify.app/en/) [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [stormkit](https://uweb.stormkit.dev/en/) [surge](https://uweb.surge.sh/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [render](https://uweb.onrender.com/en/))
+(Mirrors: [netlify](https://uwebzh.netlify.app/en/) [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [stormkit](https://uweb.stormkit.dev/en/) [surge](https://uweb.surge.sh/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [render](https://uweb.onrender.com/en/))
 
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
