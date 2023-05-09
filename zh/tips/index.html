@@ -103,6 +103,19 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 fix &#39;&#43;&#39; in links for rjs.py<br>
 <pre></pre>
 </p>
+<script>
+  if(location.href.indexOf("/zh/")>0){
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "../../js/gissues.js";
+    script.setAttribute("repo","jamesfengcao/uweb");
+    script.setAttribute("issue-term","title");
+    script.setAttribute("theme","github-light");
+    script.setAttribute("crossorigin","anonymous");
+    script.async = true;
+    document.body.appendChild(script);
+  }
+</script>
 <script id='jsgiscus'
   src='https://giscus.app/client.js'
   data-repo="torappinfo/uweb"

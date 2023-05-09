@@ -63,7 +63,7 @@
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.uas">default.uas</a>&quot;:<a href="../searchurl/uas.html">user agents</a><br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.urls">default.urls</a>&quot;:<a href="../urls/index.html">service urls</a><br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.acmd">default.acmd</a>&quot;:<a href="../gnuplot/index.html">configure address bar functionalities</a><br>
-&quot;<a href="file:///data/data/info.torapp.uweb/files/hosts">hosts</a>&quot;: for local domain name resolving, only single space is allowed to separate ip address and domain name.<br>
+&quot;<a href="file:///data/data/info.torapp.uweb/files/hosts">hosts</a>&quot;: for local <a href="../adblock_domain/index.html">domain name attributes</a>, only single space is allowed to separate ip address and domain name.<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.hosts">default.hosts</a>&quot;:<a href="../adblock_hosts/index.html">hosts not allowed to visit</a><br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.redirect">default.redirect</a>&quot;:<a href="../redirect/index.html">redirect websites</a><br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.cmds">default.cmds</a>&quot;:<a href="../cmds/index.html">commands</a><br>
@@ -82,7 +82,7 @@
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.siteconf">default.siteconf</a>&quot;: to save ua, js disabling, no-image mode, forbids 3rd-party resources (js and others), active scripts, global scripts for sites. Only save the difference to default ones.<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.playrate">default.playrate</a>&quot;: fullscreen playing menu. The file format is same as <a href="../links/index.html">default.link</a>. Playing ratio menu items should have empty link parts such as &quot;.5x:&quot;, at least one such menu is required. All other menus must be put after playing ratio menus.<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/default.autoc">default.autoc</a>&quot;: address bar autocomplete candidate strings.<br>
-&quot;query.autoc&quot;: home screen search autocomplete candidate strings.<br>
+&quot;<a href="file:///data/data/info.torapp.uweb/files/query.autoc">query.autoc</a>&quot;: home screen search autocomplete candidate strings.<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/home5.html">home5.html</a>&quot;: user defined home screen. home6.mht(or .html or .search), home7.mht(or .html or .search) ... multiple home screen (pressing right arrow button to visit）; home4.mht(or .html or .search), home3.mht(or .html or .search) ... (long pressing left arrow button to access).<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/home5.search">home5.search</a>&quot;:<a href="../search/index.html">search engines</a><br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/home.css">home.css</a>&quot;: <span  style="color:red">html</span> file for <a href="../bookmark/index.html">folder/home screen/bookmark styling</a>, so the css code needs to be inside &quot;&lt;style&gt;&quot; elements. Each &quot;home.css&quot; file is responsible for the current folder and its subfolders.<br>
@@ -93,18 +93,31 @@
 &quot;<a href="file:///data/data/info.torapp.uweb/files/night.css">night.css</a>&quot;: <a href="../globalcss/index.html">Night mode</a><br>
 &quot;bookmarklet/videoplayer.js&quot;: <a href="../video/index.html">fullscreen video player</a><br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/types.sniff">types.sniff</a>&quot;: file types for resource sniffer<br>
-&quot;js.allow&quot;: 3rd-party resource white list. One domain per line.<br>
-&quot;url.deny&quot;: one giant regular expression for blocked urls (java grammar). &quot;#&quot; to comment and carriage return (CR or new line) is ignored.<br>
+&quot;<a href="file:///data/data/info.torapp.uweb/files/js.allow">js.allow</a>&quot;: 3rd-party resource white list. One domain per line.<br>
+&quot;<a href="file:///data/data/info.torapp.uweb/files/url.deny">url.deny</a>&quot;: one giant regular expression for blocked urls (java grammar). &quot;#&quot; to comment and carriage return (CR or new line) is ignored.<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/sniff.log">sniff.log</a>&quot;: resource sniffing result<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/history.rec">history.rec</a>&quot;: visiting history<br>
 &quot;<a href="file:///data/data/info.torapp.uweb/files/query.rec">query.rec</a>&quot;: query history</p>
-<p>&quot;shortcut/&quot;: dynamical shortcut, if not exist, then default to &quot;bookmark&quot;.</p>
+<p>&quot;<a href="file:///data/data/info.torapp.uweb/files/shortcut/">shortcut/</a>&quot;: dynamical shortcut, if not exist, then default to &quot;bookmark&quot;.</p>
 
 </div>
-<p>Last Modified: 20 March 2023<br>
+<p>Last Modified: 8 May 2023<br>
 supports hosts<br>
 <pre></pre>
 </p>
+<script>
+  if(location.href.indexOf("/zh/")>0){
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "../../js/gissues.js";
+    script.setAttribute("repo","jamesfengcao/uweb");
+    script.setAttribute("issue-term","title");
+    script.setAttribute("theme","github-light");
+    script.setAttribute("crossorigin","anonymous");
+    script.async = true;
+    document.body.appendChild(script);
+  }
+</script>
 <script id='jsgiscus'
   src='https://giscus.app/client.js'
   data-repo="torappinfo/uweb"
