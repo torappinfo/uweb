@@ -15,6 +15,7 @@
       <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.
 bingChat UI Install bingChat UI ai.html for censored area (bingChat UI)
 Install bingWrite UI write.html for censored area (bingWrite)
+Install bingAI image creator UI draw.html for censored area (bingAI image creator)
 Serverless local sites Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.</description>
     </item>
     

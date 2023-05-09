@@ -6,7 +6,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
  * @param countF 回调函数，获取当前是第几次请求。
  * @return [...{img:url,mImg:url}...] img:图片url mIng:缩略图url
  * */
-export default async function generateImages(text,requestId,countF){
+async function generateImages(text,requestId,countF){
     let theUrls = new URLSearchParams();
     theUrls.append('re', '1');
     theUrls.append('showselective', '1');
@@ -15,7 +15,7 @@ export default async function generateImages(text,requestId,countF){
     theUrls.append('SFX', '2');
     theUrls.append('q', text);
     theUrls.append('iframeid', requestId);
-    let theUrl = `${window.location.origin}/images/create?${theUrls.toString()}`;
+    let theUrl = magicUrl+`images/create?${theUrls.toString()}`;
     let response  = await fetch(theUrl);
     let html = (await response.text());
     let cookieID = response.headers.get('cookieID');
@@ -39,7 +39,7 @@ export default async function generateImages(text,requestId,countF){
     }
     let ur = urr[1];
     ur = ur.replaceAll('&amp;','&');
-    let imgPageHtmlUrl = `${window.location.origin}/${ur}`;
+    let imgPageHtmlUrl = magicUrl + `${ur}`;
     for(let count = 1;count<=20;count++){
         if((!!countF)&&(typeof countF =='function')){
             countF(count);

@@ -2,6 +2,7 @@
   <meta charset="UTF-8">
   <title id="docTitle">Draw</title>
   <link rel="stylesheet" href="./css/DrawImg.css">
+  <script type="text/javascript" src="./js/generateImages.js"></script>
 </head>
 <body>
 <div id="DrawDiv">
@@ -13,8 +14,13 @@
 
   </div>
 </div>
-<script type="module">
-  import generateImages from "./js/module/generateImages.js";
+<script>
+  async function getMagicUrl() {
+    let v = localStorage.GoGoUrl;
+    if(v && v.startsWith("http")) return v;
+    return "https://mybing2.xn--xyza.top/";
+  }
+  const magicUrl = getMagicUrl();
   const inputDraw = document.getElementById('inputDraw');
   const imgsDiv = document.getElementById('imgs');
   async function draw() {
