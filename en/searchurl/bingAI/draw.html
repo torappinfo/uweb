@@ -3,6 +3,14 @@
   <base href="https://jamesfengcao.codeberg.page/en/searchurl/bingAI/">
   <title id="docTitle">Draw</title>
   <link rel="stylesheet" href="./css/DrawImg.css">
+  <script>
+    function getMagicUrl() {
+    let v = localStorage.GoGoUrl;
+    if(v && v.startsWith("http")) return v;
+    return "https://mybing2.xn--xyza.top/";
+    }
+    const magicUrl = getMagicUrl();
+  </script>
   <script type="text/javascript" src="./js/generateImages.js"></script>
 </head>
 <body>
@@ -16,12 +24,6 @@
   </div>
 </div>
 <script>
-  async function getMagicUrl() {
-    let v = localStorage.GoGoUrl;
-    if(v && v.startsWith("http")) return v;
-    return "https://mybing2.xn--xyza.top/";
-  }
-  const magicUrl = getMagicUrl();
   const inputDraw = document.getElementById('inputDraw');
   const imgsDiv = document.getElementById('imgs');
   async function draw() {

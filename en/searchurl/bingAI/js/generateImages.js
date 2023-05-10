@@ -18,7 +18,7 @@ async function generateImages(text,requestId,countF){
     let theUrl = magicUrl+`images/create?${theUrls.toString()}`;
     let response  = await fetch(theUrl);
     let html = (await response.text());
-    let cookieID = response.headers.get('cookieID');
+    //let cookieID = response.headers.get('cookieID');
 
     //如果返回的是有错误的页面
     let urr = new RegExp('class="gil_err_mt">([^<>]*)</div>').exec(html);
@@ -47,7 +47,7 @@ async function generateImages(text,requestId,countF){
         await sleep(3000);
         let imgPageHtml;
         try{
-            imgPageHtml = (await (await fetch(imgPageHtmlUrl,{headers:{"cookieID":cookieID}})).text());
+            imgPageHtml = (await (await fetch(imgPageHtmlUrl)).text());
         }catch(e){
             console.error(e);
         }
