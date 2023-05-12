@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     <link rel="stylesheet" href="../style.css" type="text/css" />
     <title>Commands</title>
     <script type="text/javascript">
@@ -92,7 +91,7 @@ Clipboard2QR needs libqrencode.</p>
 <p><a href="i:0gdefault.cmds::mdme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/mdme></script><textarea>%22;cat %25f%0A">mdme: Show local markdown file</a></p>
 <p><a href="i:0gdefault.cmds::texme:text/html:echo %22<script src=https://fastly.jsdelivr.net/npm/texme></script><textarea>%22;cat %25f%0A">texme: Show local tex+markdown file</a></p>
 <p><a href="i:0gdefault.cmds::markdeep:text/html:cat %25f;echo %22<style class=fallback>body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility=visible)</script>%22%0A">markdeep: Show local markdown+tex+diagrams file</a></p>
-<p>&lt;a href=&quot;i:0gdefault.cmds::markdeep slide:text/html:cat %25f;echo %22<link rel='stylesheet' href="https://casual-effects.com/markdeep/latest/slides.css?"><script>markdeepOptions={tocStyle:'none'}</script><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script>%22%0A&quot;&gt;markdeep slide: markdown+tex+diagrams</a></p>
+<p><a href="i:0gdefault.cmds::markdeep slide:text/html:cat %25f;echo %22<link rel='stylesheet' href='https://casual-effects.com/markdeep/latest/slides.css?'><script>markdeepOptions={tocStyle:'none'}</script><script src=https://casual-effects.com/markdeep/latest/markdeep.min.js charset=utf-8></script>%22%0A">markdeep slide: markdown+tex+diagrams</a></p>
 <p><a href="i:0gdefault.cmds::remark slide:text/html:echo %22<script src=https://remarkjs.com/downloads/remark-latest.min.js></script><script>window.onload=function(){var slideshow=remark.create({navigation:{click:true,},});}</script><textarea id=%27source%27>class:middle%22;cat %25f%0A">remark slide: slide show for local markdown file</a></p>
 <p><a href="i:0gdefault.cmds:https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/txt/cmds.cfg">Code editor, open url in clipboard etc.</a></p>
 <h4 id="cmds-file-format">&quot;.cmds&quot; file format</h4>
@@ -110,7 +109,7 @@ Clipboard2QR needs libqrencode.</p>
 </ul>
 
 </div>
-<p>Last Modified: 17 February 2023<br>
+<p>Last Modified: 12 May 2023<br>
 add simple modification info<br>
 <pre></pre>
 </p>
@@ -122,7 +121,6 @@ add simple modification info<br>
     script.setAttribute("repo","jamesfengcao/uweb");
     script.setAttribute("issue-term","title");
     script.setAttribute("theme","github-light");
-    script.setAttribute("crossorigin","anonymous");
     script.async = true;
     document.body.appendChild(script);
   }
