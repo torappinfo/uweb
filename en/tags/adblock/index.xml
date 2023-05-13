@@ -12,7 +12,7 @@
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/en/adblock_domain/</guid>
-      <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect when the setting option &amp;quot;using hosts&amp;quot; is checked.
+      <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect with the setting option &amp;quot;use hosts&amp;quot;.
 hosts The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:
 [[IP address][attributes]][single space][domain name]
 where &amp;quot;[[IP address][attributes]]&amp;quot; could be:
