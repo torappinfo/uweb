@@ -57,7 +57,8 @@
     
   </ul>
   <p>Click the following links to install menus for long pressing the button &quot;link&quot;:<br>
-<a href="i:0gdefault.select::Home:/uweb:printf file://data/data/info.torapp.uweb/files/home5.search%5C location.href=%5C%22i:15;cat;printf %5C%22%0A">Search with home screen</a></p>
+<a href="i:0gdefault.select::html2clip:html/clip:cat%0A">Copy selected text with html format to clipboard</a></p>
+<p><a href="i:0gdefault.select::Home:/uweb:printf file://data/data/info.torapp.uweb/files/home5.search%5C location.href=%5C%22i:15;cat;printf %5C%22%0A">Search with home screen</a></p>
 <p><a href="i:0gdefault.select::google Translate:/uweb:printf 'https://translate.google.com/?sl=auto&tl=en&op=translate&text=';cat|tr ' ' '%2B'%0A">google Translate</a></p>
 <p><a href="i:0gdefault.select::bing Translate:/uweb:printf 'https://cn.bing.com/translator/?from=&to=en&text=';cat|tr ' ' '%2B'%0A">bing translate</a></p>
 <p><a href="i:0gdefault.select::deepL:/uweb:printf https://www.deepl.com/translator-mobile#auto/en/;cat|sed 's/ /%2520/g'%0A">deepL</a></p>
@@ -76,6 +77,7 @@ It formats as &quot;[input mimetype]/[output mimetype]&quot;.<br>
 <li>regular mimetype such as &quot;text/html&quot;: output as the mimetype</li>
 <li>&quot;uweb&quot;: output as links</li>
 <li>&quot;uwebA&quot;: output as &quot;A&quot; link, all characters including newlines are part of the link.</li>
+<li>&quot;clip&quot;: output to clipboard</li>
 <li>&quot;termux&quot;: output as termux command</li>
 </ul>
 <p><a target="_self" href="i:0hcheck.js:../../zh/searchurl/txt/check.js">checked.js</a>: Evaluate checked.js and return value as standard input for the command line. For any file url ending with &quot;/&quot;, optionally append &quot;?[prefix][<em>[postfix]]&quot;. For example, &quot;file:///sdcard/?</em>.png&quot; lists all .png files under the folder &quot;/sdcard&quot;. Select files and process them with checked.js(such as &quot;copy to PC&quot; as the later example).</p>
@@ -89,8 +91,8 @@ To use ssh or scp, users need to install uweb compatible Termux provided on the 
 PCs need command &quot;xsel&quot; available to operate on copy/paste.</p>
 
 </div>
-<p>Last Modified: 17 April 2023<br>
-add mimetype uwebA<br>
+<p>Last Modified: 23 May 2023<br>
+enhance default.select with clipboard output<br>
 <pre></pre>
 </p>
 <script>

@@ -270,7 +270,6 @@ AI/chatGPT:
 bingChat carrot ainav 网络剪贴板
 txtpad
 cmd.im
-Bing international (chatgpt requires UA to be &#39;edge&#39; and some scripts)
 Wait for url from other devices
 gamezop
 Personal use 2
@@ -485,7 +484,7 @@ elsecommand: 无需执行命令command时执行。
 ex:
 set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
 #天翼云每天签到一次
-tcron /sdcard/a &amp;quot;cloud189-go sign;toybox touch /sdcard/a&amp;quot; 24
+tcron /sdcard/a &amp;quot;cloudpan189-go sign;toybox touch /sdcard/a&amp;quot; 24
 #每30天清空baidu目录
 tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720
 安装default.rc模板文件（termux）

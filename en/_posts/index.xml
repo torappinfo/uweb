@@ -214,6 +214,7 @@ Enable selection</description>
       
       <guid>/en/pccopy/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
+Copy selected text with html format to clipboard
 Search with home screen
 google Translate
 bing translate
@@ -221,8 +222,7 @@ deepL
 The file &amp;quot;default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
 [Name]:[mimetype]:[command line]
 [mimetype] specifies input/output for [command line].
-It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.
-[input mimetype] can be the following:</description>
+It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.</description>
     </item>
     
     <item>

@@ -17,7 +17,9 @@ let source = "edge_coauthor_prod";
 
 //接收消息类型
 let allowedMessageTypes = [
-	"Chat",
+  "ActionRequest",
+  "Chat",
+  "Context",
 	"InternalSearchQuery",
 	"InternalSearchResult",
 	"Disengaged",

@@ -8,7 +8,6 @@ let chatTypes = {
 		"responsible_ai_policy_235",
 		"enablemm",
 		"h3imaginative",
-		"cricketansgnd",
 		"cachewriteext",
 		"e2ecachewrite",
 		"nodlcpcwrite",
@@ -27,7 +26,6 @@ let chatTypes = {
 		"responsible_ai_policy_235",
 		"enablemm",
 		"galileo",
-		"cricketansgnd",
 		"cachewriteext",
 		"e2ecachewrite",
 		"nodlcpcwrite",
@@ -35,7 +33,6 @@ let chatTypes = {
             "saharasugg",
             "enablenewsfc",
             "dv3sugg",
-            "saharagenconv5"
 	],
 	//精准选项
 	accurate: [
@@ -45,7 +42,6 @@ let chatTypes = {
             "responsible_ai_policy_235",
             "enablemm",
             "h3precise",
-            "cricketansgnd",
             "cachewriteext",
             "e2ecachewrite",
             "nodlcpcwrite",
@@ -81,23 +77,23 @@ let allowedMessageTypes = [
 //切片id，也不知道是啥意思，反正官网的更新了
 let sliceIds = [
   "winmuid2tf",
-                    "sydconfigoptc",
-                    "forallv2nscpw",
-                    "allnopvt",
-                    "anssuptokenlist",
-                    "tempcacheread",
-                    "temptacache",
-                    "encjsreftf",
-                    "winlongmsgtf",
-                    "wrapnoins",
-                    "505iccric",
-                    "0430dv3s0",
-                    "505scsv5",
-                    "scprompt2",
-                    "508jbcar",
-                    "425bicb2",
-                    "406sportgnds0",
-                    "427startpm"
+  "516ajcoal",
+  "osbsdusgreccf",
+  "mlchatpc-c",
+  "winlongmsg2tf",
+  "creatgoglt",
+  "creatorv2t",
+  "norespwtf",
+  "tempcacheread",
+  "temptacache",
+  "wrapnoins",
+  "517bicsh",
+  "505scsv5",
+  "scprompt2",
+  "0516conv1",
+  "515vaoprvs",
+  "424dagslnv1s0",
+  "427startpm"
 ]
 
 

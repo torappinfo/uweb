@@ -65,12 +65,12 @@ sourceforge
 powerfolder
 pcloud
 pagure
-Main features Change logs 998: Bookmarklets to support CSP sites.
+Main features Change logs 1004: bookmarklet &amp;quot;Show as html&amp;quot; to support clipboard site &amp;quot;netcut.cn&amp;quot;.
+998: Bookmarklets to support CSP sites.
 991: global url redirection support.
 988: hosts file to support response headers.
 985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
-983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.
-975: Bookmarks to support styling for markdown etc.</description>
+983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.</description>
     </item>
     
     <item>
