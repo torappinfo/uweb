@@ -88,6 +88,10 @@ function reSetStartChatMessage(type) {
     if(r.ok) talk = r.obj;
   });
 	getChatHubWithMagic().then(async a => {
+		let t = 0;
+		if (a == 'repeat') {
+			t = await getLastChatInvocationId();
+		}
 		chat.innerHTML = `
 		<div class="bing">
 			<div class="adaptiveCardsFatherDIV">
