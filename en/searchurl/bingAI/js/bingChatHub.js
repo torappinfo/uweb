@@ -164,31 +164,31 @@ class Chat {
 	 * 参数 消息string,当收到消息的函数,当关闭时函数
 	 */
 	//(string,function:可以不传)
-	sendMessage(message, onMessage) {
-		try {
-			let restsrstUrl = 'wss://sydney.bing.com/sydney/ChatHub';
-			if (this.chatWithMagic==true) {
-				restsrstUrl = URLTrue(this.magicUrl.replace('http', 'ws'), "ChatHub");
-			}
-			let chatWebSocket = new WebSocket(restsrstUrl);
-			chatWebSocket.onopen = () => {
-				this.sendMessageManager.sendShakeHandsJson(chatWebSocket);
-				this.sendMessageManager.sendChatMessage(chatWebSocket, message);
-			}
-			return {
-				ok: true,
-				message: 'ok',
-				obj: new ReturnMessage(chatWebSocket, onMessage),
-				chatWithMagic: this.chatWithMagic==true?true:false
-			};
-		} catch (e) {
-			console.warn(e)
-			return {
-				ok: false,
-				message: "发生错误,可能是网络连接错误:" + e.message
-			};
-		}
-	}
+  sendMessage(message, onMessage) {
+    try {
+      //let restsrstUrl = 'wss://sydney.bing.com/sydney/ChatHub';
+      //if (this.chatWithMagic==true)
+      let restsrstUrl = URLTrue(this.magicUrl.replace('http', 'ws'), "sydney/ChatHub");
+      
+      let chatWebSocket = new WebSocket(restsrstUrl);
+      chatWebSocket.onopen = () => {
+	this.sendMessageManager.sendShakeHandsJson(chatWebSocket);
+	this.sendMessageManager.sendChatMessage(chatWebSocket, message);
+      }
+      return {
+	ok: true,
+	message: 'ok',
+	obj: new ReturnMessage(chatWebSocket, onMessage),
+	chatWithMagic: this.chatWithMagic==true?true:false
+      };
+    } catch (e) {
+      console.warn(e)
+      return {
+	ok: false,
+	message: "发生错误,可能是网络连接错误:" + e.message
+      };
+    }
+  }
 }
 
 function URLTrue(url, thiePath) {
