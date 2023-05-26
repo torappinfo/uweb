@@ -168,7 +168,7 @@ class Chat {
     try {
       //let restsrstUrl = 'wss://sydney.bing.com/sydney/ChatHub';
       //if (this.chatWithMagic==true)
-      let restsrstUrl = URLTrue(this.magicUrl.replace('http', 'ws'), "sydney/ChatHub");
+      let restsrstUrl = this.magicUrl.replace('http', 'ws')+"sydney/ChatHub";
       
       let chatWebSocket = new WebSocket(restsrstUrl);
       chatWebSocket.onopen = () => {

@@ -16,7 +16,9 @@ async function generateImages(text,requestId,countF){
     theUrls.append('q', text);
     theUrls.append('iframeid', requestId);
     let theUrl = magicUrl+`images/create?${theUrls.toString()}`;
-    let response  = await fetch(theUrl);
+    let response  = await fetch(theUrl,
+      {"sec-fetch-site": "same-origin",
+       "referer": "https://www.bing.com/search?q=bingAI"});
     let html = (await response.text());
     //let cookieID = response.headers.get('cookieID');
 
@@ -40,6 +42,7 @@ async function generateImages(text,requestId,countF){
     let ur = urr[1];
     ur = ur.replaceAll('&amp;','&');
     let imgPageHtmlUrl = magicUrl + `${ur}`;
+    let options = {"sec-fetch-site":"same-origin",             "referer":"https://www.bing.com/images/create?partner=sydney&showselective=1&sude=1&kseed=7000"};
     for(let count = 1;count<=20;count++){
         if((!!countF)&&(typeof countF =='function')){
             countF(count);
@@ -47,7 +50,7 @@ async function generateImages(text,requestId,countF){
         await sleep(3000);
         let imgPageHtml;
         try{
-            imgPageHtml = (await (await fetch(imgPageHtmlUrl)).text());
+          imgPageHtml = (await (await fetch(imgPageHtmlUrl,options)).text());
         }catch(e){
             console.error(e);
         }
