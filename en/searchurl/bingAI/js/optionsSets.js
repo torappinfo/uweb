@@ -1,57 +1,51 @@
 //聊天选项
 let chatTypes = {
-	//更有创造力选项
-	create: [
-		"nlu_direct_response_filter",
-		"deepleo",
-		"disable_emoji_spoken_text",
-		"responsible_ai_policy_235",
-		"enablemm",
-		"h3imaginative",
-		"cachewriteext",
-		"e2ecachewrite",
-		"nodlcpcwrite",
-		"nointernalsugg",
-            "saharasugg",
-            "enablenewsfc",
-		"dv3sugg",
-		"clgalileo",
-		"gencontentv3"
-	],
-	//balance 平衡模式选项
-	balance: [
-		"nlu_direct_response_filter",
-		"deepleo",
-		"disable_emoji_spoken_text",
-		"responsible_ai_policy_235",
-		"enablemm",
-		"galileo",
-		"cachewriteext",
-		"e2ecachewrite",
-		"nodlcpcwrite",
-		"nointernalsugg",
-            "saharasugg",
-            "enablenewsfc",
-            "dv3sugg",
-	],
-	//精准选项
-	accurate: [
- "nlu_direct_response_filter",
-            "deepleo",
-            "disable_emoji_spoken_text",
-            "responsible_ai_policy_235",
-            "enablemm",
-            "h3precise",
-            "cachewriteext",
-            "e2ecachewrite",
-            "nodlcpcwrite",
-            "nointernalsugg",
-            "saharasugg",
-            "enablenewsfc",
-            "dv3sugg",
-            "clgalileo",
-            "gencontentv3"
-	]
+  //更有创造力选项
+  create: [
+    "nlu_direct_response_filter",
+    "deepleo",
+    "disable_emoji_spoken_text",
+    "responsible_ai_policy_235",
+    "enablemm",
+    "h3imaginative",
+    "objopinion",
+    "eredirecturl",
+    "dv3sugg",
+    "autosave",
+    "clgalileo",
+    "gencontentv3",
+    "prompttrcp"
+  ],
+  //balance 平衡模式选项
+  balance: [
+    "nlu_direct_response_filter",
+    "deepleo",
+    "disable_emoji_spoken_text",
+    "responsible_ai_policy_235",
+    "enablemm",
+    "galileo",
+    "objopinion",
+    "eredirecturl",
+    "dv3sugg",
+    "autosave",
+    "saharagenconv5"
+  ],
+  //精准选项
+  accurate: [
+    "nlu_direct_response_filter",
+    "deepleo",
+    "disable_emoji_spoken_text",
+    "responsible_ai_policy_235",
+    "enablemm",
+    "h3precise",
+    "objopinion",
+    "eredirecturl",
+    "dv3sugg",
+    "autosave",
+    "clgalileo",
+    "gencontentv3",
+    "prompttrcp"
+  ]
 }
 
 //消息来源
@@ -76,24 +70,22 @@ let allowedMessageTypes = [
 
 //切片id，也不知道是啥意思，反正官网的更新了
 let sliceIds = [
-  "winmuid2tf",
-  "516ajcoal",
+  "winmuid1tf",
   "osbsdusgreccf",
-  "mlchatpc-c",
-  "winlongmsg2tf",
-  "creatgoglt",
+  "contansperf",
+  "mlchatpc2",
+  "winstmsg2tf",
+  "creatgoglt2",
   "creatorv2t",
-  "norespwtf",
-  "tempcacheread",
-  "temptacache",
-  "wrapnoins",
-  "517bicsh",
-  "505scsv5",
-  "scprompt2",
-  "0516conv1",
-  "515vaoprvs",
-  "424dagslnv1s0",
-  "427startpm"
+  "norespwcf",
+  "0521dur5",
+  "dur5",
+  "517opinion",
+  "418dhlths0",
+  "525ptrcp",
+  "kcimgv2cf",
+  "kcimgatt",
+  "427startpms0"
 ]
 
 

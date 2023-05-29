@@ -6,6 +6,8 @@
 
 [sourceforge](https://sourceforge.net/projects/uwebbrowser/files/v1/)
 
+[udrop](https://www.udrop.com/folder/08ba413230f465ca0901bef68e857c0b/uweb)
+
 [powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
 
 [pagure](https://releases.pagure.org/uweb/)

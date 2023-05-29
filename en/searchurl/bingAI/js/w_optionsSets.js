@@ -1,15 +1,16 @@
 //聊天选项
 let chatTypes = {
-	//balance 平衡模式选项
-	balance: [
-		"nlu_direct_response_filter",
-		"deepleo",
-		"enable_debug_commands",
-		"disable_emoji_spoken_text",
-		"responsible_ai_policy_235",
-		"enablemm",
-		"soedgeca"
-	]
+  //balance 平衡模式选项
+  balance: [
+    "nlu_direct_response_filter",
+    "deepleo",
+    "enable_debug_commands",
+    "disable_emoji_spoken_text",
+    "responsible_ai_policy_235",
+    "enablemm",
+    "soedgeca",
+    "max_turns_5",
+  ]
 }
 
 //消息来源
