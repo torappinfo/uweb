@@ -1,4 +1,4 @@
-let labels = ["<a href='https://jamesfengcao.codeberg.page/en/redirect/index.html'>Global redirect url</a>","Download path","Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
+let labels = ["<a href='https://jamesfengcao.codeberg.page/en/redirect/index.html'>Global redirect url</a>","Download path (Requires option 'Download to SDCARD')","Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
 let names = ["redirecturl","downloadpath","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;
