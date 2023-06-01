@@ -1,5 +1,5 @@
-let labels = ["<a href='https://jamesfengcao.codeberg.page/zh/redirect/index.html'>全局重定向网址</a>","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
-let names = ["redirecturl","font","cursive","fantasy","fixed","sansserif","serif"];
+let labels = ["<a href='https://jamesfengcao.codeberg.page/zh/redirect/index.html'>全局重定向网址</a>","下载目录","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
+let names = ["redirecturl","downloadpath","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;
 
@@ -15,6 +15,7 @@ let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=devi
 </datalist>
 <form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:0i/data/data/info.torapp.uweb/files/config.html:'
 +f.redirecturl.value+
+'&'+ f.downloadpath.value+
 '&'+ f.font.value+
 '&'+ f.cursive.value +
 '&'+ f.fantasy.value +
@@ -25,9 +26,10 @@ let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=devi
 
 function gen(text) {
   let strs = text.split('\n');
-  let i=0;
-  sa.push("<label>"+labels[i]+"<input type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
-  for (i = 1; i < labels.length; i++){
+  let i;
+  for (i=0; i<2; i++)
+    sa.push("<label>"+labels[i]+"<input type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
+  for (i = 2; i < labels.length; i++){
     sa.push("<label>"+labels[i]+"<input list='family' type='text' name='"+names[i]+"' value='"+strs[i]+"'/></label>");
   }
 
