@@ -289,6 +289,10 @@ Similar to i:5i, except executing the js file after possible url hash change.</p
 Visiting [url], but use the second url as auto paging url.</p>
 </li>
 <li>
+<p>i:8l[filename]<br>
+Loading configuration [filename]. Ex. &quot;i:8lconfig.html&quot; to reload config.html.</p>
+</li>
+<li>
 <p>i:92[http request headers separated by ';']:[url]<br>
 The &quot;Host&quot; Header (fake header, different from the standard) must be the first header.<br>
 Ex. i:92Host;209.216.230.240:https://news.ycombinator.com<br>
@@ -302,8 +306,8 @@ Bundle of internal urls, if it is an &quot;i:0&quot; url, then it should have th
 </ul>
 
 </div>
-<p>Last Modified: 1 June 2023<br>
-enhance i:b1 with callback url<br>
+<p>Last Modified: 2 June 2023<br>
+make config.js to auto reload<br>
 <pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>

@@ -13,7 +13,7 @@ let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=devi
 <option value="monospace">
 <option value="cursive">
 </datalist>
-<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:0i/data/data/info.torapp.uweb/files/config.html:'
+<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:b1Save config.html%0A%0Ai:8lconfig.html%0Ai:0i/data/data/info.torapp.uweb/files/config.html:'
 +f.redirecturl.value+
 '&'+ f.downloadpath.value+
 '&'+ f.font.value+
