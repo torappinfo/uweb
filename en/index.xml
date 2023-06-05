@@ -39,6 +39,7 @@ When a valid global redirection url is set, the &amp;quot;default.redirect&amp;q
       
       <guid>/en/links/</guid>
       <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
+Capture long screenshot (need long screenshot mode)
 Select All:CTRL-A/undo:CTRL-Z/Redo:CTRL-Y
 Extend site cookies to 10 years
 Clear site cookies
@@ -51,7 +52,7 @@ Restore from box.com
 upload to box.com
 More webdav link menu items
 Web fullscreen
-Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.link&amp;quot;. The file format is as follows:</description>
+Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.</description>
     </item>
     
     <item>
@@ -211,13 +212,13 @@ sourceforge
 powerfolder
 udrop
 pagure
-Main features Change logs 1006: Advanced configuration: auto reload, add download path
+Main features Change logs 1008: Add long screenshot mode
+1006: Advanced configuration: auto reload, add download path
 1004: bookmarklet &amp;quot;Show as html&amp;quot; to support clipboard sites such as &amp;quot;netcut.cn&amp;quot;.
 998: Bookmarklets to support CSP sites.
 991: global url redirection support.
 988: hosts file to support response headers.
-985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
-983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.</description>
+985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.</description>
     </item>
     
     <item>

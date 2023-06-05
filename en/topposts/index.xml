@@ -66,13 +66,13 @@ sourceforge
 powerfolder
 udrop
 pagure
-Main features Change logs 1006: Advanced configuration: auto reload, add download path
+Main features Change logs 1008: Add long screenshot mode
+1006: Advanced configuration: auto reload, add download path
 1004: bookmarklet &amp;quot;Show as html&amp;quot; to support clipboard sites such as &amp;quot;netcut.cn&amp;quot;.
 998: Bookmarklets to support CSP sites.
 991: global url redirection support.
 988: hosts file to support response headers.
-985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.
-983: support &amp;quot;hosts&amp;quot; file domain name resolving (no root needed), only single space allowed as separator for ip address and domain name.</description>
+985: Special urls to support shortcut keys such as ctrl-a to ctrl-z.</description>
     </item>
     
     <item>
