@@ -235,6 +235,15 @@ async function createChat(theChatType) {
     try {
       let url = URLTrue(magicUrl,'turing/conversation/create');
       let res = await fetch(url);
+      if(!res.ok){
+        if(res.headers.has('cf-mitigated')){
+          let challengeUrl = `${magicUrl}/challenge?`+location.href;
+          location.href=challengeUrl;
+          return;
+        }
+        mes = `Error code: ${res.status} ${res.statusText}`;
+        break;
+      }
       let resjson = await res.json();
       if (!resjson.result || resjson.result.value != 'Success') {
         mes = resjson;
