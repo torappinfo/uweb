@@ -1,0 +1,11 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "Cyclic.sh/render",
+  "main": "vanilla.js",
+  "scripts": {
+    "start": "node vanilla.js"
+  },
+  "author": "",
+  "license": "ISC",
+}
