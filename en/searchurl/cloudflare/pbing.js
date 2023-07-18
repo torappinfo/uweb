@@ -70,6 +70,17 @@ const getRandomIP = () => {
   return randomIP;
 };
 
+async function goUrl(request, url) {
+  let fp = {
+    method: request.method
+  };
+  fp.headers = new Headers(request.headers);
+  for(var i = 2; i < arguments.length-1; i=i+2){
+    fp.headers[arguments[i]] = arguments[i+1];
+  }
+  return await fetch(url, fp);
+}
+
 export default {
   /**
    * fetch
@@ -79,8 +90,12 @@ export default {
    * @returns
    */
   async fetch(request, env, ctx) {
-    const currentUrl = new URL(request.url);
-    const targetUrl = new URL(SYDNEY_ORIGIN + currentUrl.pathname + currentUrl.search);
+    const url = request.url;
+    let iSlash = url.indexOf('/',11);
+    let nUrl = url.substring(iSlash+1);
+    if(!nUrl.startsWith(SYDNEY_ORIGIN))
+      return await goUrl(request, nUrl);
+    const targetUrl = new URL(nUrl);
 
     const newHeaders = new Headers();
     request.headers.forEach((value, key) => {

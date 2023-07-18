@@ -57,19 +57,6 @@
                 href="/en/tags/"
                 />
   </url><url>
-    <loc>/en/</loc>
-    <lastmod>2023-06-26T08:17:34+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url><url>
     <loc>/en/links/</loc>
     <lastmod>2023-06-17T15:51:12+08:00</lastmod>
     <xhtml:link
