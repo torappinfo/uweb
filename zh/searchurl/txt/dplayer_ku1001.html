@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+<style>body{margin:0;padding:0}video{width:100%;height:100%}.dplayer-setting-loop,.dplayer-full-in-icon,.dplayer-mobile-play,.dplayer-bezel{display:none!important}.dplayer-info-panel{width:472px!important}.dplayer-info-panel-item-data{width:358px!important}.dplayer-info-panel-item-url .dplayer-info-panel-item-data{white-space:normal!important;word-break:break-all!important}.dplayer-menu,.dplayer-info-panel,.dplayer-setting-box,.dplayer-notice,.dplayer-quality-list,.dplayer-subtitles-box{border-radius:8px!important}.dplayer-play-icon,.dplayer-icons-left{display:inline-block!important}</style>
+</head>
+<body>
+<div id="dplayer"></div>
+<script src="https://fastly.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<script>
+  let sc=location.search.substring(3);
+  var source=/(^.*?)&(title|poster|next)=/.test(sc)?RegExp.$1:sc;
+  if(/(http.+?\b(m3u8|mp4|flv|mpd))(&|@|\||#)/.test(source))source=RegExp.$1;
+  try{document.title=decodeURIComponent(/&title=([^&]+)/.test(sc)?RegExp.$1:(/([^\/&=]+(?<!index)\.(mp4|ogg|webm|m3u8|flv|mkv|mpd))\b/.test(source)?RegExp.$1:source.replace(/^https?:\/\//,'')))}catch(e){};
+  var doption={container:document.getElementById("dplayer"),autoplay:true,video:{url:source},airplay:false,hotkey:false,screenshot:false,preload:"auto"};
+  var dp;
+  if(/&poster=(http.+)(&title=|&next=|$)/.test(sc)){doption.video.pic=RegExp.$1};
+  var insertjs=(jsrc,jfn)=>{let tjs=document.createElement('script');tjs.src=jsrc;tjs.type='text/javascript';let dha=document.getElementsByTagName("head")[0];dha.appendChild(tjs);tjs.onload=jfn};
+  if(/m3u8|gdtv\.php/.test(source)){
+    let vid=document.createElement("video");
+    let vcan=vid.canPlayType("application/x-mpegURL")||vid.canPlayType("application/vnd.apple.mpegURL");
+    if(vcan!="probably"){
+      insertjs("https://fastly.jsdelivr.net/npm/hls.js/dist/hls.min.js",()=>{
+       if(window.Hls&&Hls.isSupported()){
+        doption.video.type="customHls";
+        var hls=new Hls();
+        hls.loadSource(source);
+        hls.on(Hls.Events.MANIFEST_LOADED,function(event,data){
+         if(hls.levels[0].details&&hls.levels[0].details.live){doption.live=true};
+         if(doption.autoplay)doption.autoplay=false;
+         dp=new DPlayer(doption);
+         hls.attachMedia(dp.video);
+         dp.play()
+        });
+        window.hls=hls
+       }else{
+         dp=new DPlayer(doption);
+       }
+      })
+    }else{dp=new DPlayer(doption);}
+  }else{
+    let dtype,tjs;
+    var initPlyrFn=()=>{
+      doption.video.type=dtype;
+      dp=new DPlayer(doption);
+    };
+    if(/.flv(#|\?|$)/i.exec(source)){dtype="flv";tjs="https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js";insertjs(tjs,initPlyrFn)}
+    else if(/.mpd(#|\?|$)/i.exec(source)){dtype="shakaDash";tjs="https://cdn.jsdelivr.net/npm/shaka-player/dist/shaka-player.compiled.min.js";doption.video.customType={shakaDash: function(video,player){var src=video.src;var playerShaka=new shaka.Player(video);playerShaka.load(src)}};insertjs(tjs,initPlyrFn)}
+    else{dtype="normal";initPlyrFn()}
+  }
+</script>
+</body>
+</html>

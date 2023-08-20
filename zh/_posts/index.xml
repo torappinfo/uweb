@@ -127,8 +127,6 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 在浏览器文件管理器中长按文件名，弹出菜单中选择分享，系统会优先弹出相应的文件编辑器。
 配置文件列表中直接点击文件名即可编辑。
 免魔法直接使用newbing/chatgpt/必应写作/AI画图 总要求：长按底部&amp;quot;PC&amp;quot;按钮选择user-agent为&amp;quot;edge&amp;quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。
-方法0:
-使用重定向访问国外技术网址，使用cloudflare workers 全局重定向代码。请帮助改良维护workers代码。
 方法1(不再维护):
 点击一键安装必应AI
 或者分步安装:
@@ -139,7 +137,10 @@ Click to append to &amp;quot;hosts&amp;quot;, edit the last part as magic url do
 点击界面入口
 可配置魔法url, 上述hosts文件作相应修改。 详情
 方法2: 可以采用超级书签/直接界面+脚本+hosts。
-其中超级书签固定bingchat入口。</description>
+其中超级书签固定bingchat入口。
+脚本重定向api至魔法师.
+hosts防污染。
+bingChat能够正常使用时保存为超级书签 (长按底部右箭头按钮)，下次再次需要使用时恢复即可 (按设置按钮然后点击超级书签链接)。</description>
     </item>
     
     <item>
@@ -268,8 +269,9 @@ Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引�
       
       <guid>/zh/bookmark/</guid>
       <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。
+web
 AI/chatGPT:
-bingChat carrot ainav 网络剪贴板
+carrot ainav 网络剪贴板
 txtpad
 cmd.im
 Wait for url from other devices

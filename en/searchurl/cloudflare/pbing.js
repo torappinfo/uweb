@@ -93,7 +93,9 @@ export default {
     const url = request.url;
     let iSlash = url.indexOf('/',11);
     let nUrl = url.substring(iSlash+1);
-    if(!nUrl.startsWith(SYDNEY_ORIGIN))
+    let iColon = nUrl.indexOf(':',3)+3;
+    if(!nUrl.startsWith('syndey.bing.com',iColon) &&
+      !nUrl.startsWith('www.bing.com/turing',iColon))
       return await goUrl(request, nUrl);
     const targetUrl = new URL(nUrl);
 
