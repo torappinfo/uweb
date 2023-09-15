@@ -1,0 +1,99 @@
+<head>
+  <base>
+  <script src="https://fastly.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
+  <script>
+    function absFile(url) {
+      this.name=url;
+      this.slice = async(offset, length) =>{
+        let resp = new Promise(function (resolve, reject) { 
+          let r=new XMLHttpRequest;
+          r.onload=function(){
+            if (r.status == 200)
+              resolve(r.response);
+            else
+              reject(r.statusText);
+          }
+          r.onerror = () => reject(r.statusText);
+          r.open("GET",this.name,!0);
+          r.setRequestHeader('range', 'bytes=' + offset + '-' + ( offset + length -1).toString());
+          r.send(null);});
+        return await resp.arrayBuffer();
+      }
+    }
+    marked.setOptions({
+      gfm: true,
+    });
+    
+    var file;
+    var blocksize = 20480;
+    function loadSlice(){
+      function render(u8array){
+        document.body.innerHTML = marked(new TextDecoder().decode(u8array));
+        scroll(0,0);
+      }
+      function setPageUrl(pageurl){
+        let a = document.createElement('a');
+        a.href = "i:5c"+pageurl;
+        a.click();
+      }
+
+      var page = 1;
+      var extrasize = blocksize; //extrasize should <= blocksize
+      let lhash = location.hash;
+      if(lhash){
+        if("p"!==lhash.charAt(1)){//#offset=&[len]
+          let iAmpersand = lhash.indexOf('&',8);
+          let offset = parseInt(lhash.substring(8,iAmpersand));
+          let len = parseInt(lhash.substring(iAmpersand+1));
+          {//update urlInc() url
+            let href = location.href;
+            let iHash = href.indexOf('#');
+            href=href.substring(0,iHash)+"#page="+Math.floor((offset+len)/blocksize);
+            setPageUrl(href);
+          }
+          file.slice(offset,len).then((buffer)=>{
+            let u8 = new Uint8Array(buffer);
+            render(u8);
+          });
+          return;
+        }
+        //#page=
+        page = parseInt(lhash.substring(6));
+      }else
+        setPageUrl(location.href+"#page=1");
+      file.slice(blocksize*(page-1),blocksize+extrasize).then((buffer)=>{
+        let u8 = new Uint8Array(buffer);
+        let u8len = u8.length;
+        let iStart = 0;
+        let limit = Math.min(u8len,extrasize);
+        if(1!=page){
+          for(let i=1;i<limit;i=i+2){
+            if(10==u8[i] && 10==u8[i-1]) {
+              iStart = i+1;
+              break;
+            }
+          }
+        }
+        let iEnd = Math.min(u8len,blocksize);
+        limit = Math.min(u8len,blocksize+extrasize);
+        for(let i=blocksize+1;i<limit;i=i+2){
+          if(10==u8[i] && 10==u8[i-1]) {
+            iEnd = i+1;
+            break;
+          }
+        }
+        render(u8.slice(iStart,iEnd));
+      });
+
+    }
+    //#offset=&[len]&page=
+    {
+      let url = location.href;
+      file = new absFile(url);
+    }
+    window.addEventListener('hashchange',loadSlice);
+  </script>
+</head>
+<body>
+  <script>loadSlice();</script>
+</body>
