@@ -46,8 +46,13 @@
   <ul class="tags">
     
   </ul>
-  <h4 id="crontab">crontab</h4>
+  <h4 id="crontab-with-enhanced-semantics">crontab (with enhanced semantics)</h4>
 <p>For performance, the file &quot;crontab&quot; uses single space as field separator. Letters are not suppored currently. So use &quot;1&quot; for &quot;January&quot; and 2 for &quot;Tuesday&quot; etc.</p>
+<p>The sixth field in crontab file has the format of <a href="../links/index.html">internal links</a>. Specifically,  &quot;c:&quot; to execute the following commands in termux and &quot;!&quot; to execute commands directly.</p>
+<p>To make crontab more powerful, we changed the semantics as follows:<br>
+The day of a command's execution can be specified by two fields — day of month, and day of week. The command will be run when <span style="color:red">both</span> fields matche the current time.</p>
+<p>Note (the original crantab semantics):<br>
+The day of a command's execution can be specified by two fields — day of month, and day of week. If both fields are restricted (i.e., aren't *), the command will be run when either field matches the current time. For example, ``30 4 1,15 * 5'' would cause a command to be run at 4:30 am on the 1st and 15th of each month, plus every Friday.</p>
 <h4 id="tcron">tcron</h4>
 <p>With the option &quot;custom file handling&quot; enabled, &quot;default.rc&quot; runs as shell script at uweb launching time and &quot;default.rc2&quot; runs whenever uweb becomes foreground.</p>
 <p>Use tcron (<a href="i:0bhttps://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/tcron.tgz">Click to install</a>) with &quot;default.rc&quot; or &quot;default.rc2&quot;.</p>
@@ -68,7 +73,7 @@ tcron /sdcard/b &quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&quot; 720</p
 
 </div>
 <p>Last Modified: 25 October 2023<br>
-add en/_posts/tcron.md<br>
+crontab support<br>
 <pre></pre>
 </p>
 <script>
