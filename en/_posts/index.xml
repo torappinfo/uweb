@@ -6,7 +6,20 @@
     <description>Recent content in _posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cron</title>
+      <link>/en/tcron/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tcron/</guid>
+      <description>crontab For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.
+tcron With the option &amp;quot;custom file handling&amp;quot; enabled, &amp;quot;default.rc&amp;quot; runs as shell script at uweb launching time and &amp;quot;default.rc2&amp;quot; runs whenever uweb becomes foreground.
+Use tcron (Click to install) with &amp;quot;default.rc&amp;quot; or &amp;quot;default.rc2&amp;quot;.
+usage: tcron logfile command hours [timezone delay_sec elsecommand]
+execute &amp;quot;command&amp;quot; during time interval once.</description>
+    </item>
+    
     <item>
       <title>Offline resources</title>
       <link>/en/offlinecache/</link>

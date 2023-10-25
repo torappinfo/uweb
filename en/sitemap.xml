@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/_posts/</loc>
-    <lastmod>2023-08-20T15:44:51+08:00</lastmod>
+    <lastmod>2023-10-25T13:07:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/_posts/"
+                />
+  </url><url>
+    <loc>/en/tcron/</loc>
+    <lastmod>2023-10-25T13:03:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tcron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tcron/"
                 />
   </url><url>
     <loc>/en/offlinecache/</loc>
@@ -213,7 +226,7 @@
                 />
   </url><url>
     <loc>/en/filenames/</loc>
-    <lastmod>2023-05-08T21:16:14+08:00</lastmod>
+    <lastmod>2023-10-25T13:07:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
