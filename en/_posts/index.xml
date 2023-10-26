@@ -14,9 +14,8 @@
       
       <guid>/en/tcron/</guid>
       <description>crontab (with enhanced semantics) For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.
-The sixth field in crontab file has the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly.
-To make crontab more powerful, we changed the semantics as follows:
-The day of a command&#39;s execution can be specified by two fields — day of month, and day of week.</description>
+The sixth field in crontab file could be in the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly.
+To make crontab more powerful, we changed the semantics as follows:</description>
     </item>
     
     <item>

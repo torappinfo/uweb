@@ -48,7 +48,7 @@
   </ul>
   <h4 id="crontab-with-enhanced-semantics">crontab (with enhanced semantics)</h4>
 <p>For performance, the file &quot;crontab&quot; uses single space as field separator. Letters are not suppored currently. So use &quot;1&quot; for &quot;January&quot; and 2 for &quot;Tuesday&quot; etc.</p>
-<p>The sixth field in crontab file has the format of <a href="../links/index.html">internal links</a>. Specifically,  &quot;c:&quot; to execute the following commands in termux and &quot;!&quot; to execute commands directly.</p>
+<p>The sixth field in crontab file could be in the format of <a href="../links/index.html">internal links</a>. Specifically,  &quot;c:&quot; to execute the following commands in termux and &quot;!&quot; to execute commands directly.</p>
 <p>To make crontab more powerful, we changed the semantics as follows:<br>
 The day of a command's execution can be specified by two fields — day of month, and day of week. The command will be run when <span style="color:red">both</span> fields matche the current time.</p>
 <p>Note (the original crantab semantics):<br>
@@ -72,8 +72,8 @@ tcron /sdcard/b &quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&quot; 720</p
 <p><a target="_self" href="i:0hdefault.rc:../searchurl/txt/default.rc">Install example default.rc file for termux</a></p>
 
 </div>
-<p>Last Modified: 25 October 2023<br>
-crontab support<br>
+<p>Last Modified: 26 October 2023<br>
+crontab to support internal links<br>
 <pre></pre>
 </p>
 <script>
