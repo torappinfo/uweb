@@ -28,6 +28,19 @@
                 href="/zh/tags/"
                 />
   </url><url>
+    <loc>/zh/</loc>
+    <lastmod>2023-10-25T13:06:41+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+  </url><url>
     <loc>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
     <lastmod>2023-06-17T07:56:09+08:00</lastmod>
   </url><url>

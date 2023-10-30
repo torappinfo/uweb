@@ -28,6 +28,19 @@
                 href="/en/links/"
                 />
   </url><url>
+    <loc>/en/</loc>
+    <lastmod>2023-10-28T19:18:26+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url><url>
     <loc>/en/tcron/</loc>
     <lastmod>2023-10-26T18:58:49+08:00</lastmod>
     <xhtml:link
