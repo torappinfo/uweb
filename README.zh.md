@@ -1,4 +1,4 @@
-### 超微浏览器 (uweb browser): 微、威、快
+### 超微浏览器 (uweb browser): 微、威、快、便捷
 <a href="README.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../en/readme/index.html';return false;}}">English</a>
 <a href="zh/donate.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../searchurl/donate.html';return false;}}">捐赠</a>
 
@@ -9,7 +9,6 @@
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
 (备用: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app) [github](https://torappinfo.github.io/uweb/zh/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/zh/) [render](https://uweb.onrender.com) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org) [torappv](https://uweb.torapp.eu.org) [pages](https://muweb.pages.dev/zh/) [vercel](https://uweb.vercel.app/zh/))
 
-- <span  style="color:red">直接使用google翻译</span>
 - 微：不到200K。
 - 威：使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。
 - 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
