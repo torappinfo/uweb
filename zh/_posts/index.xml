@@ -90,8 +90,6 @@ noproxy::010:
 屏幕旋转
 :001[fileurl]
 加入媒体库
-:002[url]
-显示此url下安全cookie
 :010[proxy host]:[port]
 设置http代理, &amp;quot;:010:&amp;quot;禁用代理。
 :011[socks host]:[port]
