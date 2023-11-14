@@ -7,9 +7,8 @@
 <a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../en/changelog/index.html';return false;}}">下载</a>
 
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
-(备用镜像: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app) [github](https://torappinfo.github.io/uweb/zh/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/zh/) [render](https://uweb.onrender.com) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org) [torappv](https://uweb.torapp.eu.org) [epizy](http://uweb.epizy.com/) [pages](https://muweb.pages.dev/zh/) [vercel](https://uweb.vercel.app/zh/))
+(备用镜像: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app) [github](https://torappinfo.github.io/uweb/zh/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/zh/) [render](https://uweb.onrender.com) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [kinsta](https://uwebbrowser-fpgm1.kinsta.page/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org) [torappv](https://uweb.torapp.eu.org) [epizy](http://uweb.epizy.com/) [glitch](https://uweb.glitch.me/zh/) [pages](https://muweb.pages.dev/zh/) [vercel](https://uweb.vercel.app/zh/))
 
-- <span  style="color:red">国内可以直接使用<a href="https://uwebzh.netlify.app/zh/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../tips/index.html';return false;}}">bingChat/必应写作/AI画图/chatgpt</a></span>
 - <span  style="color:red">免魔法国内直接使用google翻译</span>
 - 微：不到200K。
 - 威：无穷无尽的功能，使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。
