@@ -6,12 +6,12 @@
     <description>Recent content in Topposts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/topposts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/topposts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浏览器多搜索引擎一键直达</title>
       <link>/zh/search/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/search/</guid>
       <description>超微浏览器下点击搜索引擎配置链接可自动添加到主屏。
 推荐引擎(将下面文本添加到home5.search中)：
@@ -81,21 +81,17 @@ novip:https://www.novipnoad.com/s=
 555dianying:https://555dianying.cc/vodsearch/-------------.html?wd=
 zhenbuka:https://www.zhenbuka.net/search/-------------.html?wd=</description>
     </item>
-    
     <item>
       <title>技巧网站导航</title>
       <link>/zh/sitemap/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/sitemap/</guid>
       <description>界面配置 搜索引擎 主页 快速访问 界面配置及杂项 (gitee镜像) 备份与恢复 个性化 工具条按钮长按菜单 浏览器标识 js脚本 常用服务 常用链接 常用命令 远程脚本 选中文本类菜单 长按链接弹出菜单 底部工具条定制 手势 高级个性化定制 高级设置 内容类 信息隐藏 CSS样式 重定向 特定网址用户脚本及样式 网站离线资源 工具应用类 小书签 文件预处理 html5应用 文件管理器 工具汇总 终端应用及Termux 超级计算器 函数作图 定时脚本 离线下载 输入法辅助 部件检索 综合 配置文件列表 插件 使用技巧 使用攻略 使用技巧 视频 安卓系统出错诊断 </description>
     </item>
-    
     <item>
       <title>配置浏览器特色服务</title>
       <link>/zh/urls/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/urls/</guid>
       <description>超微浏览器下点击配置链接可自动添加特色服务，强制清空后台重启后长按图像按钮可用。
 配置文件&amp;quot;default.urls&amp;quot;如下：
@@ -160,12 +156,10 @@ google docs:http://docs.google.com/gview?embedded=true&amp;amp;url=
 发送url(只显视频):i:5ji:0mc16:
 发送url(书签整网全屏):i:5ji:52../home5:i:0mi:5f:</description>
     </item>
-    
     <item>
       <title>配置浏览器常用命令</title>
       <link>/zh/cmds/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/cmds/</guid>
       <description>超微浏览器下点击配置链接可自动添加常用命令，强制清空后台重启后长按历史按钮可用。
 打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等
@@ -185,12 +179,10 @@ tgz install::toybox tar -xzf %f -C /
 发送url::printf &#39;%u&#39;|/system/bin/toybox nc 192.168.2.155 1500
 发送url(播放器)::printf &#39;i:5g%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
     </item>
-    
     <item>
       <title>运行javascript脚本</title>
       <link>/zh/rjs/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/rjs/</guid>
       <description>特定网址用户脚本
 全局脚本位于js子目录, 长按[☰]按钮配置。点击以下链
@@ -218,6 +210,5 @@ Selection to paragraph:;let g=&#39;paragraph&#39;;getSelection().modify(&#39;mov
 [远程脚本名]:[返回url数组的javascript代码]
 其中url可以为本地http脚本地址。譬如&#39;https://local/...&#39; (本地html5应用或离线缓存)。此时，js脚本也可使用.link文件方式调用。</description>
     </item>
-    
   </channel>
 </rss>

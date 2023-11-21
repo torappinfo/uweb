@@ -6,12 +6,12 @@
     <description>Recent content in termux on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection</title>
       <link>/en/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>/en/pccopy/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
 Copy selected text with html format to clipboard
@@ -24,12 +24,10 @@ The file &amp;quot;default.select&amp;quot; defines menus for selected text. If 
 [mimetype] specifies input/output for [command line].
 It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.</description>
     </item>
-    
     <item>
       <title>Tools</title>
       <link>/en/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/en/tools/</guid>
       <description>This page is for uweb browser.
 install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).
@@ -42,12 +40,10 @@ install SOED
 The following dictionaries work better with markdown processor.
 Install markdown processor</description>
     </item>
-    
     <item>
       <title>Custom file handling</title>
       <link>/en/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>/en/filecap/</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
 The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:
@@ -56,6 +52,5 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
 &amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.
 &amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
     </item>
-    
   </channel>
 </rss>

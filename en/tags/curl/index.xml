@@ -6,12 +6,12 @@
     <description>Recent content in curl on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom file handling</title>
       <link>/en/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>/en/filecap/</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
 The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:
@@ -20,6 +20,5 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
 &amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.
 &amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
     </item>
-    
   </channel>
 </rss>

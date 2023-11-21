@@ -6,12 +6,12 @@
     <description>Recent content in tools on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工具汇总</title>
       <link>/zh/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tools/</guid>
       <description>本文以超微浏览器为例来说明。
 安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
@@ -39,6 +39,5 @@ oed索引
 字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
 插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
     </item>
-    
   </channel>
 </rss>

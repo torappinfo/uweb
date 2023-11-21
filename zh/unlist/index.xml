@@ -5,12 +5,12 @@
     <link>/zh/unlist/</link>
     <description>Recent content in Unlists on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="/zh/unlist/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <atom:link href="/zh/unlist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>/zh/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/readme/</guid>
       <description>超微浏览器 (uweb browser): 释放无尽威能，微、威、快、高效、极致优化 English
 捐赠
@@ -28,6 +28,5 @@ Amazon appstore
 支持自定义任意多个搜索引擎; 支持执行用户提供任何js文件; 支持用户定义任意多个useragent; 长按链接支持运行第三方程序; 长按链接支持运行用户js文件。
 配套安装uWeb定制Termux应用，可用地址栏作图（类似matlab功能）、超级计算器（无限精度/π的前万位或更多、无限函数、无限常量）、符号演算（解方程、分解因式、求积分导数）、离线字典查找等。譬如地址栏输入sin(x)**5就直接得到函数图形。利用好第三方代码，才能真正发挥出uWeb的潜能。</description>
     </item>
-    
   </channel>
 </rss>

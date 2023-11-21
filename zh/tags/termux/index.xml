@@ -6,12 +6,12 @@
     <description>Recent content in termux on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>/zh/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/pccopy/</guid>
       <description>点击以下链接可安装长按“链接”按钮菜单:
 bing翻译
@@ -47,12 +47,10 @@ Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如�
 其它推荐工具(读取PC剪贴板)：
 pclip</description>
     </item>
-    
     <item>
       <title>离线下载</title>
       <link>/zh/loadbt/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/loadbt/</guid>
       <description>seedr用户可使用常用链接利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。 Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。 百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
@@ -71,12 +69,10 @@ default.longclick配置如下：
 离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
 其它支持离线下载的网页也可定义为一键离线。</description>
     </item>
-    
     <item>
       <title>工具汇总</title>
       <link>/zh/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tools/</guid>
       <description>本文以超微浏览器为例来说明。
 安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。
@@ -104,12 +100,10 @@ oed索引
 字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。
 插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
     </item>
-    
     <item>
       <title>利用文件预处理预览/查看/播放可下载资源</title>
       <link>/zh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/filecap/</guid>
       <description>技巧等级：中级
 文件预处理配置文件为default.filecap，每行格式如下：
@@ -124,12 +118,10 @@ txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio control
 pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///data/data/info.torapp.uweb/files/app/djvu.html?url=%u epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。
 如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
     </item>
-    
     <item>
       <title>一键执行预定义命令</title>
       <link>/zh/cmd/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/zh/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)
 uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
@@ -147,12 +139,10 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
 下面是笔者使用的default.cmds配置（命令具体解释）：
 复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34; </description>
     </item>
-    
     <item>
       <title>利用浏览器地址栏对函数作图</title>
       <link>/zh/gnuplot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/gnuplot/</guid>
       <description>使用Android端uweb浏览器。
 Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。
@@ -165,12 +155,10 @@ apt install gnuplot 地址栏功能配置： 配置文件default.acmd每行格�
 gnuplot -e &#39;set term svg;set output; plot x&#39;
 屏幕输出应该为正常的svg文件（类似html文本）。 Termux应为uweb定制包，否则有一堆设定需要修改。 超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。 为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&amp;quot;x&amp;quot;，即整个地址栏内输入为&amp;quot;x&amp;quot;。 </description>
     </item>
-    
     <item>
       <title>浏览器控制服务器下载资源</title>
       <link>/zh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/pcdown/</guid>
       <description>技巧等级：高级
 小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
@@ -189,6 +177,5 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
 重启超微浏览器，点击链接下载时会弹出菜单，选择&amp;quot;PCdown&amp;quot;，台式机会启动firefox下载手机指定文档。
 可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</description>
     </item>
-    
   </channel>
 </rss>

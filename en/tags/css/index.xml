@@ -6,15 +6,14 @@
     <description>Recent content in css on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JS/CSS/HTML/preprocessing for domains</title>
       <link>/en/sitejs/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>/en/sitejs/</guid>
       <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
-    
   </channel>
 </rss>

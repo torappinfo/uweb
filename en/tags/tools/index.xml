@@ -6,12 +6,12 @@
     <description>Recent content in tools on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools</title>
       <link>/en/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/en/tools/</guid>
       <description>This page is for uweb browser.
 install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).
@@ -24,6 +24,5 @@ install SOED
 The following dictionaries work better with markdown processor.
 Install markdown processor</description>
     </item>
-    
   </channel>
 </rss>

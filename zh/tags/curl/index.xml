@@ -6,12 +6,12 @@
     <description>Recent content in curl on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用文件预处理预览/查看/播放可下载资源</title>
       <link>/zh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/filecap/</guid>
       <description>技巧等级：中级
 文件预处理配置文件为default.filecap，每行格式如下：
@@ -26,6 +26,5 @@ txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio control
 pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///data/data/info.torapp.uweb/files/app/djvu.html?url=%u epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。
 如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
     </item>
-    
   </channel>
 </rss>

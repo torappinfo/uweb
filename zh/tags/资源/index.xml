@@ -6,12 +6,12 @@
     <description>Recent content in 资源 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>离线下载</title>
       <link>/zh/loadbt/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/loadbt/</guid>
       <description>seedr用户可使用常用链接利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。 Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。 百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。
 本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。
@@ -30,12 +30,10 @@ default.longclick配置如下：
 离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。
 其它支持离线下载的网页也可定义为一键离线。</description>
     </item>
-    
     <item>
       <title>视频播放小窍门</title>
       <link>/zh/video/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/video/</guid>
       <description>覆盖安装全屏播放菜单示例：屏幕旋转,退出
 本文以超微浏览器为例来说明。
@@ -43,6 +41,5 @@ default.longclick配置如下：
 视频资源：
 视频解析配置 nbwz mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播 点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
-    
   </channel>
 </rss>

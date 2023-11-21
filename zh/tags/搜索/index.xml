@@ -6,12 +6,12 @@
     <description>Recent content in 搜索 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>视频播放小窍门</title>
       <link>/zh/video/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/video/</guid>
       <description>覆盖安装全屏播放菜单示例：屏幕旋转,退出
 本文以超微浏览器为例来说明。
@@ -19,12 +19,10 @@
 视频资源：
 视频解析配置 nbwz mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播 点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
-    
     <item>
       <title>分类多引擎搜索</title>
       <link>/zh/searchcat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/searchcat/</guid>
       <description>点击本链接自动安装分类多引擎文件至&amp;quot;bookmark&amp;quot;目录下。
 超微浏览器中通过“设置”-&amp;gt;“总目录”-&amp;gt;“↑”-&amp;gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。
@@ -40,6 +38,5 @@ d:mimetype:[含%s的命令行]:[外部资源url]
 查询时关键词会自动替换命令行中的%s。
 笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</description>
     </item>
-    
   </channel>
 </rss>

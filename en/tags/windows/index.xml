@@ -6,12 +6,12 @@
     <description>Recent content in Windows on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection</title>
       <link>/en/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>/en/pccopy/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
 Copy selected text with html format to clipboard
@@ -24,6 +24,5 @@ The file &amp;quot;default.select&amp;quot; defines menus for selected text. If 
 [mimetype] specifies input/output for [command line].
 It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.</description>
     </item>
-    
   </channel>
 </rss>

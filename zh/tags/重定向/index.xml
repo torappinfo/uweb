@@ -6,12 +6,12 @@
     <description>Recent content in 重定向 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/%E9%87%8D%E5%AE%9A%E5%90%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/%E9%87%8D%E5%AE%9A%E5%90%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重定向网址</title>
       <link>/zh/redirect/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/zh/redirect/</guid>
       <description>全局重定向 长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此时如果全局重定向url为有效网址，则所有网络访问被内部重定向至url: &amp;quot;[全局重定向url]+[原始url]&amp;quot;。
 创建免费魔法重定向，说明类似但代码不同
@@ -51,6 +51,5 @@ goods.kaola.com::goods.kaolavvv.com
 product.dangdang.com::product.dangdangvvv.com
 item.gome.com.cn::item.gomevvv.com.cn</description>
     </item>
-    
   </channel>
 </rss>

@@ -10,8 +10,4 @@
 
 [powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
 
-[mcbebbs](http://pan.mcbebbs.cn/s/dJ4t8)
-
-[mediafire](https://www.mediafire.com/folder/hv6d88kxckei1/uweb)
-
 [pagure](https://releases.pagure.org/uweb/)

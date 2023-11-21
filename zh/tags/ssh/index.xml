@@ -6,12 +6,12 @@
     <description>Recent content in ssh on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>/zh/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/pccopy/</guid>
       <description>点击以下链接可安装长按“链接”按钮菜单:
 bing翻译
@@ -47,12 +47,10 @@ Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如�
 其它推荐工具(读取PC剪贴板)：
 pclip</description>
     </item>
-    
     <item>
       <title>一键执行预定义命令</title>
       <link>/zh/cmd/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/zh/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)
 uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。
@@ -70,12 +68,10 @@ mimetype用来表示命令的输出类型。除了标准的mimetype之外，超�
 下面是笔者使用的default.cmds配置（命令具体解释）：
 复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34; </description>
     </item>
-    
     <item>
       <title>浏览器控制服务器下载资源</title>
       <link>/zh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/pcdown/</guid>
       <description>技巧等级：高级
 小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
@@ -94,6 +90,5 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
 重启超微浏览器，点击链接下载时会弹出菜单，选择&amp;quot;PCdown&amp;quot;，台式机会启动firefox下载手机指定文档。
 可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</description>
     </item>
-    
   </channel>
 </rss>

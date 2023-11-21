@@ -2,6 +2,7 @@
 <a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../zh/readme/index.html';return false;}}">中文</a>
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
+[Galaxy.Store](https://galaxy.store/uweb)
 <a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../../en/changelog/index.html';return false;}}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  

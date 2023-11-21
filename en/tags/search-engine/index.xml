@@ -6,12 +6,12 @@
     <description>Recent content in search engine on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/search-engine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/search-engine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search engine files</title>
       <link>/en/searchcat/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>/en/searchcat/</guid>
       <description>Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:
 [Engine name]:[url without &#39;%s&#39; inside]
@@ -20,6 +20,5 @@
 [Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]
 [Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt Limitations (they are here for performance reasons):</description>
     </item>
-    
   </channel>
 </rss>

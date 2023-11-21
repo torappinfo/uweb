@@ -6,12 +6,12 @@
     <description>Recent content in 不良信息屏蔽 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用用户自定义样式屏蔽不良信息</title>
       <link>/zh/adblock_css/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/adblock_css/</guid>
       <description>点击以下链接可安装全局样式，清后台重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。
 floppymoose 广告屏蔽样式
@@ -19,12 +19,10 @@ gozer 广告屏蔽样式
 超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。
 对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。</description>
     </item>
-    
     <item>
       <title>视频播放小窍门</title>
       <link>/zh/video/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>/zh/video/</guid>
       <description>覆盖安装全屏播放菜单示例：屏幕旋转,退出
 本文以超微浏览器为例来说明。
@@ -32,12 +30,10 @@ gozer 广告屏蔽样式
 视频资源：
 视频解析配置 nbwz mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播 点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
-    
     <item>
       <title>加速访问国外网站</title>
       <link>/zh/hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/hosts/</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。
 使用Android端uweb浏览器。
@@ -54,12 +50,10 @@ fbcdn.net
 其它国外网址访问技巧：
 尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片 </description>
     </item>
-    
     <item>
       <title>绝杀完整域名树</title>
       <link>/zh/adblock_domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/adblock_domain/</guid>
       <description>域名文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（最后两段不超过6字符如com.cn的域名可取四段）。
 可使用列出外部脚本小书签生成外部js文件列表，然后长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;网址转链接&amp;quot;菜单命令，长按可疑链接（一般为域名不同的外链），执行“屏蔽根域名”。
@@ -75,6 +69,5 @@ fbcdn.net
 如果用到了第二个正则表达式，此时将域名前缀表达式合并到第二个正则表达式中，从而仅使用一个表达式可优化性能。
 点击本链接自动用样例覆盖default.hosts</description>
     </item>
-    
   </channel>
 </rss>

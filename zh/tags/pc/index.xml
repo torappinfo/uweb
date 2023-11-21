@@ -6,12 +6,12 @@
     <description>Recent content in PC on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/pc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
       <link>/zh/pccopy/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>/zh/pccopy/</guid>
       <description>点击以下链接可安装长按“链接”按钮菜单:
 bing翻译
@@ -47,12 +47,10 @@ Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如�
 其它推荐工具(读取PC剪贴板)：
 pclip</description>
     </item>
-    
     <item>
       <title>浏览器控制服务器下载资源</title>
       <link>/zh/pcdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/pcdown/</guid>
       <description>技巧等级：高级
 小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：
@@ -71,6 +69,5 @@ PCdown:/data/data/com.termux/files/usr/bin/pcdownload
 重启超微浏览器，点击链接下载时会弹出菜单，选择&amp;quot;PCdown&amp;quot;，台式机会启动firefox下载手机指定文档。
 可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</description>
     </item>
-    
   </channel>
 </rss>

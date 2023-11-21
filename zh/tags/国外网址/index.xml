@@ -6,12 +6,12 @@
     <description>Recent content in 国外网址 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重定向网址</title>
       <link>/zh/redirect/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/zh/redirect/</guid>
       <description>全局重定向 长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此时如果全局重定向url为有效网址，则所有网络访问被内部重定向至url: &amp;quot;[全局重定向url]+[原始url]&amp;quot;。
 创建免费魔法重定向，说明类似但代码不同
@@ -51,12 +51,10 @@ goods.kaola.com::goods.kaolavvv.com
 product.dangdang.com::product.dangdangvvv.com
 item.gome.com.cn::item.gomevvv.com.cn</description>
     </item>
-    
     <item>
       <title>加速访问国外网站</title>
       <link>/zh/hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/hosts/</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。
 使用Android端uweb浏览器。
@@ -73,6 +71,5 @@ fbcdn.net
 其它国外网址访问技巧：
 尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片 </description>
     </item>
-    
   </channel>
 </rss>
