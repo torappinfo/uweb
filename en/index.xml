@@ -35,8 +35,7 @@ Long pressing the bookmark button in uweb browser will popup menus defined in fi
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/en/tcron/</guid>
       <description>crontab (with enhanced semantics) For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.
-The sixth field in crontab file could be in the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly.
-To make crontab more powerful, we changed the semantics as follows:</description>
+The sixth field in crontab file could be in the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly. If the sixth field is not in any of above formats, then the field will appear as the message of alarm clock.</description>
     </item>
     <item>
       <title>Offline resources</title>

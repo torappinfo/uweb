@@ -15,6 +15,7 @@
       <guid>/zh/tcron/</guid>
       <description>crontab 注意：1. 必须使用单一空格作为分割符。
 2. 必须同时满足日期及星期的要求（功能增强），crontab标准只要求满足其中一个要求。
+文件&amp;quot;crontab&amp;quot;每行第六部分可为url或内部链接，也可为&amp;quot;c:&amp;quot;通知termux执行后面命令; &amp;quot;!&amp;quot;直接执行命令。其余格式一律作为闹钟提醒时的伴随消息。
 文件&amp;quot;crontab&amp;quot;自动签到例子：
 5 8,9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignIn
 7 9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignInTakeQuan
@@ -36,8 +37,7 @@ ex:
 set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
 #天翼云每天签到一次
 tcron /sdcard/a &amp;quot;cloudpan189-go sign;toybox touch /sdcard/a&amp;quot; 24
-#每30天清空baidu目录
-tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720</description>
+#每30天清空baidu目录</description>
     </item>
     <item>
       <title>重定向网址</title>
