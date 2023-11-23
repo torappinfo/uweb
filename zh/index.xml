@@ -6,8 +6,39 @@
     <description>Recent content on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>定时脚本</title>
+      <link>/zh/tcron/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/zh/tcron/</guid>
+      <description>crontab 注意：1. 必须使用单一空格作为分割符。
+2. 必须同时满足日期及星期的要求（功能增强），crontab标准只要求满足其中一个要求。
+文件&amp;quot;crontab&amp;quot;自动签到例子：
+5 8,9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignIn
+7 9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignInTakeQuan
+6 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInApi?action=SignIn
+8 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInAward?index=1
+其中&amp;quot;i:a1&amp;quot;为对url发起&amp;quot;post&amp;quot;请求。
+tcron 如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管
+理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。
+勾选“文件预处理”的情况下，如果存在文件&amp;quot;default.rc2&amp;quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&amp;quot;default.rc&amp;quot;将没有任何执行机会，而&amp;quot;default.rc2&amp;quot;保证即使超微长时间不重启，定时脚本仍可以执行。
+usage: tcron logfile command hours [timezone delay_sec elsecommand]
+指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
+其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
+hours: 如果为正整数，则将每天划分为不同的时间区间（单位小时），每个区间命令只能执行一次。如果为负整数，则取绝对值，并且单位为分钟，保证下一次执行至少间隔这么多分钟。
+hours也可以为&amp;quot;hh:mm-hh:mm,...&amp;quot;格式, 譬如&amp;quot;6:00-8:30,11:00-13:00,5:30-6:30&amp;quot;为每天三餐时间脚本执行一次。
+timezone: 时区：譬如“8”表示北京时间。(默认为8)
+delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。
+elsecommand: 无需执行命令command时执行。
+ex:
+set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
+#天翼云每天签到一次
+tcron /sdcard/a &amp;quot;cloudpan189-go sign;toybox touch /sdcard/a&amp;quot; 24
+#每30天清空baidu目录
+tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720</description>
+    </item>
     <item>
       <title>重定向网址</title>
       <link>/zh/redirect/</link>
@@ -637,40 +668,6 @@ http://www.numbertheory.org/gnubc/gnubc.html
 如果定义有新按钮（当前版本存在文件&amp;quot;20&amp;quot;），则uweb支持向量格式图标VectorDrawable，格式为compiled XML。此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。
 用户可定义任意多个按钮(100个按钮毫无压力)，其短按长按功能可在文件default.button及default.button2中定义，格式与文件default.link完全相同，每行从最后一个按钮开始重定义功能。
 注意：刷新按钮及窗口按钮图标暂时不能重定义。</description>
-    </item>
-    <item>
-      <title>定时脚本</title>
-      <link>/zh/tcron/</link>
-      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>/zh/tcron/</guid>
-      <description>如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管
-理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。
-勾选“文件预处理”的情况下，如果存在文件&amp;quot;default.rc2&amp;quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&amp;quot;default.rc&amp;quot;将没有任何执行机会，而&amp;quot;default.rc2&amp;quot;保证即使超微长时间不重启，定时脚本仍可以执行。
-tcron usage: tcron logfile command hours [timezone delay_sec elsecommand]
-指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。
-其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。
-hours: 如果为正整数，则将每天划分为不同的时间区间（单位小时），每个区间命令只能执行一次。如果为负整数，则取绝对值，并且单位为分钟，保证下一次执行至少间隔这么多分钟。
-hours也可以为&amp;quot;hh:mm-hh:mm,...&amp;quot;格式, 譬如&amp;quot;6:00-8:30,11:00-13:00,5:30-6:30&amp;quot;为每天三餐时间脚本执行一次。
-timezone: 时区：譬如“8”表示北京时间。(默认为8)
-delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。
-elsecommand: 无需执行命令command时执行。
-ex:
-set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin
-#天翼云每天签到一次
-tcron /sdcard/a &amp;quot;cloudpan189-go sign;toybox touch /sdcard/a&amp;quot; 24
-#每30天清空baidu目录
-tcron /sdcard/b &amp;quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&amp;quot; 720
-安装default.rc模板文件（termux）
-可能用到的命令:
-termux中安装remind，可配置各类提醒功能，十分强大。
-apt install remind
-am start -n info.torapp.uweb/.wvActivity -d &#39;javascript:alert(&amp;quot;remind&amp;quot;)&#39; #提醒
-其中-d后面参数可以为任意url包括超微内部&amp;quot;i:&amp;quot; url。
-cron Termux下安装cronie:
-apt install cronie
-crontab -e
-crontab例子内容如下：
-30,31 20-23/1 * * * node Loon/jd_live_redrain.</description>
     </item>
     <item>
       <title>安卓系统出错诊断</title>

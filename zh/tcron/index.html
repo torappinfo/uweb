@@ -46,10 +46,19 @@
   <ul class="tags">
     
   </ul>
-  <p>如果勾选“文件预处理”，则uweb启动时运行&quot;default.rc&quot; shell脚本。可与tcron定时管<br>
+  <h4 id="crontab">crontab</h4>
+<p>注意：1. 必须使用单一空格作为分割符。<br>
+2. 必须同时满足日期及星期的要求（功能增强），crontab标准只要求满足其中一个要求。</p>
+<p>文件&quot;crontab&quot;自动签到例子：<br>
+5 8,9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignIn<br>
+7 9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignInTakeQuan<br>
+6 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInApi?action=SignIn<br>
+8 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInAward?index=1</p>
+<p>其中&quot;i:a1&quot;为对url发起&quot;post&quot;请求。</p>
+<h4 id="tcron">tcron</h4>
+<p>如果勾选“文件预处理”，则uweb启动时运行&quot;default.rc&quot; shell脚本。可与tcron定时管<br>
 理工具(<a href="i:0bhttps://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/tcron.tgz">安装tcron</a>)配合运行定时任务，如存储清理、网页签到等。</p>
 <p>勾选“文件预处理”的情况下，如果存在文件&quot;default.rc2&quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&quot;default.rc&quot;将没有任何执行机会，而&quot;default.rc2&quot;保证即使超微长时间不重启，定时脚本仍可以执行。</p>
-<h4 id="tcron">tcron</h4>
 <p>usage: tcron logfile command hours [timezone delay_sec elsecommand]<br>
 指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。<br>
 其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。<br>
@@ -70,22 +79,10 @@ termux中安装remind，可配置各类提醒功能，十分强大。<br>
 apt install remind</p>
 <p>am start -n info.torapp.uweb/.wvActivity -d 'javascript:alert(&quot;remind&quot;)' #提醒<br>
 其中-d后面参数可以为任意url包括超微内部&quot;i:&quot; url。</p>
-<h4 id="cron">cron</h4>
-<p>Termux下安装cronie:<br>
-apt install cronie<br>
-crontab -e</p>
-<p>crontab例子内容如下：<br>
-30,31 20-23/1 * * * node Loon/jd_live_redrain.js<br>
-0,1 19-21/1 * * * node Loon/jd_live_redrain2.js<br>
-0,1 0,9,11,13,15,17,19,20,21,23 * * * node Loon/jd_live_redrain_nian.js<br>
-0,1 0,9,11,13,15,17,19,20,21,23 * * * node Loon/jd_live_redrain_official.js<br>
-30,31 12-23/1 * * * node Loon/jd_live_redrain_half.js</p>
-<p>Termux下运行：crond<br>
-cron运行期间保持唤醒锁，保证termux可以稳定运行。</p>
 
 </div>
-<p>Last Modified: 19 May 2023<br>
-update bingAI/js/optionsSets.js<br>
+<p>Last Modified: 23 November 2023<br>
+add crontab example<br>
 <pre></pre>
 </p>
 <script>

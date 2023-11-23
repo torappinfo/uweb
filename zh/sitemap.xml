@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/zh/_posts/</loc>
-    <lastmod>2023-11-04T19:38:29+08:00</lastmod>
+    <lastmod>2023-11-23T10:07:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/_posts/"
+                />
+  </url><url>
+    <loc>/zh/</loc>
+    <lastmod>2023-11-23T10:07:09+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+  </url><url>
+    <loc>/zh/tcron/</loc>
+    <lastmod>2023-11-23T10:07:09+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tcron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tcron/"
                 />
   </url><url>
     <loc>/zh/tags/</loc>
@@ -26,19 +52,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tags/"
-                />
-  </url><url>
-    <loc>/zh/</loc>
-    <lastmod>2023-11-14T09:24:14+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
                 />
   </url><url>
     <loc>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</loc>
@@ -375,19 +388,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/icons/"
-                />
-  </url><url>
-    <loc>/zh/tcron/</loc>
-    <lastmod>2023-05-19T15:10:23+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tcron/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tcron/"
                 />
   </url><url>
     <loc>/zh/logcat/</loc>
