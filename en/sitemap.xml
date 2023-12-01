@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/_posts/</loc>
-    <lastmod>2023-12-01T15:52:33+08:00</lastmod>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,100 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/_posts/"
+                />
+  </url><url>
+    <loc>/en/tags/clipboard/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+  </url><url>
+    <loc>/en/tags/pc/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/pc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/pc/"
+                />
+  </url><url>
+    <loc>/en/tags/ssh/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/ssh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/ssh/"
+                />
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url><url>
+    <loc>/en/tags/termux/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/termux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/termux/"
+                />
+  </url><url>
+    <loc>/en/textprocess/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/textprocess/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/textprocess/"
+                />
+  </url><url>
+    <loc>/en/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url><url>
+    <loc>/en/tags/windows/</loc>
+    <lastmod>2023-12-01T16:13:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/windows/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/windows/"
                 />
   </url><url>
     <loc>/en/links/</loc>
@@ -26,19 +120,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/links/"
-                />
-  </url><url>
-    <loc>/en/</loc>
-    <lastmod>2023-12-01T15:53:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
                 />
   </url><url>
     <loc>/en/tcron/</loc>
@@ -81,19 +162,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/redirect/"
-                />
-  </url><url>
-    <loc>/en/tags/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
                 />
   </url><url>
     <loc>/en/tags/adblock/</loc>
@@ -387,19 +455,6 @@
                 href="/en/tags/tdict/"
                 />
   </url><url>
-    <loc>/en/tags/termux/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/termux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/termux/"
-                />
-  </url><url>
     <loc>/en/tags/tools/</loc>
     <lastmod>2022-09-27T17:36:08+08:00</lastmod>
     <xhtml:link
@@ -490,48 +545,6 @@
                 href="/en/categories/"
                 />
   </url><url>
-    <loc>/en/tags/clipboard/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-  </url><url>
-    <loc>/en/tags/pc/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/pc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/pc/"
-                />
-  </url><url>
-    <loc>/en/tags/ssh/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/ssh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/ssh/"
-                />
-  </url><url>
-    <loc>/en/textprocess/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/textprocess/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/textprocess/"
-                />
-  </url><url>
     <loc>/en/unlist/</loc>
     <lastmod>2023-11-26T10:56:34+08:00</lastmod>
     <xhtml:link
@@ -543,19 +556,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/unlist/"
-                />
-  </url><url>
-    <loc>/en/tags/windows/</loc>
-    <lastmod>2023-12-01T15:48:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/windows/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/windows/"
                 />
   </url>
 </urlset>

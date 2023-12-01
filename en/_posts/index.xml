@@ -6,8 +6,23 @@
     <description>Recent content in _posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text selection/processing</title>
+      <link>/en/textprocess/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/en/textprocess/</guid>
+      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
+Copy selected text with html format to clipboard
+Search with home screen
+google Translate
+bing translate
+deepL
+The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+[Name]:[mimetype]:[command line]
+[mimetype] specifies input/output for [command line].</description>
+    </item>
     <item>
       <title>Links</title>
       <link>/en/links/</link>
@@ -289,21 +304,6 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.
 Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.
 Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
-    </item>
-    <item>
-      <title>Text selection/processing</title>
-      <link>/en/textprocess/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/textprocess/</guid>
-      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
-Copy selected text with html format to clipboard
-Search with home screen
-google Translate
-bing translate
-deepL
-The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
-[Name]:[mimetype]:[command line]
-[mimetype] specifies input/output for [command line].</description>
     </item>
   </channel>
 </rss>

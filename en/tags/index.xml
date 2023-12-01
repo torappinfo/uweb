@@ -6,8 +6,43 @@
     <description>Recent content in Tags on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clipboard</title>
+      <link>/en/tags/clipboard/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/en/tags/clipboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PC</title>
+      <link>/en/tags/pc/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/en/tags/pc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ssh</title>
+      <link>/en/tags/ssh/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/en/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>termux</title>
+      <link>/en/tags/termux/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/en/tags/termux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>/en/tags/windows/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/en/tags/windows/</guid>
+      <description></description>
+    </item>
     <item>
       <title>redirection</title>
       <link>/en/tags/redirection/</link>
@@ -51,13 +86,6 @@
       <description></description>
     </item>
     <item>
-      <title>termux</title>
-      <link>/en/tags/termux/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tags/termux/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>tools</title>
       <link>/en/tags/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
@@ -69,34 +97,6 @@
       <link>/en/tags/curl/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/en/tags/curl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>clipboard</title>
-      <link>/en/tags/clipboard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/clipboard/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PC</title>
-      <link>/en/tags/pc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/pc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ssh</title>
-      <link>/en/tags/ssh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/ssh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>/en/tags/windows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/windows/</guid>
       <description></description>
     </item>
   </channel>
