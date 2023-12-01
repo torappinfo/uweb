@@ -92,20 +92,21 @@ andi freegpt teach-anything magickpen Wait for url from other devices
 berify: reverse image search for video
 Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
 Install markdeep styling for markdown files
-Bookmarks with secrets (POST instead of GET) The search engine (&amp;quot;.</description>
+Bookmarks with secrets (POST instead of GET) The internal link &amp;quot;i:a1[url]?</description>
     </item>
     <item>
       <title>Tips</title>
       <link>/en/tips/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/tips/</guid>
-      <description>To show web pages in desktop mode:
+      <description>Text processing for clipboard data:
+On home screen, pressing the sharing button of the bottom toolbar popups the text processing menu for clipboard data.
+To show web pages in desktop mode:
 PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
 Playing audio when screen off
 Option &amp;quot;Floating video&amp;quot; + video fullscreen playing
-Use POST-type search engine as bookmark to auto login
 Multiple home screens and Next/Prev page:
-home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), ... can be visited via pressing the right arrow button while home4.mht(or .html or .search), home3.</description>
+home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), .</description>
     </item>
     <item>
       <title>Address bar command line</title>
@@ -191,22 +192,6 @@ Check all checkboxes
 Uncheck all checkboxes
 Toggle all checkboxes in forms
 Enable selection</description>
-    </item>
-    <item>
-      <title>Text selection</title>
-      <link>/en/pccopy/</link>
-      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/en/pccopy/</guid>
-      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
-Copy selected text with html format to clipboard
-Search with home screen
-google Translate
-bing translate
-deepL
-The file &amp;quot;default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
-[Name]:[mimetype]:[command line]
-[mimetype] specifies input/output for [command line].
-It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.</description>
     </item>
     <item>
       <title>CSS styles</title>
@@ -304,6 +289,21 @@ The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of ex
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.
 Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.
 Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
+    </item>
+    <item>
+      <title>Text selection/processing</title>
+      <link>/en/textprocess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/textprocess/</guid>
+      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
+Copy selected text with html format to clipboard
+Search with home screen
+google Translate
+bing translate
+deepL
+The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+[Name]:[mimetype]:[command line]
+[mimetype] specifies input/output for [command line].</description>
     </item>
   </channel>
 </rss>

@@ -6,23 +6,21 @@
     <description>Recent content in ssh on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/en/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Text selection</title>
-      <link>/en/pccopy/</link>
-      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/en/pccopy/</guid>
+      <title>Text selection/processing</title>
+      <link>/en/textprocess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/textprocess/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
 Copy selected text with html format to clipboard
 Search with home screen
 google Translate
 bing translate
 deepL
-The file &amp;quot;default.select&amp;quot; defines menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
+The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
 [Name]:[mimetype]:[command line]
-[mimetype] specifies input/output for [command line].
-It formats as &amp;quot;[input mimetype]/[output mimetype]&amp;quot;.</description>
+[mimetype] specifies input/output for [command line].</description>
     </item>
   </channel>
 </rss>
