@@ -10,6 +10,6 @@
 
 [powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
 
-[pagure](https://releases.pagure.org/uweb/)
+[pagure](https://releases.pagure.org/uwebapk/)
 
 [mcbebbs](http://pan.mcbebbs.cn/s/dJ4t8)
