@@ -215,13 +215,13 @@ sourceforge
 powerfolder
 udrop
 pagure
-Main features Change logs 1030: Allow downloading with global redirection
+Main features Change logs 1034: click share button on homescreen to process clipboard text.
+1030: Allow downloading with global redirection
 1026: Test automation: enable i:0 urls in scripting mode
 1017: crontab alarm clock and links as sixth field.
 1008: Add long screenshot mode
 1006: Advanced configuration: auto reload, download path
-1004: bookmarklet &amp;quot;Show as html&amp;quot; to support clipboard sites such as &amp;quot;netcut.cn&amp;quot;.
-998: Bookmarklets to support CSP sites.</description>
+1004: bookmarklet &amp;quot;Show as html&amp;quot; to support clipboard sites such as &amp;quot;netcut.</description>
     </item>
     <item>
       <title>Site map</title>
