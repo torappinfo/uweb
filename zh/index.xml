@@ -431,7 +431,7 @@ tgz install::toybox tar -xzf %f -C /
 以下命令需修改接收端IP定制。另外，发送消息前接收端需首先执行“等待网络消息”命令。
 发送剪贴板:clip/uweb:printf &#39;i:5ji:5b&#39;;cat
 发送url::printf &#39;%u&#39;|/system/bin/toybox nc 192.168.2.155 1500
-发送url(播放器)::printf &#39;i:5g%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
+发送url(书签)::printf &#39;i:51../home5:i:0mc16:%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
     </item>
     <item>
       <title>Android TV</title>

@@ -296,7 +296,6 @@ Save link:i:55:
 Save to desktop:i:58
 Add to media storage::001
 Extract web app:i:0bsitecache/local/:
-httplocal:i:5g/^file:.+sitecache/https:/:
 tgurl:https://tx.me/share/url?url=
 tgdownload:https://tx.me/share/url?url=/download Compatible mode:i:5d
 papago:https://papago.naver.net/website?locale=en&amp;amp;target=en&amp;amp;url=
@@ -310,9 +309,9 @@ htmlpreview:https://htmlpreview.github.io/?
 webarchive:https://web.archive.org/web/*/
 archive:https://archive.is/?run=1&amp;amp;url=
 googlecache:http://webcache.googleusercontent.com/search?q=cache:
-google by image:https://www.google.com/searchbyimage?image_url=
+google by image:https://www.google.com/searchbyimage?safe=off&amp;amp;image_url=
 tinyeye:https://tineye.com/search?url=
-Yandex image:https://yandex.com/images/search?text=</description>
+Yandex by image:https://yandex.com/images/search?family=yes&amp;amp;rpt=imageview&amp;amp;url=</description>
     </item>
     <item>
       <title>Commands</title>
