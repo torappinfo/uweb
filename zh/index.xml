@@ -6,8 +6,80 @@
     <description>Recent content on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电视直播</title>
+      <link>/zh/tvlive/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/zh/tvlive/</guid>
+      <description>直播源 直播源网址前面加上前缀&amp;quot;i:0/js/2lnk:i:5g&amp;quot;就可将任一直播源转换成直播网页。其中前缀 &amp;quot;i:0/js/2lnk:&amp;quot; 对网页使用应用assets内置小书签&amp;quot;/js/2lnk&amp;quot;转换直播源，&amp;quot;i:0&amp;quot;中的&amp;quot;0&amp;quot;表示此功能更改了网页原来的展示，有潜在的安全威胁，需用户明确同意（比如通过安装为菜单，书签，对话框确认等方式）。前缀&amp;quot;i:5g&amp;quot;强迫网址以文本方式展示，部分直播源以m3u为后缀，不能省略前缀&amp;quot;i:5g&amp;quot;。
+YanG-1989/m3u
+频道 CCTV1
+CCTV2财经
+CCTV3综艺
+CCTV4国际
+CCTV5体育
+CCTV6电影
+CCTV7军农
+CCTV8电视剧
+CCTV10科教
+CCTV11戏曲
+CCTV12社会与法
+CCTV13新闻
+CCTV15少儿
+CCTV17农村
+江苏卫视
+浙江卫视
+精品电影
+铜梁综合频道
+铜梁文旅频道
+万州综合频道
+万州三峡移民
+巴南综合频道
+巴南生活服务
+长寿综合频道
+永川综合频道
+开州生活频道
+大足综合频道
+綦江综合频道
+涪陵电视台
+黔江综合频道
+江津新闻综合
+南川新闻综合
+福州综合频道
+福州生活频道
+晋江侨乡频道
+厦门一套
+厦门二套
+厦门三套
+厦门移动电视
+龙岩综合频道
+宁德公共频道
+三明综合频道
+三明公共频道
+尤溪生活频道
+上杭综合频道
+南安新闻综合
+武夷山电视台
+宁化电视一套
+福安综合频道
+甘肃经济频道
+甘肃都市频道
+甘肃少儿频道
+甘肃公共频道
+甘肃品质生活
+甘南藏语频道
+敦煌综合频道
+金昌公共频道
+广东经济科教
+广东体育频道
+广东珠江台
+广东新闻频道
+广东公共频道
+广东房产频道
+广东国际频道</description>
+    </item>
     <item>
       <title>定时脚本</title>
       <link>/zh/tcron/</link>
@@ -831,82 +903,6 @@ Amazon appstore
 支持网址特定脚本/样式，可轻松支持百万以上不同脚本。
 支持自定义任意多个搜索引擎; 支持执行用户提供任何js文件; 支持用户定义任意多个useragent; 长按链接支持运行第三方程序; 长按链接支持运行用户js文件。
 配套安装uWeb定制Termux应用，可用地址栏作图（类似matlab功能）、超级计算器（无限精度/π的前万位或更多、无限函数、无限常量）、符号演算（解方程、分解因式、求积分导数）、离线字典查找等。譬如地址栏输入sin(x)**5就直接得到函数图形。利用好第三方代码，才能真正发挥出uWeb的潜能。</description>
-    </item>
-    <item>
-      <title>电视直播</title>
-      <link>/zh/tvlive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/tvlive/</guid>
-      <description>CCTV1
-CCTV2财经
-CCTV3综艺
-CCTV4国际
-CCTV5体育
-CCTV6电影
-CCTV7军农
-CCTV8电视剧
-CCTV10科教
-CCTV11戏曲
-CCTV12社会与法
-CCTV13新闻
-CCTV15少儿
-CCTV17农村
-江苏卫视
-浙江卫视
-精品电影
-铜梁综合频道
-铜梁文旅频道
-万州综合频道
-万州三峡移民
-巴南综合频道
-巴南生活服务
-长寿综合频道
-永川综合频道
-开州生活频道
-大足综合频道
-綦江综合频道
-涪陵电视台
-黔江综合频道
-江津新闻综合
-南川新闻综合
-福州综合频道
-福州生活频道
-晋江侨乡频道
-厦门一套
-厦门二套
-厦门三套
-厦门移动电视
-龙岩综合频道
-宁德公共频道
-三明综合频道
-三明公共频道
-尤溪生活频道
-上杭综合频道
-南安新闻综合
-武夷山电视台
-宁化电视一套
-福安综合频道
-甘肃经济频道
-甘肃都市频道
-甘肃少儿频道
-甘肃公共频道
-甘肃品质生活
-甘南藏语频道
-敦煌综合频道
-金昌公共频道
-广东经济科教
-广东体育频道
-广东珠江台
-广东新闻频道
-广东公共频道
-广东房产频道
-广东国际频道
-广东综艺频道
-广州经济频道
-广州新闻频道
-深圳都市频道
-深圳财经频道
-深圳娱乐频道</description>
     </item>
     <item>
       <title>分类多引擎搜索</title>

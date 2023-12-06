@@ -65,6 +65,7 @@ sourceforge
 powerfolder
 udrop
 pagure
+mcbebbs
 Main features Change logs 1034: click share button on homescreen to process clipboard text.
 1030: Allow downloading with global redirection
 1026: Test automation: enable i:0 urls in scripting mode
