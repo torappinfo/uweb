@@ -14,7 +14,7 @@
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       <guid>/zh/tvlive/</guid>
       <description>直播源 直播源网址前面加上前缀&amp;quot;i:0/js/2lnk.js:i:5g&amp;quot;就可将任一直播源转换成直播网页。其中前缀 &amp;quot;i:0/js/2lnk.js:&amp;quot; 对网页使用应用assets内置小书签&amp;quot;/js/2lnk.js&amp;quot;转换直播源，&amp;quot;i:0&amp;quot;中的&amp;quot;0&amp;quot;表示此功能更改了网页原来的展示，有潜在的安全威胁，需用户明确同意（比如通过安装为菜单，书签，对话框确认等方式）。前缀&amp;quot;i:5g&amp;quot;强迫网址以文本方式展示，部分直播源以m3u为后缀，不能省略前缀&amp;quot;i:5g&amp;quot;。
-&amp;lt;a YanG-1989/m3u
+YanG-1989/m3u
 频道 CCTV1
 CCTV2财经
 CCTV3综艺
@@ -38,7 +38,8 @@ CCTV17农村
 河源综合频道
 河源公共频道
 黔东南综合频道
-沧州三套节目</description>
+沧州三套节目
+电视模式：配置直播源 文件&amp;quot;engine.search&amp;quot;为自动顺序搜索引擎列表文件，其格式与主屏搜索引擎文件&amp;quot;home5.search&amp;quot;类似。如果将其中的搜索引擎url以视频url代替。此时浏览器会将“engine.search”作为视频直播频道列表文件，浏览器进入电视模式，启动就会全屏播放。</description>
     </item>
     <item>
       <title>定时脚本</title>
