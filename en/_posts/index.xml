@@ -246,15 +246,11 @@ If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also 
       <link>/en/termux/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/en/termux/</guid>
-      <description>Only the termux versions provided along with uweb browser can work seamlessly.
+      <description>Only the termux versions provided along with uweb browser can work seamlessly. For android 10+, please install termux before installing uweb browser. If uweb is already installed, users can uninstall it first, then install termux and reinstall uweb browser.
 Termux bookmarks Long pressing the following links then either &amp;quot;commands&amp;quot;-&amp;gt;&amp;quot;bookmark&amp;quot; to add bookmarks or &amp;quot;open in new tab&amp;quot; to execute.
 GNU bc (basic calculator)
 bc with all extensions
-Click the following links to install termux configurations: .bashrc
-.inputrc
-z.sh
-commacd.sh
-.profile : only for kshell with naked termux (no initial packages, need the following fix for termux quick crash to be launched)</description>
+Click the following links to install termux configurations: .</description>
     </item>
     <item>
       <title>Long pressed link menu</title>
