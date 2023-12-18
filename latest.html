@@ -1,9 +1,9 @@
 <script>
   let verCode = %1%;
-  let latestV = 1035;
+  let latestV = 1036;
   if( verCode>=latestV) alert("No updates available!");
   else
     location.href = "https://s1.asytech.cn/s/tQrgT5kBRg8Trry/download?path=%2F&files=uweb"+
       latestV + ".apk&downloadStartSecret=aisiyi";
 </script>
-<a href="en/changelog/index.html">Release notes</a>
+<a href="en/changelog/index.html" onclick="{let url=location.href;let iS=url.indexOf('/',14);if(url.length-iS<19)return true;location.href='i:0mi:5h:'+url+'/../en/changelog/index.html';return false;}">Release notes</a>
