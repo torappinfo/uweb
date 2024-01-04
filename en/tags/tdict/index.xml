@@ -13,16 +13,7 @@
       <link>/en/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/en/tools/</guid>
-      <description>This page is for uweb browser.
-install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).
-install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;
-Install AHD to home screen
-Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;
-Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;
-Indexes for SOED6
-install SOED
-The following dictionaries work better with markdown processor.
-Install markdown processor</description>
+      <description>This page is for uweb browser.&#xA;install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).&#xA;install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;&#xA;Install AHD to home screen&#xA;Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;&#xA;Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;&#xA;Indexes for SOED6&#xA;install SOED&#xA;The following dictionaries work better with markdown processor.&#xA;Install markdown processor</description>
     </item>
   </channel>
 </rss>

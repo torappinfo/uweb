@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>_posts on uweb browser: unlimited power</title>
+    <title>_Posts on uweb browser: unlimited power</title>
     <link>/en/_posts/</link>
-    <description>Recent content in _posts on uweb browser: unlimited power</description>
+    <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
@@ -13,82 +13,42 @@
       <link>/en/textprocess/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>/en/textprocess/</guid>
-      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:
-Copy selected text with html format to clipboard
-Search with home screen
-google Translate
-bing translate
-deepL
-The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:
-[Name]:[mimetype]:[command line]
-[mimetype] specifies input/output for [command line].</description>
+      <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:&#xA;Copy selected text with html format to clipboard&#xA;Search with home screen&#xA;google Translate&#xA;bing translate&#xA;deepL&#xA;The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:&#xA;[Name]:[mimetype]:[command line]&#xA;[mimetype] specifies input/output for [command line].</description>
     </item>
     <item>
       <title>Links</title>
       <link>/en/links/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/en/links/</guid>
-      <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):
-Capture long screenshot (need long screenshot mode)
-Select All:CTRL-A/undo:CTRL-Z/Redo:CTRL-Y
-Extend site cookies to 10 years
-Clear site cookies
-VPN
-Switch configuration
-Wait for network msg
-Certificate info
-Backup to box.com
-Restore from box.com
-upload to box.com
-More webdav link menu items
-Web fullscreen
-Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.</description>
+      <description>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):&#xA;Capture long screenshot (need long screenshot mode)&#xA;Select All:CTRL-A/undo:CTRL-Z/Redo:CTRL-Y&#xA;Extend site cookies to 10 years&#xA;Clear site cookies&#xA;VPN&#xA;Switch configuration&#xA;Wait for network msg&#xA;Certificate info&#xA;Backup to box.com&#xA;Restore from box.com&#xA;upload to box.com&#xA;More webdav link menu items&#xA;Web fullscreen&#xA;Long pressing the bookmark button in uweb browser will popup menus defined in file &amp;quot;default.</description>
     </item>
     <item>
       <title>cron</title>
       <link>/en/tcron/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/en/tcron/</guid>
-      <description>crontab (with enhanced semantics) For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.
-The sixth field in crontab file could be in the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly. If the sixth field is not in any of above formats, then the field will appear as the message of alarm clock.</description>
+      <description>crontab (with enhanced semantics) For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.&#xA;The sixth field in crontab file could be in the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly. If the sixth field is not in any of above formats, then the field will appear as the message of alarm clock.</description>
     </item>
     <item>
       <title>Offline resources</title>
       <link>/en/offlinecache/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <guid>/en/offlinecache/</guid>
-      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.
-bingChat UI Install bingChat UI ai.html for censored area (bingChat UI)
-Install bingWrite UI write.html for censored area (bingWrite)
-Install bingAI image creator UI draw.html for censored area (bingAI image creator)
-Serverless local sites Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.</description>
+      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.&#xA;bingChat UI Install bingChat UI ai.html for censored area (bingChat UI)&#xA;Install bingWrite UI write.html for censored area (bingWrite)&#xA;Install bingAI image creator UI draw.html for censored area (bingAI image creator)&#xA;Serverless local sites Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.</description>
     </item>
     <item>
       <title>Resource redirection</title>
       <link>/en/redirect/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <guid>/en/redirect/</guid>
-      <description>⚠️Redirection forwards cookies with the setting option &amp;quot;Redirect cookies&amp;quot; enabled, so use the options with care.
-Setting options: &amp;quot;Url redirection&amp;quot; vs. &amp;quot;Resource redirection&amp;quot; &amp;quot;Url redirection&amp;quot; redirects the main/page url only while &amp;quot;Resource redirection&amp;quot; is for all urls in the page.
-Global redirection Global redirection is enabled with the setting option &amp;quot;Resource redirection&amp;quot; or both &amp;quot;Url redirection&amp;quot; and &amp;quot;Redirect cookies&amp;quot;.
-When a valid global redirection url is set, the &amp;quot;default.redirect&amp;quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.</description>
+      <description>⚠️Redirection forwards cookies with the setting option &amp;quot;Redirect cookies&amp;quot; enabled, so use the options with care.&#xA;Setting options: &amp;quot;Url redirection&amp;quot; vs. &amp;quot;Resource redirection&amp;quot; &amp;quot;Url redirection&amp;quot; redirects the main/page url only while &amp;quot;Resource redirection&amp;quot; is for all urls in the page.&#xA;Global redirection Global redirection is enabled with the setting option &amp;quot;Resource redirection&amp;quot; or both &amp;quot;Url redirection&amp;quot; and &amp;quot;Redirect cookies&amp;quot;.&#xA;When a valid global redirection url is set, the &amp;quot;default.redirect&amp;quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.</description>
     </item>
     <item>
       <title>Hosts files</title>
       <link>/en/adblock_domain/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       <guid>/en/adblock_domain/</guid>
-      <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect with the setting option &amp;quot;use hosts&amp;quot;.
-hosts The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:
-[[IP address][attributes]][single space][domain name]
-where &amp;quot;[[IP address][attributes]]&amp;quot; could be:
-ipv4 address such as:
-172.67.157.211 torapp.eu.org
-ipv6 address, Ex.:
-[2606:4700:3037::6815:8c3] torapp.eu.org
-empty, that would lift all server-imposed limitations. Ex.:
-[single space]gitee.com
-which will make all git repositories on the domain visitable as websites with raw file access url.</description>
+      <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect with the setting option &amp;quot;use hosts&amp;quot;.&#xA;hosts The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:&#xA;[[IP address][attributes]][single space][domain name]&#xA;where &amp;quot;[[IP address][attributes]]&amp;quot; could be:&#xA;ipv4 address such as:&#xA;172.67.157.211 torapp.eu.org&#xA;ipv6 address, Ex.:&#xA;[2606:4700:3037::6815:8c3] torapp.eu.org&#xA;empty, that would lift all server-imposed limitations. Ex.:&#xA;[single space]gitee.com&#xA;which will make all git repositories on the domain visitable as websites with raw file access url.</description>
     </item>
     <item>
       <title>JS/CSS/HTML/preprocessing for domains</title>
@@ -102,204 +62,112 @@ which will make all git repositories on the domain visitable as websites with ra
       <link>/en/bookmark/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/bookmark/</guid>
-      <description>AI, chatgpt etc.
-andi freegpt teach-anything magickpen Wait for url from other devices
-berify: reverse image search for video
-Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.
-Install markdeep styling for markdown files
-Bookmarks with secrets (POST instead of GET) The internal link &amp;quot;i:a1[url]?</description>
+      <description>AI, chatgpt etc.&#xA;andi freegpt teach-anything magickpen Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.&#xA;Install markdeep styling for markdown files&#xA;Bookmarks with secrets (POST instead of GET) The internal link &amp;quot;i:a1[url]?</description>
     </item>
     <item>
       <title>Tips</title>
       <link>/en/tips/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/tips/</guid>
-      <description>Text processing for clipboard data:
-On home screen, pressing the sharing button of the bottom toolbar popups the text processing menu for clipboard data.
-To show web pages in desktop mode:
-PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.
-Playing audio when screen off
-Option &amp;quot;Floating video&amp;quot; + video fullscreen playing
-Multiple home screens and Next/Prev page:
-home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), .</description>
+      <description>Text processing for clipboard data:&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the text processing menu for clipboard data.&#xA;To show web pages in desktop mode:&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&#xA;Playing audio when screen off&#xA;Option &amp;quot;Floating video&amp;quot; + video fullscreen playing&#xA;Multiple home screens and Next/Prev page:&#xA;home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), .</description>
     </item>
     <item>
       <title>Address bar command line</title>
       <link>/en/acmd/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/acmd/</guid>
-      <description>&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.
-The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.</description>
+      <description>&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.&#xA;The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.</description>
     </item>
     <item>
       <title>Make any url as website</title>
       <link>/en/url2site/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/en/url2site/</guid>
-      <description>The uweb internal link &amp;quot;i:0m&amp;quot; make any url such as download or indirect link visitable as a website. The test mirrors in the uweb manual are examples using the following tricks:
-&amp;quot;i:0m04:[url]&amp;quot;: to treat the [url] content as html with bookmarklet. &amp;quot;i:0m?:[url]&amp;quot;: to treat the [url] content as html, handling css/js properly. &amp;quot;i:0m?[postfix]:[url]&amp;quot;: auto append query postfix to url to retrieve content. &amp;quot;i:0mi:5h:[url]&amp;quot;: similar to &amp;quot;i:0m?:[url]&amp;quot;, to treat the [url] content as html (for download or no-script links etc.</description>
+      <description>The uweb internal link &amp;quot;i:0m&amp;quot; make any url such as download or indirect link visitable as a website. The test mirrors in the uweb manual are examples using the following tricks:&#xA;&amp;quot;i:0m04:[url]&amp;quot;: to treat the [url] content as html with bookmarklet. &amp;quot;i:0m?:[url]&amp;quot;: to treat the [url] content as html, handling css/js properly. &amp;quot;i:0m?[postfix]:[url]&amp;quot;: auto append query postfix to url to retrieve content. &amp;quot;i:0mi:5h:[url]&amp;quot;: similar to &amp;quot;i:0m?:[url]&amp;quot;, to treat the [url] content as html (for download or no-script links etc.</description>
     </item>
     <item>
       <title>Html5 applications</title>
       <link>/en/html5/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/en/html5/</guid>
-      <description>This page is for uweb browser.
-Click to install the following html5 apps:
-Huge markdown file viewer
-Huge markdown+katex file viewer (Tex formulas)
-Huge markdeep file viewer (markdown, latex, diagram,graphviz etc.)
-plyr video player
-dplayer video player
-pdf viewer
-epub reader (author：llili)
-djvu viewer
-The corresponding menus can be installed with url services.
-Features The following mentioned subfolders locate in the configuration folder.
-The following html5 applications are allowed to read local files referred by &amp;quot;https://local/sdcard/.</description>
+      <description>This page is for uweb browser.&#xA;Click to install the following html5 apps:&#xA;Huge markdown file viewer&#xA;Huge markdown+katex file viewer (Tex formulas)&#xA;Huge markdeep file viewer (markdown, latex, diagram,graphviz etc.)&#xA;plyr video player&#xA;dplayer video player&#xA;pdf viewer&#xA;epub reader (author：llili)&#xA;djvu viewer&#xA;The corresponding menus can be installed with url services.&#xA;Features The following mentioned subfolders locate in the configuration folder.&#xA;The following html5 applications are allowed to read local files referred by &amp;quot;https://local/sdcard/.</description>
     </item>
     <item>
       <title>Configuration folders/files</title>
       <link>/en/filenames/</link>
       <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/filenames/</guid>
-      <description>All folders end with character &amp;quot;/&amp;quot; and others are files. All folders/files locate in &amp;quot;/data/data/info.torapp.uweb/files&amp;quot;:
-&amp;quot;css/&amp;quot;: global css folder
-&amp;quot;js/&amp;quot;: global script folder
-&amp;quot;sitejs/&amp;quot;: script folder for domains
-&amp;quot;sitecss/&amp;quot;:CSS folder for domains
-&amp;quot;bookmarklet/&amp;quot;:bookmarklets, long pressing the &amp;quot;JS&amp;quot; button to execute.
-&amp;quot;offline/&amp;quot;: to save offline pages
-&amp;quot;sbookmark/&amp;quot;: to save super bookmarks
-&amp;quot;sitecache/&amp;quot;:offline cache
-&amp;quot;longclick/&amp;quot;: menus to appear when long-pressing hypertext (js files)
-&amp;quot;icon/&amp;quot;:customized icons
-&amp;quot;app[XXX]/&amp;quot;:html5 applications
-&amp;quot;default.longclick&amp;quot;: to configure menus when long-pressing hypertext.</description>
+      <description>All folders end with character &amp;quot;/&amp;quot; and others are files. All folders/files locate in &amp;quot;/data/data/info.torapp.uweb/files&amp;quot;:&#xA;&amp;quot;css/&amp;quot;: global css folder&#xA;&amp;quot;js/&amp;quot;: global script folder&#xA;&amp;quot;sitejs/&amp;quot;: script folder for domains&#xA;&amp;quot;sitecss/&amp;quot;:CSS folder for domains&#xA;&amp;quot;bookmarklet/&amp;quot;:bookmarklets, long pressing the &amp;quot;JS&amp;quot; button to execute.&#xA;&amp;quot;offline/&amp;quot;: to save offline pages&#xA;&amp;quot;sbookmark/&amp;quot;: to save super bookmarks&#xA;&amp;quot;sitecache/&amp;quot;:offline cache&#xA;&amp;quot;longclick/&amp;quot;: menus to appear when long-pressing hypertext (js files)&#xA;&amp;quot;icon/&amp;quot;:customized icons&#xA;&amp;quot;app[XXX]/&amp;quot;:html5 applications&#xA;&amp;quot;default.longclick&amp;quot;: to configure menus when long-pressing hypertext.</description>
     </item>
     <item>
       <title>AD blocking</title>
       <link>/en/adblock/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/adblock/</guid>
-      <description>Host blocking。
-Use bookmarklet &amp;quot;list all script urls&amp;quot; to generate url links, long pressing dubious script (usually 3rd-party library) link, click &amp;quot;Block domain root&amp;quot;. Javascript and CSS for domains。
-Long press the button &amp;quot;js&amp;quot;, click the menu &amp;quot;MarkAD mode&amp;quot;. In &amp;quot;markAD mode&amp;quot;, click page element to show all attributes and generate CSS AD blocking styles. By default, &amp;quot;display:none&amp;quot; is used. If &amp;quot;display&amp;quot; appears in the attribute information, recommend to use &amp;quot;transform:scale(0)!</description>
+      <description>Host blocking。&#xA;Use bookmarklet &amp;quot;list all script urls&amp;quot; to generate url links, long pressing dubious script (usually 3rd-party library) link, click &amp;quot;Block domain root&amp;quot;. Javascript and CSS for domains。&#xA;Long press the button &amp;quot;js&amp;quot;, click the menu &amp;quot;MarkAD mode&amp;quot;. In &amp;quot;markAD mode&amp;quot;, click page element to show all attributes and generate CSS AD blocking styles. By default, &amp;quot;display:none&amp;quot; is used. If &amp;quot;display&amp;quot; appears in the attribute information, recommend to use &amp;quot;transform:scale(0)!</description>
     </item>
     <item>
       <title>Bookmarklets</title>
       <link>/en/bookmarklet/</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/bookmarklet/</guid>
-      <description>With a href=&amp;quot;../index.html&amp;quot;&amp;gt;uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.
-List all script urls
-User agent
-Cookie
-Source code
-Last modified date
-Eruda: mobile console
-QR code generation
-Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;
-Shows all form elements
-Enables all form elements
-Toggle checkboxes
-Check all checkboxes
-Uncheck all checkboxes
-Toggle all checkboxes in forms
-Enable selection</description>
+      <description>With a href=&amp;quot;../index.html&amp;quot;&amp;gt;uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.&#xA;List all script urls&#xA;User agent&#xA;Cookie&#xA;Source code&#xA;Last modified date&#xA;Eruda: mobile console&#xA;QR code generation&#xA;Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;&#xA;Shows all form elements&#xA;Enables all form elements&#xA;Toggle checkboxes&#xA;Check all checkboxes&#xA;Uncheck all checkboxes&#xA;Toggle all checkboxes in forms&#xA;Enable selection</description>
     </item>
     <item>
       <title>CSS styles</title>
       <link>/en/globalcss/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       <guid>/en/globalcss/</guid>
-      <description>Uweb browser loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;css&amp;quot; as global css. Click the following links to install global css files:
-Clearing font settings
-The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:
-webview 81+ night mode
-webview 80- night mode
-Earliest loaded global js The &amp;quot;.js&amp;quot; files under the folder &amp;quot;css&amp;quot; are loaded as earlier as possible on the page.</description>
+      <description>Uweb browser loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;css&amp;quot; as global css. Click the following links to install global css files:&#xA;Clearing font settings&#xA;The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:&#xA;webview 81+ night mode&#xA;webview 80- night mode&#xA;Earliest loaded global js The &amp;quot;.js&amp;quot; files under the folder &amp;quot;css&amp;quot; are loaded as earlier as possible on the page.</description>
     </item>
     <item>
       <title>Toolbar customization</title>
       <link>/en/icons/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
       <guid>/en/icons/</guid>
-      <description>If subfolder &amp;quot;icon&amp;quot; exists, then files named as &amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...
-are used for icons in the bottom toolbar. file &amp;quot;0&amp;quot; to replace the left arrow button, &amp;quot;1&amp;quot; for right arrow button, &amp;quot;2&amp;quot; for the setting button,&amp;quot;3&amp;quot; for the home screen button,...
-If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also supports VectorDrawable with &amp;quot;android compiled XML&amp;quot; format. All icon files must be either all compiled VectorDrawables or common image formats.</description>
+      <description>If subfolder &amp;quot;icon&amp;quot; exists, then files named as &amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...&#xA;are used for icons in the bottom toolbar. file &amp;quot;0&amp;quot; to replace the left arrow button, &amp;quot;1&amp;quot; for right arrow button, &amp;quot;2&amp;quot; for the setting button,&amp;quot;3&amp;quot; for the home screen button,...&#xA;If a new button is defined (file name &amp;quot;20&amp;quot; exists), uweb also supports VectorDrawable with &amp;quot;android compiled XML&amp;quot; format. All icon files must be either all compiled VectorDrawables or common image formats.</description>
     </item>
     <item>
       <title>Search engine files</title>
       <link>/en/searchcat/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/en/searchcat/</guid>
-      <description>Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:
-[Engine name]:[url without &#39;%s&#39; inside]
-[Engine name]:[url with &#39;%s&#39; as keyword]
-[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]
-[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]
-[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt Limitations (they are here for performance reasons):</description>
+      <description>Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:&#xA;[Engine name]:[url without &#39;%s&#39; inside]&#xA;[Engine name]:[url with &#39;%s&#39; as keyword]&#xA;[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt Limitations (they are here for performance reasons):</description>
     </item>
     <item>
       <title>Termux</title>
       <link>/en/termux/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/en/termux/</guid>
-      <description>Only the termux versions provided along with uweb browser can work seamlessly. For android 10+, please install termux before installing uweb browser. If uweb is already installed, users can uninstall it first, then install termux and reinstall uweb browser.
-Termux bookmarks Long pressing the following links then either &amp;quot;commands&amp;quot;-&amp;gt;&amp;quot;bookmark&amp;quot; to add bookmarks or &amp;quot;open in new tab&amp;quot; to execute.
-GNU bc (basic calculator)
-bc with all extensions
-Click the following links to install termux configurations: .</description>
+      <description>Only the termux versions provided along with uweb browser can work seamlessly. For android 10+, please install termux before installing uweb browser. If uweb is already installed, users can uninstall it first, then install termux and reinstall uweb browser.&#xA;Termux bookmarks Long pressing the following links then either &amp;quot;commands&amp;quot;-&amp;gt;&amp;quot;bookmark&amp;quot; to add bookmarks or &amp;quot;open in new tab&amp;quot; to execute.&#xA;GNU bc (basic calculator)&#xA;bc with all extensions&#xA;Click the following links to install termux configurations: .</description>
     </item>
     <item>
       <title>Long pressed link menu</title>
       <link>/en/longclick/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/en/longclick/</guid>
-      <description>To run commands Each line of file &amp;quot;default.longclick&amp;quot; has the following format: (same as default.cmds)
-[Name]:[mimetype]:[command line]
-in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.
-To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;longclick&amp;quot; are part of the popup menu.
-These javascript files are in the following format:
-The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
+      <description>To run commands Each line of file &amp;quot;default.longclick&amp;quot; has the following format: (same as default.cmds)&#xA;[Name]:[mimetype]:[command line]&#xA;in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.&#xA;To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;longclick&amp;quot; are part of the popup menu.&#xA;These javascript files are in the following format:&#xA;The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
     </item>
     <item>
       <title>Tools</title>
       <link>/en/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/en/tools/</guid>
-      <description>This page is for uweb browser.
-install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).
-install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;
-Install AHD to home screen
-Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;
-Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;
-Indexes for SOED6
-install SOED
-The following dictionaries work better with markdown processor.
-Install markdown processor</description>
+      <description>This page is for uweb browser.&#xA;install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).&#xA;install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;&#xA;Install AHD to home screen&#xA;Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;&#xA;Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;&#xA;Indexes for SOED6&#xA;install SOED&#xA;The following dictionaries work better with markdown processor.&#xA;Install markdown processor</description>
     </item>
     <item>
       <title>Custom file handling</title>
       <link>/en/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/en/filecap/</guid>
-      <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.
-The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:
-[file extension]:[mimetype]:[command line]
-The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.
-&amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.
-&amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
+      <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.&#xA;The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:&#xA;[file extension]:[mimetype]:[command line]&#xA;The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.&#xA;&amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.&#xA;&amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
     </item>
     <item>
       <title>Gestures</title>
       <link>/en/gesture/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/en/gesture/</guid>
-      <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.
-Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.
-Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
+      <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.&#xA;Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.&#xA;Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
     </item>
   </channel>
 </rss>

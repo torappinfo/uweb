@@ -54,6 +54,16 @@
 The day of a command's execution can be specified by two fields — day of month, and day of week. The command will be run when <span style="color:red">both</span> fields matche the current time.</p>
 <p>Note (the original crantab semantics):<br>
 The day of a command's execution can be specified by two fields — day of month, and day of week. If both fields are restricted (i.e., aren't *), the command will be run when either field matches the current time. For example, ``30 4 1,15 * 5'' would cause a command to be run at 4:30 am on the 1st and 15th of each month, plus every Friday.</p>
+<h5 id="make-crontab-persist-after-os-rebooting">make crontab persist after OS rebooting</h5>
+<p>If uweb browser was launched at least once after rebooting, the crontab jobs are scheduled as normal.</p>
+<p>To keep crontab take effect without launching uweb browser once:</p>
+<ul>
+<li>Install the &quot;com.termux.boot&quot; and &quot;com.termux&quot; Apps.</li>
+<li>Create an executable file in termux under the folder &quot;~/.termux/boot/&quot; containing the two lines:<br>
+#!/data/data/com.termux/files/usr/bin/sh<br>
+am broadcast -n info.torapp.uweb/.AlarmReceiver --es uweb.line &quot;&quot;</li>
+<li>Launch &quot;com.termux.boot&quot; once.</li>
+</ul>
 <h4 id="tcron">tcron</h4>
 <p>With the option &quot;custom file handling&quot; enabled, &quot;default.rc&quot; runs as shell script at uweb launching time and &quot;default.rc2&quot; runs whenever uweb becomes foreground.</p>
 <p>Use tcron (<a href="i:0bhttps://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/tcron.tgz">Click to install</a>) with &quot;default.rc&quot; or &quot;default.rc2&quot;.</p>
@@ -73,7 +83,7 @@ tcron /sdcard/b &quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&quot; 720</p
 <p><a target="_self" href="i:0hdefault.rc:../searchurl/txt/default.rc">Install example default.rc file for termux</a></p>
 
 </div>
-<p>Last Modified: 23 November 2023<br>
+<p>Last Modified: 4 January 2024<br>
 remove deploy.sh<br>
 <pre></pre>
 </p>
