@@ -47,7 +47,7 @@
   <ul class="tags">
     
   </ul>
-  <p><a href="../index.html">超微浏览器</a>下点击配置链接可自动添加常用命令，<b>强制清空后台重启后</b>长按历史按钮可用。</p>
+  <p><a href="/zh/">超微浏览器</a>下点击配置链接可自动添加常用命令，<b>强制清空后台重启后</b>长按历史按钮可用。</p>
 <p><a href="i:0gdefault.cmds:https://cdn.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/txt/cmds.cfg">打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等</a></p>
 <p>配置文件&quot;default.cmds&quot;示例：</p>
 <p><a href="i:03清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
@@ -82,8 +82,8 @@
 <p><a href="i:03hosts去重::toybox tac /data/data/info.torapp.uweb/files/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.hosts">hosts去重::toybox tac /data/data/info.torapp.uweb/files/default.hosts|awk -F' ' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.hosts</a></p>
 <p><a href="i:03网站设置去重::toybox tac /data/data/info.torapp.uweb/files/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.siteconf">网站设置去重::toybox tac /data/data/info.torapp.uweb/files/default.siteconf|awk -F':' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.siteconf</a></p>
 <p><a href="i:03代理8888:termux/*:tinyproxy;am start -a android.settings.WIFI_SETTINGS">代理8888:termux/*:tinyproxy;am start -a android.settings.WIFI_SETTINGS</a></p>
-<p><a href="i:03剪贴板_至PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'">剪贴板_至PC:clip:ssh <a href="mailto:fengcao@192.168.2.120">fengcao@192.168.2.120</a> 'DISPLAY=:0 xsel -i'</a></p>
-<p><a href="i:03剪贴板_从PC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'">剪贴板_从PC:/clip:ssh <a href="mailto:fengcao@192.168.2.120">fengcao@192.168.2.120</a> 'DISPLAY=:0 xsel -o'</a></p>
+<p><a href="i:03剪贴板_至PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'">剪贴板_至PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'</a></p>
+<p><a href="i:03剪贴板_从PC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'">剪贴板_从PC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'</a></p>
 <p><a href="i:03剪贴板广播:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast">剪贴板广播:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast</a></p>
 <p><a href="i:03剪贴板_从广播:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'">剪贴板_从广播:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'</a></p>
 <p><a href="i:03剪贴板_二维码:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png">剪贴板_二维码:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png</a></p>

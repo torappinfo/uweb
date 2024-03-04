@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Feb 2024 19:58:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2024 00:15:09 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -69,7 +69,7 @@
       <link>/en/bookmark/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/bookmark/</guid>
-      <description>AI, chatgpt etc.&#xA;komo andi devv.ai freegpt teach-anything magickpen Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.&#xA;Install markdeep styling for markdown files&#xA;Bookmarks with secrets (POST instead of GET) The internal link &amp;quot;i:a1[url]?</description>
+      <description>AI, chatgpt etc.&#xA;komo andi devv.ai poe freegpt teach-anything magickpen Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.&#xA;Install markdeep styling for markdown files&#xA;Bookmarks with secrets (POST instead of GET) The internal link &amp;quot;i:a1[url]?</description>
     </item>
     <item>
       <title>Tips</title>
@@ -210,13 +210,6 @@
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/en/gesture/</guid>
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.&#xA;Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.&#xA;Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>/en/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/readme/</guid>
-      <description>Uweb browser: unlimited power 中文&#xA;Amazon appstore&#xA;Galaxy.Store&#xA;Downloads&#xA;Uweb browser: downloads, plugins and tips&#xA;(Mirrors: gitlab codeberg repo 4everland fleek netlify surge kinsta bitbucket pages vercel render)&#xA;Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux. Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Recent content on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 26 Feb 2024 19:42:04 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2024 00:38:38 +0800</lastBuildDate>
     <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电视直播</title>
@@ -111,7 +111,7 @@
       <link>/zh/bookmark/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>/zh/bookmark/</guid>
-      <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。&#xA;web&#xA;AI/chatGPT:&#xA;天工 carrot ainav 网络剪贴板&#xA;txtpad&#xA;cmd.im&#xA;Wait for url from other devices&#xA;gamezop&#xA;Personal use 2&#xA;分类书签模板 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。&#xA;&amp;quot;小说.html&amp;quot;: 自动使用阅读模式&#xA;href=&amp;quot;i:0hbookmark/txt.html:../searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)&#xA;Mirrors Mirror list&#xA;zlibirary&#xA;mirror.js.org&#xA;Termux命令书签 以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。&#xA;需安装定制版termux及相应工具，&#xA;计算器bc&#xA;全能计算器bc&#xA;以下书签需安装gopher.&#xA;CNN news gopher&#xA;wikipedia search gopher&#xA;reddit gopher</description>
+      <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。&#xA;web&#xA;AI/chatGPT:&#xA;天工 kimi 网络剪贴板&#xA;txtpad&#xA;cmd.im&#xA;Wait for url from other devices&#xA;gamezop&#xA;Personal use 2&#xA;分类书签模板 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。&#xA;&amp;quot;小说.html&amp;quot;: 自动使用阅读模式&#xA;href=&amp;quot;i:0hbookmark/txt.html:../searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)&#xA;Mirrors Mirror list&#xA;zlibirary&#xA;mirror.js.org&#xA;Termux命令书签 以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。&#xA;需安装定制版termux及相应工具，&#xA;计算器bc&#xA;全能计算器bc&#xA;以下书签需安装gopher.&#xA;CNN news gopher&#xA;wikipedia search gopher&#xA;reddit gopher</description>
     </item>
     <item>
       <title>利用用户自定义样式屏蔽不良信息</title>
@@ -224,13 +224,6 @@
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/zh/cmd/</guid>
       <description>技巧等级：中级 PC剪贴板(高级)&#xA;uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。&#xA;手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。&#xA;预定义命令保存在文件&amp;quot;default.cmds&amp;quot;中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。&#xA;资深用户可能注意到文件名与default.acmd类似。default.acmd中的命令适合以不同的参数反复执行；而default.cmds一般以单次执行为多。default.acmd结果会显示在浏览器当前窗口；而default.cmds中命令执行结果会显示在新窗口之中。这两个文件格式也完全相同，每行格式如下：&#xA;[命令名称]:[mimetype]:[命令代码]&#xA;命令代码可以是任意命令，其中可以包含%c（当前网址cookie）、%s (地址栏输入)、 %t (当前窗口标题)、 %u (当前窗口url或文件路径)。执行时这些特殊标识将会被相应内容自动替换。&#xA;mimetype用来表示命令的输出类型。除了标准的mimetype之外，超微对此还作了扩充，便利与剪贴板交互。下面是扩充版的mimetype：&#xA;&amp;quot;clip/clip&amp;quot; : 以剪贴板作为命令输入，输出结果复制到剪贴板。&#xA;&amp;quot;/clip&amp;quot; : 输出结果复制到剪贴板。&#xA;&amp;quot;clip/text/html&amp;quot; : 以剪贴板作为命令输入，输出结果mimetype类型为“text/html”。&#xA;&amp;quot;termux/*&amp;quot;: 在termux中执行命令。&#xA;&amp;quot;/uweb&amp;quot;: 输出结果作为链接来处理。&#xA;下面是笔者使用的default.cmds配置（命令具体解释）：&#xA;复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34; </description>
-    </item>
-    <item>
-      <title></title>
-      <link>/zh/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/readme/</guid>
-      <description>超微浏览器 (uweb browser): 释放无尽威能，微、威、快、高效、极致优化 English&#xA;捐赠&#xA;Amazon appstore&#xA;下载&#xA;超微浏览器下载及使用技巧&#xA;(备用镜像: gitlab repo codeberg 4everland cyclic github fleek render surge netlify kinsta bitbucket torapp torappv glitch pages vercel)&#xA;免魔法国内直接使用google翻译 微：不到200K。 威：无穷无尽的功能，使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。 快：手机越慢，脚本插件越多越明显。 高效：最少的操作，在线服务全自动（参看常用链接网页）。 极致优化：最少存储写操作，比如浏览器转到后台前配置变化如恢复成原样则无写操作。 地址栏支持命令行 (&amp;quot;!&amp;quot;, 物理键盘支持更佳) 指定域名: 用户定义JS/CSS/HTML/显示前源码预处理 支持用户定义域名属性。 下载资源在线播放/预览/预处理。 独立切换网站登录、配置文件。 支持网站测试自动化脚本 (可用于app服务端测试)。支持crontab(闹钟等)。 截屏 软件功能 输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、代码编辑器（支持120多种语言，语法高亮、错误提示、自动提示、直接运行测试、其它网页上直接测试）。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。&#xA;修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫&amp;quot;超级书签&amp;quot;。成功使用时保存，需要时就可以无限恢复。(比如newbing/chatGPT的直接使用)&#xA;小书签(bookmarklet)再也不用手工输入，直接将小书签网站加入书签即可。运行时长按出菜单后选择“在新窗口中打开”，小书签将作用于最后一个窗口。&#xA;独创不良信息绝杀：阻止指定根域名的一切子域名、孙域名...，不良信息一网打尽。 支持根域名前缀、网址路径正则表达式。&#xA;独创脚本激活模式，脚本执行后被激活，此后自动作用于同类网址。&#xA;支持全局用户脚本/样式，可任意叠加，轻松切换。&#xA;支持网址特定脚本/样式，可轻松支持百万以上不同脚本。&#xA;支持自定义任意多个搜索引擎; 支持执行用户提供任何js文件; 支持用户定义任意多个useragent; 长按链接支持运行第三方程序; 长按链接支持运行用户js文件。&#xA;配套安装uWeb定制Termux应用，可用地址栏作图（类似matlab功能）、超级计算器（无限精度/π的前万位或更多、无限函数、无限常量）、符号演算（解方程、分解因式、求积分导数）、离线字典查找等。譬如地址栏输入sin(x)**5就直接得到函数图形。利用好第三方代码，才能真正发挥出uWeb的潜能。</description>
     </item>
     <item>
       <title>分类多引擎搜索</title>
