@@ -49,8 +49,7 @@
   </ul>
   <p><strong>免魔法国内直接使用系列</strong><br>
 <a href="../redirect/index.html">使用重定向访问国外技术网址</a><br>
-<a href="../rjs/index.html">google翻译</a><br>
-<a href="/zh/tips/#newbing">newbing/chatgpt/必应写作/AI画图</a></p>
+<a href="../rjs/index.html">google翻译</a></p>
 <p><strong>目录配置及使用外部文件管理器</strong><br>
 超微浏览器可以将配置目录或子目录符号链接至任意外部公共目录。安装有定制termux的用户也可以使用移动设备自带或第三方文件管理器管理超微内部指定目录。具体配置可见<a href="../../en/acmd/index.html">Shell command mode</a>。</p>
 <p><strong>准确显示PC网页</strong>:<br>
@@ -66,41 +65,10 @@ UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA
 <p><strong>快速编辑文件</strong><br>
 在浏览器文件管理器中长按文件名，弹出菜单中选择分享，系统会优先弹出相应的文件编辑器。<br>
 <a href="../filenames">配置文件列表</a>中直接点击文件名即可编辑。</p>
-<h4 id="a-idnewbinga免魔法直接使用newbingchatgpt必应写作ai画图"><a id="newbing"></a>免魔法直接使用newbing/chatgpt/必应写作/AI画图</h4>
-<p>总要求：长按底部&quot;PC&quot;按钮选择user-agent为&quot;edge&quot;。用户需登录微软网站比如cn.bing.com，帐号已经开通newbing。</p>
-<ul>
-<li>
-<p>方法1(不再维护):</p>
-<ul>
-<li>
-<p>点击一键安装<a href="i:b1%0AInstall bing chat UI%0A%0Ai:0hsitecache/www.bing.com/ai.html:../../en/searchurl/bingAI/bing.html%0AInstall bing compose UI%0A%0Ai:0hsitecache/www.bing.com/write.html:../../en/searchurl/bingAI/write.html%0AInstall bing Draw UI%0A%0Ai:0hsitecache/www.bing.com/draw.html:../../en/searchurl/bingAI/draw.html%0AConfig hosts%0A空格后为魔法域名，请按需修改%0Ai:0ghosts::www.bing.com;Access-Control-Allow-Origin;https://www.bing.com mybing.xn--xyza.top%0a%0Ai:52:https://www.bing.com/ai.html%0Ai:52:https://www.bing.com/write.html%0Ai:52:https://www.bing.com/draw.html">必应AI</a></p>
-</li>
-<li>
-<p>或者分步安装:<br>
-安装界面html, <a href="../../en/offlinecache/index.html">bingChat &amp; Write自带魔法直接界面</a></p>
-<p>hosts文件内添加一行（允许发送cookie至魔法url）:<br>
-<a href="i:0ghosts::www.bing.com;Access-Control-Allow-Origin;https://www.bing.com;Access-Control-Allow-Credentials;true mybing2.xn--xyza.top%0A">Click to append to &quot;hosts&quot;, edit the last part as magic url domain</a></p>
-</li>
-<li>
-<p>使用: 勾选选项“使用离线缓存”, &quot;使用hosts&quot;<br>
-点击界面入口<br>
-可配置<a href="https://gitee.com/jja8/NewBingGoGo/issues/I6S6BH">魔法url</a>, 上述hosts文件作相应修改。 <a href="https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/%E5%88%9B%E5%BB%BA%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5/%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E7%9A%84%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E5%95%86%E5%88%9B%E5%BB%BA%E9%AD%94%E6%B3%95%E9%93%BE%E6%8E%A5.md">详情</a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>方法2: 可以采用超级书签/直接界面+脚本+hosts。<br>
-其中超级书签固定bingchat入口。<br>
-<a href="../../en/sitejs/index.html">脚本</a>重定向api至魔法师.<br>
-<a href="../../en/adblock_domain/index.html">hosts</a>防污染。</p>
-<p>bingChat能够正常使用时保存为超级书签 (长按底部右箭头按钮)，下次再次需要使用时恢复即可 (按设置按钮然后点击超级书签链接)。<br>
-修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫&quot;超级书签&quot;。成功使用newbing时保存，需要时就可以无限恢复。</p>
-</li>
-</ul>
 
 </div>
-<p>Last Modified: 29 July 2023<br>
-enhance termux.md<br>
+<p>Last Modified: 5 March 2024<br>
+cleanup tips<br>
 <pre></pre>
 </p>
 <script>
