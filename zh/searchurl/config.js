@@ -13,16 +13,21 @@ let sa = [`<head><meta charset="utf-8"><meta name="viewport" content="width=devi
 <option value="monospace">
 <option value="cursive">
 </datalist>
-<form onsubmit="let d=document;let f=d.forms[0];d.location.href='i:b1保存配置%0A%0Ai:8lconfig.html%0Ai:0i/data/data/info.torapp.uweb/files/config.html:'
-+f.redirecturl.value+
-'&'+ f.downloadpath.value+
-'&'+ f.font.value+
-'&'+ f.cursive.value +
-'&'+ f.fantasy.value +
-'&'+ f.fixed.value +
-'&'+ f.sansserif.value +
-'&'+ f.serif.value +
-':https://jamesfengcao.codeberg.page/zh/searchurl/template/config.html';return false;" accept-charset=utf-8 >`];
+<script>
+function save(){
+  let d=document;let f=d.forms[0];
+  let inputs = Array.from(f.querySelectorAll('input')).map(input => input.value);
+  inputs.pop();
+  inputs.push('<script charset="utf-8" src="https://jamesfengcao.codeberg.page/zh/searchurl/config.js"><\\/script>');
+  let str = inputs.join('\\n');
+  const encoder = new TextEncoder();
+  const bytes = encoder.encode(str);
+  let url = 'i:b1保存配置%0A%0Ai:8lconfig.html%0Ai:0lconfig.html:'+btoa(bytes);
+  d.location.href=url;
+  return false;
+}
+</script>
+<form onsubmit="return save()" accept-charset=utf-8 >`];
 
 function gen(text) {
   let strs = text.split('\n');
