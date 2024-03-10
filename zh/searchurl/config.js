@@ -20,9 +20,7 @@ function save(){
   inputs.pop();
   inputs.push('<script charset="utf-8" src="https://jamesfengcao.codeberg.page/zh/searchurl/config.js"><\\/script>');
   let str = inputs.join('\\n');
-  const encoder = new TextEncoder();
-  const bytes = encoder.encode(str);
-  let url = 'i:b1保存配置%0A%0Ai:8lconfig.html%0Ai:0lconfig.html:'+btoa(bytes);
+  let url = 'i:b1保存配置%0A%0Ai:8lconfig.html%0Ai:0lconfig.html:'+btoa(str);
   d.location.href=url;
   return false;
 }
