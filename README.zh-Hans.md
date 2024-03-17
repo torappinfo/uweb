@@ -9,7 +9,7 @@
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
 (备用镜像: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app/zh/) [zeabur](https://uweb.zeabur.app/zh/) [github](https://torappinfo.github.io/uweb/zh/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [pages](https://muweb.pages.dev/zh/) [vercel](https://uweb.vercel.app/zh/))
 
-- <span  style="color:red">免魔法国内直接使用google翻译</span>
+- <span  style="color:red">免魔法国内直接使用<a href="https://uweb.zeabur.app/zh/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html')){location='../tips/index.html';return false;}}">google翻译等</a></span>
 - 微：不到200K。
 - 威：无穷无尽的功能，使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。
 - 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
