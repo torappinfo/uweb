@@ -6,7 +6,7 @@
     <description>Recent content in Topposts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Mar 2024 14:38:41 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2024 17:54:44 +0800</lastBuildDate>
     <atom:link href="/en/topposts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search engines</title>
@@ -20,7 +20,7 @@
       <link>/en/changelog/</link>
       <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
       <guid>/en/changelog/</guid>
-      <description>Amazon appstore&#xA;Galaxy.Store&#xA;uweb, termux &amp;amp; history versions&#xA;github&#xA;sourceforge&#xA;powerfolder&#xA;udrop&#xA;pagure&#xA;mcbebbs&#xA;Main features Change logs 1036: TV mode: reuse &amp;quot;engine.search&amp;quot; as live TV channel urls.&#xA;1034: click share button on homescreen to process clipboard text.&#xA;1030: Allow downloading with global redirection&#xA;1026: Test automation: enable i:0 urls in scripting mode&#xA;1017: crontab alarm clock and links as sixth field.&#xA;1008: Add long screenshot mode&#xA;1006: Advanced configuration: auto reload, download path</description>
+      <description>Amazon appstore&#xA;Galaxy.Store&#xA;uweb, termux &amp;amp; history versions&#xA;github&#xA;sourceforge&#xA;powerfolder&#xA;udrop&#xA;pagure&#xA;mcbebbs&#xA;Main features Change logs 1038: support chatBot as search engine with url &amp;quot;i:0/js/hash2textarea.js:https://XXX&amp;quot;&#xA;1036: TV mode: reuse &amp;quot;engine.search&amp;quot; as live TV channel urls.&#xA;1034: click share button on homescreen to process clipboard text.&#xA;1030: Allow downloading with global redirection&#xA;1026: Test automation: enable i:0 urls in scripting mode&#xA;1017: crontab alarm clock and links as sixth field.</description>
     </item>
     <item>
       <title>Configuration</title>
