@@ -42,7 +42,7 @@
   let ogtitleMeta = document.querySelector("meta[property='og:title'],meta[name='og:title']");
   attrs['og:title'] = ogtitleMeta ? ogtitleMeta.content : '';
   document.head.insertAdjacentHTML('afterbegin', "<style>.Gissues{position:relative;box-sizing:border-box;width:100%;margin-left:auto;margin-right:auto;}.Gissues-frame{position:absolute;left:0;right:0;width:1px;min-width:100%;max-width:100%;height:100%;border:0;}</style>");
-  let Origin = "https://gissues.gitee.io";
+  let Origin = "https://cleve.gitee.io/gissues";
   let url = Origin + "/Gissues.html";
   script.insertAdjacentHTML('afterend', "<div class='Gissues'><iframe class='Gissues-frame' title='Comments' scrolling='no' src='" + url + "?" + (0, param)(attrs) + "'></iframe></div>");
   let container = script.nextElementSibling;
