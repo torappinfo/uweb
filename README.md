@@ -1,3 +1,6 @@
+---
+title: About uweb browser
+---
 ### Uweb browser: unlimited power
 <a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html'||u.endsWith('readme/'))){location='../../zh/readme/index.html';return false;}}">中文</a>
 

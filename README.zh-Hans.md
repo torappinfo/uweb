@@ -1,3 +1,6 @@
+---
+title: 超微浏览器简介
+---
 ### 超微浏览器 (uweb browser): 释放无尽威能，微、威、快、高效、极致优化
 <a href="README.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../en/readme/index.html';return false;}}">English</a>
 <a href="zh/donate.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../searchurl/donate.html';return false;}}">捐赠</a>
