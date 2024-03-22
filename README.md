@@ -1,5 +1,5 @@
 ### Uweb browser: unlimited power
-<a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html'||u.endsWith('readme/'))){location='../../zh/readme/index.html';return false;}}">中文</a>
+<a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../zh/readme/index.html';return false;}}">中文</a>
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 [Galaxy.Store](https://galaxy.store/uweb)
@@ -7,7 +7,7 @@
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/)
-<a href="en/mirrors.md" onclick="{let u=location.href; if(u.endsWith('index.html'||u.endsWith('readme/'))){location='../../assets/help_en.html';return false;}}">mirrors for uweb only</a>)
+<a href="en/mirrors.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../assets/help_en.html';return false;}}">mirrors for uweb only</a>)
 
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
