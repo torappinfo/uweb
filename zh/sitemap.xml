@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>/zh/</loc>
-    <lastmod>2024-03-21T18:43:14+08:00</lastmod>
+    <lastmod>2024-03-22T16:35:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -498,6 +498,19 @@
     <loc>/zh/cmd/</loc>
     <lastmod>2023-12-01T15:55:00+08:00</lastmod>
   </url><url>
+    <loc>/zh/readme/</loc>
+    <lastmod>2024-03-22T16:35:49+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/readme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/readme/"
+                />
+  </url><url>
     <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -512,6 +525,19 @@
   </url><url>
     <loc>/zh/tags/pc/</loc>
     <lastmod>2023-01-28T09:47:55+08:00</lastmod>
+  </url><url>
+    <loc>/zh/unlist/</loc>
+    <lastmod>2024-03-22T16:35:49+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/unlist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/unlist/"
+                />
   </url><url>
     <loc>/zh/searchcat/</loc>
     <lastmod>2023-03-04T17:51:12+08:00</lastmod>

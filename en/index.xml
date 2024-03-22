@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 17:54:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2024 16:35:26 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -210,6 +210,13 @@
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/en/gesture/</guid>
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.&#xA;Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.&#xA;Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/en/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/readme/</guid>
+      <description>Uweb browser: unlimited power 中文&#xA;Amazon appstore&#xA;Galaxy.Store&#xA;Downloads&#xA;Uweb browser: downloads, plugins and tips&#xA;(Mirrors: gitlab codeberg repo 4everland fleek netlify surge kinsta bitbucket pages vercel render&#xA;mirrors for uweb only)&#xA;Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux. Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</description>
     </item>
   </channel>
 </rss>
