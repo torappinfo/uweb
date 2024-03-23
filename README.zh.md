@@ -11,6 +11,7 @@
 <a href="en/mirrors.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../assets/help_zh.html#mirrors';return false;}}">超微专用镜像</a>)
 
 - <span  style="color:red">免魔法国内直接使用<a href="https://uweb.zeabur.app/zh/tips/index.html" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../tips/index.html';return false;}}">google、翻译、百科等</a></span>
+- AI聊天引擎可作为搜索引擎来使用
 - 微：不到200K。
 - 威：无穷无尽的功能，使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。
 - 便捷：图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
