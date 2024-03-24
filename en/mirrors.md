@@ -21,8 +21,7 @@
 <a href="i:0mi:5h:https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html">20</a>
 <a href="i:0m?:https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html">gitly</a>
 <a href="i:0m?:https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html">gitnet</a>
-<a href="i:0m:https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html ">palemoon</a>
-<a href="i:0m?:https://akkoma.dev/jamesfengcao/uweb/raw/branch/master/redirect.html">akkoma</a>
+<a href="i:0m?:https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html ">palemoon</a>
 <a href="i:0m?:https://phkn.info/jamesfengcao/uweb/raw/branch/master/redirect.html">phkn</a>
 <a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a>
 <a href="i:0m?:https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html">dotclear</a>
@@ -53,7 +52,6 @@
 [gitly](https://gitly.org/jamesfengcao/uweb)
 [gitnet](https://gitnet.fr/jamesfengcao/uweb)
 [palemoon](https://repo.palemoon.org/jamesfengcao/uweb)
-[akkoma](https://akkoma.dev/jamesfengcao/uweb)
 [phkn](https://phkn.info/jamesfengcao/uweb)
 [tilde](https://tildegit.org/jamesfengcao/uweb)
 [dotclear](https://git.dotclear.org/jamesfengcao/uweb)
