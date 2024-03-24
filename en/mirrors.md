@@ -1,4 +1,4 @@
-### Mirrors for uweb browser only
+### Mirrors (only clickable in uweb browser)
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验1</a>
 <a href="i:0m?:https://gitcode.net/uweb/uweb/-/raw/master/redirect.html">2</a>
 <a href="i:0m?:https://atomgit.com/jamesfengcao/uweb/raw/master/redirect.html">3</a>
