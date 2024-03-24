@@ -7,7 +7,7 @@ date: 2023-04-11
 
 Example: "https://loud-moth-21.deno.dev/"
 
-使用仓库"https://github.com/torappinfo/fetch"入口"deno.js"[部署Deno](https://deno.com/deploy)
+使用仓库 "https://github.com/torappinfo/fetch" 入口"deno.js" [部署Deno](https://deno.com/deploy)
 
 [创建免费重定向，说明类似但代码不同](https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/创建魔法链接/使用免费的的云服务提供商创建魔法链接.md)
 
