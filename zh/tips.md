@@ -46,7 +46,7 @@ developer.android.com::developer.android.google.cn
 - 长按设置，选中"自定义重定向"。
 - 长按设置，选中"自定义资源重定向"。此选项除访问url重定向之外，还可重定向网页中一切资源。
 
-更多重定向网址：
+更多重定向网址：  
 www.bilibili.com::www.ibilibili.com  
 pan.baidu.com::pan.baiduwp.com  
 www.docin.com::www.docin365.com  

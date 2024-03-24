@@ -7,12 +7,12 @@
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/)
-<a href="en/mirrors.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../assets/help_en.html#mirrors';return false;}}">mirrors for uweb only</a>)
+<a href="en/mirrors.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../assets/help_en.html#mirrors';return false;}}">More...</a>)
 
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
-- Convenient: Any book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
-- Tiny: less than 200k.
+- Convenient: Any AI chatbot/book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
+- Tiny: less than 250k.
 - Fast: run fast, even with thousands of user provided css/scripts/htmls.
 - Efficient: less touches, one click to reach any number of search engines without repeated input; automate online services.
 - URL bar command line support ("!" and .js file as command).
@@ -20,7 +20,7 @@
 - Online play/preview/preprocess for downloadable resources.
 - Multiple type profiles: switch any data including website logins, user configurations orthogonally.
 - Supports enhanced user "hosts" file. Empty IP address to lift all server-imposed limitations.
-- Website test automation scripting. crontab support(alarm clock and more). 
+- Website test automation scripting. crontab support (alarm clock and more). 
 
 #### Main features
 Custom paper size PDF export and long vector screenshot, TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url redirection, webdav/http backup & restore, auto next page, sending/receiving msg/file(s), site config (UA, no JS, no image, no 3rd party script/resource,active script, global scripts), http(s)/socks proxy, enabling html5 apps for local files (pdf/djvu/epub viewer, mdict dictionary lookup etc.).

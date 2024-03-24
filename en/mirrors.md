@@ -32,13 +32,17 @@
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
 
 ### Repositories
+[gitlab](https://gitlab.com/jamesfengcao/uweb)
+[sourceforge](https://sourceforge.net/p/uwebbrowser)
+[github](https://github.com/torappinfo/uweb)
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io)
+[codeberg](https://codeberg.org/jamesfengcao/pages)
 [gitee](https://gitee.com/jamesfengcao/uweb)
+[gitcode](https://gitcode.com/uweb/uweb/overview)
 [gitcode](https://gitcode.net/uweb/uweb)
 [atomgit](https://atomgit.com/jamesfengcao/uweb)
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb)
 [gitea](https://gitea.com/torappinfo/uweb)
-[sourceforge](https://sourceforge.net/p/uwebbrowser)
 [notabug](https://notabug.org/torappinfo/uweb)
 [framagit](https://framagit.org/torappinfo/uweb)
 [agit](https://agit.ai/jamesfengcao/uweb)
@@ -60,3 +64,5 @@
 [chapril](https://forge.chapril.org/jamesfengcao/uweb)
 [cryto](https://git.cryto.net/jamesfengcao/uweb)
 [antopie](https://code.antopie.org/jamesfengcao/uweb)
+[coding](https://jamesfengcao.coding.net/public/uWeb/uWeb/git/files)
+[jihulab](https://jihulab.com/torappinfo/uweb)
