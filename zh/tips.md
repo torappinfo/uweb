@@ -47,18 +47,18 @@ developer.android.com::developer.android.google.cn
 - 长按设置，选中"自定义资源重定向"。此选项除访问url重定向之外，还可重定向网页中一切资源。
 
 更多重定向网址：
-www.bilibili.com::www.ibilibili.com
-pan.baidu.com::pan.baiduwp.com
-www.docin.com::www.docin365.com
-wenku.baidu.com::wenku.baiduvvv.com
-detail.tmall.com::detail.tmallvvv.com
-detail.m.tmall.com::detail.m.tmallvvv.com
-item.taobao.com::item.taobaovvv.com
-h5.m.taobao.com::h5.m.taobaovvv.com
-jd.com::jdvvv.com
-item.yhd.com::item.yhdvvv.com
-goods.kaola.com::goods.kaolavvv.com
-product.dangdang.com::product.dangdangvvv.com
+www.bilibili.com::www.ibilibili.com  
+pan.baidu.com::pan.baiduwp.com  
+www.docin.com::www.docin365.com  
+wenku.baidu.com::wenku.baiduvvv.com  
+detail.tmall.com::detail.tmallvvv.com  
+detail.m.tmall.com::detail.m.tmallvvv.com  
+item.taobao.com::item.taobaovvv.com  
+h5.m.taobao.com::h5.m.taobaovvv.com  
+jd.com::jdvvv.com  
+item.yhd.com::item.yhdvvv.com  
+goods.kaola.com::goods.kaolavvv.com  
+product.dangdang.com::product.dangdangvvv.com  
 item.gome.com.cn::item.gomevvv.com.cn
 
 
