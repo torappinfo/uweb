@@ -299,7 +299,6 @@
 <a href="i:00计算器:d:text/html:echo \'%s\'|bc -l -q:">计算器:d:text/html:echo '%s'|bc -l -q:</a></p>
 <p><a href="i:00函数作图:d:image/svg+xml:gnuplot -e \'set term svg;set output; plot %s\':">函数作图:d:image/svg+xml:gnuplot -e 'set term svg;set output; plot %s':</a></p>
 <p><a href="i:003d函数作图:d:image/svg+xml:gnuplot -e \'set term svg;set output; splot %s\':">3d函数作图:d:image/svg+xml:gnuplot -e 'set term svg;set output; splot %s':</a></p>
-<p><a href="../searchcat/index.html">分类搜索</a></p>
 <p>更多引擎可参看：<br>
 <a href="https://github.com/cc1024/Google">google镜像</a><br>
 <a href="https://searx.space">searx</a><br>
@@ -311,10 +310,16 @@
 <a href="https://adzhp.cn/bt-sou-suo.html">BT磁力</a><br>
 <a href="https://github.com/Dictionaryphile/All_Dictionaries">词典</a><br>
 <a href="https://www.zhihu.com/question/20251786">有哪些特殊的搜索引擎</a></p>
+<h4 id="搜索文件格式searchcatindexhtml"><a href="../searchcat/index.html">搜索文件格式</a></h4>
+<ul>
+<li>用&quot;i:&quot;等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用&quot;%s&quot;，这纯粹是为了降低代码复杂性。</li>
+<li>POST搜索引擎可使用&quot;i:a1&quot;前缀，后面部分类似于普通搜索引擎串，但由于使用&quot;i:&quot;前缀，关键词部分必须使用&quot;%s&quot;。</li>
+<li>POST搜索引擎使用&quot;[搜索引擎名]:POST:[含%s的post参数]:[url]&quot;格式时，POST参数会原样发送，所以POST参数部分一般不要％编码。</li>
+</ul>
 
 </div>
-<p>Last Modified: 24 March 2024<br>
-fix mirror links<br>
+<p>Last Modified: 25 March 2024<br>
+add some notes for search engine file format<br>
 <pre>24.02.26 添加网盘搜索引擎
 </pre>
 </p>

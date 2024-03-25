@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 24 Mar 2024 09:48:25 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 11:05:39 +0800</lastBuildDate>
     <atom:link href="/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电视直播</title>
@@ -195,7 +195,7 @@
       <link>/zh/searchcat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/zh/searchcat/</guid>
-      <description>点击本链接自动安装分类多引擎文件至&amp;quot;bookmark&amp;quot;目录下。&#xA;超微浏览器中通过“设置”-&amp;gt;“总目录”-&amp;gt;“↑”-&amp;gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。&#xA;.search文件每行格式为如下几种：&#xA;[搜索引擎名]:[不含%s的url]&#xA;[搜索引擎名]:[含%s的url]&#xA;[搜索引擎名]:POST:[含%s的post参数]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt .search文件首行必须为第一种类型的搜索引擎。由于其它两种类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。&#xA;本地引擎 搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为&#xA;c:[含%s的命令行]&#xA;d:mimetype:[含%s的命令行]:[外部资源url]&#xA;查询时关键词会自动替换命令行中的%s。&#xA;笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</description>
+      <description>点击本链接自动安装分类多引擎文件至&amp;quot;bookmark&amp;quot;目录下。&#xA;超微浏览器中通过“设置”-&amp;gt;“总目录”-&amp;gt;“↑”-&amp;gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。&#xA;.search文件每行格式为如下几种：&#xA;[搜索引擎名]:[不含%s的url]&#xA;[搜索引擎名]:[含%s的url]&#xA;[搜索引擎名]:POST:[含%s的post参数]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt .search文件首行必须为第一种类型的搜索引擎。由于其它类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。&#xA;用&amp;quot;i:&amp;quot;等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用&amp;quot;%s&amp;quot;，这纯粹是为了降低代码复杂性。&#xA;本地引擎 搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为&#xA;c:[含%s的命令行]&#xA;d:mimetype:[含%s的命令行]:[外部资源url]&#xA;查询时关键词会自动替换命令行中的%s。&#xA;笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</description>
     </item>
     <item>
       <title>加速访问国外网站</title>
