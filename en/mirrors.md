@@ -22,14 +22,13 @@
 <a href="i:0m?:https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html">gitly</a>
 <a href="i:0m?:https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html">gitnet</a>
 <a href="i:0m?:https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html ">palemoon</a>
-<a href="i:0m?:https://phkn.info/jamesfengcao/uweb/raw/branch/master/redirect.html">phkn</a>
 <a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a>
 <a href="i:0m?:https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html">dotclear</a>
-<a href="i:0m?:https://git.enlightenment.org/jamesfengcao/uweb/raw/branch/master/redirect.html">enlightenment</a>
 <a href="i:0m?:https://git.minetest.land/jamesfengcao/uweb/raw/branch/master/redirect.html ">minetest</a>
 <a href="i:0m?:https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html">chapril</a>
 <a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html ">cryto</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
+<a href="i:0m?:https://phkn.info/jamesfengcao/uweb/raw/branch/master/redirect.html">phkn</a>
 
 ### Repositories
 [gitlab](https://gitlab.com/jamesfengcao/uweb)
@@ -54,12 +53,11 @@
 [dagshub](https://dagshub.com/torappinfo/uweb/src/master/README.md)
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/src/branch/master/README.md)
 [palemoon](https://repo.palemoon.org/jamesfengcao/uweb/src/branch/master/README.md)
-[phkn](https://phkn.info/jamesfengcao/uweb/src/branch/master/README.md)
 [tilde](https://tildegit.org/jamesfengcao/uweb/src/branch/master/README.md)
 [dotclear](https://git.dotclear.org/jamesfengcao/uweb/src/branch/master/README.md)
-[enlightenment](https://git.enlightenment.org/jamesfengcao/uweb/src/branch/master/README.md)
 [mimetest](https://git.minetest.land/jamesfengcao/uweb/src/branch/master/README.md)
 [chapril](https://forge.chapril.org/jamesfengcao/uweb/src/branch/master/README.md)
 [cryto](https://git.cryto.net/jamesfengcao/uweb/src/branch/master/README.md)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/src/master/README.md)
+[phkn](https://phkn.info/jamesfengcao/uweb/src/branch/master/README.md)
 [jihulab](https://jihulab.com/torappinfo/uweb)
