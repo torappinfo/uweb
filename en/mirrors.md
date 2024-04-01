@@ -60,4 +60,3 @@
 [cryto](https://git.cryto.net/jamesfengcao/uweb/src/branch/master/README.md)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/src/master/README.md)
 [phkn](https://phkn.info/jamesfengcao/uweb/src/branch/master/README.md)
-[jihulab](https://jihulab.com/torappinfo/uweb)
