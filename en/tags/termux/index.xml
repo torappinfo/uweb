@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Termux on uweb browser: unlimited power</title>
-    <link>/en/tags/termux.html</link>
+    <link>/en/tags/termux/</link>
     <description>Recent content in Termux on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Dec 2023 15:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
     <atom:link href="/en/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
-      <link>/en/textprocess.html</link>
+      <link>/en/textprocess/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/textprocess.html</guid>
+      <guid>/en/textprocess/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:&#xA;Copy selected text with html format to clipboard&#xA;Search with home screen&#xA;google Translate&#xA;bing translate&#xA;deepL&#xA;The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:&#xA;[Name]:[mimetype]:[command line]&#xA;[mimetype] specifies input/output for [command line].</description>
     </item>
     <item>
       <title>Tools</title>
-      <link>/en/tools.html</link>
+      <link>/en/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tools.html</guid>
+      <guid>/en/tools/</guid>
       <description>This page is for uweb browser.&#xA;install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).&#xA;install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;&#xA;Install AHD to home screen&#xA;Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;&#xA;Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;&#xA;Indexes for SOED6&#xA;install SOED&#xA;The following dictionaries work better with markdown processor.&#xA;Install markdown processor</description>
     </item>
     <item>
       <title>Custom file handling</title>
-      <link>/en/filecap.html</link>
+      <link>/en/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/en/filecap.html</guid>
+      <guid>/en/filecap/</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.&#xA;The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:&#xA;[file extension]:[mimetype]:[command line]&#xA;The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.&#xA;&amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.&#xA;&amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
     </item>
   </channel>

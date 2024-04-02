@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags.html</link>
+    <link>/zh/tags/</link>
     <description>Recent content in Tags on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 25 Mar 2024 11:05:39 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:46:25 +0800</lastBuildDate>
     <atom:link href="/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电视</title>
-      <link>/zh/tags/%E7%94%B5%E8%A7%86.html</link>
+      <link>/zh/tags/%E7%94%B5%E8%A7%86/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E7%94%B5%E8%A7%86.html</guid>
+      <guid>/zh/tags/%E7%94%B5%E8%A7%86/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>/zh/tags/css.html</link>
+      <link>/zh/tags/css/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/css.html</guid>
+      <guid>/zh/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>/zh/tags/javascript.html</link>
+      <link>/zh/tags/javascript/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/javascript.html</guid>
+      <guid>/zh/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>不良信息屏蔽</title>
-      <link>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD.html</link>
+      <link>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD.html</guid>
+      <guid>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssh</title>
-      <link>/zh/tags/ssh.html</link>
+      <link>/zh/tags/ssh/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/ssh.html</guid>
+      <guid>/zh/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>/zh/tags/termux.html</link>
+      <link>/zh/tags/termux/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/termux.html</guid>
+      <guid>/zh/tags/termux/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>/zh/tags/windows.html</link>
+      <link>/zh/tags/windows/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/windows.html</guid>
+      <guid>/zh/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>剪贴板</title>
-      <link>/zh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF.html</link>
+      <link>/zh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF.html</guid>
+      <guid>/zh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
       <description></description>
     </item>
     <item>
       <title>离线</title>
-      <link>/zh/tags/%E7%A6%BB%E7%BA%BF.html</link>
+      <link>/zh/tags/%E7%A6%BB%E7%BA%BF/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E7%A6%BB%E7%BA%BF.html</guid>
+      <guid>/zh/tags/%E7%A6%BB%E7%BA%BF/</guid>
       <description></description>
     </item>
     <item>
       <title>网盘</title>
-      <link>/zh/tags/%E7%BD%91%E7%9B%98.html</link>
+      <link>/zh/tags/%E7%BD%91%E7%9B%98/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E7%BD%91%E7%9B%98.html</guid>
+      <guid>/zh/tags/%E7%BD%91%E7%9B%98/</guid>
       <description></description>
     </item>
     <item>
       <title>资源</title>
-      <link>/zh/tags/%E8%B5%84%E6%BA%90.html</link>
+      <link>/zh/tags/%E8%B5%84%E6%BA%90/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E8%B5%84%E6%BA%90.html</guid>
+      <guid>/zh/tags/%E8%B5%84%E6%BA%90/</guid>
       <description></description>
     </item>
     <item>
       <title>搜索</title>
-      <link>/zh/tags/%E6%90%9C%E7%B4%A2.html</link>
+      <link>/zh/tags/%E6%90%9C%E7%B4%A2/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E6%90%9C%E7%B4%A2.html</guid>
+      <guid>/zh/tags/%E6%90%9C%E7%B4%A2/</guid>
       <description></description>
     </item>
     <item>
       <title>Tdict</title>
-      <link>/zh/tags/tdict.html</link>
+      <link>/zh/tags/tdict/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/tdict.html</guid>
+      <guid>/zh/tags/tdict/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>/zh/tags/tools.html</link>
+      <link>/zh/tags/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/tools.html</guid>
+      <guid>/zh/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Curl</title>
-      <link>/zh/tags/curl.html</link>
+      <link>/zh/tags/curl/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/curl.html</guid>
+      <guid>/zh/tags/curl/</guid>
       <description></description>
     </item>
     <item>
       <title>PC</title>
-      <link>/zh/tags/pc.html</link>
+      <link>/zh/tags/pc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/pc.html</guid>
+      <guid>/zh/tags/pc/</guid>
       <description></description>
     </item>
     <item>
       <title>国外网址</title>
-      <link>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80.html</link>
+      <link>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80.html</guid>
+      <guid>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</guid>
       <description></description>
     </item>
     <item>
       <title>下载</title>
-      <link>/zh/tags/%E4%B8%8B%E8%BD%BD.html</link>
+      <link>/zh/tags/%E4%B8%8B%E8%BD%BD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/tags/%E4%B8%8B%E8%BD%BD.html</guid>
+      <guid>/zh/tags/%E4%B8%8B%E8%BD%BD/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title></title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <h3 id="mirrors-clickable-with-uweb-browser">Mirrors (clickable with uweb browser)</h3>
+<p><a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验1</a><br>
+<a href="i:0m?:https://gitcode.net/uweb/uweb/-/raw/master/redirect.html">2</a><br>
+<a href="i:0m?:https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html">4</a><br>
+<a href="i:0m?:https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html">5</a><br>
+<a href="i:0mi:5h?format=raw::https://sourceforge.net/p/uwebbrowser/code/ci/master/tree/redirect.html">6</a><br>
+<a href="i:0mi:5h?format=raw::https://rocketgit.com/user/torappinfo/uweb/source/tree/branch/master/blob_download/redirect.html">7</a><br>
+<a href="i:0m?:https://notabug.org/torappinfo/uweb/raw/master/redirect.html">8</a><br>
+<a href="i:0mi:5h:https://git.launchpad.net/uweb/plain/redirect.html">9</a><br>
+<a href="i:0m?:https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html">10</a><br>
+<a href="i:0m?:https://agit.ai/jamesfengcao/uweb/raw/branch/master/redirect.html">11</a><br>
+<a href="i:0m?:https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html">12</a><br>
+<a href="i:0m?:https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html">13</a><br>
+<a href="i:0m?:https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html">14</a><br>
+<a href="i:0mi:5h/xxxx/?path=::https://dev.azure.com/jamesfengcao/1d8bf6c7-7c24-4441-bc5e-9709dcaf37fc/_apis/git/repositories/2a588d9b-f25a-46c0-bb3b-f685c635fcf8/itemsxxxx/redirect.html">15</a><br>
+<a href="i:0mi:5h:https://pagure.io/uweb/raw/master/f/redirect.html">16</a><br>
+<a href="i:0m?:https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/raw/master/redirect.html">17</a><br>
+<a href="i:0mi:5h:https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html">18</a><br>
+<a href="i:0m?:https://dagshub.com/torappinfo/uweb/raw/master/redirect.html">19</a><br>
+<a href="i:0mi:5h:https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html">20</a><br>
+<a href="i:0m?:https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html">gitly</a><br>
+<a href="i:0m?:https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html">gitnet</a><br>
+<a href="i:0m?:https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html ">palemoon</a><br>
+<a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a><br>
+<a href="i:0m?:https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html">dotclear</a><br>
+<a href="i:0m?:https://git.minetest.land/jamesfengcao/uweb/raw/branch/master/redirect.html ">minetest</a><br>
+<a href="i:0m?:https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html">chapril</a><br>
+<a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html ">cryto</a><br>
+<a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a></p>
+<h3 id="repositories">Repositories</h3>
+<p><a href="https://gitlab.com/jamesfengcao/uweb">gitlab</a><br>
+<a href="https://sourceforge.net/p/uwebbrowser">sourceforge</a><br>
+<a href="https://github.com/torappinfo/uweb">github</a><br>
+<a href="https://bitbucket.org/torappinfo/torappinfo.bitbucket.io">bitbucket</a><br>
+<a href="https://codeberg.org/jamesfengcao/pages/src/branch/master/README.md">codeberg</a><br>
+<a href="https://gitee.com/jamesfengcao/uweb">gitee</a><br>
+<a href="https://gitcode.com/uweb/uweb/overview">gitcode</a><br>
+<a href="https://gitcode.net/uweb/uweb">gitcode</a><br>
+<a href="https://atomgit.com/jamesfengcao/uweb">atomgit</a><br>
+<a href="https://www.gitlink.org.cn/jamesfengcao/uweb">gitlink</a><br>
+<a href="https://gitgud.io/jamesfengcao/uweb">gitgud</a><br>
+<a href="https://git.disroot.org/torappinfo/uweb/src/branch/master/README.md">disroot</a><br>
+<a href="https://gitea.com/torappinfo/uweb/src/branch/master/README.md">gitea</a><br>
+<a href="https://notabug.org/torappinfo/uweb/src/master/README.md">notabug</a><br>
+<a href="https://framagit.org/torappinfo/uweb">framagit</a><br>
+<a href="https://agit.ai/jamesfengcao/uweb/src/branch/master/README.md">agit</a><br>
+<a href="https://git.froggi.es/jamesfengcao/uweb/src/branch/master/README.md">froggi</a><br>
+<a href="https://gitdab.com/jamesfengcao/uweb/src/branch/master/README.md">gitdab</a><br>
+<a href="https://pagure.io/uweb/blob/master/f/README.md">pagure</a><br>
+<a href="https://dagshub.com/torappinfo/uweb/src/master/README.md">dagshub</a><br>
+<a href="https://gitnet.fr/jamesfengcao/uweb/src/branch/master/README.md">gitnet</a><br>
+<a href="https://repo.palemoon.org/jamesfengcao/uweb/src/branch/master/README.md">palemoon</a><br>
+<a href="https://tildegit.org/jamesfengcao/uweb/src/branch/master/README.md">tilde</a><br>
+<a href="https://git.dotclear.org/jamesfengcao/uweb/src/branch/master/README.md">dotclear</a><br>
+<a href="https://git.minetest.land/jamesfengcao/uweb/src/branch/master/README.md">mimetest</a><br>
+<a href="https://forge.chapril.org/jamesfengcao/uweb/src/branch/master/README.md">chapril</a><br>
+<a href="https://git.cryto.net/jamesfengcao/uweb/src/branch/master/README.md">cryto</a><br>
+<a href="https://code.antopie.org/jamesfengcao/uweb/src/master/README.md">antopie</a></p>
+
+</div>
+<p>Last Modified: 2 April 2024<br>
+mv mirrors to unlist/<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

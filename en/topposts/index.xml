@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topposts on uweb browser: unlimited power</title>
-    <link>/en/topposts.html</link>
+    <link>/en/topposts/</link>
     <description>Recent content in Topposts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Apr 2024 09:37:40 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:35:09 +0800</lastBuildDate>
     <atom:link href="/en/topposts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search engines</title>
-      <link>/en/search.html</link>
+      <link>/en/search/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>/en/search.html</guid>
+      <guid>/en/search/</guid>
       <description>AI:&#xA;consensus:https://consensus.app/results/?synthesize=on&amp;amp;q=&#xA;youChat:https://you.com/search?tbm=youchat&amp;amp;q=&#xA;youWrite:https://you.com/search?tbm=youwrite&amp;amp;q=&#xA;youImagine:https://you.com/search?tbm=imagine&amp;amp;q=&#xA;you:https://you.com/search?q=&#xA;perplexity:https://www.perplexity.ai/?q=&#xA;phind:https://www.phind.com/search?q=&#xA;medisearch:https://medisearch.io/results/&#xA;Recommended engines (click or append any of the following to the file &amp;quot;home5.search&amp;quot;)：&#xA;Engines:i:40%s_00&#xA;bing image:http://bing.com/images/search?q=&#xA;google image:http://www.google.com/images?as_q=&#xA;flickr:http://www.flickr.com/photos/tags/&#xA;Yandex image:https://yandex.com/images/search?text=&#xA;wiki:https://en.wikipedia.org/wiki/Special:Search?search=&#xA;wikipedia:http://en.wikipedia.org/?search=&#xA;wikifull:http://en.wikipedia.org/wiki/Special:Search?fulltext=Search&amp;amp;search=&#xA;Youtube:https://www.youtube.com/results?search_query=&#xA;eBay:https://www.ebay.com/sch/i.html?_nkw=&#xA;Quora:https://www.quora.com/search?q=&#xA;Pinterest:https://www.pinterest.com/search/pins/?q=&#xA;LinkedIn:https://www.linkedin.com/search/results/all/?keywords=&#xA;Netflix:https://www.netflix.com/search?q=&#xA;Spotify:https://open.spotify.com/search/&#xA;Medium:https://medium.com/search?q=&#xA;TripAdvisor:https://www.tripadvisor.com/Search?q=&#xA;incaption:https://incaptions.com/&#xA;answer:http://mobile.answers.com/&#xA;twitter:https://twitter.com/search?q=&#xA;Facebook:https://www.facebook.com/search/str/%s/keywords_search&#xA;Instagram:https://www.instagram.com/explore/tags/%s/&#xA;social-search:https://www.social-searcher.com/social-buzz/?q5=&#xA;reddit:http://reddit.com/search?q=&#xA;boardreader:https://boardreader.com/s/%s.html&#xA;bingvideo:https://www.bing.com/videos/search?q=&#xA;vsearch:https://www.vsearch.me/s?q=&#xA;crowdview:https://crowdview.ai/search?q=&#xA;groups:http://groups.google.com/groups/search?q=&#xA;wolfram:https://www.wolframalpha.com/input/?i=&#xA;fxsolver:https://www.fxsolver.com/browse/?q=&#xA;book_google:https://google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&amp;amp;num=100&amp;amp;filter=0&#xA;annas-archive:https://annas-archive.org/search?q=&#xA;libgen:http://gen.lib.rus.ec/search.php?req=&#xA;google_file:https://google.com/search?q=intitle:index.of+%22parent+directory%22+&#xA;apkcombo:https://apkcombo.com/search/&#xA;Note: &#34;Engines&#34; needs file &#34;engine.search&#34;，whose format is same as &#34;</description>
     </item>
     <item>
       <title>Downloads</title>
-      <link>/en/changelog.html</link>
+      <link>/en/changelog/</link>
       <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>/en/changelog.html</guid>
+      <guid>/en/changelog/</guid>
       <description>Amazon appstore&#xA;Galaxy.Store&#xA;uweb, termux &amp;amp; history versions&#xA;github&#xA;sourceforge&#xA;powerfolder&#xA;udrop&#xA;pagure&#xA;mcbebbs&#xA;Main features Change logs 1038: support chatBot as search engine with url &amp;quot;i:0/js/hash2textarea.js:https://XXX&amp;quot;&#xA;1036: TV mode: reuse &amp;quot;engine.search&amp;quot; as live TV channel urls.&#xA;1034: click share button on homescreen to process clipboard text.&#xA;1030: Allow downloading with global redirection&#xA;1026: Test automation: enable i:0 urls in scripting mode&#xA;1017: crontab alarm clock and links as sixth field.</description>
     </item>
     <item>
       <title>Configuration</title>
-      <link>/en/sitemap.html</link>
+      <link>/en/sitemap/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/en/sitemap.html</guid>
+      <guid>/en/sitemap/</guid>
       <description>Check for updates&#xA;UI Search engines Home screens UI (gitee) webdav install-able menu generator Customization Long pressing menus for toolbar buttons User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Address bar command modes Advanced Advanced Content AD blocking CSS styles Redirection Offline cache JS/CSS/HTML/preprocessing for domains Any urls as website Tools Bookmarklets Cron &amp;amp; more Custom file handling Html5 application Termux Info Manual Tips Configuration files Bookmarks </description>
     </item>
     <item>
       <title>Url services</title>
-      <link>/en/urls.html</link>
+      <link>/en/urls/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/en/urls.html</guid>
+      <guid>/en/urls/</guid>
       <description>Click the following links to install url services with uweb browser. Force exit and re-launch the app, then long press the &amp;quot;image&amp;quot; button to popup the menu.&#xA;Fullscreen video:i:5f&#xA;Redirect/edit:e:&#xA;Save2autocomplete:i:51:&#xA;Bookmark:i:52:&#xA;Note:i:53:&#xA;Save engine:i:54:&#xA;Save link:i:55:&#xA;Save to desktop:i:58&#xA;Add to media storage::001&#xA;Extract web app:i:0bsitecache/local/:&#xA;tgurl:https://tx.me/share/url?url=&#xA;tgdownload:https://tx.me/share/url?url=../../download Compatible mode:i:5d&#xA;papago:https://papago.naver.net/website?locale=en&amp;amp;target=en&amp;amp;url=&#xA;google translate:https://translate.google.com/translate?sl=auto&amp;amp;tl=en&amp;amp;u=&#xA;Source:view-source:&#xA;outline:https://www.outline.com/&#xA;2pdf:https://www.web2pdfconvert.com#&#xA;printfriendly:https://www.printfriendly.com/print/?url=&#xA;htmlview:https://htmlview.glitch.me/?&#xA;htmlpreview:https://htmlpreview.github.io/?&#xA;webarchive:https://web.archive.org/web/*/&#xA;archive:https://archive.is/?run=1&amp;amp;url=&#xA;googlecache:http://webcache.googleusercontent.com/search?q=cache:&#xA;google by image:https://www.google.com/searchbyimage?safe=off&amp;amp;image_url=&#xA;tinyeye:https://tineye.com/search?url=&#xA;Yandex by image:https://yandex.com/images/search?family=yes&amp;amp;rpt=imageview&amp;amp;url=</description>
     </item>
     <item>
       <title>Commands</title>
-      <link>/en/cmds.html</link>
+      <link>/en/cmds/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/en/cmds.html</guid>
+      <guid>/en/cmds/</guid>
       <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.&#xA;Configuration file &amp;quot;default.cmds&amp;quot; examples:&#xA;Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#xA;Clear database::rm -rf /data/data/info.torapp.uweb/databases/*&#xA;Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc&#xA;Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache&#xA;Clear logcat::logcat -c</description>
     </item>
     <item>
       <title>Execute javascript codes</title>
-      <link>/en/rjs.html</link>
+      <link>/en/rjs/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/en/rjs.html</guid>
+      <guid>/en/rjs/</guid>
       <description>javascript for domains&#xA;Earliest loaded global javascript files locates in the subfolder &amp;quot;css&amp;quot; of app private folder.&#xA;Global javascript files locates in the subfolder &amp;quot;js&amp;quot; of app private folder. Long press button [☰] to configure. Click the following links to install:&#xA;&amp;lt;a target=_self&amp;quot; href=&amp;quot;i:0hjs/savePassword.js:../../zh/searchurl/txt/passwdsave.js&amp;quot;&amp;gt;Save password&#xA;Instant page&#xA;large size javascript code can be installed to the folder &amp;quot;bookmarklet&amp;quot; (long pressing button &amp;quot;js&amp;quot; to popup menu):&#xA;google translation&#xA;Eruda&#xA;Performance&#xA;Note: Bookmarklets whose names begin with &amp;quot;!</description>
     </item>
   </channel>

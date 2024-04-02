@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adblock on uweb browser: unlimited power</title>
-    <link>/en/tags/adblock.html</link>
+    <link>/en/tags/adblock/</link>
     <description>Recent content in Adblock on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 May 2023 17:17:39 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
     <atom:link href="/en/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosts files</title>
-      <link>/en/adblock_domain.html</link>
+      <link>/en/adblock_domain/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>/en/adblock_domain.html</guid>
+      <guid>/en/adblock_domain/</guid>
       <description>The enhanced hosts files &amp;quot;hosts&amp;quot; and &amp;quot;default.hosts&amp;quot; take effect with the setting option &amp;quot;use hosts&amp;quot;.&#xA;hosts The enhanced file &amp;quot;hosts&amp;quot; defines IP addresses/attributes for domains. Each line has the following format:&#xA;[[IP address][attributes]][single space][domain name]&#xA;where &amp;quot;[[IP address][attributes]]&amp;quot; could be:&#xA;ipv4 address such as:&#xA;172.67.157.211 torapp.eu.org&#xA;ipv6 address, Ex.:&#xA;[2606:4700:3037::6815:8c3] torapp.eu.org&#xA;empty, that would lift all server-imposed limitations. Ex.:&#xA;[single space]gitee.com&#xA;which will make all git repositories on the domain visitable as websites with raw file access url.</description>
     </item>
   </channel>

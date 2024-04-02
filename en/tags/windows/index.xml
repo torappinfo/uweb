@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on uweb browser: unlimited power</title>
-    <link>/en/tags/windows.html</link>
+    <link>/en/tags/windows/</link>
     <description>Recent content in Windows on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Dec 2023 15:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
     <atom:link href="/en/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
-      <link>/en/textprocess.html</link>
+      <link>/en/textprocess/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/textprocess.html</guid>
+      <guid>/en/textprocess/</guid>
       <description>Click the following links to install menus for long pressing the button &amp;quot;link&amp;quot;:&#xA;Copy selected text with html format to clipboard&#xA;Search with home screen&#xA;google Translate&#xA;bing translate&#xA;deepL&#xA;The file &amp;quot;default.select&amp;quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:&#xA;[Name]:[mimetype]:[command line]&#xA;[mimetype] specifies input/output for [command line].</description>
     </item>
   </channel>

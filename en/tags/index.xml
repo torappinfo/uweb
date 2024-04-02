@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on uweb browser: unlimited power</title>
-    <link>/en/tags.html</link>
+    <link>/en/tags/</link>
     <description>Recent content in Tags on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Dec 2023 15:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
     <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clipboard</title>
-      <link>/en/tags/clipboard.html</link>
+      <link>/en/tags/clipboard/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/clipboard.html</guid>
+      <guid>/en/tags/clipboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssh</title>
-      <link>/en/tags/ssh.html</link>
+      <link>/en/tags/ssh/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/ssh.html</guid>
+      <guid>/en/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>/en/tags/termux.html</link>
+      <link>/en/tags/termux/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/termux.html</guid>
+      <guid>/en/tags/termux/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>/en/tags/windows.html</link>
+      <link>/en/tags/windows/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/windows.html</guid>
+      <guid>/en/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Redirection</title>
-      <link>/en/tags/redirection.html</link>
+      <link>/en/tags/redirection/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/redirection.html</guid>
+      <guid>/en/tags/redirection/</guid>
       <description></description>
     </item>
     <item>
       <title>Adblock</title>
-      <link>/en/tags/adblock.html</link>
+      <link>/en/tags/adblock/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/adblock.html</guid>
+      <guid>/en/tags/adblock/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>/en/tags/css.html</link>
+      <link>/en/tags/css/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/css.html</guid>
+      <guid>/en/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>/en/tags/javascript.html</link>
+      <link>/en/tags/javascript/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/en/tags/javascript.html</guid>
+      <guid>/en/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Search Engine</title>
-      <link>/en/tags/search-engine.html</link>
+      <link>/en/tags/search-engine/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/en/tags/search-engine.html</guid>
+      <guid>/en/tags/search-engine/</guid>
       <description></description>
     </item>
     <item>
       <title>Tdict</title>
-      <link>/en/tags/tdict.html</link>
+      <link>/en/tags/tdict/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tags/tdict.html</guid>
+      <guid>/en/tags/tdict/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>/en/tags/tools.html</link>
+      <link>/en/tags/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tags/tools.html</guid>
+      <guid>/en/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Curl</title>
-      <link>/en/tags/curl.html</link>
+      <link>/en/tags/curl/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tags/curl.html</guid>
+      <guid>/en/tags/curl/</guid>
       <description></description>
     </item>
   </channel>

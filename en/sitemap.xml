@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/_posts.html</loc>
-    <lastmod>2024-03-06T09:59:54+08:00</lastmod>
+    <loc>/en/_posts/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/_posts.html"
+                href="/zh/_posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/_posts.html"
+                href="/en/_posts/"
                 />
   </url><url>
-    <loc>/en/tags/clipboard.html</loc>
-    <lastmod>2023-12-11T15:21:00+08:00</lastmod>
+    <loc>/en/tags/clipboard/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/tags/ssh.html</loc>
-    <lastmod>2023-12-11T15:21:00+08:00</lastmod>
+    <loc>/en/tags/ssh/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/ssh.html"
+                href="/zh/tags/ssh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/ssh.html"
+                href="/en/tags/ssh/"
                 />
   </url><url>
-    <loc>/en/tags.html</loc>
-    <lastmod>2023-12-11T15:21:00+08:00</lastmod>
+    <loc>/en/tags/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags.html"
+                href="/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags.html"
+                href="/en/tags/"
                 />
   </url><url>
-    <loc>/en/tags/termux.html</loc>
-    <lastmod>2023-12-11T15:21:00+08:00</lastmod>
+    <loc>/en/tags/termux/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/termux.html"
+                href="/zh/tags/termux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/termux.html"
+                href="/en/tags/termux/"
                 />
   </url><url>
-    <loc>/en/textprocess.html</loc>
-    <lastmod>2023-12-11T15:21:00+08:00</lastmod>
+    <loc>/en/textprocess/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/textprocess.html"
+                href="/zh/textprocess/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/textprocess.html"
+                href="/en/textprocess/"
                 />
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2024-04-02T09:37:40+08:00</lastmod>
+    <lastmod>2024-04-02T13:36:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -83,466 +83,469 @@
                 href="/en/"
                 />
   </url><url>
-    <loc>/en/tags/windows.html</loc>
-    <lastmod>2023-12-11T15:21:00+08:00</lastmod>
+    <loc>/en/tags/windows/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/windows.html"
+                href="/zh/tags/windows/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/windows.html"
+                href="/en/tags/windows/"
                 />
   </url><url>
-    <loc>/en/links.html</loc>
-    <lastmod>2023-11-15T15:19:25+08:00</lastmod>
+    <loc>/en/links/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/links.html"
+                href="/zh/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/links.html"
+                href="/en/links/"
                 />
   </url><url>
-    <loc>/en/tcron.html</loc>
-    <lastmod>2024-01-04T17:14:26+08:00</lastmod>
+    <loc>/en/tcron/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tcron.html"
+                href="/zh/tcron/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tcron.html"
+                href="/en/tcron/"
                 />
   </url><url>
-    <loc>/en/offlinecache.html</loc>
-    <lastmod>2023-05-09T22:48:54+08:00</lastmod>
+    <loc>/en/offlinecache/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/offlinecache.html"
+                href="/zh/offlinecache/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/offlinecache.html"
+                href="/en/offlinecache/"
                 />
   </url><url>
-    <loc>/en/tags/redirection.html</loc>
-    <lastmod>2023-06-17T07:35:57+08:00</lastmod>
+    <loc>/en/tags/redirection/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/redirect.html</loc>
-    <lastmod>2023-06-17T07:35:57+08:00</lastmod>
+    <loc>/en/redirect/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/redirect.html"
+                href="/zh/redirect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/redirect.html"
+                href="/en/redirect/"
                 />
   </url><url>
-    <loc>/en/tags/adblock.html</loc>
-    <lastmod>2023-05-13T17:17:39+08:00</lastmod>
+    <loc>/en/tags/adblock/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/adblock_domain.html</loc>
-    <lastmod>2023-05-13T17:17:39+08:00</lastmod>
+    <loc>/en/adblock_domain/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/adblock_domain.html"
+                href="/zh/adblock_domain/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/adblock_domain.html"
+                href="/en/adblock_domain/"
                 />
   </url><url>
-    <loc>/en/search.html</loc>
-    <lastmod>2024-04-02T09:37:40+08:00</lastmod>
+    <loc>/en/search/</loc>
+    <lastmod>2024-04-02T11:35:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/search.html"
+                href="/zh/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/search.html"
+                href="/en/search/"
                 />
   </url><url>
-    <loc>/en/topposts.html</loc>
-    <lastmod>2024-04-02T09:37:40+08:00</lastmod>
+    <loc>/en/topposts/</loc>
+    <lastmod>2024-04-02T11:35:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/topposts.html"
+                href="/zh/topposts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/topposts.html"
+                href="/en/topposts/"
                 />
   </url><url>
-    <loc>/en/tags/css.html</loc>
-    <lastmod>2023-04-20T10:17:34+08:00</lastmod>
+    <loc>/en/tags/css/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/css.html"
+                href="/zh/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/css.html"
+                href="/en/tags/css/"
                 />
   </url><url>
-    <loc>/en/tags/javascript.html</loc>
-    <lastmod>2023-04-20T10:17:34+08:00</lastmod>
+    <loc>/en/tags/javascript/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/javascript.html"
+                href="/zh/tags/javascript/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/javascript.html"
+                href="/en/tags/javascript/"
                 />
   </url><url>
-    <loc>/en/sitejs.html</loc>
-    <lastmod>2023-04-20T10:17:34+08:00</lastmod>
+    <loc>/en/sitejs/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sitejs.html"
+                href="/zh/sitejs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sitejs.html"
+                href="/en/sitejs/"
                 />
   </url><url>
-    <loc>/en/bookmark.html</loc>
-    <lastmod>2024-03-06T09:59:54+08:00</lastmod>
+    <loc>/en/bookmark/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/bookmark.html"
+                href="/zh/bookmark/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/bookmark.html"
+                href="/en/bookmark/"
                 />
   </url><url>
-    <loc>/en/tips.html</loc>
-    <lastmod>2023-12-01T15:52:12+08:00</lastmod>
+    <loc>/en/tips/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tips.html"
+                href="/zh/tips/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tips.html"
+                href="/en/tips/"
                 />
   </url><url>
-    <loc>/en/acmd.html</loc>
-    <lastmod>2023-02-18T14:12:02+08:00</lastmod>
+    <loc>/en/acmd/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/url2site.html</loc>
-    <lastmod>2023-05-14T10:54:36+08:00</lastmod>
+    <loc>/en/url2site/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/html5.html</loc>
-    <lastmod>2023-02-20T21:49:16+08:00</lastmod>
+    <loc>/en/html5/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/html5.html"
+                href="/zh/html5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/html5.html"
+                href="/en/html5/"
                 />
   </url><url>
-    <loc>/en/changelog.html</loc>
+    <loc>/en/changelog/</loc>
     <lastmod>2024-03-21T17:54:44+08:00</lastmod>
   </url><url>
-    <loc>/en/sitemap.html</loc>
-    <lastmod>2023-12-19T17:02:46+08:00</lastmod>
+    <loc>/en/sitemap/</loc>
+    <lastmod>2024-04-02T11:27:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sitemap.html"
+                href="/zh/sitemap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sitemap.html"
+                href="/en/sitemap/"
                 />
   </url><url>
-    <loc>/en/filenames.html</loc>
-    <lastmod>2023-12-09T18:14:29+08:00</lastmod>
+    <loc>/en/filenames/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/filenames.html"
+                href="/zh/filenames/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/filenames.html"
+                href="/en/filenames/"
                 />
   </url><url>
-    <loc>/en/adblock.html</loc>
-    <lastmod>2023-02-20T21:48:27+08:00</lastmod>
+    <loc>/en/adblock/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/adblock.html"
+                href="/zh/adblock/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/adblock.html"
+                href="/en/adblock/"
                 />
   </url><url>
-    <loc>/en/bookmarklet.html</loc>
-    <lastmod>2022-09-24T14:05:13+08:00</lastmod>
+    <loc>/en/bookmarklet/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/bookmarklet.html"
+                href="/zh/bookmarklet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/bookmarklet.html"
+                href="/en/bookmarklet/"
                 />
   </url><url>
-    <loc>/en/urls.html</loc>
-    <lastmod>2023-12-05T08:55:37+08:00</lastmod>
+    <loc>/en/urls/</loc>
+    <lastmod>2024-04-02T11:35:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/urls.html"
+                href="/zh/urls/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/urls.html"
+                href="/en/urls/"
                 />
   </url><url>
-    <loc>/en/cmds.html</loc>
-    <lastmod>2023-12-05T08:55:49+08:00</lastmod>
+    <loc>/en/cmds/</loc>
+    <lastmod>2024-04-02T11:35:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/cmds.html"
+                href="/zh/cmds/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cmds.html"
+                href="/en/cmds/"
                 />
   </url><url>
-    <loc>/en/rjs.html</loc>
-    <lastmod>2023-04-29T21:37:35+08:00</lastmod>
+    <loc>/en/rjs/</loc>
+    <lastmod>2024-04-02T11:35:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/rjs.html"
+                href="/zh/rjs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/rjs.html"
+                href="/en/rjs/"
                 />
   </url><url>
-    <loc>/en/globalcss.html</loc>
-    <lastmod>2023-04-20T10:19:36+08:00</lastmod>
+    <loc>/en/globalcss/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/globalcss.html"
+                href="/zh/globalcss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/globalcss.html"
+                href="/en/globalcss/"
                 />
   </url><url>
-    <loc>/en/icons.html</loc>
-    <lastmod>2022-11-01T15:49:25+08:00</lastmod>
+    <loc>/en/icons/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/icons.html"
+                href="/zh/icons/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/icons.html"
+                href="/en/icons/"
                 />
   </url><url>
-    <loc>/en/tags/search-engine.html</loc>
-    <lastmod>2023-03-04T09:42:31+08:00</lastmod>
+    <loc>/en/tags/search-engine/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/searchcat.html</loc>
-    <lastmod>2023-03-04T09:42:31+08:00</lastmod>
+    <loc>/en/searchcat/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/searchcat.html"
+                href="/zh/searchcat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/searchcat.html"
+                href="/en/searchcat/"
                 />
   </url><url>
-    <loc>/en/termux.html</loc>
-    <lastmod>2023-12-09T18:10:31+08:00</lastmod>
+    <loc>/en/termux/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/longclick.html</loc>
-    <lastmod>2022-09-24T14:05:13+08:00</lastmod>
+    <loc>/en/longclick/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/longclick.html"
+                href="/zh/longclick/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/longclick.html"
+                href="/en/longclick/"
                 />
   </url><url>
-    <loc>/en/tags/tdict.html</loc>
-    <lastmod>2022-09-27T17:36:08+08:00</lastmod>
+    <loc>/en/tags/tdict/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/tdict.html"
+                href="/zh/tags/tdict/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/tdict.html"
+                href="/en/tags/tdict/"
                 />
   </url><url>
-    <loc>/en/tags/tools.html</loc>
-    <lastmod>2022-09-27T17:36:08+08:00</lastmod>
+    <loc>/en/tags/tools/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/tools.html"
+                href="/zh/tags/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/tools.html"
+                href="/en/tags/tools/"
                 />
   </url><url>
-    <loc>/en/tools.html</loc>
-    <lastmod>2022-09-27T17:36:08+08:00</lastmod>
+    <loc>/en/tools/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tools.html"
+                href="/zh/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tools.html"
+                href="/en/tools/"
                 />
   </url><url>
-    <loc>/en/tags/curl.html</loc>
-    <lastmod>2022-09-24T14:05:13+08:00</lastmod>
+    <loc>/en/tags/curl/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/curl.html"
+                href="/zh/tags/curl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/curl.html"
+                href="/en/tags/curl/"
                 />
   </url><url>
-    <loc>/en/filecap.html</loc>
-    <lastmod>2022-09-24T14:05:13+08:00</lastmod>
+    <loc>/en/filecap/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/filecap.html"
+                href="/zh/filecap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/filecap.html"
+                href="/en/filecap/"
                 />
   </url><url>
-    <loc>/en/gesture.html</loc>
-    <lastmod>2022-09-24T14:05:13+08:00</lastmod>
+    <loc>/en/gesture/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/gesture.html"
+                href="/zh/gesture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/gesture.html"
+                href="/en/gesture/"
                 />
   </url><url>
-    <loc>/en/readme.html</loc>
-    <lastmod>2024-03-24T11:20:30+08:00</lastmod>
+    <loc>/en/mirrors/</loc>
+    <lastmod>2024-04-02T09:36:36+08:00</lastmod>
+  </url><url>
+    <loc>/en/readme/</loc>
+    <lastmod>2024-04-02T13:36:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/readme.html"
+                href="/zh/readme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/readme.html"
+                href="/en/readme/"
                 />
   </url><url>
-    <loc>/en/categories.html</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories.html"
+                href="/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories.html"
+                href="/en/categories/"
                 />
   </url><url>
-    <loc>/en/unlist.html</loc>
-    <lastmod>2024-03-24T11:20:30+08:00</lastmod>
+    <loc>/en/unlist/</loc>
+    <lastmod>2024-04-02T13:36:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/unlist.html"
+                href="/zh/unlist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/unlist.html"
+                href="/en/unlist/"
                 />
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redirection on uweb browser: unlimited power</title>
-    <link>/en/tags/redirection.html</link>
+    <link>/en/tags/redirection/</link>
     <description>Recent content in Redirection on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jun 2023 07:35:57 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
     <atom:link href="/en/tags/redirection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resource redirection</title>
-      <link>/en/redirect.html</link>
+      <link>/en/redirect/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>/en/redirect.html</guid>
+      <guid>/en/redirect/</guid>
       <description>⚠️Redirection forwards cookies with the setting option &amp;quot;Redirect cookies&amp;quot; enabled, so use the options with care.&#xA;Setting options: &amp;quot;Url redirection&amp;quot; vs. &amp;quot;Resource redirection&amp;quot; &amp;quot;Url redirection&amp;quot; redirects the main/page url only while &amp;quot;Resource redirection&amp;quot; is for all urls in the page.&#xA;Global redirection Global redirection is enabled with the setting option &amp;quot;Resource redirection&amp;quot; or both &amp;quot;Url redirection&amp;quot; and &amp;quot;Redirect cookies&amp;quot;.&#xA;When a valid global redirection url is set, the &amp;quot;default.redirect&amp;quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.</description>
     </item>
   </channel>

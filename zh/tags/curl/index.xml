@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curl on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags/curl.html</link>
+    <link>/zh/tags/curl/</link>
     <description>Recent content in Curl on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 28 Jan 2023 09:46:39 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:46:25 +0800</lastBuildDate>
     <atom:link href="/zh/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用文件预处理预览/查看/播放可下载资源</title>
-      <link>/zh/filecap.html</link>
+      <link>/zh/filecap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/filecap.html</guid>
-      <description>技巧等级：中级&#xA;文件预处理配置文件为default.filecap，每行格式如下：&#xA;[文件后缀]:[mimetype]:[处理命令]&#xA;其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。&#xA;mimetype表示命令处理后的输出内容格式。&#xA;处理命令与default.cmds相同，主要可能用到如下替换：&#xA;%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。&#xA;利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。&#xA;配置default.filecap如下：&#xA;txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; doc:uweb:echo https://view.xdocin.com/view?src=%U xls:uweb:echo https://view.xdocin.com/view?src=%U ppt:uweb:echo https://view.xdocin.com/view?src=%U docx:uweb:echo https://view.xdocin.com/view?src=%U xlsx:uweb:echo https://view.xdocin.com/view?src=%U pptx:uweb:echo https://view.xdocin.com/view?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：&#xA;pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///data/data/info.torapp.uweb/files/app/djvu.html?url=%u epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。&#xA;如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
+      <guid>/zh/filecap/</guid>
+      <description>技巧等级：中级&#xA;文件预处理配置文件为default.filecap，每行格式如下：&#xA;[文件后缀]:[mimetype]:[处理命令]&#xA;其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。&#xA;mimetype表示命令处理后的输出内容格式。&#xA;处理命令与default.cmds相同，主要可能用到如下替换：&#xA;%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。&#xA;利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。&#xA;配置default.filecap如下：&#xA;txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; doc:uweb:echo https://view.xdocin.com/view?src=%U xls:uweb:echo https://view.xdocin.com/view?src=%U ppt:uweb:echo https://view.xdocin.com/view?src=%U docx:uweb:echo https://view.xdocin.com/view?src=%U xlsx:uweb:echo https://view.xdocin.com/view?src=%U pptx:uweb:echo https://view.xdocin.com/view?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：&#xA;pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///data/data/info.torapp.uweb/files/app/djvu.html?url=%u epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html#?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。&#xA;如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
     </item>
   </channel>
 </rss>

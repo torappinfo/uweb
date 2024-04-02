@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags/tools.html</link>
+    <link>/zh/tags/tools/</link>
     <description>Recent content in Tools on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 04 Oct 2022 13:42:16 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:46:25 +0800</lastBuildDate>
     <atom:link href="/zh/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工具汇总</title>
-      <link>/zh/tools.html</link>
+      <link>/zh/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tools.html</guid>
+      <guid>/zh/tools/</guid>
       <description>本文以超微浏览器为例来说明。&#xA;安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。&#xA;安装双解字典索引&#xA;安装双解字典至主屏&#xA;英语活用大词典索引&#xA;安装英语活用至主屏&#xA;汉语大词典索引&#xA;安装汉语词典至主屏&#xA;soed6索引&#xA;安装soed至主屏&#xA;以下字典最好安装markdown处理器。&#xA;安装markdown处理器&#xA;Merriam Webster International Unabridged 索引&#xA;安装mwi至主屏&#xA;ode3索引&#xA;安装ode至主屏&#xA;oed索引&#xA;安装oed至主屏&#xA;大英百科索引&#xA;安装be至主屏&#xA;以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。&#xA;安装tdict词典工具 安装完tdict词典工具以后，对dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：&#xA;汉语大字典:c:zd xz %s dictXXX&#xA;字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。&#xA;插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
     </item>
   </channel>
