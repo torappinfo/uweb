@@ -1,4 +1,31 @@
-### Mirrors (clickable with uweb browser)
+### Mirrors (for version 1040+)
+[gitee](https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#)
+[gitcode](https://gitcode.net/uweb/uweb/-/raw/master/redirect.html#)
+[gitcode](https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html#)
+[gitea](https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html#)
+[notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
+[launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
+[framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
+[agit](https://agit.ai/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[froggi](https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
+[gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html)
+[pagure](https://pagure.io/uweb/raw/master/f/redirect.html#)
+[bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/raw/master/redirect.html#)
+[jsdelivr](https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html#)
+[dagshub](https://dagshub.com/torappinfo/uweb/raw/master/redirect.html#)
+[gitgud](https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html#)
+[gitly](https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html#)
+[gitnet](https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[palemoon](https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[tilde](https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[dotclear](https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[mimetest](https://git.minetest.land/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[chapril](https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+
+### Mirrors (for all versions)
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验1</a>
 <a href="i:0m?:https://gitcode.net/uweb/uweb/-/raw/master/redirect.html">2</a>
 <a href="i:0m?:https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html">4</a>
@@ -25,7 +52,7 @@
 <a href="i:0m?:https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html">dotclear</a>
 <a href="i:0m?:https://git.minetest.land/jamesfengcao/uweb/raw/branch/master/redirect.html ">minetest</a>
 <a href="i:0m?:https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html">chapril</a>
-<a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html ">cryto</a>
+<a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html">cryto</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
 
 ### Repositories

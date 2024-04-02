@@ -56,7 +56,7 @@
 [file extension]:[mimetype]:[command line]</p>
 <p>The &quot;[file extension]&quot; part can have at most two-segment of extensions such as &quot;txt.xz&quot;,&quot;html.gz&quot;.<br>
 &quot;[mimetype]&quot; indicates the type of &quot;[command line]&quot; output.<br>
-&quot;[command line]&quot; is same as the one in <a href="../cmds/index.html">default.cmds</a>. The most often used replacements are:<br>
+&quot;[command line]&quot; is same as the one in <a href="../cmds/index.html#">default.cmds</a>. The most often used replacements are:<br>
 %u (url), %U (urlencoded url), %c (cookie), %p (site password, curl format).</p>
 <p>default.filecap example:</p>
 <pre><code>txt:text/html:curl %p "%u"
@@ -72,7 +72,7 @@ docx:uweb:echo http://docs.google.com/gview?embedded=true&url=%U
 xlsx:uweb:echo http://docs.google.com/gview?embedded=true&url=%U
 pptx:uweb:echo http://docs.google.com/gview?embedded=true&url=%U
 xz:text/plain:curl %p "%u"|xz -d --</code></pre>
-<p>Examples for <a href="../html5/index.html">html5 application</a>:</p>
+<p>Examples for <a href="../html5/index.html#">html5 application</a>:</p>
 <pre><code>pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u
 djvu:uweb:echo file:///data/data/info.torapp.uweb/files/app/djvu.html?url=%u
 epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html#?bookPath==%u</code></pre>

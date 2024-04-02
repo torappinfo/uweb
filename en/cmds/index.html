@@ -47,7 +47,7 @@
   <ul class="tags">
     
   </ul>
-  <p>Click the following links to install commands with <a href="../../en/">uweb browser</a>. <b>Force exit and re-launch the app</b>, then long press the button with clock icon to popup the command menu.</p>
+  <p>Click the following links to install commands with <a href="../index.html#">uweb browser</a>. <b>Force exit and re-launch the app</b>, then long press the button with clock icon to popup the command menu.</p>
 <p>Configuration file &quot;default.cmds&quot; examples:</p>
 <p><a href="i:03Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
 <p><a href="i:03Clear database::rm -rf /data/data/info.torapp.uweb/databases/*">Clear database::rm -rf /data/data/info.torapp.uweb/databases/*</a></p>
@@ -59,7 +59,7 @@
 <p><a href="i:03config in Download::cd /data/data/info.torapp.uweb;toybox rm -rf files;toybox mkdir -p /sdcard/Download/uweb;toybox ln -s /sdcard/Download/uweb files">config in Download::cd /data/data/info.torapp.uweb;toybox rm -rf files;toybox mkdir -p /sdcard/Download/uweb;toybox ln -s /sdcard/Download/uweb files</a></p>
 <p><a href="i:03html5 in Download::cd /data/data/info.torapp.uweb/files;toybox rm -rf app;toybox mkdir -p /sdcard/Download/app;toybox ln -s /sdcard/Download/app">html5 in Download::cd /data/data/info.torapp.uweb/files;toybox rm -rf app;toybox mkdir -p /sdcard/Download/app;toybox ln -s /sdcard/Download/app</a></p>
 <p><a href="i:03tgz install::toybox tar -xzf %f -C /">tgz install::toybox tar -xzf %f -C /</a></p>
-<p>Users should change the IP addresses in the following menus accordingly. In all cases, TV side needs to execute &quot;<a href="../links/index.html">wait for network msg</a>&quot; first. Send message to network (ex. for android TVs):<br>
+<p>Users should change the IP addresses in the following menus accordingly. In all cases, TV side needs to execute &quot;<a href="../links/index.html#">wait for network msg</a>&quot; first. Send message to network (ex. for android TVs):<br>
 <a href="i:03Send clipboard:clip/uweb:printf 'i:5ji:5b';cat">Send clipboard:clip/uweb:printf 'i:5ji:5b';cat</a></p>
 <p><a href="i:03Send url::printf '%u'|/system/bin/toybox nc 192.168.2.155 1500">Send url::printf '%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
 <p><a href="i:03Sendurl(bookmark)::printf 'i:51../home5:i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">Sendurl(bookmark)::printf 'i:51../home5:i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
@@ -105,7 +105,7 @@ Clipboard2QR needs libqrencode.</p>
 <li>&quot;/clip&quot;: copy the command output to clipboard.</li>
 <li>&quot;clip/text/html&quot; : clipboard as input, and the command output is processed as &quot;text/html&quot;.</li>
 <li>&quot;termux/*&quot;: command line is executed under termux.</li>
-<li>&quot;/uweb&quot;: the command output is processed as <a href="../links/index.html">links</a>.</li>
+<li>&quot;/uweb&quot;: the command output is processed as <a href="../links/index.html#">links</a>.</li>
 </ul>
 
 </div>
