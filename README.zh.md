@@ -1,9 +1,3 @@
-<script>
-function notRepo() {
-  let u=location.href.replace(/#$/, '');
-  return u.endsWith('index.html')||u.endsWith('readme/');
-}
-</script>
 ### 超微浏览器 (uweb browser): 释放无尽威能，微、威、快、高效、极致优化
 <a href="README.md" onclick="if(notRepo()){location='../../en/readme/index.html#';return false;}">English</a>
 <a href="zh/donate.md" onclick="if(notRepo()){location='../searchurl/donate.html#';return false;}">捐赠</a>

@@ -1,10 +1,3 @@
-<script>
-function notRepo() {
-  let u=location.href.replace(/#$/, '');
-  return u.endsWith('index.html')||u.endsWith('readme/');
-}
-</script>
-
 ### Uweb browser: unlimited power
 <a href="README.zh-Hans.md" onclick="if(notRepo()){location='../../zh/readme/index.html#';return false;}">中文</a>
 
