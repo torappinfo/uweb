@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>Termux</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Termux
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>Only the termux versions provided along with uweb browser can work seamlessly. For android 10+, please install termux before installing uweb browser. If uweb is already installed, users can uninstall it first, then install termux and reinstall uweb browser.</p>
+<h4 id="termux-bookmarks">Termux bookmarks</h4>
+<p>Long pressing the following links then either &quot;commands&quot;-&gt;&quot;<a href="../urls/index.html">bookmark</a>&quot; to add bookmarks or &quot;open in new tab&quot; to execute.<br>
+<a href="c:bc -l">GNU bc (basic calculator)</a><br>
+<a href="c:bc -l *.bc">bc with all extensions</a></p>
+<h4 id="click-the-following-links-to-install-termux-configurations">Click the following links to install termux configurations:</h4>
+<p><a href="i:0h/data/data/com.termux/files/home/.bashrc:../../termux/bashrc">.bashrc</a></p>
+<p><a href="i:0h/data/data/com.termux/files/home/.inputrc:../../termux/inputrc">.inputrc</a></p>
+<p><a href="i:0h/data/data/com.termux/files/home/z.sh:https://fastly.jsdelivr.net/gh/rupa/z/z.sh">z.sh</a></p>
+<p><a href="i:0h/data/data/com.termux/files/home/commacd.sh:https://fastly.jsdelivr.net/gh/shyiko/commacd/commacd.sh">commacd.sh</a></p>
+<p><a href="i:0h/data/data/com.termux/files/home/.profile:../../termux/profile">.profile</a> : only for kshell with naked termux (no initial packages, need the following fix for termux quick crash to be launched)</p>
+<h4 id="copy-existing-termux-installation-to-other-devices">Copy existing termux installation to other devices</h4>
+<p>Using uweb to copy (Long pressing the following links and &quot;open in new tab&quot; to fix/send/receive):</p>
+<ul>
+<li>target device: install termux app.</li>
+<li>(optional)<a href="d::mkdir -p /data/user/0/com.termux/files/home/.termux;cd /data/user/0/com.termux/files;mkdir usr;cd home/.termux;ln -s /system/bin/sh shell:">fix termux quick crash with &quot;updateonly&quot; versions</a> by long click this link.</li>
+<li>both devices: launch termux and acquire wakelocks. uweb to checke option &quot;Use termux&quot; in UI configuration page for long time tranferring. Uweb itself does not hold any wakelock thus may have issues for huge data transmission.</li>
+<li>source device: uweb to visit <a href="files:///data/data/com.termux/files">termux folder</a> by long click, then long click &quot;usr&quot; folder to send to network.</li>
+<li>target device: uweb to visit <a href="files:///data/data/com.termux/files">termux folder</a> by long click, then long click &quot;right arrow&quot; button to receive from network.</li>
+</ul>
+<h5 id="using-ssh-to-copy">Using ssh to copy</h5>
+<ul>
+<li>target device: install termux app, then run &quot;apt install openssh&quot; inside the termux.</li>
+<li>source device: Send the &quot;~/.ssh&quot; folder with uweb browser to the network.</li>
+<li>target device: Uweb to visit &quot;file://data/data/com.termux/files/home/&quot; to reach the folder, then receive the data sent by the above source device.</li>
+<li>source device: Run &quot;sshd&quot;.</li>
+<li>target device: Run the command &quot;scp -P 8022 -r [source ip]:.. ..&quot;</li>
+</ul>
+<h4 id="tips">Tips</h4>
+<p>File system navigation:<br>
+With <a href="https://github.com/rupa/z">z.sh</a> and <a href="https://github.com/shyiko/commacd">commacd</a>, user can reach any folder with few key stokes. Run &quot;v&quot; to launch uweb file manager on the current working directory, long click any file link to share.</p>
+
+</div>
+<p>Last Modified: 9 December 2023<br>
+add TV mode<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

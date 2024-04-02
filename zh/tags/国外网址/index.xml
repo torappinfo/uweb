@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>国外网址 on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</link>
+    <link>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80.html</link>
     <description>Recent content in 国外网址 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <atom:link href="/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>加速访问国外网站</title>
-      <link>/zh/hosts/</link>
+      <link>/zh/hosts.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/hosts/</guid>
+      <guid>/zh/hosts.html</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。&#xA;使用Android端uweb浏览器。&#xA;域名文件内容如下：&#xA;googleadservices.com&#xA;googlesyndication.com&#xA;adsense.com&#xA;googleapis.com&#xA;google-analytics.com&#xA;googletagservices.com&#xA;twitter.com&#xA;facebook.com&#xA;fbcdn.net&#xA;其它国外网址访问技巧：&#xA;尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片 </description>
     </item>
   </channel>

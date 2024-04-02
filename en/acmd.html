@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>Address bar command line</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Address bar command line
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <h3 id="--or--command-line">&quot;:!&quot; ( or &quot;!&quot;) command line</h3>
+<p>Pressing &quot;:&quot; or &quot;!&quot; with hardware keyboard sets focus on the address bar.<br>
+The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable with arguments. Ex. &quot;:!s g keyword&quot; could invoke &quot;s.js&quot; executable with the whole string as arguments (&quot;s.sh&quot; or &quot;s&quot; if file exists, here &quot;g&quot; as google search engine); &quot;:! g keyword&quot; would invoke the file &quot;.js&quot; or &quot;.sh&quot; as executable.</p>
+<p>For regular (non-js) executables, the standard output of the command line could be treated as lines of urls (or html, plain text).</p>
+<p><a href="i:0h.js:../searchurl/txt/web.js">Install the example file &quot;.js&quot; (supporting search engine bundle)</a><br>
+<a href="i:0hs.sh:../searchurl/txt/web.sh">Install the example file &quot;s.sh&quot;</a></p>
+<p>Click the following links to make commands appear in address bar, then press &quot;enter&quot; to execute:<br>
+<a href="i:15:!cd /data/data/com.termux/files/home;ln -s ../../../info.torapp.uweb/files uweb">Make uweb configuration folder accessible by file managers with termux installed</a><br>
+(<a href="https://wiki.termux.com/wiki/Internal_and_external_storage">File manager list at end of the page</a>)</p>
+<h3 id="address-bar-command-modes">Address bar command modes</h3>
+<p><a href="../cmds/index.html">Commands</a> are the best for repeated execution of an instruction. Address bar command modes provide ways to run different commands in the same category easily.</p>
+<p>The configure file &quot;default.acmd&quot; has the exactly same format as <a href="../cmds/index.html">default.cmds</a>. Click the following links to install new modes (cold start the app to take effect, then long click the &quot;refresh&quot; button to switch modes):</p>
+<p><a href="i:0gdefault.acmd::shell:text/plain:%25s%0A">Shell command mode</a></p>
+<p><a href="i:0gdefault.acmd::bc:text/plain:echo '%25s'|bc -l -q%0A">GNU bc (basic calculator) command mode (need termux for Android 10- )</a></p>
+<p><a href="i:0gdefault.acmd::plot 2D function:image/svg%2Bxml:gnuplot -e 'set term svg;set
+output;plot %25s'%0A">GNUPlot plot (2D function), needs uweb adapted termux &amp; gnuplot</a></p>
+<p><a href="i:0gdefault.acmd::plot 3D function:image/svg%2Bxml:gnuplot -e 'set term svg;set
+output;splot %25s'%0A">GNUPlot plot (3D function), needs uweb adapted termux &amp; gnuplot</a></p>
+
+</div>
+<p>Last Modified: 18 February 2023<br>
+use :! instead of shell commandline mode for file manager access<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

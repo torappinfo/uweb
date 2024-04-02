@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>配置浏览器常用命令</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('en')">English</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">配置浏览器常用命令
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p><a href="../zh/">超微浏览器</a>下点击配置链接可自动添加常用命令，<b>强制清空后台重启后</b>长按历史按钮可用。</p>
+<p><a href="i:0gdefault.cmds:https://cdn.jsdelivr.net/gh/torappinfo/uweb/zh/searchurl/txt/cmds.cfg">打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等</a></p>
+<p>配置文件&quot;default.cmds&quot;示例：</p>
+<p><a href="i:03清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">清空浏览数据::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
+<p><a href="i:03清空应用数据库::rm -rf /data/data/info.torapp.uweb/databases/*">清空应用数据库::rm -rf /data/data/info.torapp.uweb/databases/*</a></p>
+<p><a href="i:03本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb">本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb</a></p>
+<p><a href="i:03本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.">本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.</a></p>
+<p><a href="i:03合并查询历史至自动填充:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i>a.tmp;mv a.tmp default.autoc;>query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc">合并查询历史至自动填充:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&gt;a.tmp;mv a.tmp default.autoc;&gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc</a></p>
+<p><a href="i:03清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache">清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache</a></p>
+<p><a href="i:03清空logcat::logcat -c">清空logcat::logcat -c</a></p>
+<p><a href="i:03输出logcat.log::logcat -d > logcat.log">输出logcat.log::logcat -d &gt; logcat.log</a></p>
+<p><a href="i:03复制cookie:/clip:printf '%c'">复制cookie:/clip:printf '%c'</a></p>
+<p><a href="i:03tgz install::toybox tar -xzf %f -C /">tgz install::toybox tar -xzf %f -C /</a></p>
+<p>以下命令需修改接收端IP定制。另外，发送消息前接收端需首先执行“<a href="../links/index.html">等待网络消息</a>”命令。<br>
+<a href="i:03发送剪贴板:clip/uweb:printf 'i:5ji:5b';cat">发送剪贴板:clip/uweb:printf 'i:5ji:5b';cat</a></p>
+<p><a href="i:03发送url::printf '%u'|/system/bin/toybox nc 192.168.2.155 1500">发送url::printf '%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03发送url(书签)::printf 'i:51../home5:i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">发送url(书签)::printf 'i:51../home5:i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03发送url(全屏)::printf 'i:5f%u'|/system/bin/toybox nc 192.168.2.155 1500">发送url(全屏)::printf 'i:5f%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03发送url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500">发送url(video)::printf 'i:0mc16:%u'|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p><a href="i:03发送剪贴板2:clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500">发送剪贴板2:clip:(printf 'i:5b';cat)|/system/bin/toybox nc 192.168.2.155 1500</a></p>
+<p>下面配置需要root权限：<br>
+<a href="i:03解冻微信::su -c 'pm enable com.tencent.mm'">解冻微信::su -c 'pm enable com.tencent.mm'</a></p>
+<p><a href="i:03冻结微信::su -c 'pm disable com.tencent.mm'">冻结微信::su -c 'pm disable com.tencent.mm'</a></p>
+<p><a href="i:03解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'">解冻拼多多::su -c 'pm enable com.xunmeng.pinduoduo'</a></p>
+<p><a href="i:03冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'">冻结拼多多::su -c 'pm disable com.xunmeng.pinduoduo'</a></p>
+<p>下面配置需要termux：<br>
+<a href="i:03VPN::am start -a android.net.vpn.SETTINGS">VPN::am start -a android.net.vpn.SETTINGS</a></p>
+<p><a href="i:03无线::am start -a android.settings.WIRELESS_SETTINGS">无线::am start -a android.settings.WIRELESS_SETTINGS</a></p>
+<p><a href="i:03cd:termux/*:cd %f;exit 1">cd:termux/*:cd %f;exit 1</a></p>
+<p><a href="i:03vim:termux/*:vim %f">vim:termux/*:vim %f</a></p>
+<p><a href="i:03历史去重::awk -F'\t' '!s[\$2]++' /data/data/info.torapp.uweb/files/history.rec>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/history.rec">历史去重::awk -F'\t' '!s[$2]++' /data/data/info.torapp.uweb/files/history.rec&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/history.rec</a></p>
+<p><a href="i:03书签去重::awk '!s[\$0]++' /data/data/info.torapp.uweb/files/bookmark.html>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/bookmark.html">书签去重::awk '!s[$0]++' /data/data/info.torapp.uweb/files/bookmark.html&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/bookmark.html</a></p>
+<p><a href="i:03hosts去重::toybox tac /data/data/info.torapp.uweb/files/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.hosts">hosts去重::toybox tac /data/data/info.torapp.uweb/files/default.hosts|awk -F' ' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.hosts</a></p>
+<p><a href="i:03网站设置去重::toybox tac /data/data/info.torapp.uweb/files/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.siteconf">网站设置去重::toybox tac /data/data/info.torapp.uweb/files/default.siteconf|awk -F':' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.siteconf</a></p>
+<p><a href="i:03代理8888:termux/*:tinyproxy;am start -a android.settings.WIFI_SETTINGS">代理8888:termux/*:tinyproxy;am start -a android.settings.WIFI_SETTINGS</a></p>
+<p><a href="i:03剪贴板_至PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'">剪贴板_至PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'</a></p>
+<p><a href="i:03剪贴板_从PC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'">剪贴板_从PC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'</a></p>
+<p><a href="i:03剪贴板广播:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast">剪贴板广播:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast</a></p>
+<p><a href="i:03剪贴板_从广播:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'">剪贴板_从广播:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'</a></p>
+<p><a href="i:03剪贴板_二维码:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png">剪贴板_二维码:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png</a></p>
+<p>代理8888需要安装有tinyproxy（apt install tinyproxy），端口为8888。用户可配置为允许外部PC使用。<br>
+发送url需更改智能电视机ip地址。<br>
+剪贴板_PC需更改用户名，PC端安装有xsel，termux安装有ssh (apt install openssh)，且配置好ssh无密码登录。<br>
+剪贴板广播需安装有socat（apt install socat)。<br>
+剪贴板_二维码需安装libqrencode.</p>
+
+</div>
+<p>Last Modified: 5 December 2023<br>
+i:5g sematics change<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

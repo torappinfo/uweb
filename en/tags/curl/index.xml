@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curl on uweb browser: unlimited power</title>
-    <link>/en/tags/curl/</link>
+    <link>/en/tags/curl.html</link>
     <description>Recent content in Curl on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,9 +10,9 @@
     <atom:link href="/en/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom file handling</title>
-      <link>/en/filecap/</link>
+      <link>/en/filecap.html</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/en/filecap/</guid>
+      <guid>/en/filecap.html</guid>
       <description>Long press the settings button, check the option &amp;quot;custom file handling&amp;quot; to enable the functionality.&#xA;The custom file handling configuration file is &amp;quot;default.filecap&amp;quot;, each line of it has the format as follows:&#xA;[file extension]:[mimetype]:[command line]&#xA;The &amp;quot;[file extension]&amp;quot; part can have at most two-segment of extensions such as &amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;.&#xA;&amp;quot;[mimetype]&amp;quot; indicates the type of &amp;quot;[command line]&amp;quot; output.&#xA;&amp;quot;[command line]&amp;quot; is same as the one in default.cmds. The most often used replacements are:</description>
     </item>
   </channel>

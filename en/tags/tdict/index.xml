@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tdict on uweb browser: unlimited power</title>
-    <link>/en/tags/tdict/</link>
+    <link>/en/tags/tdict.html</link>
     <description>Recent content in Tdict on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,9 +10,9 @@
     <atom:link href="/en/tags/tdict/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools</title>
-      <link>/en/tools/</link>
+      <link>/en/tools.html</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tools/</guid>
+      <guid>/en/tools.html</guid>
       <description>This page is for uweb browser.&#xA;install tdict_local (search with local indexes and remote content) Click to install the following local indexes with corresponding search engines (for test only).&#xA;install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;&#xA;Install AHD to home screen&#xA;Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;&#xA;Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;&#xA;Indexes for SOED6&#xA;install SOED&#xA;The following dictionaries work better with markdown processor.&#xA;Install markdown processor</description>
     </item>
   </channel>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>安卓系统出错诊断</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">安卓系统出错诊断
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p><a href="../zh/">超微浏览器</a>如果闪退，会生成出错文件&quot;error.log&quot;。</p>
+<p>如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：</p>
+<ul>
+<li>访问<a href="../cmds/index.html">常用命令网页</a>，点击安装logcat相关的两个命令。</li>
+<li>清空后台并重启超微浏览器。</li>
+<li>长按历史按钮，执行命令&quot;清空logcat&quot;。</li>
+<li>触发有问题的功能。</li>
+<li>长按历史按钮，执行命令&quot;输出logcat.log&quot;.</li>
+<li>检查文件&quot;logcat.log&quot;内容。</li>
+</ul>
+<p>超微浏览器是手机上调试javascript脚本的最佳工具，无需打包就可有多种方式运行javascript代码。webview dev版自带devtools，运行此工具，打开flag &quot;webview-log-js-console-messages&quot;以后所有js出错信息及console输出会被复制到logcat中。然后用户可根据上一段所述方法诊断。</p>
+<p>非dev版本webview可点击如下链接运行devtools。<br>
+<a href="i:16:android.intent.action.VIEW:com.google.android.webview:org.chromium.android_webview.devui.MainActivity">devtools for com.google.android.webview</a></p>
+<p><a href="i:16:android.intent.action.VIEW:com.android.webview:org.chromium.android_webview.devui.MainActivity">devtools for com.android.webview</a></p>
+
+</div>
+<p>Last Modified: 24 September 2022<br>
+fix links for generated md files<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>_Posts on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/_posts/</link>
+    <link>/zh/_posts.html</link>
     <description>Recent content in _Posts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -10,233 +10,233 @@
     <atom:link href="/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电视直播</title>
-      <link>/zh/tvlive/</link>
+      <link>/zh/tvlive.html</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tvlive/</guid>
+      <guid>/zh/tvlive.html</guid>
       <description>直播源 直播源网址前面加上前缀&amp;quot;i:0/js/2lnk.js:i:5g&amp;quot;就可将任一直播源转换成直播网页。其中前缀 &amp;quot;i:0/js/2lnk.js:&amp;quot; 对网页使用应用assets内置小书签&amp;quot;/js/2lnk.js&amp;quot;转换直播源，&amp;quot;i:0&amp;quot;中的&amp;quot;0&amp;quot;表示此功能更改了网页原来的展示，有潜在的安全威胁，需用户明确同意（比如通过安装为菜单，书签，对话框确认等方式）。前缀&amp;quot;i:5g&amp;quot;强迫网址以文本方式展示，部分直播源以m3u为后缀，不能省略前缀&amp;quot;i:5g&amp;quot;。&#xA;YanG-1989/m3u&#xA;频道 CCTV1&#xA;CCTV2财经&#xA;CCTV4国际&#xA;CCTV5体育&#xA;CCTV6电影&#xA;CCTV7军农&#xA;CCTV8电视剧&#xA;CCTV10科教&#xA;CCTV11戏曲&#xA;CCTV12社会与法&#xA;CCTV13新闻&#xA;CCTV15少儿&#xA;CCTV17农村&#xA;万州综合频道&#xA;万州三峡移民&#xA;龙岩综合频道&#xA;三明综合频道&#xA;三明公共频道&#xA;敦煌综合频道&#xA;河源综合频道&#xA;河源公共频道&#xA;黔东南综合频道&#xA;沧州三套节目&#xA;电视模式：配置直播源 文件&amp;quot;engine.search&amp;quot;为自动顺序搜索引擎列表文件，其格式与主屏搜索引擎文件&amp;quot;home5.search&amp;quot;类似。如果将其中的搜索引擎url以视频url代替。此时浏览器会将“engine.search”作为视频直播频道列表文件，浏览器进入电视模式，启动就会全屏播放。</description>
     </item>
     <item>
       <title>定时脚本</title>
-      <link>/zh/tcron/</link>
+      <link>/zh/tcron.html</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tcron/</guid>
+      <guid>/zh/tcron.html</guid>
       <description>crontab 注意：1. 必须使用单一空格作为分割符。&#xA;2. 必须同时满足日期及星期的要求（功能增强），crontab标准只要求满足其中一个要求。&#xA;文件&amp;quot;crontab&amp;quot;每行第六部分可为url或内部链接，也可为&amp;quot;c:&amp;quot;通知termux执行后面命令; &amp;quot;!&amp;quot;直接执行命令。其余格式一律作为闹钟提醒时的伴随消息。&#xA;文件&amp;quot;crontab&amp;quot;自动签到例子：&#xA;5 8,9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignIn&#xA;7 9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignInTakeQuan&#xA;6 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInApi?action=SignIn&#xA;8 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInAward?index=1&#xA;其中&amp;quot;i:a1&amp;quot;为对url发起&amp;quot;post&amp;quot;请求。&#xA;tcron 如果勾选“文件预处理”，则uweb启动时运行&amp;quot;default.rc&amp;quot; shell脚本。可与tcron定时管&#xA;理工具(安装tcron)配合运行定时任务，如存储清理、网页签到等。&#xA;勾选“文件预处理”的情况下，如果存在文件&amp;quot;default.rc2&amp;quot;，则在超微浏览器成为前台时，此文件代码被执行。在超微永不退出的情况下，&amp;quot;default.rc&amp;quot;将没有任何执行机会，而&amp;quot;default.rc2&amp;quot;保证即使超微长时间不重启，定时脚本仍可以执行。&#xA;usage: tcron logfile command hours [timezone delay_sec elsecommand]&#xA;指定时间范围内如果命令没有被执行过，则tcron会执行一次命令。&#xA;其中logfile可以不记录任何log，成功执行命令以后只需更新一下改动时间即可。&#xA;hours: 如果为正整数，则将每天划分为不同的时间区间（单位小时），每个区间命令只能执行一次。如果为负整数，则取绝对值，并且单位为分钟，保证下一次执行至少间隔这么多分钟。&#xA;hours也可以为&amp;quot;hh:mm-hh:mm,...&amp;quot;格式, 譬如&amp;quot;6:00-8:30,11:00-13:00,5:30-6:30&amp;quot;为每天三餐时间脚本执行一次。&#xA;timezone: 时区：譬如“8”表示北京时间。(默认为8)&#xA;delay_sec: 等待指定秒数后再执行命令，防止命令被集中执行。&#xA;elsecommand: 无需执行命令command时执行。&#xA;ex:&#xA;set PATH=/system/bin:/data/data/info.torapp.uweb/files/bin&#xA;#天翼云每天签到一次&#xA;tcron /sdcard/a &amp;quot;cloudpan189-go sign;toybox touch /sdcard/a&amp;quot; 24&#xA;#每30天清空baidu目录</description>
     </item>
     <item>
       <title>重定向网址</title>
-      <link>/zh/redirect/</link>
+      <link>/zh/redirect.html</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/redirect/</guid>
+      <guid>/zh/redirect.html</guid>
       <description>全局重定向 长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此时如果全局重定向url为有效网址，则所有网络访问被内部重定向至url: &amp;quot;[全局重定向url]+[原始url]&amp;quot;。&#xA;Example: &amp;quot;https://loud-moth-21.deno.dev/&amp;quot;&#xA;使用仓库 &amp;quot;https://github.com/torappinfo/fetch&amp;quot; 入口&amp;quot;deno.js&amp;quot; 部署Deno&#xA;创建免费重定向，说明类似但代码不同&#xA;cloudflare workers 全局重定向代码&#xA;vercel 全局重定向&#xA;重定向文件 &amp;quot;default.redirect&amp;quot; (仅在无有效全局重定向url时生效) 点击添加google recaptcha国内镜像&#xA;使用服务器在国外的搜索引擎体验往往不如国内的引擎。由于网站屏蔽的原因，两者之间索引权重差别很大。国外受欢迎的技术类网站因此难以在百度上搜到;国外引擎能搜到但由于其中不少结果无法访问而体验糟糕。&#xA;其实，很多技术类网站在国内早有镜像，但由于镜像并非众所周知，其索引权重在百度上微不足道，非专门搜索不可得。&#xA;本文介绍一种技术，可重定向国外网址至国内镜像，极大的提高国外引擎的体验，让更多用户更客观的理解全球技术。&#xA;配置default.redirect:&#xA;文件每一行格式为：&#xA;域名:正则表达式:替换表达式&#xA;其中正则表达式以java语言规定为准，表达式中不能包含&#39;:&#39;。正则表达式为空时系统默认为与域名相同。正则表达式,替换表达式同时为空时无重定向作用，但域名会允许CORS跨域访问 (目前仅对&amp;quot;GET&amp;quot; request生效)。&#xA;例子文件内容如下：&#xA;developer.android.com::developer.android.google.cn&#xA;四种使用重定向的方法：&#xA;长按链接&#xA;添加文件&amp;quot;国内镜像.js&amp;quot;至&amp;quot;longclick&amp;quot;目录下。&#xA;文件内容如下：&#xA;//e:%u 其中&amp;quot;e:&amp;quot;为uweb特殊url协议，意为&amp;quot;edit&amp;quot;，即&amp;quot;编辑&amp;quot;。当后面紧跟url网址的情况下会重定向网址。&#xA;重启uweb后长按链接弹出菜单选&amp;quot;国内镜像&amp;quot;，浏览器将访问网址的国内镜像。若网址为本地文件，则浏览器会自动调用此类文件编辑器。&#xA;长按工具条图像按钮。&#xA;长按设置，选中&amp;quot;自定义重定向&amp;quot;。&#xA;长按设置，选中&amp;quot;自定义资源重定向&amp;quot;。此选项除访问url重定向之外，还可重定向网页中一切资源。&#xA;更多重定向网址：&#xA;www.bilibili.com::www.ibilibili.com&#xA;pan.baidu.com::pan.baiduwp.com&#xA;www.docin.com::www.docin365.com&#xA;wenku.baidu.com::wenku.baiduvvv.com&#xA;detail.tmall.com::detail.tmallvvv.com&#xA;detail.m.tmall.com::detail.m.tmallvvv.com&#xA;item.taobao.com::item.taobaovvv.com&#xA;h5.m.taobao.com::h5.m.taobaovvv.com&#xA;jd.com::jdvvv.com&#xA;item.yhd.com::item.yhdvvv.com&#xA;goods.kaola.com::goods.kaolavvv.com&#xA;product.dangdang.com::product.dangdangvvv.com&#xA;item.gome.com.cn::item.gomevvv.com.cn</description>
     </item>
     <item>
       <title>常用链接</title>
-      <link>/zh/links/</link>
+      <link>/zh/links.html</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/links/</guid>
+      <guid>/zh/links.html</guid>
       <description>点击以下链接可安装至常用链接:&#xA;长截屏 (需长截屏模式)&#xA;VPN&#xA;showCookie&#xA;wireless&#xA;显示网站安全证书&#xA;上传坚果云&#xA;更多 webdav ...&#xA;迅雷盘离线&#xA;网页全屏&#xA;点击安装Cookie延期，地址栏内删除特殊字符，站内搜索，seedr离线下载等&#xA;点击安装离线下载(pcloud,furk,微云等)&#xA;uweb浏览器中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&amp;quot;default.link&amp;quot;中，改动过的文件清后台重启动后生效。每行格式如下：&#xA;[菜单名]:[url][空格][javascript脚本]&#xA;其中空格及之后的脚本为可选项。url及之后的脚本支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。&#xA;脚本将在链接访问结束时自动执行。&#xA;url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&amp;quot;:&amp;quot;为链接第二个字符）及特殊链接（&amp;quot;:&amp;quot;为链接首字符）。&#xA;不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：&#xA;.js文件(同长按链接运行js文件): 首行前两个字符为&amp;quot;//&amp;quot;者，超微将打开&amp;quot;//&amp;quot;后面的目标网址并执行此文件代码，目标网址支持&amp;quot;%u&amp;quot;,&amp;quot;%s&amp;quot;等替换。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。&#xA;default.gesture及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。&#xA;各类代理配置如下:&#xA;httpproxy::010[proxy host]:[port]&#xA;socks5::011[socks host]:[port]&#xA;noproxy::010:&#xA;&amp;quot;:&amp;quot;为首字符特殊链接 :0001&#xA;自动翻到上一页。(网页无法前进时按前进按钮可自动翻到下一页。)&#xA;:0003&#xA;切换全屏模式&#xA;:0004&#xA;屏幕旋转&#xA;:001[fileurl]&#xA;加入媒体库&#xA;:010[proxy host]:[port]&#xA;设置http代理, &amp;quot;:010:&amp;quot;禁用代理。&#xA;:011[socks host]:[port]&#xA;socks代理&#xA;&amp;quot;i:&amp;quot;内部链接： i:0m[bookmarklet index|prefix|c[cssFlag]]:[url]&#xA;将url作为网站访问，[bookmarklet index]至少占两个字符。&#xA;c[cssFlag]: For example, &amp;quot;c12&amp;quot; will apply the third and fourth global CSS (12=2^2+2^3). All other cases will be treated as prefix, the real visited url is &amp;quot;[prefix]+url&amp;quot;.</description>
     </item>
     <item>
       <title>小技巧</title>
-      <link>/zh/tips/</link>
+      <link>/zh/tips.html</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tips/</guid>
+      <guid>/zh/tips.html</guid>
       <description>免魔法国内直接使用系列&#xA;使用重定向访问国外技术网址&#xA;google翻译&#xA;目录配置及使用外部文件管理器&#xA;超微浏览器可以将配置目录或子目录符号链接至任意外部公共目录。安装有定制termux的用户也可以使用移动设备自带或第三方文件管理器管理超微内部指定目录。具体配置可见Shell command mode。&#xA;准确显示PC网页:&#xA;PC模式 + 勾选选项&amp;quot;宽屏显示&amp;quot; + 全局脚本&amp;quot;强制缩放&amp;quot;。&#xA;多主屏:&#xA;home5.html为自定义主屏，home6.html, home6.search, home7.html ...为多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。&#xA;自动翻页&#xA;长按后退按钮自动往前翻页（主屏上长按后退出现-1屏,-2屏...，短按前进按钮+1屏,+2屏...），长按前进按钮弹出系统菜单。&#xA;配置临时修改&#xA;配置后如果没有正常退出或转入后台的话，超微不会自动保存设置更改，此时如果清后台强制退出，下次启动超微会使用原有配置。&#xA;临时恢复UA (user agent)至android默认浏览器&#xA;UA为非默认时，点击PC按钮将恢复UA为默认，同时触发不保存UA状态，下次启动浏览器时恢复到原有UA。这样用户可常用一些有力的UA配置，仅偶尔使用默认配置，无需反复切换。&#xA;快速编辑文件&#xA;在浏览器文件管理器中长按文件名，弹出菜单中选择分享，系统会优先弹出相应的文件编辑器。&#xA;配置文件列表中直接点击文件名即可编辑。</description>
     </item>
     <item>
       <title>特定网址脚本、样式、额外html及预处理</title>
-      <link>/zh/sitejs/</link>
+      <link>/zh/sitejs.html</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/sitejs/</guid>
+      <guid>/zh/sitejs.html</guid>
       <description>技巧等级：中级&#xA;脚本 (第一时间装载js脚本见下面sitecss条目) 脚本需命名为 &amp;quot;[根域名].js&amp;quot;，譬如baidu.com.js 或tieba.baidu.com.js 。此脚本将自动作用于所有相同根域名的网址上。如有多个脚本满足条件，以最长文件名为准。 这些脚本需放到/data/data/info.torapp.uweb/files/sitejs目录下，数量没有限制，上百万都不成问题。 长按窗口按钮，勾选“执行网址用户脚本”。 脚本执行对浏览器无性能影响，即使有百万脚本存在。 目前支持两段、三段及少数四段域名（最后两段不超过6字如com.cn的域名可取四段）。所以脚本请不要以很长的域名来命名。 样式及第一时间装载js脚本 与此类似，用户样式需命名为 &amp;quot;[根域名].css&amp;quot;，譬如baidu.com.css 或tieba.baidu.com.css。 样式文件需放到sitecss目录下。 sitecss目录下&amp;quot;[根域名].js&amp;quot;文件会在第一时间装载。 长按窗口按钮，勾选“使用网址用户样式”。 如果文件“default.css”存在，访问网址时如果没有与域名匹配的css文件，则使用此默认样式文件。 default.css可作为夜间模式来使用，此时default.css为夜间模式css，而黑色主题类网址对应的域名为空文件。此种设定情况下仅白色主题网页会使用夜间模式css。 额外html及预处理 需命名为 &amp;quot;[域名].html&amp;quot;，譬如baidu.com.html。注意此处与sitejs, sitecss不同，不再是&amp;quot;[根域名]&amp;quot;。 文件需放到siteextra目录下。 长按窗口按钮，勾选“网址附加内容”。 额外html可以以&amp;quot;&amp;lt;textarea&amp;gt;&amp;quot;或&amp;quot;&amp;lt;div&amp;gt;&amp;lt;textarea&amp;gt;&amp;quot;等结尾，此时超微算法自动判定用户欲对网址html源代码进行处理，并将网址html源码附加在用户html后面，从而成为textarea元素的内容，供用户进行预处理。&#xA;文件&amp;quot;sitejs/.js&amp;quot;,&amp;quot;sitecss/.css&amp;quot;,&amp;quot;sitecss/.js&amp;quot;和&amp;quot;siteextra/.html&amp;quot;可作用于一切非http url（本地文件，浏览器界面等）。</description>
     </item>
     <item>
       <title>html5应用</title>
-      <link>/zh/html5/</link>
+      <link>/zh/html5.html</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/html5/</guid>
+      <guid>/zh/html5.html</guid>
       <description>mdict字典搜索引擎:&#xA;书签页面可字典扫描并自动添加。&#xA;长按底部右箭头弹出系统菜单=&amp;gt;添加搜索引擎=&amp;gt;第三行输入搜索引擎串。对于需要批量添加的用户，显示主屏时，可长按底部时钟按钮，点击编辑器，然后添加保存，清后台重启生效。mdict搜索引擎串有以下两类（推荐第一类）。&#xA;i:5ifile:///.../xxx.mdx,xxx.mdd?app=https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/mdict/mdict.html#word=%s&#xA;其中&amp;quot;/.../xxx.mdx,xxx.mdd&amp;quot;为词典文件全路径。&#xA;i:5ihttps://uwebzh.netlify.app/zh/searchurl/txt/mdict.html?file=mdict/xxx.mdx,mdict/xxx.mdd#word=%s&#xA;对于这类搜索引擎，字典文件必须位于配置目录应用子目录&amp;quot;app&amp;quot;下。上述字典搜索引擎例子中文件&amp;quot;xxx.mdx&amp;quot;及&amp;quot;xxx.mdd&amp;quot;位于&amp;quot;.../app/mdict&amp;quot;下。为方便文件操作，用户可符号链接&amp;quot;app&amp;quot;至任意公共目录。&#xA;点击安装超大文件阅读器（支持txt, html, markdown）&#xA;点击安装超大文件阅读器（markdeep版, latex, diagram,graphviz等）&#xA;点击安装plyr视频播放器&#xA;点击安装dplayer视频播放器&#xA;点击安装pdf阅读器&#xA;点击安装epub阅读器(作者：llili)&#xA;点击安装djvu阅读器&#xA;相应的菜单安装可见浏览器特色服务&#xA;超微配置目录下的子目录名如果以&amp;quot;app&amp;quot;开始(譬如&amp;quot;appPDF&amp;quot;)，则这些&amp;quot;app&amp;quot;开头目录树下放置的html5应用将可获得功能增强。&#xA;配置default.filecap并打开选项“文件预处理”，清后台重启浏览器后超微可直接阅读应用对应格式文件。&#xA;点击配置pdf.js,djvu.js,epub.js,超大文件阅读器&#xA;超大文件阅读器txtview.html url如下:&#xA;file:///data/user/0/info.torapp.uweb/files/app/txtview.html?url=[url]#page=[xxx]&#xA;file:///data/user/0/info.torapp.uweb/files/app/txtview.html?url=[url]#offset=[xxxx]&amp;amp;[length]&#xA;file:///data/user/0/info.torapp.uweb/files/app/markdeep.html?url=[url]#page=[xxx]&#xA;file:///data/user/0/info.torapp.uweb/files/app/markdeep.html?url=[url]#offset=[xxxx]&amp;amp;[length]&#xA;譬如&amp;quot;#offset=10000&amp;amp;500&amp;quot;会访问超大文件偏移量10000处长度为500的内容。&#xA;所有阅读器均支持箭头按钮(短按前进按钮或长按后退按钮)自动翻页。&#xA;比较有用的是mozilla的pdf.js，可用来显示在线或本地pdf文件。url如下:&#xA;file:///data/user/0/info.torapp.uweb/files/app/pdfviewer.html?file=[绝对或相对路径].pdf#page=[xxx]&#xA;则浏览器直接跳转到pdf文件指定页。与主屏多引擎搜索及少量脚本结合使用，可对任何pdf文件进行字典检索。&#xA;下面是一些类似的应用：&#xA;djvu.js应用的访问url如下：&#xA;file:///data/user/0/info.torapp.uweb/files/app/djvu.html?url=[绝对或相对路径或url].pdf#page=[xxx]&#xA;epub.js&#xA;sampotts/plyr : video, YouTube and Vimeo player&#xA;videojs/video.js&#xA;bilibili/flv.js&#xA;MoePlayer/DPlayer&#xA;Streamedian/html5_rtsp_player&#xA;MoePlayer/APlayer : music player</description>
     </item>
     <item>
       <title>信息隐藏技术总览</title>
-      <link>/zh/adblock/</link>
+      <link>/zh/adblock.html</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/adblock/</guid>
+      <guid>/zh/adblock.html</guid>
       <description>总体来说，分为手动控制和针对特定网站的规则两大类办法。手动控制可以保存为网站配置从而自动化。&#xA;双正则表达式根域名隐藏。&#xA;可使用列出外部脚本小书签生成外部js文件列表，长按可疑链接（一般为域名不同的外链），执行“屏蔽根域名”。 针对特定网站的脚本样式。&#xA;长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;标记不良元素&amp;quot;菜单命令，点击页面元素会弹出对话框显示元素及祖先所有属性，并生成css屏蔽代码。默认使用“display:none”屏蔽，但如果上述显示属性中出现过&amp;quot;display&amp;quot;，则建议使用&amp;quot;transform:scale(0)!important&amp;quot;屏蔽。 长按底部工具栏窗口管理按钮，选取&amp;quot;仅显示图片&amp;quot;或&amp;quot;仅显示视频&amp;quot;，图片视频网站彻底干净。选取&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。更多可参看自定义样式。&#xA;保存书签时可在网址前面添加&amp;quot;i:0mc32:&amp;quot;，则整个网址树自动采用&amp;quot;仅显示图片&amp;quot;。没有任何不良信息。改为&amp;quot;c16&amp;quot;则为&amp;quot;仅显示视频&amp;quot;。&amp;quot;c12&amp;quot;则同时采用&amp;quot;禁用伪元素&amp;quot;,&amp;quot;禁用iframe&amp;quot;。 长按[☰]按钮&amp;quot;自动全屏播放&amp;quot;，直接全屏无干扰播放。不良信息没有任何机会出现。不使用全局脚本“自动全屏播放”的情况下，还可以有以下几种方法：&#xA;使用常用服务自动全屏播放菜单(长按视频链接-&amp;gt;命令)，则页面视频会自动全屏播放。按设置按钮，如果勾选“允许自动播放”，则今后此窗口内其它任何视频网址都将会自动全屏无干扰播放。保存书签时可在网址前面添加&amp;quot;i:5f&amp;quot;。 保存书签时可在网址前面添加&amp;quot;i:0mi:5f:&amp;quot;，则整个网址树自动全屏播放。 长按设置，选取&amp;quot;拦截外链脚本&amp;quot;。可在界面配置及杂项网页额外拦截第三方可疑资源。可配置白名单js.allow。&#xA;长按[☰]按钮可隐藏浮动信息，移除横幅，清空定时器（防止定时触发不良信息），中断可疑事件（防止用户操作触发），等待（防止延迟触发）。&#xA;直接关闭图像。&#xA;关闭[JS]脚本。&#xA;url.deny。需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。</description>
     </item>
     <item>
       <title>小书签</title>
-      <link>/zh/bookmarklet/</link>
+      <link>/zh/bookmarklet.html</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/bookmarklet/</guid>
+      <guid>/zh/bookmarklet.html</guid>
       <description>超微浏览器支持直接运行远程网址上的小书签(Bookmarklet)，将本页面或其它包含小书签网址加入书签。使用时只需长按小书签链接，点击“新窗口打开”，小书签将作用于超微浏览器最后一个窗口（非小书签窗口）页面上。&#xA;列出外部脚本&#xA;查看浏览器UA&#xA;网页cookie&#xA;网页源码&#xA;显示网页最后更改时间&#xA;Eruda: mobile console&#xA;生成二维码&#xA;POST转GET&#xA;Shows all form elements&#xA;Enables all form elements&#xA;切换复选框状态&#xA;全选复选框&#xA;复选框全不选&#xA;切换表内复选框状态&#xA;解除选择复制限制（无效时可设UA为PC）&#xA;恢复长按菜单&#xA;正则搜索&#xA;表格排序&#xA;BugMeNot</description>
     </item>
     <item>
       <title>Android TV</title>
-      <link>/zh/androidtv/</link>
+      <link>/zh/androidtv.html</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/androidtv/</guid>
+      <guid>/zh/androidtv.html</guid>
       <description>TV端推荐打开自动播放选项，全局脚本打开自动全屏播放，全局样式打开“仅显示图片“，禁止js confirm对话框。&#xA;点击以下链接可直接设置主屏为书签并添加链接。Android TV可从手机端接收视频url并打开，发送见常用服务：&#xA;等待从网络接收url并打开&#xA;等待接收url沉默版&#xA;书签&#xA;点击以下链接添加常用服务：&#xA;添加书签至主屏&#xA;Android TV可利用顺序搜索使用箭头按钮切换频道。顺序搜索引擎文件engine.search中的搜索引擎url如果不包含&#39;%s&#39;，则搜索引擎只是简单的固定网页url，此时顺序搜索表现为频道切换。更多信息见多引擎搜索页面。</description>
     </item>
     <item>
       <title>常用书签</title>
-      <link>/zh/bookmark/</link>
+      <link>/zh/bookmark.html</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/bookmark/</guid>
+      <guid>/zh/bookmark.html</guid>
       <description>所有书签都可通过&amp;quot;长按链接-&amp;gt;命令-&amp;gt;书签&amp;quot;保存链接为书签。书签菜单可至特色服务网页安装。&#xA;web&#xA;AI/chatGPT:&#xA;天工 kimi taichu 网络剪贴板&#xA;txtpad&#xA;cmd.im&#xA;Wait for url from other devices&#xA;gamezop&#xA;Personal use 2&#xA;分类书签模板 点击以下链接可安装模板至分类书签目录。保存至“小说”类别的网站会自动使用阅读模式。&#xA;&amp;quot;小说.html&amp;quot;: 自动使用阅读模式&#xA;href=&amp;quot;i:0hbookmark/txt.html:../searchurl/bookmark/viewtxt.html&amp;quot;&amp;gt;&amp;quot;txt.html&amp;quot;: 在线阅读下载直链(txt/html)&#xA;Mirrors Mirror list&#xA;zlibirary&#xA;mirror.js.org&#xA;Termux命令书签 以下书签需&amp;quot;长按以下链接-&amp;gt;新窗口打开&amp;quot;才能在此网页正常执行。&#xA;需安装定制版termux及相应工具，&#xA;计算器bc&#xA;全能计算器bc&#xA;以下书签需安装gopher.&#xA;CNN news gopher&#xA;wikipedia search gopher&#xA;reddit gopher</description>
     </item>
     <item>
       <title>利用用户自定义样式屏蔽不良信息</title>
-      <link>/zh/adblock_css/</link>
+      <link>/zh/adblock_css.html</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/adblock_css/</guid>
+      <guid>/zh/adblock_css.html</guid>
       <description>点击以下链接可安装全局样式，清后台重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。&#xA;floppymoose 广告屏蔽样式&#xA;gozer 广告屏蔽样式&#xA;超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。&#xA;对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。</description>
     </item>
     <item>
       <title>操作选中（富）文本／元素</title>
-      <link>/zh/textprocess/</link>
+      <link>/zh/textprocess.html</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/textprocess/</guid>
+      <guid>/zh/textprocess.html</guid>
       <description>点击以下链接可安装长按“链接”按钮菜单:&#xA;bing翻译&#xA;papago翻译&#xA;iciba&#xA;百度翻译&#xA;有道翻译&#xA;搜狗翻译&#xA;彩云小译&#xA;deepL&#xA;点击安装&amp;quot;保存文本&amp;quot;等&#xA;重启浏览器，长按“链接”按钮，将弹出菜单。若用户当前窗口并无选中文本，则选取整个页面作相应操作，否则以选中文本为准。&#xA;配置文件&amp;quot;default.select&amp;quot;定义了超微浏览器对选中（富）文本／元素进行的操作。没有任何选中元素则以整个网页为操作对象。每行格式如下：&#xA;[菜单名]:[mimetype]:[命令行]&#xA;选中（富）文本作为命令行的标准输入,而标准输出根据mimetype进行相应处理。&#xA;mimetype用来表示命令的输入输出类型。格式为&amp;quot;[输入mimetype]/[输出mimetype]&amp;quot;，&amp;quot;[输入mimetype]&amp;quot;可为&amp;quot;html&amp;quot;或空（txt格式）或为以超微配置目录为基准的相对路径.js文件名; 输出可为标准的mimetype或超微特殊扩充。如：&#xA;html/text/html: 选中富文本为html格式, 输出mimetype为text/html。&#xA;/uweb: 选中文本为txt格式, 输出mimetype为特殊扩充uweb，超微将把输出作为链接来处理。&#xA;/uwebA: 超微将把输出作为&amp;quot;单一&amp;quot;链接来处理。&#xA;/termux: 命令运行结果将作为termux下命令运行。&#xA;checked.js: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)&#xA;配置default.select如下：&#xA;复制文本到地址栏:/uweb:printf i:15;cat&#xA;复制至PC剪贴板::ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;&#xA;复制富文本至PC剪贴板:html:ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 xsel -i&amp;quot;&#xA;复制文件至PC:checked.js:while read fname;do scp $fname [user:password]@192.168.2.102:Downloads/.; done&#xA;如使用剪贴板功能手机需安装uweb定制Termux，并在termux下安装openssl。&#xA;此处假定远程PC的IP地址为192.168.2.102，PC已经开通了ssh服务。建议用户配置ssh服务为免密码登录，此时用户无需将密码写入文件default.select。用户PC上安装有xsel剪贴板工具。使用其它工具请酌情修改。&#xA;采用以上配置，笔记将储存在应用内部目录下文件note.txt或note.html中（富文本）。命名笔记储存文件则由用户在地址栏输入框内指定。&#xA;手机其它应用中的文本可选中后分享给超微浏览器，再由超微浏览器作笔记或进一步分享给PC。如果其它应用无法分享选中文本，这种情况可以先复制文本至剪贴板。长按链接按钮选择适当功能即可复制至PC剪贴板。&#xA;Windows PC 对Windows PC而言，vista及以后自带clip.exe，此时配置如下：&#xA;复制文本至PC剪贴板::ssh [user:password]@192.168.2.102 clip.exe&#xA;其它推荐工具(读取PC剪贴板)：&#xA;pclip</description>
     </item>
     <item>
       <title>CSS样式</title>
-      <link>/zh/globalcss/</link>
+      <link>/zh/globalcss.html</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/globalcss/</guid>
+      <guid>/zh/globalcss.html</guid>
       <description>超微浏览器自动装载&amp;quot;css&amp;quot;目录下所有.css文件作为全局样式供用户选用。点击以下配置链接可自动添加为全局样式：&#xA;强制使用默认字体&#xA;配合透明状态栏(沉浸)&#xA;文件&amp;quot;night.css&amp;quot;为用户自定义夜间模式样式，点击以下配置链接安装不同的夜间模式：&#xA;webview 81+ 夜间模式&#xA;webview 80- 夜间模式</description>
     </item>
     <item>
       <title>超微浏览器配置文件列表</title>
-      <link>/zh/filenames/</link>
+      <link>/zh/filenames.html</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/filenames/</guid>
+      <guid>/zh/filenames.html</guid>
       <description>下面列表中以&amp;quot;/&amp;quot;结尾者为目录，其余为文件：&#xA;&amp;quot;css/&amp;quot;:全局样式目录&#xA;&amp;quot;js/&amp;quot;: 全局脚本目录&#xA;&amp;quot;sitejs/&amp;quot;:类油猴脚本，针对特定网址&#xA;&amp;quot;sitecss/&amp;quot;:针对特定网址css样式&#xA;&amp;quot;bookmarklet/&amp;quot;:js脚本目录，长按JS按钮可执行。&#xA;&amp;quot;offline/&amp;quot;:离线下载目录&#xA;&amp;quot;sbookmark/&amp;quot;:超级书签默认目录&#xA;&amp;quot;sitecache/&amp;quot;:用户供应网站离线数据&#xA;&amp;quot;longclick/&amp;quot;:长按链接菜单(js)&#xA;&amp;quot;icon/&amp;quot;:图标定制&#xA;&amp;quot;app[XXX]/&amp;quot;:html5应用目录&#xA;&amp;quot;default.longclick&amp;quot;:长按链接菜单&#xA;&amp;quot;default.uas&amp;quot;:浏览器标识&#xA;&amp;quot;default.urls&amp;quot;:特色服务&#xA;&amp;quot;default.acmd&amp;quot;:浏览器地址栏功能配置&#xA;&amp;quot;default.hosts&amp;quot;:不良信息屏蔽文件&#xA;&amp;quot;default.redirect&amp;quot;:重定向配置&#xA;&amp;quot;default.cmds&amp;quot;:长按“历史”按钮配置&#xA;&amp;quot;default.link&amp;quot;:长按“书签”按钮配置&#xA;&amp;quot;default.rjs&amp;quot;:远程及简单脚本&#xA;&amp;quot;default.select&amp;quot;:长按“链接”按钮配置&#xA;&amp;quot;default.input&amp;quot;:每行一个网页常用输入短语&#xA;&amp;quot;default.gesture&amp;quot;:格式与文件default.link完全相同，定义地址栏下方手势操作&#xA;&amp;quot;default.gesture2&amp;quot;:右边缘手势操作，类似default.gesture。&#xA;&amp;quot;default.button&amp;quot;:格式与文件default.link完全相同，每行从最后一个按钮开始重定义单击功能。&#xA;&amp;quot;default.button2&amp;quot;:类似default.button。每行从最后一个按钮开始重定义长按功能。&#xA;&amp;quot;default.filecap&amp;quot;:文件特殊处理&#xA;&amp;quot;default.rc&amp;quot;:如果勾选“文件预处理”，则uweb启动时运行此shell脚本。可与tcron配合运行定时任务，如存储清理、网页签到等。&#xA;&amp;quot;default.rc2&amp;quot;:如果勾选“文件预处理”，则uweb返回前台时运行此shell脚本。&#xA;&amp;quot;crontab&amp;quot;:&#xA;&amp;quot;engine.search&amp;quot;:格式同home5.search，搜索引擎url仅支持%s语法。(搜索词部分用%s代替)，供自动顺序搜索使用。&#xA;&amp;quot;default.siteconf&amp;quot;:网站独立设置，保存ua、禁用js、无图、禁用第三方(js,可疑资源)、当前激活脚本、全局脚本。当前设置与默认不同才会保存。比如当前不屏蔽第三方js，但屏蔽第三方可疑资源，则屏蔽第三方设置与默认不同，站点设置被保存。&#xA;&amp;quot;default.playrate&amp;quot;:全屏播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空，譬如&amp;quot;.5x:&amp;quot;，倍速菜单至少有一个。链接部分非空的菜单必须在所有倍速菜单之后。&#xA;&amp;quot;default.autoc&amp;quot;:地址栏autocomplete候选字符串&#xA;&amp;quot;query.autoc&amp;quot;:主屏搜索autocomplete候选字符串&#xA;&amp;quot;home5.html&amp;quot;:自定义主屏，home6.html, home6.search, home7.html ... 多主屏（前进按钮可进）。同前缀文件中.html文件优先于.search文件。home4.html, home3.html ... (长按后退按钮可进)。&#xA;&amp;quot;home5.search&amp;quot;:主屏搜索引擎&#xA;&amp;quot;home.css&amp;quot;:主屏风格，虽然后缀名为css，但其格式为html，故css代码需放在&amp;quot;&amp;lt;style&amp;gt;&amp;quot;元素内。&#xA;&amp;quot;bookmark.html&amp;quot;:主书签&#xA;&amp;quot;quickstart.html&amp;quot;:快速访问&#xA;&amp;quot;colors.txt&amp;quot;:护眼背景色&#xA;&amp;quot;default.css&amp;quot;:勾选网址特定样式后无匹配情形下的默认样式&#xA;&amp;quot;night.css&amp;quot;:夜间模式，代替超微内部实现&#xA;&amp;quot;bookmarklet/videoplayer.js&amp;quot;:用户定义视频播放&#xA;&amp;quot;types.sniff&amp;quot;:嗅探类型&#xA;&amp;quot;js.allow&amp;quot;:外链js白名单,每行一个域名。&#xA;&amp;quot;url.deny&amp;quot;:需要屏蔽的url正则表达式（java语法），忽视回车，可用&amp;quot;#&amp;quot;开头注释。&#xA;&amp;quot;sniff.log&amp;quot;:嗅探结果&#xA;&amp;quot;history.rec&amp;quot;:访问历史&#xA;&amp;quot;query.rec&amp;quot;:查询历史&#xA;应用内部保护目录(/data/data/info.torapp.uweb/files/):&#xA;&amp;quot;shortcut/&amp;quot;:动态shortcut刷新目录，若不存在则默认为&amp;quot;bookmark&amp;quot;目录。</description>
     </item>
     <item>
       <title>文件管理器及文件挑选并批量处理</title>
-      <link>/zh/filemanager/</link>
+      <link>/zh/filemanager.html</link>
       <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/filemanager/</guid>
+      <guid>/zh/filemanager.html</guid>
       <description>超微浏览器访问以&amp;quot;/&amp;quot;结尾 （包括&amp;quot;/?&amp;quot;及后面参数）的&amp;quot;file://&amp;quot; url，则进入文件管理器。&#xA;对任何目录型(以“/”结尾)文件url，后面可附&amp;quot;?[文件前缀][*[文件后缀]]&amp;quot;。譬如&amp;quot;file:///sdcard/?*.png&amp;quot;会列举出&amp;quot;/sdcard&amp;quot;目录下所有.png文件。&amp;quot;?IMG&amp;quot;列举出所有IMG开头的文件。此时可选定文件，并安装checked.js对选取文件进行批量处理。&#xA;文件批量处理配置default.select例子：&#xA;图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</description>
     </item>
     <item>
       <title>超级计算器(bc)</title>
-      <link>/zh/bc/</link>
+      <link>/zh/bc.html</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/bc/</guid>
+      <guid>/zh/bc.html</guid>
       <description>Gnu bc计算器支持无限精度，可扩展函数库、常数库。&#xA;安装bc (Android11+无需安装) 安装uweb定制Termux应用 Termux下运行以下命令：&#xA;apt update&#xA;apt upgrade&#xA;apt install bc 使用书签调用计算器 &amp;quot;长按以下链接-&amp;gt;命令-&amp;gt;书签&amp;quot;可保存链接为书签。书签菜单可至特色服务网页安装。&#xA;bc&#xA;全能bc&#xA;浏览器地址栏作为超级计算器 配置文件default.acmd如下：&#xA;计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q&#xA;更多bc扩展库： https://github.com/susca/bc-extensions&#xA;http://phodd.net/gnu-bc&#xA;http://www.numbertheory.org/gnubc/gnubc.html&#xA;使用扩展库以后default.acmd配置如下： 计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q extensions.bc scientific_constants.bc&#xA;全能计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q *.bc</description>
     </item>
     <item>
       <title>工具栏定制</title>
-      <link>/zh/icons/</link>
+      <link>/zh/icons.html</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/icons/</guid>
+      <guid>/zh/icons.html</guid>
       <description>超微浏览器配置目录下如果存在目录&amp;quot;icon&amp;quot;，则此目录下的文件名为&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...&#xA;会作为底部工具栏图标。文件&amp;quot;0&amp;quot;替换原后退按钮，&amp;quot;1&amp;quot;为前进按钮，&amp;quot;2&amp;quot;为设置按钮，&amp;quot;3&amp;quot;为主页按钮......。&#xA;如果定义有新按钮（当前版本存在文件&amp;quot;20&amp;quot;），则uweb支持向量格式图标VectorDrawable，格式为compiled XML。此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。&#xA;用户可定义任意多个按钮(100个按钮毫无压力)，其短按长按功能可在文件default.button及default.button2中定义，格式与文件default.link完全相同，每行从最后一个按钮开始重定义功能。&#xA;注意：刷新按钮及窗口按钮图标暂时不能重定义。</description>
     </item>
     <item>
       <title>安卓系统出错诊断</title>
-      <link>/zh/logcat/</link>
+      <link>/zh/logcat.html</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/logcat/</guid>
+      <guid>/zh/logcat.html</guid>
       <description>超微浏览器如果闪退，会生成出错文件&amp;quot;error.log&amp;quot;。&#xA;如果超微或安卓系统或任何应用出现问题，则可利用超微浏览器进行诊断，方法如下：&#xA;访问常用命令网页，点击安装logcat相关的两个命令。 清空后台并重启超微浏览器。 长按历史按钮，执行命令&amp;quot;清空logcat&amp;quot;。 触发有问题的功能。 长按历史按钮，执行命令&amp;quot;输出logcat.log&amp;quot;. 检查文件&amp;quot;logcat.log&amp;quot;内容。 超微浏览器是手机上调试javascript脚本的最佳工具，无需打包就可有多种方式运行javascript代码。webview dev版自带devtools，运行此工具，打开flag &amp;quot;webview-log-js-console-messages&amp;quot;以后所有js出错信息及console输出会被复制到logcat中。然后用户可根据上一段所述方法诊断。&#xA;非dev版本webview可点击如下链接运行devtools。&#xA;devtools for com.google.android.webview&#xA;devtools for com.android.webview</description>
     </item>
     <item>
       <title>离线下载</title>
-      <link>/zh/loadbt/</link>
+      <link>/zh/loadbt.html</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/loadbt/</guid>
+      <guid>/zh/loadbt.html</guid>
       <description>seedr用户可使用常用链接利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。 Telegram用户可使用特色服务利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。 百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。&#xA;本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。&#xA;超微浏览器上配置百度离线下载&#xA;安装uweb定制Termux应用。&#xA;安装baidupcs-go：&#xA;直接下载BaiduPCS-Go，安卓手机请选择arm64版本。 解压下载文件 移动解压后文件至最终目的地。Termux运行以下命令:&#xA;mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.&#xA;chmod 777 /data/data/com.termux/files/usr/bin/BaiduPCS-Go&#xA;登录百度网盘, Termux执行如下命令：&#xA;BaiduPCS-Go login&#xA;BaiduPCS-Go config set -appid=266719&#xA;default.longclick配置如下：&#xA;百度离线下载:termux/*:BaiduPCS-Go od add &amp;quot;%u&amp;quot;;exit 1&#xA;重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。&#xA;离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。&#xA;其它支持离线下载的网页也可定义为一键离线。</description>
     </item>
     <item>
       <title>长按链接弹出菜单</title>
-      <link>/zh/longclick/</link>
+      <link>/zh/longclick.html</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/longclick/</guid>
+      <guid>/zh/longclick.html</guid>
       <description>长按链接运行第三方程序 配置文件default.longclick每行格式如下（同default.cmds）&#xA;菜单名:mimetype:命令路径&#xA;命令可以包含%c（当前网址cookie）等，执行时会被相应内容自动替换。&#xA;长按链接运行js文件 长按链接弹出菜单显示longclick目录下所有js文件供用户挑选执行。&#xA;js文件格式如下：&#xA;首行可以&amp;quot;//&amp;quot;开头，后面紧跟目标网页url，url中可包含&amp;quot;%u&amp;quot;等，打开网页时会用长按的链接替换。 首行非&amp;quot;//&amp;quot;开头者，整个脚本作用于当前网页，不再打开新网页。 第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。 </description>
     </item>
     <item>
       <title>视频播放小窍门</title>
-      <link>/zh/video/</link>
+      <link>/zh/video.html</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/video/</guid>
+      <guid>/zh/video.html</guid>
       <description>覆盖安装全屏播放菜单示例：屏幕旋转,退出&#xA;本文以超微浏览器为例来说明。&#xA;创建文件&amp;quot;default.playrate&amp;quot;可定制全屏倍速播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空，譬如&amp;quot;.5x:&amp;quot;，倍速菜单至少有一个。链接部分非空的菜单必须在所有倍速菜单之后。 长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切不良信息。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么不良信息。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现不良信息占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动不良信息”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切不良信息。方法如下： 长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。 对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切不良信息：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。 视频搜索预配置(超过400个引擎)&#xA;视频资源：&#xA;视频解析配置 nbwz mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播 点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
     <item>
       <title>工具汇总</title>
-      <link>/zh/tools/</link>
+      <link>/zh/tools.html</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/tools/</guid>
+      <guid>/zh/tools.html</guid>
       <description>本文以超微浏览器为例来说明。&#xA;安装tdict检索工具 (本地检索，远程内容) 安装完tdict本地检索工具后，可选择性安装字典索引及对应的搜索引擎至主屏。以下引擎仅作测试使用。&#xA;安装双解字典索引&#xA;安装双解字典至主屏&#xA;英语活用大词典索引&#xA;安装英语活用至主屏&#xA;汉语大词典索引&#xA;安装汉语词典至主屏&#xA;soed6索引&#xA;安装soed至主屏&#xA;以下字典最好安装markdown处理器。&#xA;安装markdown处理器&#xA;Merriam Webster International Unabridged 索引&#xA;安装mwi至主屏&#xA;ode3索引&#xA;安装ode至主屏&#xA;oed索引&#xA;安装oed至主屏&#xA;大英百科索引&#xA;安装be至主屏&#xA;以下工具需先安装uweb定制Termux应用，并启动一次完成初始化。&#xA;安装tdict词典工具 安装完tdict词典工具以后，对dict目录下的汉语大字典文件如&amp;quot;dictXXX.xz&amp;quot;可在主屏.search文件配置如下字典查询：&#xA;汉语大字典:c:zd xz %s dictXXX&#xA;字典文件目录可通过修改termux下“~/share”符号链接来改动。也可使用其它压缩方式如zst，此时配置变为&amp;quot;zd zst %s dictXXX&amp;quot;，相应的字典文件名为dictXXX.zst。用户需提供zsttool工具解压文本。&#xA;插件页面也提供了词典方案，但如果手动配置会比较麻烦。</description>
     </item>
     <item>
       <title>利用文件预处理预览/查看/播放可下载资源</title>
-      <link>/zh/filecap/</link>
+      <link>/zh/filecap.html</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/filecap/</guid>
+      <guid>/zh/filecap.html</guid>
       <description>技巧等级：中级&#xA;文件预处理配置文件为default.filecap，每行格式如下：&#xA;[文件后缀]:[mimetype]:[处理命令]&#xA;其中文件后缀可允许最多两段后缀，譬如&amp;quot;txt.xz&amp;quot;,&amp;quot;html.gz&amp;quot;。&#xA;mimetype表示命令处理后的输出内容格式。&#xA;处理命令与default.cmds相同，主要可能用到如下替换：&#xA;%u（网址或文件路径）、%U（编码以后的网址）、%c（当前网址cookie）、%p（密码保护网站中的密码，curl格式）。&#xA;利用文件预处理，超微浏览器现在可以预览/查看/播放一切可下载资源，并且可以利用不同网站在线服务预览不同的文件，而手机上一个应用都不用装。&#xA;配置default.filecap如下：&#xA;txt:text/html:curl %p &#34;%u&#34; mp3:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m4b:text/html:echo &#39;&amp;lt;audio controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/audio&gt;&#39; m3u8:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mp4:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; mkv:text/html:echo &#39;&amp;lt;video controls width=100% height=100%&gt;&amp;lt;source src=&#34;%u&#34;&gt;&amp;lt;/video&gt;&#39; doc:uweb:echo https://view.xdocin.com/view?src=%U xls:uweb:echo https://view.xdocin.com/view?src=%U ppt:uweb:echo https://view.xdocin.com/view?src=%U docx:uweb:echo https://view.xdocin.com/view?src=%U xlsx:uweb:echo https://view.xdocin.com/view?src=%U pptx:uweb:echo https://view.xdocin.com/view?src=%U xz:text/plain:curl %p &#34;%u&#34;|xz -d -- 安装过相应的html5应用，则如下配置阅读相应格式文件：&#xA;pdf:uweb:echo file:///data/data/info.torapp.uweb/files/app/pdf.js/web/viewer.html?file=%u djvu:uweb:echo file:///data/data/info.torapp.uweb/files/app/djvu.html?url=%u epub:uweb:echo file:///data/data/info.torapp.uweb/files/app/reader/index.html?bookPath==%u 长按设置按钮，勾选“文件预处理”，清后台重启浏览器。则网页上点击下载按钮时上述文件类型会自动预览。&#xA;如果用户配置中处理命令用到curl，则需要安装Termux，并在Termux中安装curl (&amp;quot;apt install curl&amp;quot;)。</description>
     </item>
     <item>
       <title>手势</title>
-      <link>/zh/gesture/</link>
+      <link>/zh/gesture.html</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/gesture/</guid>
+      <guid>/zh/gesture.html</guid>
       <description>顶部下拉弹出地址栏; 顶部上划隐藏地址栏。底部下划隐藏工具条; 底部左右角落划动弹出工具条。&#xA;紧靠工具条左右划动切换当前窗口; 左右大幅度划动切换到第一或最后一个窗口。&#xA;起点终点紧靠地址栏划动操作调用&amp;quot;default.gesture&amp;quot;文件中对应链接。文件格式与文件default.link完全相同。每行第一部分为助记名，第二部分为链接。手势操作对应方式如下：&#xA;将屏幕宽度平分为三部分，分别对应数字0,1,2 将终点对应的屏幕数字加上起点对应数字的三倍。如果数字为4且初始为往左滑动则数字改为9。 每额外多一次来回转折数字加10。&#xA;超微浏览器将执行上述数字所对应行所定义的链接操作。（0对应第一行，以此类推） 右边缘划动操作调用&amp;quot;default.gesture2&amp;quot;文件中对应链接。对应方法同&amp;quot;default.gesture&amp;quot;。&#xA;常用操作链接：&#xA;back:javascript:history.back()&#xA;forward:javascript:history.forward()&#xA;back2:javascript:history.go(-2)</description>
     </item>
     <item>
       <title>一键执行预定义命令</title>
-      <link>/zh/cmd/</link>
+      <link>/zh/cmd.html</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/zh/cmd/</guid>
+      <guid>/zh/cmd.html</guid>
       <description>技巧等级：中级 PC剪贴板(高级)&#xA;uweb浏览器支持一键执行任意预定义命令，这些命令可以与剪贴板交互，可以将结果（文本、图像、音视频）输出到浏览器窗口。&#xA;手机推荐安装uweb定制Termux，否则能够执行的命令极其有限。&#xA;预定义命令保存在文件&amp;quot;default.cmds&amp;quot;中。重启浏览器，长按历史按钮，超微将弹出菜单供用户点击执行。&#xA;资深用户可能注意到文件名与default.acmd类似。default.acmd中的命令适合以不同的参数反复执行；而default.cmds一般以单次执行为多。default.acmd结果会显示在浏览器当前窗口；而default.cmds中命令执行结果会显示在新窗口之中。这两个文件格式也完全相同，每行格式如下：&#xA;[命令名称]:[mimetype]:[命令代码]&#xA;命令代码可以是任意命令，其中可以包含%c（当前网址cookie）、%s (地址栏输入)、 %t (当前窗口标题)、 %u (当前窗口url或文件路径)。执行时这些特殊标识将会被相应内容自动替换。&#xA;mimetype用来表示命令的输出类型。除了标准的mimetype之外，超微对此还作了扩充，便利与剪贴板交互。下面是扩充版的mimetype：&#xA;&amp;quot;clip/clip&amp;quot; : 以剪贴板作为命令输入，输出结果复制到剪贴板。&#xA;&amp;quot;/clip&amp;quot; : 输出结果复制到剪贴板。&#xA;&amp;quot;clip/text/html&amp;quot; : 以剪贴板作为命令输入，输出结果mimetype类型为“text/html”。&#xA;&amp;quot;termux/*&amp;quot;: 在termux中执行命令。&#xA;&amp;quot;/uweb&amp;quot;: 输出结果作为链接来处理。&#xA;下面是笔者使用的default.cmds配置（命令具体解释）：&#xA;复制手机剪贴板至PC剪贴板:clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -i&#34; PC剪贴板至手机剪贴板:/clip:ssh [user:password]@192.168.2.102 &#34;DISPLAY=:0 xsel -o&#34; </description>
     </item>
     <item>
       <title>分类多引擎搜索</title>
-      <link>/zh/searchcat/</link>
+      <link>/zh/searchcat.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/searchcat/</guid>
+      <guid>/zh/searchcat.html</guid>
       <description>点击本链接自动安装分类多引擎文件至&amp;quot;bookmark&amp;quot;目录下。&#xA;超微浏览器中通过“设置”-&amp;gt;“总目录”-&amp;gt;“↑”-&amp;gt;“Download”，点击后缀为.search的下载文件，超微浏览器将自动显示分类多引擎搜索。此时可按菜单键（或长按底部工具条后退按钮）选择“添加到桌面”方便以后访问。&#xA;.search文件每行格式为如下几种：&#xA;[搜索引擎名]:[不含%s的url]&#xA;[搜索引擎名]:[含%s的url]&#xA;[搜索引擎名]:POST:[含%s的post参数]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt .search文件首行必须为第一种类型的搜索引擎。由于其它类型的引擎数量稀少，为性能考虑，超微限制了首个引擎的种类。&#xA;用&amp;quot;i:&amp;quot;等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用&amp;quot;%s&amp;quot;，这纯粹是为了降低代码复杂性。&#xA;本地引擎 搜索引擎已经支持命令行url，现在可添加离线字典查询至主页。命令行url格式为&#xA;c:[含%s的命令行]&#xA;d:mimetype:[含%s的命令行]:[外部资源url]&#xA;查询时关键词会自动替换命令行中的%s。&#xA;笔者用来查询各式词典，发现效果非常好。百兆以内的文本文件压缩以后可以直接快速检索，定位至特定位置以后可上下滚动阅读全部文本。</description>
     </item>
     <item>
       <title>加速访问国外网站</title>
-      <link>/zh/hosts/</link>
+      <link>/zh/hosts.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/hosts/</guid>
+      <guid>/zh/hosts.html</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。&#xA;使用Android端uweb浏览器。&#xA;域名文件内容如下：&#xA;googleadservices.com&#xA;googlesyndication.com&#xA;adsense.com&#xA;googleapis.com&#xA;google-analytics.com&#xA;googletagservices.com&#xA;twitter.com&#xA;facebook.com&#xA;fbcdn.net&#xA;其它国外网址访问技巧：&#xA;尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片 </description>
     </item>
     <item>
       <title>绝杀完整域名树</title>
-      <link>/zh/adblock_domain/</link>
+      <link>/zh/adblock_domain.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/adblock_domain/</guid>
+      <guid>/zh/adblock_domain.html</guid>
       <description>域名文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（最后两段不超过6字符如com.cn的域名可取四段）。&#xA;可使用列出外部脚本小书签生成外部js文件列表，然后长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;网址转链接&amp;quot;菜单命令，长按可疑链接（一般为域名不同的外链），执行“屏蔽根域名”。&#xA;长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。&#xA;部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。&#xA;可长按设置开启&amp;quot;资源嗅探&amp;quot;，推荐设置文件&amp;quot;types.sniff&amp;quot;内容为js，刷新网页后关闭&amp;quot;资源嗅探&amp;quot;选项。在弹出的资源网页上长按链接，屏蔽根域名。&#xA;(可选) 长按不良信息链接，点击“屏蔽根域名”，屏蔽链接网址。&#xA;(可选) 某些不良信息靠javascript激发，链接中不出现域名，可点击激发至新网址后将新网址根域名屏蔽。&#xA;支持域名及整个网址正则表达式&#xA;文件格式每行如下：&#xA;根域名[空格]域名前缀正则表达式[空格]整个网址去掉协议部分后正则表达式&#xA;空格及后面两个正则表达式为可选择项。正则表达式采用java标准。&#xA;如果用到了第二个正则表达式，此时将域名前缀表达式合并到第二个正则表达式中，从而仅使用一个表达式可优化性能。&#xA;点击本链接自动用样例覆盖default.hosts</description>
     </item>
     <item>
       <title>利用多账号登录获取资源</title>
-      <link>/zh/multiaccount/</link>
+      <link>/zh/multiaccount.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/multiaccount/</guid>
+      <guid>/zh/multiaccount.html</guid>
       <description>谈到资源就离不开bt, bt下载费时费力，离线bt是最佳选择。国内离线下载由于关键节点屏蔽，基本没啥用。我的个人体验是彻彻底底完全没用，但别人也许还有点用？国外唯一一个有好体验的是seedr, 不过seedr有个大问题需要解决。&#xA;其它我曾推荐过的台湾bt, bug实在太多，现在看来也成了半个垃圾。万般无奈之下只能重拾seedr.&#xA;seedr的问题是首次登录需要google人机验证，登录成功以后可以永久使用，无需小飞机辅助。&#xA;以前偶尔飞飞一点问题也没有，毕竟1分钟飞行就可解决很长时间问题了。但目前的状态是信息基本被彻底封死，1分钟飞行也成了奢望。所以十分有必要珍惜这来之不易的1分钟飞行成果。&#xA;现在直接上方案，使用超微浏览器多账号登录。飞行1分钟以后成功登录seedr, 此时退出浏览器，千万不能强退，一定要让运存中的登录信息写到内部存储。然后用户可备份应用内部目录下的.cjar文件，一旦浏览器失去登录状态，可恢复此文件，即可使用多账号登录重新登录，让这1分钟飞行成果保存下来，供万万年使用。需要注意的一点是：用户退出seedr账号会使保存的文件作废。故千万不要退出账号，需要用其它账号登录的请使用多账号登录。</description>
     </item>
     <item>
       <title>利用浏览器地址栏对函数作图</title>
-      <link>/zh/gnuplot/</link>
+      <link>/zh/gnuplot.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/gnuplot/</guid>
+      <guid>/zh/gnuplot.html</guid>
       <description>使用Android端uweb浏览器。&#xA;Termux提供了方便的软件包管理系统，缺省的uWeb地址栏功能配置需用到作图软件gnuplot。&#xA;安装gnuplot 安装 uweb定制Termux应用 Termux下运行以下命令：&#xA;apt update&#xA;apt upgrade&#xA;apt install gnuplot 地址栏功能配置： 配置文件default.acmd每行格式如下：&#xA;菜单名:mimeType:命令行 命令行可包含参数%s，运行时自动用地址栏输入内容替换。 如果浏览器窗口当前地址为本地url，则此目录同时作为命令行工作目录。 配置文件default.acmd如下： 命令:text/plain:%s 函数作图:image/svg+xml:gnuplot -e &#39;set term svg;set output; plot %s&#39; 函数作图(3d):image/svg+xml:gnuplot -e &#39;set term svg;set output; splot %s&#39; 超级计算器:text/html:echo &amp;quot;%s&amp;quot;|bc -l -q 长按uweb浏览器底部工具条刷新按钮弹出地址栏功能选择，选择“函数作图”，地址栏内输入函数如sin(x)**5就可显示函数图案。&#xA;常见问题及诊断 确保gnuplot正确安装，在Termux提示符下，敲入gnuplot,然后回车，保证出现&amp;quot;gnuplot&amp;gt;&amp;quot;。 确保gnuplot正常运行, 在Termux提示符下，执行下面命令：&#xA;gnuplot -e &#39;set term svg;set output; plot x&#39;&#xA;屏幕输出应该为正常的svg文件（类似html文本）。 Termux应为uweb定制包，否则有一堆设定需要修改。 超微浏览器下长按设置按钮，勾选“标准错误输出”。再次在地址栏执行画图操作，此时浏览器会显示出错信息。 为保证地址栏输入函数符合gnuplot规范，首个测试函数建议为&amp;quot;x&amp;quot;，即整个地址栏内输入为&amp;quot;x&amp;quot;。 </description>
     </item>
     <item>
       <title>浏览器控制服务器下载资源</title>
-      <link>/zh/pcdown/</link>
+      <link>/zh/pcdown.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/pcdown/</guid>
+      <guid>/zh/pcdown.html</guid>
       <description>技巧等级：高级&#xA;小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：&#xA;手机需安装uweb定制Termux，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：&#xA;apt update&#xA;apt upgrade&#xA;apt install openssl&#xA;脚本pcdownload内容如下(可放置在任意应用内部目录下，并相应修改default.longclick配置中文件路径)：&#xA;#!/data/data/com.termux/files/usr/bin/sh&#xA;ssh [user:password]@192.168.2.102 &amp;quot;DISPLAY=:0 firefox \&amp;quot;$1\&amp;quot;&amp;quot;&#xA;脚本需设置为可执行，Termux下执行命令:&#xA;chmod 755 /data/data/com.termux/files/usr/bin/pcdownload&#xA;这里假定用户已经在台式机上设好ssh服务，台式机IP地址为192.168.2.102，准备用firefox下载。如果下载工具不是图形程序，则上述脚本中可删去“DISPLAY=:0”。&#xA;配置文件default.longclick如下：&#xA;PCdown:/data/data/com.termux/files/usr/bin/pcdownload&#xA;重启超微浏览器，点击链接下载时会弹出菜单，选择&amp;quot;PCdown&amp;quot;，台式机会启动firefox下载手机指定文档。&#xA;可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</description>
     </item>
     <item>
       <title>装载网站离线资源</title>
-      <link>/zh/offlinecache/</link>
+      <link>/zh/offlinecache.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/offlinecache/</guid>
+      <guid>/zh/offlinecache.html</guid>
       <description>uweb浏览器支持装载网站离线资源。只需要将离线资源存为文件&amp;quot;sitecache/[域名]/[全部路径，包括文件名，url中的路径部分]&amp;quot;。&#xA;打开选项&amp;quot;使用离线资源&amp;quot;以后超微将自动装载这些离线资源。&#xA;离线资源可作为缓存提高浏览器性能; 可作为国外网站部分备份修复服务访问; 也可替换部分网站资源达到定制网站的作用。</description>
     </item>
   </channel>

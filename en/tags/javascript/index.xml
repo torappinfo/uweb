@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on uweb browser: unlimited power</title>
-    <link>/en/tags/javascript/</link>
+    <link>/en/tags/javascript.html</link>
     <description>Recent content in Javascript on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,23 +10,23 @@
     <atom:link href="/en/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JS/CSS/HTML/preprocessing for domains</title>
-      <link>/en/sitejs/</link>
+      <link>/en/sitejs.html</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/en/sitejs/</guid>
+      <guid>/en/sitejs.html</guid>
       <description>Javascript (load when page completes, earliest loaded JS should use sitecss). Need to be named as &amp;quot;[domain root].js&amp;quot;, such as &amp;quot;yahoo.com.js&amp;quot; or &amp;quot;finance.yahoo.com.js&amp;quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded. Script must be put under the folder &amp;quot;sitejs&amp;quot; or &amp;quot;/data/data/info.torapp.uweb/files/sitejs&amp;quot;. The later folder has the priority. Long press the button &amp;quot;settings&amp;quot;, check the option &amp;quot;Run user scripts&amp;quot;.</description>
     </item>
     <item>
       <title>Bookmarklets</title>
-      <link>/en/bookmarklet/</link>
+      <link>/en/bookmarklet.html</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/en/bookmarklet/</guid>
+      <guid>/en/bookmarklet.html</guid>
       <description>With a href=&amp;quot;../index.html&amp;quot;&amp;gt;uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.&#xA;List all script urls&#xA;User agent&#xA;Cookie&#xA;Source code&#xA;Last modified date&#xA;Eruda: mobile console&#xA;QR code generation&#xA;Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;&#xA;Shows all form elements&#xA;Enables all form elements&#xA;Toggle checkboxes&#xA;Check all checkboxes&#xA;Uncheck all checkboxes&#xA;Toggle all checkboxes in forms&#xA;Enable selection</description>
     </item>
     <item>
       <title>Long pressed link menu</title>
-      <link>/en/longclick/</link>
+      <link>/en/longclick.html</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/en/longclick/</guid>
+      <guid>/en/longclick.html</guid>
       <description>To run commands Each line of file &amp;quot;default.longclick&amp;quot; has the following format: (same as default.cmds)&#xA;[Name]:[mimetype]:[command line]&#xA;in which [command line] can have &amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.&#xA;To visit url and load javascript file All &amp;quot;.js&amp;quot; files under the folder &amp;quot;longclick&amp;quot; are part of the popup menu.&#xA;These javascript files are in the following format:&#xA;The very first line can begin with &amp;quot;//&amp;quot; followed by website url that can have &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title) etc.</description>
     </item>
   </channel>

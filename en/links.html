@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>Links</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">Links
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <p>Click the following links to install menus popped by long pressing the bookmark button (with star as icon):<br>
+<a href="i:0gdefault.link::Capture::ccapture%0A">Capture long screenshot</a> (need <a href="i:61:../searchurl/func.html">long screenshot mode</a>)</p>
+<p><a href="i:0gdefault.link:../searchurl/txt/link.cfg">Select All:CTRL-A/undo:CTRL-Z/Redo:CTRL-Y</a><br>
+<a href="i:0gdefault.link::Extend cookies::0cc;Max-Age=315360000%0A">Extend site cookies to 10 years</a><br>
+<a href="i:0gdefault.link::Clear cookies::0cc;Max-Age=0%0A">Clear site cookies</a></p>
+<p><a href="i:0gdefault.link::vpn:i:1dandroid.net.vpn.SETTINGS:::%0A">VPN</a></p>
+<p><a href="i:0gdefault.link::profile_config::cprofile . files .conf%0A">Switch configuration</a></p>
+<p><a href="i:0gdefault.link::Wait msg:i:1w%0A">Wait for network msg</a></p>
+<p><a href="i:0gdefault.link::Certificate info:i:1c%0A">Certificate info</a></p>
+<p><a href="i:0gdefault.link::Backup2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0e'+path+':https://dav.box.com/dav/'+f+'.tgz';}%0A">Backup to box.com</a></p>
+<p><a href="i:0gdefault.link::restoreFromBox: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0dhttps://dav.box.com/dav/'+f+'.tgz';}%0A">Restore from box.com</a></p>
+<p><a href="i:0gdefault.link::up2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':https://dav.box.com/dav/'+f;}%0A">upload to box.com</a></p>
+<p><a href="../searchurl/webdav.html">More webdav link menu items</a></p>
+<p><a href="i:0gdefault.link::web fullscreen: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">Web fullscreen</a></p>
+<p>Long pressing the bookmark button in <a href="../en/">uweb browser</a> will popup menus defined in file &quot;default.link&quot;. The file format is as follows:<br>
+[Menu name]:[one or more links delimited by &quot; \n &quot;]</p>
+<p>and each link has the following format:<br>
+[url][space][javascript code]</p>
+<p>in which space and later parts are optional. url and later parts support <a href="../cmd/index.html">&quot;%u&quot;,&quot;%s&quot; etc.</a>. The javascript code will be executed after url is fully loaded.</p>
+<p>url supports all standard scheme (http(s):,javascript: etc.) and uweb internal schemes ( ':' as second character in the url ) and special links that begins with ':'.</p>
+<p>uweb browser will handle local file urls (file:///) specially for some file types：</p>
+<ul>
+<li>.js file(same as <a href="../longclick/index.html">long pressing hypertext to execute js file</a>): If the &quot;.js&quot; file begins with &quot;//&quot;, then uweb browser will load the site following &quot;//&quot; and execute the following js code.</li>
+</ul>
+<p>If the above mentioned [links] part is malformated, then it is auto detected as html or text.</p>
+<p><a href="../gesture/index.html">default.gesture</a> and default.button have the exactly same file format. &quot;.gesture&quot; files define gestures while &quot;.button&quot; define bottom toolbar button pressing actions from the last button to the first.</p>
+<p>proxy config:<br>
+httpproxy::010[proxy host]:[port]<br>
+socks5::011[socks host]:[port]<br>
+noproxy::010:</p>
+<h3 id="special-links-beginning-with-">special links beginning with ':'</h3>
+<ul>
+<li>
+<p>:0003<br>
+Toggle fullscreen mode</p>
+</li>
+<li>
+<p>:0004<br>
+Rotate the screen</p>
+</li>
+<li>
+<p>:001[fileurl]<br>
+Scan the fileurl and add it to media storage</p>
+</li>
+<li>
+<p>:010[proxy host]:[port]<br>
+Config http proxy, &quot;:010:&quot; to disable any proxy.</p>
+</li>
+<li>
+<p>:011[socks host]:[port]<br>
+Socks proxy</p>
+</li>
+<li>
+<p>:0cc[url1]:[url2][:;[cookie attributes]]<br>
+cookie copy from url1 to url2, the last part &quot;[:;[cookie attributes]]&quot; is optionable.</p>
+</li>
+</ul>
+<h4 id="commands">commands</h4>
+<ul>
+<li>
+<p>:![command line]<br>
+The command line could be a &quot;.js&quot;, &quot;.sh&quot; or other executable with arguments. Ex. &quot;:!s g keyword&quot; could invoke &quot;s.js&quot; executable with the whole string as arguments (&quot;s.sh&quot; or &quot;s&quot; if file exists, here &quot;g&quot; as google search engine); &quot;:! g keyword&quot; would invoke the file &quot;.js&quot; or &quot;.sh&quot; as executable.</p>
+<p>For regular (non-js) executables, the standard output of the command line will be treated as lines of web urls.</p>
+<p><a href="i:0hs.sh:../searchurl/txt/web.sh">Click to install the example file &quot;s.sh&quot;</a><br>
+<a href="i:0h.js:../searchurl/txt/web.js">Click to install the example file &quot;.js&quot;</a></p>
+</li>
+<li>
+<p>:c[command]</p>
+<ul>
+<li>close<br>
+&quot;:cclose&quot; to close the current window/tab.</li>
+<li>profile [parent folder] [file/folder] [optional ID]<br>
+Ex. &quot;:cprofile . files&quot; to switch configurations</li>
+</ul>
+</li>
+<li>
+<p>:p [width in milliInch]x[height] [top margin]:[right margin]:[bottom margin]:[left margin]<br>
+Generate/Print PDF file in the &quot;/sdcard/Download&quot; folder, all units are milliinch.<br>
+Ex. &quot;:p x&quot; or &quot;:px&quot; for screen width and infinite height (as long vector screenshot).<br>
+&quot;:p x[height]&quot; or &quot;:px[height]&quot; for screen width.</p>
+</li>
+</ul>
+<h3 id="i-internal-links">&quot;i:&quot; internal links:</h3>
+<ul>
+<li>
+<p>i:0b[path]:[url]<br>
+Extract remote content (tar/tgz/zip) under the folder [path]. If [path] ends with &quot;/&quot;, then put unzipped file under the folder &quot;[path]/[file name stem]&quot; (for zipped files only, not for tar/tgz).</p>
+</li>
+<li>
+<p>i:0m[bookmarklet index|prefix|?postfix|/.../localfile|H[headers]|c[cssFlag]]:[url]<br>
+Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the path of [url].</p>
+<ul>
+<li>[bookmarklet index] must have two/three digits. The first two digits are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ... The third digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</li>
+<li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
+<li>H[headers]: Ex. &quot;HX-Forwarded-For;8.8.8.8&quot; adds extra http request header &quot;X-Forwarded-For:8.8.8.8&quot;.</li>
+<li>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</li>
+<li>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</li>
+<li>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</li>
+<li>Since <a href="../rjs/index.html">activated scripts</a> use internal mechanism of &quot;i:0m&quot; urls, the script itself cannot have 'H', '?' as its very first character.</li>
+</ul>
+</li>
+<li>
+<p>i:15[string]<br>
+Set address bar text to be [string].</p>
+</li>
+<li>
+<p>i:16[mimetype]:[Action Name]:[App Name]:[Activity Name]<br>
+Use third party app as input</p>
+</li>
+<li>
+<p>i:18[extended mimetype]:[range]:[url]<br>
+Read partial data from url.<br>
+<range>: the format is same as related http header, such as &quot;500-1000,-300&quot;.<br>
+<extended mimetype>: standard mimetype or mimetype followed by &quot;.<filename>&quot;. In the later case, the file in uweb configuration folder will be appended to the fetched data.</p>
+</li>
+<li>
+<p>i:19[string]<br>
+Append [string] to the address bar text.</p>
+</li>
+<li>
+<p>i:1c<br>
+Show web certificate.</p>
+</li>
+<li>
+<p>i:1d<action>:<type>:<Category>:<data><br>
+Launch app for specific <action>.</p>
+</li>
+<li>
+<p>i:1w<br>
+Wait to receive url from the network and open the url.</p>
+</li>
+<li>
+<p>i:1w1<br>
+Wait to receive url from the network and open the url (not showing ip)</p>
+</li>
+<li>
+<p>i:1e<br>
+Open file manager for removable SDCARD download folder</p>
+</li>
+<li>
+<p>i:50[path]:[string]<br>
+Save [string] as file</p>
+</li>
+<li>
+<p>i:51[path]:[url]<br>
+Save [url] to &quot;.autoc&quot; file.</p>
+</li>
+<li>
+<p>i:52[path]:[url]<br>
+Save bookmark.</p>
+</li>
+<li>
+<p>i:53[path]:[string]<br>
+Save notes.</p>
+</li>
+<li>
+<p>i:54[path]:[url]<br>
+Save as search engine.</p>
+</li>
+<li>
+<p>i:55[path]:[url]<br>
+Save as link.</p>
+</li>
+<li>
+<p>i:56[string]<br>
+Use [string] as user input on web page.<br>
+The string can have any character such as ascii code 0-26, where code 0 means clear, and code 1-26 are from ctrl-A to ctrl-Z as shortcut keys. (to type &quot;Ctrl-A&quot; into a text file, use &quot;Ctrl-Q Ctrl-A&quot; with emacs or &quot;Ctrl-V Ctrl-A&quot; with vim)</p>
+</li>
+<li>
+<p>i:57[jscode]<br>
+execute [jscode], even when js is disabled for the web page.</p>
+</li>
+<li>
+<p>i:58[url]<br>
+Save to the desktop.</p>
+</li>
+<li>
+<p>i:5a[filename]<br>
+Receive content from network to the file.</p>
+</li>
+<li>
+<p>i:5b[string]<br>
+Copy [string] to the clipboard.</p>
+</li>
+<li>
+<p>i:5c[url]<br>
+Change auto page turning internal url to be [url].</p>
+</li>
+<li>
+<p>i:5d[file url]<br>
+Open the file url compatible to other browsers.</p>
+</li>
+<li>
+<p>i:5e[string]<br>
+TTS</p>
+</li>
+<li>
+<p>i:5f[videourl]<br>
+play video fullscreen. if videourl is empty, then make following requestFullscreen() work.</p>
+</li>
+<li>
+<p>i:5h[?postfix:|/regex/replacement:][url]<br>
+force html for [url] visiting</p>
+<ul>
+<li>[?postfix:] : the real url visited is &quot;[url]+[?postfix]&quot;</li>
+<li>[/regex/replacement:]: execute regular expression replacement for the &quot;[url]&quot;, then visit the resulting url.</li>
+</ul>
+</li>
+<li>
+<p>i:5i[url]<br>
+Use the existing tab for the url with possible different url hash part.</p>
+</li>
+<li>
+<p>i:5j[string]<br>
+if [string] is file url, then send the file/folder to network, otherwise send [string] to network.</p>
+</li>
+<li>
+<p>i:5p[videourl]<br>
+play video in external player</p>
+</li>
+<li>
+<p>i:60[path]:[url]<br>
+If existing local file, then open it or visit the [url].</p>
+</li>
+<li>
+<p>i:62[path]:[js code]<br>
+Evaluate the [js code] and save the returned string to file.</p>
+</li>
+<li>
+<p>i:63[bookmarklet index]:[url]<br>
+Visiting url and execute the bookmarklet. Only uweb predefined local bookmarlets are allowed.</p>
+</li>
+<li>
+<p>i:6i[js file path relative to configuration folder]:[url]<br>
+Similar to i:5i, except executing the js file after possible url hash change.</p>
+</li>
+<li>
+<p>i:70[url]:[auto page turning url]<br>
+Visiting [url], but use the second url as auto paging url.</p>
+</li>
+<li>
+<p>i:8d[url]<br>
+Force downloading [url]</p>
+</li>
+<li>
+<p>i:8l[filename]<br>
+Loading configuration [filename]. Ex. &quot;i:8lconfig.html&quot; to reload config.html.</p>
+</li>
+<li>
+<p>i:92[http request headers separated by ';']:[url]<br>
+The &quot;Host&quot; Header (fake header, different from the standard) must be the first header.<br>
+Ex. i:92Host;209.216.230.240:https://news.ycombinator.com<br>
+use &quot;i:0mi:92Host;209.216.230.240::https://news.ycombinator.com&quot; to visit the site with specified IP address.</p>
+</li>
+<li>
+<p>i:b1[internal urls or javascript separated by &quot;%0A&quot;]<br>
+Bundle of internal urls, if it is an &quot;i:0&quot; url, then it should have the following format:<br>
+[title]%0A[msg]%0A[optional callback url%0A][i:0url].</p>
+</li>
+</ul>
+
+</div>
+<p>Last Modified: 15 November 2023<br>
+update i:0m document<br>
+<pre>i:56 urls support CTRL_A to CTRL-Z 
+</pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

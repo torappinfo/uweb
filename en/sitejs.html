@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>JS/CSS/HTML/preprocessing for domains</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">JS/CSS/HTML/preprocessing for domains
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/javascript/index.html#">javascript</a> </li>
+    
+    <li><a href="../tags/css/index.html#">css</a> </li>
+    
+  </ul>
+  <h3 id="javascript-load-when-page-completes-earliest-loaded-js-should-use-sitecss">Javascript (load when page completes, earliest loaded JS should use sitecss).</h3>
+<ul>
+<li>Need to be named as &quot;[domain root].js&quot;, such as &quot;yahoo.com.js&quot; or &quot;finance.yahoo.com.js&quot;. The script will be loaded on the whole domain tree sites. If several files matches the domain, then the script with longest file name is loaded.</li>
+<li>Script must be put under the folder &quot;sitejs&quot; or &quot;/data/data/info.torapp.uweb/files/sitejs&quot;. The later folder has the priority.</li>
+<li>Long press the button &quot;settings&quot;, check the option &quot;Run user scripts&quot;.</li>
+<li>Support 2/3-segment domains. If the length of the last 2-segments of domain is less than 7 (ex. &quot;com.pl&quot;), then it is treated as one segment.</li>
+</ul>
+<h3 id="css-style-and-earliest-loaded-js">CSS style and earliest loaded JS</h3>
+<ul>
+<li>Need to be named as &quot;[domain root].css&quot;, such as yahoo.com.css or finance.yahoo.com.css。</li>
+<li>Under folder &quot;sitecss&quot;.</li>
+<li>&quot;[domain root].js&quot; is loaded at the earliest time.</li>
+<li>Long press the button &quot;settings&quot;, check the option &quot;Apply user styles&quot;.</li>
+</ul>
+<p>If file &quot;default.css&quot; exists, the style will be applied to all sites not matching [domain root].css.</p>
+<h3 id="extra-html-and-preprocessing">Extra html and preprocessing</h3>
+<ul>
+<li>Need to be named as &quot;[domain].html&quot;. Notice: the file name stem here is &quot;[full domain]&quot; not &quot;[domain root]&quot;.</li>
+<li>Under folder &quot;siteextra&quot;.</li>
+<li>Long press the button &quot;settings&quot;, check the option &quot;Apply user extra&quot;.</li>
+</ul>
+<p>An open tag as the last tag in the last 50 bytes of the user extra html expects more content to follow, thus the extra html is placed before the site html. Ex. when the extra html ends with &quot;&lt;textarea&gt;&quot; or &quot;&lt;plaintext&gt;&quot;, the site source html appears as the value of the textarea/plaintext element, thus the extra html can further process the the site source html before rendering. A self closed tag such as &quot;&lt;br&gt;&quot; acts like open tags, also makes the site source follow the extra html.</p>
+<p>&quot;sitejs/.js&quot;, &quot;sitecss/.css&quot;, &quot;sitecss/.js&quot; and &quot;siteextra/.html&quot; are applied to all non-http urls (file urls etc.).</p>
+
+</div>
+<p>Last Modified: 20 April 2023<br>
+support .js files under &#39;css&#39; folder<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

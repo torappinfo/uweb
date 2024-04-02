@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title></title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <h3 id="uweb-browser-unlimited-power">Uweb browser: unlimited power</h3>
+<p><a href="README.zh-Hans.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../zh/readme/index.html';return false;}}">中文</a></p>
+<p><a href="https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5">Amazon appstore</a><br>
+<a href="https://galaxy.store/uweb">Galaxy.Store</a><br>
+<a href="en/download.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../en/changelog/index.html';return false;}}">Downloads</a></p>
+<p><a href="https://torappinfo.github.io/uweb/en/">Uweb browser: downloads, plugins and tips</a><br>
+(Mirrors: <a href="https://jamesfengcao.gitlab.io/uweb/en/">gitlab</a> <a href="https://jamesfengcao.codeberg.page/en/">codeberg</a> <a href="https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html">repo</a> <a href="https://uweb.4everland.app/en/">4everland</a> <a href="https://ik4ev-laaaa-aaaad-qd4sq-cai.ic.fleek.co/en/">fleek</a> <a href="https://uwebzh.netlify.app/en/">netlify</a> <a href="https://uweb.surge.sh/en/">surge</a> <a href="https://uwebbrowser-t27o4.kinsta.page">kinsta</a> <a href="https://torappinfo.bitbucket.io/en/">bitbucket</a> <a href="https://muweb.pages.dev/en/">pages</a> <a href="https://uweb.vercel.app/en/">vercel</a> <a href="https://uweb.onrender.com/en/">render</a><br>
+<a href="en/mirrors.md" onclick="{let u=location.href; if(u.endsWith('index.html')||u.endsWith('readme/')){location='../../assets/help_en.html#mirrors';return false;}}">More...</a>)</p>
+<ul>
+<li>Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.</li>
+<li>Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</li>
+<li>Convenient: Any AI chatbot/book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.</li>
+<li>Tiny: less than 250k.</li>
+<li>Fast: run fast, even with thousands of user provided css/scripts/htmls.</li>
+<li>Efficient: less touches, one click to reach any number of search engines without repeated input; automate online services.</li>
+<li>URL bar command line support (&quot;!&quot; and .js file as command).</li>
+<li>Site-specific JS/CSS/HTML/preprocessing.</li>
+<li>Online play/preview/preprocess for downloadable resources.</li>
+<li>Multiple type profiles: switch any data including website logins, user configurations orthogonally.</li>
+<li>Supports enhanced user &quot;hosts&quot; file. Empty IP address to lift all server-imposed limitations.</li>
+<li>Website test automation scripting. crontab support (alarm clock and more).</li>
+</ul>
+<h4 id="main-features">Main features</h4>
+<p>Custom paper size PDF export and long vector screenshot, TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url redirection, webdav/http backup &amp; restore, auto next page, sending/receiving msg/file(s), site config (UA, no JS, no image, no 3rd party script/resource,active script, global scripts), http(s)/socks proxy, enabling html5 apps for local files (pdf/djvu/epub viewer, mdict dictionary lookup etc.).</p>
+<ul>
+<li>User-defined global and site-specific CSS and javascript.</li>
+<li>Bookmarklets (works for CSP sites and with option to auto apply to similar sites)</li>
+<li>AD blocking (block whole root domain trees etc.)</li>
+<li>Customization (define extra menus/buttons/gestures with user-defined functionalities)</li>
+<li>Support shell scripts, javascript for general processing, other languages (python etc.) are also supported by installing uweb compatible Termux versions.</li>
+<li>Serverless local sites: PWA-kind web extension (chrome .crx &amp; firefox .xpi) support.</li>
+<li>Piping between console and uweb tabs.</li>
+<li>Resizable floating video support.</li>
+</ul>
+<h4 id="screenshots">Screenshots</h4>
+<p><img src="https://i.postimg.cc/rsL9G5N1/home1.png"><br>
+<img src="https://i.postimg.cc/9QxJ3Rc2/globalcss.png"><br>
+<img src="https://i.postimg.cc/VksDHBQ4/globaljs.png"><br>
+<img src="https://i.postimg.cc/HLV3TYLy/longclick.png"><br>
+<img src="https://i.postimg.cc/XJ58ysdN/option1.png"><br>
+<img src="https://i.postimg.cc/0NFnQT6H/option2.png"></p>
+<h4 id="help-with-localization">Help with localization</h4>
+<p>We encourage everyone to help with localization. The following is how to do.</p>
+<ul>
+<li>Fork this repository</li>
+<li>Copy res/values/strings.xml to path like res/values-%(lang)/, replace %(lang) with <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php">the ISO 639-1 language code</a>.</li>
+<li>Translate res/values-%(lang)/strings.xml</li>
+<li>Translate assets/help_%(lang).html from assets/help_en.html</li>
+<li>Make a Pull Request</li>
+</ul>
+
+</div>
+<p>Last Modified: 24 March 2024<br>
+add more repositories<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

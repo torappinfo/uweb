@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>浏览器控制服务器下载资源</title>
+    <script type="text/javascript">
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">浏览器控制服务器下载资源
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+    <li><a href="../tags/termux/index.html#">termux</a> </li>
+    
+    <li><a href="../tags/ssh/index.html#">ssh</a> </li>
+    
+    <li><a href="../tags/PC/index.html#">PC</a> </li>
+    
+    <li><a href="../tags/%e4%b8%8b%e8%bd%bd/index.html#">下载</a> </li>
+    
+  </ul>
+  <p>技巧等级：高级</p>
+<p>小孩要听英文有声书“The lying games”，国内服务器没一个能下的，最后还是在手机上用seedr秒下。但seedr的登录要用google人机交互确认，用过代理、tunnel至手机等方法，台式机死活登录不上。下面言归正传，讲一下超微浏览器直接下载资源至台式机的方法：</p>
+<p>手机需安装uweb定制<a href="../gnuplot">Termux</a>，并在termux下安装openssl，在Termux窗口下依次敲入如下命令：<br>
+<code>apt update<br>
+apt upgrade<br>
+apt install openssl</code></p>
+<p>脚本pcdownload内容如下(可放置在任意应用内部目录下，并相应修改default.longclick配置中文件路径)：<br>
+<code>#!/data/data/com.termux/files/usr/bin/sh</code><br>
+<code>ssh [user:password]@192.168.2.102 &quot;DISPLAY=:0 firefox \&quot;$1\&quot;&quot;</code></p>
+<p>脚本需设置为可执行，Termux下执行命令:<br>
+chmod 755 /data/data/com.termux/files/usr/bin/pcdownload</p>
+<p>这里假定用户已经在台式机上设好ssh服务，台式机IP地址为192.168.2.102，准备用firefox下载。如果下载工具不是图形程序，则上述脚本中可删去“DISPLAY=:0”。</p>
+<p>配置文件default.longclick如下：<br>
+<code>PCdown:/data/data/com.termux/files/usr/bin/pcdownload</code></p>
+<p>重启超微浏览器，点击链接下载时会弹出菜单，选择&quot;PCdown&quot;，台式机会启动firefox下载手机指定文档。</p>
+<p>可能大家有疑问，台式机无法登录，为什么手机可以登录？这是因为手机上应用多哈。</p>
+
+</div>
+<p>Last Modified: 28 January 2023<br>
+minor changes for zh<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+  </body>
+</html>

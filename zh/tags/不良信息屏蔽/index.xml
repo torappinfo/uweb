@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>不良信息屏蔽 on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/</link>
+    <link>/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD.html</link>
     <description>Recent content in 不良信息屏蔽 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -10,30 +10,30 @@
     <atom:link href="/zh/tags/%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用用户自定义样式屏蔽不良信息</title>
-      <link>/zh/adblock_css/</link>
+      <link>/zh/adblock_css.html</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>/zh/adblock_css/</guid>
+      <guid>/zh/adblock_css.html</guid>
       <description>点击以下链接可安装全局样式，清后台重启浏览器，长按底部工具条窗口按钮弹出对话框后勾选上述文件名即可屏蔽不良信息。&#xA;floppymoose 广告屏蔽样式&#xA;gozer 广告屏蔽样式&#xA;超微浏览器支持根域名屏蔽，完全绝杀手机不良信息小厂。但少部分不良信息大厂本身也提供高质量的内容服务，它们可以将不良信息伪装成正常的内容从而逃脱域名绝杀。&#xA;对这一部分不良信息而言，我们可以利用超微浏览器的自定义样式功能加以屏蔽。</description>
     </item>
     <item>
       <title>视频播放小窍门</title>
-      <link>/zh/video/</link>
+      <link>/zh/video.html</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/zh/video/</guid>
+      <guid>/zh/video.html</guid>
       <description>覆盖安装全屏播放菜单示例：屏幕旋转,退出&#xA;本文以超微浏览器为例来说明。&#xA;创建文件&amp;quot;default.playrate&amp;quot;可定制全屏倍速播放菜单项，格式与文件default.link完全相同。倍速播放菜单链接部分为空，譬如&amp;quot;.5x:&amp;quot;，倍速菜单至少有一个。链接部分非空的菜单必须在所有倍速菜单之后。 长按设置按钮勾选“弹出视频地址”，则视频播放时会弹出真正的播放地址，点击地址播放可避免一切不良信息。如果点击后为下载操作，可长按链接分享给视频播放器。用户亦可配置在线播放或安装插件。嗅探的视频／资源类型可由文件“types.sniff”控制。 很多视频解析结果在UA为PC的情况下非常干净，没什么不良信息。故用户可在播放前切换UA至PC。如：wn.run/解析结果对PC非常干净。 某些视频网站在全屏播放时都会出现不良信息占住屏幕一部分。点击全屏播放之前，长按[☰]按钮，超微浏览器将弹出全局脚本菜单，勾选“移除浮动不良信息”后再点全屏播放则完美播放。 也可利用全屏播放屏蔽一切不良信息。方法如下： 长按[☰]按钮，勾选“全屏视频”。此选项将让无法全屏播放的网站强制允许全屏播放。 对无法全屏、无法放大的视频网站，可长按[☰]按钮，勾选“强制缩放”，然后手动放大至全屏。 灵活应用JS、图像开关屏蔽一切不良信息：视频搜索前关闭JS开关，进入播放网页前关闭图像显示并打开JS。 视频解析之电视剧: 首先在视频网站搜索电视剧片名，下面会显示不同的剧集，点击它们再用视频解析即可观看。如果直接点击电视剧用视频解析则每次播放均为第一集。 视频搜索预配置(超过400个引擎)&#xA;视频资源：&#xA;视频解析配置 nbwz mvcat novip bdys z2py ddrk nfmovies 电视直播 OK资源 全国电视直播 免费视频 国外剧 纪录片 网络直播 点击安装&amp;quot;视频播放增强(倍速等)，635+版本功能已内置，仅供高级用户定制参考。&amp;quot;</description>
     </item>
     <item>
       <title>加速访问国外网站</title>
-      <link>/zh/hosts/</link>
+      <link>/zh/hosts.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/hosts/</guid>
+      <guid>/zh/hosts.html</guid>
       <description>不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。&#xA;使用Android端uweb浏览器。&#xA;域名文件内容如下：&#xA;googleadservices.com&#xA;googlesyndication.com&#xA;adsense.com&#xA;googleapis.com&#xA;google-analytics.com&#xA;googletagservices.com&#xA;twitter.com&#xA;facebook.com&#xA;fbcdn.net&#xA;其它国外网址访问技巧：&#xA;尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。 关闭网页图片 </description>
     </item>
     <item>
       <title>绝杀完整域名树</title>
-      <link>/zh/adblock_domain/</link>
+      <link>/zh/adblock_domain.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/adblock_domain/</guid>
+      <guid>/zh/adblock_domain.html</guid>
       <description>域名文件可屏蔽文件中域名的一切子域名、孙域名、......，可彻底绝杀一切不良信息。所以用户屏蔽根域名时无需选择提示中出现的整个域名，只需选取最后两段或三段（最后两段不超过6字符如com.cn的域名可取四段）。&#xA;可使用列出外部脚本小书签生成外部js文件列表，然后长按底部工具栏&amp;quot;js&amp;quot;按钮，执行&amp;quot;网址转链接&amp;quot;菜单命令，长按可疑链接（一般为域名不同的外链），执行“屏蔽根域名”。&#xA;长按不良信息链接，点击“图片：屏蔽根域名”，修改弹出域名，一般取最后两段，点击&amp;quot;确定&amp;quot;屏蔽当前图片网址。&#xA;部分不良信息没有链接可长按，或虽有链接但长按时不出现图片相关菜单。此时可长按[JS]点击&amp;quot;背景图片&amp;quot;或&amp;quot;看图模式&amp;quot;，再长按不良信息链接点击“图片：屏蔽根域名”，屏蔽图片网址。&#xA;可长按设置开启&amp;quot;资源嗅探&amp;quot;，推荐设置文件&amp;quot;types.sniff&amp;quot;内容为js，刷新网页后关闭&amp;quot;资源嗅探&amp;quot;选项。在弹出的资源网页上长按链接，屏蔽根域名。&#xA;(可选) 长按不良信息链接，点击“屏蔽根域名”，屏蔽链接网址。&#xA;(可选) 某些不良信息靠javascript激发，链接中不出现域名，可点击激发至新网址后将新网址根域名屏蔽。&#xA;支持域名及整个网址正则表达式&#xA;文件格式每行如下：&#xA;根域名[空格]域名前缀正则表达式[空格]整个网址去掉协议部分后正则表达式&#xA;空格及后面两个正则表达式为可选择项。正则表达式采用java标准。&#xA;如果用到了第二个正则表达式，此时将域名前缀表达式合并到第二个正则表达式中，从而仅使用一个表达式可优化性能。&#xA;点击本链接自动用样例覆盖default.hosts</description>
     </item>
   </channel>
