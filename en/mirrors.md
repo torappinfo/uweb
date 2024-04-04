@@ -24,6 +24,7 @@
 [chapril](https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
 
 ### Mirrors (for all versions)
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验1</a>
