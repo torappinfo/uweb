@@ -1,3 +1,4 @@
+<style>br{display:none;}</style>
 ### Mirrors (for version 1040+)
 [gitee](https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#)
 [gitcode](https://gitcode.net/uweb/uweb/-/raw/master/redirect.html#)
@@ -25,8 +26,11 @@
 [cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
+[nuaa](https://hub.nuaa.cf/torappinfo/uweb/raw/master/redirect.html#)
+[yzuu](https://hub.yzuu.cf/torappinfo/uweb/raw/master/redirect.html#)
 
 ### Mirrors (for all versions)
+<p>
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验1</a>
 <a href="i:0m?:https://gitcode.net/uweb/uweb/-/raw/master/redirect.html">2</a>
 <a href="i:0m?:https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html">4</a>
@@ -55,6 +59,7 @@
 <a href="i:0m?:https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html">chapril</a>
 <a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html">cryto</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
+</p>
 
 ### Repositories
 [gitlab](https://gitlab.com/jamesfengcao/uweb)
