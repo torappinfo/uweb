@@ -6,8 +6,7 @@
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
-(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://uweb.on-fleek.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/)
-<a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
+(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://uweb.on-fleek.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
 
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.

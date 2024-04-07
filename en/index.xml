@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Apr 2024 16:20:42 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 08:34:20 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -111,7 +111,7 @@
       <link>/en/sitemap/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
       <guid>/en/sitemap/</guid>
-      <description>Check for updates&#xA;UI Search engines Home screens UI (gitee) webdav install-able menu generator Customization Long pressing menus for toolbar buttons User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Address bar command modes Advanced Advanced Content AD blocking CSS styles Redirection Offline cache JS/CSS/HTML/preprocessing for domains Any urls as website Tools Bookmarklets Cron &amp;amp; more Custom file handling Html5 application Termux Info Manual Tips Configuration files Bookmarks </description>
+      <description>Mirrors&#xA;Check for updates&#xA;UI Search engines Home screens UI (gitee) webdav install-able menu generator Customization Long pressing menus for toolbar buttons User agents Javascript Url services Links Commands Remote javascript Menu for selections Menu for long pressing hypertext Toolbar Gestures Address bar command modes Advanced Advanced Content AD blocking CSS styles Redirection Offline cache JS/CSS/HTML/preprocessing for domains Any urls as website Tools Bookmarklets Cron &amp;amp; more Custom file handling Html5 application Termux Info Manual Tips Configuration files Bookmarks </description>
     </item>
     <item>
       <title>Configuration folders/files</title>
@@ -223,7 +223,7 @@
       <link>/en/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/readme/</guid>
-      <description>Uweb browser: unlimited power 中文&#xA;Amazon appstore&#xA;Galaxy.Store&#xA;Downloads&#xA;Uweb browser: downloads, plugins and tips&#xA;(Mirrors: gitlab codeberg repo 4everland fleek netlify surge kinsta bitbucket pages vercel render&#xA;More...)&#xA;Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux. Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</description>
+      <description>Uweb browser: unlimited power 中文&#xA;Amazon appstore&#xA;Galaxy.Store&#xA;Downloads&#xA;Uweb browser: downloads, plugins and tips&#xA;(Mirrors: gitlab codeberg repo 4everland fleek netlify surge kinsta bitbucket pages vercel render More...)&#xA;Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux. Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</description>
     </item>
   </channel>
 </rss>

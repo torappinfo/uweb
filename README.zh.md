@@ -8,8 +8,7 @@
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">下载</a>
 
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
-(镜像: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [fleek](https://uweb.on-fleek.app/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [pages](https://muweb.pages.dev/zh/) [zeabur](https://uweb.zeabur.app/zh/) [vercel](https://uweb.vercel.app/zh/)
-<a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像</a>)
+(镜像: [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [fleek](https://uweb.on-fleek.app/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [pages](https://muweb.pages.dev/zh/) [zeabur](https://uweb.zeabur.app/zh/) [vercel](https://uweb.vercel.app/zh/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像</a>)
 
 - <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、翻译、百科等</a></span>
 - AI聊天可作为搜索引擎来使用
@@ -24,7 +23,7 @@
 - 支持用户定义域名属性。
 - 下载资源在线播放/预览/预处理。
 - 独立切换网站登录、配置文件。
-- 支持网站测试自动化脚本 (可用于app服务端测试)。支持crontab(闹钟等)。
+- 支持网站测试自动化脚本 (可用于app服务端测试)。支持crontab(闹钟、定时任务等)。
 
 #### 截屏
 ![](https://i.postimg.cc/rsL9G5N1/home1.png)
