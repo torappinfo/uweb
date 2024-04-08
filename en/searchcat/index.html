@@ -49,14 +49,15 @@
     <li><a href="../tags/search%20engine/index.html#">search engine</a> </li>
     
   </ul>
-  <p>Any &quot;.search&quot; file can be opened as search engine file, each line of which has one of the following formats:<br>
+  <p>Search engine file names have &quot;.search&quot; as postfix. When they are clicked, the associated bookmark files with postfix &quot;.search.html&quot; would be appended. Ex: the associated bookmark for &quot;foo.search&quot; is &quot;foo.search.html&quot;.</p>
+<p>Any &quot;.search&quot; file can be opened as search engine file, each line of which has one of the following formats:<br>
 [Engine name]:[url without '%s' inside]<br>
 [Engine name]:[url with '%s' as keyword]<br>
 [Engine name]:POST:[post params with '%s' as keyword]:[url]<br>
 [Engine name]:[Extra request headers]:[post params with '%s' as keyword]:[url]</p>
 <ul>
 <li>[Extra request headers] Ex. &quot;X-Forwarded-For;8.8.8.8&quot;</li>
-<li>when [post params] is empty, the url should have '%s' as keyword. Ex. <a href="../search/index.html#">bingUS engine w/ chatgpt</a></li>
+<li>when [post params] is empty, the url should have '%s' as keyword.</li>
 </ul>
 <p>Limitations (they are here for performance reasons):</p>
 <ul>
@@ -68,8 +69,8 @@
 d:mimetype:[command line with '%s' as keyword]:[base url for external resources]</p>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add js function in README<br>
+<p>Last Modified: 8 April 2024<br>
+add associated bookmarks<br>
 <pre></pre>
 </p>
 

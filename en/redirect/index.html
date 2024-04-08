@@ -57,10 +57,10 @@
 <p>When a valid global redirection url is set, the &quot;default.redirect&quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.</p>
 <ul>
 <li>
-<p>If the global redirection url ends with '/', then the resource is fetched with by the url &quot;[global redirection url] + [url]&quot;. For example, &quot;https://domain.com/pathXXX/https://cnn.com&quot;.</p>
+<p>If the global redirection url ends with '/', '?', or '=', then the resource is fetched with by the url &quot;[global redirection url] + [url]&quot;. For example, &quot;https://domain.com/pathXXX/https://cnn.com&quot;.</p>
 </li>
 <li>
-<p>(to provide more options to users) If the global redirection url does not end with '/', it means the global redirection url is naked. then the resource is fetched with by the url &quot;[global redirection url] + '/'+ [url without scheme]&quot;. For example, when the global redirection url is &quot;https://domain.com/pathXXX&quot;, the real url to visit &quot;https://cnn.com&quot; is &quot;https://domain.com/pathXXX/cnn.com&quot;.</p>
+<p>(to provide more options to users) If the global redirection url does not end with '/', '?' or '=', it means the global redirection url is naked. then the resource is fetched with by the url &quot;[global redirection url] + '/'+ [scheme]+ '/' + [url without scheme]&quot;. For example, when the global redirection url is &quot;https://domain.com/pathXXX&quot;, the real url to visit &quot;https://cnn.com&quot; is &quot;https://domain.com/pathXXX/https/cnn.com&quot;.</p>
 </li>
 </ul>
 <h4 id="defaultredirect-valid-only-without-global-redirection-url">&quot;default.redirect&quot; (valid only without global redirection url)</h4>
@@ -77,8 +77,8 @@
 </ul>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add js function in README<br>
+<p>Last Modified: 7 April 2024<br>
+more details on global redirection url<br>
 <pre></pre>
 </p>
 

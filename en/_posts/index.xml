@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 08:58:19 +0800</lastBuildDate>
     <atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -62,7 +62,7 @@
       <link>/en/bookmark/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/bookmark/</guid>
-      <description>AI, chatgpt etc.&#xA;google gemini komo andi devv.ai poe freegpt teach-anything magickpen Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Tips File handling and styling with home.css &amp;quot;home.css&amp;quot; (in current folder, parent folder or the &amp;quot;bookmark&amp;quot; folder) styles bookmarks, search engines and the folder itself. The file is in html format instead of CSS, so it needs &amp;quot;&amp;lt;style&amp;gt;&amp;quot; tag for CSS.&#xA;Install markdeep styling for markdown files</description>
+      <description>AI, chatgpt etc.&#xA;google gemini komo andi devv.ai poe freegpt teach-anything magickpen Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Associated bookmarks Search engine files associate with bookmarks with postfix &amp;quot;.search.html&amp;quot;, which means the bookmark file if existing is appended to the page when the search engine file is on screen.&#xA;&amp;quot;help_en.html&amp;quot; bookmark associates with the user manual in English. Similarly, &amp;quot;help_zh.html&amp;quot; is for Chinese manual. Whenever user manual is open, the associated bookmark appears before the manual.</description>
     </item>
     <item>
       <title>Tips</title>
@@ -79,11 +79,11 @@
       <description>&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.&#xA;The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.</description>
     </item>
     <item>
-      <title>Make any url as website</title>
+      <title>Any url as website</title>
       <link>/en/url2site/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/en/url2site/</guid>
-      <description>The uweb internal link &amp;quot;i:0m&amp;quot; make any url such as download or indirect link visitable as a website. The test mirrors in the uweb manual are examples using the following tricks:&#xA;&amp;quot;i:0m04:[url]&amp;quot;: to treat the [url] content as html with bookmarklet. &amp;quot;i:0m?:[url]&amp;quot;: to treat the [url] content as html, handling css/js properly. &amp;quot;i:0m?[postfix]:[url]&amp;quot;: auto append query postfix to url to retrieve content. &amp;quot;i:0mi:5h:[url]&amp;quot;: similar to &amp;quot;i:0m?:[url]&amp;quot;, to treat the [url] content as html (for download or no-script links etc.</description>
+      <description>The uweb internal link &amp;quot;i:0m&amp;quot; make any url such as download or indirect links visitable as a website. The second part of mirrors has examples using the following tricks:&#xA;&amp;quot;i:0m04:[url]&amp;quot;: to treat the [url] content as html with bookmarklet. &amp;quot;i:0m?:[url]&amp;quot;: to treat the [url] content as html, handling css/js properly. &amp;quot;i:0m?[postfix]:[url]&amp;quot;: auto append query postfix to url to retrieve content. &amp;quot;i:0mi:5h:[url]&amp;quot;: similar to &amp;quot;i:0m?:[url]&amp;quot;, to treat the [url] content as html (for download or no-script links etc.</description>
     </item>
     <item>
       <title>Html5 applications</title>
@@ -132,7 +132,7 @@
       <link>/en/searchcat/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/en/searchcat/</guid>
-      <description>Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:&#xA;[Engine name]:[url without &#39;%s&#39; inside]&#xA;[Engine name]:[url with &#39;%s&#39; as keyword]&#xA;[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Extra request headers] Ex. &amp;quot;X-Forwarded-For;8.8.8.8&amp;quot; when [post params] is empty, the url should have &#39;%s&#39; as keyword. Ex. bingUS engine w/ chatgpt Limitations (they are here for performance reasons):</description>
+      <description>Search engine file names have &amp;quot;.search&amp;quot; as postfix. When they are clicked, the associated bookmark files with postfix &amp;quot;.search.html&amp;quot; would be appended. Ex: the associated bookmark for &amp;quot;foo.search&amp;quot; is &amp;quot;foo.search.html&amp;quot;.&#xA;Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:&#xA;[Engine name]:[url without &#39;%s&#39; inside]&#xA;[Engine name]:[url with &#39;%s&#39; as keyword]&#xA;[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]</description>
     </item>
     <item>
       <title>Termux</title>
