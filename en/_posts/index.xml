@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Apr 2024 08:58:19 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 18:19:08 +0800</lastBuildDate>
     <atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -34,7 +34,7 @@
       <link>/en/offlinecache/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <guid>/en/offlinecache/</guid>
-      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.&#xA;bingChat UI Install bingChat UI ai.html for censored area (bingChat UI)&#xA;Install bingWrite UI write.html for censored area (bingWrite)&#xA;Install bingAI image creator UI draw.html for censored area (bingAI image creator)&#xA;Serverless local sites Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.</description>
+      <description>Offline resources locate in the folder &amp;quot;sitecache&amp;quot;. With the option &amp;quot;use offline resources&amp;quot; enabled, the corresponding files in &amp;quot;sitecache/[domain name]/[full path including filename, the url path part]&amp;quot; are loaded first before reaching the network.&#xA;Serverless local sites Click to install url service that extracts web apps to the folder &amp;quot;sitecache/local/&amp;quot;: support web extensions (.crx for chrome &amp;amp; .xpi for firefox).&#xA;Any folder under &amp;quot;sitecache&amp;quot; can be visited as a local site.</description>
     </item>
     <item>
       <title>Resource redirection</title>
