@@ -8,7 +8,7 @@
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">下载</a>
 
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
-(镜像: [atomgit](https://jamesfengcao.atomgit.net/uweb/zh/) [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [fleek](https://uweb.on-fleek.app/zh/) [pages](https://muweb.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [zeabur](https://uweb.zeabur.app/zh/) [vercel](https://uweb.vercel.app/zh/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像...</a>)
+(镜像: [atomgit](https://uweb.atomgit.net/uweb/zh/) [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [fleek](https://uweb.on-fleek.app/zh/) [pages](https://muweb.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [zeabur](https://uweb.zeabur.app/zh/) [vercel](https://uweb.vercel.app/zh/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像...</a>)
 
 - <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、翻译、百科等</a></span>
 - AI聊天可作为搜索引擎来使用
@@ -36,7 +36,7 @@
 #### 软件功能
 输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、代码编辑器（支持120多种语言，语法高亮、错误提示、自动提示、直接运行测试、其它网页上直接测试）。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。
 
-修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫"超级书签"。成功使用时保存，需要时就可以无限恢复。(比如newbing/chatGPT的直接使用)
+修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫"超级书签"。成功使用时保存，需要时就可以无限恢复。
 
 小书签(bookmarklet)再也不用手工输入，直接将小书签网站加入书签即可。运行时长按出菜单后选择“在新窗口中打开”，小书签将作用于最后一个窗口。
 
