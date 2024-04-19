@@ -248,11 +248,12 @@ TTS</p>
 play video fullscreen. if videourl is empty, then make following requestFullscreen() work.</p>
 </li>
 <li>
-<p>i:5h[?postfix:|/regex/replacement:][url]<br>
+<p>i:5h[?postfix:|/regex/replacement:|encoding:][url]<br>
 force html for [url] visiting</p>
 <ul>
 <li>[?postfix:] : the real url visited is &quot;[url]+[?postfix]&quot;</li>
 <li>[/regex/replacement:]: execute regular expression replacement for the &quot;[url]&quot;, then visit the resulting url.</li>
+<li>[encoding:]: force web page encoding.</li>
 </ul>
 </li>
 <li>
@@ -309,8 +310,8 @@ Bundle of internal urls, if it is an &quot;i:0&quot; url, then it should have th
 </ul>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add js function in README<br>
+<p>Last Modified: 19 April 2024<br>
+add i:5hencoding: support<br>
 <pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>
