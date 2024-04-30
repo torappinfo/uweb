@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Apr 2024 11:59:48 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2024 20:46:47 +0800</lastBuildDate>
     <atom:link href="/en/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -62,14 +62,14 @@
       <link>/en/bookmark/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/bookmark/</guid>
-      <description>AI, chatgpt etc.&#xA;google gemini komo andi devv.ai iaskAI poe thinkany freegpt teach-anything magickpen note.ms&#xA;rentry&#xA;Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Associated bookmarks Search engine files associate with bookmarks with postfix &amp;quot;.search.html&amp;quot;, which means the bookmark file if existing is appended to the page when the search engine file is on screen.&#xA;&amp;quot;help_en.html&amp;quot; bookmark associates with the user manual in English. Similarly, &amp;quot;help_zh.html&amp;quot; is for Chinese manual.</description>
+      <description>AI, chatgpt etc.&#xA;google gemini komo andi devv.ai iaskAI poe thinkany freegpt teach-anything magickpen note.ms&#xA;rentry&#xA;Wait for url from other devices&#xA;berify: reverse image search for video&#xA;Associated bookmarks Search engine files associate with bookmarks with extension &amp;quot;.html&amp;quot;, which means the bookmark file if existing is appended to the page when the search engine file is on screen.&#xA;&amp;quot;help_en.html&amp;quot; bookmark associates with the user manual in English. Similarly, &amp;quot;help_zh.html&amp;quot; is for Chinese manual.</description>
     </item>
     <item>
       <title>Tips</title>
       <link>/en/tips/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/en/tips/</guid>
-      <description>Text processing for clipboard data:&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the text processing menu for clipboard data.&#xA;To show web pages in desktop mode:&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&#xA;Playing audio when screen off&#xA;Option &amp;quot;Floating video&amp;quot; + video fullscreen playing&#xA;Multiple home screens and Next/Prev page:&#xA;home5.html, home6.mht(or .html or .search), home7.mht(or .html or .search), .</description>
+      <description>Text processing for clipboard data:&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the text processing menu for clipboard data.&#xA;To show web pages in desktop mode:&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&#xA;Playing audio when screen off&#xA;Option &amp;quot;Floating video&amp;quot; + video fullscreen playing&#xA;Multiple home screens and Next/Prev page:&#xA;home5.html, home6.mht(or .search or .html), home7.mht(or .search or .html), .</description>
     </item>
     <item>
       <title>Address bar command line</title>
