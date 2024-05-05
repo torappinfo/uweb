@@ -1,6 +1,6 @@
 <head>
   <base>
-  <script src="https://fastly.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     function absFile(url) {
       this.name=url;
@@ -27,7 +27,7 @@
     var blocksize = 20480;
     function loadSlice(){
       function render(u8array){
-        document.body.innerHTML = marked(new TextDecoder().decode(u8array));
+        document.body.innerHTML = marked.parse(new TextDecoder().decode(u8array));
         scroll(0,0);
       }
       function setPageUrl(pageurl){
@@ -91,9 +91,9 @@
       file = new absFile(url);
       document.getElementsByTagName('base')[0].href=url;
     }
+    loadSlice();
     window.addEventListener('hashchange',loadSlice);
   </script>
 </head>
 <body>
-  <script>loadSlice();</script>
 </body>
