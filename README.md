@@ -6,7 +6,7 @@
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
-(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://uweb.on-fleek.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
+(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://uweb.on-fleek.app/en/) [cyclic](https://muweb.cyclic.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [zeabur](https://uweb.zeabur.app/en/) [deno](https://posh-crab-23.deno.dev/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) [glitch](https://uweb.glitch.me/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
 
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
@@ -40,6 +40,9 @@ Custom paper size PDF export and long vector screenshot, TTS, text reflow, resou
 ![](https://i.postimg.cc/HLV3TYLy/longclick.png)
 ![](https://i.postimg.cc/XJ58ysdN/option1.png)
 ![](https://i.postimg.cc/0NFnQT6H/option2.png)
+
+#### [Eweb browser](https://github.com/torappinfo/eweb) for Windows, MacOS and Linux
+Eweb is less mature open source browser with the same philosophy of uweb.
 
 #### Help with localization
 We encourage everyone to help with localization. The following is how to do.

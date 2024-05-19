@@ -7,7 +7,6 @@ let ess = {
   "g":["https://google.com/search?q=",],
   "gi":["http://www.google.com/images?as_q=",],
   "gf":["https://google.com/search?q=intitle:index.of+%22parent+directory%22+",],
-  "n":["https://neeva.com/search?q=",],
   "sx":["https://searx.be/?q=",],
   "w":["https://en.wikipedia.org/wiki/Special:Search?search=",],
   "wf":["https://encyclopedia.thefreedictionary.com/",],
