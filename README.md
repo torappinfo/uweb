@@ -41,8 +41,10 @@ Custom paper size PDF export and long vector screenshot, TTS, text reflow, resou
 ![](https://i.postimg.cc/XJ58ysdN/option1.png)
 ![](https://i.postimg.cc/0NFnQT6H/option2.png)
 
-#### [Eweb browser](https://github.com/torappinfo/eweb) for Windows, MacOS and Linux
-Eweb is less mature open source browser with the same philosophy of uweb.
+#### [Ebrowser](https://github.com/torappinfo/eweb) for Windows, MacOS and Linux
+Ebrowser is a simple verison of uweb browser on the desktop.
+- Capture long screenshot as vector graphics. 
+- Enabling web tech for vector designing to replace Adobe Illustrator/Inkscape.
 
 #### Help with localization
 We encourage everyone to help with localization. The following is how to do.
