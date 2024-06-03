@@ -6,7 +6,7 @@
     <description>Recent content on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 24 May 2024 09:41:58 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 10:23:49 +0800</lastBuildDate>
     <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
@@ -161,6 +161,13 @@
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
       <guid>/zh/icons/</guid>
       <description>超微浏览器配置目录下如果存在目录&amp;quot;icon&amp;quot;，则此目录下的文件名为&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;...&#xA;会作为底部工具栏图标。文件&amp;quot;0&amp;quot;替换原后退按钮，&amp;quot;1&amp;quot;为前进按钮，&amp;quot;2&amp;quot;为设置按钮，&amp;quot;3&amp;quot;为主页按钮......。&#xA;如果定义有新按钮（当前版本存在文件&amp;quot;20&amp;quot;），则uweb支持向量格式图标VectorDrawable，格式为compiled XML。此时所有图标文件必须都是compiled XML格式，或都是普通的图像格式（png,jpg,gif等）。用户可将VectorDrawable XML文件放到安卓项目目录assets下面，重新生成apk文件以后将apk文件解压即可得compiled XML格式图标文件。&#xA;用户可定义任意多个按钮(100个按钮毫无压力)，其短按长按功能可在文件default.button及default.button2中定义，格式与文件default.link完全相同，每行从最后一个按钮开始重定义功能。&#xA;注意：刷新按钮及窗口按钮图标暂时不能重定义。</description>
+    </item>
+    <item>
+      <title>浏览器标识使用技巧</title>
+      <link>/zh/useragents/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/zh/useragents/</guid>
+      <description>超微浏览器下点击配置链接可自动添加浏览器标识，强制清空后台重启后可用。&#xA;Edge for android&#xA;Edge for windows&#xA;更多标识</description>
     </item>
     <item>
       <title>安卓系统出错诊断</title>
