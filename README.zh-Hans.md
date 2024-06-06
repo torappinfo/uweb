@@ -60,3 +60,10 @@
 - 网页矢量长截屏，允许通过mermaid等设计矢量图案。
 - 可用网页设计代替Adobe Illustrator平面设计。
 - 完全开源，共同探索浏览新技术。
+- nodejs 下安装：
+
+    npm install ebrowser
+
+- nodejs 下运行：
+
+    electron ~/node_modules/ebrowser
