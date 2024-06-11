@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/_posts/</loc>
-    <lastmod>2024-05-24T09:50:14+08:00</lastmod>
+    <lastmod>2024-06-11T08:12:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -32,7 +32,7 @@
                 />
   </url><url>
     <loc>/en/tags/</loc>
-    <lastmod>2024-05-24T09:50:14+08:00</lastmod>
+    <lastmod>2024-06-11T08:12:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -71,7 +71,7 @@
                 />
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2024-06-10T17:27:55+08:00</lastmod>
+    <lastmod>2024-06-11T18:34:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -207,7 +207,7 @@
                 />
   </url><url>
     <loc>/en/tags/javascript/</loc>
-    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
+    <lastmod>2024-06-11T08:12:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -320,7 +320,7 @@
                 />
   </url><url>
     <loc>/en/bookmarklet/</loc>
-    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
+    <lastmod>2024-06-11T08:12:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -507,11 +507,14 @@
                 href="/en/gesture/"
                 />
   </url><url>
+    <loc>/en/ebrowserreadme/</loc>
+    <lastmod>2024-06-11T18:18:13+08:00</lastmod>
+  </url><url>
     <loc>/en/mirrors/</loc>
     <lastmod>2024-04-06T10:20:49+08:00</lastmod>
   </url><url>
     <loc>/en/readme/</loc>
-    <lastmod>2024-06-10T17:27:55+08:00</lastmod>
+    <lastmod>2024-06-11T18:34:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -536,7 +539,7 @@
                 />
   </url><url>
     <loc>/en/unlist/</loc>
-    <lastmod>2024-06-10T17:27:55+08:00</lastmod>
+    <lastmod>2024-06-11T18:34:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"

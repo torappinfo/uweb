@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Jun 2024 17:27:55 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 18:34:35 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -132,7 +132,7 @@
       <link>/en/bookmarklet/</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/bookmarklet/</guid>
-      <description>With a href=&amp;quot;../index.html#&amp;quot;&amp;gt;uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.&#xA;List all script urls&#xA;User agent&#xA;Cookie&#xA;Source code&#xA;Last modified date&#xA;Eruda: mobile console&#xA;QR code generation&#xA;Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;&#xA;Shows all form elements&#xA;Enables all form elements&#xA;Toggle checkboxes&#xA;Check all checkboxes&#xA;Uncheck all checkboxes&#xA;Toggle all checkboxes in forms&#xA;Enable selection</description>
+      <description>With uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.&#xA;List all script urls&#xA;User agent&#xA;Cookie&#xA;Source code&#xA;Last modified date&#xA;Eruda: mobile console&#xA;QR code generation&#xA;Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;&#xA;Shows all form elements&#xA;Enables all form elements&#xA;Toggle checkboxes&#xA;Check all checkboxes&#xA;Uncheck all checkboxes&#xA;Toggle all checkboxes in forms&#xA;Enable selection&#xA;Restore context menu</description>
     </item>
     <item>
       <title>Url services</title>
@@ -210,6 +210,13 @@
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/en/gesture/</guid>
       <description>Swipe down from the top to show the address bar; swipe up to the top to hide the address bar. Swipe down to the bottom to hide the toolbar with option &amp;quot;swipe to hide tools&amp;quot;; swipe on the bottom corners to show the toolbar.&#xA;Swipe left/right near the toolbar to switch window; fling left/right to switch to the last/first window.&#xA;Swiping on the top part of content window (near the top address bar by default) triggers corresponding link in the file &amp;quot;default.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/en/ebrowserreadme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/ebrowserreadme/</guid>
+      <description>Ebrowser as alternative to uweb browser Ebrowser is the minimal browser with the philosophy of Android uweb browser.&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard (command line) friendly. customizable. Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.&#xA;Install (for Windows, macOS and Linux) Install ebrowser with nodejs installed</description>
     </item>
     <item>
       <title></title>

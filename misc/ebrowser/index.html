@@ -1,0 +1,337 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<style>
+  html{
+    height: 100%;
+    overflow: hidden;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  div.webviews{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+  }
+  webview{display: none;width:100%;height:100%}
+  .curWV{display: inherit !important;}
+</style>
+<script>
+  const fs = require('fs');
+  const path = require('path');
+  const readline = require('readline');
+  var iTab = 0;
+  var tabs;
+  var engines = {};
+  var mapKeys = {};
+  var defaultSE = "https://www.bing.com/search?q=";
+  let lastKeys;
+  let lastKeys_millis = 0;
+
+  fs.readFile(path.join(__dirname,'search.json'), 'utf8', (err, jsonString) => {
+    if (err) return;
+    initSearchEngines(jsonString,false);
+  });
+  fs.readFile(path.join(__dirname,'mapkeys.json'), 'utf8', (err, jsonStr) => {
+    if (err) return;
+    try {
+      mapKeys = JSON.parse(jsonStr);
+    }catch(e){}
+  });
+  appendAutoc_rec(path.join(__dirname,'default.autoc'),null);
+  appendAutoc_rec(path.join(__dirname,'bookmark.rec'),' ');
+
+  function initSearchEngines(jsonStr){
+    try{
+      let val1st;
+      engines=JSON.parse(jsonStr, (key, value)=>{
+        if(!val1st && !(/^\d+$/u.test(key))) val1st=value;
+        return value;
+      });
+      if(val1st) defaultSE=val1st;
+    }catch(e){}
+  }
+  function save(filePath, u8array){
+    //alert(Object.prototype.toString.call(u8array))
+    fs.writeFile (filePath, u8array, (err) => {
+      if (err) {
+        console.error (err);
+        return;
+      }
+    });
+  }
+  function print2PDF(filePath, options){
+    tabs.children[iTab].printToPDF(options)
+      .then(u8array=>save(filePath,u8array));
+  }
+  function bookmark(args){//b [filenamestem] url title :bookmark
+    let bmFileName = "bookmark.rec";
+    let tab = tabs.children[iTab];
+    let url = tab.getURL();
+    if(args.length>1)
+      bmFileName = args[1]+".rec";
+    let title = tab.getTitle();
+    let line = title + " " + url + "\n";
+    fs.appendFile(path.join(__dirname,bmFileName), line, (err)=>{});
+  }
+  function switchTab(i){
+    let tab = tabs.children[iTab];
+    if(document.activeElement == tab) tab.blur();
+    tab.classList.remove('curWV');
+    iTab = i;
+    tabs.children[iTab].classList.add('curWV');
+  }
+  function newTab(){
+    var tab = document.createElement('webview');
+    tab.allowpopups = true;
+    tabs.appendChild(tab);
+  }
+  function tabInc(num){
+    let nTabs = tabs.children.length;
+    if(nTabs<2) return;
+    let i = iTab +num;
+    if(i>=nTabs) i=0;
+    switchTab(i);
+  }
+  function tabDec(num){
+    let nTabs = tabs.children.length;
+    if(nTabs<2) return;
+    let i = iTab +num;
+    if(i<0) i=nTabs-1;
+    switchTab(i);
+  }
+  function tabClose(){
+    let nTabs = tabs.children.length;
+    if(nTabs<2) return "";//no remain tab
+    let tab = tabs.children[iTab];
+    if(document.activeElement == tab) tab.blur();
+    tabs.removeChild(tab);
+    nTabs--;
+    if(iTab>=nTabs) iTab=iTab-1;
+    tabs.children[iTab].classList.add('curWV');
+    return getWinTitle();
+  }
+  function getWinTitle(){
+    let t=tabs.children[iTab];
+    let title = (iTab+1) + '/' + tabs.children.length;
+    try{title=title+' '+t.getTitle()+' '+t.getURL()}catch(e){}
+    return title
+  }
+  async function appendAutoc_rec(filename, delimit){
+    try{
+      const readInterface = readline.createInterface ({
+        input: fs.createReadStream (filename, 'utf8'),
+      });
+
+      for await (const line of readInterface) {
+        let opt = document.createElement('option');
+        let iS;
+        if(delimit && (iS=line.lastIndexOf(delimit))>0){
+          opt.value = line.substring(iS+delimit.length);
+          opt.textContent = line.substring(0,iS);
+        }else
+          opt.value = line;
+        document.forms[0].children[0].appendChild(opt);
+      }
+    }catch(e){return;}
+  }
+  function keyPress(e){
+    var inputE = document.forms[0].q;
+    if (e.altKey||e.metaKey)
+      return;
+    var key = e.key;
+    if(e.ctrlKey){
+      switch(key){
+      case "Home":
+        tabs.children[iTab].src = "javascript:window.scrollTo(0,0)";
+        return;
+      case "End":
+        tabs.children[iTab].src="javascript:window.scrollTo(0,document.body.scrollHeight)"
+        return;
+
+      }
+      return;
+    }
+    switch(key){
+    case "PageDown":
+      tabs.children[iTab].src =
+        "javascript:window.scrollBy(0,3*document.documentElement.clientHeight/4)";
+      return;
+    case "PageUp":
+      tabs.children[iTab].src = "javascript:window.scrollBy(0,-3*document.documentElement.clientHeight/4)";
+      return;
+    case "ArrowDown":
+      tabs.children[iTab].src="javascript:window.scrollBy(0,32)";
+      return;
+    case "ArrowUp":
+      tabs.children[iTab].src="javascript:window.scrollBy(0,-32)";
+      return;
+ 
+    }
+    if(inputE === document.activeElement) return;
+    if(1!=key.length) return;
+    var curMillis = Date.now();
+    if(curMillis-lastKeys_millis>500)
+      lastKeys = null;
+    lastKeys_millis = curMillis;
+
+    switch (key) {
+    case "!":
+      inputE.value = ":";
+      inputE.focus();
+      lastKeys = null;
+      return;
+    case "/":
+    case ":":
+      inputE.value = "";
+      inputE.focus();
+      lastKeys = null;
+      return;
+    }
+    if(!lastKeys) {
+      lastKeys = key;
+      return;
+    }
+    lastKeys = lastKeys + key;
+    let cmds = mapKeys[lastKeys];
+    if(cmds){
+      lastKeys = null;
+      for(var cmd of cmds.split("\n"))
+        handleQuery(cmd);
+    }
+  }
+  function getQ(){return document.forms[0].q.value;}
+  function bang(query, iSpace){
+    if(iSpace>0){
+      let name = query.slice(0,iSpace);
+      let engine = engines[name];
+      if(engine)
+        return engine+query.substring(iSpace+1);
+    }
+    return defaultSE+query;
+  }
+  function coloncommand(q){
+    document.title = q;
+  }
+  function coloncommand_render(cmd){
+    args = cmd.substring(1).split(/\s+/);
+    switch(args[0]){
+    case "autoc":
+      autoc(args);
+      return;
+    case "b":
+      bookmark(args);
+      return;
+    case "bml":
+      bml(args);
+      return;
+    case "pdf":
+      savePdf(args);
+      return;
+    }
+
+  }
+  function autoc(args){
+    if(2!=args.length) return;
+    appendAutoc_rec(path.join(__dirname,args[1]+".rec"),' ');
+  }
+  function bml(args){
+    if(2!=args.length) return;
+    let filename = args[1]+".js";
+    fs.readFile(path.join(__dirname,filename), 'utf8', (err,str) => {
+      if (err) return;
+      tabs.children[iTab].executeJavaScript(str,false);
+    });
+  }
+  function savePdf(args){
+    let filename = "ebrowser.pdf";
+    let options = {};
+    if(1<args.length){
+      let c0 = args[1].charCodeAt(0);
+      let i = 1;
+      if(123!=c0){//not '{' options then it is filename
+        filename = args[1] + ".pdf";
+        i = 2;
+      }
+      if(i==args.length-1){//:Pdf [filename] {...}
+        if(2==args[i].length){// '{}'
+          let width = document.body.clientWidth/96;
+          tabs.children[iTab].executeJavaScript("document.documentElement.scrollHeight",
+          false).then((h)=>{
+            let opts = {
+              printBackground:true,
+              pageSize:{width:width,height:h/96}};
+            print2PDF(filename,opts);
+          });
+          return;
+        }else{
+          try {
+            options = JSON.parse(args[i]);
+          }catch(e){};
+        }
+      }
+    }
+    print2PDF(filename,options);
+  }
+
+  function handleQuery(q){
+    if(q.length>1){
+      let c0=q.charCodeAt(0);
+      switch(c0){
+      case 47://"/"
+        tabs.children[iTab].findInPage(q.substring(1));
+        return;
+      case 58://':'
+        let c1=q.charCodeAt(1);
+        if(c1>98 && 112!=c1)
+          coloncommand(q);
+        else
+          coloncommand_render(q);
+        return;
+      }
+    }
+    var url=q;
+    do {
+      if(q.length>7){
+        let c6 = q.charCodeAt(6);
+        if(47==c6){// '/'
+          let c5 = q.charCodeAt(5);
+          if(47==c5 && 58==q.charCodeAt(4))//http/file urls
+            break;
+          if(58==c5 && 47==q.charCodeAt(7))//https://
+            break;
+        }else if(q.startsWith("javascript:")){
+          tabs.children[iTab].executeJavaScript(q.substring(11),false);
+          return;
+        }
+      }
+      let iS = q.indexOf(' ');
+      if(iS<0){
+        if(q.length>5){
+          if(58==q.charCodeAt(5))
+            break;
+        }
+        if(q.indexOf('.')>0){
+          url = 'https://'+q;
+          break;
+        }
+      }
+      url = bang(q, iS);
+    }while(false);
+    tabs.children[iTab].src=url;
+  }
+</script>
+</head>
+<body>
+  <form action="javascript:handleQuery(getQ())">
+  <datalist id="autoc"></datalist>
+  <input type="text" list="autoc" name=q style="width:100%" autofocus></form>
+  <div class="webviews">
+  <webview class="curWV" allowpopups></webview>
+  </div>
+  <script>
+    tabs = document.body.children[1];
+    document.addEventListener('keydown', keyPress);
+  </script>
+</body></html>

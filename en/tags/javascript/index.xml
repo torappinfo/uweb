@@ -6,7 +6,7 @@
     <description>Recent content in Javascript on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 08:12:27 +0800</lastBuildDate>
     <atom:link href="/en/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JS/CSS/HTML/preprocessing for domains</title>
@@ -20,7 +20,7 @@
       <link>/en/bookmarklet/</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/bookmarklet/</guid>
-      <description>With a href=&amp;quot;../index.html#&amp;quot;&amp;gt;uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.&#xA;List all script urls&#xA;User agent&#xA;Cookie&#xA;Source code&#xA;Last modified date&#xA;Eruda: mobile console&#xA;QR code generation&#xA;Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;&#xA;Shows all form elements&#xA;Enables all form elements&#xA;Toggle checkboxes&#xA;Check all checkboxes&#xA;Uncheck all checkboxes&#xA;Toggle all checkboxes in forms&#xA;Enable selection</description>
+      <description>With uweb browser, long pressing any bookmarklet link, click &amp;quot;Open in new tab&amp;quot;, the bookmarklet will be run on the last other tab.&#xA;List all script urls&#xA;User agent&#xA;Cookie&#xA;Source code&#xA;Last modified date&#xA;Eruda: mobile console&#xA;QR code generation&#xA;Use &amp;quot;GET&amp;quot; method for &amp;quot;POST&amp;quot;&#xA;Shows all form elements&#xA;Enables all form elements&#xA;Toggle checkboxes&#xA;Check all checkboxes&#xA;Uncheck all checkboxes&#xA;Toggle all checkboxes in forms&#xA;Enable selection&#xA;Restore context menu</description>
     </item>
     <item>
       <title>Long pressed link menu</title>
