@@ -1,3 +1,5 @@
+/* Copyright (C) 2024 Richard Hao Cao
+ */
 const {
   app, BrowserWindow, Menu, shell, clipboard,
   session, protocol, net} = require('electron')

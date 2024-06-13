@@ -8,7 +8,7 @@ Ebrowser is the minimal browser with the philosophy of [Android uweb browser](ht
 
 Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.
 
-#### Install (for Windows, macOS and Linux)
+#### Install (for Windows, MacOS and Linux)
 Install ebrowser with nodejs installed
 
     npm install ebrowser
@@ -31,14 +31,11 @@ Run ebrowser
 - ESC: remove focus. similar to vi normal mode.
 - F5: page refresh/reload
 - F12: devtools
-- ":" for address bar commands
-- "/" for find-in-page with address bar
-- "!" for ":!" address bar commands
 
 #### Address bar commands
 - "/" for find-in-page
 - ":" for address bar commands
-  - autoc [bookmark/history path w/o ext] : load ".rec" file for autocomplete.
+  - ac [bookmark/history path w/o ext] : load ".rec" file for autocomplete.
   - b [bookmarkfilename w/o ext] : bookmark current page in file.
   - bml [filename w/o extension]: load/execute the javascript file.
   - cert : allow invalid certificates w/o arguments, otherwise restore to default.
@@ -58,7 +55,11 @@ Run ebrowser
 
 #### Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
-The commands are defined in "mapkeys.json", which will map keys to address bar commands.
+- ":" for address bar commands
+- "/" for find-in-page with address bar
+- "!" for ":!" address bar commands
+
+The other commands are defined in "mapkeys.json", which will map keys to address bar commands.
 
 #### Configuration files
 - "config": lines of address bar commands.

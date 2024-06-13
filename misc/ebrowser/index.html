@@ -1,3 +1,6 @@
+<!--
+Copyright (C) 2024 Richard Hao Cao
+-->
 <!DOCTYPE html><html><head><meta charset="UTF-8">
 <style>
   html{
@@ -169,10 +172,14 @@
       return;
  
     }
-    if(inputE === document.activeElement) return;
+    if(inputE === document.activeElement){
+      if (9===e.keyCode){//tab completion
+      }
+      return;
+    }
     if(1!=key.length) return;
     var curMillis = Date.now();
-    if(curMillis-lastKeys_millis>500)
+    if(curMillis-lastKeys_millis>1000)
       lastKeys = null;
     lastKeys_millis = curMillis;
 
@@ -189,16 +196,16 @@
       lastKeys = null;
       return;
     }
-    if(!lastKeys) {
-      lastKeys = key;
-      return;
-    }
-    lastKeys = lastKeys + key;
+    lastKeys = !lastKeys ? key : lastKeys + key;
     let cmds = mapKeys[lastKeys];
-    if(cmds){
-      lastKeys = null;
-      for(var cmd of cmds.split("\n"))
-        handleQuery(cmd);
+    if(cmds){//try to run cmds
+      let keyLen = lastKeys.length;
+      setTimeout(()=>{
+        if(lastKeys.length != keyLen) return;
+        lastKeys = null;
+        for(var cmd of cmds.split("\n"))
+          handleQuery(cmd);
+      }, 500);
     }
   }
   function getQ(){return document.forms[0].q.value;}
@@ -217,7 +224,7 @@
   function coloncommand_render(cmd){
     args = cmd.substring(1).split(/\s+/);
     switch(args[0]){
-    case "autoc":
+    case "ac":
       autoc(args);
       return;
     case "b":

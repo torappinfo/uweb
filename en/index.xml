@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jun 2024 18:34:35 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 13:19:32 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -216,7 +216,7 @@
       <link>/en/ebrowserreadme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/ebrowserreadme/</guid>
-      <description>Ebrowser as alternative to uweb browser Ebrowser is the minimal browser with the philosophy of Android uweb browser.&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard (command line) friendly. customizable. Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.&#xA;Install (for Windows, macOS and Linux) Install ebrowser with nodejs installed</description>
+      <description>Ebrowser as alternative to uweb browser Ebrowser is the minimal browser with the philosophy of Android uweb browser.&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard (command line) friendly. customizable. Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.&#xA;Install (for Windows, MacOS and Linux) Install ebrowser with nodejs installed</description>
     </item>
     <item>
       <title></title>

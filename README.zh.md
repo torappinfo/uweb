@@ -10,7 +10,7 @@
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
 (镜像: [atomgit](https://uweb.atomgit.net/uweb/zh/) [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [4everland](https://uweb.4everland.app/zh/) [cyclic](https://muweb.cyclic.app/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [fleek](https://uweb.on-fleek.app/zh/) [pages](https://muweb.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [zeabur](https://uweb.zeabur.app/zh/) [vercel](https://uweb.vercel.app/zh/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像...</a>)
 
-- <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、翻译、百科等</a></span>
+- <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、百科等</a></span>
 - AI聊天可作为搜索引擎来使用。
 - 完善的下载支持，部分网站下载其它浏览器无法成功。
 - 微：不到250K。
