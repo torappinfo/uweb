@@ -43,12 +43,14 @@
   <ul class="tags">
     
   </ul>
-  <h3 id="ebrowserhttpsgithubcomtorappinfoebrowser-as-alternative-to-uweb-browserhttpsgithubcomtorappinfouweb"><a href="https://github.com/torappinfo/ebrowser">Ebrowser</a> as alternative to <a href="https://github.com/torappinfo/uweb">uweb browser</a></h3>
-<p>Ebrowser is the minimal browser with the philosophy of <a href="https://gitlab.com/jamesfengcao/uweb">Android uweb browser</a>.</p>
+  <h3 id="ebrowserhttpsgithubcomtorappinfoebrowser-keyboard-friendly-minimal-suckless-web-browser"><a href="https://github.com/torappinfo/ebrowser">Ebrowser</a>: keyboard-friendly minimal suckless web browser</h3>
+<p>Ebrowser is designed with the philosophy of <a href="https://github.com/torappinfo/uweb">Android uweb browser</a> (<a href="https://gitlab.com/jamesfengcao/uweb">gitlab</a>).</p>
 <ul>
 <li>lightweight (less than 20k bytes) without bundled electron.</li>
 <li>much less memory footprint than edge/chrome browser and highly performant.</li>
-<li>keyboard (command line) friendly.</li>
+<li>keyboard friendly with vim-style keymaps and command line support in address bar.</li>
+<li>global redirection to bypass censorship.</li>
+<li>user scripts at will. Ex. pressing &quot;tr&quot; to translate the page (need mapkeys.json config).</li>
 <li>customizable.</li>
 </ul>
 <p>Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.</p>
@@ -61,9 +63,11 @@
 </code></pre>
 <h4 id="key-shortcuts">Key shortcuts</h4>
 <ul>
+<li>CTRL+C: stop loading</li>
 <li>CTRL+G: address bar to show page url</li>
 <li>CTRL+L: focus to address bar</li>
 <li>CTRL+T: new Tab</li>
+<li>CTRL+SHIFT+T: restore closed Tab</li>
 <li>CTRL+TAB: switch to next tab</li>
 <li>CTRL+SHIFT+TAB: switch to previous tab</li>
 <li>CTRL+W: close Tab</li>
@@ -89,9 +93,11 @@
 <li>cache : clear cache</li>
 <li>dns : clear dns cache</li>
 <li>storage: clear site storage data.</li>
+<li>{<a href="https://www.electronjs.org/docs/latest/api/session#sescleardataoptions">options</a>}</li>
 </ul>
 </li>
 <li>ext [extension path]: load unpacked Chrome extension.</li>
+<li>nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.</li>
 <li>nh/uh for No/Use url history.</li>
 <li>nj/uj for No/Use external Javascript files.</li>
 <li>nr/ur for No/Use &quot;redirect.json&quot; for domain redirection.</li>
@@ -146,7 +152,7 @@
 </ul>
 
 </div>
-<p>Last Modified: 12 June 2024<br>
+<p>Last Modified: 15 June 2024<br>
 <br>
 <pre></pre>
 </p>

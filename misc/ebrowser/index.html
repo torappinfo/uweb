@@ -28,7 +28,8 @@ Copyright (C) 2024 Richard Hao Cao
   var tabs;
   var engines = {};
   var mapKeys = {};
-  var defaultSE = "https://www.bing.com/search?q=";
+  var closedUrls = [];
+  var defaultSE = "https://www.bing.com/search?q=%s";
   let lastKeys;
   let lastKeys_millis = 0;
 
@@ -108,6 +109,7 @@ Copyright (C) 2024 Richard Hao Cao
     let nTabs = tabs.children.length;
     if(nTabs<2) return "";//no remain tab
     let tab = tabs.children[iTab];
+    closedUrls.push(tab.getURL());
     if(document.activeElement == tab) tab.blur();
     tabs.removeChild(tab);
     nTabs--;
@@ -210,13 +212,16 @@ Copyright (C) 2024 Richard Hao Cao
   }
   function getQ(){return document.forms[0].q.value;}
   function bang(query, iSpace){
+    let se=defaultSE;
     if(iSpace>0){
       let name = query.slice(0,iSpace);
       let engine = engines[name];
-      if(engine)
-        return engine+query.substring(iSpace+1);
+      if(engine){
+        se = engine;
+        query = query.substring(iSpace+1);
+      }
     }
-    return defaultSE+query;
+    return se.replace('%s',query);
   }
   function coloncommand(q){
     document.title = q;

@@ -1,9 +1,11 @@
-### [Ebrowser](https://github.com/torappinfo/ebrowser) as alternative to [uweb browser](https://github.com/torappinfo/uweb)
-Ebrowser is the minimal browser with the philosophy of [Android uweb browser](https://gitlab.com/jamesfengcao/uweb).
+### [Ebrowser](https://github.com/torappinfo/ebrowser): keyboard-friendly minimal suckless web browser
+Ebrowser is designed with the philosophy of [Android uweb browser](https://github.com/torappinfo/uweb) ([gitlab](https://gitlab.com/jamesfengcao/uweb)).
 
 - lightweight (less than 20k bytes) without bundled electron.
 - much less memory footprint than edge/chrome browser and highly performant.
-- keyboard (command line) friendly.
+- keyboard friendly with vim-style keymaps and command line support in address bar.
+- global redirection to bypass censorship.
+- user scripts at will. Ex. pressing "tr" to translate the page (need mapkeys.json config).
 - customizable.
 
 Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.
@@ -18,9 +20,11 @@ Run ebrowser
     electron ~/node_modules/ebrowser
 
 #### Key shortcuts
+- CTRL+C: stop loading
 - CTRL+G: address bar to show page url
 - CTRL+L: focus to address bar
 - CTRL+T: new Tab
+- CTRL+SHIFT+T: restore closed Tab
 - CTRL+TAB: switch to next tab
 - CTRL+SHIFT+TAB: switch to previous tab
 - CTRL+W: close Tab
@@ -43,7 +47,9 @@ Run ebrowser
     - cache : clear cache
     - dns : clear dns cache
     - storage: clear site storage data.
+    - {[options](https://www.electronjs.org/docs/latest/api/session#sescleardataoptions)}
   - ext [extension path]: load unpacked Chrome extension.
+  - nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.
   - nh/uh for No/Use url history.
   - nj/uj for No/Use external Javascript files.
   - nr/ur for No/Use "redirect.json" for domain redirection.
@@ -81,4 +87,4 @@ The other commands are defined in "mapkeys.json", which will map keys to address
   OR
   
   - Adjust window width and use addressbar command line ":Pdf {}" to export vector graphics.
-  - Use imageMagick to convert to any other vector graphics format. 
+  - Use imageMagick to convert to any other vector graphics format.

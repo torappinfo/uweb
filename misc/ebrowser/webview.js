@@ -2,7 +2,8 @@
  */
 const {
   app, BrowserWindow, Menu, shell, clipboard,
-  session, protocol, net} = require('electron')
+  session, protocol, net, dialog
+} = require('electron')
 let win;
 
 if(!app.requestSingleInstanceLock())
@@ -10,7 +11,6 @@ if(!app.requestSingleInstanceLock())
 else {
   app.on('ready', createWindow);
   app.on('second-instance', (event, args, cwd) => {
-    // 当已经有运行的实例时，我们激活窗口而不是创建新的窗口
     if (win) {
       if (win.isMinimized()) {
         win.restore()
@@ -34,6 +34,7 @@ var redirects;
 var bRedirect = true;
 var bJS = true;
 var bHistory = false;
+var bForwardCookie = false;
 var proxies = {};
 var proxy;
 var useragents = {};
@@ -47,14 +48,14 @@ fs.readFile(path.join(__dirname,'redirect.json'), 'utf8', (err, jsonString) => {
   if (err) return;
   try {
     redirects = JSON.parse(jsonString);
-  } catch (e){}
+  } catch (e){console.log(e)}
 });
 
 async function createWindow () {
   let json = await fs.promises.readFile(path.join(__dirname,'uas.json'), 'utf8');
   try {
     useragents = JSON.parse(json);
-  } catch (e){}
+  } catch (e){console.log(e)}
   
   await (async ()=>{
     try{
@@ -65,7 +66,7 @@ async function createWindow () {
       for await (const line of readInterface) {
         addrCommand(line);
       }
-    }catch(e){return;}
+    }catch(e){console.log(e);}
   })();
 
   win = new BrowserWindow(
@@ -85,7 +86,7 @@ async function createWindow () {
     if (err) return;
     try {
       gredirects = JSON.parse(jsonString);
-    } catch (e){}
+    } catch (e){console.log(e)}
   });
 
   fs.readFile(path.join(__dirname,'proxy.json'), 'utf8', (err, jsonString) => {
@@ -97,7 +98,7 @@ async function createWindow () {
         }
         return val;
       });
-    } catch (e){}
+    } catch (e){console.log(e)}
   });
 
   cmdlineProcess(process.argv, process.cwd(), 0);
@@ -108,7 +109,6 @@ async function createWindow () {
   });
 
   win.webContents.on('console-message',cbConsoleMsg);
-  //protocol.handle("https",cbScheme_https);
 }
 
 app.on('window-all-closed', function () {
@@ -154,6 +154,7 @@ function addrCommand(cmd){
       return;
     case "clear":
       if(args.length==1){
+        session.defaultSession.clearData();
         return;
       }
       switch(args[1]){
@@ -166,10 +167,26 @@ function addrCommand(cmd){
       case "storage":
         session.defaultSession.clearStorageData();
         return;
+      default:
+        try {
+          let opts = JSON.parse(args.slice(1).join(""));
+          session.defaultSession.clearData(opts);
+        }catch(e){console.log(e)}
       }
       return;
     case "ext":
       session.defaultSession.loadExtension(args[1]);
+      return;
+    case "nc":
+      bForwardCookie = false;
+      msgbox_info("Cookie forwarding disabled");
+      return;
+    case "uc":
+      if(bForwardCookie) {
+        msgbox_info("Cookie forwarding enabled for global redirection");
+        return;
+      }
+      forwardCookie();
       return;
     case "nh":
       bHistory = false; return;
@@ -230,37 +247,7 @@ function interceptRequest(details, callback){
     return;
   }
   do {
-    if(gredirect){
-      if(!details.url.startsWith("http")) break;
-      if(!details.url.startsWith(gredirect)){
-        if(details.resourceType === 'mainFrame'){
-          let wc = details.webContents;
-          let url = details.url;
-          if(wc){
-            let nUrl = gredirect+url;
-            fetch(nUrl).then(res=>{
-              if(res.ok) return res.arrayBuffer();
-              throw new Error(`Err: ${res.status} - ${res.statusText}`);
-            }).then(aBuf=>{
-              const u8 = new Uint8Array(aBuf);
-              const b64 = Buffer.from (u8).toString('base64');
-              const dataUrl = `data:text/html;base64,${b64}`;
-              wc.loadURL(dataUrl,{baseURLForDataURL:url});
-            }).catch(e=>{
-              console.log(nUrl+" err:",e);
-            });
-            callback({ cancel: true });
-            return;
-          }
-        }
-        let newUrl = gredirect + details.url;
-        callback({ cancel: false, redirectURL: newUrl });
-        return;
-      }
-      break;
-    }
-
-    if(!bRedirect ||(details.resourceType !== 'mainFrame' &&
+    if(gredirect || !bRedirect ||(details.resourceType !== 'mainFrame' &&
                      details.resourceType !== 'subFrame')) break;
     let oURL = new URL(details.url);
     let domain = oURL.hostname;
@@ -338,59 +325,71 @@ function topMenu(){
     {
       label: '',
       submenu: [
-        { label: '', accelerator: 'Ctrl+G', click: ()=>{
+        { label: 'Stop', accelerator: 'Ctrl+C', click: ()=>{
+          let js="tabs.children[iTab].stop()"
+          win.webContents.executeJavaScript(js,false)
+        }},
+        { label: 'getURL', accelerator: 'Ctrl+G', click: ()=>{
           let js="{let q=document.forms[0].q;q.focus();q.value=tabs.children[iTab].src}"
           win.webContents.executeJavaScript(js,false)
         }},
-        { label: '', accelerator: 'Ctrl+L', click:()=>{
+        { label: 'Select', accelerator: 'Ctrl+L', click:()=>{
           win.webContents.executeJavaScript("document.forms[0].q.select()",false);
         }},
-        { label: '', accelerator: 'Ctrl+T', click:()=>{
+        { label: 'New Tab', accelerator: 'Ctrl+T', click:()=>{
           let js = "newTab();document.forms[0].q.select();switchTab(tabs.children.length-1)";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: '', accelerator: 'Ctrl+R', click: ()=>{
-          gredirect=null;
+        { label: 'Restore Tab', accelerator: 'Ctrl+Shift+T', click:()=>{
+          let js = "{let u=closedUrls.pop();if(u){newTab();switchTab(tabs.children.length-1);tabs.children[iTab].src=u}}";
+          win.webContents.executeJavaScript(js,false);
         }},
-        { label: '', accelerator: 'Ctrl+Shift+R', click: ()=>{
+        { label: 'No redirect', accelerator: 'Ctrl+R', click: ()=>{
+          if(gredirect){
+            gredirect=null;
+            unregisterHandler();
+          }
+        }},
+        { label: 'Redirect', accelerator: 'Ctrl+Shift+R', click: ()=>{
           if(0==gredirects.length) return;
+          if(!gredirect) registerHandler();
           gredirect=gredirects[0];
         }},
-        { label: '', accelerator: 'Ctrl+W', click: ()=>{
+        { label: 'Close', accelerator: 'Ctrl+W', click: ()=>{
           win.webContents.executeJavaScript("tabClose()",false).then((r)=>{
             if(""===r) win.close();
             else win.setTitle(r);
           });
         }},
-        { label: '', accelerator: 'Ctrl+Tab', click: ()=>{
+        { label: 'Next Tab', accelerator: 'Ctrl+Tab', click: ()=>{
           let js="tabInc(1);getWinTitle()";
           win.webContents.executeJavaScript(js,false).then((r)=>{
             win.setTitle(r);
           });
         }},
-        { label: '', accelerator: 'Ctrl+Shift+Tab', click: ()=>{
+        { label: 'Previous Tab', accelerator: 'Ctrl+Shift+Tab', click: ()=>{
           let js="tabDec(-1);getWinTitle()";
           win.webContents.executeJavaScript(js,false).then((r)=>{
             win.setTitle(r);
           });
         }},
-        { label: '', accelerator: 'Ctrl+Left', click: ()=>{
+        { label: 'Go backward', accelerator: 'Ctrl+Left', click: ()=>{
           let js="tabs.children[iTab].goBack()";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: '', accelerator: 'Ctrl+Right', click: ()=>{
+        { label: 'Go forward', accelerator: 'Ctrl+Right', click: ()=>{
           let js="tabs.children[iTab].goForward()";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: '', accelerator: 'Esc', click: ()=>{
+        { label: 'No focus', accelerator: 'Esc', click: ()=>{
           let js = `{let e=document.activeElement;
 if(e)e.blur();try{tabs.children[iTab].stopFindInPage('clearSelection')}catch(er){}}`;
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: '', accelerator: 'F5', click: ()=>{
+        { label: 'Reload', accelerator: 'F5', click: ()=>{
           win.webContents.executeJavaScript("tabs.children[iTab].reload()",false);
         }},
-        { label: '', accelerator: 'F12', click: ()=>{
+        { label: 'Devtools', accelerator: 'F12', click: ()=>{
           let js = "try{tabs.children[iTab].openDevTools()}catch(e){console.log(e)}";
           win.webContents.executeJavaScript(js,false);
         }},
@@ -419,3 +418,57 @@ function cmdlineProcess(argv,cwd,extra){
     win.setTitle(url);
   }
 }
+
+async function cbScheme_redir(req){
+  if(!gredirect) return null;
+  let oUrl = req.url;
+  let newurl = gredirect+oUrl;
+  let options = {
+    body:       req.body,
+    headers:    req.headers,
+    method:     req.method,
+    referer:    req.referer,
+    duplex: "half",
+    bypassCustomProtocolHandlers: true
+  };
+  if(bForwardCookie){
+    let cookies = await session.defaultSession.cookies.get({url: oUrl});
+    let cookieS = cookies.map (cookie => cookie.name  + '=' + cookie.value ).join(';');
+    options.headers['Cookie'] = cookieS;
+  }
+
+  return fetch(newurl, options);
+}
+
+function registerHandler(){
+  protocol.handle("http",cbScheme_redir);
+  protocol.handle("https",cbScheme_redir);
+  protocol.handle("ws",cbScheme_redir);
+  protocol.handle("wss",cbScheme_redir);
+}
+function unregisterHandler(){
+  protocol.unhandle("http",cbScheme_redir);
+  protocol.unhandle("https",cbScheme_redir);
+  protocol.unhandle("ws",cbScheme_redir);
+  protocol.unhandle("wss",cbScheme_redir);
+}
+
+function forwardCookie(){
+  const choice = dialog.showMessageBoxSync(null,  {
+    type: 'warning',
+    title: 'Confirm cookie forwarding with global redirection',
+    message: 'Cookies are used to access your account. Forwarding cookies is vulnerable to global redirection server, proceed to enable cookie forwarding with global redirection?',
+    buttons: ['No','Yes']
+  })
+  if(1===choice) bForwardCookie=true;
+}
+function msgbox_info(msg){
+  dialog.showMessageBoxSync(null,  {
+    type: 'info',
+    title: msg,
+    message: msg,
+    buttons: ['OK']
+  })
+}
+
+
