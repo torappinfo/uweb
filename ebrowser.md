@@ -30,10 +30,9 @@ Pressing "Alt" to show the menu bar and choose "Check for updates" under "Help".
 
 Type ":update" in the address bar and press "enter" key to update.
 
-Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser". All the mirrors listed in [uweb browser](https://uwebzh.netlify.app/en/readme/index.html) could be used. The update url needs to be changed accordingly to to be the folder "misc/ebrowser" under the mirror site root url.
+Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser". All the mirrors listed on [uweb browser](https://uwebzh.netlify.app/en/readme/index.html) could be used. The update url needs to be changed accordingly to be the folder "misc/ebrowser" under the mirror site root url.
 
 #### Key shortcuts
-- F1: Help
 - CTRL+C: stop loading
 - CTRL+G: address bar to show page url
 - CTRL+L: focus to address bar
@@ -47,6 +46,7 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
 - CTRL+SHIFT+R: enable global redirection ("gredirect.json")
 - CTRL+R: disable global redirection
 - ESC: remove focus. similar to vi normal mode.
+- F1: Help
 - F5: page refresh/reload
 - F12: devtools
 
