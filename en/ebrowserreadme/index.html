@@ -102,6 +102,7 @@ npm install ebrowser
 </ul>
 </li>
 <li>ext [extension path]: load unpacked Chrome extension.</li>
+<li>gr [gredirect index]: global redirection with corresponding index. Use the first global redirection url if no argument. Disable global redirection with any index out of the range.</li>
 <li>nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.</li>
 <li>nh/uh for No/Use url history.</li>
 <li>nj/uj for No/Use external Javascript files.</li>
@@ -109,6 +110,7 @@ npm install ebrowser
 <li>np : no proxy.</li>
 <li>up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. &quot;:up&quot; command also disables global and domain redirections, which are not restored by &quot;:np&quot;.</li>
 <li>ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.</li>
+<li>update [updateurl] : update the app. updateurl is optional.</li>
 <li>pdf [filename w/o extension] {<a href="https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions">options</a>} : print to PDF file. All arguments are optional; empty option &quot;{}&quot; to capture long screenshot as vector graphics.</li>
 </ul>
 </li>
@@ -120,7 +122,7 @@ npm install ebrowser
 <ul>
 <li>&quot;:&quot; for address bar commands</li>
 <li>&quot;/&quot; for find-in-page with address bar</li>
-<li>&quot;!&quot; for &quot;:!&quot; address bar commands</li>
+<li>&quot;!&quot; for &quot;!&quot; address bar commands</li>
 </ul>
 <p>The other commands are defined in &quot;mapkeys.json&quot;, which will map keys to address bar commands.</p>
 <h4 id="configuration-files">Configuration files</h4>

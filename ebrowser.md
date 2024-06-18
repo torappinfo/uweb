@@ -56,6 +56,7 @@ Later on, you can run "npm install electron" to update electron/chromium or "npm
     - storage: clear site storage data.
     - {[options](https://www.electronjs.org/docs/latest/api/session#sescleardataoptions)}
   - ext [extension path]: load unpacked Chrome extension.
+  - gr [gredirect index]: global redirection with corresponding index. Use the first global redirection url if no argument. Disable global redirection with any index out of the range.
   - nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.
   - nh/uh for No/Use url history.
   - nj/uj for No/Use external Javascript files.
@@ -63,15 +64,16 @@ Later on, you can run "npm install electron" to update electron/chromium or "npm
   - np : no proxy.
   - up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. ":up" command also disables global and domain redirections, which are not restored by ":np".
   - ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.
+  - update [updateurl] : update the app. updateurl is optional.
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.
-- "!" address bar commands
+- "!" address bar commands  
   "!xx ..." evaluates "xx.js" with the whole address bar text as arguments[0].
   
 #### Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
 - ":" for address bar commands
 - "/" for find-in-page with address bar
-- "!" for ":!" address bar commands
+- "!" for "!" address bar commands
 
 The other commands are defined in "mapkeys.json", which will map keys to address bar commands.
 

@@ -26,8 +26,6 @@
 [cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
-[nuaa](https://hub.nuaa.cf/torappinfo/uweb/raw/master/redirect.html#)
-[yzuu](https://hub.yzuu.cf/torappinfo/uweb/raw/master/redirect.html#)
 
 #### Mirrors (for all versions)
 <p>
