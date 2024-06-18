@@ -49,20 +49,25 @@
 <li>lightweight (less than 20k bytes) without bundled electron.</li>
 <li>much less memory footprint than edge/chrome browser and highly performant.</li>
 <li>keyboard friendly with vim-style keymaps and command line support in address bar.</li>
-<li>global redirection to bypass censorship.</li>
+<li><a href="https://uweb.surge.sh/en/redirect/index.html#">global redirection</a> to bypass censorship.</li>
 <li>user scripts at will. Ex. pressing &quot;tr&quot; to translate the page (need mapkeys.json config).</li>
 <li>customizable.</li>
 </ul>
 <p>Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.</p>
-<h4 id="install-for-windows-macos-and-linux">Install (for Windows, MacOS and Linux)</h4>
-<p>Install ebrowser with nodejs installed</p>
-<pre><code>npm install ebrowser
+<h4 id="installing-for-windows-macos-and-linux">Installing (for Windows, MacOS and Linux)</h4>
+<h5 id="install-with-prebuilt-binaries">Install with prebuilt binaries</h5>
+<p>You can find prebuilt binaries <a href="https://github.com/torappinfo/ebrowser/releases">here</a>.</p>
+<h5 id="install-with-nodejs-installed">Install with nodejs installed</h5>
+<pre><code>npm install electron
+npm install ebrowser
 </code></pre>
 <p>Run ebrowser</p>
 <pre><code>electron ~/node_modules/ebrowser
 </code></pre>
+<p>Later on, you can run &quot;npm install electron&quot; to update electron/chromium or &quot;npm install ebrowser&quot; to update ebrowser independently.</p>
 <h4 id="key-shortcuts">Key shortcuts</h4>
 <ul>
+<li>F1: Help</li>
 <li>CTRL+C: stop loading</li>
 <li>CTRL+G: address bar to show page url</li>
 <li>CTRL+L: focus to address bar</li>
@@ -101,13 +106,14 @@
 <li>nh/uh for No/Use url history.</li>
 <li>nj/uj for No/Use external Javascript files.</li>
 <li>nr/ur for No/Use &quot;redirect.json&quot; for domain redirection.</li>
-<li>np : no proxy</li>
-<li>up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName].</li>
+<li>np : no proxy.</li>
+<li>up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. &quot;:up&quot; command also disables global and domain redirections, which are not restored by &quot;:np&quot;.</li>
 <li>ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.</li>
 <li>pdf [filename w/o extension] {<a href="https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions">options</a>} : print to PDF file. All arguments are optional; empty option &quot;{}&quot; to capture long screenshot as vector graphics.</li>
 </ul>
 </li>
-<li>&quot;:!&quot; address bar commands</li>
+<li>&quot;!&quot; address bar commands<br>
+&quot;!xx ...&quot; evaluates &quot;xx.js&quot; with the whole address bar text as arguments[0].</li>
 </ul>
 <h4 id="commands-in-no-focus-mode-this-mode-is-similar-to-vi-normal-mode">Commands in no-focus mode (this mode is similar to vi Normal mode)</h4>
 <p>Pressing &quot;ESC&quot; to enter no-focus mode if not sure.</p>
@@ -150,9 +156,11 @@
 </ul>
 </li>
 </ul>
+<h4 id="license">License</h4>
+<p>You can copy or modify the code/program under the terms of the GPL3.0 or later versions.</p>
 
 </div>
-<p>Last Modified: 15 June 2024<br>
+<p>Last Modified: 18 June 2024<br>
 <br>
 <pre></pre>
 </p>

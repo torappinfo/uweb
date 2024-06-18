@@ -198,13 +198,19 @@ function addrCommand(cmd){
       bJS = true; return;
     case "np":
       session.defaultSession.setProxy ({mode:"direct"});
+      bRedirect = true;
       return;
     case "up":
       if(args.length>1)
         proxy = proxies[args[1]]; //retrieve proxy
-      if(proxy)
+      if(proxy){
+        if(gredirect){
+          gredirect=null;
+          unregisterHandler();
+        }
+        bRedirect = false;
         session.defaultSession.setProxy(proxy);
-      bRedirect = false;
+      }
       return;
     case "nr":
       bRedirect = false; return;
@@ -325,6 +331,10 @@ function topMenu(){
     {
       label: '',
       submenu: [
+        { label: 'Help', accelerator: 'F1', click: ()=>{
+          let js="tabs.children[iTab].src='file://'+__dirname+'/README.md'";
+          win.webContents.executeJavaScript(js,false)
+        }},
         { label: 'Stop', accelerator: 'Ctrl+C', click: ()=>{
           let js="tabs.children[iTab].stop()"
           win.webContents.executeJavaScript(js,false)
@@ -379,6 +389,18 @@ function topMenu(){
         }},
         { label: 'Go forward', accelerator: 'Ctrl+Right', click: ()=>{
           let js="tabs.children[iTab].goForward()";
+          win.webContents.executeJavaScript(js,false);
+        }},
+        { label: 'Zoom in', accelerator: 'Ctrl+Shift+=', click: ()=>{
+          let js="{let t=tabs.children[iTab];let s=t.getZoomFactor()*1.2;t.setZoomFactor(s)}";
+          win.webContents.executeJavaScript(js,false);
+        }},
+        { label: 'Zoom out', accelerator: 'Ctrl+-', click: ()=>{
+          let js="{let t=tabs.children[iTab];let s=t.getZoomFactor()/1.2;t.setZoomFactor(s)}";
+          win.webContents.executeJavaScript(js,false);
+        }},
+        { label: 'Default zoom', accelerator: 'Ctrl+0', click: ()=>{
+          let js="tabs.children[iTab].setZoomFactor(1)";
           win.webContents.executeJavaScript(js,false);
         }},
         { label: 'No focus', accelerator: 'Esc', click: ()=>{

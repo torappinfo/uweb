@@ -11,6 +11,7 @@ Copyright (C) 2024 Richard Hao Cao
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin-top: 1px;
   }
   div.webviews{
     display: flex;
@@ -133,7 +134,7 @@ Copyright (C) 2024 Richard Hao Cao
         let opt = document.createElement('option');
         let iS;
         if(delimit && (iS=line.lastIndexOf(delimit))>0){
-          opt.value = line.substring(iS+delimit.length);
+          opt.value = line.substring(iS+1);
           opt.textContent = line.substring(0,iS);
         }else
           opt.value = line;
@@ -187,10 +188,6 @@ Copyright (C) 2024 Richard Hao Cao
 
     switch (key) {
     case "!":
-      inputE.value = ":";
-      inputE.focus();
-      lastKeys = null;
-      return;
     case "/":
     case ":":
       inputE.value = "";
@@ -213,7 +210,7 @@ Copyright (C) 2024 Richard Hao Cao
   function getQ(){return document.forms[0].q.value;}
   function bang(query, iSpace){
     let se=defaultSE;
-    if(iSpace>0){
+    {
       let name = query.slice(0,iSpace);
       let engine = engines[name];
       if(engine){
@@ -286,11 +283,32 @@ Copyright (C) 2024 Richard Hao Cao
     }
     print2PDF(filename,options);
   }
-
+  function bangcommand(q){
+    let iS = q.indexOf(' ',1);
+    if(iS<0) iS=q.length;
+    let fname = q.substring(1,iS);
+    let fpath = path.join(__dirname,fname+'.js');
+    if (fs.existsSync(fpath)) {
+      fs.readFile(fpath, 'utf8',(err, js)=>{
+        if (err) {
+          console.log(err);
+          return;
+        }
+        const prefix = "(function(){";
+        const postfix = "})(`";
+        const end ="`)";
+        const fjs = `${prefix}${js}${postfix}${q}${end}`;
+        eval(fjs);
+      });
+    }
+  }
   function handleQuery(q){
     if(q.length>1){
       let c0=q.charCodeAt(0);
       switch(c0){
+      case 33://"!"
+        bangcommand(q);
+        return;
       case 47://"/"
         tabs.children[iTab].findInPage(q.substring(1));
         return;
@@ -305,29 +323,31 @@ Copyright (C) 2024 Richard Hao Cao
     }
     var url=q;
     do {
-      if(q.length>7){
+      if(q.length>12){
         let c6 = q.charCodeAt(6);
-        if(47==c6){// '/'
+        if(47===c6){// '/'
           let c5 = q.charCodeAt(5);
-          if(47==c5 && 58==q.charCodeAt(4))//http/file urls
+          if(47===c5 && 58===q.charCodeAt(4))//http/file urls
             break;
-          if(58==c5 && 47==q.charCodeAt(7))//https://
+          if(58===c5 && 47===q.charCodeAt(7))//https://
             break;
         }else if(q.startsWith("javascript:")){
           tabs.children[iTab].executeJavaScript(q.substring(11),false);
           return;
-        }
+        }else if(q.startsWith("view-source:")) break;
+        else if(q.startsWith("data:")) break;
       }
       let iS = q.indexOf(' ');
       if(iS<0){
-        if(q.length>5){
-          if(58==q.charCodeAt(5))
-            break;
+        if(q.length>5 && 58===q.charCodeAt(5)){// about:
+          break;
         }
         if(q.indexOf('.')>0){
           url = 'https://'+q;
           break;
         }
+        url = defaultSE.replace('%s',q);
+        break;
       }
       url = bang(q, iS);
     }while(false);

@@ -4,22 +4,29 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - lightweight (less than 20k bytes) without bundled electron.
 - much less memory footprint than edge/chrome browser and highly performant.
 - keyboard friendly with vim-style keymaps and command line support in address bar.
-- global redirection to bypass censorship.
+- [global redirection](https://uweb.surge.sh/en/redirect/index.html#) to bypass censorship.
 - user scripts at will. Ex. pressing "tr" to translate the page (need mapkeys.json config).
 - customizable.
 
 Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.
 
-#### Install (for Windows, MacOS and Linux)
-Install ebrowser with nodejs installed
+#### Installing (for Windows, MacOS and Linux)
+##### Install with prebuilt binaries
+You can find prebuilt binaries [here](https://github.com/torappinfo/ebrowser/releases).
 
+##### Install with nodejs installed
+
+    npm install electron
     npm install ebrowser
 
 Run ebrowser
 
     electron ~/node_modules/ebrowser
 
+Later on, you can run "npm install electron" to update electron/chromium or "npm install ebrowser" to update ebrowser independently.
+
 #### Key shortcuts
+- F1: Help
 - CTRL+C: stop loading
 - CTRL+G: address bar to show page url
 - CTRL+L: focus to address bar
@@ -53,12 +60,13 @@ Run ebrowser
   - nh/uh for No/Use url history.
   - nj/uj for No/Use external Javascript files.
   - nr/ur for No/Use "redirect.json" for domain redirection.
-  - np : no proxy
-  - up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName].
+  - np : no proxy.
+  - up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. ":up" command also disables global and domain redirections, which are not restored by ":np".
   - ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.
-- ":!" address bar commands
-
+- "!" address bar commands
+  "!xx ..." evaluates "xx.js" with the whole address bar text as arguments[0].
+  
 #### Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
 - ":" for address bar commands
@@ -88,3 +96,6 @@ The other commands are defined in "mapkeys.json", which will map keys to address
   
   - Adjust window width and use addressbar command line ":Pdf {}" to export vector graphics.
   - Use imageMagick to convert to any other vector graphics format.
+
+#### License
+You can copy or modify the code/program under the terms of the GPL3.0 or later versions.

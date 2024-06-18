@@ -61,7 +61,7 @@
 <p><a href="i:04Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
 <p><a href="i:04Selection to line:;let g='line';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to line:;let g='line';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
 <p><a href="i:04Selection to paragraph:;let g='paragraph';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to paragraph:;let g='paragraph';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
-<p><a href="i:04markdown:['https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js'];var d=document;var md=d.querySelector('pre').innerText;var c=new showdown.Converter({emoji:true,underline:true,});c.setFlavor('github');d.body.innerHTML=c.makeHtml(md);d.title=d.title||d.body.firstElementChild.innerText.trim();">markdown:['https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js'];var d=document;var md=d.querySelector('pre').innerText;var c=new showdown.Converter({emoji:true,underline:true,});c.setFlavor('github');d.body.innerHTML=c.makeHtml(md);d.title=d.title||d.body.firstElementChild.innerText.trim();</a></p>
+<p><a href="i:04markdown:['https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js'];var d=document;d.body.innerHTML=marked.parse(d.body.textContent);d.title=d.title||d.body.firstElementChild.innerText.trim();">markdown:['https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js'];var d=document;d.body.innerHTML=marked.parse(d.body.textContent);d.title=d.title||d.body.firstElementChild.innerText.trim();</a></p>
 <p><a href="i:04mermaid:;loadModuleJS(`import mermaid from 'https://unpkg.com/mermaid/dist/mermaid.esm.min.mjs';mermaid.initialize({startOnLoad:true});`)">mermaid:;loadModuleJS(<code>import mermaid from 'https://unpkg.com/mermaid/dist/mermaid.esm.min.mjs';mermaid.initialize({startOnLoad:true});</code>)</a></p>
 <p><a href="i:04mathjax:['https://fastly.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js']">mathjax:['https://fastly.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js']</a></p>
 <p><a href="i:04New tab to open links:;let d=document;b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)">New tab to open links:;let d=document;b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)</a></p>
@@ -76,7 +76,7 @@
 <p>All remote js (default.rjs) are allowed to execute on CSP sites. Local js files without remote resource access work fine when under the folder &quot;bookmarklet&quot;, others needs to be refered in default.rjs as http urls such as &quot;https://local/...&quot; (<a href="../html5/index.html#">html5</a> or <a href="../offlinecache/index.html#">offline cache</a>) .</p>
 
 </div>
-<p>Last Modified: 8 April 2024<br>
+<p>Last Modified: 18 June 2024<br>
 fix typos<br>
 <pre></pre>
 </p>
