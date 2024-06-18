@@ -540,7 +540,7 @@ async function updateApp(url){//url must ending with "/"
       }
       let nVer;
       {
-        let ver = process.versions;
+        let ver = app.getVersion();
         let iS = ver.lastIndexOf('.');
         nVer = parseInt(ver.substring(iS+1));
       }
