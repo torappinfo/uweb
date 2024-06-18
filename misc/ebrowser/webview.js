@@ -359,8 +359,11 @@ function onContextMenu(event, params){
 function topMenu(){
   const menuTemplate = [
     {
-      label: '',
+      label: '&Help',
       submenu: [
+        { label: 'Check for updates', click: ()=>{
+          addrCommand(":update");
+        }},
         { label: 'Help', accelerator: 'F1', click: ()=>{
           let js="tabs.children[iTab].src='file://'+__dirname+'/README.md'";
           win.webContents.executeJavaScript(js,false)
@@ -524,9 +527,7 @@ async function updateApp(url){//url must ending with "/"
     try {
       let res = await fetch(url+"package.json");
       let packageS = await res.text();
-      let nLatestVer;
-      //the last part of version string is the version number, must keep increasing
-      {
+      {//the last part of version string is the version number, must keep increasing
         let head = packageS.slice(2,40);
         let iV = head.indexOf("version");
         if(iV<0) {
@@ -536,23 +537,28 @@ async function updateApp(url){//url must ending with "/"
         iV = iV + 11;
         let iE = head.indexOf('"',iV+4);
         let iS = head.lastIndexOf('.',iE-1);
-        nLatestVer = parseInt(head.substring(iS+1,iE));
-      }
-      let nVer;
-      {
+        let nLatestVer = parseInt(head.substring(iS+1,iE));
+
         let ver = app.getVersion();
-        let iS = ver.lastIndexOf('.');
-        nVer = parseInt(ver.substring(iS+1));
+        iS = ver.lastIndexOf('.');
+        let nVer = parseInt(ver.substring(iS+1));
+        if(nVer>=nLatestVer){
+          msg = `Current version ${ver} is already up to date`;
+          break;
+        }
+        const choice = dialog.showMessageBoxSync(null,  {
+          type: 'warning',
+          title: `Update from ${url}`,
+          message: `Proceed to update from ${ver} to ${head.substring(iV,iE)}?`,
+          buttons: ['YES','NO']
+        });
+        if(1===choice) return;
       }
-      if(nVer>=nLatestVer){
-        msg = "Already up to date";
-        break;
-      }
+
       writeFile("package.json", packageS);
 
       fetch2file(url,"webview.js");
       fetch2file(url,"index.html");
-      
       msg = "Update completed";
     }catch(e){
       msg = "Fail to update"
@@ -560,7 +566,7 @@ async function updateApp(url){//url must ending with "/"
   }while(false);
   dialog.showMessageBoxSync(null,  {
     type: 'info',
-    title: msg,
+    title: `Update from ${url}`,
     message: msg,
     buttons: ['OK']
   })
