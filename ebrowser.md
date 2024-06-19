@@ -14,7 +14,7 @@ Note: Usually electron apps are heavyweight as they use browsers for simple thin
 ##### Install with prebuilt binaries
 You can find prebuilt binaries [here](https://github.com/torappinfo/ebrowser/releases).
 
-##### Install with nodejs installed
+##### Install with nodejs
 
     npm install electron
     npm install ebrowser

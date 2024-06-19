@@ -365,8 +365,7 @@ function topMenu(){
           addrCommand(":update");
         }},
         { label: 'Help', accelerator: 'F1', click: ()=>{
-          let js="tabs.children[iTab].src='file://'+__dirname+'/README.md'";
-          win.webContents.executeJavaScript(js,false)
+          help();
         }},
         { label: 'Stop', accelerator: 'Ctrl+C', click: ()=>{
           let js="tabs.children[iTab].stop()"
@@ -534,7 +533,7 @@ async function updateApp(url){//url must ending with "/"
           msg = "remote package.json corrupted"
           break;
         }
-        iV = iV + 11;
+        iV = iV + 10;
         let iE = head.indexOf('"',iV+4);
         let iS = head.lastIndexOf('.',iE-1);
         let nLatestVer = parseInt(head.substring(iS+1,iE));
@@ -586,4 +585,20 @@ async function writeFile(filename, str){
       if(e1) throw "Fail to rename";
     });
   });
+}
+function help(){
+  const readme = "README.md";
+  const htmlFN = path.join(__dirname,readme+".html");
+  if(!fs.existsSync(htmlFN)){
+    const readmeP = path.join(__dirname,readme);
+    try {
+      fs.copyFileSync(readmeP, htmlFN);
+      const postscript ="<script src='https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js'></script><script>var d=document;var b=d.body;var t=b.textContent;t=t.slice(0,t.length-253);b.innerHTML=marked.parse(t);d.title=d.title||b.firstElementChild.innerText.trim();</script>";
+      fs.appendFileSync(htmlFN,postscript);
+    }catch(e){
+      htmlFN = readmeP;
+    }
+  }
+  let js=`tabs.children[iTab].src="file://${htmlFN}"`;
+  win.webContents.executeJavaScript(js,false)
 }
