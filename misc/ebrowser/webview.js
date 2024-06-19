@@ -53,8 +53,8 @@ fs.readFile(path.join(__dirname,'redirect.json'), 'utf8', (err, jsonString) => {
 });
 
 async function createWindow () {
-  let json = await fs.promises.readFile(path.join(__dirname,'uas.json'), 'utf8');
   try {
+    let json = await fs.promises.readFile(path.join(__dirname,'uas.json'), 'utf8');
     useragents = JSON.parse(json);
   } catch (e){console.log(e)}
   
