@@ -359,6 +359,14 @@ function onContextMenu(event, params){
 function topMenu(){
   const menuTemplate = [
     {
+      label: '&Edit',
+      submenu: [
+        { label: 'Config folder', click: ()=>{
+          shell.openPath(__dirname);
+        }},
+      ]
+    },
+    {
       label: '&Help',
       submenu: [
         { label: 'Check for updates', click: ()=>{
