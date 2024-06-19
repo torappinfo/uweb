@@ -1,0 +1,21 @@
+{
+  "b":"https://www.bing.com/search?q=%s",
+  "bdic":"http://cn.bing.com/dict/search?q=%s",
+  "ms":"https://metaso.cn?q=%s",
+  "gc":"https://gitcode.com/aisearch?q=%s",
+  "ta":"https://thinkany.so/search?q=%s",
+  "ks":"https://kaisouai.com?q=%s",
+  "exa":"https://exa.ai/search?c=all&q=%s",
+  "andi":"https://andisearch.com/?q=%s",
+  "ph":"https://phind-ai.com/search?q=%s",
+  "gf":"https://greasyfork.org/en/scripts?filter_locale=0&sort=updated&q=%s",
+  "dev":"https://devv.ai/search?agentMode=false&q=%s",
+  "you":"https://you.com/search?tbm=youchat&q=%s",
+  "p":"https://www.perplexity.ai/?q=%s",
+  "brave":"https://search.brave.com/search?q=%s",
+  "g":"https://google.com/search?q=%s",
+  "git":"https://github.com/search?type=Repositories&q=%s",
+  "gt":"https://kkgithub.com/search?type=Repositories&q=%s",
+  "360":"https://so.360.com/s?q=%s",
+  "bd":"https://m.baidu.com/s?wd=%s"
+}

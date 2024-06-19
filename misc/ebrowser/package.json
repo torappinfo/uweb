@@ -1,7 +1,13 @@
-{"version":"1.0.27",
+{"version":"1.0.28",
   "name": "ebrowser",
   "description": "The keyboard-friendly minimal suckless web browser",
   "main": "webview.js",
+  "files": [
+    "webview.js",
+    "index.html",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "release": "electron-builder"
   },
@@ -16,12 +22,6 @@
     "appId": "torapp.eweb",
     "publish": "github",
     "asar": false,
-    "files": [
-      "webview.js",
-      "index.html",
-      "package.json",
-      "README.md"
-    ],
     "directories": {
       "output": "release"
     },

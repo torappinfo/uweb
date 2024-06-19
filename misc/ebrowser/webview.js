@@ -24,6 +24,7 @@ else {
 }
 topMenu();
 
+const repositoryurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
 const fs = require('fs');
 const readline = require('readline');
 const path = require('path')
@@ -188,6 +189,9 @@ function addrCommand(cmd){
       else
         gredirect_disable();
       return;
+    case "js"://exetute js
+      eval(cmd.slice(4));
+      return;
     case "nc":
       bForwardCookie = false;
       msgbox_info("Cookie forwarding disabled");
@@ -232,7 +236,7 @@ function addrCommand(cmd){
     case "update":
       let updateurl;
       if(1==args.length)
-        updateurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
+        updateurl = repositoryurl;
       else {
         updateurl = args[1];
         if(!updateurl.endsWith("/")) updateurl = updateurl +"/";
@@ -579,21 +583,24 @@ async function updateApp(url){//url must ending with "/"
   })
 }
 
-async function fetch2file(urlFolder, filename){
+async function fetch2file(urlFolder, filename, bOverwritten=true){
+  let pathname=path.join(__dirname,filename);
+  if(!bOverwritten && fs.existsSync(pathname)) return;
   let res = await fetch(urlFolder+filename);
   let str =  await res.text();
-  writeFile(filename, str);
+  writeFile(pathname, str);
 }
 
 async function writeFile(filename, str){
-  let pathname=path.join(__dirname,filename+".new");
+  let pathname=filename+".new";
   fs.writeFile(pathname, str, (err) => {
     if(err) throw "Fail to write";
-    fs.rename(pathname,path.join(__dirname,filename),(e1)=>{
+    fs.rename(pathname,filename,(e1)=>{
       if(e1) throw "Fail to rename";
     });
   });
 }
+
 function help(){
   const readme = "README.md";
   const htmlFN = path.join(__dirname,readme+".html");
