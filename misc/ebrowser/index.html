@@ -181,6 +181,9 @@ You should have received a copy of the GNU General Public License along with thi
     tabs.children[iTab].classList.add('curWV');
     return getWinTitle();
   }
+  function tabJS(js){
+    tabs.children[iTab].executeJavaScript(js,false);
+  }
   function getWinTitle(){
     let t=tabs.children[iTab];
     let title = (iTab+1) + '/' + tabs.children.length;
@@ -210,10 +213,10 @@ You should have received a copy of the GNU General Public License along with thi
     if(e.ctrlKey){
       switch(key){
       case "Home":
-        tabs.children[iTab].src = "javascript:window.scrollTo(0,0)";
+        tabJS("window.scrollTo(0,0)");
         return;
       case "End":
-        tabs.children[iTab].src="javascript:window.scrollTo(0,document.body.scrollHeight)"
+        tabJS("window.scrollTo(0,document.body.scrollHeight)");
         return;
 
       }
@@ -245,7 +248,7 @@ You should have received a copy of the GNU General Public License along with thi
       break SCROLL;
     }
     let js = `javascript:window.scrollBy(0,${h})`;
-    tabs.children[iTab].src = js;
+    tabJS(js);
     return;
     }while(false);
 
