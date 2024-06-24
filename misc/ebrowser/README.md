@@ -55,6 +55,7 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
 - ":" for address bar commands
   - ac [bookmark/history path w/o ext] : load ".rec" file for autocomplete.
   - b [bookmarkfilename w/o ext] : bookmark current page in file.
+  - bjs : Browser-level JavaScript execution.
   - bml [filename w/o extension]: load/execute the javascript file.
   - cert : allow invalid certificates w/o arguments, otherwise restore to default.
   - clear : the arguments could be
@@ -66,8 +67,6 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
   - gr [gredirect index]: global redirection with corresponding index. Use the first global redirection url if no argument. Disable global redirection with any index out of the range.
   - js [js code] : execute JS code at OS level. Note: "javascript:..." is special url and thus works in the current web page, while ":js ..." commands can do any OS operations. 
   - nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.
-  - nh/uh for No/Use url history.
-  - nj/uj for No/Use external Javascript files.
   - nr/ur for No/Use "redirect.json" for domain redirection.
   - np : no proxy.
   - up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. ":up" command also disables global and domain redirections, which are not restored by ":np".
@@ -97,8 +96,17 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 
 #### Javascript at three levels
 - Web page: urls like "javascript:" or bookmarklet command ":bml" run in web page.
-- Browser (or renderer process) : "!xx" evaluates "xx.js", which could manipulate address bar etc.
+- Browser (or renderer process) :
+  - ":bjs" to execute the following js code at browser level.
+  - "!xx" evaluates "xx.js", which could manipulate address bar etc.
 - OS level (or main process) : ":js" to execute the following js code with all OS APIs available.
+
+##### examples for ":js"/":bjs" commands
+
+    :js bJS=true //allow external Javascript files for web pages
+    :js bJS=false //disallow external Javascript files for web pages
+    :bjs bHistory=true //to record url history
+    :bjs bQueryHistory=true //to record query/command history
 
 #### New usages
 - Vector designing with web tech to replace Adobe Illustrator/Inkscape.

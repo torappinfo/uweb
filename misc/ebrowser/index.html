@@ -49,6 +49,7 @@ You should have received a copy of the GNU General Public License along with thi
   }
   .autocomplete-items div {
     cursor: pointer;
+    background-color: #fff;
   }
   .autocomplete-items div:hover {
     background-color: #e9e9e9;
@@ -65,8 +66,13 @@ You should have received a copy of the GNU General Public License along with thi
   var closedUrls = [];
   var autocStrArray = [];
   var defaultSE = "https://www.bing.com/search?q=%s";
+  var historyFile = path.join(__dirname,'history.rec');
+  var bHistory = false;
   var bQueryHistory = false;
   var autocMode = 0; //0 for substring, 1 for startsWith
+  const JSPREFIX_LOAD = "(async ()=>{let d=document;async function _loadJs(u){var a=d.createElement('script');a.type='text/javascript';a.async=false;a.src=u;d.body.appendChild(a);await new Promise(resolve=>a.onload=resolve)}";
+  const BML_md = JSPREFIX_LOAD + "await _loadJs('https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js');let b=d.body;b.innerHTML=marked.parse(b.textContent)})()";
+
   let lastKeys;
   let lastKeys_millis = 0;
 
@@ -78,7 +84,10 @@ You should have received a copy of the GNU General Public License along with thi
     initSearchEngines(jsonString,false);
   });
   fs.readFile(path.join(__dirname,'mapkeys.json'), 'utf8', (err, jsonStr) => {
-    if (err) return;
+    if (err) {
+      coloncommand(":js fetch2file(repositoryurl,'mapkeys.json')");
+      return;
+    }
     try {
       mapKeys = JSON.parse(jsonStr);
     }catch(e){}
@@ -126,9 +135,24 @@ You should have received a copy of the GNU General Public License along with thi
     iTab = i;
     tabs.children[iTab].classList.add('curWV');
   }
+  function cbFinishLoad(e){
+    let tab = e.target;
+    let js = tab.dataset.jsonce;
+    if(js){
+      tab.dataset.jsonce = null;
+      tab.executeJavaScript(js,false);
+    }
+    if(!bHistory) return;
+    let histItem = tab.getTitle()+" "+tab.getURL()+"\n";
+    fs.appendFile(historyFile, histItem, (err) => {});
+  }
+  function initTab(tab){
+    tab.allowpopups = true;
+    tab.addEventListener('did-finish-load',cbFinishLoad);
+  }
   function newTab(){
     var tab = document.createElement('webview');
-    tab.allowpopups = true;
+    initTab(tab);
     tabs.appendChild(tab);
   }
   function tabInc(num){
@@ -195,24 +219,36 @@ You should have received a copy of the GNU General Public License along with thi
       }
       return;
     }
+    SCROLL: do {
+    let h = -32;
     switch(key){
+    case " ":
+      if(inputE === document.activeElement) return;
+      if(e.shiftKey){
+        h = -3*document.documentElement.clientHeight/4;
+        break;
+      }
     case "PageDown":
-      tabs.children[iTab].src =
-        "javascript:window.scrollBy(0,3*document.documentElement.clientHeight/4)";
-      return;
+      h = 3*document.documentElement.clientHeight/4;
+      break;
     case "PageUp":
-      tabs.children[iTab].src = "javascript:window.scrollBy(0,-3*document.documentElement.clientHeight/4)";
-      return;
+      h = -3*document.documentElement.clientHeight/4;
+      break;
     case "ArrowDown":
-      if(inputE !== document.activeElement || 0==inputE.nextElementSibling.children.length)
-        tabs.children[iTab].src="javascript:window.scrollBy(0,32)";
-      return;
+      h = 32;
     case "ArrowUp":
-      if(inputE !== document.activeElement || 0==inputE.nextElementSibling.children.length)
-        tabs.children[iTab].src="javascript:window.scrollBy(0,-32)";
-      return;
- 
+      if(inputE === document.activeElement &&
+         0!==inputE.nextElementSibling.children.length)
+        return; 
+      break;
+    default:
+      break SCROLL;
     }
+    let js = `javascript:window.scrollBy(0,${h})`;
+    tabs.children[iTab].src = js;
+    return;
+    }while(false);
+
     if(inputE === document.activeElement){
       if (9===e.keyCode){//tab completion
       }
@@ -268,6 +304,9 @@ You should have received a copy of the GNU General Public License along with thi
       return;
     case "b":
       bookmark(args);
+      return;
+    case "bjs":
+      eval(cmd.slice(5));
       return;
     case "bml":
       bml(args);
@@ -375,15 +414,16 @@ You should have received a copy of the GNU General Public License along with thi
       }
     }
     var url=q;
+    NOREC: do{
     do {
       if(q.length>12){
         let c6 = q.charCodeAt(6);
         if(47===c6){// '/'
           let c5 = q.charCodeAt(5);
           if(47===c5 && 58===q.charCodeAt(4))//http/file urls
-            break;
+            break NOREC;
           if(58===c5 && 47===q.charCodeAt(7))//https://
-            break;
+            break NOREC;
         }else if(q.startsWith("javascript:")){
           tabs.children[iTab].executeJavaScript(q.substring(11),false);
           recQueryHistory(q);
@@ -398,14 +438,14 @@ You should have received a copy of the GNU General Public License along with thi
         }
         if(q.indexOf('.')>0){
           url = 'https://'+q;
-          break;
+          break NOREC;
         }
         url = defaultSE.replace('%s',q);
-        recQueryHistory(q);
         break;
       }
       url = bang(q, iS);
-      recQueryHistory(q);
+    }while(false);
+    recQueryHistory(q);
     }while(false);
     tabs.children[iTab].src=url;
   }
@@ -501,6 +541,7 @@ function autocomplete(inp,container,arr) {
   </div>
   <script>
     tabs = document.body.children[1];
+    initTab(tabs.children[0]);
     {
       let inp = document.forms[0].q;
       autocomplete(inp,inp.nextElementSibling,autocStrArray);

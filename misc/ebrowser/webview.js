@@ -39,7 +39,6 @@ var gredirect;
 var redirects;
 var bRedirect = true;
 var bJS = true;
-var bHistory = false;
 var bForwardCookie = false;
 var proxies = {};
 var proxy;
@@ -48,7 +47,6 @@ var defaultUA =
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" +
     process.versions.chrome +" Safari/537.36";
 app.userAgentFallback = defaultUA;
-var historyFile = path.join(__dirname,'history.rec');
 
 fs.readFile(path.join(__dirname,'redirect.json'), 'utf8', (err, jsonString) => {
   if (err) return;
@@ -139,7 +137,7 @@ app.on ('web-contents-created', (event, contents) => {
     //contents.on('focus', ()=>{cbFocus(contents)});
     //contents.on('blur',()=>{cbBlur()});
     contents.session.webRequest.onBeforeRequest(interceptRequest);
-    contents.on('did-finish-load',()=>{cbFinishLoad(contents)});
+    //contents.on('did-finish-load',()=>{cbFinishLoad(contents)});
   }
 });
 
@@ -194,7 +192,7 @@ function addrCommand(cmd){
       else
         gredirect_disable();
       return;
-    case "js"://exetute js
+    case "js"://execute js
       eval(cmd.slice(4));
       return;
     case "nc":
@@ -208,18 +206,6 @@ function addrCommand(cmd){
       }
       forwardCookie();
       return;
-    case "nh":
-      bHistory = false;
-      win.webContents.executeJavaScript("bQueryHistory=false",false);
-      return;
-    case "uh":
-      bHistory = true;
-      win.webContents.executeJavaScript("bQueryHistory=true",false);      
-      return;
-    case "nj":
-      bJS = false; return;
-    case "uj":
-      bJS = true; return;
     case "np":
       session.defaultSession.setProxy ({mode:"direct"});
       bRedirect = true;
@@ -273,12 +259,6 @@ function cbConsoleMsg(e, level, msg, line, sourceid){
   console.log(line);
   console.log(sourceid);
   console.log(msg);
-}
-
-function cbFinishLoad(webContents){
-  if(!bHistory) return;
-  let histItem = webContents.getTitle()+" "+webContents.getURL()+"\n";
-  fs.appendFile(historyFile, histItem, (err) => {});
 }
 
 function cbFocus(webContents){
@@ -393,7 +373,7 @@ function topMenu(){
           win.webContents.executeJavaScript(js,false)
         }},
         { label: 'getURL', accelerator: 'Ctrl+G', click: ()=>{
-          let js="{let q=document.forms[0].q;q.focus();q.value=tabs.children[iTab].src}"
+          let js="{let q=document.forms[0].q;q.focus();q.value=tabs.children[iTab].getURL()}"
           win.webContents.executeJavaScript(js,false)
         }},
         { label: 'Select', accelerator: 'Ctrl+L', click:()=>{
@@ -457,7 +437,7 @@ if(e)e.blur();try{tabs.children[iTab].stopFindInPage('clearSelection')}catch(er)
           win.webContents.executeJavaScript(js,false);
         }},
         { label: 'Reload', accelerator: 'F5', click: ()=>{
-          win.webContents.executeJavaScript("tabs.children[iTab].reload()",false);
+          win.webContents.executeJavaScript("tabs.children[iTab].reloadIgnoringCache()",false);
         }},
         { label: 'Devtools', accelerator: 'F12', click: ()=>{
           let js = "try{tabs.children[iTab].openDevTools()}catch(e){console.log(e)}";
@@ -612,17 +592,7 @@ async function writeFile(filename, str){
 
 function help(){
   const readme = "README.md";
-  const htmlFN = path.join(__dirname,readme+".html");
-  if(!fs.existsSync(htmlFN)){
-    const readmeP = path.join(__dirname,readme);
-    try {
-      fs.copyFileSync(readmeP, htmlFN);
-      const postscript ="<script src='https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js'></script><script>var d=document;var b=d.body;var t=b.textContent;t=t.slice(0,t.length-253);b.innerHTML=marked.parse(t);d.title=d.title||b.firstElementChild.innerText.trim();</script>";
-      fs.appendFileSync(htmlFN,postscript);
-    }catch(e){
-      htmlFN = readmeP;
-    }
-  }
-  let js=`tabs.children[iTab].src="file://${htmlFN}"`;
+  const htmlFN = path.join(__dirname,readme);
+  let js=`{let t=tabs.children[iTab];t.dataset.jsonce=BML_md;t.src="file://${htmlFN}"}`;
   win.webContents.executeJavaScript(js,false)
 }

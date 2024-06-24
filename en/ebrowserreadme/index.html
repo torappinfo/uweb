@@ -95,6 +95,7 @@ npm install ebrowser
 <ul>
 <li>ac [bookmark/history path w/o ext] : load &quot;.rec&quot; file for autocomplete.</li>
 <li>b [bookmarkfilename w/o ext] : bookmark current page in file.</li>
+<li>bjs : Browser-level JavaScript execution.</li>
 <li>bml [filename w/o extension]: load/execute the javascript file.</li>
 <li>cert : allow invalid certificates w/o arguments, otherwise restore to default.</li>
 <li>clear : the arguments could be
@@ -109,8 +110,6 @@ npm install ebrowser
 <li>gr [gredirect index]: global redirection with corresponding index. Use the first global redirection url if no argument. Disable global redirection with any index out of the range.</li>
 <li>js [js code] : execute JS code at OS level. Note: &quot;javascript:...&quot; is special url and thus works in the current web page, while &quot;:js ...&quot; commands can do any OS operations.</li>
 <li>nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.</li>
-<li>nh/uh for No/Use url history.</li>
-<li>nj/uj for No/Use external Javascript files.</li>
 <li>nr/ur for No/Use &quot;redirect.json&quot; for domain redirection.</li>
 <li>np : no proxy.</li>
 <li>up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. &quot;:up&quot; command also disables global and domain redirections, which are not restored by &quot;:np&quot;.</li>
@@ -144,9 +143,20 @@ npm install ebrowser
 <h4 id="javascript-at-three-levels">Javascript at three levels</h4>
 <ul>
 <li>Web page: urls like &quot;javascript:&quot; or bookmarklet command &quot;:bml&quot; run in web page.</li>
-<li>Browser (or renderer process) : &quot;!xx&quot; evaluates &quot;xx.js&quot;, which could manipulate address bar etc.</li>
+<li>Browser (or renderer process) :
+<ul>
+<li>&quot;:bjs&quot; to execute the following js code at browser level.</li>
+<li>&quot;!xx&quot; evaluates &quot;xx.js&quot;, which could manipulate address bar etc.</li>
+</ul>
+</li>
 <li>OS level (or main process) : &quot;:js&quot; to execute the following js code with all OS APIs available.</li>
 </ul>
+<h5 id="examples-for-jsbjs-commands">examples for &quot;:js&quot;/&quot;:bjs&quot; commands</h5>
+<pre><code>:js bJS=true //allow external Javascript files for web pages
+:js bJS=false //disallow external Javascript files for web pages
+:bjs bHistory=true //to record url history
+:bjs bQueryHistory=true //to record query/command history
+</code></pre>
 <h4 id="new-usages">New usages</h4>
 <ul>
 <li>
