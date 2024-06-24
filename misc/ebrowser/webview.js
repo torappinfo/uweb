@@ -413,7 +413,7 @@ function topMenu(){
         { label: 'Redirect', accelerator: 'Ctrl+Shift+R', click: ()=>{
           gredirect_enable(0);
         }},
-        { label: 'Close', accelerator: 'Ctrl+W', click: ()=>{
+        { label: 'Close tab', accelerator: 'Ctrl+W', click: ()=>{
           win.webContents.executeJavaScript("tabClose()",false).then((r)=>{
             if(""===r) win.close();
             else win.setTitle(r);
