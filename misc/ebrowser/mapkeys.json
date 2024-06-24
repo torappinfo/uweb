@@ -1,0 +1,8 @@
+{
+  "al":"javascript:/*comments:test*/alert('test')",
+  "uj":":js bJS=true //Use javascript",
+  "nj":":js bJS=false //No javascript",
+  "uh":":bjs bHistory=bQueryHistory=true //record/Use history",
+  "nh":":bjs bHistory=bQueryHistory=false //No history",
+  "md":":bjs tabJS(BML_md)"
+}
