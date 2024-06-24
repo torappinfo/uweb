@@ -41,8 +41,8 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
 - CTRL+TAB: switch to next tab
 - CTRL+SHIFT+TAB: switch to previous tab
 - CTRL+W: close Tab
-- CTRL+<-: go backward
-- CTRL+->: go forward
+- ALT+<-: go backward
+- ALT+->: go forward
 - CTRL+SHIFT+R: enable global redirection ("gredirect.json")
 - CTRL+R: disable global redirection
 - ESC: remove focus. similar to vi normal mode.
@@ -64,6 +64,7 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
     - {[options](https://www.electronjs.org/docs/latest/api/session#sescleardataoptions)}
   - ext [extension path]: load unpacked Chrome extension.
   - gr [gredirect index]: global redirection with corresponding index. Use the first global redirection url if no argument. Disable global redirection with any index out of the range.
+  - js [js code] : execute JS code at OS level. Note: "javascript:..." is special url and thus works in the current web page, while ":js ..." commands can do any OS operations. 
   - nc/uc : No Cookie forwarding/Use Cookie forwarding with global redirection.
   - nh/uh for No/Use url history.
   - nj/uj for No/Use external Javascript files.
@@ -74,7 +75,7 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
   - update [updateurl] : update the app. updateurl is optional.
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.
 - "!" address bar commands  
-  "!xx ..." evaluates "xx.js" with the whole address bar text as arguments[0].
+  "!xx ..." evaluates "xx.js" with the whole text as arguments[0].
   
 #### Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
@@ -93,6 +94,11 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 - "mapkeys.json": keys-addressbarCommands pairs. The addressbar commands are multiple lines of address bar command separated by "\n".
 - "proxy.json": name-[ProxyConfig](https://www.electronjs.org/docs/latest/api/structures/proxy-config) pairs
 - "uas.json" : name-useragent pairs
+
+#### Javascript at three levels
+- Web page: urls like "javascript:" or bookmarklet command ":bml" run in web page.
+- Browser (or renderer process) : "!xx" evaluates "xx.js", which could manipulate address bar etc.
+- OS level (or main process) : ":js" to execute the following js code with all OS APIs available.
 
 #### New usages
 - Vector designing with web tech to replace Adobe Illustrator/Inkscape.

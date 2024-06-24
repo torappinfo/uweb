@@ -1,5 +1,10 @@
 <!--
 Copyright (C) 2024 Richard Hao Cao
+Ebrowser is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Ebrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 -->
 <!DOCTYPE html><html><head><meta charset="UTF-8">
 <style>
@@ -20,6 +25,34 @@ Copyright (C) 2024 Richard Hao Cao
   }
   webview{display: none;width:100%;height:100%}
   .curWV{display: inherit !important;}
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
+  .invis{display: none}
+  /*the container must be positioned relative:*/
+  .autocomplete {
+    position: relative;
+    display: inline-block;
+    width:100%;
+  }
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  .autocomplete-items div {
+    cursor: pointer;
+  }
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9;
+  }
 </style>
 <script>
   const fs = require('fs');
@@ -30,7 +63,10 @@ Copyright (C) 2024 Richard Hao Cao
   var engines = {};
   var mapKeys = {};
   var closedUrls = [];
+  var autocStrArray = [];
   var defaultSE = "https://www.bing.com/search?q=%s";
+  var bQueryHistory = false;
+  var autocMode = 0; //0 for substring, 1 for startsWith
   let lastKeys;
   let lastKeys_millis = 0;
 
@@ -134,14 +170,11 @@ Copyright (C) 2024 Richard Hao Cao
       });
 
       for await (const line of readInterface) {
-        let opt = document.createElement('option');
         let iS;
         if(delimit && (iS=line.lastIndexOf(delimit))>0){
-          opt.value = line.substring(iS+1);
-          opt.textContent = line.substring(0,iS);
+          autocStrArray.push(line.substring(iS+1));
         }else
-          opt.value = line;
-        document.forms[0].children[0].appendChild(opt);
+           autocStrArray.push(line);
       }
     }catch(e){return;}
   }
@@ -171,10 +204,12 @@ Copyright (C) 2024 Richard Hao Cao
       tabs.children[iTab].src = "javascript:window.scrollBy(0,-3*document.documentElement.clientHeight/4)";
       return;
     case "ArrowDown":
-      tabs.children[iTab].src="javascript:window.scrollBy(0,32)";
+      if(inputE !== document.activeElement || 0==inputE.nextElementSibling.children.length)
+        tabs.children[iTab].src="javascript:window.scrollBy(0,32)";
       return;
     case "ArrowUp":
-      tabs.children[iTab].src="javascript:window.scrollBy(0,-32)";
+      if(inputE !== document.activeElement || 0==inputE.nextElementSibling.children.length)
+        tabs.children[iTab].src="javascript:window.scrollBy(0,-32)";
       return;
  
     }
@@ -183,7 +218,6 @@ Copyright (C) 2024 Richard Hao Cao
       }
       return;
     }
-    if(1!=key.length) return;
     var curMillis = Date.now();
     if(curMillis-lastKeys_millis>1000)
       lastKeys = null;
@@ -246,7 +280,17 @@ Copyright (C) 2024 Richard Hao Cao
   }
   function autoc(args){
     if(2!=args.length) return;
-    appendAutoc_rec(path.join(__dirname,args[1]+".rec"),' ');
+    let fpath = path.join(__dirname,args[1]);
+    let fname = fpath;
+    let delimit = ' ';
+    if (!fs.existsSync(fname)){
+      fname = fpath+".autoc";
+      if (!fs.existsSync(fname))
+        fname = fpath+".rec";
+      else
+        delimit = null;
+    }
+    appendAutoc_rec(fname,delimit);
   }
   function bml(args){
     if(2!=args.length) return;
@@ -305,12 +349,17 @@ Copyright (C) 2024 Richard Hao Cao
       });
     }
   }
+  function recQueryHistory(q){
+    if(bQueryHistory)
+      fs.appendFile(path.join(__dirname,"history.autoc"), q, (err)=>{});
+  }
   function handleQuery(q){
     if(q.length>1){
       let c0=q.charCodeAt(0);
       switch(c0){
       case 33://"!"
         bangcommand(q);
+        recQueryHistory(q);
         return;
       case 47://"/"
         tabs.children[iTab].findInPage(q.substring(1));
@@ -321,6 +370,7 @@ Copyright (C) 2024 Richard Hao Cao
           coloncommand(q);
         else
           coloncommand_render(q);
+        recQueryHistory(q);
         return;
       }
     }
@@ -336,6 +386,7 @@ Copyright (C) 2024 Richard Hao Cao
             break;
         }else if(q.startsWith("javascript:")){
           tabs.children[iTab].executeJavaScript(q.substring(11),false);
+          recQueryHistory(q);
           return;
         }else if(q.startsWith("view-source:")) break;
         else if(q.startsWith("data:")) break;
@@ -350,23 +401,110 @@ Copyright (C) 2024 Richard Hao Cao
           break;
         }
         url = defaultSE.replace('%s',q);
+        recQueryHistory(q);
         break;
       }
       url = bang(q, iS);
+      recQueryHistory(q);
     }while(false);
     tabs.children[iTab].src=url;
   }
+function autocomplete(inp,container,arr) {
+  var currentFocus;
+  function clickItem(e){inp.value = e.target.dataset.str;}
+  function appendElement(el,dataindex){
+    el.dataset.str = arr[dataindex];
+    el.addEventListener("click", clickItem);
+    container.appendChild(el);
+  }
+  inp.addEventListener("input", function(e) {
+    const MAXITEMS = 10;
+    var b, i, val = this.value;
+    closeAllLists();
+    if (!val) { return false;}
+    currentFocus = -1;
+    switch(autocMode){
+    case 0:
+      for (i = 0; i < arr.length; i++) {
+        let iStr = arr[i].indexOf(val);
+        if(iStr<0) continue;
+        {
+          b = document.createElement("DIV");
+          b.innerHTML = arr[i].substr(0,iStr);
+          b.innerHTML += "<strong>" + arr[i].substr(iStr, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(iStr+val.length);
+          appendElement(b,i);
+          if(container.children.length>MAXITEMS) break;
+        }
+      }
+      return;
+    case 1://startsWith
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i].substr(0, val.length) === val) {
+          b = document.createElement("DIV");
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          appendElement(b,i);
+          if(container.children.length>MAXITEMS) break;
+        }
+      }
+    }
+  });
+  inp.addEventListener("keydown", function(e) {
+      var x = container.getElementsByTagName("div");
+      if (0===x.length) return false;
+      if (e.keyCode == 40) {//downarrow
+        currentFocus++;
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        currentFocus--;
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        if (currentFocus > -1) {
+          e.preventDefault();
+          if (x) x[currentFocus].click();
+          currentFocus = -1;
+        }
+        closeAllLists();
+      }
+  });
+  function addActive(x) {
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists() {
+    container.innerHTML = '';
+  }
+  inp.addEventListener("blur", function () {
+    setTimeout(()=>container.classList.add("invis"),200);
+  });
+  inp.addEventListener("focus", function () {
+    container.classList.remove("invis");
+  });
+}
 </script>
 </head>
 <body>
-  <form action="javascript:handleQuery(getQ())">
-  <datalist id="autoc"></datalist>
-  <input type="text" list="autoc" name=q style="width:100%" autofocus></form>
+  <form class="autocomplete" autocomplete="off" action="javascript:handleQuery(getQ())">
+  <input type="text" name=q style="width:100%" autofocus>
+  <div class="autocomplete-items"></div>
+  </form>
   <div class="webviews">
   <webview class="curWV" allowpopups></webview>
   </div>
   <script>
     tabs = document.body.children[1];
+    {
+      let inp = document.forms[0].q;
+      autocomplete(inp,inp.nextElementSibling,autocStrArray);
+    }
     document.addEventListener('keydown', keyPress);
   </script>
 </body></html>

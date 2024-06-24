@@ -1,5 +1,10 @@
 /* Copyright (C) 2024 Richard Hao Cao
- */
+Ebrowser is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Ebrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
 const {
   app, BrowserWindow, Menu, shell, clipboard,
   session, protocol, net, dialog
@@ -24,7 +29,7 @@ else {
 }
 topMenu();
 
-const repositoryurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
+var repositoryurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
 const fs = require('fs');
 const readline = require('readline');
 const path = require('path')
@@ -204,9 +209,13 @@ function addrCommand(cmd){
       forwardCookie();
       return;
     case "nh":
-      bHistory = false; return;
+      bHistory = false;
+      win.webContents.executeJavaScript("bQueryHistory=false",false);
+      return;
     case "uh":
-      bHistory = true; return;
+      bHistory = true;
+      win.webContents.executeJavaScript("bQueryHistory=true",false);      
+      return;
     case "nj":
       bJS = false; return;
     case "uj":
@@ -422,11 +431,11 @@ function topMenu(){
             win.setTitle(r);
           });
         }},
-        { label: 'Go backward', accelerator: 'Ctrl+Left', click: ()=>{
+        { label: 'Go backward', accelerator: 'Alt+Left', click: ()=>{
           let js="tabs.children[iTab].goBack()";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Go forward', accelerator: 'Ctrl+Right', click: ()=>{
+        { label: 'Go forward', accelerator: 'Alt+Right', click: ()=>{
           let js="tabs.children[iTab].goForward()";
           win.webContents.executeJavaScript(js,false);
         }},
