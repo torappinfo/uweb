@@ -5,7 +5,7 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - much less memory footprint than edge/chrome browser and highly performant.
 - keyboard friendly with vim-style keymaps and command line support in address bar.
 - [global redirection](https://uweb.surge.sh/en/redirect/index.html#) to bypass censorship.
-- user scripts at will. Ex. pressing "tr" to translate the page (need mapkeys.json config).
+- user scripts at will. Ex. pressing "md" in no-focus mode to preview markdown file.
 - customizable.
 
 Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.

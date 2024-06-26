@@ -70,8 +70,9 @@ You should have received a copy of the GNU General Public License along with thi
   var bHistory = false;
   var bQueryHistory = false;
   var autocMode = 0; //0 for substring, 1 for startsWith
-  const JSPREFIX_LOAD = "(async ()=>{let d=document;async function _loadJs(u){var a=d.createElement('script');a.type='text/javascript';a.async=false;a.src=u;d.body.appendChild(a);await new Promise(resolve=>a.onload=resolve)}";
-  const BML_md = JSPREFIX_LOAD + "await _loadJs('https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js');let b=d.body;b.innerHTML=marked.parse(b.textContent)})()";
+  const BML_head = "(async ()=>{let d=document;async function _loadJs(u){var a=d.createElement('script');a.type='text/javascript';a.async=false;a.src=u;d.body.appendChild(a);await new Promise(resolve=>a.onload=resolve)}";
+  const BML_tail = "})()";
+  const BML_md = BML_head + "await _loadJs('https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js');let b=d.body;b.innerHTML=marked.parse(b.textContent)})()";
 
   let lastKeys;
   let lastKeys_millis = 0;
@@ -454,41 +455,85 @@ You should have received a copy of the GNU General Public License along with thi
   }
 function autocomplete(inp,container,arr) {
   var currentFocus;
-  function clickItem(e){inp.value = e.target.dataset.str;}
+  var lastVal;
+  function clickItem(e){inp.value = arr[e.target.dataset.index];}
   function appendElement(el,dataindex){
-    el.dataset.str = arr[dataindex];
+    el.dataset.index = dataindex;
     el.addEventListener("click", clickItem);
     container.appendChild(el);
   }
+  function itemInnerHTML(b,str,val,iStr){
+    b.innerHTML = str.substr(0,iStr);
+    b.innerHTML += "<strong>" + str.substr(iStr, val.length) + "</strong>";
+    b.innerHTML += str.substr(iStr+val.length);
+  }
   inp.addEventListener("input", function(e) {
-    const MAXITEMS = 10;
+    const MAXITEMS = 30;
     var b, i, val = this.value;
-    closeAllLists();
     if (!val) { return false;}
     currentFocus = -1;
+    let items = container.children;
+    let iBase = 0;
+    let lastV = lastVal;
+    lastVal = val;
+    if(val.startsWith(lastV)){
+      let itemsLen = items.length;
+      if(itemsLen<=0) return;
+      i = itemsLen -1;
+      iBase = items[i].dataset.index +1;
+      switch(autocMode){
+      case 0:
+        for (; i>=0; i--) {
+          b = items[i];
+          let str = arr[b.dataset.index];
+          let iStr = str.indexOf(val);
+          if(iStr<0) {
+            b.parentNode.removeChild(b);
+            continue;
+          }
+          itemInnerHTML(b,str,val,iStr);
+        }
+        break;
+      case 1:
+        for (; i>=0; i--) {
+          b = items[i];
+          let str = arr[b.dataset.index];
+          let oLen = lastval.length;
+          if(!str.startsWith(val.substring(oLen),oLen)) {
+            b.parentNode.removeChild(b);
+            continue;
+          }
+          itemInnerHTML(b,str,val,0);
+        }
+        break;
+      }
+      if(itemsLen<MAXITEMS)
+        return;
+      else
+        if(container.children.length>=MAXITEMS) return;
+    }else
+      closeAllLists();
+    i = iBase;
     switch(autocMode){
     case 0:
-      for (i = 0; i < arr.length; i++) {
+      for (; i < arr.length; i++) {
         let iStr = arr[i].indexOf(val);
         if(iStr<0) continue;
         {
           b = document.createElement("DIV");
-          b.innerHTML = arr[i].substr(0,iStr);
-          b.innerHTML += "<strong>" + arr[i].substr(iStr, val.length) + "</strong>";
-          b.innerHTML += arr[i].substr(iStr+val.length);
+          itemInnerHTML(b,arr[i],val,iStr);
           appendElement(b,i);
-          if(container.children.length>MAXITEMS) break;
+          if(container.children.length>=MAXITEMS) break;
         }
       }
       return;
     case 1://startsWith
-      for (i = 0; i < arr.length; i++) {
-        if (arr[i].substr(0, val.length) === val) {
+      for (; i < arr.length; i++) {
+        if (arr[i].startsWith(val)) {
           b = document.createElement("DIV");
-          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-          b.innerHTML += arr[i].substr(val.length);
+          itemInnerHTML(b,arr[i],val,0);
           appendElement(b,i);
-          if(container.children.length>MAXITEMS) break;
+          if(container.children.length>=MAXITEMS) break;
         }
       }
     }

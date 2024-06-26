@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Jun 2024 19:36:44 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2024 09:05:46 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -216,7 +216,7 @@
       <link>/en/ebrowserreadme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/ebrowserreadme/</guid>
-      <description>Ebrowser: keyboard-friendly minimal suckless web browser Ebrowser is designed with the philosophy of Android uweb browser (gitlab).&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard friendly with vim-style keymaps and command line support in address bar. global redirection to bypass censorship. user scripts at will. Ex. pressing &amp;quot;tr&amp;quot; to translate the page (need mapkeys.json config). customizable. Note: Usually electron apps are heavyweight as they use browsers for simple things.</description>
+      <description>Ebrowser: keyboard-friendly minimal suckless web browser Ebrowser is designed with the philosophy of Android uweb browser (gitlab).&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard friendly with vim-style keymaps and command line support in address bar. global redirection to bypass censorship. user scripts at will. Ex. pressing &amp;quot;md&amp;quot; in no-focus mode to preview markdown file. customizable. Note: Usually electron apps are heavyweight as they use browsers for simple things.</description>
     </item>
     <item>
       <title></title>

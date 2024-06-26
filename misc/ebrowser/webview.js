@@ -437,7 +437,7 @@ if(e)e.blur();try{tabs.children[iTab].stopFindInPage('clearSelection')}catch(er)
           win.webContents.executeJavaScript(js,false);
         }},
         { label: 'Reload', accelerator: 'F5', click: ()=>{
-          win.webContents.executeJavaScript("tabs.children[iTab].reloadIgnoringCache()",false);
+          win.webContents.executeJavaScript("tabs.children[iTab].reload()",false);
         }},
         { label: 'Devtools', accelerator: 'F12', click: ()=>{
           let js = "try{tabs.children[iTab].openDevTools()}catch(e){console.log(e)}";
