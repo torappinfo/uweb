@@ -76,7 +76,7 @@ You should have received a copy of the GNU General Public License along with thi
 
   let lastKeys;
   let lastKeys_millis = 0;
-
+  var lastVal;
   fs.readFile(path.join(__dirname,'search.json'), 'utf8', (err, jsonString) => {
     if (err) {
       coloncommand(":js fetch2file(repositoryurl,'search.json')");
@@ -204,6 +204,7 @@ You should have received a copy of the GNU General Public License along with thi
         }else
            autocStrArray.push(line);
       }
+      lastVal = null; //trigger full search
     }catch(e){return;}
   }
   function keyPress(e){
@@ -455,7 +456,6 @@ You should have received a copy of the GNU General Public License along with thi
   }
 function autocomplete(inp,container,arr) {
   var currentFocus;
-  var lastVal;
   function clickItem(e){inp.value = arr[e.target.dataset.index];}
   function appendElement(el,dataindex){
     el.dataset.index = dataindex;

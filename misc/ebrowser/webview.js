@@ -27,7 +27,14 @@ else {
       createWindow();
   })
 }
-topMenu();
+var translateRes;
+{
+  let langs = app.getPreferredSystemLanguages();
+  if(langs.length==0 || langs[0].startsWith('en') || !initTranslateRes(langs[0]))
+    topMenu();
+  else
+    Menu.setApplicationMenu(null);
+}
 
 var repositoryurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
 const fs = require('fs');
@@ -352,94 +359,94 @@ function onContextMenu(event, params){
 function topMenu(){
   const menuTemplate = [
     {
-      label: '&Edit',
+      label: translate('Edit'),
       submenu: [
-        { label: 'Config folder', click: ()=>{
+        { label: translate('Config folder'), click: ()=>{
           shell.openPath(__dirname);
         }},
       ]
     },
     {
-      label: '&Help',
+      label: translate('Help'),
       submenu: [
-        { label: 'Check for updates', click: ()=>{
+        { label: translate('Check for updates'), click: ()=>{
           addrCommand(":update");
         }},
-        { label: 'Help', accelerator: 'F1', click: ()=>{
+        { label: translate('Help'), accelerator: 'F1', click: ()=>{
           help();
         }},
-        { label: 'Stop', accelerator: 'Ctrl+C', click: ()=>{
+        { label: translate('Stop'), accelerator: 'Ctrl+C', click: ()=>{
           let js="tabs.children[iTab].stop()"
           win.webContents.executeJavaScript(js,false)
         }},
-        { label: 'getURL', accelerator: 'Ctrl+G', click: ()=>{
+        { label: translate('getURL'), accelerator: 'Ctrl+G', click: ()=>{
           let js="{let q=document.forms[0].q;q.focus();q.value=tabs.children[iTab].getURL()}"
           win.webContents.executeJavaScript(js,false)
         }},
-        { label: 'Select', accelerator: 'Ctrl+L', click:()=>{
+        { label: translate('Select'), accelerator: 'Ctrl+L', click:()=>{
           win.webContents.executeJavaScript("document.forms[0].q.select()",false);
         }},
-        { label: 'New Tab', accelerator: 'Ctrl+T', click:()=>{
+        { label: translate('New Tab'), accelerator: 'Ctrl+T', click:()=>{
           let js = "newTab();document.forms[0].q.select();switchTab(tabs.children.length-1)";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Restore Tab', accelerator: 'Ctrl+Shift+T', click:()=>{
+        { label: translate('Restore Tab'), accelerator: 'Ctrl+Shift+T', click:()=>{
           let js = "{let u=closedUrls.pop();if(u){newTab();switchTab(tabs.children.length-1);tabs.children[iTab].src=u}}";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'No redirect', accelerator: 'Ctrl+R', click: ()=>{
+        { label: translate('No redirect'), accelerator: 'Ctrl+R', click: ()=>{
           gredirect_disable();
         }},
-        { label: 'Redirect', accelerator: 'Ctrl+Shift+R', click: ()=>{
+        { label: translate('Redirect'), accelerator: 'Ctrl+Shift+R', click: ()=>{
           gredirect_enable(0);
         }},
-        { label: 'Close tab', accelerator: 'Ctrl+W', click: ()=>{
+        { label: translate('Close tab'), accelerator: 'Ctrl+W', click: ()=>{
           win.webContents.executeJavaScript("tabClose()",false).then((r)=>{
             if(""===r) win.close();
             else win.setTitle(r);
           });
         }},
-        { label: 'Next Tab', accelerator: 'Ctrl+Tab', click: ()=>{
+        { label: translate('Next Tab'), accelerator: 'Ctrl+Tab', click: ()=>{
           let js="tabInc(1);getWinTitle()";
           win.webContents.executeJavaScript(js,false).then((r)=>{
             win.setTitle(r);
           });
         }},
-        { label: 'Previous Tab', accelerator: 'Ctrl+Shift+Tab', click: ()=>{
+        { label: translate('Previous Tab'), accelerator: 'Ctrl+Shift+Tab', click: ()=>{
           let js="tabDec(-1);getWinTitle()";
           win.webContents.executeJavaScript(js,false).then((r)=>{
             win.setTitle(r);
           });
         }},
-        { label: 'Go backward', accelerator: 'Alt+Left', click: ()=>{
+        { label: translate('Go backward'), accelerator: 'Alt+Left', click: ()=>{
           let js="tabs.children[iTab].goBack()";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Go forward', accelerator: 'Alt+Right', click: ()=>{
+        { label: translate('Go forward'), accelerator: 'Alt+Right', click: ()=>{
           let js="tabs.children[iTab].goForward()";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Zoom in', accelerator: 'Ctrl+Shift+=', click: ()=>{
+        { label: translate('Zoom in'), accelerator: 'Ctrl+Shift+=', click: ()=>{
           let js="{let t=tabs.children[iTab];let s=t.getZoomFactor()*1.2;t.setZoomFactor(s)}";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Zoom out', accelerator: 'Ctrl+-', click: ()=>{
+        { label: translate('Zoom out'), accelerator: 'Ctrl+-', click: ()=>{
           let js="{let t=tabs.children[iTab];let s=t.getZoomFactor()/1.2;t.setZoomFactor(s)}";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Default zoom', accelerator: 'Ctrl+0', click: ()=>{
+        { label: translate('Default zoom'), accelerator: 'Ctrl+0', click: ()=>{
           let js="tabs.children[iTab].setZoomFactor(1)";
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'No focus', accelerator: 'Esc', click: ()=>{
+        { label: translate('No focus'), accelerator: 'Esc', click: ()=>{
           let js = `{let e=document.activeElement;
 if(e)e.blur();try{tabs.children[iTab].stopFindInPage('clearSelection')}catch(er){}}`;
           win.webContents.executeJavaScript(js,false);
         }},
-        { label: 'Reload', accelerator: 'F5', click: ()=>{
+        { label: translate('Reload'), accelerator: 'F5', click: ()=>{
           win.webContents.executeJavaScript("tabs.children[iTab].reload()",false);
         }},
-        { label: 'Devtools', accelerator: 'F12', click: ()=>{
+        { label: translate('Devtools'), accelerator: 'F12', click: ()=>{
           let js = "try{tabs.children[iTab].openDevTools()}catch(e){console.log(e)}";
           win.webContents.executeJavaScript(js,false);
         }},
@@ -595,4 +602,26 @@ function help(){
   const htmlFN = path.join(__dirname,readme);
   let js=`{let t=tabs.children[iTab];t.dataset.jsonce=BML_md;t.src="file://${htmlFN}"}`;
   win.webContents.executeJavaScript(js,false)
+}
+
+function initTranslateRes(lang){
+  let basename=path.join(__dirname,"translate.");
+  let fname = basename+lang;
+  if(!fs.existsSync(fname))
+    fname = basename+lang.slice(0,2);
+  if(!fs.existsSync(fname)) return false;
+  (async ()=>{
+    try {
+      let json = await fs.promises.readFile(fname,'utf8');
+      translateRes = JSON.parse(json);
+    } catch (e){}
+    topMenu();
+  })();
+  return true;
+}
+
+function translate(str){
+  let result;
+  if(translateRes && (result=translateRes[str])) return result;
+  return str;
 }

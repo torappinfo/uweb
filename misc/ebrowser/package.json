@@ -1,4 +1,4 @@
-{"version":"1.0.35",
+{"version":"1.0.37",
   "name": "ebrowser",
   "description": "The keyboard-friendly minimal suckless web browser",
   "main": "webview.js",
@@ -7,7 +7,9 @@
     "index.html",
     "package.json",
     "README.md",
-    "mapkeys.json"
+    "translate.*",
+    "mapkeys.json",
+    "config"
   ],
   "scripts": {
     "release": "electron-builder"
