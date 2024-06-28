@@ -255,7 +255,9 @@ You should have received a copy of the GNU General Public License along with thi
     }while(false);
 
     if(inputE === document.activeElement){
-      if (9===e.keyCode){//tab completion
+      if (9===e.keyCode){
+        e.preventDefault();
+        tabs.children[iTab].focus();
       }
       return;
     }

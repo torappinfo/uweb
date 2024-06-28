@@ -18,5 +18,6 @@
   "gt":"https://kkgithub.com/search?type=Repositories&q=%s",
   "360":"https://so.360.com/s?q=%s",
   "tg":"i:0/js/hash2textarea.js:https://www.tiangong.cn/#%s",
+  "cg":"i:0/js/hash2textarea.js:https://chatglm.cn/main/detail#%s",
   "bd":"https://m.baidu.com/s?wd=%s"
 }
