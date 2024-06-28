@@ -33,6 +33,9 @@ Type ":update" in the address bar and press "enter" key to update.
 Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser". All the mirrors listed on [uweb browser](https://uwebzh.netlify.app/en/readme/index.html) could be used. The update url needs to be changed accordingly to be the folder "misc/ebrowser" under the mirror site root url.
 
 #### Key shortcuts
+- Alt: show menu
+- ALT+<-: go backward
+- ALT+->: go forward
 - CTRL+C: stop loading
 - CTRL+G: address bar to show page url
 - CTRL+L: focus to address bar
@@ -41,8 +44,6 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
 - CTRL+TAB: switch to next tab
 - CTRL+SHIFT+TAB: switch to previous tab
 - CTRL+W: close Tab
-- ALT+<-: go backward
-- ALT+->: go forward
 - CTRL+SHIFT+R: enable global redirection ("gredirect.json")
 - CTRL+R: disable global redirection
 - ESC: remove focus. similar to vi normal mode.
@@ -51,6 +52,7 @@ Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser
 - F12: devtools
 
 #### Address bar commands
+Like any popular browser, the very first word in address bar if defined in "search.json" identifies a search engine. Moreover, the address bar serves as command line interface:
 - "/" for find-in-page
 - ":" for address bar commands
   - ac [bookmark/history path w/o ext] : load ".rec" file for autocomplete.

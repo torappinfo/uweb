@@ -429,6 +429,9 @@ You should have received a copy of the GNU General Public License along with thi
             break NOREC;
           if(58===c5 && 47===q.charCodeAt(7))//https://
             break NOREC;
+        }else if(58===q.charCodeAt(1)){
+          internalLink(q);
+          return;
         }else if(q.startsWith("javascript:")){
           tabs.children[iTab].executeJavaScript(q.substring(11),false);
           recQueryHistory(q);
@@ -449,10 +452,41 @@ You should have received a copy of the GNU General Public License along with thi
         break;
       }
       url = bang(q, iS);
+      if(58===url.charCodeAt(1)){
+        internalLink(url);
+        recQueryHistory(q);
+        return;
+      }
     }while(false);
     recQueryHistory(q);
     }while(false);
     tabs.children[iTab].src=url;
+  }
+  function internalLink(url){
+    let cmd = url.charCodeAt(2);
+    let subcmd = url.charCodeAt(3);
+    let iColon = url.indexOf(':',2);
+    switch(cmd){
+    case 48://'0' i:0
+      switch(subcmd){
+      case 47://'/' i:0/
+        if(106===url.charCodeAt(4) && 115===url.charCodeAt(5) && 47===url.charCoseAt(6)){
+          //i:0/js/xx:[url]
+          let fname = url.slice(4,iColon);
+          let pname = path.join(__dirname,fname);
+          if(fs.existsSync(pname)){
+            (async ()=>{
+              try {
+                let js = await fs.promises.readFile(pname,'utf8');
+                let t=tabs.children[iTab];
+                t.dataset.jsonce=js;
+                t.src = url.substring(iColon+1);
+              }catch(e){}
+            })();
+          }
+        }
+      }
+    }
   }
 function autocomplete(inp,container,arr) {
   var currentFocus;
@@ -470,6 +504,7 @@ function autocomplete(inp,container,arr) {
   inp.addEventListener("input", function(e) {
     const MAXITEMS = 30;
     var b, i, val = this.value;
+    console.log(val)
     if (!val) { return false;}
     currentFocus = -1;
     let items = container.children;
@@ -554,6 +589,7 @@ function autocomplete(inp,container,arr) {
           currentFocus = -1;
         }
         closeAllLists();
+        lastVal = null;
       }
   });
   function addActive(x) {
