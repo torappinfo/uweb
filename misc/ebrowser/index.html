@@ -470,7 +470,7 @@ You should have received a copy of the GNU General Public License along with thi
     case 48://'0' i:0
       switch(subcmd){
       case 47://'/' i:0/
-        if(106===url.charCodeAt(4) && 115===url.charCodeAt(5) && 47===url.charCoseAt(6)){
+        if(106===url.charCodeAt(4) && 115===url.charCodeAt(5) && 47===url.charCodeAt(6)){
           //i:0/js/xx:[url]
           let fname = url.slice(4,iColon);
           let pname = path.join(__dirname,fname);
@@ -504,7 +504,6 @@ function autocomplete(inp,container,arr) {
   inp.addEventListener("input", function(e) {
     const MAXITEMS = 30;
     var b, i, val = this.value;
-    console.log(val)
     if (!val) { return false;}
     currentFocus = -1;
     let items = container.children;

@@ -77,7 +77,9 @@ Like any popular browser, the very first word in address bar if defined in "sear
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.
 - "!" address bar commands  
   "!xx ..." evaluates "xx.js" with the whole text as arguments[0].
-  
+- i: internal urls, which will be consistent with [uweb](https://jamesfengcao.gitlab.io/uweb/en/links/index.html).
+  - "i:0/js/xxx.js:[url]" loads the "[url]" with bookmarklet "js/xxx.js".
+
 #### Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
 - ":" for address bar commands
