@@ -90,7 +90,7 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 
 #### Configuration files
 - "config": lines of address bar commands.
-- "search.json": search engines as shortcut-queryUrl pairs.
+- "search.json": [search engines](https://jamesfengcao.gitlab.io/uweb/en/search/index.html) as shortcut-queryUrl pairs, where "%s" would be replaced by search query.
 - "default.autoc": predefined strings for address bar auto completion.
 - "gredirect.json": global redirection urls as array of urls
 - "redirect.json": domain-replacementDomain pairs, default to be applied.
