@@ -151,7 +151,10 @@ You should have received a copy of the GNU General Public License along with thi
   function cbStartLoading(e){
     if(!bDomainCSS) return;
     let tab = e.target;
-    let domain = new URL(tab.getURL()).hostname;
+    let domain;
+    try{
+      domain = new URL(tab.getURL()).hostname;
+    }catch(e){return;}
     let jsF = path.join(sitecssP, domain+".js");
     loadJSFile(tab,jsF);
     jsF = path.join(sitecssP, domain+".css");

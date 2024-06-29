@@ -17,7 +17,7 @@
   "git":"https://github.com/search?type=Repositories&q=%s",
   "gt":"https://kkgithub.com/search?type=Repositories&q=%s",
   "360":"https://so.360.com/s?q=%s",
-  "tg":"i:0/js/hash2textarea.js:https://www.tiangong.cn/#%s",
+  "tg":"https://www.tiangong.cn/result?q=%s",
   "cg":"i:0/js/hash2textarea.js:https://chatglm.cn/main/detail#%s",
   "s100":"i:0/js/hash2input.js:https://www.sou100.com/#%s",
   "csdn":"i:0/js/hash2textarea.js:https://chat.csdn.net#%s",
