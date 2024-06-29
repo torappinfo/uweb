@@ -6,6 +6,7 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - keyboard friendly with vim-style keymaps and command line support in address bar.
 - [global redirection](https://uweb.surge.sh/en/redirect/index.html#) to bypass censorship.
 - user scripts at will. Ex. pressing "md" in no-focus mode to preview markdown file.
+- CSS/JS for domains, similar to [uweb](https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html), but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.
 - customizable.
 
 Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.
@@ -99,7 +100,7 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 - "uas.json" : name-useragent pairs
 
 #### Javascript at three levels
-- Web page: urls like "javascript:" or bookmarklet command ":bml" run in web page.
+- Web page: url like "javascript:" or bookmarklet command ":bml" runs in web page.
 - Browser (or renderer process) :
   - ":bjs" to execute the following js code at browser level.
   - "!xx" evaluates "xx.js", which could manipulate address bar etc.

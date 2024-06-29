@@ -51,6 +51,7 @@
 <li>keyboard friendly with vim-style keymaps and command line support in address bar.</li>
 <li><a href="https://uweb.surge.sh/en/redirect/index.html#">global redirection</a> to bypass censorship.</li>
 <li>user scripts at will. Ex. pressing &quot;md&quot; in no-focus mode to preview markdown file.</li>
+<li>CSS/JS for domains, similar to <a href="https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html">uweb</a>, but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.</li>
 <li>customizable.</li>
 </ul>
 <p>Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.</p>
@@ -149,7 +150,7 @@ npm install ebrowser
 </ul>
 <h4 id="javascript-at-three-levels">Javascript at three levels</h4>
 <ul>
-<li>Web page: urls like &quot;javascript:&quot; or bookmarklet command &quot;:bml&quot; run in web page.</li>
+<li>Web page: url like &quot;javascript:&quot; or bookmarklet command &quot;:bml&quot; runs in web page.</li>
 <li>Browser (or renderer process) :
 <ul>
 <li>&quot;:bjs&quot; to execute the following js code at browser level.</li>

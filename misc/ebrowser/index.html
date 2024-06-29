@@ -69,6 +69,10 @@ You should have received a copy of the GNU General Public License along with thi
   var historyFile = path.join(__dirname,'history.rec');
   var bHistory = false;
   var bQueryHistory = false;
+  let sitecssP = path.join(__dirname,"sitecss");
+  let sitejsP = path.join(__dirname,"sitejs");
+  var bDomainJS = fs.existsSync(sitejsP);
+  var bDomainCSS = fs.existsSync(sitecssP);
   var autocMode = 0; //0 for substring, 1 for startsWith
   const BML_head = "(async ()=>{let d=document;async function _loadJs(u){var a=d.createElement('script');a.type='text/javascript';a.async=false;a.src=u;d.body.appendChild(a);await new Promise(resolve=>a.onload=resolve)}";
   const BML_tail = "})()";
@@ -136,20 +140,52 @@ You should have received a copy of the GNU General Public License along with thi
     iTab = i;
     tabs.children[iTab].classList.add('curWV');
   }
+  async function loadJSFile(tab,jsF){
+    if(fs.existsSync(jsF)){
+      try {
+        let js = await fs.promises.readFile(jsF,'utf8');
+        tab.executeJavaScript(js,false);
+      }catch(e){}
+    }
+  }
+  function cbStartLoading(e){
+    if(!bDomainCSS) return;
+    let tab = e.target;
+    let domain = new URL(tab.getURL()).hostname;
+    let jsF = path.join(sitecssP, domain+".js");
+    loadJSFile(tab,jsF);
+    jsF = path.join(sitecssP, domain+".css");
+    if(fs.existsSync(jsF)){
+      (async ()=>{
+        try {
+          let css = await fs.promises.readFile(jsF,'utf8');
+          tab.insertCSS(css);
+        }catch(e){}
+      })();
+    }
+  }
   function cbFinishLoad(e){
     let tab = e.target;
+    let url = tab.getURL();
+    if(bHistory){
+      let histItem = tab.getTitle()+" "+url+"\n";
+      fs.appendFile(historyFile, histItem, (err) => {});
+    }
     let js = tab.dataset.jsonce;
     if(js){
       tab.dataset.jsonce = null;
       tab.executeJavaScript(js,false);
     }
-    if(!bHistory) return;
-    let histItem = tab.getTitle()+" "+tab.getURL()+"\n";
-    fs.appendFile(historyFile, histItem, (err) => {});
+    if(bDomainJS){
+      let domain = new URL(url).hostname;
+      let jsF = path.join(sitejsP, domain+".js");
+      loadJSFile(tab,jsF);
+    }
   }
   function initTab(tab){
     tab.allowpopups = true;
     tab.addEventListener('did-finish-load',cbFinishLoad);
+    tab.addEventListener('did-start-loading',cbStartLoading);
   }
   function newTab(){
     var tab = document.createElement('webview');
