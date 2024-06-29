@@ -425,15 +425,15 @@ You should have received a copy of the GNU General Public License along with thi
     do {
       if(q.length>12){
         let c6 = q.charCodeAt(6);
-        if(47===c6){// '/'
+        if(58===q.charCodeAt(1)){
+          internalLink(q);
+          return;
+        }else if(47===c6){// '/'
           let c5 = q.charCodeAt(5);
           if(47===c5 && 58===q.charCodeAt(4))//http/file urls
             break NOREC;
           if(58===c5 && 47===q.charCodeAt(7))//https://
             break NOREC;
-        }else if(58===q.charCodeAt(1)){
-          internalLink(q);
-          return;
         }else if(q.startsWith("javascript:")){
           tabs.children[iTab].executeJavaScript(q.substring(11),false);
           recQueryHistory(q);
