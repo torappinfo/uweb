@@ -9,6 +9,7 @@
   "andi":"https://andisearch.com/?q=%s",
   "ph":"https://phind-ai.com/search?q=%s",
   "gf":"https://greasyfork.org/en/scripts?filter_locale=0&sort=updated&q=%s",
+  "repo":"https://www.awesome-repositories.com/s/results-with-ai/%s",
   "dev":"https://devv.ai/search?agentMode=false&q=%s",
   "you":"https://you.com/search?tbm=youchat&q=%s",
   "p":"https://www.perplexity.ai/?q=%s",

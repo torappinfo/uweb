@@ -50,6 +50,7 @@ var bForwardCookie = false;
 var proxies = {};
 var proxy;
 var useragents = {};
+var downloadMenus; //[]
 var defaultUA =
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" +
     process.versions.chrome +" Safari/537.36";
@@ -115,8 +116,43 @@ async function createWindow () {
   cmdlineProcess(process.argv, process.cwd(), 0);
   //app.commandLine.appendSwitch ('trace-warnings');
 
+  fs.readFile(path.join(__dirname,'download.json'), 'utf8', (err, jsonStr) => {
+    if (err) return;
+    try {
+      downloadMenus = JSON.parse(jsonStr);
+    }catch (e){console.log(e)}
+  });
+
   win.webContents.on('page-title-updated',(event,cmd)=>{
     addrCommand(cmd);
+  });
+
+  session.defaultSession.on("will-download", (e, item) => {
+    //item.setSavePath(save)
+    if(!downloadMenus) return;
+    let buttons = ["OK", "Cancel", translate("Copy")];
+    buttons.push(downloadMenus.filter((item, index) => (index&1) === 0));
+    const button = dialog.showMessageBoxSync(mainWindow, {
+      "type": "question",
+      "title": translate("Download"),
+      "message":  `Do you want to download the file?`,
+      "buttons": buttons,
+      "defaultId": 0,
+    });
+    switch(button) {
+    case 0:
+      return;
+    case 1:
+      break;
+    case 2:
+      clipboard.writeText(item.getURL());
+      break;
+    default:
+      let cmd = downloadMenus[2*button-5].replace('%u',item.getURL());
+      let js = `handleQuery(\`${cmd}\`)`;
+      win.webContents.executeJavaScript(js,false);
+    }
+    e.preventDefault();
   });
 
   win.webContents.on('console-message',cbConsoleMsg);
@@ -238,12 +274,16 @@ function addrCommand(cmd){
     case "update":
       let updateurl;
       if(1==args.length)
-        updateurl = repositoryurl;
+        updateApp(repositoryurl);
       else {
-        updateurl = args[1];
-        if(!updateurl.endsWith("/")) updateurl = updateurl +"/";
+        filename = args[1];
+        let iSlash = filename.lastIndexOf('/');
+        if(iSlash>0){
+          let folder = path.join(__dirname,filename.substring(0,iSlash));
+          fs.mkdirSync(folder,{ recursive: true });
+        }
+        fetch2file(repositoryurl,filename);
       }
-      updateApp(updateurl);
       return;
     }
   }
@@ -317,24 +357,36 @@ function cbTitleUpdate(event,title){
 function menuArray(labelprefix, linkUrl){
   const menuTemplate = [
     {
-      label: labelprefix+'Open Link',
+      label: labelprefix+translate('Open'),
       click: () => {
         shell.openExternal(linkUrl);
       }
     },
     {
-      label: labelprefix+'Copy Link',
+      label: labelprefix+translate('Copy'),
       click: () => {
         clipboard.writeText(linkUrl);
       }
     },
     {
-      label: labelprefix+'Download',
+      label: labelprefix+translate('Download'),
       click: () => {
         win.contentView.children[i].webContents.downloadURL(linkUrl);
       }
     },
   ];
+  if(downloadMenus){
+    for(let i=0; i<downloadMenus.length-1;i++){
+      menuTemplate.push({
+        label: labelprefix+downloadMenus[i],
+        click: () => {
+          let cmd = downloadMenus[i+1].replace('%u',linkUrl);
+          let js = `handleQuery(\`${cmd}\`)`;
+          win.webContents.executeJavaScript(js,false);
+        }
+      });
+    }
+  }
   return menuTemplate;
 }
 

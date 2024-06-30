@@ -50,7 +50,8 @@
 <li>much less memory footprint than edge/chrome browser and highly performant.</li>
 <li>keyboard friendly with vim-style keymaps and command line support in address bar.</li>
 <li><a href="https://uweb.surge.sh/en/redirect/index.html#">global redirection</a> to bypass censorship.</li>
-<li>user scripts at will. Ex. pressing &quot;md&quot; in no-focus mode to preview markdown file.</li>
+<li>user CSS/JS at will. Ex. pressing &quot;md&quot; in no-focus mode to preview markdown file.</li>
+<li>global CSS/JS for all sites at will.</li>
 <li>CSS/JS for domains, similar to <a href="https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html">uweb</a>, but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.</li>
 <li>customizable.</li>
 </ul>
@@ -117,7 +118,7 @@ npm install ebrowser
 <li>np : no proxy.</li>
 <li>up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. &quot;:up&quot; command also disables global and domain redirections, which are not restored by &quot;:np&quot;.</li>
 <li>ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.</li>
-<li>update [updateurl] : update the app. updateurl is optional.</li>
+<li>update [filename] : update the app w/o argument, otherwise retrive the [filename] from remote. The filename could be any file on <a href="https://jamesfengcao.gitlab.io/uweb/en/readme/index.html">mirror sites</a> (this repository is part of it).</li>
 <li>pdf [filename w/o extension] {<a href="https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions">options</a>} : print to PDF file. All arguments are optional; empty option &quot;{}&quot; to capture long screenshot as vector graphics.</li>
 </ul>
 </li>
@@ -147,6 +148,7 @@ npm install ebrowser
 <li>&quot;mapkeys.json&quot;: keys-addressbarCommands pairs. The addressbar commands are multiple lines of address bar command separated by &quot;\n&quot;.</li>
 <li>&quot;proxy.json&quot;: name-<a href="https://www.electronjs.org/docs/latest/api/structures/proxy-config">ProxyConfig</a> pairs</li>
 <li>&quot;uas.json&quot; : name-useragent pairs</li>
+<li>&quot;download.json&quot; : array of strings to define buttons for downloading dialog. The even-indexed strings are texts to show on the button. The odd-indexed strings are address bar commands with &quot;%u&quot; as the downloaded url.</li>
 </ul>
 <h4 id="javascript-at-three-levels">Javascript at three levels</h4>
 <ul>
@@ -191,7 +193,7 @@ npm install ebrowser
 <p>You can copy or modify the code/program under the terms of the GPL3.0 or later versions.</p>
 
 </div>
-<p>Last Modified: 29 June 2024<br>
+<p>Last Modified: 30 June 2024<br>
 <br>
 <pre></pre>
 </p>

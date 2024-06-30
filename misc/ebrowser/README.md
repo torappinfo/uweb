@@ -5,7 +5,8 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - much less memory footprint than edge/chrome browser and highly performant.
 - keyboard friendly with vim-style keymaps and command line support in address bar.
 - [global redirection](https://uweb.surge.sh/en/redirect/index.html#) to bypass censorship.
-- user scripts at will. Ex. pressing "md" in no-focus mode to preview markdown file.
+- user CSS/JS at will. Ex. pressing "md" in no-focus mode to preview markdown file.
+- global CSS/JS for all sites at will.
 - CSS/JS for domains, similar to [uweb](https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html), but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.
 - customizable.
 
@@ -74,7 +75,7 @@ Like any popular browser, the very first word in address bar if defined in "sear
   - np : no proxy.
   - up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. ":up" command also disables global and domain redirections, which are not restored by ":np".
   - ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.
-  - update [updateurl] : update the app. updateurl is optional.
+  - update [filename] : update the app w/o argument, otherwise retrive the [filename] from remote. The filename could be any file on [mirror sites](https://jamesfengcao.gitlab.io/uweb/en/readme/index.html) (this repository is part of it).
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.
 - "!" address bar commands  
   "!xx ..." evaluates "xx.js" with the whole text as arguments[0].
@@ -98,6 +99,7 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 - "mapkeys.json": keys-addressbarCommands pairs. The addressbar commands are multiple lines of address bar command separated by "\n".
 - "proxy.json": name-[ProxyConfig](https://www.electronjs.org/docs/latest/api/structures/proxy-config) pairs
 - "uas.json" : name-useragent pairs
+- "download.json" : array of strings to define buttons for downloading dialog. The even-indexed strings are texts to show on the button. The odd-indexed strings are address bar commands with "%u" as the downloaded url.
 
 #### Javascript at three levels
 - Web page: url like "javascript:" or bookmarklet command ":bml" runs in web page.

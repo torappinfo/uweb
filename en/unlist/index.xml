@@ -12,7 +12,7 @@
       <link>/en/ebrowserreadme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/ebrowserreadme/</guid>
-      <description>Ebrowser: keyboard-friendly minimal suckless web browser Ebrowser is designed with the philosophy of Android uweb browser (gitlab).&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard friendly with vim-style keymaps and command line support in address bar. global redirection to bypass censorship. user scripts at will. Ex. pressing &amp;quot;md&amp;quot; in no-focus mode to preview markdown file. CSS/JS for domains, similar to uweb, but use sitejs/[domain].</description>
+      <description>Ebrowser: keyboard-friendly minimal suckless web browser Ebrowser is designed with the philosophy of Android uweb browser (gitlab).&#xA;lightweight (less than 20k bytes) without bundled electron. much less memory footprint than edge/chrome browser and highly performant. keyboard friendly with vim-style keymaps and command line support in address bar. global redirection to bypass censorship. user CSS/JS at will. Ex. pressing &amp;quot;md&amp;quot; in no-focus mode to preview markdown file. global CSS/JS for all sites at will.</description>
     </item>
     <item>
       <title></title>

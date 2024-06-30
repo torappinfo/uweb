@@ -71,6 +71,9 @@ You should have received a copy of the GNU General Public License along with thi
   var bQueryHistory = false;
   let sitecssP = path.join(__dirname,"sitecss");
   let sitejsP = path.join(__dirname,"sitejs");
+  let gjsA = [];
+  let gcssA = [];
+  let gcssJSA = [];
   var bDomainJS = fs.existsSync(sitejsP);
   var bDomainCSS = fs.existsSync(sitecssP);
   var autocMode = 0; //0 for substring, 1 for startsWith
@@ -141,12 +144,16 @@ You should have received a copy of the GNU General Public License along with thi
     tabs.children[iTab].classList.add('curWV');
   }
   async function loadJSFile(tab,jsF){
-    if(fs.existsSync(jsF)){
       try {
         let js = await fs.promises.readFile(jsF,'utf8');
         tab.executeJavaScript(js,false);
       }catch(e){}
-    }
+  }
+  async function loadCSSFile(tab,jsF){
+      try {
+        let js = await fs.promises.readFile(jsF,'utf8');
+        tab.insertCSS(css);
+      }catch(e){}
   }
   function cbStartLoading(e){
     if(!bDomainCSS) return;
@@ -158,14 +165,15 @@ You should have received a copy of the GNU General Public License along with thi
     let jsF = path.join(sitecssP, domain+".js");
     loadJSFile(tab,jsF);
     jsF = path.join(sitecssP, domain+".css");
-    if(fs.existsSync(jsF)){
-      (async ()=>{
-        try {
-          let css = await fs.promises.readFile(jsF,'utf8');
-          tab.insertCSS(css);
-        }catch(e){}
-      })();
-    }
+    loadCSSFile(tab,jsF);
+    gcssA.forEach((fname)=>{
+      jsF = path.join(__dirname, fname);
+      loadCSSFile(tab,jsF);
+    });
+    gcssJSA.forEach((fname)=>{
+      jsF = path.join(__dirname, fname);
+      loadJSFile(tab,jsF);
+    });
   }
   function cbFinishLoad(e){
     let tab = e.target;
@@ -184,6 +192,10 @@ You should have received a copy of the GNU General Public License along with thi
       let jsF = path.join(sitejsP, domain+".js");
       loadJSFile(tab,jsF);
     }
+    gjsA.forEach((fname)=>{
+      let jsF = path.join(__dirname, fname);
+      loadJSFile(tab,jsF);
+    });
   }
   function initTab(tab){
     tab.allowpopups = true;
