@@ -454,6 +454,7 @@ You should have received a copy of the GNU General Public License along with thi
   function handleQuery(q){
     if(q.length>1){
       let c0=q.charCodeAt(0);
+      let c1=q.charCodeAt(1);
       switch(c0){
       case 33://"!"
         bangcommand(q);
@@ -463,12 +464,16 @@ You should have received a copy of the GNU General Public License along with thi
         tabs.children[iTab].findInPage(q.substring(1));
         return;
       case 58://':'
-        let c1=q.charCodeAt(1);
         if(c1>98 && 112!=c1)
           coloncommand(q);
         else
           coloncommand_render(q);
         recQueryHistory(q);
+        return;
+      }
+      if(58===c1){
+        console.log(q)
+        internalLink(q);
         return;
       }
     }
@@ -477,10 +482,7 @@ You should have received a copy of the GNU General Public License along with thi
     do {
       if(q.length>12){
         let c6 = q.charCodeAt(6);
-        if(58===q.charCodeAt(1)){
-          internalLink(q);
-          return;
-        }else if(47===c6){// '/'
+        if(47===c6){// '/'
           let c5 = q.charCodeAt(5);
           if(47===c5 && 58===q.charCodeAt(4))//http/file urls
             break NOREC;

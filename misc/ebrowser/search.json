@@ -19,10 +19,10 @@
   "gt":"https://kkgithub.com/search?type=Repositories&q=%s",
   "360":"https://so.360.com/s?q=%s",
   "tg":"https://www.tiangong.cn/result?q=%s",
-  "cg":"i:0/js/hash2textarea.js:https://chatglm.cn/main/detail#%s",
-  "s100":"i:0/js/hash2input.js:https://www.sou100.com/#%s",
-  "csdn":"i:0/js/hash2textarea.js:https://chat.csdn.net#%s",
-  "bdc":"i:0/js/hash2editable.js:https://chat.baidu.com/#%s",
-  "miku":"i:0/js/hash2textarea.js:https://www.hellomiku.com#%s",
+  "cg":"i:0/js/s2ta.js:https://chatglm.cn/main/detail?%s",
+  "s100":"i:0/js/s2input.js:https://www.sou100.com/?%s",
+  "csdn":"i:0/js/s2ta.js:https://chat.csdn.net?%s",
+  "bdc":"i:0/js/s2editable.js:https://chat.baidu.com/?%s",
+  "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
   "bd":"https://baidu.com/s?wd=%s"
 }
