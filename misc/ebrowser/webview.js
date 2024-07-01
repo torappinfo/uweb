@@ -7,7 +7,7 @@ You should have received a copy of the GNU General Public License along with thi
 */
 const {
   app, BrowserWindow, Menu, shell, clipboard,
-  session, protocol, net, dialog
+  session, protocol, net, dialog, ipcMain
 } = require('electron')
 let win;
 
@@ -182,6 +182,10 @@ app.on ('web-contents-created', (event, contents) => {
     contents.session.webRequest.onBeforeRequest(interceptRequest);
     //contents.on('did-finish-load',()=>{cbFinishLoad(contents)});
   }
+});
+
+ipcMain.on('command', (event, cmd) => {
+  addrCommand(cmd);
 });
 
 function addrCommand(cmd){
@@ -676,4 +680,28 @@ function translate(str){
   let result;
   if(translateRes && (result=translateRes[str])) return result;
   return str;
+}
+
+async function jsonAppend(filePath, charcode, str){
+  try{
+    const fd = await fs.promises.open(filePath, 'r+');
+    const stats = await fd.stat();
+    const fileSize = stats.size;
+    const buffer = Buffer.alloc(1);
+    let position = fileSize-1;
+    while (position >= 0) {
+      await fd.read(buffer, 0, 1, position);
+      if (buffer[0] === charcode) break;
+    }
+    let endS = String.fromCharCode(charcode);
+    if(position<0){//re-write whole file
+      str = String.fromCharCode(charcode-2)+str+endS;
+      position = 0;
+    }else
+      str = ","+str+endS;
+    await fd.truncate(position);
+    const buf = Buffer.from(str);
+    await fd.write(buf, 0, buf.length, position);
+    await fd.close();
+  }catch(e){console.log(e)}
 }

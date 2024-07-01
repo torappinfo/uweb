@@ -1,4 +1,4 @@
-{"version":"1.0.51",
+{"version":"1.0.52",
   "name": "ebrowser",
   "description": "The keyboard-friendly minimal suckless web browser",
   "main": "webview.js",

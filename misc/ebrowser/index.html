@@ -56,6 +56,7 @@ You should have received a copy of the GNU General Public License along with thi
   }
 </style>
 <script>
+  const { ipcRenderer } = require('electron');
   const fs = require('fs');
   const path = require('path');
   const readline = require('readline');
@@ -352,7 +353,7 @@ You should have received a copy of the GNU General Public License along with thi
     return se.replace('%s',query);
   }
   function coloncommand(q){
-    document.title = q;
+    ipcRenderer.send("command",q);
   }
   function coloncommand_render(cmd){
     args = cmd.substring(1).split(/\s+/);
