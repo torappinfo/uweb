@@ -531,13 +531,13 @@ You should have received a copy of the GNU General Public License along with thi
   function internalLink(url){
     let cmd = url.charCodeAt(2);
     let subcmd = url.charCodeAt(3);
-    let iColon = url.indexOf(':',2);
     switch(cmd){
     case 48://'0' i:0
       switch(subcmd){
       case 47://'/' i:0/
         if(106===url.charCodeAt(4) && 115===url.charCodeAt(5) && 47===url.charCodeAt(6)){
           //i:0/js/xx:[url]
+          let iColon = url.indexOf(':',7);
           let fname = url.slice(4,iColon);
           let pname = path.join(__dirname,fname);
           if(fs.existsSync(pname)){
@@ -551,7 +551,9 @@ You should have received a copy of the GNU General Public License along with thi
             })();
           }
         }
+        return;
       case 48:  //i:00
+      {
         let iColon = url.indexOf(':',5);
         let endS;
         let is = url.indexOf('%s',iColon+1);
@@ -563,6 +565,8 @@ You should have received a copy of the GNU General Public License along with thi
         let str = '"'+url.slice(4,iColon)+'":"'+url.substring(iColon+1)+
           endS;
         jsonAppend(pname,125,str);
+      }
+      return;
       default:
       }
     }
