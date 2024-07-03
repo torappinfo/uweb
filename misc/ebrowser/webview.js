@@ -68,7 +68,8 @@ async function createWindow () {
     let json = await fs.promises.readFile(path.join(__dirname,'uas.json'), 'utf8');
     useragents = JSON.parse(json);
   } catch (e){console.log(e)}
-  
+
+  protocol.handle("i",(req)=>{return null;});
   await (async ()=>{
     try{
       const readInterface = readline.createInterface ({
@@ -176,11 +177,7 @@ app.on ('web-contents-created', (event, contents) => {
     contents.setWindowOpenHandler(cbWindowOpenHandler);
     contents.on('context-menu',onContextMenu);
     contents.on('page-title-updated',cbTitleUpdate);
-    //contents.on('console-message',cbConsoleMsg);
-    //contents.on('focus', ()=>{cbFocus(contents)});
-    //contents.on('blur',()=>{cbBlur()});
     contents.session.webRequest.onBeforeRequest(interceptRequest);
-    //contents.on('did-finish-load',()=>{cbFinishLoad(contents)});
   }
 });
 
@@ -312,24 +309,16 @@ function cbConsoleMsg(e, level, msg, line, sourceid){
   console.log(msg);
 }
 
-function cbFocus(webContents){
-  let js = "if(focusMesg){let m=focusMesg;focusMesg=null;m}";
-  win.webContents.executeJavaScript(js,false).then((r)=>{
-    //focusMesg as js code
-    console.log(r);
-    if(r) webContents.executeJavaScript(r,false);
-  });
-}
-
 function interceptRequest(details, callback){
-  if(!bJS && details.url.endsWith(".js")){
+  let url = details.url;
+  if(58===url.charCodeAt(1) || (!bJS && url.endsWith(".js"))){
     callback({ cancel: true });
     return;
   }
   do {
     if(gredirect || !bRedirect ||(details.resourceType !== 'mainFrame' &&
                      details.resourceType !== 'subFrame')) break;
-    let oURL = new URL(details.url);
+    let oURL = new URL(url);
     let domain = oURL.hostname;
     let newUrl;
     try{
