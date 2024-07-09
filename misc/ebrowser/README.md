@@ -99,6 +99,7 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 - "mapkeys.json": keys-addressbarCommands pairs. The addressbar commands are multiple lines of address bar command separated by "\n".
 - "proxy.json": name-[ProxyConfig](https://www.electronjs.org/docs/latest/api/structures/proxy-config) pairs
 - "uas.json" : name-useragent pairs
+- "menu.json": array of strings for [user-defined menus](https://jamesfengcao.gitlab.io/uweb/en/urls/index.html). The array has submenu name and address bar commands alternately.
 - "download.json" : array of strings to define buttons for downloading dialog. The even-indexed strings are texts to show on the button. The odd-indexed strings are address bar commands with "%u" as the downloaded url.
 
 #### Javascript at three levels

@@ -22,5 +22,6 @@
   "csdn":"i:0/js/s2ta.js:https://chat.csdn.net?%s",
   "bdc":"i:0/js/s2editable.js:https://chat.baidu.com/?%s",
   "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
+  "fl":"https://felo.ai/search?q=%s",
   "bd":"https://baidu.com/s?wd=%s"
 }

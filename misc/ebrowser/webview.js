@@ -27,19 +27,20 @@ else {
       createWindow();
   })
 }
+Menu.setApplicationMenu(null);
+const fs = require('fs');
+const path = require('path')
 var translateRes;
 {
   let langs = app.getPreferredSystemLanguages();
-  if(langs.length==0 || langs[0].startsWith('en') || !initTranslateRes(langs[0]))
+  if(langs.length==0 || langs[0].startsWith('en'))
     topMenu();
   else
-    Menu.setApplicationMenu(null);
+    initTranslateRes(langs[0]);
 }
 
 var repositoryurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
-const fs = require('fs');
 const readline = require('readline');
-const path = require('path')
 const process = require('process')
 var gredirects = [];
 var gredirect;
@@ -401,8 +402,28 @@ function onContextMenu(event, params){
   contextMenu.popup();
 }
 
-function topMenu(){
-  const menuTemplate = [
+async function topMenu(){
+  const menuTemplate = [];
+  try {
+    let json = await fs.promises.readFile(path.join(__dirname,'menu.json'), 'utf8');
+    let menus = JSON.parse(json);
+    if(menus.length>1){
+      let submenu = [];
+      for(let i=0;i<menus.length-1; i=i+2){
+        let cmd = menus[i+1];
+        let js = `handleQuery("${cmd}")`;
+        submenu.push({
+          label: menus[i], click: ()=>{
+            win.webContents.executeJavaScript(js,false);
+          }});
+      }
+      menuTemplate.push({
+        label: translate('Tools'),
+        submenu: submenu,
+      });
+    }
+  }catch(e){console.log(e)}
+  menuTemplate.push(
     {
       label: translate('Edit'),
       submenu: [
@@ -498,7 +519,7 @@ if(e)e.blur();try{tabs.children[iTab].stopFindInPage('clearSelection')}catch(er)
 
       ],
     },
-  ];
+  );
   const menu = Menu.buildFromTemplate(menuTemplate);
   Menu.setApplicationMenu(menu);
 }
@@ -649,20 +670,16 @@ function help(){
   win.webContents.executeJavaScript(js,false)
 }
 
-function initTranslateRes(lang){
+async function initTranslateRes(lang){
   let basename=path.join(__dirname,"translate.");
   let fname = basename+lang;
   if(!fs.existsSync(fname))
     fname = basename+lang.slice(0,2);
-  if(!fs.existsSync(fname)) return false;
-  (async ()=>{
-    try {
-      let json = await fs.promises.readFile(fname,'utf8');
-      translateRes = JSON.parse(json);
-    } catch (e){}
-    topMenu();
-  })();
-  return true;
+  try {
+    let json = await fs.promises.readFile(fname,'utf8');
+    translateRes = JSON.parse(json);
+  } catch (e){}
+  topMenu();
 }
 
 function translate(str){
