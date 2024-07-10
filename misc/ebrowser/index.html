@@ -576,6 +576,13 @@ You should have received a copy of the GNU General Public License along with thi
         jsonAppend(pname,93,str);
       }
       return;
+      case 50: //i:02
+      {
+        let pname = path.join(__dirname,"uas.json");
+        let str = '"'+name+'":"'+rurl+'"\n';
+         jsonAppend(pname,125,str);
+      }
+      return;
       default:
       }
     }

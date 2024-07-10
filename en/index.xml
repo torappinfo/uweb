@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jul 2024 16:02:27 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 11:21:12 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection/processing</title>
@@ -182,6 +182,13 @@
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/en/termux/</guid>
       <description>Only the termux versions provided along with uweb browser can work seamlessly. For android 10+, please install termux before installing uweb browser. If uweb is already installed, users can uninstall it first, then install termux and reinstall uweb browser.&#xA;Termux bookmarks Long pressing the following links then either &amp;quot;commands&amp;quot;-&amp;gt;&amp;quot;bookmark&amp;quot; to add bookmarks or &amp;quot;open in new tab&amp;quot; to execute.&#xA;GNU bc (basic calculator)&#xA;bc with all extensions&#xA;Click the following links to install termux configurations: .</description>
+    </item>
+    <item>
+      <title>User agents</title>
+      <link>/en/useragents/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/en/useragents/</guid>
+      <description>Clicking the following links to add user agents with uweb browser or ebrowser.&#xA;Edge for android&#xA;Edge for windows</description>
     </item>
     <item>
       <title>Long pressed link menu</title>
