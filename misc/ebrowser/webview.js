@@ -52,6 +52,7 @@ var proxies = {};
 var proxy;
 var useragents = {};
 var downloadMenus; //[]
+var selectMenus = [];
 var defaultUA =
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" +
     process.versions.chrome +" Safari/537.36";
@@ -125,6 +126,13 @@ async function createWindow () {
     }catch (e){console.log(e)}
   });
 
+  fs.readFile(path.join(__dirname,'select.json'), 'utf8', (err, jsonStr) => {
+    if (err) return;
+    try {
+      selectMenus = JSON.parse(jsonStr);
+    }catch (e){console.log(e)}
+  });
+
   win.webContents.on('page-title-updated',(event,cmd)=>{
     addrCommand(cmd);
   });
@@ -134,7 +142,7 @@ async function createWindow () {
     if(!downloadMenus) return;
     let buttons = ["OK", "Cancel", translate("Copy")];
     buttons.push(downloadMenus.filter((item, index) => (index&1) === 0));
-    const button = dialog.showMessageBoxSync(mainWindow, {
+    const button = dialog.showMessageBoxSync(win, {
       "type": "question",
       "title": translate("Download"),
       "message":  `Do you want to download the file?`,
@@ -151,7 +159,7 @@ async function createWindow () {
       break;
     default:
       let cmd = downloadMenus[2*button-5].replace('%u',item.getURL());
-      let js = `handleQuery(\`${cmd}\`)`;
+      let js = `handleQueries(\`${cmd}\`)`;
       win.webContents.executeJavaScript(js,false);
     }
     e.preventDefault();
@@ -348,8 +356,20 @@ function cbWindowOpenHandler(details){
 function cbTitleUpdate(event,title){
   win.setTitle(title);
 }
+function menuSelection(menuTemplate, text){
+  for(let i=0; i<selectMenus.length-1;i++){
+    menuTemplate.push({
+      label: selectMenus[i],
+      click: () => {
+        let cmd = selectMenus[i+1].replace('%s',text);
+        let js = `handleQueries(\`${cmd}\`)`;
+        win.webContents.executeJavaScript(js,false);
+      }
+    });
+  }
+}
 function menuArray(labelprefix, linkUrl){
-  const menuTemplate = [
+  let menuTemplate = [
     {
       label: labelprefix+translate('Open'),
       click: () => {
@@ -375,7 +395,7 @@ function menuArray(labelprefix, linkUrl){
         label: labelprefix+downloadMenus[i],
         click: () => {
           let cmd = downloadMenus[i+1].replace('%u',linkUrl);
-          let js = `handleQuery(\`${cmd}\`)`;
+          let js = `handleQueries(\`${cmd}\`)`;
           win.webContents.executeJavaScript(js,false);
         }
       });
@@ -395,6 +415,8 @@ function onContextMenu(event, params){
   }else if((url=params.srcURL)){
     mTemplate.push({label:url,enabled:false});
     mTemplate.push.apply(mTemplate,menuArray("src: ",url));
+  }else if((url=params.selectionText)){
+    menuSelection(mTemplate,url);
   }else
     return;
 
@@ -411,7 +433,7 @@ async function topMenu(){
       let submenu = [];
       for(let i=0;i<menus.length-1; i=i+2){
         let cmd = menus[i+1];
-        let js = `handleQuery("${cmd}")`;
+        let js = `handleQueries("${cmd}")`;
         submenu.push({
           label: menus[i], click: ()=>{
             win.webContents.executeJavaScript(js,false);

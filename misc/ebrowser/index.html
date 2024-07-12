@@ -345,8 +345,7 @@ You should have received a copy of the GNU General Public License along with thi
       setTimeout(()=>{
         if(lastKeys.length != keyLen) return;
         lastKeys = null;
-        for(var cmd of cmds.split("\n"))
-          handleQuery(cmd);
+        handleQueries(cmds);
       }, 500);
     }
   }
@@ -586,6 +585,10 @@ You should have received a copy of the GNU General Public License along with thi
       default:
       }
     }
+  }
+  function handleQueries(cmds){
+    for(var cmd of cmds.split("\n"))
+      handleQuery(cmd);
   }
 async function jsonAppend(filePath, charcode, str){
   let fd;

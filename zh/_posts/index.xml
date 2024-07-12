@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 29 Jun 2024 22:26:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 10:49:39 +0800</lastBuildDate>
     <atom:link href="/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作选中（富）文本／元素</title>
@@ -132,7 +132,7 @@
       <link>/zh/useragents/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/zh/useragents/</guid>
-      <description>超微浏览器下点击配置链接可自动添加浏览器标识，强制清空后台重启后可用。&#xA;Edge for android&#xA;Edge for windows&#xA;更多标识</description>
+      <description>超微浏览器/ebrowser下点击配置链接可自动添加浏览器标识，强制清空后台重启后可用。&#xA;Edge for android&#xA;Edge for windows&#xA;更多标识</description>
     </item>
     <item>
       <title>安卓系统出错诊断</title>

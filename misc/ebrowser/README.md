@@ -4,7 +4,7 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - lightweight (less than 20k bytes) without bundled electron.
 - much less memory footprint than edge/chrome browser and highly performant.
 - keyboard friendly with vim-style keymaps and command line support in address bar.
-- [global redirection](https://uweb.surge.sh/en/redirect/index.html#) to bypass censorship.
+- <a href="https://uweb.surge.sh/en/redirect/index.html#" onclick="if(notRepo()){location='../redirect/index.html#';return false;}">global redirection</a> to bypass censorship.
 - user CSS/JS at will. Ex. pressing "md" in no-focus mode to preview markdown file.
 - global CSS/JS for all sites at will.
 - CSS/JS for domains, similar to [uweb](https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html), but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.
@@ -92,15 +92,17 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 
 #### Configuration files
 - "config": lines of address bar commands.
-- "search.json": [search engines](https://jamesfengcao.gitlab.io/uweb/en/search/index.html) as shortcut-queryUrl pairs, where "%s" would be replaced by search query.
+- "search.json": <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engines</a> as shortcut-queryUrl pairs, where "%s" would be replaced by search query.
 - "default.autoc": predefined strings for address bar auto completion.
 - "gredirect.json": global redirection urls as array of urls
 - "redirect.json": domain-replacementDomain pairs, default to be applied.
 - "mapkeys.json": keys-addressbarCommands pairs. The addressbar commands are multiple lines of address bar command separated by "\n".
 - "proxy.json": name-[ProxyConfig](https://www.electronjs.org/docs/latest/api/structures/proxy-config) pairs
-- "uas.json" : name-useragent pairs
-- "menu.json": array of strings for [user-defined menus](https://jamesfengcao.gitlab.io/uweb/en/urls/index.html). The array has submenu name and address bar commands alternately.
-- "download.json" : array of strings to define buttons for downloading dialog. The even-indexed strings are texts to show on the button. The odd-indexed strings are address bar commands with "%u" as the downloaded url.
+- "uas.json" : name-<a href="https://jamesfengcao.gitlab.io/uweb/en/useragents/index.html" onclick="if(notRepo()){location='../useragents/index.html#';return false;}">useragent</a> pairs.
+- Customized menus: json files as array of strings with menuitem name and address bar commands alternately.
+  - "menu.json": array of strings for <a href="https://jamesfengcao.gitlab.io/uweb/en/urls/index.html" onclick="if(notRepo()){location='../urls/index.html#';return false;}">user-defined menus</a>. The array has submenu name and address bar commands alternately. The odd-indexed strings are address bar commands with "%u" as the downloaded url.
+  - "select.json": to define menus for text selections. The odd-indexed strings are address bar commands with "%s" as the text selection.
+  - "download.json" : array of strings to define context menu and buttons for downloading dialog. The even-indexed strings are texts to show on the button. The odd-indexed strings are address bar commands with "%u" as the downloaded url.
 
 #### Javascript at three levels
 - Web page: url like "javascript:" or bookmarklet command ":bml" runs in web page.
