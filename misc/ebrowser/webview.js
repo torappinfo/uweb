@@ -140,29 +140,20 @@ async function createWindow () {
   session.defaultSession.on("will-download", (e, item) => {
     //item.setSavePath(save)
     if(!downloadMenus) return;
-    let buttons = ["OK", "Cancel", translate("Copy")];
-    buttons.push(downloadMenus.filter((item, index) => (index&1) === 0));
+    let buttons = ["OK", "Cancel", translate("More")];
+    //buttons.push(downloadMenus.filter((item, index) => (index&1) === 0));
     const button = dialog.showMessageBoxSync(win, {
       "type": "question",
       "title": translate("Download"),
-      "message":  `Do you want to download the file?`,
+      "message":  `Proceed to download?`,
       "buttons": buttons,
       "defaultId": 0,
+      cancelId: 1
     });
-    switch(button) {
-    case 0:
-      return;
-    case 1:
-      break;
-    case 2:
-      clipboard.writeText(item.getURL());
-      break;
-    default:
-      let cmd = downloadMenus[2*button-5].replace('%u',item.getURL());
-      let js = `handleQueries(\`${cmd}\`)`;
-      win.webContents.executeJavaScript(js,false);
-    }
+    if(0===button) return;
     e.preventDefault();
+    if(1===button) return;
+    downloadContextMenu(item.getURL());
   });
 
   win.webContents.on('console-message',cbConsoleMsg);
@@ -368,6 +359,18 @@ function menuSelection(menuTemplate, text){
     });
   }
 }
+function menuDownload(menuTemplate, labelprefix, linkUrl){
+  for(let i=0; i<downloadMenus.length-1;i++){
+    menuTemplate.push({
+      label: labelprefix+downloadMenus[i],
+      click: () => {
+        let cmd = downloadMenus[i+1].replace('%u',linkUrl);
+        let js = `handleQueries(\`${cmd}\`)`;
+        win.webContents.executeJavaScript(js,false);
+      }
+    });
+  }
+}
 function menuArray(labelprefix, linkUrl){
   let menuTemplate = [
     {
@@ -389,18 +392,8 @@ function menuArray(labelprefix, linkUrl){
       }
     },
   ];
-  if(downloadMenus){
-    for(let i=0; i<downloadMenus.length-1;i++){
-      menuTemplate.push({
-        label: labelprefix+downloadMenus[i],
-        click: () => {
-          let cmd = downloadMenus[i+1].replace('%u',linkUrl);
-          let js = `handleQueries(\`${cmd}\`)`;
-          win.webContents.executeJavaScript(js,false);
-        }
-      });
-    }
-  }
+  if(downloadMenus)
+    menuDownload(menuTemplate, labelprefix, linkUrl);
   return menuTemplate;
 }
 
@@ -692,6 +685,20 @@ function help(){
   win.webContents.executeJavaScript(js,false)
 }
 
+async function downloadContextMenu(url){
+  let mTemplate =
+      [{label:url,enabled:false},
+       {
+         label: translate('Copy'),
+         click: () => {
+           clipboard.writeText(url);
+         }
+       },
+      ];
+  menuDownload(mTemplate, "", url);
+  const contextMenu = Menu.buildFromTemplate(mTemplate);
+  contextMenu.popup();
+}
 async function initTranslateRes(lang){
   let basename=path.join(__dirname,"translate.");
   let fname = basename+lang;

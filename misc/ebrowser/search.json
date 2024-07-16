@@ -23,5 +23,7 @@
   "bdc":"i:0/js/s2editable.js:https://chat.baidu.com/?%s",
   "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
   "fl":"https://felo.ai/search?q=%s",
+  "bg":"https://bagoodex.io/chat?q=%s",
+  "bc":"i:0/js/s2ta.js:https://www.baichuan-ai.com/chat?%s",
   "bd":"https://baidu.com/s?wd=%s"
 }
