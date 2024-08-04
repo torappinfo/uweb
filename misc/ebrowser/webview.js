@@ -137,23 +137,14 @@ async function createWindow () {
     addrCommand(cmd);
   });
 
-  session.defaultSession.on("will-download", (e, item) => {
+  session.defaultSession.on("will-download", async (e, item) => {
     //item.setSavePath(save)
     if(!downloadMenus) return;
-    let buttons = ["OK", "Cancel", translate("More")];
-    //buttons.push(downloadMenus.filter((item, index) => (index&1) === 0));
-    const button = dialog.showMessageBoxSync(win, {
-      "type": "question",
-      "title": translate("Download"),
-      "message":  `Proceed to download?`,
-      "buttons": buttons,
-      "defaultId": 0,
-      cancelId: 1
-    });
-    if(0===button) return;
     e.preventDefault();
-    if(1===button) return;
-    downloadContextMenu(item.getURL());
+    let menuT = downloadContextMenuTemp(item.getURL());
+    let button = await promiseContextMenu(menuT);
+    if(-1===button) return;
+    e.preventDefault();
   });
 
   win.webContents.on('console-message',cbConsoleMsg);
@@ -461,8 +452,10 @@ async function topMenu(){
           win.webContents.executeJavaScript(js,false)
         }},
         { label: translate('getURL'), accelerator: 'Ctrl+G', click: ()=>{
-          let js="{let q=document.forms[0].q;q.focus();q.value=tabs.children[iTab].getURL()}"
-          win.webContents.executeJavaScript(js,false)
+          let js="{let q=document.forms[0].q;q.focus();q.value=tabs.children[iTab].getURL();getWinTitle()}"
+          win.webContents.executeJavaScript(js,false).then((r)=>{
+            win.setTitle(r);
+          });
         }},
         { label: translate('Select'), accelerator: 'Ctrl+L', click:()=>{
           win.webContents.executeJavaScript("document.forms[0].q.select()",false);
@@ -685,9 +678,10 @@ function help(){
   win.webContents.executeJavaScript(js,false)
 }
 
-async function downloadContextMenu(url){
+function downloadContextMenuTemp(url){
   let mTemplate =
       [{label:url,enabled:false},
+       {label: translate('Download')},
        {
          label: translate('Copy'),
          click: () => {
@@ -696,8 +690,7 @@ async function downloadContextMenu(url){
        },
       ];
   menuDownload(mTemplate, "", url);
-  const contextMenu = Menu.buildFromTemplate(mTemplate);
-  contextMenu.popup();
+  return mTemplate;
 }
 async function initTranslateRes(lang){
   let basename=path.join(__dirname,"translate.");
@@ -715,4 +708,13 @@ function translate(str){
   let result;
   if(translateRes && (result=translateRes[str])) return result;
   return str;
+}
+
+function promiseContextMenu(menuTemplate) {
+  return new Promise((resolve, reject) => {
+    menuTemplate[1].click = () => resolve(-1);
+    const menu = Menu.buildFromTemplate(menuTemplate);
+    menu.on('menu-will-close', () => resolve(-2));
+    menu.popup();
+  });
 }
