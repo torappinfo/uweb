@@ -19,11 +19,12 @@
   "360":"https://so.360.com/s?q=%s",
   "tg":"https://www.tiangong.cn/result?q=%s",
   "cg":"i:0/js/s2ta.js:https://chatglm.cn/main/detail?%s",
-  "csdn":"i:0/js/s2ta.js:https://chat.csdn.net?%s",
   "bdc":"i:0/js/s2editable.js:https://chat.baidu.com/?%s",
   "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
   "fl":"https://felo.ai/search?q=%s",
   "bg":"https://bagoodex.io/chat?q=%s",
   "bc":"i:0/js/s2ta.js:https://www.baichuan-ai.com/chat?%s",
+  "xa":"i:0/js/s2ta.js:https://www.xanswer.com/?%s",
+  "wa":"https://www.wolframalpha.com/input?i=%s",
   "bd":"https://baidu.com/s?wd=%s"
 }

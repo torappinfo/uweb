@@ -53,9 +53,17 @@ var proxy;
 var useragents = {};
 var downloadMenus; //[]
 var selectMenus = [];
-var defaultUA =
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" +
+var defaultUA;
+{
+  let sys = "X11; Linux x86_64";
+  if (process.platform === "win32") 
+    sys = "Window NT 10.0; Win64; x64";
+  else if (process.platform === "darwin")
+    sys = "Macintosh; Intel Mac OS X 10_15_7";
+  defaultUA =
+    `Mozilla/5.0 (${sys}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/` +
     process.versions.chrome +" Safari/537.36";
+}
 app.userAgentFallback = defaultUA;
 
 fs.readFile(path.join(__dirname,'redirect.json'), 'utf8', (err, jsonString) => {
