@@ -529,12 +529,13 @@ You should have received a copy of the GNU General Public License along with thi
   }
   function internalLink(url){
     let cmd = url.charCodeAt(2);
-    let subcmd = url.charCodeAt(3);
-    let iColon = url.indexOf(':',5);
-    let name = decodeURIComponent(url.slice(4,iColon));
-    let rurl = url.substring(iColon+1);
     switch(cmd){
     case 48://'0' i:0
+    {
+      let subcmd = url.charCodeAt(3);
+      let iColon = url.indexOf(':',5);
+      let name = decodeURIComponent(url.slice(4,iColon));
+      let rurl = url.substring(iColon+1);
       switch(subcmd){
       case 47://'/' i:0/
         if(106===url.charCodeAt(4) && 115===url.charCodeAt(5) && 47===url.charCodeAt(6)){
@@ -584,6 +585,11 @@ You should have received a copy of the GNU General Public License along with thi
       return;
       default:
       }
+    }
+    return;
+    case 113: //i:q for multiple queries
+      handleQueries(url.substring(3));
+      return;
     }
   }
   function handleQueries(cmds){

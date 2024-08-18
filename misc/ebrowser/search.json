@@ -26,5 +26,6 @@
   "bc":"i:0/js/s2ta.js:https://www.baichuan-ai.com/chat?%s",
   "xa":"i:0/js/s2ta.js:https://www.xanswer.com/?%s",
   "wa":"https://www.wolframalpha.com/input?i=%s",
+  "yw":"i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new",
   "bd":"https://baidu.com/s?wd=%s"
 }
