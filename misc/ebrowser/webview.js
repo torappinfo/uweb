@@ -148,7 +148,6 @@ async function createWindow () {
   session.defaultSession.on("will-download", async (e, item) => {
     //item.setSavePath(save)
     if(!downloadMenus) return;
-    e.preventDefault();
     let menuT = downloadContextMenuTemp(item.getURL());
     let button = await promiseContextMenu(menuT);
     if(-1===button) return;
@@ -266,9 +265,11 @@ function addrCommand(cmd){
     case "ur":
       bRedirect = true; return;
     case "ua":
-      if(args.length==2)
-        session.defaultSession.setUserAgent(useragents[args[1]]);
-      else
+      if(args.length==2){
+        let ua = useragents[args[1]];
+        if(ua)
+          session.defaultSession.setUserAgent(ua);
+      }else
         session.defaultSession.setUserAgent(defaultUA);
       return;
     case "update":

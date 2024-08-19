@@ -106,11 +106,17 @@ Clipboard2QR needs libqrencode.</p>
 <li>&quot;clip/text/html&quot; : clipboard as input, and the command output is processed as &quot;text/html&quot;.</li>
 <li>&quot;termux/*&quot;: command line is executed under termux.</li>
 <li>&quot;/uweb&quot;: the command output is processed as <a href="../links/index.html#">links</a>.</li>
+<li>&quot;q&quot;: quit the app and then execute the command. It is useful for complete cleanup operations.</li>
+<li>empty:
+<ul>
+<li>if the first or second character of [command line] is ':', then the [command line] executes as <a href="../links/index.html#">internal link</a>.</li>
+</ul>
+</li>
 </ul>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add ending # to /index.html<br>
+<p>Last Modified: 18 August 2024<br>
+uweb: user commands to use mimetype &#39;q&#39; to quit app<br>
 <pre></pre>
 </p>
 
