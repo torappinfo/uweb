@@ -49,7 +49,7 @@
   </ul>
   <p>Click the following links to install commands with <a href="../index.html#">uweb browser</a>. <b>Force exit and re-launch the app</b>, then long press the button with clock icon to popup the command menu.</p>
 <p>Configuration file &quot;default.cmds&quot; examples:</p>
-<p><a href="i:03Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
+<p><a href="i:03Quit & clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">Quit &amp; clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
 <p><a href="i:03Clear database::rm -rf /data/data/info.torapp.uweb/databases/*">Clear database::rm -rf /data/data/info.torapp.uweb/databases/*</a></p>
 <p><a href="i:03Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i>a.tmp;mv a.tmp default.autoc;>query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc">Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&gt;a.tmp;mv a.tmp default.autoc;&gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc</a></p>
 <p><a href="i:03Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache">Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache</a></p>
@@ -115,8 +115,8 @@ Clipboard2QR needs libqrencode.</p>
 </ul>
 
 </div>
-<p>Last Modified: 18 August 2024<br>
-uweb: user commands to use mimetype &#39;q&#39; to quit app<br>
+<p>Last Modified: 20 August 2024<br>
+add mimetype &#39;q&#39; for quit<br>
 <pre></pre>
 </p>
 

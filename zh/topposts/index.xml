@@ -6,7 +6,7 @@
     <description>Recent content in Topposts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 19 Aug 2024 11:03:25 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 08:59:04 +0800</lastBuildDate>
     <atom:link href="/zh/topposts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浏览器多搜索引擎一键直达</title>
@@ -34,7 +34,7 @@
       <link>/zh/cmds/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/zh/cmds/</guid>
-      <description>超微浏览器下点击配置链接可自动添加常用命令，强制清空后台重启后长按历史按钮可用。&#xA;打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等&#xA;配置文件&amp;quot;default.cmds&amp;quot;示例：&#xA;清空浏览数据:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#xA;清空应用数据库::rm -rf /data/data/info.torapp.uweb/databases/*&#xA;本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb&#xA;本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.&#xA;合并查询历史至自动填充:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc&#xA;清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache&#xA;清空logcat::logcat -c&#xA;输出logcat.log::logcat -d &amp;gt; logcat.log&#xA;复制cookie:/clip:printf &#39;%c&#39;&#xA;tgz install::toybox tar -xzf %f -C /&#xA;以下命令需修改接收端IP定制。另外，发送消息前接收端需首先执行“等待网络消息”命令。&#xA;发送剪贴板:clip/uweb:printf &#39;i:5ji:5b&#39;;cat&#xA;发送url::printf &#39;%u&#39;|/system/bin/toybox nc 192.168.2.155 1500&#xA;发送url(书签)::printf &#39;i:51../home5:i:0mc16:%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
+      <description>超微浏览器下点击配置链接可自动添加常用命令，强制清空后台重启后长按历史按钮可用。&#xA;打开剪贴板内链接、代码编辑器、淘宝比价 (淘宝app内分享复制链接后在超微内直接执行此命令)、本地markdown显示（支持数学公式、各类图表）等&#xA;配置文件&amp;quot;default.cmds&amp;quot;示例：&#xA;退出并清空数据:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#xA;清空应用数据库::rm -rf /data/data/info.torapp.uweb/databases/*&#xA;本地备份配置::toybox cp -r /data/data/info.torapp.uweb/files /sdcard/Download/uweb&#xA;本地恢复配置::toybox cp -r /sdcard/Download/uweb/* /data/data/info.torapp.uweb/files/.&#xA;合并查询历史至自动填充:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc&#xA;清空缓存::toybox rm -rf /data/data/info.torapp.uweb/cache&#xA;清空logcat::logcat -c&#xA;输出logcat.log::logcat -d &amp;gt; logcat.log&#xA;复制cookie:/clip:printf &#39;%c&#39;&#xA;tgz install::toybox tar -xzf %f -C /&#xA;以下命令需修改接收端IP定制。另外，发送消息前接收端需首先执行“等待网络消息”命令。&#xA;发送剪贴板:clip/uweb:printf &#39;i:5ji:5b&#39;;cat&#xA;发送url::printf &#39;%u&#39;|/system/bin/toybox nc 192.168.2.155 1500&#xA;发送url(书签)::printf &#39;i:51../home5:i:0mc16:%u&#39;|/system/bin/toybox nc 192.168.2.155 1500</description>
     </item>
     <item>
       <title>运行javascript脚本</title>

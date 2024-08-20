@@ -6,7 +6,7 @@
     <description>Recent content in Topposts on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Aug 2024 18:03:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 09:00:02 +0800</lastBuildDate>
     <atom:link href="/en/topposts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search engines</title>
@@ -41,7 +41,7 @@
       <link>/en/cmds/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/cmds/</guid>
-      <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.&#xA;Configuration file &amp;quot;default.cmds&amp;quot; examples:&#xA;Clear data::toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#xA;Clear database::rm -rf /data/data/info.torapp.uweb/databases/*&#xA;Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc&#xA;Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache&#xA;Clear logcat::logcat -c</description>
+      <description>Click the following links to install commands with uweb browser. Force exit and re-launch the app, then long press the button with clock icon to popup the command menu.&#xA;Configuration file &amp;quot;default.cmds&amp;quot; examples:&#xA;Quit &amp;amp; clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#xA;Clear database::rm -rf /data/data/info.torapp.uweb/databases/*&#xA;Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&amp;gt;a.tmp;mv a.tmp default.autoc;&amp;gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc&#xA;Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache</description>
     </item>
     <item>
       <title>Execute javascript codes</title>
