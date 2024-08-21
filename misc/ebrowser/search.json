@@ -27,5 +27,6 @@
   "wa":"https://www.wolframalpha.com/input?i=%s",
   "yw":"i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new",
   "zdm":"http://search.smzdm.com/?c=youhui&s=%s",
+  "android":"http://cn.bing.com/search?q=site:developer.android.google.cn/reference+%s",
   "bd":"https://baidu.com/s?wd=%s"
 }

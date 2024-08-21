@@ -60,8 +60,8 @@
 <li>target device: install termux app.</li>
 <li>(optional)<a href="d::mkdir -p /data/user/0/com.termux/files/home/.termux;cd /data/user/0/com.termux/files;mkdir usr;cd home/.termux;ln -s /system/bin/sh shell:">fix termux quick crash with &quot;updateonly&quot; versions</a> by long click this link.</li>
 <li>both devices: launch termux and acquire wakelocks. uweb to checke option &quot;Use termux&quot; in UI configuration page for long time tranferring. Uweb itself does not hold any wakelock thus may have issues for huge data transmission.</li>
-<li>source device: uweb to visit <a href="files:///data/data/com.termux/files">termux folder</a> by long click, then long click &quot;usr&quot; folder to send to network.</li>
-<li>target device: uweb to visit <a href="files:///data/data/com.termux/files">termux folder</a> by long click, then long click &quot;right arrow&quot; button to receive from network.</li>
+<li>source device: uweb to visit <a href="file:///data/data/com.termux/files/">termux folder</a> by long click, then long click &quot;usr&quot; folder to send to network.</li>
+<li>target device: uweb to visit <a href="file:///data/data/com.termux/files/">termux folder</a> by long click, then long click &quot;right arrow&quot; button to receive from network.</li>
 </ul>
 <h5 id="using-ssh-to-copy">Using ssh to copy</h5>
 <ul>
@@ -76,8 +76,8 @@
 With <a href="https://github.com/rupa/z">z.sh</a> and <a href="https://github.com/shyiko/commacd">commacd</a>, user can reach any folder with few key stokes. Run &quot;v&quot; to launch uweb file manager on the current working directory, long click any file link to share.</p>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add js function in README<br>
+<p>Last Modified: 21 August 2024<br>
+fix types of files:// urls<br>
 <pre></pre>
 </p>
 

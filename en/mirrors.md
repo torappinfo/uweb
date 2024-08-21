@@ -10,7 +10,7 @@
 [agit](https://agit.ai/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [froggi](https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
-[gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html)
+[gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [pagure](https://pagure.io/uweb/raw/master/f/redirect.html#)
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/raw/master/redirect.html#)
 [jsdelivr](https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html#)
@@ -21,7 +21,6 @@
 [palemoon](https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [tilde](https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [dotclear](https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
-[mimetest](https://git.minetest.land/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [chapril](https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
@@ -53,7 +52,6 @@
 <a href="i:0m?:https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html ">palemoon</a>
 <a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a>
 <a href="i:0m?:https://git.dotclear.org/jamesfengcao/uweb/raw/branch/master/redirect.html">dotclear</a>
-<a href="i:0m?:https://git.minetest.land/jamesfengcao/uweb/raw/branch/master/redirect.html ">minetest</a>
 <a href="i:0m?:https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html">chapril</a>
 <a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html">cryto</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
@@ -84,7 +82,6 @@
 [palemoon](https://repo.palemoon.org/jamesfengcao/uweb/src/branch/master/README.md)
 [tilde](https://tildegit.org/jamesfengcao/uweb/src/branch/master/README.md)
 [dotclear](https://git.dotclear.org/jamesfengcao/uweb/src/branch/master/README.md)
-[mimetest](https://git.minetest.land/jamesfengcao/uweb/src/branch/master/README.md)
 [chapril](https://forge.chapril.org/jamesfengcao/uweb/src/branch/master/README.md)
 [cryto](https://git.cryto.net/jamesfengcao/uweb/src/branch/master/README.md)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/src/master/README.md)
