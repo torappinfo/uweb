@@ -19,14 +19,14 @@
       <link>/en/mirrors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/mirrors/</guid>
-      <description>Mirrors (for version 1040+) gitee&#xA;gitcode&#xA;gitcode&#xA;gitea&#xA;notabug&#xA;launchpad&#xA;framagit&#xA;agit&#xA;froggi&#xA;disroot&#xA;gitdab&#xA;pagure&#xA;bitbucket&#xA;jsdelivr&#xA;dagshub&#xA;gitgud&#xA;gitly&#xA;gitnet&#xA;palemoon&#xA;tilde&#xA;dotclear&#xA;chapril&#xA;cryto&#xA;antopie&#xA;bgithub&#xA;Mirrors (for all versions) 试验1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 gitly gitnet palemoon tilde dotclear chapril cryto antopie Repositories gitlab&#xA;sourceforge&#xA;github&#xA;bitbucket&#xA;codeberg&#xA;gitee&#xA;gitcode&#xA;gitcode</description>
+      <description>Mirrors (for version 1040+) gitee&#xA;gitcode&#xA;gitcode&#xA;gitea&#xA;notabug&#xA;launchpad&#xA;framagit&#xA;agit&#xA;froggi&#xA;disroot&#xA;gitdab&#xA;pagure&#xA;bitbucket&#xA;jsdelivr&#xA;dagshub&#xA;gitgud&#xA;gitly&#xA;gitnet&#xA;palemoon&#xA;tilde&#xA;cryto&#xA;antopie&#xA;bgithub&#xA;Mirrors (for all versions) 试验1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 gitly gitnet palemoon tilde cryto antopie Repositories gitlab&#xA;sourceforge&#xA;github&#xA;bitbucket&#xA;codeberg&#xA;gitee&#xA;gitcode&#xA;gitcode&#xA;atomgit&#xA;gitlink&#xA;gitgud&#xA;disroot</description>
     </item>
     <item>
       <title></title>
       <link>/en/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/readme/</guid>
-      <description>Uweb browser: minimal suckless web browser with unlimited power 中文&#xA;Amazon appstore&#xA;Galaxy.Store&#xA;Downloads&#xA;Uweb browser: downloads, plugins and tips&#xA;(Mirrors: gitlab codeberg repo 4everland fleek cyclic netlify surge kinsta zeabur deno bitbucket pages vercel render glitch More...)&#xA;Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux. Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.</description>
+      <description>Uweb browser: minimal suckless web browser with unlimited power 中文&#xA;Amazon appstore&#xA;Galaxy.Store&#xA;Downloads&#xA;Uweb browser: downloads, plugins and tips&#xA;(Mirrors: gitlab frama codeberg repo 4everland fleek cyclic netlify surge kinsta zeabur deno bitbucket pages vercel render glitch More...)&#xA;Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.</description>
     </item>
   </channel>
 </rss>

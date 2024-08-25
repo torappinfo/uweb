@@ -12,6 +12,18 @@
 
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
 
+[gitee](https://gitee.com/jamesfengcao/uweb/releases)
+
+[gitea](https://gitea.com/torappinfo/uweb/releases)
+
+[gitdab](https://gitdab.com/jamesfengcao/uweb/releases)
+
+[froggi](https://git.froggi.es/jamesfengcao/uweb/releases)
+
+[gitnet](https://gitnet.fr/jamesfengcao/uweb/releases)
+
+[tildegit](https://tildegit.org/jamesfengcao/uweb/releases)
+
 [pagure](https://releases.pagure.org/uwebapk/)
 
 [mcbebbs](http://pan.mcbebbs.cn/s/dJ4t8)
