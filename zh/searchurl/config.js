@@ -18,7 +18,7 @@ function save(){
   let d=document;let f=d.forms[0];
   let inputs = Array.from(f.querySelectorAll('input')).map(input => input.value);
   inputs.pop();
-  inputs.push('<script charset="utf-8" type="application/javascript" src="https://jamesfengcao.codeberg.page/zh/searchurl/config.js#"><\\/script>');
+  inputs.push('<script charset="utf-8" type="application/javascript" src="https://gitee.com/jamesfengcao/uweb/raw/master/zh/searchurl/config.js#"><\\/script>');
   let str = inputs.join('\\n');
   let url = 'i:b1保存配置%0A%0Ai:8lconfig.html%0Ai:0lconfig.html:'+btoa(str);
   d.location.href=url;
