@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Aug 2024 12:17:14 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 21:00:13 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text selection</title>
@@ -34,7 +34,7 @@
       <link>/en/tcron/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/en/tcron/</guid>
-      <description>crontab (with enhanced semantics) For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.&#xA;The sixth field in crontab file could be in the format of internal links. Specifically, &amp;quot;c:&amp;quot; to execute the following commands in termux and &amp;quot;!&amp;quot; to execute commands directly. If the sixth field is not in any of above formats, then the field will appear as the message of alarm clock.</description>
+      <description>crontab (with enhanced semantics) Some battery restrictions on android 13+ may disallow new instance of uweb browser by alarm events. Users can either keep uweb instance (no battery consumption) or remove the restriction for uweb.&#xA;For performance, the file &amp;quot;crontab&amp;quot; uses single space as field separator. Letters are not suppored currently. So use &amp;quot;1&amp;quot; for &amp;quot;January&amp;quot; and 2 for &amp;quot;Tuesday&amp;quot; etc.&#xA;The sixth field in crontab file could be in the format of internal links.</description>
     </item>
     <item>
       <title>Offline resources</title>

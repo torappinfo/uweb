@@ -60,14 +60,26 @@
 <h4 id="installing-for-windows-macos-and-linux">Installing (for Windows, MacOS and Linux)</h4>
 <h5 id="install-with-prebuilt-binaries">Install with prebuilt binaries</h5>
 <p>You can find prebuilt binaries <a href="https://github.com/torappinfo/ebrowser/releases">here</a>.</p>
-<h5 id="install-with-nodejs">Install with nodejs</h5>
-<pre><code>npm install electron
-npm install ebrowser
+<h5 id="install-ebrowser-and-electron-separatedly">Install ebrowser and electron separatedly</h5>
+<h6 id="install-ebrowser">Install ebrowser</h6>
+<p>Either download and unzip ebrowser package directly from any of npm mirror sites like <a href="https://npmmirror.com/package/ebrowser">npmmirror</a> or with nodejs by</p>
+<pre><code>npm install ebrowser
 </code></pre>
-<p>Run ebrowser</p>
+<p>OR</p>
+<pre><code>git clone https://github.com/torappinfo/ebrowser
+</code></pre>
+<p>OR &quot;git clone&quot;/download files directly from any of <a href="https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md">mirror repositories</a> and ebrowser is under the folder &quot;misc/ebrowser&quot;.</p>
+<h6 id="install-electron">Install electron</h6>
+<p>Before you can run ebrowser, you need to install electron either with nodejs by</p>
+<pre><code>npm install electron
+</code></pre>
+<p>OR download and unzip electron binary directly from <a href="https://github.com/electron/electron/releases">github</a> or mirrors like <a href="https://registry.npmmirror.com/binary.html?path=electron">npmmirror</a>.</p>
+<h6 id="run-ebrowser">Run ebrowser</h6>
 <pre><code>electron ~/node_modules/ebrowser
 </code></pre>
-<p>Later on, you can run &quot;npm install electron&quot; to update electron/chromium or &quot;npm install ebrowser&quot; to update ebrowser independently.</p>
+<p>OR</p>
+<pre><code>electron [the-path-of-folder-with-downloaded-ebrowser-files]
+</code></pre>
 <h5 id="update-app-quickly-without-updating-chromium">Update app quickly without updating chromium</h5>
 <p>Pressing &quot;Alt&quot; to show the menu bar and choose &quot;Check for updates&quot; under &quot;Help&quot;. OR</p>
 <p>Type &quot;:update&quot; in the address bar and press &quot;enter&quot; key to update.</p>
@@ -200,8 +212,8 @@ npm install ebrowser
 <p>You can copy or modify the code/program under the terms of the GPL3.0 or later versions.</p>
 
 </div>
-<p>Last Modified: 12 July 2024<br>
-reorg ebrowserreadme.md<br>
+<p>Last Modified: 27 August 2024<br>
+update ebrowserreadme.md<br>
 <pre></pre>
 </p>
 

@@ -529,10 +529,10 @@ You should have received a copy of the GNU General Public License along with thi
   }
   function internalLink(url){
     let cmd = url.charCodeAt(2);
+    let subcmd = url.charCodeAt(3);
     switch(cmd){
     case 48://'0' i:0
     {
-      let subcmd = url.charCodeAt(3);
       let iColon = url.indexOf(':',5);
       let name = decodeURIComponent(url.slice(4,iColon));
       let rurl = url.substring(iColon+1);
@@ -587,6 +587,32 @@ You should have received a copy of the GNU General Public License along with thi
       }
     }
     return;
+    case 112: //i:p[url]#[querystring] for http POST
+    {
+      let iQ = url.indexOf('#',12);
+      let data;
+      let rurl;
+      switch(subcmd){
+      case 49: //i:p1
+      {
+        if(iQ>4) {
+          rurl = url.substring(4,iQ);
+          data = [{
+            type: 'rawData',
+            bytes: Buffer.from(url.substring(iQ+1))
+          }];
+        }else{
+          rurl = url.substring(4);
+          data = [];
+        }
+      }
+      case 50: //i:p2[url]#[filePath] post request with local file
+        rurl = url.substring(4,iQ);
+        data = [{type: 'file', filePath:url.substring(iQ+1)}];
+      }
+      tabs.children[iTab].loadURL(rurl,{postData:data,extraHeaders:'Content-Type: application/x-www-form-urlencoded'});
+      return;
+    }
     case 113: //i:q for multiple queries
       handleQueries(url.substring(3));
       return;

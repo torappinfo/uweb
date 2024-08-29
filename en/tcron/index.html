@@ -48,6 +48,7 @@
     
   </ul>
   <h4 id="crontab-with-enhanced-semantics">crontab (with enhanced semantics)</h4>
+<p>Some battery restrictions on android 13+ may disallow new instance of uweb browser by alarm events. Users can either keep uweb instance (no battery consumption) or remove the restriction for uweb.</p>
 <p>For performance, the file &quot;crontab&quot; uses single space as field separator. Letters are not suppored currently. So use &quot;1&quot; for &quot;January&quot; and 2 for &quot;Tuesday&quot; etc.</p>
 <p>The sixth field in crontab file could be in the format of <a href="../links/index.html#">internal links</a>. Specifically,  &quot;c:&quot; to execute the following commands in termux and &quot;!&quot; to execute commands directly. If the sixth field is not in any of above formats, then the field will appear as the message of alarm clock.</p>
 <p>To make crontab more powerful, we changed the semantics as follows:<br>
@@ -83,8 +84,8 @@ tcron /sdcard/b &quot;rm -rf /sdcard/baidu/*;toybox touch /sdcard/b&quot; 720</p
 <p><a target="_self" href="i:0hdefault.rc:../searchurl/txt/default.rc">Install example default.rc file for termux</a></p>
 
 </div>
-<p>Last Modified: 8 April 2024<br>
-fix typos<br>
+<p>Last Modified: 27 August 2024<br>
+update ebrowserreadme.md<br>
 <pre></pre>
 </p>
 

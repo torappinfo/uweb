@@ -52,10 +52,10 @@
 2. 必须同时满足日期及星期的要求（功能增强），crontab标准只要求满足其中一个要求。</p>
 <p>文件&quot;crontab&quot;每行第六部分可为url或<a href="../links/index.html#">内部链接</a>，也可为&quot;c:&quot;通知termux执行后面命令; &quot;!&quot;直接执行命令。其余格式一律作为闹钟提醒时的伴随消息。</p>
 <p>文件&quot;crontab&quot;自动签到例子：<br>
-5 8,9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignIn<br>
-7 9 * * * i:a1http://m.bookschina.com/ActityDaily/AvSignInTakeQuan<br>
-6 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInApi?action=SignIn<br>
-8 9 * * * i:a1http://m.bookschina.com/UserCenter/SignInAward?index=1</p>
+5 8,9 * * * i:p1http://m.bookschina.com/ActityDaily/AvSignIn<br>
+7 9 * * * i:p1http://m.bookschina.com/ActityDaily/AvSignInTakeQuan<br>
+6 9 * * * i:p1http://m.bookschina.com/UserCenter/SignInApi#action=SignIn<br>
+8 9 * * * i:p1http://m.bookschina.com/UserCenter/SignInAward#index=1</p>
 <p>其中&quot;i:a1&quot;为对url发起&quot;post&quot;请求。</p>
 <h4 id="tcron">tcron</h4>
 <p>如果勾选“文件预处理”，则uweb启动时运行&quot;default.rc&quot; shell脚本。可与tcron定时管<br>
@@ -83,8 +83,8 @@ apt install remind</p>
 其中-d后面参数可以为任意url包括超微内部&quot;i:&quot; url。</p>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add js function in README<br>
+<p>Last Modified: 29 August 2024<br>
+change i:a to be i:p to indicate Post<br>
 <pre></pre>
 </p>
 
