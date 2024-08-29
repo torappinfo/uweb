@@ -15,7 +15,7 @@
   "brave":"https://search.brave.com/search?q=%s",
   "g":"https://google.com/search?q=%s",
   "git":"https://github.com/search?type=Repositories&q=%s",
-  "360":"https://so.360.com/s?q=%s",
+  "360":"https://so.360.com?q=%s",
   "tg":"https://www.tiangong.cn/result?q=%s",
   "cg":"i:0/js/s2ta.js:https://chatglm.cn/main/detail?%s",
   "bdc":"i:0/js/s2editable.js:https://chat.baidu.com/?%s",

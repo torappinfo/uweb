@@ -727,3 +727,27 @@ function promiseContextMenu(menuTemplate) {
     menu.popup();
   });
 }
+
+function httpReq(url, method, filePath){
+  fs.readFile(filePath, (err, fileData) => {
+    if (err) {
+      console.error(`Error reading file: ${err.message}`);
+      return;
+    }
+
+    // Create a new net request
+    const request = net.request({
+      method: method,
+      url: url,
+      session: session.defaultSession, // Use the session to include cookies
+    });
+
+    // Set the Content-Type header
+    request.setHeader('Content-Type', 'application/octet-stream');
+    request.on('error', (error) => {
+      console.error(`ERROR: ${error.message}`);
+    });
+    request.write(fileData);
+    request.end();
+  });
+}
