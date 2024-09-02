@@ -25,5 +25,3 @@
 [tildegit](https://tildegit.org/jamesfengcao/uweb/releases)
 
 [pagure](https://releases.pagure.org/uwebapk/)
-
-[mcbebbs](http://pan.mcbebbs.cn/s/dJ4t8)
