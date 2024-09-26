@@ -113,7 +113,7 @@
 <li>ac [bookmark/history path w/o ext] : load &quot;.rec&quot; file for autocomplete.</li>
 <li>b [bookmarkfilename w/o ext] : bookmark current page in file.</li>
 <li>bjs : Browser-level JavaScript execution.</li>
-<li>bml [filename w/o extension]: load/execute the javascript file.</li>
+<li>bml [filename w/o extension] [arguments...]: load/execute the javascript file.</li>
 <li>cert : allow invalid certificates w/o arguments, otherwise restore to default.</li>
 <li>clear : the arguments could be
 <ul>
@@ -123,6 +123,7 @@
 <li>{<a href="https://www.electronjs.org/docs/latest/api/session#sescleardataoptions">options</a>}</li>
 </ul>
 </li>
+<li>exit : exit browser</li>
 <li>ext [extension path]: load unpacked Chrome extension.</li>
 <li>gr [gredirect index]: global redirection with corresponding index. Use the first global redirection url if no argument. Disable global redirection with any index out of the range.</li>
 <li>js [js code] : execute JS code at OS level. Note: &quot;javascript:...&quot; is special url and thus works in the current web page, while &quot;:js ...&quot; commands can do any OS operations.</li>
@@ -135,11 +136,16 @@
 <li>pdf [filename w/o extension] {<a href="https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions">options</a>} : print to PDF file. All arguments are optional; empty option &quot;{}&quot; to capture long screenshot as vector graphics.</li>
 </ul>
 </li>
-<li>&quot;!&quot; address bar commands<br>
-&quot;!xx ...&quot; evaluates &quot;xx.js&quot; with the whole text as arguments[0].</li>
+<li>&quot;!&quot; address bar commands
+<ul>
+<li>&quot;!xx ...&quot; evaluates &quot;xx.js&quot; with the whole text as arguments[0] at OS level.</li>
+<li>&quot;!!xx ...&quot; evaluates &quot;xx.js&quot; with the whole text as arguments[0] at browser level, which could manipulate address bar etc.</li>
+</ul>
+</li>
 <li>i: internal urls, which will be consistent with <a href="https://jamesfengcao.gitlab.io/uweb/en/links/index.html">uweb</a>.
 <ul>
 <li>&quot;i:0/js/xxx.js:[url]&quot; loads the &quot;[url]&quot; with bookmarklet &quot;js/xxx.js&quot;.</li>
+<li>&quot;i:8d[url]&quot; fo force downloading</li>
 </ul>
 </li>
 </ul>
@@ -175,10 +181,13 @@
 <li>Browser (or renderer process) :
 <ul>
 <li>&quot;:bjs&quot; to execute the following js code at browser level.</li>
-<li>&quot;!xx&quot; evaluates &quot;xx.js&quot;, which could manipulate address bar etc.</li>
 </ul>
 </li>
-<li>OS level (or main process) : &quot;:js&quot; to execute the following js code with all OS APIs available.</li>
+<li>OS level (or main process) : &quot;:js&quot; to execute the following js code with all OS APIs available.
+<ul>
+<li>&quot;!xx&quot; evaluates &quot;xx.js&quot; with arguments.</li>
+</ul>
+</li>
 </ul>
 <h5 id="examples-for-jsbjs-commands">examples for &quot;:js&quot;/&quot;:bjs&quot; commands</h5>
 <pre><code>:js bJS=true //allow external Javascript files for web pages
@@ -212,8 +221,8 @@
 <p>You can copy or modify the code/program under the terms of the GPL3.0 or later versions.</p>
 
 </div>
-<p>Last Modified: 27 August 2024<br>
-update ebrowserreadme.md<br>
+<p>Last Modified: 22 September 2024<br>
+update AI engines<br>
 <pre></pre>
 </p>
 

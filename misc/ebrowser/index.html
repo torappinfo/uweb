@@ -106,12 +106,9 @@ You should have received a copy of the GNU General Public License along with thi
 
   function initSearchEngines(jsonStr){
     try{
-      let val1st;
-      engines=JSON.parse(jsonStr, (key, value)=>{
-        if(!val1st && !(/^\d+$/u.test(key))) val1st=value;
-        return value;
-      });
-      if(val1st) defaultSE=val1st;
+      engines=JSON.parse(jsonStr);
+      let match = jsonStr.match(/:"([^"]+)"/);
+      if(match) defaultSE=match[1];
     }catch(e){}
   }
   function save(filePath, u8array){
@@ -127,12 +124,12 @@ You should have received a copy of the GNU General Public License along with thi
     tabs.children[iTab].printToPDF(options)
       .then(u8array=>save(filePath,u8array));
   }
-  function bookmark(args){//b [filenamestem] url title :bookmark
+  function bookmark(argrest){//b [filenamestem] :bookmark
     let bmFileName = "bookmark.rec";
     let tab = tabs.children[iTab];
     let url = tab.getURL();
-    if(args.length>1)
-      bmFileName = args[1]+".rec";
+    if(argrest)
+      bmFileName = argrest+".rec";
     let title = tab.getTitle();
     let line = title + " " + url + "\n";
     fs.appendFile(path.join(__dirname,bmFileName), line, (err)=>{});
@@ -366,29 +363,39 @@ You should have received a copy of the GNU General Public License along with thi
     ipcRenderer.send("command",q);
   }
   function coloncommand_render(cmd){
-    args = cmd.substring(1).split(/\s+/);
-    switch(args[0]){
+    const delimiter = /\s+/;
+    let arg0;
+    let argrest = null;
+    const match = delimiter.exec(cmd);
+    if(match){
+      const sIndex = match.index;
+      const eIndex = sIndex + match[0].length;
+      arg0 = cmd.substring(1,sIndex);
+      argrest = cmd.substring(eIndex);
+    }else
+      arg0 = cmd.substring(1);
+    switch(arg0){
     case "ac":
-      autoc(args);
+      autoc(argrest);
       return;
     case "b":
-      bookmark(args);
+      bookmark(argrest);
       return;
     case "bjs":
-      eval(cmd.slice(5));
+      eval(argrest);
       return;
     case "bml":
-      bml(args);
+      bangcommand(argrest,0);
       return;
     case "pdf":
-      savePdf(args);
+      savePdf(argrest);
       return;
     }
 
   }
-  function autoc(args){
-    if(2!=args.length) return;
-    let fpath = path.join(__dirname,args[1]);
+  function autoc(argrest){
+    if(!argrest) return;
+    let fpath = path.join(__dirname,argrest);
     let fname = fpath;
     let delimit = ' ';
     if (!fs.existsSync(fname)){
@@ -408,18 +415,24 @@ You should have received a copy of the GNU General Public License along with thi
       tabs.children[iTab].executeJavaScript(str,false);
     });
   }
-  function savePdf(args){
+  function savePdf(argrest){
     let filename = "ebrowser.pdf";
     let options = {};
-    if(1<args.length){
-      let c0 = args[1].charCodeAt(0);
-      let i = 1;
+    if(argrest){
+      let c0 = argrest.charCodeAt(0);
+      let iOpts = 0;
       if(123!=c0){//not '{' options then it is filename
-        filename = args[1] + ".pdf";
-        i = 2;
+        let iS = argrest.indexOf(' ');
+        let filestem = argrest;
+        if(iS>0) {
+          filestem = argrest.substring(0,iS);
+          iOpts = iS+1;
+        }else
+          iOpts = argrest.length;
+        filename = filestem + ".pdf";
       }
-      if(i==args.length-1){//:Pdf [filename] {...}
-        if(2==args[i].length){// '{}'
+      if(argrest.length>iOpts){//:Pdf [filename] {...}
+        if(iOpts+2==argrest.length){// '{}'
           let width = document.body.clientWidth/96;
           tabs.children[iTab].executeJavaScript("document.documentElement.scrollHeight",
           false).then((h)=>{
@@ -431,17 +444,17 @@ You should have received a copy of the GNU General Public License along with thi
           return;
         }else{
           try {
-            options = JSON.parse(args[i]);
+            options = JSON.parse(argrest.substring(iOpts));
           }catch(e){};
         }
       }
     }
     print2PDF(filename,options);
   }
-  function bangcommand(q){
-    let iS = q.indexOf(' ',1);
+  function bangcommand(q,offset){
+    let iS = q.indexOf(' ',offset);
     if(iS<0) iS=q.length;
-    let fname = q.substring(1,iS);
+    let fname = q.substring(offset,iS);
     let fpath = path.join(__dirname,fname+'.js');
     if (fs.existsSync(fpath)) {
       fs.readFile(fpath, 'utf8',(err, js)=>{
@@ -467,7 +480,10 @@ You should have received a copy of the GNU General Public License along with thi
       let c1=q.charCodeAt(1);
       switch(c0){
       case 33://"!"
-        bangcommand(q);
+        if(33!=c1)
+          coloncommand(q);
+        else
+          bangcommand(q,2);
         recQueryHistory(q);
         return;
       case 47://"/"
@@ -587,6 +603,13 @@ You should have received a copy of the GNU General Public License along with thi
       }
     }
     return;
+    case 56: //i:8
+      switch(subcmd){
+      case 100: //i:8d[url] to download
+        tabs.children[iTab].downloadURL(url.substring(4));
+        return;
+      }
+      return;
     case 112: //i:p[url]#[querystring] for http POST
     {
       let iQ = url.indexOf('#',12);

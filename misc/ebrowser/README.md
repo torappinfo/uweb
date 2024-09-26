@@ -76,7 +76,7 @@ Like any popular browser, the very first word in address bar if defined in "sear
   - ac [bookmark/history path w/o ext] : load ".rec" file for autocomplete.
   - b [bookmarkfilename w/o ext] : bookmark current page in file.
   - bjs : Browser-level JavaScript execution.
-  - bml [filename w/o extension]: load/execute the javascript file.
+  - bml [filename w/o extension] [arguments...]: load/execute the javascript file.
   - cert : allow invalid certificates w/o arguments, otherwise restore to default.
   - clear : the arguments could be
     - cache : clear cache
@@ -94,9 +94,11 @@ Like any popular browser, the very first word in address bar if defined in "sear
   - update [filename] : update the app w/o argument, otherwise retrive the [filename] from remote. The filename could be any file on [mirror sites](https://jamesfengcao.gitlab.io/uweb/en/readme/index.html) (this repository is part of it).
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.
 - "!" address bar commands  
-  "!xx ..." evaluates "xx.js" with the whole text as arguments[0].
+  - "!xx ..." evaluates "xx.js" with the whole text as arguments[0] at OS level.
+  - "!!xx ..." evaluates "xx.js" with the whole text as arguments[0] at browser level, which could manipulate address bar etc.
 - i: internal urls, which will be consistent with [uweb](https://jamesfengcao.gitlab.io/uweb/en/links/index.html).
   - "i:0/js/xxx.js:[url]" loads the "[url]" with bookmarklet "js/xxx.js".
+  - "i:8d[url]" fo force downloading
 
 #### Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
@@ -124,8 +126,8 @@ The other commands are defined in "mapkeys.json", which will map keys to address
 - Web page: url like "javascript:" or bookmarklet command ":bml" runs in web page.
 - Browser (or renderer process) :
   - ":bjs" to execute the following js code at browser level.
-  - "!xx" evaluates "xx.js", which could manipulate address bar etc.
 - OS level (or main process) : ":js" to execute the following js code with all OS APIs available.
+  - "!xx" evaluates "xx.js" with arguments.
 
 ##### examples for ":js"/":bjs" commands
 

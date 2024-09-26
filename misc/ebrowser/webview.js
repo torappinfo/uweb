@@ -7,7 +7,7 @@ You should have received a copy of the GNU General Public License along with thi
 */
 const {
   app, BrowserWindow, Menu, shell, clipboard,
-  session, protocol, net, dialog, ipcMain
+  session, protocol, dialog, ipcMain
 } = require('electron')
 let win;
 
@@ -30,6 +30,8 @@ else {
 Menu.setApplicationMenu(null);
 const fs = require('fs');
 const path = require('path')
+const https = require('https');
+const url = require('url');
 var translateRes;
 {
   let langs = app.getPreferredSystemLanguages();
@@ -47,7 +49,7 @@ var gredirect;
 var redirects;
 var bRedirect = true;
 var bJS = true;
-var bForwardCookie = false;
+var bForwardCookie = true;
 var proxies = {};
 var proxy;
 var useragents = {};
@@ -115,12 +117,10 @@ async function createWindow () {
   fs.readFile(path.join(__dirname,'proxy.json'), 'utf8', (err, jsonString) => {
     if (err) return;
     try {
-      proxies = JSON.parse(jsonString, (key,val)=>{
-        if(!proxy && key==="proxyRules"){
-          proxy = {proxyRules:val};
-        }
-        return val;
-      });
+      proxies = JSON.parse(jsonString);
+      let match = jsonString.match(/"([^"]+)"/);
+      if(match)
+        proxy = proxies[match[1]];
     } catch (e){console.log(e)}
   });
 
@@ -187,6 +187,9 @@ function addrCommand(cmd){
   if(cmd.length<3) return;
   let c0 = cmd.charCodeAt(0);
   switch(c0){
+  case 33://"!"
+    bangcommand(q,1);
+    return;
   case 58: //':'
     args = cmd.substring(1).split(/\s+/);
     switch(args[0]){
@@ -219,6 +222,9 @@ function addrCommand(cmd){
           session.defaultSession.clearData(opts);
         }catch(e){console.log(e)}
       }
+      return;
+    case "exit":
+      win.close();
       return;
     case "ext":
       session.defaultSession.loadExtension(args[1]);
@@ -256,8 +262,11 @@ function addrCommand(cmd){
       if(args.length>1)
         proxy = proxies[args[1]]; //retrieve proxy
       if(proxy){
-        gredirect_disable();
-        session.defaultSession.setProxy(proxy);
+        session.defaultSession.setProxy(proxy)
+          .then(() => {gredirect_disable()})
+          .catch((error) => {
+            console.error('Failed to set proxy:', error);
+          });
       }
       return;
     case "nr":
@@ -563,21 +572,55 @@ async function cbScheme_redir(req){
   if(!gredirect) return null;
   let oUrl = req.url;
   let newurl = gredirect+oUrl;
-  let options = {
-    body:       req.body,
-    headers:    req.headers,
-    method:     req.method,
-    referer:    req.referer,
-    duplex: "half",
-    bypassCustomProtocolHandlers: true
+  const parsedUrl = url.parse(newurl);
+  const options = {
+    hostname: parsedUrl.hostname,
+    port: parsedUrl.port,
+    path: parsedUrl.path,
+    method: req.method,
+    headers: req.headers
   };
   if(bForwardCookie){
     let cookies = await session.defaultSession.cookies.get({url: oUrl});
     let cookieS = cookies.map (cookie => cookie.name  + '=' + cookie.value ).join(';');
-    options.headers['Cookie'] = cookieS;
+    options.headers['cookie']=cookieS;
   }
+  return new Promise((resolve, reject) => {
+    const nreq = https.request(options, (res) => {
+      let body = [];
+      res.on('data', (chunk) => {
+        body.push(chunk);
+      });
 
-  return fetch(newurl, options);
+      res.on('end', () => {
+        try {
+          body = Buffer.concat(body);
+          const response = new Response(body, {
+            status: res.status,
+            statusText: res.statusText,
+            headers: res.headers,
+          });
+          resolve(response);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+    nreq.on('error', (err) => {
+      reject(err);
+    });
+    if (req.body){
+      const reader = req.body.getReader();
+      reader.read().then(function processText({ done, value }) {
+        if (done) {
+          nreq.end();
+          return;
+        }
+        nreq.write(value);
+      });
+    }else
+      nreq.end();
+  });
 }
 
 function registerHandler(){
@@ -735,19 +778,34 @@ function httpReq(url, method, filePath){
       return;
     }
 
-    // Create a new net request
-    const request = net.request({
+    let opts = {
       method: method,
-      url: url,
-      session: session.defaultSession, // Use the session to include cookies
-    });
-
-    // Set the Content-Type header
-    request.setHeader('Content-Type', 'application/octet-stream');
-    request.on('error', (error) => {
-      console.error(`ERROR: ${error.message}`);
-    });
-    request.write(fileData);
-    request.end();
+      headers: {
+        "Content-Type":'application/octet-stream',
+      },
+      body: fileData,
+    };
+    fetch(url,opts);
   });
 }
+
+function bangcommand(q,offset){
+  let iS = q.indexOf(' ',offset);
+  if(iS<0) iS=q.length;
+  let fname = q.substring(offset,iS);
+  let fpath = path.join(__dirname,fname+'.js');
+  if (fs.existsSync(fpath)) {
+    fs.readFile(fpath, 'utf8',(err, js)=>{
+      if (err) {
+        console.log(err);
+        return;
+      }
+      const prefix = "(function(){";
+      const postfix = "})(`";
+      const end ="`)";
+      const fjs = `${prefix}${js}${postfix}${q}${end}`;
+      eval(fjs);
+    });
+  }
+}
+

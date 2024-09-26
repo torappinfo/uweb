@@ -12,6 +12,8 @@
 
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
 
+[infinicloud](https://uno.teracloud.jp/share/1162dfa8376e1609)
+
 [gitee](https://gitee.com/jamesfengcao/uweb/releases)
 
 [gitea](https://gitea.com/torappinfo/uweb/releases)

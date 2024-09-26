@@ -8,12 +8,12 @@ export default {
 }
 
 async function goUrl(request, url) {
-  let fp = {
-    method: request.method
-  };
-  fp.headers = new Headers(request.headers);
-  for(var i = 2; i < arguments.length-1; i=i+2){
-    fp.headers[arguments[i]] = arguments[i+1];
-  }
-  return await fetch(url, fp);
+  const Url = new URL(url);
+  const newReq = new Request(Url, {
+    method: request.method,
+    headers: request.headers,
+    body: request.body,
+    redirect: 'follow'
+  })
+  return await fetch(newReq);
 }

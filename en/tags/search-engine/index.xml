@@ -13,7 +13,7 @@
       <link>/en/searchcat/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/en/searchcat/</guid>
-      <description>Search engine file names have &amp;quot;.search&amp;quot; as postfix. When they are clicked, the associated bookmark files with postfix &amp;quot;.search.html&amp;quot; would be appended. Ex: the associated bookmark for &amp;quot;foo.search&amp;quot; is &amp;quot;foo.search.html&amp;quot;.&#xA;Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:&#xA;[Engine name]:[url without &#39;%s&#39; inside]&#xA;[Engine name]:[url with &#39;%s&#39; as keyword]&#xA;[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]</description>
+      <description>&lt;p&gt;Search engine file names have &amp;quot;.search&amp;quot; as postfix. When they are clicked, the associated bookmark files with postfix &amp;quot;.search.html&amp;quot; would be appended. Ex: the associated bookmark for &amp;quot;foo.search&amp;quot; is &amp;quot;foo.search.html&amp;quot;.&lt;/p&gt;&#xA;&lt;p&gt;Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:&lt;br&gt;&#xA;[Engine name]:[url without &#39;%s&#39; inside]&lt;br&gt;&#xA;[Engine name]:[url with &#39;%s&#39; as keyword]&lt;br&gt;&#xA;[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]&lt;br&gt;&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
