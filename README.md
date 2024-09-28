@@ -6,9 +6,9 @@
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
-(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [frama](https://torappinfo.frama.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [4everland](https://uweb.4everland.app/en/) [fleek](https://uweb.on-fleek.app/en/) [cyclic](https://muweb.cyclic.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [zeabur](https://uweb.zeabur.app/en/) [deno](https://posh-crab-23.deno.dev/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) [glitch](https://uweb.glitch.me/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
+(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [frama](https://torappinfo.frama.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [fleek](https://uweb.on-fleek.app/en/) [cyclic](https://muweb.cyclic.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [zeabur](https://uweb.zeabur.app/en/) [deno](https://posh-crab-23.deno.dev/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) [glitch](https://uweb.glitch.me/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
 
-- Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing; piping between console and GUI and more with Termux.
+- Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
 - Convenient: Any AI chatbot/book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
 - Tiny: less than 250k.
@@ -24,13 +24,9 @@
 #### Main features
 Custom paper size PDF export and long vector screenshot, TTS, text reflow, resource sniffer, translation, reader's mode, user-defined url redirection, webdav/http backup & restore, auto next page, sending/receiving msg/file(s), site config (UA, no JS, no image, no 3rd party script/resource,active script, global scripts), http(s)/socks proxy, enabling html5 apps for local files (pdf/djvu/epub viewer, mdict dictionary lookup etc.).
 
-- User-defined global and site-specific CSS and javascript.
 - Bookmarklets (works for CSP sites and with option to auto apply to similar sites)
 - AD blocking (block whole root domain trees etc.)
-- Customization (define extra menus/buttons/gestures with user-defined functionalities)
-- Support shell scripts, javascript for general processing, other languages (python etc.) are also supported by installing uweb compatible Termux versions.
 - Serverless local sites: PWA-kind web extension (chrome .crx & firefox .xpi) support.
-- Piping between console and uweb tabs.
 - Resizable floating video support.
 
 #### Screenshots

@@ -304,7 +304,7 @@ function gredirect_disable(){
     gredirect=null;
     unregisterHandler();
   }
-  bRedirect = false;
+  bRedirect = true;
 }
 function gredirect_enable(i){
   if(i>=gredirects.length) return;
