@@ -48,8 +48,6 @@ Pressing "Alt" to show the menu bar and choose "Check for updates" under "Help".
 
 Type ":update" in the address bar and press "enter" key to update.
 
-Mirror urls could be used like ":update https://uwebzh.netlify.app/misc/ebrowser". All the mirrors listed on [uweb browser](https://uwebzh.netlify.app/en/readme/index.html) could be used. The update url needs to be changed accordingly to be the folder "misc/ebrowser" under the mirror site root url.
-
 #### Key shortcuts
 - Alt: show menu
 - ALT+<-: go backward

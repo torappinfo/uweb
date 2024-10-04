@@ -50,6 +50,7 @@
   <p>Click the following links to install commands with <a href="../index.html#">uweb browser</a>. <b>Force exit and re-launch the app</b>, then long press the button with clock icon to popup the command menu.</p>
 <p>Configuration file &quot;default.cmds&quot; examples:</p>
 <p><a href="i:03Quit & clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete">Quit &amp; clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name 'Cookies' ! -name '*.cjar' -type f -delete</a></p>
+<p><a href="i:03Clipboard2input:clip:cat>>default.input">Clipboard2input:clip:cat&gt;&gt;default.input</a></p>
 <p><a href="i:03Clear database::rm -rf /data/data/info.torapp.uweb/databases/*">Clear database::rm -rf /data/data/info.torapp.uweb/databases/*</a></p>
 <p><a href="i:03Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i>a.tmp;mv a.tmp default.autoc;>query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc">Append query to autocomplete:uweb:cd /data/data/info.torapp.uweb/files;cat default.autoc query.log|toybox sort|toybox uniq -i&gt;a.tmp;mv a.tmp default.autoc;&gt;query.log;echo file:///data/data/info.torapp.uweb/files/default.autoc</a></p>
 <p><a href="i:03Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache">Clear cache::toybox rm -rf /data/data/info.torapp.uweb/cache</a></p>
@@ -79,8 +80,8 @@
 <p><a href="i:03deduplicate bookmarks::awk '!s[\$0]++' /data/data/info.torapp.uweb/files/bookmark.html>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/bookmark.html">deduplicate bookmarks::awk '!s[$0]++' /data/data/info.torapp.uweb/files/bookmark.html&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/bookmark.html</a></p>
 <p><a href="i:03deduplicate hosts::toybox tac /data/data/info.torapp.uweb/files/default.hosts|awk -F' ' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.hosts">deduplicate hosts::toybox tac /data/data/info.torapp.uweb/files/default.hosts|awk -F' ' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.hosts</a></p>
 <p><a href="i:03deduplicate siteconf::toybox tac /data/data/info.torapp.uweb/files/default.siteconf|awk -F':' '!s[\$1]++' |toybox tac>/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.siteconf">deduplicate siteconf::toybox tac /data/data/info.torapp.uweb/files/default.siteconf|awk -F':' '!s[$1]++' |toybox tac&gt;/sdcard/Download/a.tmp;mv /sdcard/Download/a.tmp /data/data/info.torapp.uweb/files/default.siteconf</a></p>
-<p><a href="i:03Clipboard2PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'">Clipboard2PC:clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -i'</a></p>
-<p><a href="i:03ClipboardFromPC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'">ClipboardFromPC:/clip:ssh fengcao@192.168.2.120 'DISPLAY=:0 xsel -o'</a></p>
+<p><a href="i:03Clipboard2PC:clip:ssh fengcao@192.168.1.120 'DISPLAY=:0 xsel -i'">Clipboard2PC:clip:ssh fengcao@192.168.1.120 'DISPLAY=:0 xsel -i'</a></p>
+<p><a href="i:03ClipboardFromPC:/clip:ssh fengcao@192.168.1.120 'DISPLAY=:0 xsel -o'">ClipboardFromPC:/clip:ssh fengcao@192.168.1.120 'DISPLAY=:0 xsel -o'</a></p>
 <p><a href="i:03Clipboard broadcast:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast">Clipboard broadcast:clip:socat - UDP-DATAGRAM:255.255.255.255:1500,broadcast</a></p>
 <p><a href="i:03Clipboard from broadcast:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'">Clipboard from broadcast:/clip:socat -u udp-recvfrom:1500 SYSTEM:'cat;exit'</a></p>
 <p><a href="i:03Clipboard2QR:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png">Clipboard2QR:clip/uweb:qrencode -o /sdcard/Download/a.png;echo file:///sdcard/Download/a.png</a></p>
@@ -115,8 +116,8 @@ Clipboard2QR needs libqrencode.</p>
 </ul>
 
 </div>
-<p>Last Modified: 20 August 2024<br>
-add mimetype &#39;q&#39; for quit<br>
+<p>Last Modified: 3 October 2024<br>
+uweb version 1060<br>
 <pre></pre>
 </p>
 
