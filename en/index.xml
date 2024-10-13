@@ -6,8 +6,15 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Oct 2024 22:10:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 16:43:18 +0800</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS styles</title>
+      <link>/en/globalcss/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/en/globalcss/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../index.html#&#34;&gt;Uweb browser&lt;/a&gt; loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;css&amp;quot; as global css. Click the following links to install global css files:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0hcss/clearfont.css:../../zh/searchurl/txt/clearfont.css&#34;&gt;Clearing font settings&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:&lt;br&gt;&#xA;&lt;a href=&#34;i:0hnight.css:../../zh/searchurl/txt/night.css&#34;&gt;webview 81+ night mode&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0hnight.css:../../zh/searchurl/txt/night_old.css&#34;&gt;webview 80- night mode&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;earliest-loaded-global-js&#34;&gt;Earliest loaded global js&lt;/h4&gt;&#xA;&lt;p&gt;The &amp;quot;.js&amp;quot; files under the folder &amp;quot;css&amp;quot; are loaded as earlier as possible on the page.&lt;/p&gt;&#xA;&lt;p&gt;Click the following links to install early loaded global js:&lt;br&gt;&#xA;&lt;a href=&#34;i:0hcss/nojscopy.js::document.addEventListener(%22copy%22,(e)=&gt;{e.preventDefault()})&#34;&gt;No webpage clipboard copy&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Text selection</title>
       <link>/en/ebrowser/eb_select/</link>
@@ -161,13 +168,6 @@
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/en/rjs/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;../sitejs/index.html#&#34;&gt;javascript for domains&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;../globalcss/index.html#&#34;&gt;Earliest loaded global javascript&lt;/a&gt; files locates in the subfolder &amp;quot;css&amp;quot; of app private folder.&lt;/p&gt;&#xA;&lt;p&gt;&lt;b&gt;Global javascript&lt;/b&gt; files locates in the subfolder &amp;quot;js&amp;quot; of app private folder. Long press button [☰] to configure. Click the following links to install:&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0hjs/savePassword.js:../../zh/searchurl/txt/passwdsave.js&#34;&gt;Save password&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0hjs/instantPage.js:https://fastly.jsdelivr.net/npm/instant.page&#34;&gt;Instant page&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;b&gt;large size javascript code&lt;/b&gt; can be installed to the folder &amp;quot;bookmarklet&amp;quot; (long pressing button &amp;quot;js&amp;quot; to popup menu):&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0hbookmarklet/!googleTranslate.js:https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit:%0A{let d=document,b=d.body,v=d.createElement(&#39;div&#39;);v.id=&#39;google_translate_element&#39;;v.style=&#39;position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999&#39;;b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,pageLanguage:&#39;auto&#39;,includedLanguages:&#39;zh-CN,zh-TW,en,ko,ja&#39;},&#39;google_translate_element&#39;);}}&#34;&gt;google translation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_self&#34; href=&#39;i:0hbookmarklet/eruda.js:https://fastly.jsdelivr.net/npm/eruda:%0Aeruda.init()&#39;&gt;Eruda&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0hbookmarklet/performance.js:https://fastly.jsdelivr.net/gh/micmro/performance-bookmarklet/dist/performanceBookmarklet.min.js&#34;&gt;Performance&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Note: Bookmarklets whose names begin with &amp;quot;!&amp;quot; are allowed to load remote js on CSP (Content Security Policy) sites.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CSS styles</title>
-      <link>/en/globalcss/</link>
-      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/en/globalcss/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;../index.html#&#34;&gt;Uweb browser&lt;/a&gt; loads all &amp;quot;.css&amp;quot; files under the folder &amp;quot;css&amp;quot; as global css. Click the following links to install global css files:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0hcss/clearfont.css:../../zh/searchurl/txt/clearfont.css&#34;&gt;Clearing font settings&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The file &amp;quot;night.css&amp;quot; is used as night mode, click the following links to install one:&lt;br&gt;&#xA;&lt;a href=&#34;i:0hnight.css:../../zh/searchurl/txt/night.css&#34;&gt;webview 81+ night mode&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0hnight.css:../../zh/searchurl/txt/night_old.css&#34;&gt;webview 80- night mode&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;earliest-loaded-global-js&#34;&gt;Earliest loaded global js&lt;/h4&gt;&#xA;&lt;p&gt;The &amp;quot;.js&amp;quot; files under the folder &amp;quot;css&amp;quot; are loaded as earlier as possible on the page.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Toolbar customization</title>
