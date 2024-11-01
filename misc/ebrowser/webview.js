@@ -397,7 +397,7 @@ function menuArray(labelprefix, linkUrl){
     {
       label: labelprefix+translate('Download'),
       click: () => {
-        win.contentView.children[i].webContents.downloadURL(linkUrl);
+        win.webContents.downloadURL(linkUrl);
       }
     },
   ];
