@@ -90,12 +90,12 @@ noproxy::010:</p>
 加入媒体库</p>
 </li>
 <li>
-<p>:010[proxy host]:[port]<br>
-设置http代理, &quot;:010:&quot;禁用代理。</p>
+<p>:010[代理域名]:[端口号]:[用户名]:[密码]<br>
+设置http代理, &quot;:010:&quot;禁用代理。其中&quot;:[用户名]:[密码]&quot;部分为可选项。</p>
 </li>
 <li>
-<p>:011[socks host]:[port]<br>
-socks代理</p>
+<p>:011[socks5域名]:[端口号]:[用户名]:[密码]<br>
+socks代理，其中&quot;:[用户名]:[密码]&quot;部分为可选项。</p>
 </li>
 </ul>
 <h3 id="i内部链接">&quot;i:&quot;内部链接：</h3>
@@ -245,8 +245,8 @@ use &quot;i:0mi:92Host;209.216.230.240::https://news.ycombinator.com&quot; to vi
 </ul>
 
 </div>
-<p>Last Modified: 19 April 2024<br>
-add i:5hencoding: support<br>
+<p>Last Modified: 11 November 2024<br>
+support proxies with username and password<br>
 <pre></pre>
 </p>
 

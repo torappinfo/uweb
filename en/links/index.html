@@ -74,8 +74,8 @@
 <p>If the above mentioned [links] part is malformated, then it is auto detected as html or text.</p>
 <p><a href="../gesture/index.html#">default.gesture</a> and default.button have the exactly same file format. &quot;.gesture&quot; files define gestures while &quot;.button&quot; define bottom toolbar button pressing actions from the last button to the first.</p>
 <p>proxy config:<br>
-httpproxy::010[proxy host]:[port]<br>
-socks5::011[socks host]:[port]<br>
+httpproxy::010[proxy host]:[port]:[username]:[password]<br>
+socks5::011[socks host]:[port]:[username]:[password]<br>
 noproxy::010:</p>
 <h3 id="special-links-beginning-with-">special links beginning with ':'</h3>
 <ul>
@@ -92,12 +92,13 @@ Rotate the screen</p>
 Scan the fileurl and add it to media storage</p>
 </li>
 <li>
-<p>:010[proxy host]:[port]<br>
-Config http proxy, &quot;:010:&quot; to disable any proxy.</p>
+<p>:010[proxy host]:[port]:[username]:[password]<br>
+Config http proxy, &quot;:010:&quot; to disable any proxy.<br>
+&quot;:[username]:[password]&quot; is optional.</p>
 </li>
 <li>
-<p>:011[socks host]:[port]<br>
-Socks proxy</p>
+<p>:011[socks host]:[port]:[username]:[password]<br>
+Socks proxy, &quot;:[username]:[password]&quot; is optional.</p>
 </li>
 <li>
 <p>:0cc[url1]:[url2][:;[cookie attributes]]<br>
@@ -317,8 +318,8 @@ Bundle of internal urls, if it is an &quot;i:0&quot; url, then it should have th
 </ul>
 
 </div>
-<p>Last Modified: 28 October 2024<br>
-update i:0m syntax<br>
+<p>Last Modified: 11 November 2024<br>
+support proxies with username and password<br>
 <pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>
