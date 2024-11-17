@@ -573,19 +573,24 @@ async function cbScheme_redir(req){
   let oUrl = req.url;
   let newurl = gredirect+oUrl;
   const parsedUrl = url.parse(newurl);
+  let headers = new Headers();
+  for (var pair of req.headers.entries())
+    headers.set(pair[0],pair[1]);
+  if(bForwardCookie){
+    let cookies = await session.defaultSession.cookies.get({url: oUrl});
+    let cookieS = cookies.map (cookie => cookie.name  + '=' + cookie.value ).join(';');
+    headers.set('Cookie',cookieS);
+  }
+  //missing referer header
+  //headers.set('referer',);
   const options = {
     hostname: parsedUrl.hostname,
     port: parsedUrl.port,
     path: parsedUrl.path,
     method: req.method,
-    headers: req.headers
+    headers: headers
   };
-  if(bForwardCookie){
-    let cookies = await session.defaultSession.cookies.get({url: oUrl});
-    let cookieS = cookies.map (cookie => cookie.name  + '=' + cookie.value ).join(';');
-    options.headers['cookie']=cookieS;
-  }
-  return new Promise((resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     const nreq = https.request(options, (res) => {
       let body = [];
       res.on('data', (chunk) => {
@@ -595,11 +600,7 @@ async function cbScheme_redir(req){
       res.on('end', () => {
         try {
           body = Buffer.concat(body);
-          const response = new Response(body, {
-            status: res.status,
-            statusText: res.statusText,
-            headers: res.headers,
-          });
+          const response = new Response(body, res);
           resolve(response);
         } catch (e) {
           reject(e);
@@ -610,14 +611,19 @@ async function cbScheme_redir(req){
       reject(err);
     });
     if (req.body){
+     try {
       const reader = req.body.getReader();
-      reader.read().then(function processText({ done, value }) {
+      do {
+        const { done, value } = await reader.read();
         if (done) {
           nreq.end();
-          return;
+          break;
         }
         nreq.write(value);
-      });
+        console.log(headers);
+        console.log(new TextDecoder("iso-8859-1").decode(value));
+      }while (true);
+     }catch(e){reject(e)}
     }else
       nreq.end();
   });
