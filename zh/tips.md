@@ -1,6 +1,8 @@
 ---
 title: 重定向网址
 ---
+⚠️<span style="color:red">重定向转发cookie</span>设置选项可允许登录情况下操作全局重定向下的网站，请确认全局重定向网址安全可靠，谨慎使用。
+
 #### 全局重定向
 长按设置，选中"自定义资源重定向"。此时如果<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/zh/searchurl/config.html">全局重定向url</a>为有效网址，
 - 且最后一个字符为'/'、'?'或'='，则所有网络访问被内部重定向至url:  
@@ -13,9 +15,12 @@ Example: "https://loud-moth-21.deno.dev/"
 使用仓库 "https://github.com/torappinfo/fetch" 入口"deno.js" [部署Deno](https://deno.com/deploy)
 
 [创建免费重定向，说明类似但代码不同](https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/创建魔法链接/使用免费的的云服务提供商创建魔法链接.md)
-
 [cloudflare workers 全局重定向代码](../../en/searchurl/cloudflare/redirect.js)
+[创建免费重定向说明，代码可用但复杂](https://github.com/gaboolic/cloudflare-reverse-proxy)
+
 [vercel 全局重定向](https://github.com/torappinfo/vercel)
+
+使用仓库 "https://github.com/torappinfo/redirect.genez" [部署genez.io](https://genez.io)
 
 #### 重定向文件 "default.redirect" (仅在无有效全局重定向url时生效)
 <a target="_self" href="i:0gdefault.redirect:../searchurl/txt/redirect.cfg">点击添加google recaptcha国内镜像</a>

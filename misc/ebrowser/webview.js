@@ -579,7 +579,7 @@ async function cbScheme_redir(req){
   if(bForwardCookie){
     let cookies = await session.defaultSession.cookies.get({url: oUrl});
     let cookieS = cookies.map (cookie => cookie.name  + '=' + cookie.value ).join(';');
-    headers.set('Cookie',cookieS);
+    headers.set('cookie',cookieS);
   }
   //missing referer header
   //headers.set('referer',);
