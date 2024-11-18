@@ -23,7 +23,7 @@ Example: "https://loud-moth-21.deno.dev/"
 使用仓库 "https://github.com/torappinfo/redirect.genez" [部署genez.io](https://genez.io)
 
 允许从cloudflare访问的AI引擎有：
-[devv.ai](https://devv.ai]
+[devv.ai](https://devv.ai)
 [duck AI](https://duckduckgo.com?t=h_&ia=chat&q=hi)
 
 #### 重定向文件 "default.redirect" (仅在无有效全局重定向url时生效)
