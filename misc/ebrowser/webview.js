@@ -210,6 +210,19 @@ function addrCommand(cmd){
       case "cache":
         session.defaultSession.clearCache();
         return;
+      case "cookie":
+        if(args.length==2){
+          session.defaultSession.clearStorageData({ storages: ['cookies'] });
+          return;
+        }
+        {
+          let url = args[2];
+          if(url.charCodeAt(0)!==104) url = "https://"+url;
+          session.defaultSession.cookies.get({ url: url }).then((cookies) => {
+            cookies.forEach((cookie) => {
+              session.defaultSession.cookies.remove(targetUrl, cookie.name)})});
+        }
+        return;
       case "dns":
         session.defaultSession.clearHostResolverCache();
         return;
