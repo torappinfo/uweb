@@ -29,6 +29,7 @@
   "dk":"i:0/js/uweb2ta.js:https://y.demo.wvusd.homes/https://duckduckgo.com?ia=chat&q=h&uweb=%s",
   "wa":"https://www.wolframalpha.com/input?i=%s",
   "yw":"i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new",
+  "bot":"i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://bot.360.com",
   "zdm":"http://search.smzdm.com/?c=youhui&s=%s",
   "android":"http://cn.bing.com/search?q=site:developer.android.google.cn/reference+%s",
   "bd":"https://baidu.com/s?wd=%s"
