@@ -466,7 +466,7 @@ You should have received a copy of the GNU General Public License along with thi
         const postfix = "})(`";
         const end ="`)";
         const fjs = `${prefix}${js}${postfix}${q}${end}`;
-        eval(fjs);
+        tabs.children[iTab].executeJavaScript(fjs,false);
       });
     }
   }
