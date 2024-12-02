@@ -9,7 +9,7 @@ log: |
 [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE)
 
 
-<a id="aiSE">AI引擎</a>：
+<a id="aiSE">AI引擎</a>：  
 <a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
 
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
@@ -53,7 +53,7 @@ log: |
 <a href="i:00openperplex:i:0/js/s2ta.js:https://openperplex.com?%s">openperplex:i:0/js/s2ta.js:https://openperplex.com?%s</a>
 
 
-AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：
+AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new?uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new?uweb=%s</a>
 
 <a href="i:00kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn?uweb=%s">kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn?uweb=%s</a>
@@ -71,7 +71,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/?10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/?10uweb=%s</a>
 
 
-AI引擎 (ebrowser)：
+AI引擎 (ebrowser)：  
 <a href="i:00yw:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new">yw:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new</a>
 
 <a href="i:00tc:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://taichu-web.ia.ac.cn/#/chat">tc:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://taichu-web.ia.ac.cn/#/chat</a>
@@ -83,11 +83,11 @@ AI引擎 (ebrowser)：
 <a href="i:00bot:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://bot.360.com">bot:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://bot.360.com</a>
 
 
-镜像：
+镜像：  
 <a href="i:00google:i:0mhttps://loud-moth-21.deno.dev/:https://google.com/search?q=%s">google:i:0mhttps://loud-moth-21.deno.dev/:https://google.com/search?q=%s</a>
 
 
-<a id="mainSE">推荐引擎</a>：
+<a id="mainSE">推荐引擎</a>：  
 <a href="i:00顺序:i:40%s_00">顺序:i:40%s_00</a>
 
 <a href="i:00apkdl:https://apkdl.in/app/search?q=">apkdl:https://apkdl.in/app/search?q=</a>
@@ -151,7 +151,7 @@ AI引擎 (ebrowser)：
 - 按菜单键，没有的话可长按底部工具条前进按钮弹出菜单。
 -  选择"添加为搜索引擎"，对话框中将出现的地址适当编辑。不少网址后半部分为用"&"分割的等式，将包含搜索条目的等式移动到最后，删除搜索条目本身，其余等式可删可留。若无等式，一般在网址中直接删除搜索条目本身即可。
 
-<a id="commonSE">常用引擎</a>，供用户查漏添加：
+<a id="commonSE">常用引擎</a>，供用户查漏添加：  
 <a href="i:00google:https://google.com/search?q=">google:https://google.com/search?q=</a>
 
 <a href="i:00必应:https://www.bing.com/search?q=">必应:https://www.bing.com/search?q=</a>
@@ -223,7 +223,7 @@ AI引擎 (ebrowser)：
 <a href="i:00book_google:https://www.google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&num=100&filter=0">book_google:https://www.google.com/search?q=%22parent+directory%22+pdf+OR+epub+OR+DjVU+OR+xps+%22%s%22+-html+-htm+-shtml+-phtml+-php+-buy+-aspx+-jsp+-asp+-cgi+-pdf+-ftp+-unknownsecret&num=100&filter=0</a>
 
 
-<a id="langSE">语言学习</a>：
+<a id="langSE">语言学习</a>：  
 <a href="i:00longman:https://longman.mister5.net/?word=">longman:https://longman.mister5.net/?word=</a>
 
 <a href="i:00oxford:https://oxford.mister5.net/?word=">oxford:https://oxford.mister5.net/?word=</a>
@@ -337,7 +337,7 @@ AI引擎 (ebrowser)：
 <a href="i:00汉典重光:https://wenyuan.aliyun.com/home/search-word?keyword=">汉典重光:https://wenyuan.aliyun.com/home/search-word?keyword=</a>
 
 
-<a id="textbookSE">科技教材</a>：
+<a id="textbookSE">科技教材</a>：  
 <a href="i:00化学品:http://www.basechem.org/search?q=">化学品:http://www.basechem.org/search?q=</a>
 
 <a href="i:00britannica:https://www.britannica.com/search?query=">britannica:https://www.britannica.com/search?query=</a>
@@ -389,7 +389,7 @@ AI引擎 (ebrowser)：
 <a href="i:00workforce.libretexts:https://workforce.libretexts.org/Special:Search?q=">workforce.libretexts:https://workforce.libretexts.org/Special:Search?q=</a>
 
 
-<a id="foreignSE">直达官方文档的国外引擎</a>：
+<a id="foreignSE">直达官方文档的国外引擎</a>：  
 <a href="i:00disroot:https://search.disroot.org/search?q=">disroot:https://search.disroot.org/search?q=</a>
 
 <a href="i:00swisscows:https://swisscows.com/web?query=">swisscows:https://swisscows.com/web?query=</a>
@@ -403,7 +403,7 @@ AI引擎 (ebrowser)：
 <a href="i:00yandex image:https://yandex.com/images/search?text=">yandex image:https://yandex.com/images/search?text=</a>
 
 
-<a id="cloudSE">网盘搜索</a>:
+<a id="cloudSE">网盘搜索</a>:  
 <a href="i:00yunso:https://www.yunso.net/index/user/s?wd=">yunso:https://www.yunso.net/index/user/s?wd=</a>
 
 <a href="i:00yapan:https://yapan.io/search?keyword=">yapan:https://yapan.io/search?keyword=</a>
@@ -435,7 +435,7 @@ AI引擎 (ebrowser)：
 <a href="i:0056盘:https://www.56wangpan.com/search/kw">56盘:https://www.56wangpan.com/search/kw</a>
 
 
-<a id="scholarSE">学术搜索</a>:
+<a id="scholarSE">学术搜索</a>:  
 <a href="i:00aminer:https://www.aminer.cn/search/pub?q=">aminer:https://www.aminer.cn/search/pub?q=</a>
 
 <a href="i:00sweetsearch:https://sweetsearch.com/search?q=">sweetsearch:https://sweetsearch.com/search?q=</a>
@@ -449,7 +449,7 @@ AI引擎 (ebrowser)：
 <a href="i:00base:https://www.base-search.net/Search/Results?lookfor=">base:https://www.base-search.net/Search/Results?lookfor=</a>
 
 
-<a id="devSE">开发者友好搜索</a>：
+<a id="devSE">开发者友好搜索</a>：  
 <a href="i:00git:https://github.com/search?type=Repositories&amp;q=">git:https://github.com/search?type=Repositories&amp;q=</a>
 
 <a href="i:00gitmirror:https://dgithub.xyz/search?type=Repositories&amp;q=">gitmirror:https://dgithub.xyz/search?type=Repositories&amp;q=</a>
@@ -469,7 +469,7 @@ AI引擎 (ebrowser)：
 <a href="i:00goobe:https://goobe.io/search.aspx?k=">goobe:https://goobe.io/search.aspx?k=</a>
 
 
-<a id="appSE">应用内搜索</a>:
+<a id="appSE">应用内搜索</a>:  
 <a href="i:00淘宝:taobao://s.m.taobao.com/h5?q=">淘宝:taobao://s.m.taobao.com/h5?q=</a>
 
 <a href="i:00百度地图:bdapp://map/place/search?query=">百度地图:bdapp://map/place/search?query=</a>
@@ -501,7 +501,7 @@ AI引擎 (ebrowser)：
 <a href="i:00高德地图:androidamap://arroundpoi?sourceApplication=softname&dev=0&keywords=">高德地图:androidamap://arroundpoi?sourceApplication=softname&dev=0&keywords=</a>
 
 
-<a id="localSE">本地引擎</a>（需安装定制termux及相应工具如bc，gnuplot等）：
+<a id="localSE">本地引擎</a>（需安装定制termux及相应工具如bc，gnuplot等）：  
 <a href="i:00计算器:d:text/html:echo \'%s\'|bc -l -q:">计算器:d:text/html:echo \'%s\'|bc -l -q:</a>
 
 <a href="i:00函数作图:d:image/svg+xml:gnuplot -e \'set term svg;set output; plot %s\':">函数作图:d:image/svg+xml:gnuplot -e \'set term svg;set output; plot %s\':</a>
