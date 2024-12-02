@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/zh/topposts/</loc>
+    <lastmod>2024-12-02T15:22:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/topposts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/topposts/"
+                />
+  </url><url>
+    <loc>/zh/</loc>
+    <lastmod>2024-12-02T15:22:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+  </url><url>
+    <loc>/zh/search/</loc>
+    <lastmod>2024-12-02T15:22:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/search/"
+                />
+  </url><url>
     <loc>/zh/_posts/</loc>
     <lastmod>2024-11-29T16:21:47+08:00</lastmod>
     <xhtml:link
@@ -78,19 +117,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/textprocess/"
-                />
-  </url><url>
-    <loc>/zh/</loc>
-    <lastmod>2024-12-02T13:09:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
                 />
   </url><url>
     <loc>/zh/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
@@ -178,32 +204,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sitejs/"
-                />
-  </url><url>
-    <loc>/zh/topposts/</loc>
-    <lastmod>2024-12-02T13:09:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/topposts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/topposts/"
-                />
-  </url><url>
-    <loc>/zh/search/</loc>
-    <lastmod>2024-12-02T13:09:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/search/"
                 />
   </url><url>
     <loc>/zh/html5/</loc>
