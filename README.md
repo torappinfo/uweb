@@ -10,7 +10,7 @@
 
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
-- Convenient: Any AI chatbot/book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be search engine.
+- Convenient: Any AI chatbot/book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) can be <a href="en/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>.
 - Tiny: less than 250k.
 - Fast: run fast, even with thousands of user provided css/scripts/htmls.
 - Efficient: less touches, one click to reach any number of search engines without repeated input; automate online services.

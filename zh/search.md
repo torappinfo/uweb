@@ -1,5 +1,5 @@
 ---
-title: 搜索引擎汇总
+title: 搜索引擎搜索查询URL汇总
 date: 2024-12-02
 log: |
   24.02.26 添加网盘搜索引擎
@@ -91,6 +91,8 @@ AI引擎 (ebrowser)：
 <a href="i:00顺序:i:40%s_00">顺序:i:40%s_00</a>
 
 <a href="i:00apkdl:https://apkdl.in/app/search?q=">apkdl:https://apkdl.in/app/search?q=</a>
+
+<a href="i:005577:http://s.5577.com/sousuo/m/?k=">5577:http://s.5577.com/sousuo/m/?k=</a>
 
 <a href="i:00apkbog:https://www.apkbog.com/en/apks/search/">apkbog:https://www.apkbog.com/en/apks/search/</a>
 

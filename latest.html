@@ -3,7 +3,18 @@
   (function(){
     let latestV = 1081;
     try {
-      if(verCode>=latestV) {alert("Already up to date!");return;}
+      if(verCode>=latestV) {
+        var ls = navigator.languages;
+        let msg = "Already up to date!";
+        do {
+          for(var i in ls){
+            if(ls[i].startsWith("en")) break;
+            if(ls[i].startsWith("zh")) {
+              msg = "已经是最新版！";
+              break;}
+          }
+        }while(false);
+        alert(msg);return;}
     }catch(e){}
     location.href = "https://master.dl.sourceforge.net/project/uwebbrowser/v1/uweb"+latestV+".apk?viasf=1";
   })();
