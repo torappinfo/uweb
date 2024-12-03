@@ -9,7 +9,7 @@ Clicking the following search engine configuration links (or append the link tex
 [AI](#aiSE) [Recommended](#mainSE) [Common](#commonSE) [language](#langSE) [Science](#textbookSE) [More](#moreSE) [medical](#medicalSE) [scholar](#scholarSE) [dev](#devSE) [local](#localSE)
 
 
-<a id="aiSE">AI</a>:
+<a id="aiSE">AI</a>:  
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
@@ -69,7 +69,7 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00lepton:i:0/js/s2input.js:https://search.lepton.run/?%s">lepton:i:0/js/s2input.js:https://search.lepton.run/?%s</a>
 
 
-<a id="mainSE">Recommended engines</a>：
+<a id="mainSE">Recommended engines</a>：  
 <a href="i:00Engines:i:40%s_00">Engines:i:40%s_00</a>
 
 <a href="i:00bing image:http://bing.com/images/search?q=">bing image:http://bing.com/images/search?q=</a>
@@ -145,7 +145,7 @@ Clicking the following search engine configuration links (or append the link tex
 
 Note: "Engines" needs file "engine.search"，whose format is same as "home.search" except that the keyword part of url must be denoted with "%s". Pressing the right arrow button on the search result page will automatically query with next engine in the file.
 
-<a id="commonSE">Common engines</a>:<br>
+<a id="commonSE">Common engines</a>:  
 <a href="i:00google:https://google.com/search?q=">google:https://google.com/search?q=</a>
 
 <a href="i:00bing:http://www.bing.com/search?q=">bing:http://www.bing.com/search?q=</a>
@@ -206,7 +206,7 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 
-<a id="langSE">language</a>:
+<a id="langSE">language</a>:  
 <a href="i:00OED:https://www.oed.com/LIBRARY?dest=https%3A%2F%2Fwww.oed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3D%s%26_searchBtn%3DSearch&acc_id=65585&library_card=12363257">OED:https://www.oed.com/LIBRARY?dest=https%3A%2F%2Fwww.oed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3D%s%26_searchBtn%3DSearch&acc_id=65585&library_card=12363257</a>
 
 <a href="i:00webster1913:https://www.websters1913.com/words/">webster1913:https://www.websters1913.com/words/</a>
@@ -251,7 +251,7 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 
-<a id="textbookSE">Science</a>:
+<a id="textbookSE">Science</a>:  
 <a href="i:00britannica:https://www.britannica.com/search?query=">britannica:https://www.britannica.com/search?query=</a>
 
 <a href="i:00mathRef:https://reference.wolfram.com/search/?q=">mathRef:https://reference.wolfram.com/search/?q=</a>
@@ -306,7 +306,7 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 
-<a id="moreSE">More engines</a>:
+<a id="moreSE">More engines</a>:  
 <a href="i:00oscobo:https://www.oscobo.com/search.php?q=">oscobo:https://www.oscobo.com/search.php?q=</a>
 
 <a href="i:00teoma:https://www.teoma.com/web?q=">teoma:https://www.teoma.com/web?q=</a>
@@ -345,7 +345,7 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 
-<a id="medicalSE">Medical</a>:
+<a id="medicalSE">Medical</a>:  
 <a href="i:00medical_freedict:https://medical-dictionary.thefreedictionary.com/">medical_freedict:https://medical-dictionary.thefreedictionary.com/</a>
 
 <a href="i:00merckmanuals:https://www.merckmanuals.com/professional/SearchResults?query=">merckmanuals:https://www.merckmanuals.com/professional/SearchResults?query=</a>
@@ -370,7 +370,7 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 
-Torrent:
+Torrent:  
 <a href="i:00aio:https://www.aiosearch.com/search/4/Torrents/">aio:https://www.aiosearch.com/search/4/Torrents/</a>
 
 <a href="i:00academictorrents:https://academictorrents.com/browse.php?search=">academictorrents:https://academictorrents.com/browse.php?search=</a>
@@ -383,7 +383,7 @@ Torrent:
 
 
 
-<a id="scholarSE">Scholar</a>:
+<a id="scholarSE">Scholar</a>:  
 <a href="i:00classcentral:https://www.classcentral.com/search?q=">classcentral:https://www.classcentral.com/search?q=</a>
 
 <a href="i:00base:https://www.base-search.net/Search/Results?lookfor=">base:https://www.base-search.net/Search/Results?lookfor=</a>
@@ -410,7 +410,7 @@ Torrent:
 
 
 
-<a id="devSE">Developer</a>:
+<a id="devSE">Developer</a>:  
 <a href="i:00devdocs:https://devdocs.io/#q=">devdocs:https://devdocs.io/#q=</a>
 
 <a href="i:00grep.app:https://grep.app/search?q=">grep.app:https://grep.app/search?q=</a>
@@ -431,11 +431,11 @@ Torrent:
 
 
 
-app:
+app:  
 <a href="i:00App store:market://search?q=">App store:market://search?q=</a>
 
 
-<a id="localSE">local engines</a>(May need termux customized edition and tools like bc，gnuplot etc.):
+<a id="localSE">local engines</a>(May need termux customized edition and tools like bc，gnuplot etc.):  
 <a href="i:00bc:d:text/html:echo \'%s\'|bc -l -q:">bc:d:text/html:echo \'%s\'|bc -l -q:</a>
 
 <a href="i:002D plot:d:image/svg+xml:gnuplot -e \'set term svg;set output; plot %s\':">2D plot:d:image/svg+xml:gnuplot -e \'set term svg;set output; plot %s\':</a>
