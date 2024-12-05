@@ -1,9 +1,9 @@
 export async function onRequest(context) {
-  const { req, env } = context;
-  let url = req.url;
+  const { request, env } = context;
+  let url = request.url;
   let iSlash = url.indexOf('?',11);
   let nUrl = url.substring(iSlash+1);
-  return await goUrl(req, nUrl);
+  return await goUrl(request, nUrl);
 }
 
 async function goUrl(request, url) {
