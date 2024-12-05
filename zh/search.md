@@ -20,6 +20,8 @@ log: |
 
 <a href="i:00百度AI:https://think.baidu.com/aisearch?word=">百度AI:https://think.baidu.com/aisearch?word=</a>
 
+<a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
+
 <a href="i:00360AI:https://www.sou.com?q=">360AI:https://www.sou.com?q=</a>
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
@@ -69,6 +71,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.360.com?uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.360.com?uweb=%s</a>
 
 <a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/?10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/?10uweb=%s</a>
+
+<a href="i:00海螺:i:0/js/uweb2ta2.js:https://hailuoai.com?uweb=%s">海螺:i:0/js/uweb2ta2.js:https://hailuoai.com?uweb=%s</a>
 
 
 AI引擎 (ebrowser)：  
@@ -260,7 +264,9 @@ AI引擎 (ebrowser)：
 
 <a href="i:00etymology:https://www.etymonline.com/search?q=">etymology:https://www.etymonline.com/search?q=</a>
 
-<a href="i:00glosbe:https://glosbe.com/en/zh/dict.naver:https://dict.naver.com/enendict/english/#/search?query=">glosbe:https://glosbe.com/en/zh/dict.naver:https://dict.naver.com/enendict/english/#/search?query=</a>
+<a href="i:00glosbe:https://glosbe.com/en/zh/">glosbe:https://glosbe.com/en/zh/</a>
+
+<a href="i:00dict.naver:https://dict.naver.com/enendict/english/#/search?query=">dict.naver:https://dict.naver.com/enendict/english/#/search?query=</a>
 
 <a href="i:00柯林斯双解:http://www.iciba.com/">柯林斯双解:http://www.iciba.com/</a>
 

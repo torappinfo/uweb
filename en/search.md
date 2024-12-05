@@ -10,6 +10,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 
 <a id="aiSE">AI</a>:  
+<a href="i:00copilot:https://copilot.microsoft.com/?q=">copilot:https://copilot.microsoft.com/?q=</a>
+
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
@@ -67,6 +69,12 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00chatGPT:i:0/js/s2ta.js:https://chat.openai.com/?%s">chatGPT:i:0/js/s2ta.js:https://chat.openai.com/?%s</a>
 
 <a href="i:00lepton:i:0/js/s2input.js:https://search.lepton.run/?%s">lepton:i:0/js/s2input.js:https://search.lepton.run/?%s</a>
+
+
+AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)
+<a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai?uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai?uweb=%s</a>
+
+<a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai?uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai?uweb=%s</a>
 
 
 <a id="mainSE">Recommended engines</a>：  
