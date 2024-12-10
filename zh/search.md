@@ -20,9 +20,9 @@ log: |
 
 <a href="i:00百度AI:https://think.baidu.com/aisearch?word=">百度AI:https://think.baidu.com/aisearch?word=</a>
 
-<a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
+<a href="i:00百度chat:https://chat.baidu.com/search?word=">百度chat:https://chat.baidu.com/search?word=</a>
 
-<a href="i:00360AI:https://www.sou.com?q=">360AI:https://www.sou.com?q=</a>
+<a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
@@ -50,7 +50,7 @@ log: |
 
 <a href="i:00知料觅得:i:0/js/s2input.js:https://www.sou100.com?%s">知料觅得:i:0/js/s2input.js:https://www.sou100.com?%s</a>
 
-<a href="i:00博查:i:0/js/s2ta.js:https://bochaai.com/?%s">博查:i:0/js/s2ta.js:https://bochaai.com/?%s</a>
+<a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/?01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/?01uweb=%s</a>
 
 <a href="i:00openperplex:i:0/js/s2ta.js:https://openperplex.com?%s">openperplex:i:0/js/s2ta.js:https://openperplex.com?%s</a>
 
