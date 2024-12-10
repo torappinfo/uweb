@@ -71,7 +71,7 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00lepton:i:0/js/s2input.js:https://search.lepton.run/?%s">lepton:i:0/js/s2input.js:https://search.lepton.run/?%s</a>
 
 
-AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)
+AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)  
 <a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai?uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai?uweb=%s</a>
 
 <a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai?uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai?uweb=%s</a>
