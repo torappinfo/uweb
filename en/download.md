@@ -20,9 +20,14 @@
 
 [tildegit](https://tildegit.org/jamesfengcao/uweb/releases)
 
+[froggi](https://git.froggi.es/jamesfengcao/uweb/releases)
+
+[bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/downloads/)
+
+[NotABug](https://notabug.org/torappinfo/uweb/releases)
+
 [pagure](https://releases.pagure.org/uwebapk/)
 
-
-
+[baidu](https://pan.baidu.com/s/17coQj6DCHqghMMNJUyjgrA#list/path=%2Fuweb)
 
 

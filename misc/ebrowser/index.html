@@ -124,6 +124,12 @@ You should have received a copy of the GNU General Public License along with thi
     tabs.children[iTab].printToPDF(options)
       .then(u8array=>save(filePath,u8array));
   }
+  function showHtml(html){
+    let js = "document.documentElement.innerHTML=`"+html+"`;";
+    let t=tabs.children[iTab];
+    t.dataset.jsonce=js;
+    t.src="about:blank";
+  }
   function bookmark(argrest){//b [filenamestem] :bookmark
     let bmFileName = "bookmark.rec";
     let tab = tabs.children[iTab];

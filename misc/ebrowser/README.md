@@ -89,6 +89,7 @@ Like any popular browser, the very first word in address bar if defined in "sear
   - nr/ur for No/Use "redirect.json" for domain redirection.
   - np : no proxy.
   - up [proxyName] : use proxy. privous proxy or the first proxy in proxy.json w/o [proxyName]. ":up" command also disables global and domain redirections, which are not restored by ":np".
+  - sys [command line] : execute system commands with url as one of arguments, and replace "%cookie" with corresponding one. Ex. "curl" commands for uploading.
   - ua [useragentName] : set user agent for future tabs. default user agent w/o arguments.
   - update [filename] : update the app w/o argument, otherwise retrive the [filename] from remote. The filename could be any file on [mirror sites](https://jamesfengcao.gitlab.io/uweb/en/readme/index.html) (this repository is part of it).
   - pdf [filename w/o extension] {[options](https://www.electronjs.org/docs/latest/api/web-contents#contentsprinttopdfoptions)} : print to PDF file. All arguments are optional; empty option "{}" to capture long screenshot as vector graphics.

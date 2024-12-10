@@ -10,7 +10,7 @@ title: 重定向网址
 - 如果没有以上述字符结尾，则意味着“光秃秃”。所有网络访问被内部重定向至url:  
 "[全局重定向url]+'/'+[scheme]+'/'+[原始域名和路径]"
 
-Example: "https://loud-moth-21.deno.dev/"
+Example: "https://muweb.pages.dev/redirect?"
 
 使用仓库 "https://github.com/torappinfo/fetch" 入口"deno.js" [部署Deno](https://deno.com/deploy)
 

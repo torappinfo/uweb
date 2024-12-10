@@ -183,7 +183,7 @@ ipcMain.on('command', (event, cmd) => {
   addrCommand(cmd);
 });
 
-function addrCommand(cmd){
+async function addrCommand(cmd){
   if(cmd.length<3) return;
   let c0 = cmd.charCodeAt(0);
   switch(c0){
@@ -191,10 +191,12 @@ function addrCommand(cmd){
     bangcommand(q,1);
     return;
   case 58: //':'
-    args = cmd.substring(1).split(/\s+/);
-    switch(args[0]){
+    let iS = cmd.indexOf(' ',1);
+    if(iS<0) iS = cmd.length;
+    let arg0 = cmd.substring(1,iS);
+    switch(arg0){
     case "cert":
-      if(args.length==1)
+      if(cmd.length==iS)
         session.defaultSession.setCertificateVerifyProc((request, callback) => {
           callback(0);
         });
@@ -202,21 +204,29 @@ function addrCommand(cmd){
         session.defaultSession.setCertificateVerifyProc(null);
       return;
     case "clear":
-      if(args.length==1){
+      if(cmd.length<=iS+1){
         session.defaultSession.clearData();
         return;
       }
-      switch(args[1]){
+      if(123===cmd.charCodeAt(iS+1)){//json
+        try {
+          let opts = JSON.parse(cmd.substring(iS+1));
+          session.defaultSession.clearData(opts);
+        }catch(e){console.log(e)}
+        return;
+      }
+      let args = cmd.substring(iS+1).split(/\s+/);
+      switch(args[0]){
       case "cache":
         session.defaultSession.clearCache();
         return;
       case "cookie":
-        if(args.length==2){
+        if(args.length==1){
           session.defaultSession.clearStorageData({ storages: ['cookies'] });
           return;
         }
         {
-          let url = args[2];
+          let url = args[1];
           if(url.charCodeAt(0)!==104) url = "https://"+url;
           session.defaultSession.cookies.get({ url: url }).then((cookies) => {
             cookies.forEach((cookie) => {
@@ -230,24 +240,20 @@ function addrCommand(cmd){
         session.defaultSession.clearStorageData();
         return;
       default:
-        try {
-          let opts = JSON.parse(args.slice(1).join(""));
-          session.defaultSession.clearData(opts);
-        }catch(e){console.log(e)}
       }
       return;
     case "exit":
       win.close();
       return;
     case "ext":
-      session.defaultSession.loadExtension(args[1]);
+      session.defaultSession.loadExtension(cmd.substring(iS+1));
       return;
     case "gr":
-      if(args.length<2) {
+      if(cmd.length==iS) {
         gredirect_enable(0);
         return;
       }
-      let i = parseInt(args[1]);
+      let i = parseInt(cmd.substring(iS+1));
       if(i>=0 && i<gredirects.length)
         gredirect_enable(i);
       else
@@ -272,8 +278,8 @@ function addrCommand(cmd){
       bRedirect = true;
       return;
     case "up":
-      if(args.length>1)
-        proxy = proxies[args[1]]; //retrieve proxy
+      if(cmd.length>iS)
+        proxy = proxies[cmd.substring(iS+1)]; //retrieve proxy
       if(proxy){
         session.defaultSession.setProxy(proxy)
           .then(() => {gredirect_disable()})
@@ -286,9 +292,36 @@ function addrCommand(cmd){
       bRedirect = false; return;
     case "ur":
       bRedirect = true; return;
+    case "sys":
+      {
+        let iHTTP = cmd.search(/https?:\/\//);
+        if(iHTTP<0) return;
+        let iEnd = cmd.indexOf(' ',iHTTP+10);
+        if(iEnd<0) iEnd = cmd.length;
+        let url = cmd.substring(iHTTP,iEnd);
+        let cookies = await session.defaultSession.cookies.get({url: url});
+        let cookieS = cookies.map (cookie => cookie.name  + '='
+                                   + cookie.value ).join(';');
+        let args = cmd.substring(5).split(/\s+/);
+        for(let i=1;i<args.length;i++){
+          let iC = args[i].indexOf('%cookie');
+          if(iC<0) continue;
+          args[i] = args[i].substring(0,i)+cookieS+args[i].substring(i+7);
+          break;
+        }
+        const { spawn } = require('child_process');
+        const process = spawn(args[0],args.slice(1));
+        process.stdout.on('data', (data) => {
+          let str = data.toString();
+          console.log(str);
+          let js = "showHtml(`"+str+"`)";
+          win.webContents.executeJavaScript(js,false);
+        });
+      }
+      return;
     case "ua":
-      if(args.length==2){
-        let ua = useragents[args[1]];
+      if(cmd.length>iS){
+        let ua = useragents[cmd.substring(iS+1)];
         if(ua)
           session.defaultSession.setUserAgent(ua);
       }else
@@ -296,10 +329,10 @@ function addrCommand(cmd){
       return;
     case "update":
       let updateurl;
-      if(1==args.length)
+      if(cmd.length==iS)
         updateApp(repositoryurl);
       else {
-        filename = args[1];
+        filename = cmd.substring(iS+1);
         let iSlash = filename.lastIndexOf('/');
         if(iSlash>0){
           let folder = path.join(__dirname,filename.substring(0,iSlash));
