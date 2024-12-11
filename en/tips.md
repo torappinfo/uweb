@@ -3,7 +3,7 @@ title: Resource redirection
 date: 2023-04-11
 tags: [redirection]
 ---
-⚠️<span style="color:red">Redirection forwards cookies</span> with the setting option "Redirect cookies" enabled, so use the options with care.
+⚠️<span style="color:red">Redirection forwards cookies</span> with the setting option "Redirect cookies" enabled, so use the option with care.
 
 #### Setting options: "Url redirection" vs. "Resource redirection"
 "Url redirection" redirects the main/page url only while "Resource redirection" is for all urls in the page.
@@ -16,6 +16,10 @@ When a valid global redirection url is set, the "default.redirect" has no effect
 - If the global redirection url ends with '/', '?', or '=', then the resource is fetched with by the url "[global redirection url] + [url]". For example, "https://domain.com/pathXXX/https://cnn.com".
 
 - (to provide more options to users) If the global redirection url does not end with '/', '?' or '=', it means the global redirection url is naked. then the resource is fetched with by the url "[global redirection url] + '/'+ [scheme]+ '/' + [url without scheme]". For example, when the global redirection url is "https://domain.com/pathXXX", the real url to visit "https://cnn.com" is "https://domain.com/pathXXX/https/cnn.com".
+
+Example: "https://muweb.pages.dev/redirect?"
+
+[global redirection code for cloudflare workers](searchurl/cloudflare/redirect.js) free deployment: The global redirection url is "https://subdomain.workers.dev/", which is just the worker's domain name.
 
 #### "default.redirect" (valid only without global redirection url)
 Click the following links to append mirrors to the file "default.redirect":

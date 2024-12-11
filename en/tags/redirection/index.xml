@@ -6,14 +6,14 @@
     <description>Recent content in Redirection on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Apr 2024 20:48:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 19:12:24 +0800</lastBuildDate>
     <atom:link href="/en/tags/redirection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resource redirection</title>
       <link>/en/redirect/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <guid>/en/redirect/</guid>
-      <description>&lt;p&gt;⚠️&lt;span style=&#34;color:red&#34;&gt;Redirection forwards cookies&lt;/span&gt; with the setting option &amp;quot;Redirect cookies&amp;quot; enabled, so use the options with care.&lt;/p&gt;&#xA;&lt;h4 id=&#34;setting-options-url-redirection-vs-resource-redirection&#34;&gt;Setting options: &amp;quot;Url redirection&amp;quot; vs. &amp;quot;Resource redirection&amp;quot;&lt;/h4&gt;&#xA;&lt;p&gt;&amp;quot;Url redirection&amp;quot; redirects the main/page url only while &amp;quot;Resource redirection&amp;quot; is for all urls in the page.&lt;/p&gt;&#xA;&lt;h4 id=&#34;global-redirection&#34;&gt;Global redirection&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/en/searchurl/config.html&#34;&gt;Global redirection&lt;/a&gt; is enabled with the setting option &amp;quot;Resource redirection&amp;quot; or both &amp;quot;Url redirection&amp;quot; and &amp;quot;Redirect cookies&amp;quot;.&lt;/p&gt;&#xA;&lt;p&gt;When a valid global redirection url is set, the &amp;quot;default.redirect&amp;quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.&lt;/p&gt;</description>
+      <description>&lt;p&gt;⚠️&lt;span style=&#34;color:red&#34;&gt;Redirection forwards cookies&lt;/span&gt; with the setting option &amp;quot;Redirect cookies&amp;quot; enabled, so use the option with care.&lt;/p&gt;&#xA;&lt;h4 id=&#34;setting-options-url-redirection-vs-resource-redirection&#34;&gt;Setting options: &amp;quot;Url redirection&amp;quot; vs. &amp;quot;Resource redirection&amp;quot;&lt;/h4&gt;&#xA;&lt;p&gt;&amp;quot;Url redirection&amp;quot; redirects the main/page url only while &amp;quot;Resource redirection&amp;quot; is for all urls in the page.&lt;/p&gt;&#xA;&lt;h4 id=&#34;global-redirection&#34;&gt;Global redirection&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/en/searchurl/config.html&#34;&gt;Global redirection&lt;/a&gt; is enabled with the setting option &amp;quot;Resource redirection&amp;quot; or both &amp;quot;Url redirection&amp;quot; and &amp;quot;Redirect cookies&amp;quot;.&lt;/p&gt;&#xA;&lt;p&gt;When a valid global redirection url is set, the &amp;quot;default.redirect&amp;quot; has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

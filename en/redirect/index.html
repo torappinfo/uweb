@@ -49,7 +49,7 @@
     <li><a href="../tags/redirection/index.html#">redirection</a> </li>
     
   </ul>
-  <p>⚠️<span style="color:red">Redirection forwards cookies</span> with the setting option &quot;Redirect cookies&quot; enabled, so use the options with care.</p>
+  <p>⚠️<span style="color:red">Redirection forwards cookies</span> with the setting option &quot;Redirect cookies&quot; enabled, so use the option with care.</p>
 <h4 id="setting-options-url-redirection-vs-resource-redirection">Setting options: &quot;Url redirection&quot; vs. &quot;Resource redirection&quot;</h4>
 <p>&quot;Url redirection&quot; redirects the main/page url only while &quot;Resource redirection&quot; is for all urls in the page.</p>
 <h4 id="global-redirection">Global redirection</h4>
@@ -63,6 +63,8 @@
 <p>(to provide more options to users) If the global redirection url does not end with '/', '?' or '=', it means the global redirection url is naked. then the resource is fetched with by the url &quot;[global redirection url] + '/'+ [scheme]+ '/' + [url without scheme]&quot;. For example, when the global redirection url is &quot;https://domain.com/pathXXX&quot;, the real url to visit &quot;https://cnn.com&quot; is &quot;https://domain.com/pathXXX/https/cnn.com&quot;.</p>
 </li>
 </ul>
+<p>Example: &quot;https://muweb.pages.dev/redirect?&quot;</p>
+<p><a href="searchurl/cloudflare/redirect.js">global redirection code for cloudflare workers</a> free deployment: The global redirection url is &quot;https://subdomain.workers.dev/&quot;, which is just the worker's domain name.</p>
 <h4 id="defaultredirect-valid-only-without-global-redirection-url">&quot;default.redirect&quot; (valid only without global redirection url)</h4>
 <p>Click the following links to append mirrors to the file &quot;default.redirect&quot;:<br>
 <a target="_self" href="i:0gdefault.redirect:../../zh/searchurl/txt/redirect.cfg">google recaptcha mirror</a></p>
@@ -77,8 +79,8 @@
 </ul>
 
 </div>
-<p>Last Modified: 7 April 2024<br>
-more details on global redirection url<br>
+<p>Last Modified: 11 December 2024<br>
+add cf worker code link for redirection<br>
 <pre></pre>
 </p>
 
