@@ -8,7 +8,8 @@
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
 (Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [frama](https://torappinfo.frama.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [fleek](https://uweb.on-fleek.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [zeabur](https://uweb.zeabur.app/en/) [deno](https://posh-crab-23.deno.dev/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) [glitch](https://uweb.glitch.me/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
 
- - <a href="en/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI chat as search engine</a>, select [file as keyboard input](https://uwebzh.netlify.app/en/links/index.html#) for complex query.
+ - <a href="en/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI chats as search engines</a> without repeated input; selecting [file as keyboard input](https://uwebzh.netlify.app/en/links/index.html#) for complex query.
+- <a href="en/tips.md" onclick="if(notRepo()){location='../redirect/index.html#';return false;}">Global redirection</a> to bypass censorship. 
 - Convenient: Any AI chatbot/book (pdf/djvu)/dictionary (mdict)/txt/command line/app/webapp (web extensions) as search engine.
 - Tiny: less than 250k.
 - Fast: run fast, even with thousands of user provided css/scripts/htmls.
