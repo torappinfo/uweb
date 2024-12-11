@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on uweb browser: unlimited power</title>
-    <link>/en/tags/tools/</link>
+    <link>https://jamesfengcao.gitlab.io/uweb/en/tags/tools/</link>
     <description>Recent content in Tools on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Apr 2024 11:45:19 +0800</lastBuildDate>
-    <atom:link href="/en/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools</title>
-      <link>/en/tools/</link>
+      <link>https://jamesfengcao.gitlab.io/uweb/en/tools/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/en/tools/</guid>
+      <guid>https://jamesfengcao.gitlab.io/uweb/en/tools/</guid>
       <description>&lt;p&gt;This page is for &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;a-hrefi0bhttpsfastlyjsdelivrnetghtorappinfouwebjsbintdict_loctargzinstall-tdict_local-search-with-local-indexes-and-remote-contenta&#34;&gt;&lt;a href=&#34;i:0bhttps://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/tdict_loc.tar.gz&#34;&gt;install tdict_local (search with local indexes and remote content)&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Click to install the following local indexes with corresponding search engines (for test only).&lt;br&gt;&#xA;&lt;a href=&#34;i:0hahd.tidx:https://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/ahd.tidx&#34;&gt;install the indexes for &amp;quot;American heritage dictionary (en-en&amp;amp;zh with AHD/D.J./K.K. pronunciation)&amp;quot;&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:00AHD:d:text/html:tdict_loc ahd \&#39;%s\&#39;|loc2html text/plain \&#39;https://s1.asytech.cn/s/HxY9QT5cdp63ZPK/download?path=%2F&amp;files=ahd.dict\&#39;:&#34;&gt;Install AHD to home screen&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0henja.tidx:https://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/enja.tidx&#34;&gt;Indexes for &amp;quot;研究社新編英和活用大辞典(English usage: en-en&amp;amp;ja)&amp;quot;&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:00enja:d:text/html:tdict_loc enja \&#39;%s\&#39;|loc2html text/plain \&#39;https://s1.asytech.cn/s/oaoGniEBKLnWzoj/download?path=%2F&amp;files=enja.dict\&#39;:&#34;&gt;Install &amp;quot;English usage (en-en&amp;amp;ja)&amp;quot;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0hsoed.tidx:https://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/soed.tidx&#34;&gt;Indexes for SOED6&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:00soed:d:text/html:tdict_loc soed \&#39;%s\&#39;|loc2html text/plain \&#39;https://s1.asytech.cn/s/oaoGniEBKLnWzoj/download?path=%2F&amp;files=soed.dict\&#39;:&#34;&gt;install SOED&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The following dictionaries work better with markdown processor.&lt;br&gt;&#xA;&lt;a href=&#34;i:0hmd.html:https://fastly.jsdelivr.net/gh/torappinfo/uwebjs/txt/mdme.html&#34;&gt;Install markdown processor&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0hmwi.tidx:https://fastly.jsdelivr.net/gh/torappinfo/uwebjs/bin/mwi.tidx&#34;&gt;Indexes for &amp;quot;Merriam Webster International Unabridged&amp;quot;&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:00mwi:d:text/html:tdict_loc mwi \&#39;%s\&#39;|loc2html text/html.md.html \&#39;https://s1.asytech.cn/s/oaoGniEBKLnWzoj/download?path=%2F&amp;files=mwi.dict\&#39;:&#34;&gt;Install MWI&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

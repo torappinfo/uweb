@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电视 on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags/%E7%94%B5%E8%A7%86/</link>
+    <link>https://jamesfengcao.gitlab.io/uweb/zh/tags/%E7%94%B5%E8%A7%86/</link>
     <description>Recent content in 电视 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 02 Apr 2024 11:46:25 +0800</lastBuildDate>
-    <atom:link href="/zh/tags/%E7%94%B5%E8%A7%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesfengcao.gitlab.io/uweb/zh/tags/%E7%94%B5%E8%A7%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电视直播</title>
-      <link>/zh/tvlive/</link>
+      <link>https://jamesfengcao.gitlab.io/uweb/zh/tvlive/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/zh/tvlive/</guid>
+      <guid>https://jamesfengcao.gitlab.io/uweb/zh/tvlive/</guid>
       <description>&lt;h4 id=&#34;直播源&#34;&gt;直播源&lt;/h4&gt;&#xA;&lt;p&gt;直播源网址前面加上前缀&amp;quot;i:0/js/2lnk.js:i:5g&amp;quot;就可将任一直播源转换成直播网页。其中前缀 &amp;quot;i:0/js/2lnk.js:&amp;quot; 对网页使用应用assets内置小书签&amp;quot;/js/2lnk.js&amp;quot;转换直播源，&amp;quot;i:0&amp;quot;中的&amp;quot;0&amp;quot;表示此功能更改了网页原来的展示，有潜在的安全威胁，需用户明确同意（比如通过安装为菜单，书签，对话框确认等方式）。前缀&amp;quot;i:5g&amp;quot;强迫网址以文本方式展示，部分直播源以m3u为后缀，不能省略前缀&amp;quot;i:5g&amp;quot;。&lt;br&gt;&#xA;&lt;a href=&#34;i:0/js/2lnk.js:i:5ghttps://fastly.jsdelivr.net/gh/YanG-1989/m3u/Gather.m3u&#34;&gt;YanG-1989/m3u&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;频道&#34;&gt;频道&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://tv.cctv.com/live/cctv1&#34;&gt;CCTV1&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv2&#34;&gt;CCTV2财经&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv4&#34;&gt;CCTV4国际&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv5&#34;&gt;CCTV5体育&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv6&#34;&gt;CCTV6电影&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv7&#34;&gt;CCTV7军农&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv8&#34;&gt;CCTV8电视剧&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv10&#34;&gt;CCTV10科教&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv11&#34;&gt;CCTV11戏曲&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv12&#34;&gt;CCTV12社会与法&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv13&#34;&gt;CCTV13新闻&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv15&#34;&gt;CCTV15少儿&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tv.cctv.com/live/cctv17&#34;&gt;CCTV17农村&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://wanzhoulive.cbg.cn:8017/iTXwrGs/800/live.m3u8&#34;&gt;万州综合频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8&#34;&gt;万州三峡移民&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://stream.lytv.net.cn/2/sd/live.m3u8&#34;&gt;龙岩综合频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://stream.smntv.cn/smtv1/sd/live.m3u8&#34;&gt;三明综合频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://stream.smntv.cn/smtv2/sd/live.m3u8&#34;&gt;三明公共频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://live.todaydunhuang.com:1935/live/live100/500K/tzwj_video.m3u8&#34;&gt;敦煌综合频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8&#34;&gt;河源综合频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8&#34;&gt;河源公共频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://hls.mlink.tv/mlink/glyKPQRZ.m3u8&#34;&gt;黔东南综合频道&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://czlive.czgd.tv:85/live/xnst.m3u8&#34;&gt;沧州三套节目&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;电视模式配置直播源&#34;&gt;电视模式：配置直播源&lt;/h4&gt;&#xA;&lt;p&gt;文件&amp;quot;&lt;a href=&#34;../search/index.html#&#34;&gt;engine.search&lt;/a&gt;&amp;quot;为自动顺序搜索引擎列表文件，其格式与主屏搜索引擎文件&amp;quot;home5.search&amp;quot;类似。如果将其中的搜索引擎url以视频url代替。此时浏览器会将“engine.search”作为视频直播频道列表文件，浏览器进入电视模式，启动就会全屏播放。&lt;/p&gt;</description>
     </item>
   </channel>

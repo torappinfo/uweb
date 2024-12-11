@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>国外网址 on 超微浏览器: 威、快、高效、极致优化</title>
-    <link>/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</link>
+    <link>https://jamesfengcao.gitlab.io/uweb/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/</link>
     <description>Recent content in 国外网址 on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesfengcao.gitlab.io/uweb/zh/tags/%E5%9B%BD%E5%A4%96%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>加速国外网站访问</title>
-      <link>/zh/hosts/</link>
+      <link>https://jamesfengcao.gitlab.io/uweb/zh/hosts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/hosts/</guid>
+      <guid>https://jamesfengcao.gitlab.io/uweb/zh/hosts/</guid>
       <description>&lt;p&gt;不少国外网站本身虽可访问，但由于网站需要下载其它网址的资源而导致无法访问。根域名屏蔽可屏蔽文件中域名的一切子域名、孙域名、......，从而主动排除这些网址，最终允许浏览器快速访问。&lt;/p&gt;&#xA;&lt;p&gt;使用Android端&lt;a href=&#34;..&#34;&gt;uweb浏览器&lt;/a&gt;。&lt;br&gt;&#xA;域名文件 &lt;a href=&#34;../adblock_domain/index.html#&#34;&gt;&amp;quot;default.hosts&amp;quot;&lt;/a&gt; 内容如下：&lt;br&gt;&#xA;googleadservices.com&lt;br&gt;&#xA;googlesyndication.com&lt;br&gt;&#xA;adsense.com&lt;br&gt;&#xA;googleapis.com&lt;br&gt;&#xA;google-analytics.com&lt;br&gt;&#xA;googletagservices.com&lt;br&gt;&#xA;facebook.com&lt;br&gt;&#xA;fbcdn.net&lt;/p&gt;&#xA;&lt;p&gt;其它国外网址访问技巧：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;尝试关闭javascript, 譬如程序员网站stackoverflow.com在关闭javascript的情况下国内一般均可快速访问。&lt;/li&gt;&#xA;&lt;li&gt;关闭网页图片&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../redirect/index.html#&#34;&gt;重定向网址&lt;/a&gt;:包括重定向至国内镜像以及全局重定向。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

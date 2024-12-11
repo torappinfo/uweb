@@ -2,572 +2,572 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/search/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/search/</loc>
     <lastmod>2024-12-10T18:05:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/search/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/search/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/search/"
                 />
   </url><url>
-    <loc>/en/topposts/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/topposts/</loc>
     <lastmod>2024-12-10T18:05:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/topposts/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/topposts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/topposts/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/topposts/"
                 />
   </url><url>
-    <loc>/en/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/</loc>
     <lastmod>2024-12-11T19:12:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/"
                 />
   </url><url>
-    <loc>/en/_posts/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/_posts/</loc>
     <lastmod>2024-12-11T19:12:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/_posts/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/_posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/_posts/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/_posts/"
                 />
   </url><url>
-    <loc>/en/globalcss/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/globalcss/</loc>
     <lastmod>2024-10-13T16:43:18+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/globalcss/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/globalcss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/globalcss/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/globalcss/"
                 />
   </url><url>
-    <loc>/en/ebrowser/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/ebrowser/</loc>
     <lastmod>2024-07-12T10:48:12+08:00</lastmod>
   </url><url>
-    <loc>/en/ebrowser/eb_select/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/ebrowser/eb_select/</loc>
     <lastmod>2024-07-12T10:48:12+08:00</lastmod>
   </url><url>
-    <loc>/en/tags/clipboard/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/clipboard/</loc>
     <lastmod>2024-05-24T09:50:14+08:00</lastmod>
   </url><url>
-    <loc>/en/tags/ssh/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/</loc>
     <lastmod>2024-05-24T09:50:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/ssh/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/ssh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/ssh/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/</loc>
     <lastmod>2024-12-11T19:12:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/"
                 />
   </url><url>
-    <loc>/en/tags/termux/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/termux/</loc>
     <lastmod>2024-05-24T09:50:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/termux/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/termux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/termux/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/termux/"
                 />
   </url><url>
-    <loc>/en/textprocess/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/textprocess/</loc>
     <lastmod>2024-05-24T09:50:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/textprocess/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/textprocess/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/textprocess/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/textprocess/"
                 />
   </url><url>
-    <loc>/en/tags/windows/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/windows/</loc>
     <lastmod>2024-05-24T09:50:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/windows/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/windows/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/windows/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/windows/"
                 />
   </url><url>
-    <loc>/en/links/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/links/</loc>
     <lastmod>2024-12-10T11:31:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/links/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/links/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/links/"
                 />
   </url><url>
-    <loc>/en/tcron/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tcron/</loc>
     <lastmod>2024-08-27T10:07:34+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tcron/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tcron/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tcron/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tcron/"
                 />
   </url><url>
-    <loc>/en/offlinecache/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/offlinecache/</loc>
     <lastmod>2024-04-08T18:19:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/offlinecache/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/offlinecache/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/offlinecache/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/offlinecache/"
                 />
   </url><url>
-    <loc>/en/tags/redirection/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/redirection/</loc>
     <lastmod>2024-12-11T19:12:24+08:00</lastmod>
   </url><url>
-    <loc>/en/redirect/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/redirect/</loc>
     <lastmod>2024-12-11T19:12:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/redirect/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/redirect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/redirect/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/redirect/"
                 />
   </url><url>
-    <loc>/en/tags/adblock/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/adblock/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/adblock_domain/</loc>
-    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/adblock_domain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/adblock_domain/"
-                />
-  </url><url>
-    <loc>/en/tags/css/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/adblock_domain/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/css/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/adblock_domain/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/css/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/adblock_domain/"
                 />
   </url><url>
-    <loc>/en/tags/javascript/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/css/</loc>
+    <lastmod>2024-04-02T11:45:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/css/"
+                />
+  </url><url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/javascript/</loc>
     <lastmod>2024-06-11T08:12:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/javascript/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/javascript/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/javascript/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/javascript/"
                 />
   </url><url>
-    <loc>/en/sitejs/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/sitejs/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sitejs/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/sitejs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sitejs/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/sitejs/"
                 />
   </url><url>
-    <loc>/en/bookmark/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/bookmark/</loc>
     <lastmod>2024-11-28T21:45:23+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/bookmark/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/bookmark/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/bookmark/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/bookmark/"
                 />
   </url><url>
-    <loc>/en/tips/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tips/</loc>
     <lastmod>2024-04-30T20:46:47+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tips/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tips/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tips/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tips/"
                 />
   </url><url>
-    <loc>/en/acmd/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/acmd/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
   </url><url>
-    <loc>/en/url2site/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/url2site/</loc>
     <lastmod>2024-04-07T19:01:03+08:00</lastmod>
   </url><url>
-    <loc>/en/html5/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/html5/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/html5/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/html5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/html5/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/html5/"
                 />
   </url><url>
-    <loc>/en/changelog/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/changelog/</loc>
     <lastmod>2024-12-09T21:55:11+08:00</lastmod>
   </url><url>
-    <loc>/en/sitemap/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/sitemap/</loc>
     <lastmod>2024-04-07T08:34:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sitemap/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/sitemap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sitemap/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/sitemap/"
                 />
   </url><url>
-    <loc>/en/filenames/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/filenames/</loc>
     <lastmod>2024-04-30T20:45:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/filenames/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/filenames/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/filenames/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/filenames/"
                 />
   </url><url>
-    <loc>/en/adblock/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/adblock/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/adblock/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/adblock/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/adblock/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/adblock/"
                 />
   </url><url>
-    <loc>/en/bookmarklet/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/bookmarklet/</loc>
     <lastmod>2024-06-11T08:12:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/bookmarklet/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/bookmarklet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/bookmarklet/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/bookmarklet/"
                 />
   </url><url>
-    <loc>/en/urls/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/urls/</loc>
     <lastmod>2024-07-04T14:30:48+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/urls/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/urls/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/urls/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/urls/"
                 />
   </url><url>
-    <loc>/en/cmds/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/cmds/</loc>
     <lastmod>2024-10-03T22:10:01+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/cmds/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/cmds/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cmds/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/cmds/"
                 />
   </url><url>
-    <loc>/en/rjs/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/rjs/</loc>
     <lastmod>2024-06-18T08:06:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/rjs/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/rjs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/rjs/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/rjs/"
                 />
   </url><url>
-    <loc>/en/icons/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/icons/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/icons/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/icons/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/icons/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/icons/"
                 />
   </url><url>
-    <loc>/en/tags/search-engine/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/</loc>
     <lastmod>2024-04-08T08:46:24+08:00</lastmod>
   </url><url>
-    <loc>/en/searchcat/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/searchcat/</loc>
     <lastmod>2024-04-08T08:46:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/searchcat/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/searchcat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/searchcat/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/searchcat/"
                 />
   </url><url>
-    <loc>/en/termux/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/termux/</loc>
     <lastmod>2024-08-22T08:08:49+08:00</lastmod>
   </url><url>
-    <loc>/en/useragents/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/useragents/</loc>
     <lastmod>2024-07-10T11:21:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/useragents/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/useragents/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/useragents/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/useragents/"
                 />
   </url><url>
-    <loc>/en/longclick/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/longclick/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/longclick/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/longclick/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/longclick/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/longclick/"
                 />
   </url><url>
-    <loc>/en/tags/tdict/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/tdict/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/tdict/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/tdict/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/tdict/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/tdict/"
                 />
   </url><url>
-    <loc>/en/tags/tools/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/tools/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/tools/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/tools/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/tools/"
                 />
   </url><url>
-    <loc>/en/tools/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tools/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tools/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tools/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tools/"
                 />
   </url><url>
-    <loc>/en/tags/curl/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/curl/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/curl/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tags/curl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/curl/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tags/curl/"
                 />
   </url><url>
-    <loc>/en/filecap/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/filecap/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/filecap/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/filecap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/filecap/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/filecap/"
                 />
   </url><url>
-    <loc>/en/gesture/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/gesture/</loc>
     <lastmod>2024-04-02T11:45:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/gesture/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/gesture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/gesture/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/gesture/"
                 />
   </url><url>
-    <loc>/en/ebrowserreadme/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/ebrowserreadme/</loc>
     <lastmod>2024-12-08T16:34:57+08:00</lastmod>
   </url><url>
-    <loc>/en/mirrors/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/mirrors/</loc>
     <lastmod>2024-08-25T11:55:18+08:00</lastmod>
   </url><url>
-    <loc>/en/readme/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/readme/</loc>
     <lastmod>2024-12-11T16:00:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/readme/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/readme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/readme/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/readme/"
                 />
   </url><url>
-    <loc>/en/categories/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/categories/"
                 />
   </url><url>
-    <loc>/en/unlist/</loc>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/unlist/</loc>
     <lastmod>2024-12-11T16:00:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/unlist/"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/unlist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/unlist/"
+                href="https://jamesfengcao.gitlab.io/uweb/en/unlist/"
                 />
   </url>
 </urlset>

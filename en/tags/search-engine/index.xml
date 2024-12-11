@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search Engine on uweb browser: unlimited power</title>
-    <link>/en/tags/search-engine/</link>
+    <link>https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/</link>
     <description>Recent content in Search Engine on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Apr 2024 08:46:24 +0800</lastBuildDate>
-    <atom:link href="/en/tags/search-engine/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search engine files</title>
-      <link>/en/searchcat/</link>
+      <link>https://jamesfengcao.gitlab.io/uweb/en/searchcat/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/en/searchcat/</guid>
+      <guid>https://jamesfengcao.gitlab.io/uweb/en/searchcat/</guid>
       <description>&lt;p&gt;Search engine file names have &amp;quot;.search&amp;quot; as postfix. When they are clicked, the associated bookmark files with postfix &amp;quot;.search.html&amp;quot; would be appended. Ex: the associated bookmark for &amp;quot;foo.search&amp;quot; is &amp;quot;foo.search.html&amp;quot;.&lt;/p&gt;&#xA;&lt;p&gt;Any &amp;quot;.search&amp;quot; file can be opened as search engine file, each line of which has one of the following formats:&lt;br&gt;&#xA;[Engine name]:[url without &#39;%s&#39; inside]&lt;br&gt;&#xA;[Engine name]:[url with &#39;%s&#39; as keyword]&lt;br&gt;&#xA;[Engine name]:POST:[post params with &#39;%s&#39; as keyword]:[url]&lt;br&gt;&#xA;[Engine name]:[Extra request headers]:[post params with &#39;%s&#39; as keyword]:[url]&lt;/p&gt;</description>
     </item>
   </channel>
