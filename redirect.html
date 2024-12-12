@@ -2,11 +2,12 @@
 <script type="text/javascript">
   (function(){
   var ls = navigator.languages;
+  var url = "en/index.html#";  
   for(var i in ls){
-    if(ls[i].startsWith("en")) {location.href="en/index.html#";return;}
-    if(ls[i].startsWith("zh")) {location.href="zh/index.html#";return;}
+    if(ls[i].startsWith("en")) break;
+    if(ls[i].startsWith("zh")) {url="zh/index.html#";break;}
   }
-  location.href="en/index.html#";
+  location.href=url;
   })();
 </script>
 </head>
