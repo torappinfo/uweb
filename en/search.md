@@ -54,13 +54,15 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00awesomerepo:https://www.awesome-repositories.com/s/results-with-ai/">awesomerepo:https://www.awesome-repositories.com/s/results-with-ai/</a>
 
-<a href="i:00devv:i:0/js/s2editable.js:https://devv.ai?%3Cp%3E%s%3C/p%3E">devv:i:0/js/s2editable.js:https://devv.ai?%3Cp%3E%s%3C/p%3E</a>
-
 <a href="i:00floatsearch:i:0/js/s2ta.js:https://floatsearch.ai?%s">floatsearch:i:0/js/s2ta.js:https://floatsearch.ai?%s</a>
 
 <a href="i:00morphic:i:0/js/s2ta.js:https://www.morphic.sh?%s">morphic:i:0/js/s2ta.js:https://www.morphic.sh?%s</a>
 
 <a href="i:00lambda:i:0/js/s2ta.js:https://lambda.chat/chatui/?%s">lambda:i:0/js/s2ta.js:https://lambda.chat/chatui/?%s</a>
+
+<a href="i:00blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai?10uweb=%s">blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai?10uweb=%s</a>
+
+<a href="i:00devv:i:0/js/s2editable.js:https://devv.ai?%3Cp%3E%s%3C/p%3E">devv:i:0/js/s2editable.js:https://devv.ai?%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h&uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h&uweb=%s</a>
 

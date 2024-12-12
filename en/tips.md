@@ -19,7 +19,7 @@ When a valid global redirection url is set, the "default.redirect" has no effect
 
 Example: "https://muweb.pages.dev/redirect?"
 
-[global redirection code for cloudflare workers](searchurl/cloudflare/redirect.js) free deployment: The global redirection url is "https://subdomain.workers.dev/", which is just the worker's domain name.
+[global redirection code for cloudflare worker](searchurl/cloudflare/redirect.js) free deployment: The global redirection url is "https://subdomain.workers.dev/", which is just the worker's domain name.
 
 #### "default.redirect" (valid only without global redirection url)
 Click the following links to append mirrors to the file "default.redirect":
