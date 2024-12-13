@@ -7,7 +7,6 @@
 [notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
 [launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
 [framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
-[agit](https://agit.ai/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [froggi](https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
 [gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html#)
@@ -35,7 +34,6 @@
 <a href="i:0m?:https://notabug.org/torappinfo/uweb/raw/master/redirect.html">8</a>
 <a href="i:0mi:5h:https://git.launchpad.net/uweb/plain/redirect.html">9</a>
 <a href="i:0m?:https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html">10</a>
-<a href="i:0m?:https://agit.ai/jamesfengcao/uweb/raw/branch/master/redirect.html">11</a>
 <a href="i:0m?:https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html">12</a>
 <a href="i:0m?:https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html">13</a>
 <a href="i:0m?:https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html">14</a>
@@ -69,7 +67,6 @@
 [gitea](https://gitea.com/torappinfo/uweb/src/branch/master/README.md)
 [notabug](https://notabug.org/torappinfo/uweb/src/master/README.md)
 [framagit](https://framagit.org/torappinfo/uweb)
-[agit](https://agit.ai/jamesfengcao/uweb/src/branch/master/README.md)
 [froggi](https://git.froggi.es/jamesfengcao/uweb/src/branch/master/README.md)
 [gitdab](https://gitdab.com/jamesfengcao/uweb/src/branch/master/README.md)
 [pagure](https://pagure.io/uweb/blob/master/f/README.md)

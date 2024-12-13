@@ -12,10 +12,9 @@
 
 - <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、百科、AI 聊天devv.ai等</a></span>
 - <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI聊天可作为搜索引擎</a>，无需重复输入。复杂问询如代码可选择[文件作为键盘输入](https://uwebzh.netlify.app/en/links/index.html#)，让AI成为您的智囊团。
-- 完善的下载支持，部分网站下载其它浏览器无法成功。
 - 微：不到250K。
 - 威：无穷无尽的功能，使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。
-- 便捷：AI聊天/图书（pdf/djvu）/txt/词典（mdict,kiwix）/命令行/APP/webapp(web extensions)可作为搜索引擎使用。
+- 便捷：AI聊天/图书/txt/词典/命令行/APP/webapp可作为搜索引擎使用。
 - 快：手机越慢，脚本插件越多越明显。
 - 高效：最少的操作，在线服务全自动（参看常用链接网页）。
 - 极致优化：最少存储写操作，比如浏览器转到后台前配置变化如恢复成原样则无写操作。
