@@ -26,7 +26,7 @@
 
 #### Mirrors (for all versions)
 <p>
-<a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">试验1</a>
+<a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">1</a>
 <a href="i:0m?:https://gitcode.net/uweb/uweb/-/raw/master/redirect.html">2</a>
 <a href="i:0m?:https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html">4</a>
 <a href="i:0m?:https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html">5</a>
