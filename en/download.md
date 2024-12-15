@@ -2,6 +2,8 @@
 
 [sourceforge](https://sourceforge.net/projects/uwebbrowser/files/v1/)
 
+[![](https://stc.utdstc.com/img/mediakit/download-gio-big.png)](https://uweb-browser-for-geeks.en.uptodown.com/android "uweb")
+
 [powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
 
 [udrop](https://www.udrop.com/folder/08ba413230f465ca0901bef68e857c0b/uweb)
