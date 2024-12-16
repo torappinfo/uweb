@@ -54,29 +54,29 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00awesomerepo:https://www.awesome-repositories.com/s/results-with-ai/">awesomerepo:https://www.awesome-repositories.com/s/results-with-ai/</a>
 
-<a href="i:00floatsearch:i:0/js/s2ta.js:https://floatsearch.ai?%s">floatsearch:i:0/js/s2ta.js:https://floatsearch.ai?%s</a>
-
-<a href="i:00morphic:i:0/js/s2ta.js:https://www.morphic.sh?%s">morphic:i:0/js/s2ta.js:https://www.morphic.sh?%s</a>
-
-<a href="i:00lambda:i:0/js/s2ta.js:https://lambda.chat/chatui/?%s">lambda:i:0/js/s2ta.js:https://lambda.chat/chatui/?%s</a>
-
-<a href="i:00blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai?10uweb=%s">blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai?10uweb=%s</a>
-
-<a href="i:00devv:i:0/js/s2editable.js:https://devv.ai?%3Cp%3E%s%3C/p%3E">devv:i:0/js/s2editable.js:https://devv.ai?%3Cp%3E%s%3C/p%3E</a>
-
-<a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h&uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h&uweb=%s</a>
-
 <a href="i:00searchGPT:https://chatgpt.com?hints=search&q=">searchGPT:https://chatgpt.com?hints=search&q=</a>
 
-<a href="i:00chatGPT:i:0/js/s2ta.js:https://chat.openai.com/?%s">chatGPT:i:0/js/s2ta.js:https://chat.openai.com/?%s</a>
+<a href="i:00floatsearch:i:0/js/uweb2ta.js:https://floatsearch.ai#uweb=%s">floatsearch:i:0/js/uweb2ta.js:https://floatsearch.ai#uweb=%s</a>
 
-<a href="i:00lepton:i:0/js/s2input.js:https://search.lepton.run/?%s">lepton:i:0/js/s2input.js:https://search.lepton.run/?%s</a>
+<a href="i:00morphic:i:0/js/uweb2ta.js:https://www.morphic.sh#uweb=%s">morphic:i:0/js/uweb2ta.js:https://www.morphic.sh#uweb=%s</a>
+
+<a href="i:00lambda:i:0/js/uweb2ta.js:https://lambda.chat/chatui/#uweb=%s">lambda:i:0/js/uweb2ta.js:https://lambda.chat/chatui/#uweb=%s</a>
+
+<a href="i:00blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai#10uweb=%s">blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai#10uweb=%s</a>
+
+<a href="i:00devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E">devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E</a>
+
+<a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s</a>
+
+<a href="i:00chatGPT:i:0/js/uweb2ta.js:https://chat.openai.com/#uweb=%s">chatGPT:i:0/js/uweb2ta.js:https://chat.openai.com/#uweb=%s</a>
+
+<a href="i:00lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s">lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s</a>
 
 
 AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)  
-<a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai?uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai?uweb=%s</a>
+<a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s</a>
 
-<a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai?uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai?uweb=%s</a>
+<a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s</a>
 
 
 <a id="mainSE">Recommended engines</a>：  

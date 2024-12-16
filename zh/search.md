@@ -42,37 +42,37 @@ log: |
 
 <a href="i:00CSDN:https://chat.csdn.net?q=">CSDN:https://chat.csdn.net?q=</a>
 
-<a href="i:00智谱清言:i:0/js/s2ta.js:https://chatglm.cn/main/alltoolsdetail?%s">智谱清言:i:0/js/s2ta.js:https://chatglm.cn/main/alltoolsdetail?%s</a>
+<a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
-<a href="i:00百川:i:0/js/s2ta.js:https://www.baichuan-ai.com/chat?%s">百川:i:0/js/s2ta.js:https://www.baichuan-ai.com/chat?%s</a>
+<a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
-<a href="i:00腾讯元宝:i:0/js/s2editable.js:https://yuanbao.tencent.com/chat?%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/s2editable.js:https://yuanbao.tencent.com/chat?%3Cp%3E%s%3C/p%3E</a>
+<a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
 
-<a href="i:00知料觅得:i:0/js/s2input.js:https://www.sou100.com?%s">知料觅得:i:0/js/s2input.js:https://www.sou100.com?%s</a>
+<a href="i:00知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s">知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s</a>
 
-<a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/?01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/?01uweb=%s</a>
+<a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
-<a href="i:00openperplex:i:0/js/s2ta.js:https://openperplex.com?%s">openperplex:i:0/js/s2ta.js:https://openperplex.com?%s</a>
+<a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
 
 AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
-<a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new?uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new?uweb=%s</a>
+<a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
-<a href="i:00kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn?uweb=%s">kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn?uweb=%s</a>
+<a href="i:00kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn#uweb=%s">kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn#uweb=%s</a>
 
 <a href="i:00taichu:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">taichu:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
 
-<a href="i:00心流:i:0/js/uweb2ta2.js:https://m.iflow.cn?uweb=%s">心流:i:0/js/uweb2ta2.js:https://m.iflow.cn?uweb=%s</a>
+<a href="i:00心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#uweb=%s">心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#uweb=%s</a>
 
-<a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com?uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com?uweb=%s</a>
+<a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
 
-<a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk?uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk?uweb=%s</a>
+<a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s</a>
 
-<a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.360.com?uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.360.com?uweb=%s</a>
+<a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.360.com#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.360.com#uweb=%s</a>
 
-<a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/?10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/?10uweb=%s</a>
+<a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s</a>
 
-<a href="i:00海螺:i:0/js/uweb2ta2.js:https://hailuoai.com?uweb=%s">海螺:i:0/js/uweb2ta2.js:https://hailuoai.com?uweb=%s</a>
+<a href="i:00海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s">海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s</a>
 
 
 AI引擎 (ebrowser)：  
