@@ -64,6 +64,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai#10uweb=%s">blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai#10uweb=%s</a>
 
+<a href="i:00EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s">EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s</a>
+
 <a href="i:00devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E">devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s</a>
