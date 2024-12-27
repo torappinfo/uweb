@@ -6,8 +6,6 @@
 
 [powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
 
-[udrop](https://www.udrop.com/folder/08ba413230f465ca0901bef68e857c0b/uweb)
-
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
 
 [infinicloud](https://uno.teracloud.jp/share/1162dfa8376e1609)
@@ -31,5 +29,7 @@
 [pagure](https://releases.pagure.org/uwebapk/)
 
 [baidu](https://pan.baidu.com/s/17coQj6DCHqghMMNJUyjgrA#list/path=%2Fuweb)
+
+
 
 
