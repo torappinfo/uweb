@@ -52,6 +52,14 @@ log: |
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
+<a href="i:00flo.ing:i:0/js/uweb2ta.js:https://flo.ing#uweb=%s">flo.ing:i:0/js/uweb2ta.js:https://flo.ing#uweb=%s</a>
+
+<a href="i:00cueme:i:0/js/uweb2ta.js:https://cueme.cn#uweb=%s">cueme:i:0/js/uweb2ta.js:https://cueme.cn#uweb=%s</a>
+
+<a href="i:00思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s">思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s</a>
+
+<a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=<p>%s</p>">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=<p>%s</p></a>
+
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
 
