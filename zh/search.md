@@ -18,8 +18,6 @@ log: |
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
-<a href="i:00百度AI:https://think.baidu.com/aisearch?word=">百度AI:https://think.baidu.com/aisearch?word=</a>
-
 <a href="i:00百度chat:https://chat.baidu.com/search?word=">百度chat:https://chat.baidu.com/search?word=</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
