@@ -16,8 +16,6 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
 
-<a href="i:00nuu:https://so.nuu.su/search?q=">nuu:https://so.nuu.su/search?q=</a>
-
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
 <a href="i:00bagoodex:https://bagoodex.io/search?q=">bagoodex:https://bagoodex.io/search?q=</a>
@@ -31,6 +29,8 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00xanswer:https://www.xanswer.com/search?q=">xanswer:https://www.xanswer.com/search?q=</a>
 
 <a href="i:00mistral:https://chat.mistral.ai/chat?q=">mistral:https://chat.mistral.ai/chat?q=</a>
+
+<a href="i:00mindfulq:https://www.mindfulq.com/s?q=">mindfulq:https://www.mindfulq.com/s?q=</a>
 
 <a href="i:00iask:https://iask.ai/?q=">iask:https://iask.ai/?q=</a>
 

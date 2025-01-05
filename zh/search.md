@@ -28,19 +28,13 @@ log: |
 
 <a href="i:00bagoodex:https://bagoodex.io/search?q=">bagoodex:https://bagoodex.io/search?q=</a>
 
-<a href="i:00nuu:https://so.nuu.su/search?q=">nuu:https://so.nuu.su/search?q=</a>
-
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
-<a href="i:00mindfulq:https://www.mindfulq.com/s?q=">mindfulq:https://www.mindfulq.com/s?q=</a>
-
-<a href="i:00小宇宙:https://ask.xiaoyuzhoufm.com/result?q=">小宇宙:https://ask.xiaoyuzhoufm.com/result?q=</a>
+<a href="i:00云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=">云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=</a>
 
 <a href="i:00miku:https://www.hellomiku.com/search?q=">miku:https://www.hellomiku.com/search?q=</a>
 
 <a href="i:00hotbot:https://www.hotbot.com/web?q=">hotbot:https://www.hotbot.com/web?q=</a>
-
-<a href="i:00CSDN:https://chat.csdn.net?q=">CSDN:https://chat.csdn.net?q=</a>
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
