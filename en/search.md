@@ -16,11 +16,15 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
 
+<a href="i:00deepfind:https://www.deepfind.co/?q=">deepfind:https://www.deepfind.co/?q=</a>
+
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
 <a href="i:00bagoodex:https://bagoodex.io/search?q=">bagoodex:https://bagoodex.io/search?q=</a>
 
 <a href="i:00andi:https://andisearch.com/?q=">andi:https://andisearch.com/?q=</a>
+
+<a href="i:00liner:https://getliner.com?q=">liner:https://getliner.com?q=</a>
 
 <a href="i:00thinkany:https://thinkany.so/search?q=">thinkany:https://thinkany.so/search?q=</a>
 
@@ -66,6 +70,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s">EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s</a>
 
+<a href="i:00correkt:i:0/js/uweb2ta.js:https://correkt.ai#uweb=%s">correkt:i:0/js/uweb2ta.js:https://correkt.ai#uweb=%s</a>
+
 <a href="i:00devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E">devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s</a>
@@ -79,6 +85,8 @@ AI (uweb browser only and the search tab must be not in background. Appending "%
 <a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s</a>
 
 <a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s</a>
+
+<a href="i:00hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s">hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s</a>
 
 
 <a id="mainSE">Recommended engines</a>：  
