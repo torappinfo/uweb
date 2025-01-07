@@ -50,7 +50,7 @@ log: |
 
 <a href="i:00思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s">思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s</a>
 
-<a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=<p>%s</p>">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=<p>%s</p></a>
+<a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
