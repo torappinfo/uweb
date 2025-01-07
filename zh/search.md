@@ -520,16 +520,10 @@ AI引擎 (ebrowser)：
 
 
 更多引擎可参看：  
-[google镜像](https://github.com/cc1024/Google)
-[searx](https://searx.space)
-[whoogle](https://github.com/benbusby/whoogle-search)
-[google学术镜像](http://scholar.hedasudi.com) [镜像2](https://ac.scmor.com)  
-[Skittle](https://github.com/pathologicalhandwaving/SkittleSearchURLs/blob/master/skittles.md)  
-[searchengine](https://github.com/matomo-org/searchengine-and-social-list/blob/master/SearchEngines.yml)
-[网盘搜索](https://adzhp.cn/wang-pan-sou-suo.html)  
-[BT磁力](https://adzhp.cn/bt-sou-suo.html)  
+[特殊搜索引擎](https://www.kdocs.cn/l/ckrgkVybvmkC)  
+[searx](https://searx.space)  
+[google学术镜像](https://ac.scmor.com)  
 [词典](https://github.com/Dictionaryphile/All_Dictionaries)  
-[有哪些特殊的搜索引擎](https://www.zhihu.com/question/20251786)  
 
 #### [搜索文件格式](../searchcat/index.html#) 
 - 用"i:"等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用"%s"，这纯粹是为了降低代码复杂性。
