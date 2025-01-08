@@ -50,8 +50,6 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00medisearch:https://medisearch.io/results/">medisearch:https://medisearch.io/results/</a>
 
-<a href="i:00explorer:https://explorer.globe.engineer/?q=">explorer:https://explorer.globe.engineer/?q=</a>
-
 <a href="i:00consensus:https://consensus.app/results/?synthesize=on&q=">consensus:https://consensus.app/results/?synthesize=on&q=</a>
 
 <a href="i:00yoursearch:https://app.yoursearch.ai/?q=">yoursearch:https://app.yoursearch.ai/?q=</a>

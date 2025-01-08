@@ -1,7 +1,6 @@
 <style>a+br{display:none;}</style>
 #### Mirrors (for version 1040+)
 [gitee](https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#)
-[gitcode](https://gitcode.net/uweb/uweb/-/raw/master/redirect.html#)
 [gitcode](https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html#)
 [gitea](https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html#)
 [notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
@@ -17,16 +16,13 @@
 [gitgud](https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html#)
 [gitly](https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html#)
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html#)
-[palemoon](https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [tilde](https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
-[cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
 
 #### Mirrors (for all versions)
 <p>
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">1</a>
-<a href="i:0m?:https://gitcode.net/uweb/uweb/-/raw/master/redirect.html">2</a>
 <a href="i:0m?:https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html">4</a>
 <a href="i:0m?:https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html">5</a>
 <a href="i:0mi:5h?format=raw::https://sourceforge.net/p/uwebbrowser/code/ci/master/tree/redirect.html">6</a>
@@ -45,9 +41,7 @@
 <a href="i:0mi:5h:https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html">20</a>
 <a href="i:0m?:https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html">gitly</a>
 <a href="i:0m?:https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html">gitnet</a>
-<a href="i:0m?:https://repo.palemoon.org/jamesfengcao/uweb/raw/branch/master/redirect.html ">palemoon</a>
 <a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a>
-<a href="i:0m?:https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html">cryto</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
 </p>
 
@@ -58,8 +52,7 @@
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io)
 [codeberg](https://codeberg.org/jamesfengcao/pages/src/branch/master/README.md)
 [gitee](https://gitee.com/jamesfengcao/uweb)
-[gitcode](https://gitcode.com/uweb/uweb/overview)
-[gitcode](https://gitcode.net/uweb/uweb)
+[gitcode](https://gitcode.com/uweb/uweb)
 [atomgit](https://atomgit.com/jamesfengcao/uweb)
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb)
 [gitgud](https://gitgud.io/jamesfengcao/uweb)
@@ -72,7 +65,5 @@
 [pagure](https://pagure.io/uweb/blob/master/f/README.md)
 [dagshub](https://dagshub.com/torappinfo/uweb/src/master/README.md)
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/src/branch/master/README.md)
-[palemoon](https://repo.palemoon.org/jamesfengcao/uweb/src/branch/master/README.md)
 [tilde](https://tildegit.org/jamesfengcao/uweb/src/branch/master/README.md)
-[cryto](https://git.cryto.net/jamesfengcao/uweb/src/branch/master/README.md)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/src/master/README.md)
