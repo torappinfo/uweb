@@ -58,6 +58,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00searchGPT:https://chatgpt.com?hints=search&q=">searchGPT:https://chatgpt.com?hints=search&q=</a>
 
+<a href="i:00claude:https://claude.ai/new?q=">claude:https://claude.ai/new?q=</a>
+
 <a href="i:00floatsearch:i:0/js/uweb2ta.js:https://floatsearch.ai#uweb=%s">floatsearch:i:0/js/uweb2ta.js:https://floatsearch.ai#uweb=%s</a>
 
 <a href="i:00morphic:i:0/js/uweb2ta.js:https://www.morphic.sh#uweb=%s">morphic:i:0/js/uweb2ta.js:https://www.morphic.sh#uweb=%s</a>
@@ -74,17 +76,19 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s</a>
 
-<a href="i:00chatGPT:i:0/js/uweb2ta.js:https://chat.openai.com/#uweb=%s">chatGPT:i:0/js/uweb2ta.js:https://chat.openai.com/#uweb=%s</a>
-
 <a href="i:00lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s">lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s</a>
 
 
 AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)  
+<a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
+
 <a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s</a>
 
 <a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s</a>
 
 <a href="i:00hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s">hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s</a>
+
+<a href="i:00txyz:i:0/js/uweb2ta2.js:https://app.txyz.ai#uweb=%s">txyz:i:0/js/uweb2ta2.js:https://app.txyz.ai#uweb=%s</a>
 
 
 <a id="mainSE">Recommended engines</a>：  

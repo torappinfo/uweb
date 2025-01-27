@@ -80,7 +80,7 @@ You should have received a copy of the GNU General Public License along with thi
   var autocMode = 0; //0 for substring, 1 for startsWith
   const BML_head = "(async ()=>{let d=document;async function _loadJs(u){var a=d.createElement('script');a.type='text/javascript';a.async=false;a.src=u;d.body.appendChild(a);await new Promise(resolve=>a.onload=resolve)}";
   const BML_tail = "})()";
-  const BML_md = BML_head + "await _loadJs('https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js');let b=d.body;b.innerHTML=marked.parse(b.textContent)})()";
+  const BML_md = BML_head + "await _loadJs('https://cdn.jsdelivr.net/npm/marked@15.0.6/marked.min.js');let b=d.body;b.innerHTML=marked.parse(b.textContent)})()";
 
   let lastKeys;
   let lastKeys_millis = 0;

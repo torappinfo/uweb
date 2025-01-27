@@ -24,8 +24,6 @@ log: |
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
-<a href="i:00bagoodex:https://bagoodex.io/search?q=">bagoodex:https://bagoodex.io/search?q=</a>
-
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
 <a href="i:00云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=">云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=</a>
@@ -51,6 +49,8 @@ log: |
 <a href="i:00思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s">思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s</a>
 
 <a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
+
+<a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
@@ -97,6 +97,8 @@ AI引擎 (ebrowser)：
 <a href="i:00apkdl:https://apkdl.in/app/search?q=">apkdl:https://apkdl.in/app/search?q=</a>
 
 <a href="i:005577:http://s.5577.com/sousuo/m/?k=">5577:http://s.5577.com/sousuo/m/?k=</a>
+
+<a href="i:00当快:https://search.downkuai.com/searcht.html?keyword=">当快:https://search.downkuai.com/searcht.html?keyword=</a>
 
 <a href="i:00apkbog:https://www.apkbog.com/en/apks/search/">apkbog:https://www.apkbog.com/en/apks/search/</a>
 
@@ -164,7 +166,7 @@ AI引擎 (ebrowser)：
 
 <a href="i:00必应CN:https://cn.bing.com/search?q=">必应CN:https://cn.bing.com/search?q=</a>
 
-<a href="i:00百度:https://m.baidu.com/s?wd=">百度:https://m.baidu.com/s?wd=</a>
+<a href="i:00百度:https://www.baidu.com/s?wd=">百度:https://www.baidu.com/s?wd=</a>
 
 <a href="i:00Fsou:https://fsoufsou.com/search?q=">Fsou:https://fsoufsou.com/search?q=</a>
 

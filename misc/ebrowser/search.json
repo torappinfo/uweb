@@ -24,6 +24,7 @@
   "fl":"https://felo.ai/search?q=%s",
   "bg":"https://bagoodex.io/search?q=%s",
   "bc":"i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s",
+  "am":"i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s",
   "s1":"i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s",
   "xa":"https://www.xanswer.com/search?q=%s",
   "dw":"i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=<p>%s</p>",
