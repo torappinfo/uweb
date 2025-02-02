@@ -34,6 +34,8 @@ log: |
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
+<a href="i:00qwen:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s">qwen:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s</a>
+
 <a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
