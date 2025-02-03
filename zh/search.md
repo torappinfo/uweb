@@ -10,13 +10,11 @@ log: |
 
 
 <a id="aiSE">AI引擎</a>：  
-<a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
-
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
 
 <a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
-<a href="i:00开搜:https://kaisouai.com?q=">开搜:https://kaisouai.com?q=</a>
+<a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
