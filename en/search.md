@@ -16,8 +16,6 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
 
-<a href="i:00deepfind:https://www.deepfind.co/?q=">deepfind:https://www.deepfind.co/?q=</a>
-
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
 <a href="i:00bagoodex:https://bagoodex.io/search?q=">bagoodex:https://bagoodex.io/search?q=</a>
@@ -49,6 +47,8 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00youImagine:https://you.com/search?tbm=imagine&q=">youImagine:https://you.com/search?tbm=imagine&q=</a>
 
 <a href="i:00you:https://you.com/search?q=">you:https://you.com/search?q=</a>
+
+<a href="i:00xdash:https://www.xdash.ai/search?q=">xdash:https://www.xdash.ai/search?q=</a>
 
 <a href="i:00medisearch:https://medisearch.io/results/">medisearch:https://medisearch.io/results/</a>
 

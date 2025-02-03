@@ -1,5 +1,6 @@
 {
   "b":"https://www.bing.com/search?q=%s",
+  "n":"https://n.cn/search/?q=%s",
   "bdic":"http://cn.bing.com/dict/search?q=%s",
   "ms":"https://metaso.cn?q=%s",
   "df":"https://www.deepfind.co/?q=%s",
