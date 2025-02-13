@@ -151,11 +151,11 @@ Extract remote content (tar/tgz/zip) under the folder [path]. If [path] ends wit
 Visiting url and execute the uweb browser internal bookmarklet that keeps valid for all urls under the parent path of [url].</p>
 <ul>
 <li>[-|1-9] is optional single character. '-' to limit bookmarklet work only for urls with same path (could be different query strings). The digit is uplevel, 1 to make bookmarklet valid for parent path of [url].</li>
-<li>[bookmarklet index] must have two digits. They are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ...</li>
+<li>[bookmarklet index] must start with two digits optionally followed by bookmarklet function argument. They are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ...</li>
 <li>c[cssFlag]: For example, &quot;c12&quot; will apply the third and fourth global CSS (12=2^2+2^3).</li>
 <li>H[headers]: Ex. &quot;HX-Forwarded-For;8.8.8.8&quot; adds extra http request header &quot;X-Forwarded-For:8.8.8.8&quot;.</li>
 <li>[?postfix]: the real visited url is &quot;[url]+[?postfix]&quot;.</li>
-<li>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;.</li>
+<li>[/.../localfile]: load the local html/js file that processes [url]. The first character of the local html file must be &quot;&lt;&quot;. The [localfile] could be optionally ended with url hash part as js function argument.</li>
 <li>All other cases will be treated as [prefix], the real visited url is &quot;[prefix]+[url]&quot;.</li>
 <li>Since <a href="../rjs/index.html#">activated scripts</a> use internal mechanism of &quot;i:0m&quot; urls, the script itself cannot have 'H', '?' as its very first character.</li>
 </ul>
@@ -322,8 +322,8 @@ Bundle of internal urls, if it is an &quot;i:0&quot; url, then it should have th
 </ul>
 
 </div>
-<p>Last Modified: 10 December 2024<br>
-update README<br>
+<p>Last Modified: 12 February 2025<br>
+bookmarklet to support argument<br>
 <pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>

@@ -18,6 +18,10 @@ log: |
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
+<a href="i:00kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=">kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=</a>
+
+<a href="i:00kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=">kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=</a>
+
 <a href="i:00百度chat:https://chat.baidu.com/search?word=">百度chat:https://chat.baidu.com/search?word=</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
@@ -65,8 +69,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
-
-<a href="i:00kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn#uweb=%s">kimi:i:0/js/uweb2edit2.js:https://kimi.moonshot.cn#uweb=%s</a>
 
 <a href="i:00taichu:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">taichu:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
 

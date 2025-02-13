@@ -28,8 +28,8 @@
 
 [pagure](https://releases.pagure.org/uwebapk/)
 
+[novasync](https://novasync.cn/s/vZJFz)
+
 [baidu](https://pan.baidu.com/s/17coQj6DCHqghMMNJUyjgrA#list/path=%2Fuweb)
-
-
 
 

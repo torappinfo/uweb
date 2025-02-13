@@ -57,6 +57,13 @@
 <a target="_self" href="i:0hbookmarklet/!googleTranslate.js:https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit:%0A{let d=document,b=d.body,v=d.createElement('div');v.id='google_translate_element';v.style='position:fixed;bottom:10px;right:10px;cursor:pointer;z-index:9999';b.insertBefore(v,b.firstChild);function googleTranslateElementInit(){new google.translate.TranslateElement({layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,pageLanguage:'auto',includedLanguages:'zh-CN,zh-TW,en,ko,ja'},'google_translate_element');}}">google translation</a></p>
 <p><a target="_self" href='i:0hbookmarklet/eruda.js:https://fastly.jsdelivr.net/npm/eruda:%0Aeruda.init()'>Eruda</a><br>
 <a target="_self" href="i:0hbookmarklet/performance.js:https://fastly.jsdelivr.net/gh/micmro/performance-bookmarklet/dist/performanceBookmarklet.min.js">Performance</a></p>
+<p><b>default.bml</a> to define bookmarklet with argument. Each line of default.bml has the following format:<br>
+[bookmarklet name]:[bookmarklet id with argument]</p>
+<p>where [bookmarklet id with argument] could be:</p>
+<ul>
+<li>[fullpath-to-js-file]#[argument]</li>
+<li>[bookmarklet index] beginning with two digits followed by bookmarklet function argument. They are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ...</li>
+</ul>
 <p>Note: Bookmarklets whose names begin with &quot;!&quot; are allowed to load remote js on CSP (Content Security Policy) sites.</p>
 <p><b>Remote javascript</b> is defined in default.rjs. Click the following link to install. (<b>Force exit and re-launch the app</b>, then long press the &quot;search&quot; button to popup the menu.)：</p>
 <p><a href="i:04Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
@@ -77,8 +84,8 @@
 <p>All remote js (default.rjs) are allowed to execute on CSP sites. Local js files without remote resource access work fine when under the folder &quot;bookmarklet&quot;; for those needing remote resource, file name must begin with &quot;!&quot;. Others needs to be refered in default.rjs as http urls such as &quot;https://local/...&quot; (<a href="../html5/index.html#">html5</a> or <a href="../offlinecache/index.html#">offline cache</a>) .</p>
 
 </div>
-<p>Last Modified: 14 December 2024<br>
-cleanup<br>
+<p>Last Modified: 13 February 2025<br>
+bookmarklet to support argument<br>
 <pre></pre>
 </p>
 
