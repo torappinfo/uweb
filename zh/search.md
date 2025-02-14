@@ -66,6 +66,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 
 <a href="i:00硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s">硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s</a>
 
+<a href="i:00问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com#uweb=%s">问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com#uweb=%s</a>
+
 <a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
