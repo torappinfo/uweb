@@ -6,13 +6,27 @@ log: |
 ---
 [超微浏览器](../index.html#)下点击搜索引擎配置链接(或将配置文本添加到home5.search)中可自动添加到主屏。[ebrowser](../../en/ebrowserreadme/index.html#)下点击后可选择取消，此时地址栏会显示添加搜索引擎的i:内部链接，将其中引擎名改短（比如两个字母）作为快捷输入然后回车执行内部链接即可。
 
-[AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE)
+[深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE)
+
+
+<a id="deepseek">deepseek满血版</a>：
+<a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
+
+<a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
+
+<a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
+
+<a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
+
+<a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
+
+<a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
+
+<a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
 
 <a id="aiSE">AI引擎</a>：  
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
-
-<a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
 <a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
 
@@ -23,8 +37,6 @@ log: |
 <a href="i:00kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=">kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=</a>
 
 <a href="i:00百度chat:https://chat.baidu.com/search?word=">百度chat:https://chat.baidu.com/search?word=</a>
-
-<a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
@@ -42,11 +54,7 @@ log: |
 
 <a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
-<a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
-
 <a href="i:00知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s">知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s</a>
-
-<a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
 <a href="i:00flo.ing:i:0/js/uweb2ta.js:https://flo.ing#uweb=%s">flo.ing:i:0/js/uweb2ta.js:https://flo.ing#uweb=%s</a>
 
@@ -56,13 +64,13 @@ log: |
 
 <a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
 
-<a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
-
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
 
 AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
+
+<a href="i:00当贝:i:0/js/uweb2ta2.js:https://ai.dangbei.com/chat#uweb=%s">当贝:i:0/js/uweb2ta2.js:https://ai.dangbei.com/chat#uweb=%s</a>
 
 <a href="i:00硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s">硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s</a>
 
