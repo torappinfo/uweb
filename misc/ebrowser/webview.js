@@ -609,7 +609,7 @@ function cmdlineProcess(argv,cwd,extra){
       }
     }
     let url=argv.slice(i1st).join(" ");
-    win.webContents.executeJavaScript("handleQuery(`"+url+"`)",false);
+    win.webContents.executeJavaScript("{let v=`"+url+"`;document.forms[0].q.value=v;handleQuery(v)}",false);
     win.setTitle(url);
   }
 }
