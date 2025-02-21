@@ -22,6 +22,8 @@ log: |
 
 <a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
 
+<a href="i:00oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s">oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s</a>
+
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
 
@@ -79,8 +81,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s</a>
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
-
-<a href="i:00oppoDS:i:0/js/uweb2input2.js:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s">oppoDS:i:0/js/uweb2input2.js:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
