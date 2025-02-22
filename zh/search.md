@@ -16,8 +16,6 @@ log: |
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
-<a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
-
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
@@ -58,7 +56,7 @@ log: |
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
-<a href="i:00qwen:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s">qwen:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s</a>
+<a href="i:00千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s">千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s</a>
 
 <a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
@@ -92,9 +90,11 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
-<a href="i:00taichu:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">taichu:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
-
 <a href="i:00心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#uweb=%s">心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#uweb=%s</a>
+
+<a href="i:00腾讯文档ai:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
+
+<a href="i:00太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
 
 <a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s</a>
 
