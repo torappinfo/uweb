@@ -9,18 +9,26 @@ log: |
 [深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE)
 
 
-<a id="deepseek">deepseek满血版</a>：
+<a id="deepseek">deepseek满血版</a>：  
 <a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
+<a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
+
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
+<a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
+
+<a href="i:00火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s">火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s</a>
+
 <a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
+
+<a href="i:00alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s">alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s</a>
 
 <a href="i:00oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s">oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s</a>
 
@@ -39,8 +47,6 @@ log: |
 <a href="i:00kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=">kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=</a>
 
 <a href="i:00百度chat:https://chat.baidu.com/search?word=">百度chat:https://chat.baidu.com/search?word=</a>
-
-<a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
@@ -81,6 +87,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s</a>
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
+
+<a href="i:00openrouter:i:0/js/uweb2ta2.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free#uweb=%s">openrouter:i:0/js/uweb2ta2.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free#uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
