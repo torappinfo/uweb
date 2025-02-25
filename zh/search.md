@@ -28,7 +28,7 @@ log: |
 
 <a href="i:00alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s">alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s</a>
 
-<a href="i:00oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s">oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#uweb=%s</a>
+<a href="i:00oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#/#uweb=%s">oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#/#uweb=%s</a>
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
@@ -91,6 +91,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
 <a href="i:00心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#uweb=%s">心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#uweb=%s</a>
+
+<a href="i:00minimax:i:0/js/uweb2ta2.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uweb2ta2.js:https://chat.minimax.io#uweb=%s</a>
 
 <a href="i:00腾讯文档ai:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
 
