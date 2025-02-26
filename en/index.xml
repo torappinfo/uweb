@@ -6,8 +6,15 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Feb 2025 19:15:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 19:18:42 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Html5 applications</title>
+      <link>https://jamesfengcao.gitlab.io/uweb/en/html5/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesfengcao.gitlab.io/uweb/en/html5/</guid>
+      <description>&lt;h3 id=&#34;html-as-data-cruncher-and-presenter-with-i0m-links&#34;&gt;Html as data cruncher and presenter with &lt;a href=&#34;../links/index.html#&#34;&gt;i:0m links&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The following link can be used to read [remote url] as huge text file, it shows only the first page. Pressing &amp;quot;-&amp;gt;&amp;quot; on the bottom tool bar for next page:&lt;br&gt;&#xA;i:0m/js/view.html:[remote url]#p=1&lt;/p&gt;&#xA;&lt;p&gt;Multiple conversions could be appended to the html file. Ex:&lt;br&gt;&#xA;i:0m/js/view.html#/js/2lnk.js:[remote url]#p=1&lt;br&gt;&#xA;where &amp;quot;/js/2lnk.js&amp;quot; converts urls in the remote text file to clickable links.&lt;/p&gt;&#xA;&lt;p&gt;Any html/js file could be referred with its full path, such as &amp;quot;/sdcard/.../xx.js&amp;quot; as long as uweb has read permission.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Common phrases for input method</title>
       <link>https://jamesfengcao.gitlab.io/uweb/en/input/</link>
@@ -112,13 +119,6 @@
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/url2site/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;../index.html#&#34;&gt;uweb&lt;/a&gt; internal link &amp;quot;&lt;a href=&#34;../links/index.html&#34;&gt;i:0m&lt;/a&gt;&amp;quot; make any url such as download or indirect links visitable as a website. The second part of &lt;a href=&#34;../mirrors/index.html#&#34;&gt;mirrors&lt;/a&gt; has examples using the following tricks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;quot;i:0m04:[url]&amp;quot;: to treat the [url] content as html with bookmarklet.&lt;/li&gt;&#xA;&lt;li&gt;&amp;quot;i:0m?:[url]&amp;quot;: to treat the [url] content as html, handling css/js properly.&lt;/li&gt;&#xA;&lt;li&gt;&amp;quot;i:0m?[postfix]:[url]&amp;quot;: auto append query postfix to url to retrieve content.&lt;/li&gt;&#xA;&lt;li&gt;&amp;quot;i:0mi:5h:[url]&amp;quot;: similar to &amp;quot;i:0m?:[url]&amp;quot;, to treat the [url] content as html (for download or no-script links etc.)&lt;/li&gt;&#xA;&lt;li&gt;&amp;quot;i:0mi:5h?[postfix]::[url]&amp;quot;: similar to &amp;quot;i:0m?[postfix]:[url]&amp;quot;. auto append query postfix to url to retrieve content.&lt;/li&gt;&#xA;&lt;li&gt;&amp;quot;i:0mi:5h/[regex]/[replacement]::[url]&amp;quot;: use the result of regular expression replacement to retrieve the content.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more complicated links such as cloud storage shared links, which need user gestures to reach temporary generated content link, use&lt;br&gt;&#xA;&amp;quot;i:0m/.../[local.html]:[url]&amp;quot;, where the local file &amp;quot;/.../[local.html]&amp;quot; processes &amp;quot;[url]&amp;quot; as needed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Html5 applications</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/html5/</link>
-      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/html5/</guid>
-      <description>&lt;p&gt;This page is for &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt;.&lt;br&gt;&#xA;Click to install the following html5 apps:&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/txtview.html:../../zh/searchurl/txt/txtview.html&#34;&gt;Huge markdown file viewer&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/mdkatex.html:../../zh/searchurl/txt/mdkatex.html&#34;&gt;Huge markdown+katex file viewer (Tex formulas)&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/markdeep.html:../../zh/searchurl/txt/markdeep.html&#34;&gt;Huge markdeep file viewer (markdown, latex, diagram,graphviz etc.)&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/plyr.html:../../zh/searchurl/txt/plyr.cfg&#34;&gt;plyr video player&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/dplayer.html:../../zh/searchurl/txt/dplayer.html&#34;&gt;dplayer video player&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/pdfviewer.html:../../zh/searchurl/txt/pdfviewer.html&#34;&gt;pdf viewer&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/epub.html:../../zh/searchurl/txt/epub.html&#34;&gt;epub reader (author：llili)&lt;/a&gt;&lt;br&gt;&#xA;&lt;a target=&#34;_self&#34; href=&#34;i:0happ/djvu.html:../../zh/searchurl/txt/djvu.html&#34;&gt;djvu viewer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The corresponding menus can be installed with &lt;a href=&#34;../urls/index.html#&#34;&gt;url services&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;&#xA;&lt;p&gt;The following mentioned subfolders locate in the configuration folder.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The following html5 applications are allowed to read local files referred by &amp;quot;https://local/sdcard/...&amp;quot; where the &amp;quot;/sdcard/..&amp;quot; part is the full path of the file. The below applications &lt;span style=&#34;color:red&#34;&gt;can auto choose any files as file objects&lt;/span&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Downloads</title>
