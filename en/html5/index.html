@@ -48,13 +48,14 @@
   <ul class="tags">
     
   </ul>
-  <h3 id="html-as-data-cruncher-and-presenter-with-i0m-links">Html as data cruncher and presenter with <a href="../links/index.html#">i:0m links</a></h3>
+  <h3 id="html-as-data-cruncher-and-presenter-using-remote-url-as-data-with-i0m-links">Html as data cruncher and presenter using remote url as data with <a href="../links/index.html#">i:0m links</a></h3>
 <p>The following link can be used to read [remote url] as huge text file, it shows only the first page. Pressing &quot;-&gt;&quot; on the bottom tool bar for next page:<br>
 i:0m/js/view.html:[remote url]#p=1</p>
 <p>Multiple conversions could be appended to the html file. Ex:<br>
 i:0m/js/view.html#/js/2lnk.js:[remote url]#p=1<br>
 where &quot;/js/2lnk.js&quot; converts urls in the remote text file to clickable links.</p>
 <p>Any html/js file could be referred with its full path, such as &quot;/sdcard/.../xx.js&quot; as long as uweb has read permission.</p>
+<p>&quot;%1%&quot;, &quot;%2%&quot;, ... in the above html file will be replaced by the function body of the first, second, ... js file respectively. The js files themselves are regular js code ends with &quot;()&quot;, no end of line (\n) appended. A sample js file looks like &quot;((...args)=&gt;{})()&quot;, so the code itself can also be run independently as bookmarklet either without or <a href="../rjs/index.html#">with extra argument</a>.</p>
 <h3 id="traditional-html5-apps">Traditional html5 apps</h3>
 <p>This page is for <a href="../index.html#">uweb browser</a>.<br>
 Click to install the following html5 apps:<br>
