@@ -4,7 +4,7 @@
 
 
 [Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
-[Galaxy.Store](https://galaxy.store/uweb)
+[Galaxy.Store](https://galaxystore.samsung.com/detail/info.torapp.uweb)
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">下载</a>
 
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
