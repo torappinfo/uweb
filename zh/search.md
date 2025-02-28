@@ -14,7 +14,7 @@ log: |
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
-<a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
+<a href="i:00百度ds:https://chat.baidu.com/search?word=">百度ds:https://chat.baidu.com/search?word=</a>
 
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
 
@@ -43,8 +43,6 @@ log: |
 <a href="i:00kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=">kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=</a>
 
 <a href="i:00kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=">kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=</a>
-
-<a href="i:00百度chat:https://chat.baidu.com/search?word=">百度chat:https://chat.baidu.com/search?word=</a>
 
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
