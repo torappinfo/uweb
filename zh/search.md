@@ -28,8 +28,6 @@ log: |
 
 <a href="i:00alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s">alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s</a>
 
-<a href="i:00oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#/#uweb=%s">oppoDS:i:0/js/uweb2input.js#input:https://dhfs.heytapimage.com/userfiles/cms/ai_search/index.html#/#uweb=%s</a>
-
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
 

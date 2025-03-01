@@ -6,8 +6,15 @@
     <description>Recent content in _Posts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 27 Feb 2025 10:13:29 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 15:37:38 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>长按链接弹出菜单及下载弹出菜单</title>
+      <link>https://jamesfengcao.gitlab.io/uweb/zh/longclick/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesfengcao.gitlab.io/uweb/zh/longclick/</guid>
+      <description>&lt;h4 id=&#34;命令子菜单&#34;&gt;“命令”子菜单&lt;/h4&gt;&#xA;&lt;p&gt;文件&amp;quot;&lt;a href=&#34;../links/index.html#&#34;&gt;image.link&lt;/a&gt;&amp;quot;：图像的“命令”子菜单&lt;br&gt;&#xA;文件&amp;quot;&lt;a href=&#34;../links/index.html#&#34;&gt;download.link&lt;/a&gt;&amp;quot;：下载“命令”子菜单&lt;/p&gt;&#xA;&lt;p&gt;“命令”子菜单可通过&lt;a href=&#34;i:61:../searchurl/func.html&#34;&gt;界面设置&lt;/a&gt;切换为系统菜单，分别可为默认（常用服务或image.link或download.link）,常用链接，常用命令。如果同时勾选常用链接及常用命令，则“命令”子菜单无视image.link及download.link, 一律弹出系统常用服务菜单。&lt;/p&gt;&#xA;&lt;h4 id=&#34;长按链接运行第三方程序&#34;&gt;长按链接运行第三方程序&lt;/h4&gt;&#xA;&lt;p&gt;配置文件&lt;a href=&#34;file:///data/data/info.torapp.uweb/files/default.longclick&#34;&gt;default.longclick&lt;/a&gt;每行格式如下（同&lt;a href=&#34;../cmd&#34;&gt;default.cmds&lt;/a&gt;）&lt;br&gt;&#xA;菜单名:mimetype:命令路径&lt;br&gt;&#xA;命令可以包含&lt;a href=&#34;../cmd&#34;&gt;%c&lt;/a&gt;（当前网址cookie）等，执行时会被相应内容自动替换。&lt;/p&gt;&#xA;&lt;h4 id=&#34;长按链接运行js文件&#34;&gt;长按链接运行js文件&lt;/h4&gt;&#xA;&lt;p&gt;长按链接弹出菜单显示&lt;a href=&#34;file:///data/data/info.torapp.uweb/files/longclick/&#34;&gt;longclick&lt;/a&gt;目录下所有js文件供用户挑选执行。&lt;br&gt;&#xA;js文件格式如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;首行可以&amp;quot;//&amp;quot;开头，后面紧跟目标网页url，url中可包含&lt;a href=&#34;../cmd/index.html#&#34;&gt;&amp;quot;%u&amp;quot;等&lt;/a&gt;，打开网页时会用长按的链接替换。&lt;/li&gt;&#xA;&lt;li&gt;首行非&amp;quot;//&amp;quot;开头者，整个脚本作用于当前网页，不再打开新网页。&lt;/li&gt;&#xA;&lt;li&gt;第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>电视直播</title>
       <link>https://jamesfengcao.gitlab.io/uweb/zh/tvlive/</link>
@@ -154,13 +161,6 @@
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/zh/loadbt/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;seedr用户可使用&lt;a href=&#34;../links/index.html#&#34;&gt;常用链接&lt;/a&gt;利用seedr离线下载。使用时长按链接-&amp;gt;命令-&amp;gt;seedr离线...。&lt;/li&gt;&#xA;&lt;li&gt;Telegram用户可使用&lt;a href=&#34;../urls/index.html#&#34;&gt;特色服务&lt;/a&gt;利用tg bot离线下载至bot支持网盘。使用时长按链接-&amp;gt;命令-&amp;gt;tg...。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;百度网盘存储空间大，但其离线下载限制很多，可能由于某些重要节点被屏蔽的原因，下载国外资料基本都会失败。国外离线网盘空间小，但下载成功率很高。&lt;br&gt;&#xA;本文介绍一种技术，使用国外离线网盘下载资源，然后一键离线至百度网盘。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../index.html#&#34;&gt;超微浏览器&lt;/a&gt;上配置百度离线下载&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;安装&lt;a href=&#34;../searchurl/plugins.html&#34;&gt;uweb定制Termux应用&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;安装baidupcs-go：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;直接下载&lt;a href=&#34;https://github.com/felixonmars/BaiduPCS-Go/releases&#34;&gt;BaiduPCS-Go&lt;/a&gt;，安卓手机请选择arm64版本。&lt;/li&gt;&#xA;&lt;li&gt;解压下载文件&lt;/li&gt;&#xA;&lt;li&gt;移动解压后文件至最终目的地。Termux运行以下命令:&lt;br&gt;&#xA;&lt;code&gt;mv BaiduPCS-Go /data/data/com.termux/files/usr/bin/.&lt;br&gt;&#xA;chmod 777 /data/data/com.termux/files/usr/bin/BaiduPCS-Go&lt;br&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;登录百度网盘, Termux执行如下命令：&lt;br&gt;&#xA;BaiduPCS-Go login&lt;br&gt;&#xA;BaiduPCS-Go config set -appid=266719&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;default.longclick配置如下：&lt;br&gt;&#xA;百度离线下载:termux/*:BaiduPCS-Go od add &amp;quot;%u&amp;quot;;exit 1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;重启超微浏览器，此时长按链接将会出现菜单“百度离线下载”。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;离线下载资源至国外网盘，下载完成后在超微浏览器内点击资源下载，弹出菜单选择“百度离线下载”，完成整个流程。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;其它支持离线下载的网页也可&lt;a href=&#34;../longclick&#34;&gt;定义为一键离线&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>长按链接弹出菜单</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/zh/longclick/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/zh/longclick/</guid>
-      <description>&lt;h4 id=&#34;长按链接运行第三方程序&#34;&gt;长按链接运行第三方程序&lt;/h4&gt;&#xA;&lt;p&gt;配置文件&lt;a href=&#34;file:///data/data/info.torapp.uweb/files/default.longclick&#34;&gt;default.longclick&lt;/a&gt;每行格式如下（同&lt;a href=&#34;../cmd&#34;&gt;default.cmds&lt;/a&gt;）&lt;br&gt;&#xA;菜单名:mimetype:命令路径&lt;br&gt;&#xA;命令可以包含&lt;a href=&#34;../cmd&#34;&gt;%c&lt;/a&gt;（当前网址cookie）等，执行时会被相应内容自动替换。&lt;/p&gt;&#xA;&lt;h4 id=&#34;长按链接运行js文件&#34;&gt;长按链接运行js文件&lt;/h4&gt;&#xA;&lt;p&gt;长按链接弹出菜单显示&lt;a href=&#34;file:///data/data/info.torapp.uweb/files/longclick/&#34;&gt;longclick&lt;/a&gt;目录下所有js文件供用户挑选执行。&lt;br&gt;&#xA;js文件格式如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;首行可以&amp;quot;//&amp;quot;开头，后面紧跟目标网页url，url中可包含&lt;a href=&#34;../cmd/index.html#&#34;&gt;&amp;quot;%u&amp;quot;等&lt;/a&gt;，打开网页时会用长按的链接替换。&lt;/li&gt;&#xA;&lt;li&gt;首行非&amp;quot;//&amp;quot;开头者，整个脚本作用于当前网页，不再打开新网页。&lt;/li&gt;&#xA;&lt;li&gt;第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>视频播放小窍门</title>
