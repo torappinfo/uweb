@@ -14,13 +14,15 @@ log: |
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
-<a href="i:00百度ds:https://chat.baidu.com/search?word=">百度ds:https://chat.baidu.com/search?word=</a>
+<a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat?uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
+
+<a href="i:00gitcode:i:0/js/uweb2ta.js:https://gitcode.com/ai/#uweb=%s">gitcode:i:0/js/uweb2ta.js:https://gitcode.com/ai/#uweb=%s</a>
 
 <a href="i:00火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s">火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s</a>
 
