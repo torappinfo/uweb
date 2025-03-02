@@ -48,10 +48,12 @@
   <ul class="tags">
     
   </ul>
-  <p>Click the following links to install &quot;command&quot; submenu for <b>download options menu</b>:<br>
-<a href="i:0gdownload.link::ViewHuge:i:0m/js/view.html:%25u#p=1%0A">View huge txt file</a></p>
-<p><a href="i:0gdownload.link::ViewHLinks:i:0m/js/view.html#/js/2lnk.js:%25u#p=1%0A">View huge txt file with urls, such as video/audio url collection</a></p>
-<p><a href="i:0gdownload.link::ViewHMD:i:0m/js/viewmd.html:%25u#p=1%0A">View huge markdown file</a></p>
+  <h4 id="download-options-menu---command">Download options menu -&gt; &quot;command&quot;</h4>
+<p>Click the following links to install &quot;command&quot; submenu for <b>download options menu</b>:<br>
+<a href="i:0gdownload.link::pager:i:0m/js/view.html:%25u#p=1%0A">huge txt pager</a></p>
+<p><a href="i:0gdownload.link::pager_2lnk:i:0m/js/view.html#/js/2lnk.js:%25u#p=1%0A">pager with urls converted to links</a></p>
+<p><a href="i:0gdownload.link::mdPager:i:0m/js/viewmd.html:%25u#p=1%0A">markdown pager</a></p>
+<h4 id="link-menus-long-pressing-the-bookmark-button">Link menus (long pressing the bookmark button)</h4>
 <p>Click the following links to install menus displayed by long pressing the bookmark button (with star as icon):<br>
 <a href="i:0gdefault.link::Input::cinput%0A">Select utf8 text file as keyboard input</a></p>
 <p><a href="i:0gdefault.link::Capture::ccapture%0A">Capture long screenshot</a> (need <a href="i:61:../searchurl/func.html">long screenshot mode</a>)</p>
@@ -67,6 +69,7 @@
 <p><a href="i:0gdefault.link::up2Box: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':https://dav.box.com/dav/'+f;}%0A">upload to box.com</a></p>
 <p><a href="../searchurl/webdav.html">More webdav link menu items</a></p>
 <p><a href="i:0gdefault.link::web fullscreen: location.href='i:5fsetTimeout(()=>document.documentElement.requestFullscreen(),50);';%0A">Web fullscreen</a></p>
+<h4 id="links">Links</h4>
 <p>Long pressing the bookmark button in <a href="../index.html#">uweb browser</a> will popup menus defined in file &quot;default.link&quot;. The file format is as follows:<br>
 [Menu name]:[one or more links delimited by &quot; \n &quot;]</p>
 <p>and each link has the following format:<br>
@@ -326,8 +329,8 @@ Bundle of internal urls, if it is an &quot;i:0&quot; url, then it should have th
 </ul>
 
 </div>
-<p>Last Modified: 1 March 2025<br>
-rephrase<br>
+<p>Last Modified: 2 March 2025<br>
+update links.md<br>
 <pre>i:56 urls support CTRL_A to CTRL-Z 
 </pre>
 </p>
