@@ -74,7 +74,7 @@ log: |
 AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
 
-<a href="i:00当贝:i:0/js/uweb2ta2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2ta2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
+<a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s">硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s</a>
 
