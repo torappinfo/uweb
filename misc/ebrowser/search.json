@@ -21,7 +21,7 @@
   "g":"https://google.com/search?q=%s",
   "git":"https://github.com/search?type=Repositories&q=%s",
   "360":"https://so.360.com?q=%s",
-  "tg":"https://www.tiangong.cn/result?q=%s",
+  "tg":"i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E",
   "cg":"i:0/js/s2ta.js:https://chatglm.cn/main/detail?%s",
   "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
   "fl":"https://felo.ai/search?q=%s",
