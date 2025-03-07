@@ -12,6 +12,8 @@ log: |
 <a id="deepseek">deepseek满血版</a>：  
 <a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
+<a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
+
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
@@ -50,7 +52,7 @@ log: |
 
 <a href="i:00hotbot:https://www.hotbot.com/web?q=">hotbot:https://www.hotbot.com/web?q=</a>
 
-<a href="i:00天工:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E">天工:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
+<a href="i:00天工pc:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E">天工pc:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
