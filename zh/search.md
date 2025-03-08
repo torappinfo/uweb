@@ -12,15 +12,23 @@ log: |
 <a id="deepseek">deepseek满血版</a>：  
 <a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
-<a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
-
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
+<a href="i:00问小白:i:0/js/uweb2react.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uweb2react.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
+
+<a href="i:00跃问:i:0/js/uweb2react.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2react.js:https://yuewen.cn/chats/new#uweb=%s</a>
+
+<a href="i:00deepseek:i:0/js/uweb2react.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2react.js:https://chat.deepseek.com#uweb=%s</a>
+
+<a href="i:00心流:i:0/js/uweb2react.js:https://m.iflow.cn#10uweb=%s">心流:i:0/js/uweb2react.js:https://m.iflow.cn#10uweb=%s</a>
+
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat#uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
+
+<a href="i:00minimax:i:0/js/uweb2react.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uweb2react.js:https://chat.minimax.io#uweb=%s</a>
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
@@ -34,11 +42,15 @@ log: |
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
+<a href="i:00360bot:i:0/js/uweb2react.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2react.js:https://bot.n.cn#uweb=%s</a>
+
 
 <a id="aiSE">AI引擎</a>：  
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
+
+<a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
 
 <a href="i:00kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=">kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=</a>
 
@@ -55,6 +67,8 @@ log: |
 <a href="i:00天工pc:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E">天工pc:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
+
+<a href="i:00豆包:i:0/js/uweb2react.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uweb2react.js:https://www.doubao.com/chat/#10uweb=%s</a>
 
 <a href="i:00千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s">千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s</a>
 
@@ -103,18 +117,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 <a href="i:00海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s">海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s</a>
 
 <a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s</a>
-
-
-AI引擎 (ebrowser)：  
-<a href="i:00yw:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new">yw:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://yuewen.cn/chats/new</a>
-
-<a href="i:00tc:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://taichu-web.ia.ac.cn/#/chat">tc:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://taichu-web.ia.ac.cn/#/chat</a>
-
-<a href="i:00if:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://iflow.cn">if:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://iflow.cn</a>
-
-<a href="i:00ds:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://chat.deepseek.com">ds:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://chat.deepseek.com</a>
-
-<a href="i:00bot:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://bot.360.com">bot:i:q:bjs navigator.clipboard.writeText(`%s`)\nhttps://bot.360.com</a>
 
 
 镜像：  

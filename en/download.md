@@ -2,6 +2,8 @@
 
 [sourceforge](https://sourceforge.net/projects/uwebbrowser/files/v1/)
 
+[bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/downloads/)
+
 [![](https://stc.utdstc.com/img/mediakit/download-gio-big.png)](https://uweb-browser-for-geeks.en.uptodown.com/android "uweb")
 
 [powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
@@ -21,8 +23,6 @@
 [tildegit](https://tildegit.org/jamesfengcao/uweb/releases)
 
 [froggi](https://git.froggi.es/jamesfengcao/uweb/releases)
-
-[bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/downloads/)
 
 [NotABug](https://notabug.org/torappinfo/uweb/releases)
 
