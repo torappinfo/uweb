@@ -14,7 +14,17 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
+<a href="i:00deepseek:i:0/js/uweb2react.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2react.js:https://chat.deepseek.com#uweb=%s</a>
+
+<a href="i:00monica.im:https://monica.im/home/chat/deepseek-r1/deepseek_reasoner?q=">monica.im:https://monica.im/home/chat/deepseek-r1/deepseek_reasoner?q=</a>
+
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
+
+<a href="i:00txyz:i:0/js/uweb2react.js:https://app.txyz.ai#uweb=%s">txyz:i:0/js/uweb2react.js:https://app.txyz.ai#uweb=%s</a>
+
+<a href="i:00komo:i:0/js/uweb2react.js:https://komo.ai#uweb=%s">komo:i:0/js/uweb2react.js:https://komo.ai#uweb=%s</a>
+
+<a href="i:00solab:i:0/js/uweb2react.js:https://www.solab.ai#uweb=%s">solab:i:0/js/uweb2react.js:https://www.solab.ai#uweb=%s</a>
 
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
@@ -84,15 +94,7 @@ Clicking the following search engine configuration links (or append the link tex
 
 
 AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)  
-<a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
-
-<a href="i:00solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s">solab:i:0/js/uweb2ta2.js:https://www.solab.ai#uweb=%s</a>
-
-<a href="i:00komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s">komo:i:0/js/uweb2ta2.js:https://komo.ai#uweb=%s</a>
-
 <a href="i:00hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s">hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s</a>
-
-<a href="i:00txyz:i:0/js/uweb2ta2.js:https://app.txyz.ai#uweb=%s">txyz:i:0/js/uweb2ta2.js:https://app.txyz.ai#uweb=%s</a>
 
 
 <a id="mainSE">Recommended engines</a>：  
