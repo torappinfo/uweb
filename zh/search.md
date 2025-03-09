@@ -16,19 +16,19 @@ log: |
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
-<a href="i:00问小白:i:0/js/uweb2react.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uweb2react.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
+<a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
 
-<a href="i:00跃问:i:0/js/uweb2react.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2react.js:https://yuewen.cn/chats/new#uweb=%s</a>
+<a href="i:00跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
-<a href="i:00deepseek:i:0/js/uweb2react.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2react.js:https://chat.deepseek.com#uweb=%s</a>
+<a href="i:00deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s</a>
 
-<a href="i:00心流:i:0/js/uweb2react.js:https://m.iflow.cn#10uweb=%s">心流:i:0/js/uweb2react.js:https://m.iflow.cn#10uweb=%s</a>
+<a href="i:00心流:i:0/js/uwebset.js:https://m.iflow.cn#10uweb=%s">心流:i:0/js/uwebset.js:https://m.iflow.cn#10uweb=%s</a>
 
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat#uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat#uweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
-<a href="i:00minimax:i:0/js/uweb2react.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uweb2react.js:https://chat.minimax.io#uweb=%s</a>
+<a href="i:00minimax:i:0/js/uwebset.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uwebset.js:https://chat.minimax.io#uweb=%s</a>
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
@@ -42,7 +42,7 @@ log: |
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
-<a href="i:00360bot:i:0/js/uweb2react.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2react.js:https://bot.n.cn#uweb=%s</a>
+<a href="i:00360bot:i:0/js/uwebset.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uwebset.js:https://bot.n.cn#uweb=%s</a>
 
 
 <a id="aiSE">AI引擎</a>：  
@@ -68,7 +68,7 @@ log: |
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
-<a href="i:00豆包:i:0/js/uweb2react.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uweb2react.js:https://www.doubao.com/chat/#10uweb=%s</a>
+<a href="i:00豆包:i:0/js/uwebset.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uwebset.js:https://www.doubao.com/chat/#10uweb=%s</a>
 
 <a href="i:00千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s">千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s</a>
 
