@@ -14,7 +14,7 @@ log: |
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
-<a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
+<a href="i:00百度ds:https://chat.baidu.com/search?word=">百度ds:https://chat.baidu.com/search?word=</a>
 
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
 
