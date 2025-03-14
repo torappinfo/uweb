@@ -9,7 +9,7 @@ log: |
 [深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE)
 
 
-<a id="deepseek">deepseek满血版</a>：  
+<a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可起到自动回车作用, ebrowser添加"%0D")  
 <a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
@@ -87,7 +87,7 @@ log: |
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
 
-AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
+AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
 
 <a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
@@ -200,7 +200,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，搜索串末尾添加"
 
 <a href="i:00百度:https://www.baidu.com/s?wd=">百度:https://www.baidu.com/s?wd=</a>
 
-<a href="i:00Fsou:https://fsoufsou.com/search?q=">Fsou:https://fsoufsou.com/search?q=</a>
+<a href="i:00大同:https://datong.info/ui/search.html?q=">大同:https://datong.info/ui/search.html?q=</a>
 
 <a href="i:00sese:https://sese.yyj.moe/search?q=">sese:https://sese.yyj.moe/search?q=</a>
 

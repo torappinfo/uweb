@@ -9,16 +9,20 @@ Clicking the following search engine configuration links (or append the link tex
 [AI](#aiSE) [Recommended](#mainSE) [Common](#commonSE) [language](#langSE) [Science](#textbookSE) [More](#moreSE) [medical](#medicalSE) [scholar](#scholarSE) [dev](#devSE) [local](#localSE)
 
 
-<a id="aiSE">AI</a>:  
+<a id="aiSE">AI</a> (Appending "%250D" after "%s" as ENTER for uweb and "%0D" for ebrowser):  
 <a href="i:00copilot:https://copilot.microsoft.com/?q=">copilot:https://copilot.microsoft.com/?q=</a>
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
 <a href="i:00deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s</a>
 
+<a href="i:00aoyo:https://aoyo.ai/search/?q=">aoyo:https://aoyo.ai/search/?q=</a>
+
 <a href="i:00monica.im:https://monica.im/home/chat/deepseek-r1/deepseek_reasoner?q=">monica.im:https://monica.im/home/chat/deepseek-r1/deepseek_reasoner?q=</a>
 
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
+
+<a href="i:00giz:https://app.giz.ai/assistant?mode=chat&prompt=">giz:https://app.giz.ai/assistant?mode=chat&prompt=</a>
 
 <a href="i:00txyz:i:0/js/uwebset.js:https://app.txyz.ai#uweb=%s">txyz:i:0/js/uwebset.js:https://app.txyz.ai#uweb=%s</a>
 
@@ -45,6 +49,8 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00mistral:https://chat.mistral.ai/chat?q=">mistral:https://chat.mistral.ai/chat?q=</a>
 
 <a href="i:00mindfulq:https://www.mindfulq.com/s?q=">mindfulq:https://www.mindfulq.com/s?q=</a>
+
+<a href="i:00searchgptool:https://searchgptool.ai/search?q=">searchgptool:https://searchgptool.ai/search?q=</a>
 
 <a href="i:00iask:https://iask.ai/?q=">iask:https://iask.ai/?q=</a>
 
@@ -93,7 +99,7 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s">lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s</a>
 
 
-AI (uweb browser only and the search tab must be not in background. Appending "%250D" as ENTER key if needed.)  
+AI (uweb browser only and the search tab must not be in background. Appending "%250D" after "%s" as ENTER key if needed.)  
 <a href="i:00hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s">hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s</a>
 
 
