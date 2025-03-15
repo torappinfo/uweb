@@ -10,7 +10,7 @@
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
 (镜像: [atomgit](https://jamesfengcao.atomgit.net/uweb/zh/) [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/) [frama](https://torappinfo.frama.io/uweb/zh/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://jamesfengcao.codeberg.page/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [deno](https://posh-crab-23.deno.dev/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [fleek](https://uweb.on-fleek.app/zh/) [pages](https://muweb.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [glitch](https://uweb.glitch.me/zh/) [zeabur](https://uweb.zeabur.app/zh/) [vercel](https://uweb.vercel.app/zh/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像...</a>)
 
-- <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">提供多个deepseek满血版接入点，包括秘塔ds接入。解决ds官网不稳定问题。</a>
+- <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">提供20多deepseek满血版接入点，包括秘塔ds接入。解决ds官网不稳定问题。</a>
 - <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、百科、AI 聊天devv.ai等</a></span>
 - <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI聊天可作为搜索引擎</a>，无需重复输入。界面针对AI及传统搜索智能优化，复杂问询如代码可选择[文件作为键盘输入](https://uwebzh.netlify.app/en/links/index.html#)，AI成为智囊团。
 - 微：不到250K。
@@ -35,7 +35,7 @@
 ![](https://i.postimg.cc/0NFnQT6H/option2.png)
 
 #### 软件功能
-输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、代码编辑器（支持120多种语言，语法高亮、错误提示、自动提示、直接运行测试、其它网页上直接测试）。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。
+输出自定义页面大小PDF、矢量图长截屏、朗读、文本重排、嗅探、比价、翻译、视频解析、离线保存、阅读模式(推荐与脚本激活模式配合)、网址重定向至国内、多帐号切换、网盘离线下载、文件管理、webdav/http空间备份/恢复任何指定文件集、智能翻页、目录文件传送、网站独立设置（ua，禁用脚本，无图，激活脚本）、行编辑器、网络唤醒(Wake-on-LAN)。通过安装html5应用可预览／阅读本地或在线任意格式文件（pdf,djvu,epub,mdx/mdd,docx等）。
 
 修仙小说里面有一种异能，叫做“成功可以复制”，只要成功一次，就能无限复制。超微浏览器中这种异能叫"超级书签"。成功使用时保存，需要时就可以无限恢复。
 
