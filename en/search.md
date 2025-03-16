@@ -36,6 +36,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00andi:https://andisearch.com/?q=">andi:https://andisearch.com/?q=</a>
 
+<a href="i:00gigabrain:https://thegigabrain.com/search/">gigabrain:https://thegigabrain.com/search/</a>
+
 <a href="i:00liner:https://getliner.com?q=">liner:https://getliner.com?q=</a>
 
 <a href="i:00lenso:https://lenso.ai/en/search-by-text?type=relatedText&desc=">lenso:https://lenso.ai/en/search-by-text?type=relatedText&desc=</a>
