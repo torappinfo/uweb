@@ -112,8 +112,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
 
-<a href="i:00文心:i:0/js/uweb2edit2.js:https://yiyan.baidu.com/?agent=slowThought#uweb=%s">文心:i:0/js/uweb2edit2.js:https://yiyan.baidu.com/?agent=slowThought#uweb=%s</a>
-
 <a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s</a>
 
 <a href="i:00海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s">海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s</a>
