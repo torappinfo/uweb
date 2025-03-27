@@ -196,11 +196,11 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a id="commonSE">常用引擎</a>，供用户查漏添加：  
 <a href="i:00google:https://google.com/search?q=">google:https://google.com/search?q=</a>
 
-<a href="i:00必应:https://www.bing.com/search?q=">必应:https://www.bing.com/search?q=</a>
+<a href="i:00bing:https://www.bing.com/search?q=">bing:https://www.bing.com/search?q=</a>
 
-<a href="i:00必应CN:https://cn.bing.com/search?q=">必应CN:https://cn.bing.com/search?q=</a>
+<a href="i:00必应:https://cn.bing.com/search?q=">必应:https://cn.bing.com/search?q=</a>
 
-<a href="i:00必应4:https://www4.bing.com/search?q=">必应4:https://www4.bing.com/search?q=</a>
+<a href="i:00必应备用:https://www4.bing.com/search?q=">必应备用:https://www4.bing.com/search?q=</a>
 
 <a href="i:00百度:https://www.baidu.com/s?wd=">百度:https://www.baidu.com/s?wd=</a>
 
