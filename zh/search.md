@@ -14,7 +14,9 @@ log: |
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
-<a href="i:00百度ds:https://chat.baidu.com/search?word=">百度ds:https://chat.baidu.com/search?word=</a>
+<a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
+
+<a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
 
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
 
@@ -197,6 +199,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00必应:https://www.bing.com/search?q=">必应:https://www.bing.com/search?q=</a>
 
 <a href="i:00必应CN:https://cn.bing.com/search?q=">必应CN:https://cn.bing.com/search?q=</a>
+
+<a href="i:00必应4:https://www4.bing.com/search?q=">必应4:https://www4.bing.com/search?q=</a>
 
 <a href="i:00百度:https://www.baidu.com/s?wd=">百度:https://www.baidu.com/s?wd=</a>
 

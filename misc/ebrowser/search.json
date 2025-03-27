@@ -1,7 +1,7 @@
 {
-  "b":"https://www.bing.com/search?q=%s",
+  "b":"https://www4.bing.com/search?q=%s",
   "n":"https://n.cn/search/?q=%s",
-  "bds":"https://chat.baidu.com/deepseek?word=%s",
+  "bda":"https://chat.baidu.com/search?word=%s",
   "bdic":"http://cn.bing.com/dict/search?q=%s", "ki":"https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=%s",
   "hk":"i:0/js/uweb2ta.js:https://heck.ai/#10uweb=%s%0D",
   "xb":"i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006?10uweb=%s%0D",
