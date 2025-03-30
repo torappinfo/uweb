@@ -27,7 +27,7 @@ v(){
 d(){
   word=$1
   dict=${2:-ahd}
-  tdict ~/share/dict/$dict $1
+  LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib tdict ~/share/dict/$dict $1
 }
 
 z(){

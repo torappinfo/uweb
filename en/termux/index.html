@@ -55,9 +55,19 @@
 <p><a href="i:0h/data/data/com.termux/files/home/.inputrc:../../termux/inputrc">.inputrc</a></p>
 <p><a href="i:0h/data/data/com.termux/files/home/z.sh:https://fastly.jsdelivr.net/gh/rupa/z/z.sh">z.sh</a></p>
 <p><a href="i:0h/data/data/com.termux/files/home/commacd.sh:https://fastly.jsdelivr.net/gh/shyiko/commacd/commacd.sh">commacd.sh</a></p>
-<p><a href="i:0h/data/data/com.termux/files/home/.profile:../../termux/profile">.profile</a> : only for kshell with naked termux (no initial packages, need the following fix for termux quick crash to be launched)</p>
 <h4 id="copy-existing-termux-installation-to-other-devices">Copy existing termux installation to other devices</h4>
-<p>Using uweb to copy (Long pressing the following links and &quot;open in new tab&quot; to fix/send/receive):</p>
+<h5 id="copyinit-from-bootstrapzip-expert-only">Copy/init from bootstrap.zip (expert only)</h5>
+<ul>
+<li>Extract <a href="https://github.com/termux/termux-packages/releases">bootstrap.zip</a> to &quot;/data/data/com.termux/files/usr&quot;.</li>
+<li>Make sure all symbolic links are unzipped properly, especially those to coreutils.<br>
+Note:
+<ul>
+<li>&quot;/system/bin/unzip&quot; fails to extract all files and does not handle symbolic links.</li>
+<li><a href="https://wiki.termux.com/wiki/Internal_and_external_storage">Some file managers</a> have full access on termux internal folders.</li>
+</ul>
+</li>
+</ul>
+<h5 id="using-uweb-to-copy-long-pressing-the-following-links-and-open-in-new-tab-to-fixsendreceive">Using uweb to copy (Long pressing the following links and &quot;open in new tab&quot; to fix/send/receive):</h5>
 <ul>
 <li>target device: install termux app.</li>
 <li>(optional)<a href="d::mkdir -p /data/user/0/com.termux/files/home/.termux;cd /data/user/0/com.termux/files;mkdir usr;cd home/.termux;ln -s /system/bin/sh shell:">fix termux quick crash with &quot;updateonly&quot; versions</a> by long click this link.</li>
@@ -78,8 +88,8 @@
 With <a href="https://github.com/rupa/z">z.sh</a> and <a href="https://github.com/shyiko/commacd">commacd</a>, user can reach any folder with few key stokes. Run &quot;v&quot; to launch uweb file manager on the current working directory, long click any file link to share.</p>
 
 </div>
-<p>Last Modified: 22 August 2024<br>
-add more download sites<br>
+<p>Last Modified: 30 March 2025<br>
+bashrc: fix tdict LD_LIBRARY_PATH<br>
 <pre></pre>
 </p>
 
