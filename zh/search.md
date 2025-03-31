@@ -18,7 +18,7 @@ log: |
 
 <a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
 
-<a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
+<a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
@@ -92,11 +92,11 @@ log: |
 AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
 
-<a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
+<a href="i:00当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s">硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s</a>
 
-<a href="i:00问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s">问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com/chat/200006#10uweb=%s</a>
+<a href="i:00问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s">问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s</a>
 
 <a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s</a>
 
