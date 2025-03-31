@@ -1,20 +1,29 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width" />
-<title>webdav links for %2%</title></head><body>
+<title></title><script>
+  const url=`%2%`;
+  const name=`%1%`;
+</script></head><body>
+<script>
+  document.title = "webdav links for "+name;
+  var html =`
 <p><b>Click to install the link menu items:</b></p>
-<a href="i:0gdefault.link::Backup2%1%: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0e'+path+':%2%/'+f+'.tgz';}%0A">Backup to %1%</a><br>
+<a href="i:0gdefault.link::Backup2%1%: {let path='%f';let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0e'+path+':%2%/'+f+'.tgz';}%0A">Backup to %1%</a><br>
 
-<a href="i:0gdefault.link::restoreFrom%1%: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0d%2%/'+f+'.tgz';}%0A">Restore from %1%</a><br>
+<a href="i:0gdefault.link::restoreFrom%1%: {let path='%f';let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1);location.href='i:0d%2%/'+f+'.tgz';}%0A">Restore from %1%</a><br>
 
-<a href="i:0gdefault.link::upload_%1%: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':%2%/'+f;}%0A">upload to %1%</a><br>
+<a href="i:0gdefault.link::upload_%1%: {let path='%f';let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0u'+path+':%2%/'+f;}%0A">upload to %1%</a><br>
 
-<a href="i:0gdefault.link::delete_%1%: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0wDELETE:%2%/'+f;}%0A">Delete on server %1%</a><br>
+<a href="i:0gdefault.link::delete_%1%: {let path='%f';let iSlash=path.lastIndexOf('/',path.length-2);let f;if('/'!=path[path.length-1])f=path.substring(iSlash+1);else f=path.substring(iSlash+1,path.length-1)+'.tgz';location.href='i:0wDELETE:%2%/'+f;}%0A">Delete on server %1%</a><br>
 
-<a href="i:0gdefault.link::mkdir_%1%: {let path=`%f`;let iSlash=path.lastIndexOf('/',path.length-2);let f=path.substring(iSlash+1);location.href='i:0wMKCOL:%2%/'+f;}%0A">Make directory on server %1%</a><br>
+<a href="i:0gdefault.link::mkdir_%1%: {let path='%f';let iSlash=path.lastIndexOf('/',path.length-2);let f=path.substring(iSlash+1);location.href='i:0wMKCOL:%2%/'+f;}%0A">Make directory on server %1%</a><br>
 
 <p><b>Bookmarks:</b></p>
 <a href="i:0e/data/data/info.torapp.uweb/files:%2%/uweb.tgz">Backup config to %1%</a><br>
 <a href="i:0d%2%/uweb.tgz">Restore config from %1%</a><br>
 <a href='i:0wDELETE:%2%/'>Delete on server %1%</a><br>
 <a href='i:0wMKCOL:%2%/'>Make directory on server %1%</a><br>
-
+`;
+  html = html.replaceAll("%1%",name).replaceAll("%2%",url);
+  document.body.innerHTML = html;
+</script>
 </body></html>
