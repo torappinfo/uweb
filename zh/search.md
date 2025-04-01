@@ -18,6 +18,8 @@ log: |
 
 <a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
 
+<a href="i:00百度pc:i:0UA1https://chat.baidu.com/search?word=%s">百度pc:i:0UA1https://chat.baidu.com/search?word=%s</a>
+
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s</a>
@@ -44,7 +46,7 @@ log: |
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
-<a href="i:00360bot:i:0/js/uwebset.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uwebset.js:https://bot.n.cn#uweb=%s</a>
+<a href="i:00360bot:i:0UA1i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s">360bot:i:0UA1i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s</a>
 
 
 注：
@@ -114,7 +116,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00minimax:i:0/js/uweb2ta2.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uweb2ta2.js:https://chat.minimax.io#uweb=%s</a>
 
-<a href="i:00腾讯文档ai:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
+<a href="i:00腾讯文档ai:i:0UA1i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0UA1i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
 
 <a href="i:00太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
 
