@@ -13,6 +13,7 @@
   "df":"https://www.deepfind.co/?q=%s",
   "ta":"https://thinkany.so/search?q=%s",
   "mo":"https://monica.im/home/chat/deepseek-r1/deepseek_reasoner?q=%s",
+  "yw":"i:0/js/uwebset.js:https://yuewen.cn/chats/new?uweb=%s",
   "zd":"https://zhida.zhihu.com/?q=%s",
   "exa":"https://exa.ai/search?c=all&q=%s",
   "andi":"https://andisearch.com/?q=%s",

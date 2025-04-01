@@ -6,7 +6,7 @@ log: |
 ---
 [超微浏览器](../index.html#)下点击搜索引擎配置链接(或将配置文本添加到home5.search)中可自动添加到主屏。[ebrowser](../../en/ebrowserreadme/index.html#)下点击后可选择取消，此时地址栏会显示添加搜索引擎的i:内部链接，将其中引擎名改短（比如两个字母）作为快捷输入然后回车执行内部链接即可。
 
-[深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE)
+[深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE) [网址变引擎](#convert)
 
 
 <a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可起到自动回车作用, ebrowser添加"%0D")  
@@ -46,6 +46,10 @@ log: |
 
 <a href="i:00360bot:i:0/js/uwebset.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uwebset.js:https://bot.n.cn#uweb=%s</a>
 
+
+注：
+- 纳米等默认不使用deepseek, 但如果没有输入内容空搜一次，此时在网页界面上打开deepseek开关，那么以后每次搜索都会默认使用deepseek。
+- 问小白需发送一次聊天后搜索引擎才能正常使用。
 
 <a id="aiSE">AI引擎</a>：  
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
@@ -562,6 +566,9 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 [searx](https://searx.space)  
 [google学术镜像](https://ac.scmor.com)  
 [词典](https://github.com/Dictionaryphile/All_Dictionaries)  
+
+#### <a id="convert">网址变引擎</a>
+以当贝AI为例，其搜索引擎url为"i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s"。代码"uweb2edit2.js"负责将"%s"填入到编辑框。代码后面所带参数"#1"点击第二个按钮，从而默认打开互联网搜索。用户可提供自有脚本，比如"i:0/sdcard/Download/my.js"，此时脚本"my.js"位于系统下载目录。如果脚本最后字符为")"并非编辑器自动添加的回车，则脚本允许带参数使用。"#"也可用来连接多个脚本，比如"i:0/js/uweb2edit2.js#1#/sdcard/my.js#1"。
 
 #### [搜索文件格式](../searchcat/index.html#) 
 - 用"i:"等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用"%s"，这纯粹是为了降低代码复杂性。
