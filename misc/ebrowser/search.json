@@ -19,7 +19,6 @@
   "andi":"https://andisearch.com/?q=%s",
   "ph":"https://phind-ai.com/search?q=%s",
   "gf":"https://greasyfork.org/en/scripts?filter_locale=0&sort=updated&q=%s",
-  "sc":"https://scriptcat.org/en/search?keyword=%s",
   "repo":"https://www.awesome-repositories.com/s/results-with-ai/%s",
   "you":"https://you.com/search?tbm=youchat&q=%s",
   "p":"https://www.perplexity.ai/?q=%s",

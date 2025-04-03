@@ -33,7 +33,7 @@ d(){
 z(){
 #usage: z word dictname percent
   word=$1
-  dict=~/share/dict/$2.xz
+  dict=~/share/dict/${2:-ety}.xz
   percent=''
   if [ "$3" ]; then
     percent=${3}p

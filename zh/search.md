@@ -4,12 +4,12 @@ date: 2024-12-02
 log: |
   24.02.26 添加网盘搜索引擎
 ---
-[超微浏览器](../index.html#)下点击搜索引擎配置链接(或将配置文本添加到home5.search)中可自动添加到主屏。[ebrowser](../../en/ebrowserreadme/index.html#)下点击后可选择取消，此时地址栏会显示添加搜索引擎的i:内部链接，将其中引擎名改短（比如两个字母）作为快捷输入然后回车执行内部链接即可。
+[超微浏览器](../index.html#)下点击搜索引擎配置链接(或将配置文本添加到home5.search)中可自动添加到主屏。[ebrowser](../../en/ebrowserreadme/index.html#)下点击后可选择取消，此时地址栏会显示添加搜索引擎的i:内部链接，将其中引擎名改短（比如两个字母）作为快捷输入然后发送执行内部链接即可。
 
 [深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE) [网址变引擎](#convert)
 
 
-<a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可起到自动回车作用, ebrowser添加"%0D")  
+<a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可自动发送, ebrowser添加"%0D")  
 <a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
@@ -43,6 +43,10 @@ log: |
 <a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
 
 <a href="i:00alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s">alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s</a>
+
+<a href="i:00openrouter:i:0/js/uwebset.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free?uweb=%s">openrouter:i:0/js/uwebset.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free?uweb=%s</a>
+
+<a href="i:00硅基流动:i:0/js/uwebset.js:https://cloud.siliconflow.cn/playground/chat?uweb=%s%250D">硅基流动:i:0/js/uwebset.js:https://cloud.siliconflow.cn/playground/chat?uweb=%s%250D</a>
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
@@ -82,6 +86,8 @@ log: |
 
 <a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
+<a href="i:00太初:i:0/js/uwebset.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">太初:i:0/js/uwebset.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
+
 <a href="i:00知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s">知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s</a>
 
 <a href="i:00flo.ing:i:0/js/uweb2ta.js:https://flo.ing#uweb=%s">flo.ing:i:0/js/uweb2ta.js:https://flo.ing#uweb=%s</a>
@@ -95,34 +101,12 @@ log: |
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
 
-AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可起到自动回车作用，两次解码后"%250D"->"%0D"->CR键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
-<a href="i:00deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uweb2ta2.js:https://chat.deepseek.com#uweb=%s</a>
-
+AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s">当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s</a>
-
-<a href="i:00硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s">硅基流动:i:0/js/uweb2ta2.js:https://cloud.siliconflow.cn/playground/chat#uweb=%s</a>
-
-<a href="i:00问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s">问小白:i:0/js/uweb2ta2.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s</a>
-
-<a href="i:00360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s">360bot:i:0/js/uweb2ta2.js:https://bot.n.cn#uweb=%s</a>
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
 
-<a href="i:00openrouter:i:0/js/uweb2ta2.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free#uweb=%s">openrouter:i:0/js/uweb2ta2.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free#uweb=%s</a>
-
-<a href="i:00跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uweb2ta2.js:https://yuewen.cn/chats/new#uweb=%s</a>
-
-<a href="i:00心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#10uweb=%s">心流:i:0/js/uweb2ta2.js:https://m.iflow.cn#10uweb=%s</a>
-
-<a href="i:00minimax:i:0/js/uweb2ta2.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uweb2ta2.js:https://chat.minimax.io#uweb=%s</a>
-
 <a href="i:00腾讯文档ai:i:0UA1i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0UA1i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
-
-<a href="i:00太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">太初:i:0/js/uweb2ta2.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
-
-<a href="i:00豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uweb2ta2.js:https://www.doubao.com/chat/#10uweb=%s</a>
-
-<a href="i:00海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s">海螺:i:0/js/uweb2ta2.js:https://hailuoai.com#uweb=%s</a>
 
 <a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s</a>
 
@@ -570,7 +554,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 [词典](https://github.com/Dictionaryphile/All_Dictionaries)  
 
 #### <a id="convert">网址变引擎</a>
-以当贝AI为例，其搜索引擎url为"i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s"。代码"uweb2edit2.js"负责将"%s"填入到编辑框。代码后面所带参数"#1"点击第二个按钮，从而默认打开互联网搜索。用户可提供自有脚本，比如"i:0/sdcard/Download/my.js"，此时脚本"my.js"位于系统下载目录。如果脚本最后字符为")"并非编辑器自动添加的回车，则脚本允许带参数使用。"#"也可用来连接多个脚本，比如"i:0/js/uweb2edit2.js#1#/sdcard/my.js#1"。
+以当贝AI为例，其搜索引擎url为"i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s"。代码"uweb2edit2.js"负责将"%s"填入到编辑框。代码后面所带参数"#1"点击第二个按钮，从而默认打开互联网搜索。用户可提供自有脚本，比如"i:0/sdcard/Download/my.js"，此时脚本"my.js"位于系统下载目录。如果脚本最后字符为")"并非编辑器自动添加的换行键，则脚本允许带参数使用。"#"也可用来连接多个脚本，比如"i:0/js/uweb2edit2.js#1#/sdcard/my.js#1"。
 
 #### [搜索文件格式](../searchcat/index.html#) 
 - 用"i:"等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用"%s"，这纯粹是为了降低代码复杂性。
