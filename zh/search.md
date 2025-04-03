@@ -102,7 +102,7 @@ log: |
 
 
 AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
-<a href="i:00当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s">当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s</a>
+<a href="i:00当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
 
@@ -554,7 +554,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 [词典](https://github.com/Dictionaryphile/All_Dictionaries)  
 
 #### <a id="convert">网址变引擎</a>
-以当贝AI为例，其搜索引擎url为"i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/#10uweb=%s"。代码"uweb2edit2.js"负责将"%s"填入到编辑框。代码后面所带参数"#1"点击第二个按钮，从而默认打开互联网搜索。用户可提供自有脚本，比如"i:0/sdcard/Download/my.js"，此时脚本"my.js"位于系统下载目录。如果脚本最后字符为")"并非编辑器自动添加的换行键，则脚本允许带参数使用。"#"也可用来连接多个脚本，比如"i:0/js/uweb2edit2.js#1#/sdcard/my.js#1"。
+以当贝AI为例，其搜索引擎url为"i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s"。代码"uweb2edit2.js"负责将"%s"填入到编辑框。代码后面所带参数"#1"点击第二个按钮，从而默认打开互联网搜索。用户可提供自有脚本，比如"i:0/sdcard/Download/my.js"，此时脚本"my.js"位于系统下载目录。如果脚本最后字符为")"并非编辑器自动添加的换行键，则脚本允许带参数使用。"#"也可用来连接多个脚本，比如"i:0/js/uweb2edit2.js#1#/sdcard/my.js#1"。
 
 #### [搜索文件格式](../searchcat/index.html#) 
 - 用"i:"等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用"%s"，这纯粹是为了降低代码复杂性。
