@@ -16,9 +16,7 @@ log: |
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
-<a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
-
-<a href="i:00百度pc:i:0UA1https://chat.baidu.com/search?word=%s">百度pc:i:0UA1https://chat.baidu.com/search?word=%s</a>
+<a href="i:00百度ai:i:0UASearchCraft/:https://chat.baidu.com/search?word=%s">百度ai:i:0UASearchCraft/:https://chat.baidu.com/search?word=%s</a>
 
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s</a>
 
@@ -50,7 +48,9 @@ log: |
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
-<a href="i:00360bot:i:0UA1i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s">360bot:i:0UA1i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s</a>
+<a href="i:00360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s">360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s</a>
+
+<a href="i:00智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s">智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s</a>
 
 
 注：
@@ -86,6 +86,8 @@ log: |
 
 <a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
+<a href="i:00海螺:i:0/js/uwebset.js:https://chat.minimax.com#uweb=%s">海螺:i:0/js/uwebset.js:https://chat.minimax.com#uweb=%s</a>
+
 <a href="i:00太初:i:0/js/uwebset.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s">太初:i:0/js/uwebset.js:https://taichu-web.ia.ac.cn/#/chat#uweb=%s</a>
 
 <a href="i:00知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s">知料觅得:i:0/js/uweb2input.js:https://www.sou100.com#uweb=%s</a>
@@ -106,7 +108,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
 
-<a href="i:00腾讯文档ai:i:0UA1i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0UA1i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
+<a href="i:00腾讯文档ai:i:0UA1:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0UA1:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
 
 <a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s</a>
 

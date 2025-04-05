@@ -9,6 +9,8 @@
   "qw":"i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s",
   "sl":"i:0/js/uwebset.js:https://www.solab.ai#uweb=%s",
   "ms":"https://metaso.cn?q=%s",
+  "lf":"i:0/js/uwebset.js:https://chat.lify.vip/chat?uweb=%s",
+  "gc":"i:0/js/uweb2ta.js:https://gitcode.com/ai/#uweb=%s",
   "ds":"i:0/js/uweb2ta.js:https://metaso.cn/#uweb=%s",
   "df":"https://www.deepfind.co/?q=%s",
   "ta":"https://thinkany.so/search?q=%s",
