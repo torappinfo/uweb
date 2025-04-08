@@ -36,6 +36,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00andi:https://andisearch.com/?q=">andi:https://andisearch.com/?q=</a>
 
+<a href="i:00scira:https://scira.ai/?q=">scira:https://scira.ai/?q=</a>
+
 <a href="i:00gigabrain:https://thegigabrain.com/search/">gigabrain:https://thegigabrain.com/search/</a>
 
 <a href="i:00liner:https://getliner.com?q=">liner:https://getliner.com?q=</a>
@@ -99,6 +101,10 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s</a>
 
 <a href="i:00lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s">lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s</a>
+
+<a href="i:00stepfun:i:0/js/uwebset.js:https://www.stepfun.com/chats/new#uweb=%s">stepfun:i:0/js/uwebset.js:https://www.stepfun.com/chats/new#uweb=%s</a>
+
+<a href="i:00poe:i:0/js/uweb2ta.js:https://poe.com/DeepSeek-R1#uweb=%s">poe:i:0/js/uweb2ta.js:https://poe.com/DeepSeek-R1#uweb=%s</a>
 
 
 AI (uweb browser only and the search tab must not be in background. Appending "%250D" after "%s" as ENTER key if needed.)  
@@ -194,8 +200,6 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 <a href="i:00rightdao:https://rightdao.com/search?q=">rightdao:https://rightdao.com/search?q=</a>
 
-<a href="i:00alexandria:https://www.alexandria.org/?q=">alexandria:https://www.alexandria.org/?q=</a>
-
 <a href="i:00yep:https://yep.com/web?q=">yep:https://yep.com/web?q=</a>
 
 <a href="i:00seznam:https://search.seznam.cz/?q=">seznam:https://search.seznam.cz/?q=</a>
@@ -238,8 +242,6 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 <a href="i:00lyzem:https://lyzem.com/search?q=">lyzem:https://lyzem.com/search?q=</a>
 
-<a href="i:00gramxlu:https://gramxly.com/s?q=">gramxlu:https://gramxly.com/s?q=</a>
-
 
 
 <a id="langSE">language</a>:  
@@ -250,8 +252,6 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 <a href="i:00merriam-webster:https://www.merriam-webster.com/dictionary/">merriam-webster:https://www.merriam-webster.com/dictionary/</a>
 
 <a href="i:00dictionary:https://www.dictionary.com/browse/">dictionary:https://www.dictionary.com/browse/</a>
-
-<a href="i:00finedict:https://www.finedictionary.com/">finedict:https://www.finedictionary.com/</a>
 
 <a href="i:00freedictionary:https://www.thefreedictionary.com/">freedictionary:https://www.thefreedictionary.com/</a>
 
@@ -272,8 +272,6 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 <a href="i:00powerthesaurus:https://www.powerthesaurus.org/%s/synonyms">powerthesaurus:https://www.powerthesaurus.org/%s/synonyms</a>
 
 <a href="i:00macmillanthesaurus:https://www.macmillanthesaurus.com/search/?auto=complete&q=">macmillanthesaurus:https://www.macmillanthesaurus.com/search/?auto=complete&q=</a>
-
-<a href="i:00lword:https://lword.top/word.html#">lword:https://lword.top/word.html#</a>
 
 <a href="i:00ludwig:https://ludwig.guru/s/">ludwig:https://ludwig.guru/s/</a>
 
@@ -345,8 +343,6 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 <a id="moreSE">More engines</a>:  
 <a href="i:00oscobo:https://www.oscobo.com/search.php?q=">oscobo:https://www.oscobo.com/search.php?q=</a>
 
-<a href="i:00teoma:https://www.teoma.com/web?q=">teoma:https://www.teoma.com/web?q=</a>
-
 <a href="i:00lycos:https://search.lycos.com/web/?q=">lycos:https://search.lycos.com/web/?q=</a>
 
 <a href="i:00technorati:http://technorati.com/search/index.php?q=">technorati:http://technorati.com/search/index.php?q=</a>
@@ -359,15 +355,11 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 <a href="i:00ghostery:https://ghosterysearch.com/search?q=">ghostery:https://ghosterysearch.com/search?q=</a>
 
-<a href="i:00libreY:https://search.ahwx.org/search.php?q=">libreY:https://search.ahwx.org/search.php?q=</a>
-
 <a href="i:00izito:https://www.izito.com/search?q=">izito:https://www.izito.com/search?q=</a>
 
 <a href="i:00duck:https://duckduckgo.com/?q=">duck:https://duckduckgo.com/?q=</a>
 
 <a href="i:00presearch:https://presearch.com/search?q=">presearch:https://presearch.com/search?q=</a>
-
-<a href="i:00gigablast:https://www.gigablast.com/search?c=main&qlangcountry=en-us&q=">gigablast:https://www.gigablast.com/search?c=main&qlangcountry=en-us&q=</a>
 
 <a href="i:00yandex:https://yandex.com/search/?text=">yandex:https://yandex.com/search/?text=</a>
 
