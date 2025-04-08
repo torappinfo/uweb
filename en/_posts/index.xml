@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Apr 2025 21:23:29 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 16:35:49 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>popup menu for Long pressed link and downloading</title>
@@ -27,7 +27,7 @@
       <link>https://jamesfengcao.gitlab.io/uweb/en/input/</link>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/input/</guid>
-      <description>&lt;p&gt;Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@Newline@%0A&#34;&gt;New line&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@CTRL-Z@%1A%0A&#34;&gt;CTRL-Z&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@CTRL-Y@%19%0A&#34;&gt;CTRL-Y&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long pressing the share button in &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt; will popup menus defined in file &amp;quot;default.input&amp;quot;, each line of which defines common phrase for user inputs. If the phrase begins with &amp;quot;@xxxx@&amp;quot;, then &amp;quot;xxxx&amp;quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^J@%0A&#34;&gt;New line&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Z@%1A%0A&#34;&gt;CTRL-Z&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Y@%19%0A&#34;&gt;CTRL-Y&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long pressing the share button in &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt; will popup menus defined in file &amp;quot;default.input&amp;quot;, each line of which defines common phrase for user inputs. If the phrase begins with &amp;quot;@xxxx@&amp;quot;, then &amp;quot;xxxx&amp;quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSS styles</title>

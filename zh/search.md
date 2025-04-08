@@ -16,9 +16,7 @@ log: |
 
 <a href="i:00百度ds:https://chat.baidu.com/deepseek?word=">百度ds:https://chat.baidu.com/deepseek?word=</a>
 
-<a href="i:00百度ai:i:0UASearchCraft/:https://chat.baidu.com/search?word=%s">百度ai:i:0UASearchCraft/:https://chat.baidu.com/search?word=%s</a>
-
-<a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s</a>
+<a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D</a>
 
 <a href="i:00跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
@@ -68,6 +66,8 @@ log: |
 
 <a href="i:00kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=">kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=</a>
 
+<a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
+
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
 <a href="i:00云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=">云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=</a>
@@ -109,6 +109,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
 
 <a href="i:00腾讯文档ai:i:0UA1:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s">腾讯文档ai:i:0UA1:i:0/js/uweb2edit2.js:https://docs.qq.com/ai#uweb=%s</a>
+
+<a href="i:00文心:i:0/js/uweb2edit2.js:https://yiyan.baidu.com#uweb=%s">文心:i:0/js/uweb2edit2.js:https://yiyan.baidu.com#uweb=%s</a>
 
 <a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s</a>
 
@@ -283,8 +285,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00wordreference:https://www.wordreference.com/definition/">wordreference:https://www.wordreference.com/definition/</a>
 
 <a href="i:00vocabulary:https://www.vocabulary.com/dictionary/">vocabulary:https://www.vocabulary.com/dictionary/</a>
-
-<a href="i:00OED:https://www.oed.com/LIBRARY?dest=https%3A%2F%2Fwww.oed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3D%s%26_searchBtn%3DSearch&acc_id=65585&library_card=12363257">OED:https://www.oed.com/LIBRARY?dest=https%3A%2F%2Fwww.oed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3D%s%26_searchBtn%3DSearch&acc_id=65585&library_card=12363257</a>
 
 <a href="i:00webster1913:https://www.websters1913.com/words/">webster1913:https://www.websters1913.com/words/</a>
 
@@ -560,6 +560,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 #### [搜索文件格式](../searchcat/index.html#) 
 - 用"i:"等超微内部scheme作开头的搜索引擎，关键词部分仅支持使用"%s"，这纯粹是为了降低代码复杂性。
-- POST搜索引擎可使用"i:a1"前缀，后面部分类似于普通搜索引擎串，但由于使用"i:"前缀，关键词部分必须使用"%s"。
+- POST搜索引擎可使用"i:p1"前缀，后面部分类似于普通搜索引擎串，但由于使用"i:"前缀，关键词部分必须使用"%s"。
 - POST搜索引擎使用"[搜索引擎名]:POST:[含%s的post参数]:[url]"格式时，POST参数会原样发送，所以POST参数部分一般不要％编码。
 
