@@ -174,10 +174,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00盒子比价:http://www.boxz.com/search/">盒子比价:http://www.boxz.com/search/</a>
 
-<a href="i:00buzz:https://search.buzz.im/?search=">buzz:https://search.buzz.im/?search=</a>
-
-<a href="i:00toplinks:https://www.toplinks.cc/s/?keyword=">toplinks:https://www.toplinks.cc/s/?keyword=</a>
-
 
 注：顺序搜索需文件engine.search，格式与home5.search相同，但其中url关键词部分必须用“%s”标识。用此引擎搜索的网页按前进键自动用下一引擎搜索。
 
@@ -213,10 +209,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00萌搜:https://mengso.com/search?q=">萌搜:https://mengso.com/search?q=</a>
 
 <a href="i:00头条:https://m.toutiao.com/search/?keyword=">头条:https://m.toutiao.com/search/?keyword=</a>
-
-<a href="i:00magi:https://magi.com/search?q=">magi:https://magi.com/search?q=</a>
-
-<a href="i:00Lookao:https://lookao.com/search?q=">Lookao:https://lookao.com/search?q=</a>
 
 <a href="i:00answers:https://www.answers.com/search?q=">answers:https://www.answers.com/search?q=</a>
 
@@ -288,11 +280,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00柯林斯双解:http://www.iciba.com/">柯林斯双解:http://www.iciba.com/</a>
 
-<a href="i:00柯林斯汉英大词典:https://www.hjdict.com/w/">柯林斯汉英大词典:https://www.hjdict.com/w/</a>
-
 <a href="i:00剑桥双解:https://dictionary.cambridge.org/dictionary/english-chinese-simplified/">剑桥双解:https://dictionary.cambridge.org/dictionary/english-chinese-simplified/</a>
-
-<a href="i:00lword:https://lword.top/word.html#">lword:https://lword.top/word.html#</a>
 
 <a href="i:00ludwig:https://ludwig.guru/s/">ludwig:https://ludwig.guru/s/</a>
 
@@ -359,8 +347,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00異體字:http://jf.xmu.edu.cn/variants/cc.html?q=">異體字:http://jf.xmu.edu.cn/variants/cc.html?q=</a>
 
 <a href="i:00诗词:http://www.guoxuedashi.net/shici/so.php?kt=44&sokeysc=">诗词:http://www.guoxuedashi.net/shici/so.php?kt=44&sokeysc=</a>
-
-<a href="i:00汉典重光:https://wenyuan.aliyun.com/home/search-word?keyword=">汉典重光:https://wenyuan.aliyun.com/home/search-word?keyword=</a>
 
 
 <a id="textbookSE">科技教材</a>：  
@@ -430,19 +416,9 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 
 <a id="cloudSE">网盘搜索</a>:  
-<a href="i:00yunso:https://www.yunso.net/index/user/s?wd=">yunso:https://www.yunso.net/index/user/s?wd=</a>
-
-<a href="i:00yapan:https://yapan.io/search?keyword=">yapan:https://yapan.io/search?keyword=</a>
-
-<a href="i:00wuwei:https://wuweipansou.top/assert/search?keyword=">wuwei:https://wuweipansou.top/assert/search?keyword=</a>
-
 <a href="i:00xuebapan:https://www.xuebapan.com/s/%s-1.html">xuebapan:https://www.xuebapan.com/s/%s-1.html</a>
 
 <a href="i:00pansou:https://pansou.cc/s/%s-1.html">pansou:https://pansou.cc/s/%s-1.html</a>
-
-<a href="i:00alipansou:https://www.alipansou.com/search?k=">alipansou:https://www.alipansou.com/search?k=</a>
-
-<a href="i:00soupan007:https://soupan007.com/search?keyword=">soupan007:https://soupan007.com/search?keyword=</a>
 
 <a href="i:00yiso:https://yiso.fun/info?searchKey=">yiso:https://yiso.fun/info?searchKey=</a>
 
@@ -450,15 +426,9 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00repanso:http://www.repanso.com/q?type=0&wd=">repanso:http://www.repanso.com/q?type=0&wd=</a>
 
-<a href="i:00wuyasou:https://www.wuyasou.com/search?keyword=">wuyasou:https://www.wuyasou.com/search?keyword=</a>
-
-<a href="i:00pansearch:https://www.pansearch.me/search?keyword=">pansearch:https://www.pansearch.me/search?keyword=</a>
-
 <a href="i:00iizhi:https://www.iizhi.cn/resource/search/">iizhi:https://www.iizhi.cn/resource/search/</a>
 
 <a href="i:00来搜一下:https://www.laisoyixia.com/s/search?q=">来搜一下:https://www.laisoyixia.com/s/search?q=</a>
-
-<a href="i:0056盘:https://www.56wangpan.com/search/kw">56盘:https://www.56wangpan.com/search/kw</a>
 
 
 <a id="scholarSE">学术搜索</a>:  
@@ -491,8 +461,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00vector:https://vector.me/search/">vector:https://vector.me/search/</a>
 
 <a href="i:00jsdelivr:http://www.jsdelivr.com/?query=">jsdelivr:http://www.jsdelivr.com/?query=</a>
-
-<a href="i:00goobe:https://goobe.io/search.aspx?k=">goobe:https://goobe.io/search.aspx?k=</a>
 
 
 <a id="appSE">应用内搜索</a>:  
