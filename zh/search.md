@@ -262,18 +262,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 
 <a id="langSE">语言学习</a>：  
-<a href="i:00longman:https://longman.mister5.net/?word=">longman:https://longman.mister5.net/?word=</a>
-
-<a href="i:00oxford:https://oxford.mister5.net/?word=">oxford:https://oxford.mister5.net/?word=</a>
-
-<a href="i:00cambridge:https://cambridge.mister5.net/?word=">cambridge:https://cambridge.mister5.net/?word=</a>
-
-<a href="i:00collins:https://collins.mister5.net/?word=">collins:https://collins.mister5.net/?word=</a>
-
-<a href="i:00macmillian:https://macmillian.mister5.net/?word=">macmillian:https://macmillian.mister5.net/?word=</a>
-
-<a href="i:00merriam-webster:https://mw.mister5.net?word=">merriam-webster:https://mw.mister5.net?word=</a>
-
 <a href="i:00merriam-webster:https://www.merriam-webster.com/dictionary/">merriam-webster:https://www.merriam-webster.com/dictionary/</a>
 
 <a href="i:00dictionary:https://www.dictionary.com/browse/">dictionary:https://www.dictionary.com/browse/</a>
