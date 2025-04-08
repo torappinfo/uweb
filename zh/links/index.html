@@ -75,11 +75,11 @@
 <h4 id="常用链接">常用链接</h4>
 <p><a href="../index.html#">uweb浏览器</a>中长按书签按钮可弹出常用链接菜单，这些链接定义在文件&quot;default.link&quot;中，改动过的文件清后台重启动后生效。每行格式如下：<br>
 [菜单名]:[url][空格][javascript脚本]<br>
-其中空格及之后的脚本为可选项。url及之后的脚本支持<a href="../cmd/index.html#">&quot;%u&quot;,&quot;%s&quot;等替换</a>。<br>
+其中空格及之后的脚本为可选项。url及之后的脚本支持<a href="../cmds/index.html#">&quot;%u&quot;,&quot;%s&quot;等替换</a>。<br>
 脚本将在链接访问结束时自动执行。</p>
 <p>url除支持所有标准的http(s):,javascript:等链接外，还支持超微内部链接（&quot;:&quot;为链接第二个字符）及特殊链接（&quot;:&quot;为链接首字符）。</p>
 <p>不少本地链接文件(file:///)超微浏览器将会做特殊处理。仅举几例说明：<br>
-.js文件(同<a href="../longclick/index.html#">长按链接运行js文件</a>):  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmd/index.html">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。</p>
+.js文件(同<a href="../longclick/index.html#">长按链接运行js文件</a>):  首行前两个字符为&quot;//&quot;者，超微将打开&quot;//&quot;后面的目标网址并执行此文件代码，目标网址支持<a href="../cmds/index.html">&quot;%u&quot;,&quot;%s&quot;等替换</a>。否则直接执行此文件。此时[javascript脚本]将作为运行.js文件的參数arguments[1]。推荐将常用js脚本本地链接保存在.link文件中。</p>
 <p><a href="../gesture/index.html#">default.gesture</a>及default.button文件采用了完全一样的格式。.gesture文件定义了手势操作。.button文件则从最后一个按钮开始倒着重定义了底部工具栏按钮单击操作。</p>
 <p>各类代理配置如下:<br>
 httpproxy::010[proxy host]:[port]<br>
@@ -255,8 +255,8 @@ use &quot;i:0mi:92Host;209.216.230.240::https://news.ycombinator.com&quot; to vi
 </ul>
 
 </div>
-<p>Last Modified: 15 March 2025<br>
-wol support<br>
+<p>Last Modified: 9 April 2025<br>
+fix broken links<br>
 <pre></pre>
 </p>
 

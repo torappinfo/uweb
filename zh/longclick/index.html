@@ -55,21 +55,21 @@
 文件&quot;<a href="../links/index.html#">download.link</a>&quot;：下载“命令”子菜单</p>
 <p>“命令”子菜单可通过<a href="i:61:../searchurl/func.html">界面设置</a>切换为系统菜单，分别可为默认（常用服务或image.link或download.link）,常用链接，常用命令。如果同时勾选常用链接及常用命令，则“命令”子菜单无视image.link及download.link, 一律弹出系统常用服务菜单。</p>
 <h4 id="长按链接运行第三方程序">长按链接运行第三方程序</h4>
-<p>配置文件<a href="file:///data/data/info.torapp.uweb/files/default.longclick">default.longclick</a>每行格式如下（同<a href="../cmd">default.cmds</a>）<br>
+<p>配置文件<a href="file:///data/data/info.torapp.uweb/files/default.longclick">default.longclick</a>每行格式如下（同<a href="../cmds/index.html#">default.cmds</a>）<br>
 菜单名:mimetype:命令路径<br>
-命令可以包含<a href="../cmd">%c</a>（当前网址cookie）等，执行时会被相应内容自动替换。</p>
+命令可以包含<a href="../cmds/index.html#">%c</a>（当前网址cookie）等，执行时会被相应内容自动替换。</p>
 <h4 id="长按链接运行js文件">长按链接运行js文件</h4>
 <p>长按链接弹出菜单显示<a href="file:///data/data/info.torapp.uweb/files/longclick/">longclick</a>目录下所有js文件供用户挑选执行。<br>
 js文件格式如下：</p>
 <ul>
-<li>首行可以&quot;//&quot;开头，后面紧跟目标网页url，url中可包含<a href="../cmd/index.html#">&quot;%u&quot;等</a>，打开网页时会用长按的链接替换。</li>
+<li>首行可以&quot;//&quot;开头，后面紧跟目标网页url，url中可包含<a href="../cmds/index.html#">&quot;%u&quot;等</a>，打开网页时会用长按的链接替换。</li>
 <li>首行非&quot;//&quot;开头者，整个脚本作用于当前网页，不再打开新网页。</li>
 <li>第二行开始为javascript代码，代码中可用arguments来获取參数。其中arguments[1]为长按的链接; arguments[2]为长按链接的文字描述; arguments[0]为js文件名。</li>
 </ul>
 
 </div>
-<p>Last Modified: 1 March 2025<br>
-download.link and image.link support<br>
+<p>Last Modified: 9 April 2025<br>
+fix broken links<br>
 <pre></pre>
 </p>
 
