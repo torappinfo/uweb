@@ -60,6 +60,7 @@ You should have received a copy of the GNU General Public License along with thi
   const fs = require('fs');
   const path = require('path');
   const readline = require('readline');
+  const cssInvert = "html,img,video{filter:invert(1) hue-rotate(180deg) !important;}body{background:white !important;}img[src],input[type=image]{opacity:.9;}";
   var iTab = 0;
   var tabs;
   var engines = {};
@@ -70,6 +71,8 @@ You should have received a copy of the GNU General Public License along with thi
   var historyFile = path.join(__dirname,'history.rec');
   var bHistory = false;
   var bQueryHistory = false;
+  const currentHour = new Date().getHours();
+  var bDarkTheme = (currentHour >= 17 || currentHour < 8);
   let sitecssP = path.join(__dirname,"sitecss");
   let sitejsP = path.join(__dirname,"sitejs");
   let gjsA = [];
@@ -156,12 +159,13 @@ You should have received a copy of the GNU General Public License along with thi
   async function loadCSSFile(tab,jsF){
       try {
         let js = await fs.promises.readFile(jsF,'utf8');
-        tab.insertCSS(css);
+        tab.insertCSS(js);
       }catch(e){}
   }
   function cbStartLoading(e){
-    if(!bDomainCSS) return;
     let tab = e.target;
+    if(bDarkTheme) tab.insertCSS(cssInvert);
+    if(!bDomainCSS) return;
     let domain;
     try{
       domain = new URL(tab.getURL()).hostname;
@@ -214,7 +218,7 @@ You should have received a copy of the GNU General Public License along with thi
   function initTab(tab){
     tab.allowpopups = true;
     tab.addEventListener('did-finish-load',cbFinishLoad);
-    tab.addEventListener('did-start-loading',cbStartLoading);
+    tab.addEventListener('dom-ready',cbStartLoading);
     tab.addEventListener('will-navigate',cbNavigate);
   }
   function newTab(){
@@ -532,7 +536,7 @@ You should have received a copy of the GNU General Public License along with thi
           break;
         }
         if(q.indexOf('.')>0){
-          url = 'https://'+q;
+          url = 'http://'+q;
           break NOREC;
         }
         url = defaultSE.replace('%s',q);
@@ -835,7 +839,7 @@ function autocomplete(inp,container,arr) {
   <div class="autocomplete-items"></div>
   </form>
   <div class="webviews">
-  <webview class="curWV" allowpopups></webview>
+  <webview class="curWV" src="about:blank" allowpopups></webview>
   </div>
   <script>
     tabs = document.body.children[1];

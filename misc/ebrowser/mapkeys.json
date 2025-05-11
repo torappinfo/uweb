@@ -6,5 +6,6 @@
   "np":":np",
   "uh":":bjs bHistory=bQueryHistory=true //record/Use history",
   "nh":":bjs bHistory=bQueryHistory=false //No history",
-  "md":":bjs tabJS(BML_md) //markdown preview"
+  "md":":bjs tabJS(BML_md) //markdown preview",
+  "td":":bjs bDarkTheme = !bDarkTheme;if(bDarkTheme) tabs.children[iTab].insertCSS(cssInvert);else tabs.children[iTab].reload()"
 }

@@ -1,7 +1,6 @@
 <style>a+br{display:none;}</style>
 #### Mirrors (for version 1040+)
 [gitee](https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#)
-[gitcode](https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html#)
 [gitea](https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html#)
 [notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
 [launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
@@ -23,7 +22,6 @@
 #### Mirrors (for all versions)
 <p>
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">1</a>
-<a href="i:0m?:https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html">4</a>
 <a href="i:0m?:https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html">5</a>
 <a href="i:0mi:5h?format=raw::https://sourceforge.net/p/uwebbrowser/code/ci/master/tree/redirect.html">6</a>
 <a href="i:0mi:5h?format=raw::https://rocketgit.com/user/torappinfo/uweb/source/tree/branch/master/blob_download/redirect.html">7</a>
@@ -52,7 +50,6 @@
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io)
 [codeberg](https://codeberg.org/jamesfengcao/pages/src/branch/master/README.md)
 [gitee](https://gitee.com/jamesfengcao/uweb)
-[gitcode](https://gitcode.com/uweb/uweb)
 [atomgit](https://atomgit.com/jamesfengcao/uweb)
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb)
 [gitgud](https://gitgud.io/jamesfengcao/uweb)

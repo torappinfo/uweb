@@ -44,8 +44,6 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00lenso:https://lenso.ai/en/search-by-text?type=relatedText&desc=">lenso:https://lenso.ai/en/search-by-text?type=relatedText&desc=</a>
 
-<a href="i:00thinkany:https://thinkany.so/search?q=">thinkany:https://thinkany.so/search?q=</a>
-
 <a href="i:00phind:https://phind-ai.com/search?q=">phind:https://phind-ai.com/search?q=</a>
 
 <a href="i:00xanswer:https://www.xanswer.com/search?q=">xanswer:https://www.xanswer.com/search?q=</a>

@@ -9,6 +9,7 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - global CSS/JS for all sites at will.
 - CSS/JS for domains, similar to [uweb](https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html), but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.
 - customizable.
+- dark theme support.
 
 Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.
 
@@ -18,15 +19,15 @@ You can find prebuilt binaries [here](https://github.com/torappinfo/ebrowser/rel
 
 ##### Install ebrowser and electron separatedly
 ###### Install ebrowser
-Either download and unzip ebrowser package directly from any of npm mirror sites like [npmmirror](https://npmmirror.com/package/ebrowser) or with nodejs by
+Either download (Click the green "Code" button above the file list => Select "Download ZIP") and unzip from
+
+    https://github.com/torappinfo/ebrowser
+
+OR download and unzip ebrowser package directly from any of npm mirror sites like [npmmirror](https://npmmirror.com/package/ebrowser) or with nodejs by
 
     npm install ebrowser
 
-OR
-
-    git clone https://github.com/torappinfo/ebrowser
-
-OR "git clone"/download files directly from any of [mirror repositories](https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md) and ebrowser is under the folder "misc/ebrowser".
+OR download/"git clone" files directly from any of [mirror repositories](https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md) and ebrowser is under the folder "misc/ebrowser".
 
 ###### Install electron
 Before you can run ebrowser, you need to install electron either with nodejs by
