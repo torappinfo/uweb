@@ -1,4 +1,4 @@
-{"version":"1.0.69",
+{"version":"1.0.71",
   "name": "ebrowser",
   "description": "The keyboard-friendly minimal suckless web browser",
   "main": "webview.js",
@@ -9,6 +9,7 @@
     "README.md",
     "translate.*",
     "js/*.js",
+    "search.json",
     "mapkeys.json"
   ],
   "scripts": {

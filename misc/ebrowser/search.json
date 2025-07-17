@@ -5,7 +5,7 @@
   "bdic":"http://cn.bing.com/dict/search?q=%s",
 "ki":"https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=%s",
   "hk":"i:0/js/uweb2ta.js:https://heck.ai/#10uweb=%s%0D",
-  "xb":"i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006?10uweb=%s%0D",
+  "xb":"i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006?20uweb=%s%0D",
   "qw":"i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s",
   "sl":"i:0/js/uwebset.js:https://www.solab.ai#uweb=%s",
   "ms":"https://metaso.cn?q=%s",
@@ -19,7 +19,7 @@
   "exa":"https://exa.ai/search?c=all&q=%s",
   "andi":"https://andisearch.com/?q=%s",
   "ph":"https://phind-ai.com/search?q=%s",
-  "gf":"https://greasyfork.org/en/scripts?filter_locale=0&sort=updated&q=%s",
+  "gf":"https://gf.qytechs.cn/en/scripts?filter_locale=0&sort=updated&q=%s",
   "repo":"https://www.awesome-repositories.com/s/results-with-ai/%s",
   "you":"https://you.com/search?tbm=youchat&q=%s",
   "p":"https://www.perplexity.ai/?q=%s",
@@ -43,5 +43,5 @@
   "wa":"https://www.wolframalpha.com/input?i=%s",
   "zdm":"http://search.smzdm.com/?c=youhui&s=%s",
   "android":"http://cn.bing.com/search?q=site:developer.android.google.cn/reference+%s",
-  "bd":"https://baidu.com/s?wd=%s"
+  "bd":"https://www.baidu.com/s?wd=%s"
 }

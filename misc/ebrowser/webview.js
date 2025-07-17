@@ -32,6 +32,7 @@ const fs = require('fs');
 const path = require('path')
 const https = require('https');
 const url = require('url');
+var downloadMillis = 0;
 var translateRes;
 {
   let langs = app.getPreferredSystemLanguages();
@@ -53,7 +54,7 @@ var bForwardCookie = true;
 var proxies = {};
 var proxy;
 var useragents = {};
-var downloadMenus; //[]
+var downloadMenus = [];
 var selectMenus = [];
 var defaultUA;
 {
@@ -95,7 +96,7 @@ async function createWindow () {
   })();
 
   win = new BrowserWindow(
-    {maximized: true,show: false, autoHideMenuBar: true,
+    {show: false, autoHideMenuBar: true,
      webPreferences: {
        nodeIntegration: true,
        contextIsolation: false,
@@ -103,6 +104,7 @@ async function createWindow () {
      }});
   win.setMenuBarVisibility(false);
   win.once('ready-to-show', () => {
+    win.maximize();
     win.show();
   });
   win.on('closed', function () {
@@ -150,11 +152,20 @@ async function createWindow () {
 
   session.defaultSession.on("will-download", async (e, item) => {
     //item.setSavePath(save)
-    if(!downloadMenus) return;
-    let menuT = downloadContextMenuTemp(item.getURL());
-    let button = await promiseContextMenu(menuT);
-    if(-1===button) return;
+    let curMillis = Date.now();
+    if(curMillis-downloadMillis<9000){
+      item.on('updated', (event, state) => {
+        const progress = item.getReceivedBytes() / item.getTotalBytes();
+        win.setProgressBar(progress);
+      });
+      item.on('done', () => win.setProgressBar(-1));
+      return;
+    }
     e.preventDefault();
+    let url = item.getURL();
+    let menuT = downloadContextMenuTemp(url);
+    const menu = Menu.buildFromTemplate(menuT);
+    menu.popup();
   });
 
   win.webContents.on('console-message',cbConsoleMsg);
@@ -446,6 +457,7 @@ function menuArray(labelprefix, linkUrl){
     {
       label: labelprefix+translate('Download'),
       click: () => {
+        downloadMillis = Date.now();
         win.webContents.downloadURL(linkUrl);
       }
     },
@@ -788,7 +800,12 @@ function help(){
 function downloadContextMenuTemp(url){
   let mTemplate =
       [{label:url,enabled:false},
-       {label: translate('Download')},
+       {label: translate('Download'),
+        click: () => {
+          downloadMillis = Date.now();
+          win.webContents.downloadURL(url);
+        }
+       },
        {
          label: translate('Copy'),
          click: () => {
@@ -815,15 +832,6 @@ function translate(str){
   let result;
   if(translateRes && (result=translateRes[str])) return result;
   return str;
-}
-
-function promiseContextMenu(menuTemplate) {
-  return new Promise((resolve, reject) => {
-    menuTemplate[1].click = () => resolve(-1);
-    const menu = Menu.buildFromTemplate(menuTemplate);
-    menu.on('menu-will-close', () => resolve(-2));
-    menu.popup();
-  });
 }
 
 function httpReq(url, method, filePath){

@@ -69,7 +69,7 @@ Type ":update" in the address bar and press "enter" key to update.
 - F12: devtools
 
 #### Address bar commands
-Like any popular browser, the very first word in address bar if defined in "search.json" identifies a search engine. Moreover, the address bar serves as command line interface:
+Like any popular browser, the very first word in address bar if defined in "search.json" identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:
 - "/" for find-in-page
 - ":" for address bar commands
   - ac [bookmark/history path w/o ext] : load ".rec" file for autocomplete.

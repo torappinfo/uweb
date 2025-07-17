@@ -244,7 +244,9 @@ You should have received a copy of the GNU General Public License along with thi
     let nTabs = tabs.children.length;
     if(nTabs<2) return "";//no remain tab
     let tab = tabs.children[iTab];
-    closedUrls.push(tab.getURL());
+    try {
+      closedUrls.push(tab.getURL());
+    } catch(e){} 
     if(document.activeElement == tab) tab.blur();
     tabs.removeChild(tab);
     nTabs--;

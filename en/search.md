@@ -14,6 +14,10 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
 
+<a href="i:00search.sh:https://search.sh/?q=">search.sh:https://search.sh/?q=</a>
+
+<a href="i:00z:https://chat.z.ai/?q=">z:https://chat.z.ai/?q=</a>
+
 <a href="i:00deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s</a>
 
 <a href="i:00aoyo:https://aoyo.ai/search/?q=">aoyo:https://aoyo.ai/search/?q=</a>
