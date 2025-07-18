@@ -10,7 +10,7 @@ log: |
 
 
 <a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可自动发送, ebrowser添加"%0D")  
-<a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s</a>
+<a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s%250D">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s%250D</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
@@ -46,7 +46,7 @@ log: |
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
-<a href="i:00360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s">360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn#10uweb=%s</a>
+<a href="i:00360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn/chathome#10uweb=%s">360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn/chathome#10uweb=%s</a>
 
 <a href="i:00智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s">智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s</a>
 
@@ -59,8 +59,6 @@ log: |
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
-
-<a href="i:00天工:https://www.tiangong.cn/result?q=">天工:https://www.tiangong.cn/result?q=</a>
 
 <a href="i:00kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=">kimi:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=</a>
 
@@ -76,7 +74,7 @@ log: |
 
 <a href="i:00hotbot:https://www.hotbot.com/web?q=">hotbot:https://www.hotbot.com/web?q=</a>
 
-<a href="i:00天工pc:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E">天工pc:i:0/js/uweb2edit.js:https://tiangong.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
+<a href="i:00天工:i:0/js/uweb2ta.js:https://tiangong.cn#uweb=%s">天工:i:0/js/uweb2ta.js:https://tiangong.cn#uweb=%s</a>
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
