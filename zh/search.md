@@ -102,7 +102,7 @@ log: |
 
 
 AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
-<a href="i:00当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s</a>
+<a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
 
