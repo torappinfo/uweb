@@ -100,6 +100,10 @@ log: |
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
+<a href="i:00openai/4o-mini:https://local/ht/puter.html?=">openai/4o-mini:https://local/ht/puter.html?=</a>
+
+<a href="i:00claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=">claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=</a>
+
 
 AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
