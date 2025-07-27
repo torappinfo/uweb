@@ -100,9 +100,17 @@ log: |
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
-<a href="i:00openai/4o-mini:https://local/ht/puter.html?=">openai/4o-mini:https://local/ht/puter.html?=</a>
+<a href="i:00gpt4o-mini:https://local/ht/puter.html?=">gpt4o-mini:https://local/ht/puter.html?=</a>
+
+<a href="i:00o4-mini:https://local/ht/puter.html?o4-mini=">o4-mini:https://local/ht/puter.html?o4-mini=</a>
 
 <a href="i:00claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=">claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=</a>
+
+<a href="i:00gemini2.5propreview:https://local/ht/puter.html?google/gemini-2.5-pro-preview=">gemini2.5propreview:https://local/ht/puter.html?google/gemini-2.5-pro-preview=</a>
+
+<a href="i:00gemini2.5flashpreview:https://local/ht/puter.html?google/gemini-2.5-flash-preview=">gemini2.5flashpreview:https://local/ht/puter.html?google/gemini-2.5-flash-preview=</a>
+
+<a href="i:00grok4:https://local/ht/puter.html?x-ai/grok-4=">grok4:https://local/ht/puter.html?x-ai/grok-4=</a>
 
 
 AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
