@@ -102,6 +102,8 @@ log: |
 
 <a href="i:00gpt4o-mini:https://local/ht/puter.html?=">gpt4o-mini:https://local/ht/puter.html?=</a>
 
+<a href="i:00DALL·E3:https://local/ht/txt2img.html?">DALL·E3:https://local/ht/txt2img.html?</a>
+
 <a href="i:00o4-mini:https://local/ht/puter.html?o4-mini=">o4-mini:https://local/ht/puter.html?o4-mini=</a>
 
 <a href="i:00claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=">claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=</a>
