@@ -54,6 +54,7 @@ log: |
 注：
 - 纳米等默认不使用deepseek, 但如果没有输入内容空搜一次，此时在网页界面上打开deepseek开关，那么以后每次搜索都会默认使用deepseek。
 - 问小白需发送一次聊天后搜索引擎才能正常使用。
+  PC模式 + 勾选选项"宽屏显示" + 全局脚本"强制缩放"下可打开联网搜索。以后就无需使用PC模式。
 
 <a id="aiSE">AI引擎</a>：  
 <a href="i:00秘塔:https://metaso.cn/?q=">秘塔:https://metaso.cn/?q=</a>
@@ -73,8 +74,6 @@ log: |
 <a href="i:00miku:https://www.hellomiku.com/search?q=">miku:https://www.hellomiku.com/search?q=</a>
 
 <a href="i:00hotbot:https://www.hotbot.com/web?q=">hotbot:https://www.hotbot.com/web?q=</a>
-
-<a href="i:00天工:i:0/js/uweb2ta.js:https://tiangong.cn#uweb=%s">天工:i:0/js/uweb2ta.js:https://tiangong.cn#uweb=%s</a>
 
 <a href="i:00智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s">智谱清言:i:0/js/uweb2ta.js:https://chatglm.cn/main/alltoolsdetail#uweb=%s</a>
 
@@ -97,6 +96,8 @@ log: |
 <a href="i:00思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s">思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s</a>
 
 <a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
+
+<a href="i:00天工:i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s">天工:i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s</a>
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
