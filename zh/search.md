@@ -515,6 +515,8 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:003d函数作图:d:image/svg+xml:gnuplot -e \'set term svg;set output; splot %s\':">3d函数作图:d:image/svg+xml:gnuplot -e \'set term svg;set output; splot %s\':</a>
 
+<a href="i:00z:c:z %s">z:c:z %s</a>
+
 
 
 
