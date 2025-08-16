@@ -95,11 +95,11 @@ log: |
 
 <a href="i:00思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s">思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s</a>
 
-<a href="i:00代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E">代悟:i:0/js/uweb2edit.js:https://beta.daiwu.cn#uweb=%3Cp%3E%s%3C/p%3E</a>
-
 <a href="i:00天工:i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s">天工:i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s</a>
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
+
+<a href="i:00gpt5:https://local/ht/puter.html?gpt-5=">gpt5:https://local/ht/puter.html?gpt-5=</a>
 
 <a href="i:00gpt4o-mini:https://local/ht/puter.html?=">gpt4o-mini:https://local/ht/puter.html?=</a>
 
@@ -107,7 +107,9 @@ log: |
 
 <a href="i:00o4-mini:https://local/ht/puter.html?o4-mini=">o4-mini:https://local/ht/puter.html?o4-mini=</a>
 
-<a href="i:00claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=">claude-3-7-sonnet:https://local/ht/puter.html?claude-3-7-sonnet=</a>
+<a href="i:00claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4=">claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4=</a>
+
+<a href="i:00claude-opus4:https://local/ht/puter.html?claude-opus-4=">claude-opus4:https://local/ht/puter.html?claude-opus-4=</a>
 
 <a href="i:00gemini2.5propreview:https://local/ht/puter.html?google/gemini-2.5-pro-preview=">gemini2.5propreview:https://local/ht/puter.html?google/gemini-2.5-pro-preview=</a>
 
