@@ -10,8 +10,11 @@ const {
   session, protocol, dialog, ipcMain
 } = require('electron')
 let win;
+const fs = require('fs');
+const process = require('process')
+const noStdin = fs.fstatSync(0).isCharacterDevice();
 
-if(!app.requestSingleInstanceLock())
+if(noStdin && !app.requestSingleInstanceLock())
   app.quit()
 else {
   app.on('ready', createWindow);
@@ -28,7 +31,6 @@ else {
   })
 }
 Menu.setApplicationMenu(null);
-const fs = require('fs');
 const path = require('path')
 const https = require('https');
 const url = require('url');
@@ -44,7 +46,6 @@ var translateRes;
 
 var repositoryurl = "https://gitlab.com/jamesfengcao/uweb/-/raw/master/misc/ebrowser/";
 const readline = require('readline');
-const process = require('process')
 var gredirects = [];
 var gredirect;
 var redirects;
@@ -626,7 +627,8 @@ function cmdlineProcess(argv,cwd,extra){
     let url=argv.slice(i1st).join(" ");
     win.webContents.executeJavaScript("{let v=`"+url+"`;document.forms[0].q.value=v;handleQuery(v)}",false);
     win.setTitle(url);
-  }
+  }else if(!noStdin)
+    handle_stdin(5000);
 }
 
 async function cbScheme_redir(req){
@@ -872,3 +874,33 @@ function bangcommand(q,offset){
   }
 }
 
+function handle_stdin(timeoutMs){
+  let timeoutId;
+  let isComplete = false;
+  let url = '';
+  const handler = ()=>{
+    if(url.length<6 || (58!==url.charCodeAt(4) && 58!==url.charCodeAt(5)))
+      url = 'data:text/html;charset=utf-8,'+url;
+    win.webContents.executeJavaScript("{let v=`"+url+"`;handleQuery(v)}",false);
+  };
+  timeoutId = setTimeout(() => {
+    if (!isComplete) {
+      isComplete = true;
+      handler();
+    }
+  }, timeoutMs);
+  
+  process.stdin.setEncoding('utf8');
+  process.stdin.on('data', (chunk) => {
+    url += chunk;
+  });
+  process.stdin.on('end', () => {
+    if (!isComplete) {
+      isComplete = true;
+      clearTimeout(timeoutId);
+      handler();
+    }
+  });
+  // Important: Resume stdin to start reading
+  process.stdin.resume();
+}
