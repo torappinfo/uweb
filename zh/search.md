@@ -211,6 +211,10 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 <a href="i:00大同:https://datong.info/ui/search.html?q=">大同:https://datong.info/ui/search.html?q=</a>
 
+<a href="i:00frogfind:http://frogfind.com/?q=">frogfind:http://frogfind.com/?q=</a>
+
+<a href="i:00presearch:https://presearch.com/search?q=">presearch:https://presearch.com/search?q=</a>
+
 <a href="i:00sese:https://sese.yyj.moe/search?q=">sese:https://sese.yyj.moe/search?q=</a>
 
 <a href="i:00神马:http://m.sm.cn/s?q=">神马:http://m.sm.cn/s?q=</a>
