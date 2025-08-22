@@ -1,6 +1,7 @@
 {
   "b":"https://www4.bing.com/search?q=%s",
   "n":"https://n.cn/search/?q=%s",
+  "ff":"http://frogfind.com/?q=%s",
   "bda":"https://chat.baidu.com/search?word=%s",
   "bdic":"http://cn.bing.com/dict/search?q=%s",
 "ki":"https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=%s",
