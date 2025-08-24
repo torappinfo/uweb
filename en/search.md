@@ -10,6 +10,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 
 <a id="aiSE">AI</a> (Appending "%250D" after "%s" as ENTER for uweb and "%0D" for ebrowser):  
+<a href="i:00gemini:https://gemini.google.com/app?q=">gemini:https://gemini.google.com/app?q=</a>
+
 <a href="i:00copilot:https://copilot.microsoft.com/?q=">copilot:https://copilot.microsoft.com/?q=</a>
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
@@ -19,6 +21,10 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00z:https://chat.z.ai/?q=">z:https://chat.z.ai/?q=</a>
 
 <a href="i:00deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s</a>
+
+<a href="i:00grok:https://grok.com/search?q=">grok:https://grok.com/search?q=</a>
+
+<a href="i:00meta:https://www.meta.ai/search?q=">meta:https://www.meta.ai/search?q=</a>
 
 <a href="i:00aoyo:https://aoyo.ai/search/?q=">aoyo:https://aoyo.ai/search/?q=</a>
 
@@ -48,7 +54,7 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00lenso:https://lenso.ai/en/search-by-text?type=relatedText&desc=">lenso:https://lenso.ai/en/search-by-text?type=relatedText&desc=</a>
 
-<a href="i:00phind:https://phind-ai.com/search?q=">phind:https://phind-ai.com/search?q=</a>
+<a href="i:00phind:https://www.phind.com/search?q=">phind:https://www.phind.com/search?q=</a>
 
 <a href="i:00xanswer:https://www.xanswer.com/search?q=">xanswer:https://www.xanswer.com/search?q=</a>
 
@@ -90,7 +96,7 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00lambda:i:0/js/uweb2ta.js:https://lambda.chat/chatui/#uweb=%s">lambda:i:0/js/uweb2ta.js:https://lambda.chat/chatui/#uweb=%s</a>
 
-<a href="i:00blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai#10uweb=%s">blackbox:i:0/js/uweb2ta.js:https://www.blackbox.ai#10uweb=%s</a>
+<a href="i:00blackbox:https://www.blackbox.ai/?q=">blackbox:https://www.blackbox.ai/?q=</a>
 
 <a href="i:00EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s">EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s</a>
 
@@ -100,13 +106,13 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E">devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E</a>
 
-<a href="i:00duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s">duck.ai:i:0/js/uweb2ta.js:https://duckduckgo.com?ia=chat&q=h#uweb=%s</a>
+<a href="i:00duck.ai:https://duckduckgo.com?ia=chat&q=">duck.ai:https://duckduckgo.com?ia=chat&q=</a>
 
 <a href="i:00lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s">lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s</a>
 
 <a href="i:00stepfun:i:0/js/uwebset.js:https://www.stepfun.com/chats/new#uweb=%s">stepfun:i:0/js/uwebset.js:https://www.stepfun.com/chats/new#uweb=%s</a>
 
-<a href="i:00poe:i:0/js/uweb2ta.js:https://poe.com/DeepSeek-R1#uweb=%s">poe:i:0/js/uweb2ta.js:https://poe.com/DeepSeek-R1#uweb=%s</a>
+<a href="i:00poe:https://poe.com/DeepSeek-R1?q=">poe:https://poe.com/DeepSeek-R1?q=</a>
 
 
 AI (uweb browser only and the search tab must not be in background. Appending "%250D" after "%s" as ENTER key if needed.)  
@@ -214,7 +220,7 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 <a href="i:00gemini:https://portal.mozz.us/gemini/geminispace.info/search%3F">gemini:https://portal.mozz.us/gemini/geminispace.info/search%3F</a>
 
-<a href="i:00waldo:https://www.waldo.fyi/data?q=">waldo:https://www.waldo.fyi/data?q=</a>
+<a href="i:00waldo:https://waldo.com/search?q=">waldo:https://waldo.com/search?q=</a>
 
 <a href="i:00xda:https://www.xda-developers.com/search/">xda:https://www.xda-developers.com/search/</a>
 

@@ -67,6 +67,8 @@ log: |
 
 <a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
 
+<a href="i:00tigerbot:https://tigerbot.com/chat/?q=">tigerbot:https://tigerbot.com/chat/?q=</a>
+
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
 <a href="i:00云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=">云言:https://ai.yunyan.chat/searchDetails?model=gpt-4o-mini&mode=simple&keyword=</a>
@@ -79,7 +81,7 @@ log: |
 
 <a href="i:00豆包:i:0/js/uwebset.js:https://www.doubao.com/chat/#10uweb=%s">豆包:i:0/js/uwebset.js:https://www.doubao.com/chat/#10uweb=%s</a>
 
-<a href="i:00千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s">千问:i:0/js/uweb2ta.js:https://chat.qwenlm.ai#uweb=%s</a>
+<a href="i:00千问:i:0/js/uweb2ta.js:https://chat.qwen.ai#uweb=%s">千问:i:0/js/uweb2ta.js:https://chat.qwen.ai#uweb=%s</a>
 
 <a href="i:00百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s">百川:i:0/js/uweb2ta.js:https://www.baichuan-ai.com/chat#uweb=%s</a>
 
@@ -435,19 +437,15 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 
 
 <a id="cloudSE">网盘搜索</a>:  
-<a href="i:00xuebapan:https://www.xuebapan.com/s/%s-1.html">xuebapan:https://www.xuebapan.com/s/%s-1.html</a>
-
-<a href="i:00pansou:https://pansou.cc/s/%s-1.html">pansou:https://pansou.cc/s/%s-1.html</a>
-
 <a href="i:00yiso:https://yiso.fun/info?searchKey=">yiso:https://yiso.fun/info?searchKey=</a>
 
-<a href="i:00upyunso:https://www.upyunso.com/search.html?keyword=">upyunso:https://www.upyunso.com/search.html?keyword=</a>
-
-<a href="i:00repanso:http://www.repanso.com/q?type=0&wd=">repanso:http://www.repanso.com/q?type=0&wd=</a>
+<a href="i:00兄弟盘:https://xiongdipan.com/search?k=">兄弟盘:https://xiongdipan.com/search?k=</a>
 
 <a href="i:00iizhi:https://www.iizhi.cn/resource/search/">iizhi:https://www.iizhi.cn/resource/search/</a>
 
-<a href="i:00来搜一下:https://www.laisoyixia.com/s/search?q=">来搜一下:https://www.laisoyixia.com/s/search?q=</a>
+<a href="i:00xuebapan:https://www.xuebapan.com/s/%s-1.html">xuebapan:https://www.xuebapan.com/s/%s-1.html</a>
+
+<a href="i:00pansou:https://pansou.cc/s/%s-1.html">pansou:https://pansou.cc/s/%s-1.html</a>
 
 
 <a id="scholarSE">学术搜索</a>:  
@@ -531,6 +529,7 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 [searx](https://searx.space)  
 [google学术镜像](https://ac.scmor.com)  
 [词典](https://github.com/Dictionaryphile/All_Dictionaries)  
+[更多](https://getquicker.net/KC/Kb/Article/286)
 
 #### <a id="convert">网址变引擎</a>
 以当贝AI为例，其搜索引擎url为"i:0/js/uweb2edit2.js#1:https://ai.dangbei.com/chat#10uweb=%s"。代码"uweb2edit2.js"负责将"%s"填入到编辑框。代码后面所带参数"#1"点击第二个按钮，从而默认打开互联网搜索。用户可提供自有脚本，比如"i:0/sdcard/Download/my.js"，此时脚本"my.js"位于系统下载目录。如果脚本最后字符为")"并非编辑器自动添加的换行键，则脚本允许带参数使用。"#"也可用来连接多个脚本，比如"i:0/js/uweb2edit2.js#1#/sdcard/my.js#1"。
