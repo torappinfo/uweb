@@ -132,10 +132,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s">讯飞:i:0/js/uweb2ta2.js:https://xinghuo.xfyun.cn/desk#uweb=%s</a>
 
 
-镜像：  
-<a href="i:00google:i:0mhttps://loud-moth-21.deno.dev/:https://google.com/search?q=%s">google:i:0mhttps://loud-moth-21.deno.dev/:https://google.com/search?q=%s</a>
-
-
 <a id="mainSE">推荐引擎</a>：  
 <a href="i:00顺序:i:40%s_00">顺序:i:40%s_00</a>
 
@@ -366,8 +362,6 @@ AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"�
 <a href="i:00萌典:https://www.moedict.tw/">萌典:https://www.moedict.tw/</a>
 
 <a href="i:00異體字:http://jf.xmu.edu.cn/variants/cc.html?q=">異體字:http://jf.xmu.edu.cn/variants/cc.html?q=</a>
-
-<a href="i:00诗词:http://www.guoxuedashi.net/shici/so.php?kt=44&sokeysc=">诗词:http://www.guoxuedashi.net/shici/so.php?kt=44&sokeysc=</a>
 
 
 <a id="textbookSE">科技教材</a>：  
