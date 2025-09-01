@@ -1,0 +1,6 @@
+version: 1
+
+site:
+  name: uweb browser
+  root: "."
+
