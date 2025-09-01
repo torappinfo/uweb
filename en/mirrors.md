@@ -5,7 +5,6 @@
 [notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
 [launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
 [framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
-[froggi](https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
 [gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [pagure](https://pagure.io/uweb/raw/master/f/redirect.html#)
@@ -28,7 +27,6 @@
 <a href="i:0m?:https://notabug.org/torappinfo/uweb/raw/master/redirect.html">8</a>
 <a href="i:0mi:5h:https://git.launchpad.net/uweb/plain/redirect.html">9</a>
 <a href="i:0m?:https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html">10</a>
-<a href="i:0m?:https://git.froggi.es/jamesfengcao/uweb/raw/branch/master/redirect.html">12</a>
 <a href="i:0m?:https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html">13</a>
 <a href="i:0m?:https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html">14</a>
 <a href="i:0mi:5h/xxxx/?path=::https://dev.azure.com/jamesfengcao/1d8bf6c7-7c24-4441-bc5e-9709dcaf37fc/_apis/git/repositories/2a588d9b-f25a-46c0-bb3b-f685c635fcf8/itemsxxxx/redirect.html">15</a>
@@ -57,7 +55,6 @@
 [gitea](https://gitea.com/torappinfo/uweb/src/branch/master/README.md)
 [notabug](https://notabug.org/torappinfo/uweb/src/master/README.md)
 [framagit](https://framagit.org/torappinfo/uweb)
-[froggi](https://git.froggi.es/jamesfengcao/uweb/src/branch/master/README.md)
 [gitdab](https://gitdab.com/jamesfengcao/uweb/src/branch/master/README.md)
 [pagure](https://pagure.io/uweb/blob/master/f/README.md)
 [dagshub](https://dagshub.com/torappinfo/uweb/src/master/README.md)
