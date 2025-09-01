@@ -1,8 +1,8 @@
 version: 1
 
-site:
-  name: uweb browser
-  root: "."
-
 build:
-  skip: true
+  enabled: false
+
+deploy:
+  provider: statichost
+  target: uweb
