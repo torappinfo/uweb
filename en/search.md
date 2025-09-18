@@ -12,6 +12,8 @@ Clicking the following search engine configuration links (or append the link tex
 <a id="aiSE">AI</a> (Appending "%250D" after "%s" as ENTER for uweb and "%0D" for ebrowser):  
 <a href="i:00gemini:https://gemini.google.com/app?q=">gemini:https://gemini.google.com/app?q=</a>
 
+<a href="i:00gAI:https://google.com/search?udm=50&q=">gAI:https://google.com/search?udm=50&q=</a>
+
 <a href="i:00copilot:https://copilot.microsoft.com/?q=">copilot:https://copilot.microsoft.com/?q=</a>
 
 <a href="i:00felo:https://felo.ai/search?q=">felo:https://felo.ai/search?q=</a>
@@ -33,6 +35,10 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00monica:https://monica.so/answers?q=">monica:https://monica.so/answers?q=</a>
 
 <a href="i:00giz:https://app.giz.ai/assistant?mode=chat&prompt=">giz:https://app.giz.ai/assistant?mode=chat&prompt=</a>
+
+<a href="i:00lmarena:i:0/js/uwebset.js:https://lmarena.ai/#uweb=%s">lmarena:i:0/js/uwebset.js:https://lmarena.ai/#uweb=%s</a>
+
+<a href="i:00miromind:i:0/js/uwebset.js:https://dr.miromind.ai/#uweb=%s">miromind:i:0/js/uwebset.js:https://dr.miromind.ai/#uweb=%s</a>
 
 <a href="i:00txyz:i:0/js/uwebset.js:https://app.txyz.ai#uweb=%s">txyz:i:0/js/uwebset.js:https://app.txyz.ai#uweb=%s</a>
 
