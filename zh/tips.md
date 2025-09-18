@@ -19,9 +19,9 @@ Examples:
 
 [创建免费重定向，说明类似但代码不同](https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/创建魔法链接/使用免费的的云服务提供商创建魔法链接.md)
 
-[cloudflare workers 全局重定向代码](../../en/searchurl/cloudflare/redirect.js)
-[val.town 全局重定向代码](../../en/searchurl/val.town/redirect.js)
-[vercel 全局重定向](https://github.com/torappinfo/vercel)
+[cloudflare workers 全局重定向代码](../../en/searchurl/cloudflare/redirect.js)  
+[val.town 全局重定向代码](../../en/searchurl/val.town/redirect.js)  
+[vercel 全局重定向](https://github.com/torappinfo/vercel)  
 
 使用仓库 "https://github.com/torappinfo/redirect.genez" [部署genez.io](https://genez.io)
 
