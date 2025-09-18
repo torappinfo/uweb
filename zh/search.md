@@ -26,6 +26,8 @@ log: |
 
 <a href="i:00腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat#uweb=%3Cp%3E%s%3C/p%3E">腾讯元宝:i:0/js/uweb2edit.js:https://yuanbao.tencent.com/chat#uweb=%3Cp%3E%s%3C/p%3E</a>
 
+<a href="i:00ima:i:0/js/uweb2edit.js:https://ima.qq.com/chat#uweb=%3Cp%3E%s%3C/p%3E">ima:i:0/js/uweb2edit.js:https://ima.qq.com/chat#uweb=%3Cp%3E%s%3C/p%3E</a>
+
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
 <a href="i:00minimax:i:0/js/uwebset.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uwebset.js:https://chat.minimax.io#uweb=%s</a>
@@ -120,7 +122,7 @@ log: |
 <a href="i:00grok4:https://local/ht/puter.html?x-ai/grok-4=">grok4:https://local/ht/puter.html?x-ai/grok-4=</a>
 
 
-AI引擎 (超微浏览器且搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
+AI引擎 (搜索窗口可见时生效，"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s">灵犀:i:0/js/uweb2edit2.js:https://copilot.wps.cn#uweb=%s</a>
