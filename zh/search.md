@@ -10,7 +10,7 @@ log: |
 
 
 <a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可自动发送, ebrowser添加"%0D")  
-<a href="i:00秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s%250D">秘塔ds:i:0/js/uweb2ta.js:https://metaso.cn#uweb=%s%250D</a>
+<a href="i:00秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D">秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D</a>
 
 <a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
 
@@ -32,7 +32,7 @@ log: |
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
-<a href="i:00gitcode:i:0/js/uweb2ta.js:https://gitcode.com/ai/#uweb=%s">gitcode:i:0/js/uweb2ta.js:https://gitcode.com/ai/#uweb=%s</a>
+<a href="i:00gitcode:i:0/js/uwebset.js:https://tianqi.gitcode.com/#uweb=%s%250D">gitcode:i:0/js/uwebset.js:https://tianqi.gitcode.com/#uweb=%s%250D</a>
 
 <a href="i:00火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s">火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s</a>
 
@@ -66,6 +66,8 @@ log: |
 <a href="i:00kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=">kimi2:https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=false&prefill_prompt=</a>
 
 <a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
+
+<a href="i:00百度ai2:i:0/js/uweb2ta.js:https://chat.baidu.com/search?word=%20#10uweb=%s">百度ai2:i:0/js/uweb2ta.js:https://chat.baidu.com/search?word=%20#10uweb=%s</a>
 
 <a href="i:00tigerbot:https://tigerbot.com/chat/?q=">tigerbot:https://tigerbot.com/chat/?q=</a>
 
