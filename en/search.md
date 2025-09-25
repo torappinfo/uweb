@@ -182,6 +182,8 @@ AI (uweb browser only and the search tab must not be in background. Appending "%
 
 <a href="i:00crowdview:https://crowdview.ai/search?q=">crowdview:https://crowdview.ai/search?q=</a>
 
+<a href="i:00forumscout:https://forumscout.app/search?q=">forumscout:https://forumscout.app/search?q=</a>
+
 <a href="i:00groups:http://groups.google.com/groups/search?q=">groups:http://groups.google.com/groups/search?q=</a>
 
 <a href="i:00wolfram:https://www.wolframalpha.com/input/?i=">wolfram:https://www.wolframalpha.com/input/?i=</a>
@@ -207,6 +209,8 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 <a href="i:00bing:http://www.bing.com/search?q=">bing:http://www.bing.com/search?q=</a>
 
 <a href="i:00exa:https://exa.ai/search?c=all&q=">exa:https://exa.ai/search?c=all&q=</a>
+
+<a href="i:00togoda:https://togoda.com/search?query=">togoda:https://togoda.com/search?query=</a>
 
 <a href="i:00marginalia:https://search.marginalia.nu/search?query=">marginalia:https://search.marginalia.nu/search?query=</a>
 

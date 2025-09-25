@@ -7,6 +7,7 @@
   "bda":"i:0/js/uwebset.js:https://chat.baidu.com/search?word=%20&10uweb=%s",
   "yy":"i:0/js/uweb2edit2.js:https://yiyan.baidu.com?uweb=%s",
   "cv":"https://crowdview.ai/search?q=%s",
+  "fs":"https://forumscout.app/search?q=%s",
   "bdic":"http://cn.bing.com/dict/search?q=%s",
 "ki":"https://kimi.moonshot.cn/_prefill_chat?force_search=true&send_immediately=true&prefill_prompt=%s",
   "hk":"i:0/js/uweb2ta.js:https://heck.ai/#10uweb=%s%0D",
