@@ -6,10 +6,10 @@ log: |
 ---
 Clicking the following search engine configuration links (or append the link text to the file "home5.search") installs search engines with [uweb browser](../index.html#). [ebrowser](../ebrowserreadme/index.html#) users can change the engine name to be shorter (ex. 2 alphabets) as shortcut (click the link below and choose 'Cancel' to have a chance to modify the engine name in address bar).
 
-[AI](#aiSE) [Recommended](#mainSE) [Common](#commonSE) [language](#langSE) [Science](#textbookSE) [More](#moreSE) [medical](#medicalSE) [scholar](#scholarSE) [dev](#devSE) [local](#localSE)
+[AI](#aiSE) [Recommended](#mainSE) [Common](#commonSE) [Language](#langSE) [Science](#textbookSE) [More](#moreSE) [Medical](#medicalSE) [Scholar](#scholarSE) [Dev](#devSE) [Local](#localSE)
 
 
-<a id="aiSE">AI</a> (Appending "%250D" after "%s" as ENTER for uweb and "%0D" for ebrowser):  
+<a id="aiSE">AI</a> (Appending "%250D" after "%s" as ENTER for uweb or "%0D" for ebrowser):  
 <a href="i:00gemini:https://gemini.google.com/app?q=">gemini:https://gemini.google.com/app?q=</a>
 
 <a href="i:00gAI:https://google.com/search?udm=50&q=">gAI:https://google.com/search?udm=50&q=</a>
@@ -120,8 +120,10 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00poe:https://poe.com/DeepSeek-R1?q=">poe:https://poe.com/DeepSeek-R1?q=</a>
 
+<a href="i:00t3:https://www.t3.chat/new?q=">t3:https://www.t3.chat/new?q=</a>
 
-AI (uweb browser only and the search tab must not be in background. Appending "%250D" after "%s" as ENTER key if needed.)  
+
+AI (The search tab must not be in background. Appending "%250D" after "%s" as ENTER for uweb or "%0D" for ebrowser.)  
 <a href="i:00hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s">hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s</a>
 
 
@@ -206,6 +208,8 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 <a id="commonSE">Common engines</a>:  
 <a href="i:00google:https://google.com/search?q=">google:https://google.com/search?q=</a>
 
+<a href="i:00udm14:https://google.com/search?udm=14&q=">udm14:https://google.com/search?udm=14&q=</a>
+
 <a href="i:00bing:http://www.bing.com/search?q=">bing:http://www.bing.com/search?q=</a>
 
 <a href="i:00exa:https://exa.ai/search?c=all&q=">exa:https://exa.ai/search?c=all&q=</a>
@@ -263,8 +267,6 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 <a id="langSE">language</a>:  
-<a href="i:00OED:https://www.oed.com/LIBRARY?dest=https%3A%2F%2Fwww.oed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3D%s%26_searchBtn%3DSearch&acc_id=65585&library_card=12363257">OED:https://www.oed.com/LIBRARY?dest=https%3A%2F%2Fwww.oed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3D%s%26_searchBtn%3DSearch&acc_id=65585&library_card=12363257</a>
-
 <a href="i:00webster1913:https://www.websters1913.com/words/">webster1913:https://www.websters1913.com/words/</a>
 
 <a href="i:00merriam-webster:https://www.merriam-webster.com/dictionary/">merriam-webster:https://www.merriam-webster.com/dictionary/</a>

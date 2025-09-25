@@ -36,7 +36,7 @@
   "ga":"https://google.com/search?udm=50&q=%s",
   "git":"https://github.com/search?type=Repositories&q=%s",
   "3":"i:0/js/uwebset.js:https://bot.n.cn/chathome?uweb=%s%0D",
-  "tg":"i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s",
+  "tg":"https://togoda.com/search?query=%s",
   "cg":"i:0/js/s2ta.js:https://chatglm.cn/main/detail?%s",
   "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
   "fl":"https://felo.ai/search?q=%s",
