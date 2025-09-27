@@ -323,6 +323,8 @@ AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"可�
 
 <a href="i:00訓詁:POST:word=%s:http://www.kaom.net/book_xungu8.php">訓詁:POST:word=%s:http://www.kaom.net/book_xungu8.php</a>
 
+<a href="i:00汉语大词典:https://guji.nlc.cn/instrument/dictionaries_detail?bookId=140&keyword=">汉语大词典:https://guji.nlc.cn/instrument/dictionaries_detail?bookId=140&keyword=</a>
+
 <a href="i:00ctext:https://ctext.org/dictionary.pl?char=">ctext:https://ctext.org/dictionary.pl?char=</a>
 
 <a href="i:00漢後:https://ctext.org/post-han?searchu=">漢後:https://ctext.org/post-han?searchu=</a>
