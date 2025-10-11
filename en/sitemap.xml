@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/_posts/</loc>
-    <lastmod>2025-10-11T08:55:53+08:00</lastmod>
+    <lastmod>2025-10-11T16:04:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -15,8 +15,11 @@
                 href="https://jamesfengcao.gitlab.io/uweb/en/_posts/"
                 />
   </url><url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/input/</loc>
+    <lastmod>2025-10-11T16:04:40+08:00</lastmod>
+  </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/tips/</loc>
-    <lastmod>2025-10-11T08:55:53+08:00</lastmod>
+    <lastmod>2025-10-11T14:38:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -29,7 +32,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/</loc>
-    <lastmod>2025-10-11T08:55:53+08:00</lastmod>
+    <lastmod>2025-10-11T16:04:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -92,9 +95,6 @@
                 hreflang="en"
                 href="https://jamesfengcao.gitlab.io/uweb/en/html5/"
                 />
-  </url><url>
-    <loc>https://jamesfengcao.gitlab.io/uweb/en/input/</loc>
-    <lastmod>2025-10-11T07:41:06+08:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/search/</loc>
     <lastmod>2025-09-26T06:56:16+08:00</lastmod>

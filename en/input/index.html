@@ -6,7 +6,7 @@
     <link rel="canonical" href="https://jamesfengcao.gitlab.io/uweb/en/input/" />
     
     <link rel="stylesheet" href="../style.css#" type="text/css" />
-    <title>Common phrases for input method</title>
+    <title>Common phrases as input method</title>
     <script>
       function findLang(){
         let href = location.href;
@@ -37,23 +37,30 @@
     <br />
     
 <div class="container">
-  <h1 class="title">Common phrases for input method
+  <h1 class="title">Common phrases as input method
     <br>
     <span class="subtitle"></span>
   </h1>
   <ul class="tags">
     
   </ul>
-  <p>Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:<br>
+  <h4 id="defaultinput">default.input</h4>
+<p>Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:<br>
 <a href="i:0gdefault.input::@AddrBar%0A">Address Bar</a><br>
 <a href="i:0gdefault.input::@^J@%0A">New line</a><br>
 <a href="i:0gdefault.input::@^Z@%1A%0A">CTRL-Z</a><br>
 <a href="i:0gdefault.input::@^Y@%19%0A">CTRL-Y</a></p>
 <p>Long pressing the share button in <a href="../index.html#">uweb browser</a> will popup menus defined in file &quot;default.input&quot;, each line of which defines common phrase for user inputs. If the phrase begins with &quot;@xxxx@&quot;, then &quot;xxxx&quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.</p>
+<h4 id="address-bar-autocompletion-as-input-method-when-beginning-with-single-space">Address bar autocompletion as input method when beginning with single space</h4>
+<p>&quot;default.autoc&quot; or other .autoc files when choosen are loaded for address bar autocompletion. If the address bar text begins with single space, the selected text is treated as user input for focused element in the visible tab.</p>
+<p>Here are a few links for AI prompts, you could put them in the file &quot;default.autoc&quot; or other .autoc files:</p>
+<ul>
+<li><a href="https://word.studio/prompts/">word.studio</a></li>
+</ul>
 
 </div>
 <p>Last Modified: 11 October 2025<br>
-uweb1136: space-beginning address bar autocompletion as input method<br>
+notes on default.autoc in input.md<br>
 <pre></pre>
 </p>
 

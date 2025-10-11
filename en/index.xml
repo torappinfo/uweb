@@ -6,14 +6,21 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Oct 2025 08:55:53 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 16:04:40 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common phrases as input method</title>
+      <link>https://jamesfengcao.gitlab.io/uweb/en/input/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesfengcao.gitlab.io/uweb/en/input/</guid>
+      <description>&lt;h4 id=&#34;defaultinput&#34;&gt;default.input&lt;/h4&gt;&#xA;&lt;p&gt;Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@AddrBar%0A&#34;&gt;Address Bar&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^J@%0A&#34;&gt;New line&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Z@%1A%0A&#34;&gt;CTRL-Z&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Y@%19%0A&#34;&gt;CTRL-Y&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long pressing the share button in &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt; will popup menus defined in file &amp;quot;default.input&amp;quot;, each line of which defines common phrase for user inputs. If the phrase begins with &amp;quot;@xxxx@&amp;quot;, then &amp;quot;xxxx&amp;quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tips</title>
       <link>https://jamesfengcao.gitlab.io/uweb/en/tips/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/tips/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Address bar autocompletion selection duplicate&lt;/strong&gt;&lt;br&gt;&#xA;When home screen input has the focus and address bar text begins with a single space, then the home screen input duplicates the autocompletion selection. Thus address bar autocompletion can be used as input method for cases like AI prompts.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Text processing for clipboard data&lt;/strong&gt;&lt;br&gt;&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the &lt;a href=&#34;../textprocess/index.html#&#34;&gt;text processing menu&lt;/a&gt; for clipboard data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;To show web pages in desktop mode&lt;/strong&gt;&lt;br&gt;&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Address bar autocompletion as input method when beginning with single space&lt;/strong&gt;&lt;br&gt;&#xA;When address bar text begins with a single space, the autocompletion selection is also inserted to the focused element on the web page. It could be used to choose AI prompts.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Text processing for clipboard data&lt;/strong&gt;&lt;br&gt;&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the &lt;a href=&#34;../textprocess/index.html#&#34;&gt;text processing menu&lt;/a&gt; for clipboard data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;To show web pages in desktop mode&lt;/strong&gt;&lt;br&gt;&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>popup menu for Long pressed link and downloading</title>
@@ -28,13 +35,6 @@
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/html5/</guid>
       <description>&lt;h3 id=&#34;html-as-data-cruncher-and-presenter-using-remote-url-as-data-with-i0m-links&#34;&gt;Html as data cruncher and presenter using remote url as data with &lt;a href=&#34;../links/index.html#&#34;&gt;i:0m links&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The following link can be used to read [remote url] as huge text file, it shows only the first page. Pressing &amp;quot;-&amp;gt;&amp;quot; on the bottom tool bar for next page:&lt;br&gt;&#xA;i:0m/js/view.html:[remote url]#p=1&lt;/p&gt;&#xA;&lt;p&gt;Multiple conversions could be appended to the html file. Ex:&lt;br&gt;&#xA;i:0m/js/view.html#/js/2lnk.js:[remote url]#p=1&lt;br&gt;&#xA;where &amp;quot;/js/2lnk.js&amp;quot; converts urls in the remote text file to clickable links.&lt;/p&gt;&#xA;&lt;p&gt;Any html/js file could be referred with its full path, such as &amp;quot;/sdcard/.../xx.js&amp;quot; as long as uweb has read permission.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Common phrases for input method</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/input/</link>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/input/</guid>
-      <description>&lt;p&gt;Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@AddrBar%0A&#34;&gt;Address Bar&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^J@%0A&#34;&gt;New line&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Z@%1A%0A&#34;&gt;CTRL-Z&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Y@%19%0A&#34;&gt;CTRL-Y&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long pressing the share button in &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt; will popup menus defined in file &amp;quot;default.input&amp;quot;, each line of which defines common phrase for user inputs. If the phrase begins with &amp;quot;@xxxx@&amp;quot;, then &amp;quot;xxxx&amp;quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Search engine query URLs</title>
