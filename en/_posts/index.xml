@@ -6,8 +6,15 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Aug 2025 08:32:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 08:55:53 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips</title>
+      <link>https://jamesfengcao.gitlab.io/uweb/en/tips/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesfengcao.gitlab.io/uweb/en/tips/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Address bar autocompletion selection duplicate&lt;/strong&gt;&lt;br&gt;&#xA;When home screen input has the focus and address bar text begins with a single space, then the home screen input duplicates the autocompletion selection. Thus address bar autocompletion can be used as input method for cases like AI prompts.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Text processing for clipboard data&lt;/strong&gt;&lt;br&gt;&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the &lt;a href=&#34;../textprocess/index.html#&#34;&gt;text processing menu&lt;/a&gt; for clipboard data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;To show web pages in desktop mode&lt;/strong&gt;&lt;br&gt;&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>popup menu for Long pressed link and downloading</title>
       <link>https://jamesfengcao.gitlab.io/uweb/en/longclick/</link>
@@ -27,7 +34,7 @@
       <link>https://jamesfengcao.gitlab.io/uweb/en/input/</link>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/input/</guid>
-      <description>&lt;p&gt;Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^J@%0A&#34;&gt;New line&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Z@%1A%0A&#34;&gt;CTRL-Z&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Y@%19%0A&#34;&gt;CTRL-Y&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long pressing the share button in &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt; will popup menus defined in file &amp;quot;default.input&amp;quot;, each line of which defines common phrase for user inputs. If the phrase begins with &amp;quot;@xxxx@&amp;quot;, then &amp;quot;xxxx&amp;quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Click the following links to install menus popped by long pressing the share button (with arrow-out-of-square as icon) on the bottom toolbar:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@AddrBar%0A&#34;&gt;Address Bar&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^J@%0A&#34;&gt;New line&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Z@%1A%0A&#34;&gt;CTRL-Z&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@^Y@%19%0A&#34;&gt;CTRL-Y&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long pressing the share button in &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt; will popup menus defined in file &amp;quot;default.input&amp;quot;, each line of which defines common phrase for user inputs. If the phrase begins with &amp;quot;@xxxx@&amp;quot;, then &amp;quot;xxxx&amp;quot; part is the alias for the rest part of the string. Alias could be used for non-printable phrases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSS styles</title>
@@ -91,13 +98,6 @@
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/bookmark/</guid>
       <description>&lt;p&gt;AI, chatgpt etc.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aistudio.google.com/app/prompts/new_chat&#34;&gt;google&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gemini.google.com/app&#34;&gt;google gemini&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jeeves.ai/chat&#34;&gt;jeeves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://poe.com&#34;&gt;poe&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.teach-anything.com/&#34;&gt;teach-anything&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://magickpen.com/&#34;&gt;magickpen&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Scholar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lumina.sh&#34;&gt;Lumina&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://note.ms&#34;&gt;note.ms&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://rentry.org&#34;&gt;rentry&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:1w&#34;&gt;Wait for url from other devices&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://berify.com&#34;&gt;berify: reverse image search for video&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;associated-bookmarks&#34;&gt;Associated bookmarks&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../searchcat/index.html#&#34;&gt;Search engine files&lt;/a&gt; associate with bookmarks with extension &amp;quot;.html&amp;quot;, which means the bookmark file if existing is appended to the page when the search engine file is on screen.&lt;/p&gt;&#xA;&lt;p&gt;&amp;quot;help_en.html&amp;quot; bookmark associates with the user manual in English. Similarly, &amp;quot;help_zh.html&amp;quot; is for Chinese manual. Whenever user manual is open, the associated bookmark appears before the manual.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tips</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tips/</link>
-      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tips/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Text processing for clipboard data&lt;/strong&gt;:&lt;br&gt;&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the &lt;a href=&#34;../textprocess/index.html#&#34;&gt;text processing menu&lt;/a&gt; for clipboard data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;To show web pages in desktop mode&lt;/strong&gt;:&lt;br&gt;&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Playing audio when screen off&lt;/strong&gt;&lt;br&gt;&#xA;Option &amp;quot;Floating video&amp;quot; + video fullscreen playing&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Multiple home screens and Next/Prev page&lt;/strong&gt;:&lt;br&gt;&#xA;home5.html, home6.mht(or .search or .html), home7.mht(or .search or .html), ... can be visited via pressing the right arrow button while home4.mht(or .search or .html), home3.mht(or .search or .html) ... with long pressing the left arrow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Address bar command line</title>

@@ -1,6 +1,6 @@
 {
   "b":"https://www4.bing.com/search?q=%s",
-  "n":"https://n.cn/search/?q=%s",
+  "n":"https://www.n.cn/chathome?q=%s",
   "z":"https://chat.z.ai/?q=%s",
   "ff":"http://frogfind.com/?q=%s",
   "ima":"i:0/js/uweb2edit.js:https://ima.qq.com/chat?uweb=%3Cp%3E%s%3C/p%3E",
@@ -35,7 +35,6 @@
   "g":"https://google.com/search?q=%s",
   "ga":"https://google.com/search?udm=50&q=%s",
   "git":"https://github.com/search?type=Repositories&q=%s",
-  "3":"i:0/js/uwebset.js:https://bot.n.cn/chathome?uweb=%s%0D",
   "tg":"https://togoda.com/search?query=%s",
   "cg":"i:0/js/s2ta.js:https://chatglm.cn/main/detail?%s",
   "miku":"i:0/js/s2ta.js:https://www.hellomiku.com?%s",
@@ -51,6 +50,6 @@
   "dk":"i:0/js/uweb2ta.js:https://y.demo.wvusd.homes/https://duckduckgo.com?ia=chat&q=h#uweb=%s",
   "wa":"https://www.wolframalpha.com/input?i=%s",
   "zdm":"http://search.smzdm.com/?c=youhui&s=%s",
-  "android":"http://www.so.com/s?q=site:developer.android.google.cn+%s",
+  "android":"http://www4.bing.com/search?q=site:developer.android.google.cn/reference/+%s",
   "bd":"https://www.baidu.com/s?wd=%s"
 }

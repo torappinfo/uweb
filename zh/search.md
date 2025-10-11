@@ -325,13 +325,13 @@ AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"可�
 
 <a href="i:00汉语大词典:https://guji.nlc.cn/instrument/dictionaries_detail?bookId=140&keyword=">汉语大词典:https://guji.nlc.cn/instrument/dictionaries_detail?bookId=140&keyword=</a>
 
+<a href="i:00辞海:https://www.cihai.com.cn/search?type=cihai&q=">辞海:https://www.cihai.com.cn/search?type=cihai&q=</a>
+
 <a href="i:00ctext:https://ctext.org/dictionary.pl?char=">ctext:https://ctext.org/dictionary.pl?char=</a>
 
 <a href="i:00漢後:https://ctext.org/post-han?searchu=">漢後:https://ctext.org/post-han?searchu=</a>
 
 <a href="i:00先秦兩漢:https://ctext.org/pre-qin-and-han?searchu=">先秦兩漢:https://ctext.org/pre-qin-and-han?searchu=</a>
-
-<a href="i:00汉字:http://www.guoxuedashi.net/zidian/so.php?kz=1&sokeyzi=">汉字:http://www.guoxuedashi.net/zidian/so.php?kz=1&sokeyzi=</a>
 
 <a href="i:00字:https://zi.tools/zi/">字:https://zi.tools/zi/</a>
 
