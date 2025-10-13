@@ -6,7 +6,7 @@
     <description>Recent content on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2025 20:37:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 20:43:24 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phrases and input method</title>
@@ -23,7 +23,7 @@
       <description>&lt;p&gt;&lt;strong&gt;Address bar autocompletion as input method when starting with space&lt;/strong&gt;&lt;br&gt;&#xA;When address bar text starts with space, the autocompletion selection is inserted to the focused element on the web page. It could be used to choose AI prompts.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Text processing for clipboard data&lt;/strong&gt;&lt;br&gt;&#xA;On home screen, pressing the sharing button of the bottom toolbar popups the &lt;a href=&#34;../textprocess/index.html#&#34;&gt;text processing menu&lt;/a&gt; for clipboard data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;To show web pages in desktop mode&lt;/strong&gt;&lt;br&gt;&#xA;PC button + option &amp;quot;wide viewport&amp;quot; + global js &amp;quot;force page resizable&amp;quot;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>popup menu for Long pressed link and downloading</title>
+      <title>Context menu</title>
       <link>https://jamesfengcao.gitlab.io/uweb/en/longclick/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/longclick/</guid>
