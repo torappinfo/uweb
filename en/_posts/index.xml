@@ -6,7 +6,7 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2025 20:43:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 20:46:01 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phrases and input method</title>
@@ -58,7 +58,7 @@
       <description>&lt;h4 id=&#34;context-menu&#34;&gt;Context menu&lt;/h4&gt;&#xA;&lt;p&gt;The configuration file &amp;quot;image.link&amp;quot;, &amp;quot;download.link&amp;quot; and &amp;quot;context.link&amp;quot; define the default &amp;quot;command&amp;quot; submenu of the context menus when a url link is long pressed.&lt;/p&gt;&#xA;&lt;h5 id=&#34;context-menu-for-images&#34;&gt;Context menu for images&lt;/h5&gt;&#xA;&lt;p&gt;Click the following links to install &amp;quot;command&amp;quot; submenu for image&#39;s context menu:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gimage.link::google:https://www.google.com/searchbyimage?image_url=%25u0A&#34;&gt;google image&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0gimage.link::tineye:https://tineye.com/search?url=%25u0A&#34;&gt;tineye&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0gimage.link::yandex:https://yandex.com/images/search?family=yes&amp;rpt=imageview&amp;url=%25u0A&#34;&gt;yandex image&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h5 id=&#34;download-options-menu---command&#34;&gt;Download options menu -&amp;gt; &amp;quot;command&amp;quot;&lt;/h5&gt;&#xA;&lt;p&gt;Click the following links to install &amp;quot;command&amp;quot; submenu for &lt;b&gt;download options menu&lt;/b&gt;:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdownload.link::pager:i:0m/js/view.html:%25u#p=1%0A&#34;&gt;huge txt pager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:0gdownload.link::pager_2lnk:i:0m/js/view.html#/js/2lnk.js:%25u#p=1%0A&#34;&gt;pager with urls converted to links&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>cron</title>
+      <title>Cron</title>
       <link>https://jamesfengcao.gitlab.io/uweb/en/tcron/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/tcron/</guid>
