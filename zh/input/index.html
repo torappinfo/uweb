@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://jamesfengcao.gitlab.io/uweb/zh/input/" />
+    
+    <link rel="stylesheet" href="../style.css#" type="text/css" />
+    <title>常用语及输入法辅佐</title>
+    <script>
+      function findLang(){
+        let href = location.href;
+        for(let i=href.length-1;i>0;i--){
+          if('/'==href.charAt(i) && '/'==href.charAt(i-3))
+            return i;
+        }
+        return 0;
+      }
+      function nav2(page){
+        let i = findLang();
+        location.href = location.href.substring(0,i+1)+page;
+      }
+      function nav2Lang(lang){
+        let i = findLang();
+        let href = location.href;
+        location.href = location.href.substring(0,i-2)+lang+location.href.substring(i);
+      }
+    </script>
+  </head>
+  <body>
+    <header class='header'>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">首页</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">标签</a>
+      
+        
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('en')">English</a>
+        
+      
+      <nav>
+      </nav>
+    </header>
+    <br />
+    
+<div class="container">
+  <h1 class="title">常用语及输入法辅佐
+    <br>
+    <span class="subtitle"></span>
+  </h1>
+  <ul class="tags">
+    
+  </ul>
+  <h4 id="defaultinput">&quot;default.input&quot;</h4>
+<p>点击安装底部工具条共享按钮长按弹出菜单：<br>
+<a href="i:0gdefault.input::@地址栏%0A">地址栏</a><br>
+<a href="i:0gdefault.input::@换行@%0A">换行</a><br>
+<a href="i:0gdefault.input::@撤销@%1A%0A">CTRL-Z: undo</a><br>
+<a href="i:0gdefault.input::@重做@%19%0A">CTRL-Y: redo</a></p>
+<p>长按共享按钮弹出文件&quot;default.input&quot;定义菜单，文件每行为常用语。 常用语可以&quot;@xxxx@&quot;开头作为化名，方便用户区分无显示短语。</p>
+<h4 id="文件作为键盘输入">文件作为键盘输入</h4>
+<p>点击以下链接可安装至 <strong><a href="../links/index.html#">常用链接</a></strong> （长按底部五角星书签按钮）:<br>
+<a href="i:0gdefault.link::文件输入::cinput%0A">utf8编码文件作为键盘输入</a></p>
+<h4 id="地址栏空格开头开启自动补全输入法">地址栏空格开头开启自动补全输入法</h4>
+<p>常用语或AI提示词可放在文件&quot;default.autoc&quot;或其它“.autoc”文件中作为自动补全备选。地址栏如以空格开头，选中的补全备选会作为键盘输入到被聚焦的页面元素中。</p>
+<h4 id="地址栏作为输入法和文本处理中心">地址栏作为输入法和文本处理中心</h4>
+<p>地址栏文本选择操作模式菜单项&quot;⌨️&quot;将文本输入到被聚焦的页面元素中。</p>
+<p><a href="../searchurl/input.html#">部件檢索</a>等网页可输出至地址栏。用户亦可安装常用命令或链接直接处理地址栏文本。</p>
+
+</div>
+<p>Last Modified: 15 October 2025<br>
+add zh/_posts/input.md<br>
+<pre></pre>
+</p>
+
+<script id='jsgiscus'
+  src='https://giscus.app/client.js'
+  data-repo="torappinfo/uweb"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkzMDIyMDU3MjE="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOEgNLGc4CQjsh"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous" async>
+</script>
+
+    <footer class="site-footer">
+      <div class="container">
+        &copy; 2018-2025 Richard H. Cao
+      </div>
+    </footer>
+    <!-- This document is licensed under the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is available at <https://www.gnu.org/licenses/>. -->
+
+
+  </body>
+</html>

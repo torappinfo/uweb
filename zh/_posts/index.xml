@@ -6,8 +6,15 @@
     <description>Recent content in _Posts on 超微浏览器: 威、快、高效、极致优化</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 12 Oct 2025 14:51:36 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 10:23:56 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/zh/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用语及输入法辅佐</title>
+      <link>https://jamesfengcao.gitlab.io/uweb/zh/input/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesfengcao.gitlab.io/uweb/zh/input/</guid>
+      <description>&lt;h4 id=&#34;defaultinput&#34;&gt;&amp;quot;default.input&amp;quot;&lt;/h4&gt;&#xA;&lt;p&gt;点击安装底部工具条共享按钮长按弹出菜单：&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@地址栏%0A&#34;&gt;地址栏&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@换行@%0A&#34;&gt;换行&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@撤销@%1A%0A&#34;&gt;CTRL-Z: undo&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.input::@重做@%19%0A&#34;&gt;CTRL-Y: redo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;长按共享按钮弹出文件&amp;quot;default.input&amp;quot;定义菜单，文件每行为常用语。 常用语可以&amp;quot;@xxxx@&amp;quot;开头作为化名，方便用户区分无显示短语。&lt;/p&gt;&#xA;&lt;h4 id=&#34;文件作为键盘输入&#34;&gt;文件作为键盘输入&lt;/h4&gt;&#xA;&lt;p&gt;点击以下链接可安装至 &lt;strong&gt;&lt;a href=&#34;../links/index.html#&#34;&gt;常用链接&lt;/a&gt;&lt;/strong&gt; （长按底部五角星书签按钮）:&lt;br&gt;&#xA;&lt;a href=&#34;i:0gdefault.link::文件输入::cinput%0A&#34;&gt;utf8编码文件作为键盘输入&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;地址栏空格开头开启自动补全输入法&#34;&gt;地址栏空格开头开启自动补全输入法&lt;/h4&gt;&#xA;&lt;p&gt;常用语或AI提示词可放在文件&amp;quot;default.autoc&amp;quot;或其它“.autoc”文件中作为自动补全备选。地址栏如以空格开头，选中的补全备选会作为键盘输入到被聚焦的页面元素中。&lt;/p&gt;&#xA;&lt;h4 id=&#34;地址栏作为输入法和文本处理中心&#34;&gt;地址栏作为输入法和文本处理中心&lt;/h4&gt;&#xA;&lt;p&gt;地址栏文本选择操作模式菜单项&amp;quot;⌨️&amp;quot;将文本输入到被聚焦的页面元素中。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../searchurl/input.html#&#34;&gt;部件檢索&lt;/a&gt;等网页可输出至地址栏。用户亦可安装常用命令或链接直接处理地址栏文本。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>常用链接</title>
       <link>https://jamesfengcao.gitlab.io/uweb/zh/links/</link>

@@ -17,6 +17,16 @@
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/input/</loc>
     <lastmod>2025-10-13T20:37:41+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/input/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/input/"
+                />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/</loc>
     <lastmod>2025-10-13T20:46:01+08:00</lastmod>
