@@ -12,8 +12,8 @@
 
 - <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">提供20多deepseek满血版接入点。</a>
 - 免魔法支持claude4，chatgpt5, gemini 2.5 pro/flash, grok4等最新AI。
-- <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、百科、AI 聊天devv.ai等</a></span>
-- <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI聊天可作为搜索引擎</a>，无需重复输入。界面针对AI及传统搜索智能优化，地址栏首字母为空格开启自动补全输入法，方便提示词输入。复杂问询如代码可选择文件[作为键盘输入](https://uwebzh.netlify.app/zh/input/index.html#)。
+- <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">google、百科等</a></span>
+- <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI聊天可作为搜索引擎</a>，界面针对AI及传统搜索智能优化，地址栏首字母为空格开启自动补全输入法。复杂问询如代码可选择文件[作为键盘输入](https://uwebzh.netlify.app/zh/input/index.html#)，主屏输入框"空格+换行"开头时以"地址栏+输入框"为有效查询，可以地址栏为资料汇聚中心。
 - 微：不到250K。
 - 威：无穷无尽的功能，使用增强后的html5可以实现任何本地应用功能。支持使用js脚本、url服务、shell命令、内部功能链接定制菜单／（新）按钮／手势; 远程数据皆可成网站。
 - 便捷：AI聊天/图书/txt/词典/命令行/APP/webapp可作为搜索引擎使用。
