@@ -51,7 +51,7 @@
   <h4 id="defaultinput">&quot;default.input&quot;</h4>
 <p>点击安装底部工具条共享按钮长按弹出菜单：<br>
 <a href="i:0gdefault.input::@地址栏%0A">地址栏</a><br>
-<a href="i:0gdefault.input::@换行@%0A">换行</a><br>
+<a href="i:0gdefault.input::%20\n%0A">换行</a><br>
 <a href="i:0gdefault.input::@撤销@%1A%0A">CTRL-Z: undo</a><br>
 <a href="i:0gdefault.input::@重做@%19%0A">CTRL-Y: redo</a></p>
 <p>长按共享按钮弹出文件&quot;default.input&quot;定义菜单，文件每行为常用语。 常用语可以&quot;@xxxx@&quot;开头作为化名，方便用户区分无显示短语。</p>
@@ -61,6 +61,8 @@
 <h4 id="地址栏">地址栏</h4>
 <h5 id="地址栏空格开头开启自动补全输入法">地址栏空格开头开启自动补全输入法</h5>
 <p>常用语或AI提示词可放在文件&quot;default.autoc&quot;或其它“.autoc”文件中作为自动补全备选。地址栏如以空格开头，选中的补全备选会作为键盘输入到被聚焦的页面元素中。</p>
+<p>点击安装AI提示词:<br>
+<a href="i:0gdefault.autoc:: \n从上述指定的URL地址中提取数据，%0A">从上述指定的URL地址中提取数据</a></p>
 <h5 id="地址栏作为查询的一部分">地址栏作为查询的一部分</h5>
 <p>如果主屏输入框以“空格+换行”开头，则搜索引擎所用查询关键词为&quot;地址栏+输入框&quot;。用户可在地址栏汇集参考资料，而在输入框进行AI问询。</p>
 <h5 id="地址栏作为输入法和文本处理中心">地址栏作为输入法和文本处理中心</h5>
@@ -68,8 +70,8 @@
 <p><a href="../searchurl/input.html#">部件檢索</a> (推荐长按链接下载至本地使用) 等网页可输出至地址栏。用户亦可安装常用命令或链接直接处理地址栏文本。</p>
 
 </div>
-<p>Last Modified: 28 October 2025<br>
-update README<br>
+<p>Last Modified: 30 October 2025<br>
+add AI prompts<br>
 <pre></pre>
 </p>
 
