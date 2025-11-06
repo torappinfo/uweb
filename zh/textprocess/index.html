@@ -56,8 +56,11 @@
     <li><a href="../tags/windows/index.html#">windows</a> </li>
     
   </ul>
-  <p>点击以下链接可安装长按“链接”按钮菜单:<br>
-<a href="i:0gdefault.select::地址栏:/uwebAddr:%0A">地址栏</a></p>
+  <p>本文功能特别适用于超出剪贴板容量的长文本处理/共享/AI。</p>
+<p>点击以下链接可安装长按“链接”按钮菜单:<br>
+<a href="i:0gdefault.select::共享:/uwebS:%0A">共享选中文本/网页内容</a></p>
+<p><a href="i:0gdefault.select::临时编辑:/text/html:printf <body contenteditable>;cat%0A">临时编辑</a></p>
+<p><a href="i:0gdefault.select::地址栏:/uwebAddr:%0A">地址栏</a></p>
 <p><a href="i:0gdefault.select::网络剪贴板:/uwebA:echo -n i:0/js/uweb2ta.js:https://netcut.cn/ric?A00uweb=%250A;cat%0A">网络剪贴板:更改ric为其它未使用标识</a><br>
 <a href="i:0gdefault.select::notems:/uwebA:echo -n i:0/js/uweb2ta.js:https://note.ms/ric?A00uweb=%250A;cat%0A">note.ms:更改ric为其它未使用标识</a></p>
 <p><a href="i:0gdefault.select::bing翻译:/uweb:printf 'https://cn.bing.com/translator/?from=&to=zh-Hans&text=';cat|tr ' ' '%2B'%0A">bing翻译</a><br>
@@ -77,6 +80,8 @@ mimetype用来表示命令的输入输出类型。格式为&quot;[输入mimetype
 html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 /uweb: 选中文本为txt格式, 输出mimetype为<a href="../cmd">特殊扩充uweb</a>，超微将把输出作为<a href="../links">链接</a>来处理。<br>
 /uwebA: 超微将把输出作为&quot;单一&quot;链接来处理。<br>
+/uwebAddr: 输出到地址栏。<br>
+/uwebS: 共享<br>
 /termux: 命令运行结果将作为termux下命令运行。<br>
 <a target="_self" href="i:0hcheck.js:../searchurl/txt/check.js">checked.js</a>: 运行配置目录下checked.js，其返回值作为命令行标准输入。对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][<em>[文件后缀]]&quot;。譬如&quot;file:///sdcard/?</em>.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。此时选择选定文件，则可利用checked.js复制文件至PC。(参看下面具体配置)</p>
 <p>配置default.select如下：<br>
@@ -95,8 +100,8 @@ html/text/html: 选中富文本为html格式, 输出mimetype为text/html。<br>
 <a href="http://unxutils.sourceforge.net/">pclip</a></p>
 
 </div>
-<p>Last Modified: 29 October 2025<br>
-add mimetype uwebAddr<br>
+<p>Last Modified: 6 November 2025<br>
+add mimetype termuxS<br>
 <pre></pre>
 </p>
 

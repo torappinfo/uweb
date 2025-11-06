@@ -57,7 +57,9 @@
     
   </ul>
   <p>Click the following links to install menus for long pressing the button &quot;link&quot;:<br>
-<a href="i:0gdefault.select::AddrBar:/uwebAddr:%0A">Copy text to address bar</a></p>
+<a href="i:0gdefault.select::Share:/uwebS:%0A">Share</a></p>
+<p><a href="i:0gdefault.select::Edit:/text/html:printf <body contenteditable>;cat%0A">Edit</a></p>
+<p><a href="i:0gdefault.select::AddrBar:/uwebAddr:%0A">Copy text to address bar</a></p>
 <p><a href="i:0gdefault.select::notems:/uwebA:printf i:0/js/hash2textarea.js:https://note.ms/ric#;cat%0A">note.ms: cloud text sharing, please replace &quot;ric&quot; with your favorite ID</a></p>
 <p><a href="i:0gdefault.select::copyHtml:html/clip:%0A">Copy selected text with html format to clipboard</a></p>
 <p><a href="i:0gdefault.select::Home:/uweb:printf file://data/data/info.torapp.uweb/files/home5.search%5C location.href=%5C%22i:15;cat;printf %5C%22%0A">Search with home screen</a></p>
@@ -80,6 +82,7 @@ It formats as &quot;[input mimetype]/[output mimetype]&quot;.<br>
 <li>&quot;uweb&quot;: output as links</li>
 <li>&quot;uwebA&quot;: output as &quot;A&quot; link, all characters including newlines are part of the link.</li>
 <li>&quot;uwebAddr&quot;: output to address bar</li>
+<li>&quot;uwebS&quot;: output for sharing</li>
 <li>&quot;clip&quot;: output to clipboard</li>
 <li>&quot;termux&quot;: output as termux command</li>
 </ul>
@@ -94,8 +97,8 @@ To use ssh or scp, users need to install uweb compatible Termux provided on the 
 PCs need command &quot;xsel&quot; available to operate on copy/paste.</p>
 
 </div>
-<p>Last Modified: 29 October 2025<br>
-add mimetype uwebAddr<br>
+<p>Last Modified: 6 November 2025<br>
+add mimetype termuxS<br>
 <pre></pre>
 </p>
 
