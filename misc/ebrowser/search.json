@@ -3,6 +3,7 @@
   "n":"https://www.n.cn/chathome?q=%s",
   "z":"https://chat.z.ai/?q=%s",
   "ff":"http://frogfind.com/?q=%s",
+  "yd":"https://yandex.com/search/?text=%s",
   "ima":"i:0/js/uweb2edit.js:https://ima.qq.com/chat?uweb=%3Cp%3E%s%3C/p%3E",
   "bda":"i:0/js/uwebset.js:https://chat.baidu.com/search?word=%20&10uweb=%s",
   "yy":"i:0/js/uweb2edit2.js:https://yiyan.baidu.com?uweb=%s",
