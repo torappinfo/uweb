@@ -10,9 +10,9 @@ log: |
 
 
 <a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可自动发送, ebrowser添加"%0D")  
-<a href="i:00秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D">秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D</a>
+<a href="i:00纳米:https://n.cn/search/?src=ec_vivo_1002&q=">纳米:https://n.cn/search/?src=ec_vivo_1002&q=</a>
 
-<a href="i:00纳米:https://n.cn/search/?q=">纳米:https://n.cn/search/?q=</a>
+<a href="i:00秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D">秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D</a>
 
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D</a>
 
@@ -46,8 +46,6 @@ log: |
 
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
-<a href="i:00360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn/chathome#10uweb=%s">360bot:i:0UA1:i:0/js/uwebset.js:https://bot.n.cn/chathome#10uweb=%s</a>
-
 <a href="i:00智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s">智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s</a>
 
 
@@ -67,7 +65,9 @@ log: |
 
 <a href="i:00百度ai:https://chat.baidu.com/search?word=">百度ai:https://chat.baidu.com/search?word=</a>
 
-<a href="i:00百度ai2:i:0/js/uweb2ta.js:https://chat.baidu.com/search?word=%20#10uweb=%s">百度ai2:i:0/js/uweb2ta.js:https://chat.baidu.com/search?word=%20#10uweb=%s</a>
+<a href="i:00百度ai2:https://chat.baidu.com/search?usedModel=%7B%22modelName%22%3A%22smartMode%22%2C%22modelFunction%22%3A%7B%22deepSearch%22%3A%221%22%7D%7D&word=">百度ai2:https://chat.baidu.com/search?usedModel=%7B%22modelName%22%3A%22smartMode%22%2C%22modelFunction%22%3A%7B%22deepSearch%22%3A%221%22%7D%7D&word=</a>
+
+<a href="i:00百度ai3:i:0/js/uweb2ta.js:https://chat.baidu.com/search?word=%20#10uweb=%s">百度ai3:i:0/js/uweb2ta.js:https://chat.baidu.com/search?word=%20#10uweb=%s</a>
 
 <a href="i:00tigerbot:https://tigerbot.com/chat/?q=">tigerbot:https://tigerbot.com/chat/?q=</a>
 
@@ -151,7 +151,7 @@ AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"可�
 
 <a href="i:00bilibili:https://m.bilibili.com/search?keyword=">bilibili:https://m.bilibili.com/search?keyword=</a>
 
-<a href="i:00抖音:https://www.douyin.com/search/%s?source=normal_search">抖音:https://www.douyin.com/search/%s?source=normal_search</a>
+<a href="i:00抖音:https://so.douyin.com/s?keyword=">抖音:https://so.douyin.com/s?keyword=</a>
 
 <a href="i:00高德地图:https://ditu.amap.com/search?query=">高德地图:https://ditu.amap.com/search?query=</a>
 
@@ -528,7 +528,7 @@ AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"可�
 [特殊搜索引擎](https://www.kdocs.cn/l/ckrgkVybvmkC)  
 [searx](https://searx.space)  
 [google学术镜像](https://ac.scmor.com)  
-[词典](https://github.com/Dictionaryphile/All_Dictionaries)  
+[词典](https://github.com/ssj10ssj/All_Dictionaries)  
 [更多](https://getquicker.net/KC/Kb/Article/286)
 
 #### <a id="convert">网址变引擎</a>
