@@ -19,7 +19,7 @@
 [bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
 
 #### Mirrors (for all versions)
-<p>
+<span>
 <a href="i:0mi:5h:https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html">1</a>
 <a href="i:0m?:https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html">5</a>
 <a href="i:0mi:5h?format=raw::https://sourceforge.net/p/uwebbrowser/code/ci/master/tree/redirect.html">6</a>
@@ -39,7 +39,7 @@
 <a href="i:0m?:https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html">gitnet</a>
 <a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
-</p>
+</span>
 
 #### Repositories
 [gitlab](https://gitlab.com/jamesfengcao/uweb)
@@ -48,7 +48,6 @@
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io)
 [codeberg](https://codeberg.org/jamesfengcao/pages/src/branch/master/README.md)
 [gitee](https://gitee.com/jamesfengcao/uweb)
-[atomgit](https://atomgit.com/jamesfengcao/uweb)
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb)
 [gitgud](https://gitgud.io/jamesfengcao/uweb)
 [disroot](https://git.disroot.org/torappinfo/uweb/src/branch/master/README.md)
