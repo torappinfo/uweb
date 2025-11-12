@@ -1,4 +1,4 @@
-let labels = ["<a href='https://jamesfengcao.codeberg.page/zh/redirect/index.html'>全局重定向网址</a>","下载目录(选项'下载至可卸存储'下生效)","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
+let labels = ["<a href='https://gitee.com/jamesfengcao/uweb/raw/master/zh/redirect/index.html#'>全局重定向网址</a>","下载目录(选项'下载至可卸存储'下生效)","网页默认字体族","cursive字体族","Fantasy字体族","Fixed字体族","Sans-Serif字体族","Serif字体族"];
 let names = ["redirecturl","downloadpath","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;
