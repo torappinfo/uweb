@@ -46,7 +46,7 @@
   </ul>
   <script>function notRepo(){let u=location.href.replace(/#$/, '');return u.endsWith('index.html')||u.endsWith('readme/');}</script>
 <!--%3cmeta http-equiv=refresh content=%220;url=%68ttps://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#%22%3e-->
-<h3 id="ebrowser-keyboard-friendly-minimal-suckless-web-browser"><a href="https://github.com/torappinfo/ebrowser">Ebrowser</a>: keyboard-friendly minimal suckless web browser</h3>
+<h1 id="ebrowser-keyboard-friendly-minimal-suckless-web-browser"><a href="https://github.com/torappinfo/ebrowser">Ebrowser</a>: keyboard-friendly minimal suckless web browser</h1>
 <p>Ebrowser is designed with the philosophy of <a href="https://github.com/torappinfo/uweb">Android uweb browser</a> (<a href="https://gitlab.com/jamesfengcao/uweb">gitlab</a>).</p>
 <ul>
 <li>lightweight (less than 20k bytes) without bundled electron.</li>
@@ -59,12 +59,12 @@
 <li>customizable.</li>
 <li>dark theme support.</li>
 </ul>
-<p>Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.</p>
-<h4 id="installing-for-windows-macos-and-linux">Installing (for Windows, MacOS and Linux)</h4>
-<h5 id="install-with-prebuilt-binaries">Install with prebuilt binaries</h5>
+<p>Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight.</p>
+<h2 id="installing-for-windows-macos-and-linux">Installing (for Windows, MacOS and Linux)</h2>
+<h3 id="install-with-prebuilt-binaries">Install with prebuilt binaries</h3>
 <p>You can find prebuilt binaries <a href="https://github.com/torappinfo/ebrowser/releases">here</a>.</p>
-<h5 id="install-ebrowser-and-electron-separatedly">Install ebrowser and electron separatedly</h5>
-<h6 id="install-ebrowser">Install ebrowser</h6>
+<h3 id="install-ebrowser-and-electron-separatedly-recommended">Install ebrowser and electron separatedly (Recommended)</h3>
+<h4 id="install-ebrowser">Install ebrowser</h4>
 <p>Either download (Click the green &quot;Code&quot; button above the file list =&gt; Select &quot;Download ZIP&quot;) and unzip from</p>
 <pre><code>https://github.com/torappinfo/ebrowser
 </code></pre>
@@ -72,21 +72,21 @@
 <pre><code>npm install ebrowser
 </code></pre>
 <p>OR download/&quot;git clone&quot; files directly from any of <a href="https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md">mirror repositories</a> and ebrowser is under the folder &quot;misc/ebrowser&quot;.</p>
-<h6 id="install-electron">Install electron</h6>
+<h4 id="install-electron">Install electron</h4>
 <p>Before you can run ebrowser, you need to install electron either with nodejs by</p>
 <pre><code>npm install electron
 </code></pre>
 <p>OR download and unzip electron binary directly from <a href="https://github.com/electron/electron/releases">github</a> or mirrors like <a href="https://registry.npmmirror.com/binary.html?path=electron">npmmirror</a>.</p>
-<h6 id="run-ebrowser">Run ebrowser</h6>
+<h4 id="run-ebrowser">Run ebrowser</h4>
 <pre><code>electron ~/node_modules/ebrowser
 </code></pre>
 <p>OR</p>
 <pre><code>electron [the-path-of-folder-with-downloaded-ebrowser-files]
 </code></pre>
-<h5 id="update-app-quickly-without-updating-chromium">Update app quickly without updating chromium</h5>
+<h3 id="update-app-quickly-without-updating-chromium">Update app quickly without updating chromium</h3>
 <p>Pressing &quot;Alt&quot; to show the menu bar and choose &quot;Check for updates&quot; under &quot;Help&quot;. OR</p>
 <p>Type &quot;:update&quot; in the address bar and press &quot;enter&quot; key to update.</p>
-<h4 id="key-shortcuts">Key shortcuts</h4>
+<h2 id="key-shortcuts">Key shortcuts</h2>
 <ul>
 <li>Alt: show menu</li>
 <li>ALT+&lt;-: go backward</li>
@@ -106,7 +106,7 @@
 <li>F5: page refresh/reload</li>
 <li>F12: devtools</li>
 </ul>
-<h4 id="address-bar-commands">Address bar commands</h4>
+<h2 id="address-bar-commands">Address bar commands</h2>
 <p>Like any popular browser, the very first word in address bar if defined in &quot;search.json&quot; identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:</p>
 <ul>
 <li>&quot;/&quot; for find-in-page</li>
@@ -152,7 +152,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="commands-in-no-focus-mode-this-mode-is-similar-to-vi-normal-mode">Commands in no-focus mode (this mode is similar to vi Normal mode)</h4>
+<h2 id="commands-in-no-focus-mode-this-mode-is-similar-to-vi-normal-mode">Commands in no-focus mode (this mode is similar to vi Normal mode)</h2>
 <p>Pressing &quot;ESC&quot; to enter no-focus mode if not sure.</p>
 <ul>
 <li>&quot;:&quot; for address bar commands</li>
@@ -160,7 +160,7 @@
 <li>&quot;!&quot; for &quot;!&quot; address bar commands</li>
 </ul>
 <p>The other commands are defined in &quot;mapkeys.json&quot;, which will map keys to address bar commands.</p>
-<h4 id="configuration-files">Configuration files</h4>
+<h2 id="configuration-files">Configuration files</h2>
 <ul>
 <li>&quot;config&quot;: lines of address bar commands.</li>
 <li>&quot;search.json&quot;: <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engines</a> as shortcut-queryUrl pairs, where &quot;%s&quot; would be replaced by search query.</li>
@@ -178,7 +178,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="javascript-at-three-levels">Javascript at three levels</h4>
+<h2 id="javascript-at-three-levels">Javascript at three levels</h2>
 <ul>
 <li>Web page: url like &quot;javascript:&quot; or bookmarklet command &quot;:bml&quot; runs in web page.</li>
 <li>Browser (or renderer process) :
@@ -192,13 +192,13 @@
 </ul>
 </li>
 </ul>
-<h5 id="examples-for-jsbjs-commands">examples for &quot;:js&quot;/&quot;:bjs&quot; commands</h5>
+<h3 id="examples-for-jsbjs-commands">examples for &quot;:js&quot;/&quot;:bjs&quot; commands</h3>
 <pre><code>:js bJS=true //allow external Javascript files for web pages
 :js bJS=false //disallow external Javascript files for web pages
 :bjs bHistory=true //to record url history
 :bjs bQueryHistory=true //to record query/command history
 </code></pre>
-<h4 id="new-usages">New usages</h4>
+<h2 id="new-usages">New usages</h2>
 <ul>
 <li>
 <p>Vector designing with web tech to replace Adobe Illustrator/Inkscape.</p>
@@ -220,12 +220,12 @@
 </ul>
 </li>
 </ul>
-<h4 id="license">License</h4>
+<h2 id="license">License</h2>
 <p>You can copy or modify the code/program under the terms of the GPL3.0 or later versions.</p>
 
 </div>
-<p>Last Modified: 4 November 2025<br>
-update ebrowser.md<br>
+<p>Last Modified: 12 November 2025<br>
+optimize ebrowser README<br>
 <pre></pre>
 </p>
 

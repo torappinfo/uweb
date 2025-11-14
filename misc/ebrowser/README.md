@@ -1,5 +1,5 @@
 <!--%3cmeta http-equiv=refresh content=%220;url=%68ttps://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#%22%3e-->
-### [Ebrowser](https://github.com/torappinfo/ebrowser): keyboard-friendly minimal suckless web browser
+# [Ebrowser](https://github.com/torappinfo/ebrowser): keyboard-friendly minimal suckless web browser
 Ebrowser is designed with the philosophy of [Android uweb browser](https://github.com/torappinfo/uweb) ([gitlab](https://gitlab.com/jamesfengcao/uweb)).
 
 - lightweight (less than 20k bytes) without bundled electron.
@@ -12,14 +12,14 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - customizable.
 - dark theme support.
 
-Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight. Recommend to install electron separately.
+Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight.
 
-#### Installing (for Windows, MacOS and Linux)
-##### Install with prebuilt binaries
+## Installing (for Windows, MacOS and Linux)
+### Install with prebuilt binaries
 You can find prebuilt binaries [here](https://github.com/torappinfo/ebrowser/releases).
 
-##### Install ebrowser and electron separatedly
-###### Install ebrowser
+### Install ebrowser and electron separatedly (Recommended)
+#### Install ebrowser
 Either download (Click the green "Code" button above the file list => Select "Download ZIP") and unzip from
 
     https://github.com/torappinfo/ebrowser
@@ -30,14 +30,14 @@ OR download and unzip ebrowser package directly from any of npm mirror sites lik
 
 OR download/"git clone" files directly from any of [mirror repositories](https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md) and ebrowser is under the folder "misc/ebrowser".
 
-###### Install electron
+#### Install electron
 Before you can run ebrowser, you need to install electron either with nodejs by
 
     npm install electron
 
 OR download and unzip electron binary directly from [github](https://github.com/electron/electron/releases) or mirrors like [npmmirror](https://registry.npmmirror.com/binary.html?path=electron).
 
-###### Run ebrowser
+#### Run ebrowser
 
     electron ~/node_modules/ebrowser
 
@@ -45,12 +45,12 @@ OR
 
     electron [the-path-of-folder-with-downloaded-ebrowser-files]
 
-##### Update app quickly without updating chromium
+### Update app quickly without updating chromium
 Pressing "Alt" to show the menu bar and choose "Check for updates" under "Help". OR
 
 Type ":update" in the address bar and press "enter" key to update.
 
-#### Key shortcuts
+## Key shortcuts
 - Alt: show menu
 - ALT+<-: go backward
 - ALT+->: go forward
@@ -69,7 +69,7 @@ Type ":update" in the address bar and press "enter" key to update.
 - F5: page refresh/reload
 - F12: devtools
 
-#### Address bar commands
+## Address bar commands
 Like any popular browser, the very first word in address bar if defined in "search.json" identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:
 - "/" for find-in-page
 - ":" for address bar commands
@@ -102,7 +102,7 @@ Like any popular browser, the very first word in address bar if defined in "sear
   - "i:0/js/xxx.js:[url]" loads the "[url]" with bookmarklet "js/xxx.js".
   - "i:8d[url]" fo force downloading
 
-#### Commands in no-focus mode (this mode is similar to vi Normal mode)
+## Commands in no-focus mode (this mode is similar to vi Normal mode)
 Pressing "ESC" to enter no-focus mode if not sure.
 - ":" for address bar commands
 - "/" for find-in-page with address bar
@@ -110,7 +110,7 @@ Pressing "ESC" to enter no-focus mode if not sure.
 
 The other commands are defined in "mapkeys.json", which will map keys to address bar commands.
 
-#### Configuration files
+## Configuration files
 - "config": lines of address bar commands.
 - "search.json": <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engines</a> as shortcut-queryUrl pairs, where "%s" would be replaced by search query.
 - "default.autoc": predefined strings for address bar auto completion.
@@ -124,21 +124,21 @@ The other commands are defined in "mapkeys.json", which will map keys to address
   - "select.json": to define menus for text selections. The odd-indexed strings are address bar commands with "%s" as the text selection.
   - "download.json" : array of strings to define context menu and buttons for downloading dialog. The even-indexed strings are texts to show on the button. The odd-indexed strings are address bar commands with "%u" as the downloaded url.
 
-#### Javascript at three levels
+## Javascript at three levels
 - Web page: url like "javascript:" or bookmarklet command ":bml" runs in web page.
 - Browser (or renderer process) :
   - ":bjs" to execute the following js code at browser level.
 - OS level (or main process) : ":js" to execute the following js code with all OS APIs available.
   - "!xx" evaluates "xx.js" with arguments.
 
-##### examples for ":js"/":bjs" commands
+### examples for ":js"/":bjs" commands
 
     :js bJS=true //allow external Javascript files for web pages
     :js bJS=false //disallow external Javascript files for web pages
     :bjs bHistory=true //to record url history
     :bjs bQueryHistory=true //to record query/command history
 
-#### New usages
+## New usages
 - Vector designing with web tech to replace Adobe Illustrator/Inkscape.
   - Design with web tech.
   
@@ -150,5 +150,5 @@ The other commands are defined in "mapkeys.json", which will map keys to address
   - Adjust window width and use addressbar command line ":Pdf {}" to export vector graphics.
   - Use imageMagick to convert to any other vector graphics format.
 
-#### License
+## License
 You can copy or modify the code/program under the terms of the GPL3.0 or later versions.

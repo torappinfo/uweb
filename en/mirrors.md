@@ -2,6 +2,7 @@
 #### Mirrors (for version 1040+)
 [gitee](https://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#)
 [gitea](https://gitea.com/torappinfo/uweb/raw/branch/master/redirect.html#)
+[tngl](https://tangled.org/@uweb.tngl.sh/uweb/raw/master/redirect.html#)
 [notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
 [launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
 [framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
@@ -60,3 +61,4 @@
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/src/branch/master/README.md)
 [tilde](https://tildegit.org/jamesfengcao/uweb/src/branch/master/README.md)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/src/master/README.md)
+[tngl](https://tangled.org/@uweb.tngl.sh/uweb/blob/master/README.md)

@@ -25,7 +25,12 @@ else {
       }
       win.show()
       win.focus()
-      cmdlineProcess(args,cwd,1);
+      let i=1;
+      do {
+        if(45===args[i].charCodeAt(0)) i++;
+        else break;
+      }while(true);
+      cmdlineProcess(args,cwd,i-1);
     }else
       createWindow();
   })
