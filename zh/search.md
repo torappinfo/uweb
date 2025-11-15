@@ -16,6 +16,8 @@ log: |
 
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D</a>
 
+<a href="i:00在问:i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/#uweb=%s">在问:i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/#uweb=%s</a>
+
 <a href="i:00跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
 <a href="i:00deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s">deepseek:i:0/js/uwebset.js:https://chat.deepseek.com#uweb=%s</a>
@@ -103,15 +105,13 @@ log: |
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
-<a href="i:00gpt5:https://local/ht/puter.html?gpt-5=">gpt5:https://local/ht/puter.html?gpt-5=</a>
-
-<a href="i:00gpt4o-mini:https://local/ht/puter.html?=">gpt4o-mini:https://local/ht/puter.html?=</a>
+<a href="i:00gpt5.1:https://local/ht/puter.html?=">gpt5.1:https://local/ht/puter.html?=</a>
 
 <a href="i:00DALL·E3:https://local/ht/txt2img.html?">DALL·E3:https://local/ht/txt2img.html?</a>
 
 <a href="i:00o4-mini:https://local/ht/puter.html?o4-mini=">o4-mini:https://local/ht/puter.html?o4-mini=</a>
 
-<a href="i:00claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4=">claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4=</a>
+<a href="i:00claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4-5=">claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4-5=</a>
 
 <a href="i:00claude-opus4:https://local/ht/puter.html?claude-opus-4=">claude-opus4:https://local/ht/puter.html?claude-opus-4=</a>
 

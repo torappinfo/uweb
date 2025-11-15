@@ -25,6 +25,7 @@
   "mo":"https://monica.im/home/chat/deepseek-r1/deepseek_reasoner?q=%s",
   "yw":"i:0/js/uwebset.js:https://yuewen.cn/chats/new?uweb=%s",
   "zd":"https://zhida.zhihu.com/?q=%s",
+  "zw":"i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/?uweb=%s",
   "exa":"https://exa.ai/search?c=all&q=%s",
   "andi":"https://andisearch.com/?q=%s",
   "ph":"https://phind-ai.com/search?q=%s",
