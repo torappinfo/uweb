@@ -250,7 +250,7 @@ async function addrCommand(cmd){
           if(url.charCodeAt(0)!==104) url = "https://"+url;
           session.defaultSession.cookies.get({ url: url }).then((cookies) => {
             cookies.forEach((cookie) => {
-              session.defaultSession.cookies.remove(targetUrl, cookie.name)})});
+              session.defaultSession.cookies.remove(url, cookie.name)})});
         }
         return;
       case "dns":

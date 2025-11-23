@@ -3,6 +3,7 @@
   "n":"https://www.n.cn/chathome?q=%s",
   "z":"https://chat.z.ai/?q=%s",
   "ff":"http://frogfind.com/?q=%s",
+  "ds":"i:0/js/uwebset.js:https://chat.deepseek.com?uweb=%s",
   "yd":"https://yandex.com/search/?text=%s",
   "ima":"i:0/js/uweb2edit.js:https://ima.qq.com/chat?uweb=%3Cp%3E%s%3C/p%3E",
   "bda":"i:0/js/uwebset.js:https://chat.baidu.com/search?word=%20&10uweb=%s",
@@ -18,7 +19,7 @@
   "ms":"https://metaso.cn?q=%s",
   "lf":"i:0/js/uwebset.js:https://chat.lify.vip/chat?uweb=%s",
   "gc":"i:0/js/uwebset.js:https://tianqi.gitcode.com/?uweb=%s%0D",
-  "ds":"i:0/js/uweb2ta.js:https://metaso.cn/?uweb=%s%0D",
+  "msd":"i:0/js/uweb2ta.js:https://metaso.cn/?uweb=%s%0D",
   "dbs":"i:0/js/uweb2edit2.js:https://ai.dangbei.com/search?uweb=%s",
   "db":"i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat?uweb=%s",
   "df":"https://www.deepfind.co/?q=%s",
@@ -52,6 +53,6 @@
   "dk":"i:0/js/uweb2ta.js:https://y.demo.wvusd.homes/https://duckduckgo.com?ia=chat&q=h#uweb=%s",
   "wa":"https://www.wolframalpha.com/input?i=%s",
   "zdm":"http://search.smzdm.com/?c=youhui&s=%s",
-  "android":"http://www4.bing.com/search?q=site:developer.android.google.cn/reference/+%s",
+  "android":"http://www.bing.com/search?q=site:developer.android.google.cn/reference/+%s",
   "bd":"https://www.baidu.com/s?wd=%s"
 }

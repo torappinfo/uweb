@@ -9,14 +9,12 @@ log: |
 [深度求索满血版](#deepseek) [AI](#aiSE) [推荐](#mainSE) [常用](#commonSE) [语言](#langSE) [科技教材](#textbookSE) [国外](#foreignSE) [网盘](#cloudSE) [学术](#scholarSE) [开发](#devSE) [应用内](#appSE) [本地](#localSE) [网址变引擎](#convert)
 
 
-<a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"可自动发送, ebrowser添加"%0D")  
+<a id="deepseek">deepseek满血版</a>：(超微浏览器"%s"后添加"%250D"作为Enter↵自动发送; ebrowser添加"%0D")  
 <a href="i:00纳米:https://n.cn/search/?src=ec_vivo_1002&q=">纳米:https://n.cn/search/?src=ec_vivo_1002&q=</a>
 
 <a href="i:00秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D">秘塔ds:i:0/js/uwebset.js:https://metaso.cn#uweb=%s%250D</a>
 
 <a href="i:00问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D">问小白:i:0/js/uwebset.js:https://www.wenxiaobai.com/chat/200006#20uweb=%s%250D</a>
-
-<a href="i:00在问:i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/#uweb=%s">在问:i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/#uweb=%s</a>
 
 <a href="i:00跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s">跃问:i:0/js/uwebset.js:https://yuewen.cn/chats/new#uweb=%s</a>
 
@@ -36,11 +34,7 @@ log: |
 
 <a href="i:00gitcode:i:0/js/uwebset.js:https://tianqi.gitcode.com/#uweb=%s%250D">gitcode:i:0/js/uwebset.js:https://tianqi.gitcode.com/#uweb=%s%250D</a>
 
-<a href="i:00火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s">火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s</a>
-
 <a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
-
-<a href="i:00alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s">alphachain:i:0/js/uweb2ta.js:https://alphachain.net.cn/#/chat/#uweb=%s</a>
 
 <a href="i:00openrouter:i:0/js/uwebset.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free?uweb=%s">openrouter:i:0/js/uwebset.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free?uweb=%s</a>
 
@@ -49,6 +43,10 @@ log: |
 <a href="i:00小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s">小艺:i:0/js/uweb2ta.js:https://xiaoyi.huawei.com/chat#uweb=%s</a>
 
 <a href="i:00智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s">智慧岛:i:0/js/uwebset.js:https://chat.lify.vip/chat#uweb=%s</a>
+
+<a href="i:00火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s">火山方舟:i:0/js/uweb2ta.js:https://www.volcengine.com/experience/ark#10uweb=%s</a>
+
+<a href="i:00在问:i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/#uweb=%s">在问:i:0/js/uwebset.js:https://zaiwen.xueban.org.cn/chat/#uweb=%s</a>
 
 
 注：
@@ -122,7 +120,7 @@ log: |
 <a href="i:00grok4:https://local/ht/puter.html?x-ai/grok-4=">grok4:https://local/ht/puter.html?x-ai/grok-4=</a>
 
 
-AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"可自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
+AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"作为Enter↵或"%250D%250A"作为Ctrl+Enter↵自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
 <a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00当贝s:i:0/js/uweb2edit2.js#0:https://ai.dangbei.com/search#10uweb=%s">当贝s:i:0/js/uweb2edit2.js#0:https://ai.dangbei.com/search#10uweb=%s</a>
@@ -144,6 +142,8 @@ AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"可�
 <a href="i:005577:http://s.5577.com/sousuo/m/?k=">5577:http://s.5577.com/sousuo/m/?k=</a>
 
 <a href="i:00当快:https://search.downkuai.com/searcht.html?keyword=">当快:https://search.downkuai.com/searcht.html?keyword=</a>
+
+<a href="i:00软件聚搜:https://rjjs.cc/search?platform_category_id=2?q=">软件聚搜:https://rjjs.cc/search?platform_category_id=2?q=</a>
 
 <a href="i:00apkbog:https://www.apkbog.com/en/apks/search/">apkbog:https://www.apkbog.com/en/apks/search/</a>
 
