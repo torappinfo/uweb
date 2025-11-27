@@ -32,8 +32,6 @@ log: |
 
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
-<a href="i:00gitcode:i:0/js/uwebset.js:https://tianqi.gitcode.com/#uweb=%s%250D">gitcode:i:0/js/uwebset.js:https://tianqi.gitcode.com/#uweb=%s%250D</a>
-
 <a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
 
 <a href="i:00openrouter:i:0/js/uwebset.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free?uweb=%s">openrouter:i:0/js/uwebset.js:https://openrouter.ai/chat?models=deepseek/deepseek-r1:free?uweb=%s</a>
@@ -299,7 +297,9 @@ AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"作�
 
 <a href="i:00dict.naver:https://dict.naver.com/enendict/english/#/search?query=">dict.naver:https://dict.naver.com/enendict/english/#/search?query=</a>
 
-<a href="i:00柯林斯双解:http://www.iciba.com/">柯林斯双解:http://www.iciba.com/</a>
+<a href="i:00有道词典:https://youdao.com/result?lang=en&word=">有道词典:https://youdao.com/result?lang=en&word=</a>
+
+<a href="i:00词霸:http://www.iciba.com/">词霸:http://www.iciba.com/</a>
 
 <a href="i:00剑桥双解:https://dictionary.cambridge.org/dictionary/english-chinese-simplified/">剑桥双解:https://dictionary.cambridge.org/dictionary/english-chinese-simplified/</a>
 
