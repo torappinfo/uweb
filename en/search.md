@@ -36,6 +36,8 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00giz:https://app.giz.ai/assistant?mode=chat&prompt=">giz:https://app.giz.ai/assistant?mode=chat&prompt=</a>
 
+<a href="i:00longcat:i:0/js/uweb2edit.js:https://longcat.chat/#uweb=%3Cp%3E%s%3C/p%3E">longcat:i:0/js/uweb2edit.js:https://longcat.chat/#uweb=%3Cp%3E%s%3C/p%3E</a>
+
 <a href="i:00lmarena:i:0/js/uwebset.js:https://lmarena.ai/#uweb=%s">lmarena:i:0/js/uwebset.js:https://lmarena.ai/#uweb=%s</a>
 
 <a href="i:00miromind:i:0/js/uwebset.js:https://dr.miromind.ai/#uweb=%s">miromind:i:0/js/uwebset.js:https://dr.miromind.ai/#uweb=%s</a>
