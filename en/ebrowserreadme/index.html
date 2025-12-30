@@ -53,25 +53,27 @@
 <li>much less memory footprint than edge/chrome browser and highly performant.</li>
 <li>keyboard friendly with vim-style keymaps and command line support in address bar.</li>
 <li><a href="https://uweb.surge.sh/en/redirect/index.html#" onclick="if(notRepo()){location='../redirect/index.html#';return false;}">global redirection</a> to bypass censorship.</li>
-<li>user CSS/JS at will. Ex. pressing &quot;md&quot; in no-focus mode to preview markdown file.</li>
+<li>user CSS/JS at will. Ex. pressing <code>md</code> in no-focus mode to preview markdown file.</li>
 <li>global CSS/JS for all sites at will.</li>
 <li>CSS/JS for domains, similar to <a href="https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html">uweb</a>, but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.</li>
 <li>customizable.</li>
 <li>dark theme support.</li>
 </ul>
+<blockquote>
 <p>Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight.</p>
+</blockquote>
 <h2 id="installing-for-windows-macos-and-linux">Installing (for Windows, MacOS and Linux)</h2>
 <h3 id="install-with-prebuilt-binaries">Install with prebuilt binaries</h3>
 <p>You can find prebuilt binaries <a href="https://github.com/torappinfo/ebrowser/releases">here</a>.</p>
 <h3 id="install-ebrowser-and-electron-separatedly-recommended">Install ebrowser and electron separatedly (Recommended)</h3>
 <h4 id="install-ebrowser">Install ebrowser</h4>
-<p>Either download (Click the green &quot;Code&quot; button above the file list =&gt; Select &quot;Download ZIP&quot;) and unzip from</p>
+<p>Either download (Click the green <code>Code</code> button above the file list =&gt; Select <code>Download ZIP</code>) and unzip from</p>
 <pre><code>https://github.com/torappinfo/ebrowser
 </code></pre>
 <p>OR download and unzip ebrowser package directly from any of npm mirror sites like <a href="https://npmmirror.com/package/ebrowser">npmmirror</a> or with nodejs by</p>
 <pre><code>npm install ebrowser
 </code></pre>
-<p>OR download/&quot;git clone&quot; files directly from any of <a href="https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md">mirror repositories</a> and ebrowser is under the folder &quot;misc/ebrowser&quot;.</p>
+<p>OR download/<code>git clone</code> files directly from any of <a href="https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md">mirror repositories</a> and ebrowser is under the folder <code>misc/ebrowser</code>.</p>
 <h4 id="install-electron">Install electron</h4>
 <p>Before you can run ebrowser, you need to install electron either with nodejs by</p>
 <pre><code>npm install electron
@@ -84,8 +86,8 @@
 <pre><code>electron [the-path-of-folder-with-downloaded-ebrowser-files]
 </code></pre>
 <h3 id="update-app-quickly-without-updating-chromium">Update app quickly without updating chromium</h3>
-<p>Pressing &quot;Alt&quot; to show the menu bar and choose &quot;Check for updates&quot; under &quot;Help&quot;. OR</p>
-<p>Type &quot;:update&quot; in the address bar and press &quot;enter&quot; key to update.</p>
+<p>Pressing <code>Alt</code> to show the menu bar and choose <code>Check for updates</code> under <code>Help</code>. OR</p>
+<p>Type <code>:update</code> in the address bar and press <code>enter</code> key to update.</p>
 <h2 id="key-shortcuts">Key shortcuts</h2>
 <ul>
 <li>Alt: show menu</li>
@@ -99,7 +101,7 @@
 <li>CTRL+TAB: switch to next tab</li>
 <li>CTRL+SHIFT+TAB: switch to previous tab</li>
 <li>CTRL+W: close Tab</li>
-<li>CTRL+SHIFT+R: enable global redirection (&quot;gredirect.json&quot;)</li>
+<li>CTRL+SHIFT+R: enable global redirection (<code>gredirect.json</code>)</li>
 <li>CTRL+R: disable global redirection</li>
 <li>ESC: remove focus. similar to vi normal mode.</li>
 <li>F1: Help</li>
@@ -107,12 +109,12 @@
 <li>F12: devtools</li>
 </ul>
 <h2 id="address-bar-commands">Address bar commands</h2>
-<p>Like any popular browser, the very first word in address bar if defined in &quot;search.json&quot; identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:</p>
+<p>Like any popular browser, the very first word in address bar if defined in <code>search.json</code> identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:</p>
 <ul>
 <li>&quot;/&quot; for find-in-page</li>
 <li>&quot;:&quot; for address bar commands
 <ul>
-<li>ac [bookmark/history path w/o ext] : load &quot;.rec&quot; file for autocomplete.</li>
+<li>ac [bookmark/history path w/o ext] : load <code>.rec</code> file for autocomplete.</li>
 <li>b [bookmarkfilename w/o ext] : bookmark current page in file.</li>
 <li>bjs : Browser-level JavaScript execution.</li>
 <li>bml [filename w/o extension] [arguments...]: load/execute the javascript file.</li>
@@ -224,8 +226,8 @@
 <p>You can copy or modify the code/program under the terms of the GPL3.0 or later versions.</p>
 
 </div>
-<p>Last Modified: 12 November 2025<br>
-optimize ebrowser README<br>
+<p>Last Modified: 8 December 2025<br>
+use ` for terms<br>
 <pre></pre>
 </p>
 

@@ -6,13 +6,13 @@ Ebrowser is designed with the philosophy of [Android uweb browser](https://githu
 - much less memory footprint than edge/chrome browser and highly performant.
 - keyboard friendly with vim-style keymaps and command line support in address bar.
 - <a href="https://uweb.surge.sh/en/redirect/index.html#" onclick="if(notRepo()){location='../redirect/index.html#';return false;}">global redirection</a> to bypass censorship.
-- user CSS/JS at will. Ex. pressing "md" in no-focus mode to preview markdown file.
+- user CSS/JS at will. Ex. pressing `md` in no-focus mode to preview markdown file.
 - global CSS/JS for all sites at will.
 - CSS/JS for domains, similar to [uweb](https://jamesfengcao.gitlab.io/uweb/en/sitejs/index.html), but use sitejs/[domain].js or sitecss/[domain].css, not [domain root].js/css.
 - customizable.
 - dark theme support.
 
-Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight.
+> Note: Usually electron apps are heavyweight as they use browsers for simple things. Ebrowser uses core chromium effectively and very lightweight.
 
 ## Installing (for Windows, MacOS and Linux)
 ### Install with prebuilt binaries
@@ -20,7 +20,7 @@ You can find prebuilt binaries [here](https://github.com/torappinfo/ebrowser/rel
 
 ### Install ebrowser and electron separatedly (Recommended)
 #### Install ebrowser
-Either download (Click the green "Code" button above the file list => Select "Download ZIP") and unzip from
+Either download (Click the green `Code` button above the file list => Select `Download ZIP`) and unzip from
 
     https://github.com/torappinfo/ebrowser
 
@@ -28,7 +28,7 @@ OR download and unzip ebrowser package directly from any of npm mirror sites lik
 
     npm install ebrowser
 
-OR download/"git clone" files directly from any of [mirror repositories](https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md) and ebrowser is under the folder "misc/ebrowser".
+OR download/`git clone` files directly from any of [mirror repositories](https://gitlab.com/jamesfengcao/uweb/-/blob/master/en/mirrors.md) and ebrowser is under the folder `misc/ebrowser`.
 
 #### Install electron
 Before you can run ebrowser, you need to install electron either with nodejs by
@@ -46,9 +46,9 @@ OR
     electron [the-path-of-folder-with-downloaded-ebrowser-files]
 
 ### Update app quickly without updating chromium
-Pressing "Alt" to show the menu bar and choose "Check for updates" under "Help". OR
+Pressing `Alt` to show the menu bar and choose `Check for updates` under `Help`. OR
 
-Type ":update" in the address bar and press "enter" key to update.
+Type `:update` in the address bar and press `enter` key to update.
 
 ## Key shortcuts
 - Alt: show menu
@@ -62,7 +62,7 @@ Type ":update" in the address bar and press "enter" key to update.
 - CTRL+TAB: switch to next tab
 - CTRL+SHIFT+TAB: switch to previous tab
 - CTRL+W: close Tab
-- CTRL+SHIFT+R: enable global redirection ("gredirect.json")
+- CTRL+SHIFT+R: enable global redirection (`gredirect.json`)
 - CTRL+R: disable global redirection
 - ESC: remove focus. similar to vi normal mode.
 - F1: Help
@@ -70,10 +70,10 @@ Type ":update" in the address bar and press "enter" key to update.
 - F12: devtools
 
 ## Address bar commands
-Like any popular browser, the very first word in address bar if defined in "search.json" identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:
+Like any popular browser, the very first word in address bar if defined in `search.json` identifies a <a href="https://jamesfengcao.gitlab.io/uweb/en/search/index.html" onclick="if(notRepo()){location='../search/index.html#';return false;}">search engine</a>. Moreover, the address bar serves as command line interface:
 - "/" for find-in-page
 - ":" for address bar commands
-  - ac [bookmark/history path w/o ext] : load ".rec" file for autocomplete.
+  - ac [bookmark/history path w/o ext] : load `.rec` file for autocomplete.
   - b [bookmarkfilename w/o ext] : bookmark current page in file.
   - bjs : Browser-level JavaScript execution.
   - bml [filename w/o extension] [arguments...]: load/execute the javascript file.

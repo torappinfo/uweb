@@ -2,8 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/topposts/</loc>
+    <lastmod>2025-12-30T23:10:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/topposts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/topposts/"
+                />
+  </url><url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/urls/</loc>
+    <lastmod>2025-12-30T23:10:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/urls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/urls/"
+                />
+  </url><url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/</loc>
+    <lastmod>2025-12-30T23:10:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/"
+                />
+  </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/_posts/</loc>
-    <lastmod>2025-12-05T19:03:32+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +52,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://jamesfengcao.gitlab.io/uweb/en/_posts/"
+                />
+  </url><url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/filemanager/</loc>
+    <lastmod>2025-12-05T21:06:12+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/filemanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/filemanager/"
+                />
+  </url><url>
+    <loc>https://jamesfengcao.gitlab.io/uweb/en/tips/</loc>
+    <lastmod>2025-12-05T21:09:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesfengcao.gitlab.io/uweb/zh/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesfengcao.gitlab.io/uweb/en/tips/"
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/input/</loc>
@@ -26,32 +91,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://jamesfengcao.gitlab.io/uweb/en/input/"
-                />
-  </url><url>
-    <loc>https://jamesfengcao.gitlab.io/uweb/en/</loc>
-    <lastmod>2025-12-05T19:03:32+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/"
-                />
-  </url><url>
-    <loc>https://jamesfengcao.gitlab.io/uweb/en/tips/</loc>
-    <lastmod>2025-12-05T19:03:32+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/tips/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/tips/"
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/longclick/</loc>
@@ -81,7 +120,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/</loc>
-    <lastmod>2025-11-06T19:14:30+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -119,19 +158,6 @@
                 href="https://jamesfengcao.gitlab.io/uweb/en/search/"
                 />
   </url><url>
-    <loc>https://jamesfengcao.gitlab.io/uweb/en/topposts/</loc>
-    <lastmod>2025-12-05T07:43:12+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/topposts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/topposts/"
-                />
-  </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/globalcss/</loc>
     <lastmod>2024-10-13T16:43:18+08:00</lastmod>
     <xhtml:link
@@ -152,10 +178,10 @@
     <lastmod>2024-07-12T10:48:12+08:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/clipboard/</loc>
-    <lastmod>2025-11-06T19:14:30+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/</loc>
-    <lastmod>2025-11-06T19:14:30+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -168,7 +194,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/termux/</loc>
-    <lastmod>2025-11-06T19:14:30+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -181,7 +207,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/textprocess/</loc>
-    <lastmod>2025-11-06T19:14:30+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -194,7 +220,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/tags/windows/</loc>
-    <lastmod>2025-11-06T19:14:30+08:00</lastmod>
+    <lastmod>2025-12-08T08:53:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -207,7 +233,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/links/</loc>
-    <lastmod>2025-08-22T08:32:50+08:00</lastmod>
+    <lastmod>2025-12-08T08:49:39+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -377,19 +403,6 @@
                 href="https://jamesfengcao.gitlab.io/uweb/en/bookmarklet/"
                 />
   </url><url>
-    <loc>https://jamesfengcao.gitlab.io/uweb/en/urls/</loc>
-    <lastmod>2025-04-08T23:19:03+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/urls/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/urls/"
-                />
-  </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/cmds/</loc>
     <lastmod>2025-03-30T10:33:26+08:00</lastmod>
     <xhtml:link
@@ -540,7 +553,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/ebrowserreadme/</loc>
-    <lastmod>2025-11-12T20:15:41+08:00</lastmod>
+    <lastmod>2025-12-08T08:44:26+08:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/mirrors/</loc>
     <lastmod>2025-11-12T18:13:17+08:00</lastmod>
@@ -571,7 +584,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/unlist/</loc>
-    <lastmod>2025-11-12T20:15:41+08:00</lastmod>
+    <lastmod>2025-12-08T08:44:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"

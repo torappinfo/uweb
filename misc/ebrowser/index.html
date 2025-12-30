@@ -104,8 +104,6 @@ You should have received a copy of the GNU General Public License along with thi
       mapKeys = JSON.parse(jsonStr);
     }catch(e){}
   });
-  appendAutoc_rec(path.join(__dirname,'default.autoc'),null);
-  appendAutoc_rec(path.join(__dirname,'bookmark.rec'),' ');
 
   function initSearchEngines(jsonStr){
     try{
@@ -278,6 +276,13 @@ You should have received a copy of the GNU General Public License along with thi
       }
       lastVal = null; //trigger full search
     }catch(e){return;}
+  }
+  async function loadAutoc(){
+    await appendAutoc_rec(path.join(__dirname,'default.autoc'),null);
+    await appendAutoc_rec(path.join(__dirname,'bookmark.rec'),' ');
+
+    let inp = document.forms[0].q;
+    autocomplete(inp,inp.nextElementSibling,autocStrArray);
   }
   function keyPress(e){
     var inputE = document.forms[0].q;
@@ -844,12 +849,9 @@ function autocomplete(inp,container,arr) {
   <webview class="curWV" src="about:blank" allowpopups></webview>
   </div>
   <script>
+    loadAutoc();
     tabs = document.body.children[1];
     initTab(tabs.children[0]);
-    {
-      let inp = document.forms[0].q;
-      autocomplete(inp,inp.nextElementSibling,autocStrArray);
-    }
     document.addEventListener('keydown', keyPress);
   </script>
 </body></html>

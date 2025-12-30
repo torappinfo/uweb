@@ -56,7 +56,7 @@
     <li><a href="../tags/windows/index.html#">windows</a> </li>
     
   </ul>
-  <p>Click the following links to install menus for long pressing the button &quot;link&quot;:<br>
+  <p>Click the following links to install menus for long pressing the button <code>link</code>:<br>
 <a href="i:0gdefault.select::Share:/uwebS:%0A">Share</a></p>
 <p><a href="i:0gdefault.select::Edit:/text/html:echo -n %22%3cmeta charset=utf-8%3e%3cbody contenteditable%3e%22;cat%0A">Edit</a></p>
 <p><a href="i:0gdefault.select::AddrBar:/uwebAddr:%0A">Copy text to address bar</a></p>
@@ -66,7 +66,7 @@
 <p><a href="i:0gdefault.select::google Translate:/uweb:printf 'https://translate.google.com/?sl=auto&tl=en&op=translate&text=';cat|tr ' ' '%2B'%0A">google Translate</a></p>
 <p><a href="i:0gdefault.select::bing Translate:/uweb:printf 'https://cn.bing.com/translator/?from=&to=en&text=';cat|tr ' ' '%2B'%0A">bing translate</a></p>
 <p><a href="i:0gdefault.select::deepL:/uweb:printf https://www.deepl.com/translator-mobile#auto/en/;cat|sed 's/ /%2520/g'%0A">deepL</a></p>
-<p>The file &quot;default.select&quot; defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:<br>
+<p>The file <code>default.select</code> defines text processing menus for selected text. If no text is selected, the menu item operates on the whole page. Each line of the file has the following format:<br>
 [Name]:[mimetype]:[command line]</p>
 <p>[mimetype] specifies input/output for [command line].<br>
 It formats as &quot;[input mimetype]/[output mimetype]&quot;.<br>
@@ -97,8 +97,8 @@ To use ssh or scp, users need to install uweb compatible Termux provided on the 
 PCs need command &quot;xsel&quot; available to operate on copy/paste.</p>
 
 </div>
-<p>Last Modified: 6 November 2025<br>
-rewording<br>
+<p>Last Modified: 8 December 2025<br>
+use ` for terms<br>
 <pre></pre>
 </p>
 

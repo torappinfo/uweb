@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href="https://jamesfengcao.gitlab.io/uweb/zh/filemanager/" />
+    <link rel="canonical" href="https://jamesfengcao.gitlab.io/uweb/en/filemanager/" />
     
     <link rel="stylesheet" href="../style.css#" type="text/css" />
-    <title>文件管理器及文件挑选并批量处理</title>
+    <title>File manager</title>
     <script>
       function findLang(){
         let href = location.href;
@@ -29,10 +29,10 @@
   </head>
   <body>
     <header class='header'>
-      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">首页</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">标签</a>
+      <a class="logo" href="javascript:void(0)" onclick="return nav2('index.html#')">Home</a> <a class="logo" href="javascript:void(0)" onclick="return nav2('tags/index.html#')">Tags</a>
       
         
-          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('en')">English</a>
+          <a class="logo" href="javascript:void(0)" onclick="return nav2Lang('zh')">简体中文</a>
         
       
       <nav>
@@ -41,21 +41,23 @@
     <br />
     
 <div class="container">
-  <h1 class="title">文件管理器及文件挑选并批量处理
+  <h1 class="title">File manager
     <br>
     <span class="subtitle"></span>
   </h1>
   <ul class="tags">
     
   </ul>
-  <p><a href="..">超微浏览器</a>访问以&quot;/&quot;结尾 （包括&quot;/?&quot;及后面参数）的&quot;file://&quot; url，则进入文件管理器。</p>
-<p>对任何目录型(以“/”结尾)文件url，后面可附&quot;?[文件前缀][*[文件后缀]]&quot;。譬如&quot;file:///sdcard/?*.png&quot;会列举出&quot;/sdcard&quot;目录下所有.png文件。&quot;?IMG&quot;列举出所有IMG开头的文件。此时可选定文件，并<a target="_self" href="i:0hcheck.js:../searchurl/txt/check.js">安装checked.js</a>对选取文件进行批量处理。</p>
-<p>文件批量处理配置<a href="../textprocess/index.html#">default.select</a>例子：<br>
-图像缩小:checked.js:while read fname;do convert -resize %50x%50 $fname small_$fname; done</p>
+  <p>Visiting file urls ending with &quot;/&quot; enters internal file manager.</p>
+<p>When the current tab is internal file manager, visiting file url for a file shows the content of the file, long pressing button &quot;🕔&quot; -&gt; Editor loads line-based editor for the file. If the file does not exist, saving creates a new file.</p>
+<p>Running any command with address bar with the format &quot;d::command line:&quot; to execute &quot;command line&quot; in the current folder of the internal file manager. Ex:<br>
+&quot;d::touch a.txt:&quot; to create a new file a.txt.<br>
+&quot;d::mkdir subdir:&quot; to create a new folder names &quot;subdir&quot;.<br>
+&quot;d::mv old new:&quot; to rename the file &quot;old&quot; to be &quot;new&quot;.</p>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-add js function in README<br>
+<p>Last Modified: 5 December 2025<br>
+add filemanager.md<br>
 <pre></pre>
 </p>
 
