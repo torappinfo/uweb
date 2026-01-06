@@ -6,8 +6,15 @@
     <description>Recent content in _Posts on uweb browser: unlimited power</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Dec 2025 08:53:33 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 19:39:18 +0800</lastBuildDate>
     <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Html5 applications</title>
+      <link>https://jamesfengcao.gitlab.io/uweb/en/html5/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://jamesfengcao.gitlab.io/uweb/en/html5/</guid>
+      <description>&lt;h3 id=&#34;remotelocal-big-txthtmlmd-files-zstgzbr-compressed-optionally-as-search-engines-or-paged-reader&#34;&gt;remote/local big txt/html/md files (.zst,.gz,.br compressed optionally) as search engines or paged reader&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;i:0/js/reader.html:[remote url]#s=%s&lt;/code&gt;&lt;br&gt;&#xA;is the search engine url for remote/local file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;i:0/js/reader.html:[remote url]&lt;/code&gt;&lt;br&gt;&#xA;is the paged reader for big txt/html files.&lt;/p&gt;&#xA;&lt;p&gt;Users can add a menu item by visiting &lt;a href=&#34;../urls/index.html#&#34;&gt;url services&lt;/a&gt; and clicking the &lt;code&gt;Reader&lt;/code&gt; link. After the menu item is installed and uweb restarts, long pressing any big txt/html/md link --&amp;gt; command --&amp;gt; Reader would load the big file in paged reader, long pressing button &amp;quot;-&amp;gt;&amp;quot; on bottom toolbar --&amp;gt; add as search engine --&amp;gt; change the last part of url from &amp;quot;#p=1&amp;quot; to &amp;quot;#s=%s&amp;quot; and save the engine.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>File manager</title>
       <link>https://jamesfengcao.gitlab.io/uweb/en/filemanager/</link>
@@ -35,13 +42,6 @@
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://jamesfengcao.gitlab.io/uweb/en/longclick/</guid>
       <description>&lt;h4 id=&#34;the-command-submenus&#34;&gt;The &amp;quot;command&amp;quot; submenus&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;File &amp;quot;&lt;a href=&#34;../links/index.html#&#34;&gt;image.link&lt;/a&gt;&amp;quot;: defines &amp;quot;command&amp;quot; submenus of the context menu for images.&lt;/li&gt;&#xA;&lt;li&gt;File &amp;quot;&lt;a href=&#34;../links/index.html#&#34;&gt;download.link&lt;/a&gt;&amp;quot;: &amp;quot;command&amp;quot; submenus for download options menu.&lt;/li&gt;&#xA;&lt;li&gt;File &amp;quot;context.link&amp;quot;: &amp;quot;command&amp;quot; submenus in all other cases.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The &amp;quot;command&amp;quot; submenus can be toggled with &lt;a href=&#34;i:61:../searchurl/func.html&#34;&gt;UI options&lt;/a&gt;. The &amp;quot;command&amp;quot; submenus are default ( service urls or image.link or download.link), links, commands or service urls (default.urls when both link and command options are ticked).&lt;/p&gt;&#xA;&lt;h4 id=&#34;to-run-commands&#34;&gt;To run commands&lt;/h4&gt;&#xA;&lt;p&gt;Each line of file &amp;quot;&lt;a href=&#34;file:///data/data/info.torapp.uweb/files/default.longclick&#34;&gt;default.longclick&lt;/a&gt;&amp;quot; has the following format: (same as &lt;a href=&#34;../cmds/index.html#&#34;&gt;default.cmds&lt;/a&gt;)&lt;br&gt;&#xA;[Name]:[mimetype]:[command line]&lt;br&gt;&#xA;in which [command line] can have &lt;a href=&#34;../cmds/index.html#&#34;&gt;&amp;quot;%c&amp;quot; (cookie), &amp;quot;%u&amp;quot; (current url), &amp;quot;%t&amp;quot; (title)&lt;/a&gt; etc.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Html5 applications</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/html5/</link>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/html5/</guid>
-      <description>&lt;h3 id=&#34;html-as-data-cruncher-and-presenter-using-remote-url-as-data-with-i0m-links&#34;&gt;Html as data cruncher and presenter using remote url as data with &lt;a href=&#34;../links/index.html#&#34;&gt;i:0m links&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The following link can be used to read [remote url] as huge text file, it shows only the first page. Pressing &amp;quot;-&amp;gt;&amp;quot; on the bottom tool bar for next page:&lt;br&gt;&#xA;i:0m/js/view.html:[remote url]#p=1&lt;/p&gt;&#xA;&lt;p&gt;Multiple conversions could be appended to the html file. Ex:&lt;br&gt;&#xA;i:0m/js/view.html#/js/2lnk.js:[remote url]#p=1&lt;br&gt;&#xA;where &amp;quot;/js/2lnk.js&amp;quot; converts urls in the remote text file to clickable links.&lt;/p&gt;&#xA;&lt;p&gt;Any html/js file could be referred with its full path, such as &amp;quot;/sdcard/.../xx.js&amp;quot; as long as uweb has read permission.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSS styles</title>
