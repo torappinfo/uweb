@@ -28,8 +28,6 @@ log: |
 
 <a href="i:00博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s">博查:i:0/js/uweb2ta.js:https://bochaai.com/#01uweb=%s</a>
 
-<a href="i:00minimax:i:0/js/uwebset.js:https://chat.minimax.io#uweb=%s">minimax:i:0/js/uwebset.js:https://chat.minimax.io#uweb=%s</a>
-
 <a href="i:00直答:https://zhida.zhihu.com/?q=">直答:https://zhida.zhihu.com/?q=</a>
 
 <a href="i:00askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s">askmanyai:i:0/js/uweb2ta.js:https://www.askmanyai.cn/chat#uweb=%s</a>
@@ -97,28 +95,32 @@ log: |
 
 <a href="i:00思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s">思知:i:0/js/uweb2ta.js:https://www.sizhi.com#uweb=%s</a>
 
+<a href="i:00秒哒:i:0/js/uweb2edit.js:https://www.miaoda.cn/?uweb=%s">秒哒:i:0/js/uweb2edit.js:https://www.miaoda.cn/?uweb=%s</a>
+
 <a href="i:00天工:i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s">天工:i:0/js/uweb2ta.js:https://www.tiangong.cn?skill_id=100&uweb=%s</a>
 
 <a href="i:00openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s">openperplex:i:0/js/uweb2ta.js:https://openperplex.com#uweb=%s</a>
 
-<a href="i:00gpt5.1:https://local/ht/puter.html?=">gpt5.1:https://local/ht/puter.html?=</a>
+<a href="i:00gpt5.1:https://l/ht/puter.html?=">gpt5.1:https://l/ht/puter.html?=</a>
 
-<a href="i:00DALL·E3:https://local/ht/txt2img.html?">DALL·E3:https://local/ht/txt2img.html?</a>
+<a href="i:00DALL·E3:https://l/ht/txt2img.html?">DALL·E3:https://l/ht/txt2img.html?</a>
 
-<a href="i:00o4-mini:https://local/ht/puter.html?o4-mini=">o4-mini:https://local/ht/puter.html?o4-mini=</a>
+<a href="i:00o4-mini:https://l/ht/puter.html?o4-mini=">o4-mini:https://l/ht/puter.html?o4-mini=</a>
 
-<a href="i:00claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4-5=">claude-sonnet4:https://local/ht/puter.html?claude-sonnet-4-5=</a>
+<a href="i:00claude-sonnet4:https://l/ht/puter.html?claude-sonnet-4-5=">claude-sonnet4:https://l/ht/puter.html?claude-sonnet-4-5=</a>
 
-<a href="i:00claude-opus4:https://local/ht/puter.html?claude-opus-4=">claude-opus4:https://local/ht/puter.html?claude-opus-4=</a>
+<a href="i:00claude-opus4:https://l/ht/puter.html?claude-opus-4=">claude-opus4:https://l/ht/puter.html?claude-opus-4=</a>
 
-<a href="i:00gemini2.5propreview:https://local/ht/puter.html?google/gemini-2.5-pro-preview=">gemini2.5propreview:https://local/ht/puter.html?google/gemini-2.5-pro-preview=</a>
+<a href="i:00gemini2.5propreview:https://l/ht/puter.html?google/gemini-2.5-pro-preview=">gemini2.5propreview:https://l/ht/puter.html?google/gemini-2.5-pro-preview=</a>
 
-<a href="i:00gemini2.5flashpreview:https://local/ht/puter.html?google/gemini-2.5-flash-preview=">gemini2.5flashpreview:https://local/ht/puter.html?google/gemini-2.5-flash-preview=</a>
+<a href="i:00gemini2.5flashpreview:https://l/ht/puter.html?google/gemini-2.5-flash-preview=">gemini2.5flashpreview:https://l/ht/puter.html?google/gemini-2.5-flash-preview=</a>
 
-<a href="i:00grok4:https://local/ht/puter.html?x-ai/grok-4=">grok4:https://local/ht/puter.html?x-ai/grok-4=</a>
+<a href="i:00grok4:https://l/ht/puter.html?x-ai/grok-4=">grok4:https://l/ht/puter.html?x-ai/grok-4=</a>
 
 
 AI引擎 (搜索窗口可见时生效，超微浏览器"%s"后添加"%250D"作为Enter↵或"%250D%250A"作为Ctrl+Enter↵自动发送，两次解码后"%250D"->"%0D"->发送键。另外"10uweb="中的"10"表示等待时间，单位为0.1秒。初始化耗时的网站可用。)：  
+<a href="i:00minimax:i:0/js/uweb2edit2.js:https://agent.minimaxi.com/#uweb=%s">minimax:i:0/js/uweb2edit2.js:https://agent.minimaxi.com/#uweb=%s</a>
+
 <a href="i:00当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s">当贝:i:0/js/uweb2edit2.js:https://ai.dangbei.com/chat#10uweb=%s</a>
 
 <a href="i:00当贝s:i:0/js/uweb2edit2.js#0:https://ai.dangbei.com/search#10uweb=%s">当贝s:i:0/js/uweb2edit2.js#0:https://ai.dangbei.com/search#10uweb=%s</a>
