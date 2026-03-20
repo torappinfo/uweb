@@ -42,6 +42,22 @@
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
 </span>
 
+#### More mirrors (for version 1131+)
+<a href="i:ch%253cmeta:%253e:https://bbs.archlinux.org/viewtopic.php?id=129973">arch</a>
+<a href="i:5hhttps://pastebin.com/raw/DCQ0kNEy">pastebin</a>
+<a href="i:5hhttps://snippet.host/cgrsgw/raw">host</a>
+<a href="i:ch%253cmeta:%253e:https://www.cnblogs.com/uweb/p/19186230">cnblogs</a>
+<a href="i:ch%253cmeta:%253e:https://registry.npmmirror.com/ebrowser/latest">npm</a>
+<a href="i:ch%26lt;:%26gt;:https://snippets.cacher.io/snippet/aee497272c19811ee919">cacher</a>
+<a href="i:0UA1:i:ch%253cmeta:%253e:https://www.douban.com/group/topic/335836878/?_spm_id=Mjc5ODU0MDcy">dou</a>
+<a href="i:ch%20%253cmeta:%253e:https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=32981&_dsign=5a39f06a">pdawiki</a>
+<a href="i:ch%253cmeta:%253e:https://www.4d4y.com/forum/viewthread.php?tid=3403454">4d4y</a>
+<a href="i:ch%253cmeta:%253e:https://xycq.org.cn/forum/thread-310888-1-1.html">xycq</a>
+<a href="i:ch%253cmeta:%253e:https://tiexuedanxin.net/forum.php?mod=viewthread&tid=1069669">txdx</a>
+<a href="i:ch%253cmeta:%253e:https://unpkg.com/ebrowser/README.md">unpkg</a>
+<a href="https://uwebbrowser.sourceforge.io">sf</a>
+<a href="https://uweb.w8.quuq.dev">w8</a>
+
 #### Repositories
 [gitlab](https://gitlab.com/jamesfengcao/uweb)
 [sourceforge](https://sourceforge.net/p/uwebbrowser)
