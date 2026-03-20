@@ -3,20 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/_posts/</loc>
-    <lastmod>2026-01-06T19:39:18+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/_posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/_posts/"
-                />
+    <lastmod>2026-02-17T16:44:21+08:00</lastmod>
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/html5/</loc>
-    <lastmod>2026-01-06T19:39:18+08:00</lastmod>
+    <lastmod>2026-01-18T20:50:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -29,7 +19,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/</loc>
-    <lastmod>2026-01-06T19:39:18+08:00</lastmod>
+    <lastmod>2026-02-17T16:44:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -43,16 +33,6 @@
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/topposts/</loc>
     <lastmod>2026-01-06T18:58:25+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/topposts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/topposts/"
-                />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/urls/</loc>
     <lastmod>2025-12-31T21:21:32+08:00</lastmod>
@@ -330,7 +310,7 @@
                 />
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/bookmark/</loc>
-    <lastmod>2025-01-26T11:19:15+08:00</lastmod>
+    <lastmod>2026-02-17T16:44:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -585,15 +565,5 @@
   </url><url>
     <loc>https://jamesfengcao.gitlab.io/uweb/en/unlist/</loc>
     <lastmod>2025-12-08T08:44:26+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesfengcao.gitlab.io/uweb/zh/unlist/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesfengcao.gitlab.io/uweb/en/unlist/"
-                />
   </url>
 </urlset>
