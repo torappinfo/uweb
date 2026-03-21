@@ -67,18 +67,19 @@
 <li>Long press the button &quot;settings&quot;, check the option &quot;Apply user styles&quot;.</li>
 </ul>
 <p>If file &quot;default.css&quot; exists, the style will be applied to all sites not matching [domain root].css.</p>
-<h3 id="extra-html-and-preprocessing">Extra html and preprocessing</h3>
+<h3 id="preprocessing-or-extra-html">Preprocessing or extra html</h3>
 <ul>
-<li>Need to be named as &quot;[domain].html&quot;. Notice: the file name stem here is &quot;[full domain]&quot; not &quot;[domain root]&quot;.</li>
+<li>Need to be named as &quot;[domain].sanitizer&quot; or &quot;[domain].html&quot;. Notice: the file name stem here is &quot;[full domain]&quot; not &quot;[domain root]&quot;.</li>
 <li>Under folder &quot;siteextra&quot;.</li>
 <li>Long press the button &quot;settings&quot;, check the option &quot;Apply user extra&quot;.</li>
 </ul>
+<p>&quot;[domain].sanitizer&quot; is a js file providing variable &quot;sanitizer&quot; as sanitizer API instance. It has priority over &quot;[domain].html&quot;. The &quot;sanitizer&quot; is used to sanitize the web page for android webview version 146+.</p>
 <p>An open tag as the last tag in the last 50 bytes of the user extra html expects more content to follow, thus the extra html is placed before the site html. Ex. when the extra html ends with &quot;&lt;textarea&gt;&quot; or &quot;&lt;plaintext&gt;&quot;, the site source html appears as the value of the textarea/plaintext element, thus the extra html can further process the the site source html before rendering. A self closed tag such as &quot;&lt;br&gt;&quot; acts like open tags, also makes the site source follow the extra html.</p>
 <p>&quot;sitejs/.js&quot;, &quot;sitecss/.css&quot;, &quot;sitecss/.js&quot; and &quot;siteextra/.html&quot; are applied to all non-http urls (file urls etc.).</p>
 
 </div>
-<p>Last Modified: 2 April 2024<br>
-support .js files under &#39;css&#39; folder<br>
+<p>Last Modified: 21 March 2026<br>
+uweb1148: siteextra/[domain.sanitizer] support<br>
 <pre></pre>
 </p>
 
