@@ -6,7 +6,7 @@
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">Downloads</a>
 
 [Uweb browser: downloads, plugins and tips](https://torappinfo.github.io/uweb/en/)  
-(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [frama](https://torappinfo.frama.io/uweb/en/) [codeberg](https://jamesfengcao.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [fleek](https://uweb.on-fleek.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [zeabur](https://uweb.zeabur.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
+(Mirrors: [gitlab](https://jamesfengcao.gitlab.io/uweb/en/) [frama](https://torappinfo.frama.io/uweb/en/) [codeberg](https://uweb.codeberg.page/en/) [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/en/index.html) [fleek](https://uweb.on-fleek.app/en/) [netlify](https://uwebzh.netlify.app/en/) [surge](https://uweb.surge.sh/en/) [kinsta](https://uwebbrowser-t27o4.kinsta.page) [zeabur](https://uweb.zeabur.app/en/) [bitbucket](https://torappinfo.bitbucket.io/en/) [pages](https://muweb.pages.dev/en/) [vercel](https://uweb.vercel.app/en/) [render](https://uweb.onrender.com/en/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">More...</a>)
 
  - <a href="en/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI chat as search engine</a>; optimized UI for both AI and traditional search; [input helpers](https://uwebzh.netlify.app/en/input/index.html#) for complex query.
 - <a href="en/tips.md" onclick="if(notRepo()){location='../redirect/index.html#';return false;}">Global redirection</a> to bypass censorship. 
@@ -17,7 +17,7 @@
 - Powerful: any native functionality with html5 enhancement and still secure; any urls to host website; javascript and shell scripting for general processing.
 - Customizable: user-defined menus, (new) buttons and gestures for user agents, bookmarklets, url services, shell commands, internal functionality links and text processing etc.
 - URL bar command line support ("!" and .js file as command).
-- Site-specific JS/CSS/HTML/preprocessing.
+- Site-specific JS/CSS/HTML/preprocessing, ex. "siteextra/[domain.sanitizer]" support.
 - Online play/preview/preprocess for downloadable resources.
 - Multiple type profiles: switch any data including website logins, user configurations orthogonally.
 - Supports enhanced user "hosts" file. Empty IP address to lift all server-imposed limitations.
