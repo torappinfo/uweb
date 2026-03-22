@@ -57,7 +57,7 @@
 <a target="_self" href='i:0hbookmarklet/eruda.js:https://fastly.jsdelivr.net/npm/eruda:%0Aeruda.init()'>Eruda</a></p>
 <p><a target="_self" href="i:0hbookmarklet/performance.js:https://fastly.jsdelivr.net/gh/micmro/performance-bookmarklet/dist/performanceBookmarklet.min.js">Performance</a><br>
 <a target="_self" href="i:0hbookmarklet/移除覆盖物.js:../searchurl/bml/content/rmo.js">移除覆盖物</a></p>
-<p>注意：文件名以&quot;!&quot;开头的大型脚本可以无视CSP装载其它远程脚本。</p>
+<p>注意：文件名以&quot;!&quot;开头的大型脚本可以无视CSP装载其它远程脚本 (需选项“激活用户脚本”)。</p>
 <p><b>远程脚本</b>配置文件default.rjs样列如下，点击以下链接自动安装 (清空后台重启浏览器，长按搜索按钮，则弹出远程脚本菜单)：</p>
 <p><a href="i:04Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
 <p><a href="i:04Selection to line:;let g='line';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to line:;let g='line';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
@@ -66,14 +66,14 @@
 <p><a href="i:04新窗口打开链接:;let d=document;b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)">新窗口打开链接:;let d=document;b=d.createElement('base');b.setAttribute('target','_blank');d.head.appendChild(b)</a></p>
 <p><a href="i:04站内搜索:;open('i:15site:' + location.hostname)">站内搜索:;open('i:15site:' + location.hostname)</a></p>
 <p><a href="i:04编辑器拼写检查:;let t=document.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v">编辑器拼写检查:;let t=document.getElementsByTagName('textarea');let v=t[0].spellcheck;if(v==null)v=false;t[0].spellcheck=!v</a></p>
-<p>远程及小型脚本可安装到default.rjs文件中。远程脚本对CSP网站仍然有效。：<br>
+<p>远程及小型脚本可安装到default.rjs文件中。远程脚本对CSP网站仍然有效(需选项“激活用户脚本”)。：<br>
 <a target="_self" href="i:0gdefault.rjs:../searchurl/txt/rjs.cfg">点击安装背景图等</a></p>
 <p>远程脚本配置文件default.rjs每行格式如下 (url部分支持js代码运算)：<br>
 [远程脚本名]:[返回url数组的javascript代码]</p>
 <p>其中url可以为本地http脚本地址。譬如'https://l/app...' (<a href="../html5/index.html#">本地html5应用</a>或<a href="../offlinecache/index.html#">离线缓存</a>)。此时，js脚本也可使用<a href="../links/index.html#">.link文件</a>方式调用。</p>
 
 </div>
-<p>Last Modified: 20 March 2026<br>
+<p>Last Modified: 22 March 2026<br>
 markdown rjs to use marked<br>
 <pre></pre>
 </p>
