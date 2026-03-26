@@ -64,7 +64,7 @@
 <li>[fullpath-to-js-file]#[argument]</li>
 <li>[bookmarklet index] beginning with two digits followed by bookmarklet function argument. They are used as index of bootmarklet. For example, &quot;00&quot; as the first local bookmarklet; &quot;01&quot; as the first remote script; then &quot;02&quot; as the second local bookmarklet, ...</li>
 </ul>
-<p>Note: Bookmarklets whose names begin with &quot;!&quot; are allowed to load remote js on CSP (Content Security Policy) sites with setting option &quot;Activate user script&quot;.</p>
+<p>Note: Bookmarklets whose names begin with &quot;!&quot; are allowed to load remote js on CSP (Content Security Policy) sites.</p>
 <p><b>Remote javascript</b> is defined in default.rjs. Click the following link to install. (<b>Force exit and re-launch the app</b>, then long press the &quot;search&quot; button to popup the menu.)：</p>
 <p><a href="i:04Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to sentence:;let g='sentence';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
 <p><a href="i:04Selection to line:;let g='line';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);">Selection to line:;let g='line';getSelection().modify('move','forward',g);getSelection().modify('extend','backward',g);</a></p>
@@ -80,12 +80,12 @@
 <h4 id="activated-scripts">Activated scripts</h4>
 <p>Activate either local (bookmarklets) or remote js to execute the code on the similar sites with option &quot;Activate user script&quot;.</p>
 <p>Since activated scripts use internal mechanism of <a href="../links/index.html#">&quot;i:0m&quot; urls</a>, the script itself cannot have <span style="color:red">'H', '?' or '/'</span> as its very first character.</p>
-<h5 id="allow-remote-js-on-csp-content-security-policy-sites">Allow remote js on CSP (Content Security Policy) sites</h5>
+<h4 id="allow-remote-js-on-csp-content-security-policy-sites">Allow remote js on CSP (Content Security Policy) sites</h4>
 <p>All remote js (default.rjs) are allowed to execute on CSP sites. Local js files without remote resource access work fine when under the folder &quot;bookmarklet&quot;; for those needing remote resource, file name must begin with &quot;!&quot;. Others needs to be refered in default.rjs as http urls such as &quot;https://l/app...&quot; (<a href="../html5/index.html#">html5</a> or <a href="../offlinecache/index.html#">offline cache</a>) .</p>
 
 </div>
-<p>Last Modified: 22 March 2026<br>
-update AI engines<br>
+<p>Last Modified: 26 March 2026<br>
+revert back doc on js with CSP sites<br>
 <pre></pre>
 </p>
 

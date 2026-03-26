@@ -51,7 +51,7 @@
     
   </ul>
   <p>With <a href="../index.html#">uweb browser</a>, long pressing any bookmarklet link, click &quot;Open in new tab&quot;, the bookmarklet will be run on the last other tab.</p>
-<p><a href="javascript:{let es=document.getElementsByTagName('script');let urls='';for(let i=0;i<es.length;i++){if(es[i].src)urls+=es[i].src+'<br>';}let w=window.open(''),s=w.document;s.write(urls);s.close();w.location.href='i:631:';}">List all script urls</a></p>
+<p><a href="javascript:{let es=document.getElementsByTagName('script');let urls='';for(let i=0;i<es.length;i++){if(es[i].src)urls+=es[i].src+'<br>';}let w=window.open(''),s=w.document;s.write(urls);s.close();}">List all script urls</a></p>
 <p><a target="_self" href="javascript:alert(navigator.userAgent)">User agent</a><br>
 <a href="javascript:(function(){var w=window.open(''),s=w.document;s.write('<html><body></body></html>');s.close();var pre=s.body.appendChild(s.createElement('pre'));pre.style.overflow='auto';pre.style.whiteSpace='pre-wrap';pre.appendChild(s.createTextNode(document.cookie))})()">Cookie</a><br>
 <a href="javascript:(function(){var w=window.open(''),s=w.document;s.write('<html><body></body></html>');s.close();var pre=s.body.appendChild(s.createElement('pre'));pre.style.overflow='auto';pre.style.whiteSpace='pre-wrap';pre.appendChild(s.createTextNode(document.documentElement.innerHTML))})()">Source code</a><br>
@@ -72,8 +72,8 @@
 <p><a href="javascript: (function() { var url = ('http://www.bugmenot.com/view/' + escape(location.hostname)); w = open(url, 'w', 'location=no,status=yes,menubar=no,scrollbars=yes,resizable=yes,width=500,height=400,modal=yes,dependent=yes'); if (w) { setTimeout('w.focus()', 1000) } else { location = url } })();">BugMeNot</a></p>
 
 </div>
-<p>Last Modified: 11 June 2024<br>
-fix typos<br>
+<p>Last Modified: 24 March 2026<br>
+revert back doc on js with CSP sites<br>
 <pre></pre>
 </p>
 
