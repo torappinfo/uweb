@@ -4,8 +4,6 @@
 
 [![](https://stc.utdstc.com/img/mediakit/download-gio-big.png)](https://uweb-browser-for-geeks.en.uptodown.com/android "uweb")
 
-[powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
-
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
 
 [infinicloud](https://uno.teracloud.jp/share/1162dfa8376e1609)
@@ -20,7 +18,11 @@
 
 [tildegit](https://tildegit.org/jamesfengcao/uweb/releases)
 
-[worktree] (https://worktree.ca/jamesfengcao/uweb/releases)
+[powerfolder](https://my.powerfolder.com/getlink/fi61cC6VHjK72tfufmnLAz/)
+
+[worktree](https://worktree.ca/jamesfengcao/uweb/releases)
+
+[codefloe](https://codefloe.com/jamesfengcao/uweb/releases)
 
 [NotABug](https://notabug.org/torappinfo/uweb/releases)
 
@@ -29,7 +31,5 @@
 [baidu](https://pan.baidu.com/s/17coQj6DCHqghMMNJUyjgrA#list/path=%2Fuweb)
 
 [蓝奏](https://pan.lanzouu.com/b0qpxnob)
-
-
 
 
