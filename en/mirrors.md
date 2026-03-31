@@ -15,7 +15,6 @@
 [jsdelivr](https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html#)
 [dagshub](https://dagshub.com/torappinfo/uweb/raw/master/redirect.html#)
 [gitgud](https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html#)
-[gitly](https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html#)
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [tilde](https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
@@ -38,7 +37,6 @@
 <a href="i:0mi:5h:https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html">18</a>
 <a href="i:0m?:https://dagshub.com/torappinfo/uweb/raw/master/redirect.html">19</a>
 <a href="i:0mi:5h:https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html">20</a>
-<a href="i:0m?:https://gitly.org/jamesfengcao/uweb/raw/master/redirect.html">gitly</a>
 <a href="i:0m?:https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html">gitnet</a>
 <a href="i:0m?:https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html">tilde</a>
 <a href="i:0m?:https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html">antopie</a>
@@ -56,6 +54,7 @@
 <a href="i:ch%253cmeta:%253e:https://www.4d4y.com/forum/viewthread.php?tid=3403454">4d4y</a>
 <a href="i:ch%253cmeta:%253e:https://xycq.org.cn/forum/thread-310888-1-1.html">xycq</a>
 <a href="i:ch%253cmeta:%253e:https://tiexuedanxin.net/forum.php?mod=viewthread&tid=1069669">txdx</a>
+<a href="i:ch%253cmeta:%253e:https://bbs.wuyou.net/forum.php?mod=viewthread&tid=40124">wuyou</a>
 <a href="i:ch%253cmeta:%253e:https://unpkg.com/ebrowser/README.md">unpkg</a>
 <a href="https://uwebbrowser.sourceforge.io">sf</a>
 <a href="https://uweb.w8.quuq.dev">w8</a>

@@ -1,5 +1,6 @@
 {
   "b":"https://www4.bing.com/search?q=%s",
+  "xs":"https://www.xseari.com/search/?q=%s",
   "md":"i:0/js/uweb2edit.js:https://www.miaoda.cn/?uweb=%s",
   "n":"https://www.n.cn/chathome?q=%s",
   "z":"https://chat.z.ai/?q=%s",

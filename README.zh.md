@@ -3,7 +3,6 @@
 <a href="zh/donate.md" onclick="if(notRepo()){location='../searchurl/donate.html#';return false;}">捐赠</a>
 
 
-[Amazon appstore](https://www.amazon.com/TorApp-Info-uweb-browser-for-geeks/dp/B098QPR6N5)
 [Galaxy.Store](https://galaxystore.samsung.com/detail/info.torapp.uweb)
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">下载</a>
 
