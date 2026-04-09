@@ -5,7 +5,7 @@
 [tngl](https://tangled.org/@uweb.tngl.sh/uweb/raw/master/redirect.html#)
 [codefloe](https://codefloe.com/jamesfengcao/uweb/raw/master/redirect.html#)
 [worktree](https://worktree.ca/jamesfengcao/uweb/raw/master/redirect.html#)
-[notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
+
 [launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
 [framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
 [disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
@@ -18,7 +18,10 @@
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [tilde](https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[sij](https://sij.ai/jamesfengcao/uweb/raw/master/redirect.html#)
+[repobase](https://repobase.net/jamesfengcao/uweb/raw/master/redirect.html#)
 [bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
+[notabug](https://notabug.org/torappinfo/uweb/raw/master/redirect.html#)
 
 #### Mirrors (for all versions)
 <span>
