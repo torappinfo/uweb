@@ -6,7 +6,6 @@
 [codefloe](https://codefloe.com/jamesfengcao/uweb/raw/master/redirect.html#)
 [worktree](https://worktree.ca/jamesfengcao/uweb/raw/master/redirect.html#)
 
-[launchpad](https://git.launchpad.net/uweb/plain/redirect.html#)
 [framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
 [disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
 [gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html#)
@@ -17,7 +16,9 @@
 [gitgud](https://gitgud.io/jamesfengcao/uweb/-/raw/master/redirect.html#)
 [gitnet](https://gitnet.fr/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [tilde](https://tildegit.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[cryto](https://git.cryto.net/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
+[chapril](https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [sij](https://sij.ai/jamesfengcao/uweb/raw/master/redirect.html#)
 [repobase](https://repobase.net/jamesfengcao/uweb/raw/master/redirect.html#)
 [bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
@@ -30,7 +31,6 @@
 <a href="i:0mi:5h?format=raw::https://sourceforge.net/p/uwebbrowser/code/ci/master/tree/redirect.html">6</a>
 <a href="i:0mi:5h?format=raw::https://rocketgit.com/user/torappinfo/uweb/source/tree/branch/master/blob_download/redirect.html">7</a>
 <a href="i:0m?:https://notabug.org/torappinfo/uweb/raw/master/redirect.html">8</a>
-<a href="i:0mi:5h:https://git.launchpad.net/uweb/plain/redirect.html">9</a>
 <a href="i:0m?:https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html">10</a>
 <a href="i:0m?:https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html">13</a>
 <a href="i:0m?:https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html">14</a>
