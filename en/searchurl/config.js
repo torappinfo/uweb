@@ -1,4 +1,4 @@
-let labels = ["<a href='https://codeberg.org/uweb/pages/raw/branch/master/en/redirect/index.html#'>Global redirect url</a>","Download path (with option 'Download to sdcard')","Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
+let labels = ["<a href='https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/redirect/index.html#'>Global redirect url</a>","Download path (with option 'Download to sdcard')","Default font","Cursive","Fantasy","Fixed","Sans-Serif","Serif"];
 let names = ["redirecturl","downloadpath","font","cursive","fantasy","fixed","sansserif","serif"];
 
 let d=document;
@@ -18,7 +18,7 @@ function save(){
   let d=document;let f=d.forms[0];
   let inputs = Array.from(f.querySelectorAll('input')).map(input => input.value);
   inputs.pop();
-  inputs.push('<script charset="utf-8" src="https://jamesfengcao.codeberg.page/en/searchurl/config.js"><\\/script>');
+  inputs.push('<script charset="utf-8" src="https://cdn.jsdelivr.net/gh/torappinfo/uweb/en/searchurl/config.js#"><\\/script>');
   let str = inputs.join('\\n');
   let url = 'i:b1Save config.html%0A%0Ai:8lconfig.html%0Ai:0lconfig.html:'+btoa(str);
   d.location.href=url;
