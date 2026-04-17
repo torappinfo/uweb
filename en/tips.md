@@ -9,7 +9,7 @@ tags: [redirection]
 "Url redirection" redirects the main/page url only while "Resource redirection" is for all urls in the page.
 
 #### Global redirection
-<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/en/searchurl/config.html">Global redirection</a> is enabled with the setting option "Resource redirection" or both "Url redirection" and "Redirect cookies".
+<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://codeberg.org/uweb/pages/raw/branch/master/en/searchurl/config.html">Global redirection</a> is enabled with the setting option "Resource redirection" or both "Url redirection" and "Redirect cookies".
 
 When a valid global redirection url is set, the "default.redirect" has no effect, and any url resource is fetched with the new url by appending the original url to the global redirection url.
 

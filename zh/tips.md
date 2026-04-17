@@ -5,7 +5,7 @@ date: 2024-12-12
 ⚠️<span style="color:red">重定向转发cookie</span>设置选项可允许登录情况下操作全局重定向下的网站，请确认全局重定向网址安全可靠，谨慎使用。
 
 #### 全局重定向
-长按设置，选中"自定义资源重定向"。此时如果<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://jamesfengcao.codeberg.page/zh/searchurl/config.html">全局重定向url</a>为有效网址，
+长按设置，选中"自定义资源重定向"。此时如果<a href="i:60/data/data/info.torapp.uweb/files/config.html:https://codeberg.org/uweb/pages/raw/branch/master/zh/searchurl/config.html">全局重定向url</a>为有效网址，
 - 且最后一个字符为'/'、'?'或'='，则所有网络访问被内部重定向至url:  
 "[全局重定向url]+[原始url]"。
 - 如果没有以上述字符结尾，则意味着“光秃秃”。所有网络访问被内部重定向至url:  
