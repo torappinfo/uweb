@@ -9,7 +9,6 @@
 [framagit](https://framagit.org/torappinfo/uweb/-/raw/master/redirect.html#)
 [disroot](https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html#)
 [gitdab](https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html#)
-[pagure](https://pagure.io/uweb/raw/master/f/redirect.html#)
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/raw/master/redirect.html#)
 [jsdelivr](https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html#)
 [dagshub](https://dagshub.com/torappinfo/uweb/raw/master/redirect.html#)
@@ -35,7 +34,6 @@
 <a href="i:0m?:https://git.disroot.org/torappinfo/uweb/raw/branch/master/redirect.html">13</a>
 <a href="i:0m?:https://gitdab.com/jamesfengcao/uweb/raw/branch/master/redirect.html">14</a>
 <a href="i:0mi:5h/xxxx/?path=::https://dev.azure.com/jamesfengcao/1d8bf6c7-7c24-4441-bc5e-9709dcaf37fc/_apis/git/repositories/2a588d9b-f25a-46c0-bb3b-f685c635fcf8/itemsxxxx/redirect.html">15</a>
-<a href="i:0mi:5h:https://pagure.io/uweb/raw/master/f/redirect.html">16</a>
 <a href="i:0m?:https://bitbucket.org/torappinfo/torappinfo.bitbucket.io/raw/master/redirect.html">17</a>
 <a href="i:0mi:5h:https://fastly.jsdelivr.net/gh/torappinfo/uweb/redirect.html">18</a>
 <a href="i:0m?:https://dagshub.com/torappinfo/uweb/raw/master/redirect.html">19</a>
@@ -67,19 +65,17 @@
 [sourceforge](https://sourceforge.net/p/uwebbrowser)
 [github](https://github.com/torappinfo/uweb)
 [bitbucket](https://bitbucket.org/torappinfo/torappinfo.bitbucket.io)
-[codeberg](https://codeberg.org/jamesfengcao/pages/src/branch/master/README.md)
+[codeberg](https://codeberg.org/jamesfengcao/pages)
 [gitee](https://gitee.com/jamesfengcao/uweb)
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb)
 [gitgud](https://gitgud.io/jamesfengcao/uweb)
-[disroot](https://git.disroot.org/torappinfo/uweb/src/branch/master/README.md)
-[gitea](https://gitea.com/torappinfo/uweb/src/branch/master/README.md)
+[disroot](https://git.disroot.org/torappinfo/uweb)
+[gitea](https://gitea.com/torappinfo/uweb)
 [framagit](https://framagit.org/torappinfo/uweb)
-[gitdab](https://gitdab.com/jamesfengcao/uweb/src/branch/master/README.md)
-[pagure](https://pagure.io/uweb/blob/master/f/README.md)
-[dagshub](https://dagshub.com/torappinfo/uweb/src/master/README.md)
-[gitnet](https://gitnet.fr/jamesfengcao/uweb/src/branch/master/README.md)
-[tilde](https://tildegit.org/jamesfengcao/uweb/src/branch/master/README.md)
-[antopie](https://code.antopie.org/jamesfengcao/uweb/src/master/README.md)
+[gitdab](https://gitdab.com/jamesfengcao/uweb)
+[gitnet](https://gitnet.fr/jamesfengcao/uweb)
+[tilde](https://tildegit.org/jamesfengcao/uweb)
+[antopie](https://code.antopie.org/jamesfengcao/uweb)
 [tngl](https://tangled.org/@uweb.tngl.sh/uweb/blob/master/README.md)
 [codefloe](https://codefloe.com/jamesfengcao/uweb)
 [worktree](https://worktree.ca/jamesfengcao/uweb)
