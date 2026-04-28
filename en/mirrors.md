@@ -19,11 +19,10 @@
 [antopie](https://code.antopie.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [chapril](https://forge.chapril.org/jamesfengcao/uweb/raw/branch/master/redirect.html#)
 [lava](https://lavaforge.org/jamesfengcao/uweb/raw/master/redirect.html#)
-[gitport](https://gitport.de/jamesfengcao/uweb/raw/master/redirect.html#)
 [sij](https://sij.ai/jamesfengcao/uweb/raw/master/redirect.html#)
 [repobase](https://repobase.net/jamesfengcao/uweb/raw/master/redirect.html#)
 [drgnz](https://git.drgnz.club/jamesfengcao/uweb/raw/master/redirect.html#)
-[bgithub](https://bgithub.xyz/torappinfo/uweb/raw/master/redirect.html#)
+[gitcode](https://raw.gitcode.com/uweb/uweb/raw/master/redirect.html#)
 
 #### Mirrors (for all versions)
 <span>

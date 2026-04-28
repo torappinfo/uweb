@@ -12,10 +12,8 @@ date: 2024-12-12
 "[全局重定向url]+'/'+[scheme]+'/'+[原始域名和路径]"
 
 Examples:  
-"https://muweb.pages.dev/redirect?"  
+"https://xxx.pages.dev/redirect?"  
 "https://xxx.workers.dev/"
-
-使用仓库 "https://github.com/torappinfo/fetch" 入口"deno.js" [部署Deno](https://deno.com/deploy)
 
 [创建免费重定向，说明类似但代码不同](https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/创建魔法链接/详细教学/CloudflareWorker创建创建魔法链接.md)
 
@@ -23,7 +21,17 @@ Examples:
 [val.town 全局重定向代码](../../en/searchurl/val.town/redirect.js)  
 [vercel 全局重定向](https://github.com/torappinfo/vercel)  
 
+部署 cloudflare Pages：
+  - 在 Github 上先 Fork `https://github.com/torappinfo/uweb`，并点上 Star !!!
+  - 在 CF Pages 控制台中选择 `连接到 Git`后，选中 `uweb`项目。
+  - [可选] 给Pages绑定 CNAME自定义域名：[视频教程](https://www.youtube.com/watch?v=LeT4jQUh8ok&t=851s)
+    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
+    - 按照 CF 的要求将返回你的域名DNS服务商。
+  - 使用 `https://xxx.pages.dev/redirect?` 作为全局重定向url。
+
 使用仓库 "https://github.com/torappinfo/redirect.genez" [部署genez.io](https://genez.io)
+
+使用仓库 "https://github.com/torappinfo/fetch" 入口"deno.js" [部署Deno](https://deno.com/deploy)
 
 #### 重定向文件 "default.redirect" (仅在无有效全局重定向url时生效)
 <a target="_self" href="i:0gdefault.redirect:../searchurl/txt/redirect.cfg">点击添加google recaptcha国内镜像</a>
