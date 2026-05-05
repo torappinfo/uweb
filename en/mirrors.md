@@ -40,7 +40,6 @@
 <a href="i:5hhttps://snippet.host/cgrsgw/raw">host</a>
 <a href="i:ch%253cmeta:%253e:https://www.cnblogs.com/uweb/p/19186230">cnblogs</a>
 <a href="i:ch%253cmeta:%253e:https://registry.npmmirror.com/ebrowser/latest">npm</a>
-<a href="i:ch%26lt;:%26gt;:https://snippets.cacher.io/snippet/aee497272c19811ee919">cacher</a>
 <a href="i:0UA1:i:ch%253cmeta:%253e:https://www.douban.com/group/topic/335836878/?_spm_id=Mjc5ODU0MDcy">dou</a>
 <a href="i:ch%20%253cmeta:%253e:https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=32981&_dsign=5a39f06a">pdawiki</a>
 <a href="i:ch%253cmeta:%253e:https://www.4d4y.com/forum/viewthread.php?tid=3403454">4d4y</a>

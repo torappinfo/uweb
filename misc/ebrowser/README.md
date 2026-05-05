@@ -1,5 +1,5 @@
-<!--%3cmeta http-equiv=refresh content=%220;url=%68ttps://gitee.com/jamesfengcao/uweb/raw/master/redirect.html#%22%3e-->
-[![zread](https://img.shields.io/badge/Ask_Zread-_.svg)](https://zread.ai/torappinfo/ebrowser)
+<!--%3cmeta http-equiv=refresh content=%220;url=%68ttps://raw.giteeusercontent.com/jamesfengcao/uweb/raw/master/redirect.html#%22%3e-->
+[![zread](https://img.shields.io/badge/Zread-_.svg)](https://zread.ai/torappinfo/ebrowser)
 # [Ebrowser](https://github.com/torappinfo/ebrowser): keyboard-friendly minimal suckless web browser
 Ebrowser is designed with the philosophy of [Android uweb browser](https://github.com/torappinfo/uweb) ([gitlab](https://gitlab.com/jamesfengcao/uweb)).
 
