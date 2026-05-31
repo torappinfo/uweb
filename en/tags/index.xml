@@ -1,96 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on uweb browser: unlimited power</title>
-    <link>https://jamesfengcao.gitlab.io/uweb/en/tags/</link>
-    <description>Recent content in Tags on uweb browser: unlimited power</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 16:45:02 +0800</lastBuildDate>
-    <atom:link href="https://jamesfengcao.gitlab.io/uweb/en/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Javascript</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/javascript/</link>
-      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Clipboard</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/clipboard/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/clipboard/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ssh</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Termux</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/termux/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/termux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/windows/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/windows/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Redirection</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/redirection/</link>
-      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/redirection/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Adblock</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/adblock/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/adblock/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Css</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/css/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Search-Engine</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/</link>
-      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tdict</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/tdict/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/tdict/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tools</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/tools/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Curl</title>
-      <link>https://jamesfengcao.gitlab.io/uweb/en/tags/curl/</link>
-      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesfengcao.gitlab.io/uweb/en/tags/curl/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on uweb browser: unlimited power</title>
+		<link>https://jamesfengcao.gitlab.io/uweb/en/tags/</link>
+		<description>Recent content in Tags on uweb browser: unlimited power</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 18 Apr 2026 16:45:02 +0800</lastBuildDate>
+		
+			<atom:link href="https://jamesfengcao.gitlab.io/uweb/en/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Javascript</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/javascript/</link>
+				<pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/javascript/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Clipboard</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/clipboard/</link>
+				<pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/clipboard/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ssh</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/</link>
+				<pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/ssh/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Termux</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/termux/</link>
+				<pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/termux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Windows</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/windows/</link>
+				<pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/windows/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Redirection</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/redirection/</link>
+				<pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/redirection/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Adblock</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/adblock/</link>
+				<pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/adblock/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Css</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/css/</link>
+				<pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/css/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Search-Engine</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/</link>
+				<pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/search-engine/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tdict</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/tdict/</link>
+				<pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/tdict/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tools</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/tools/</link>
+				<pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/tools/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Curl</title>
+				<link>https://jamesfengcao.gitlab.io/uweb/en/tags/curl/</link>
+				<pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+				<guid>https://jamesfengcao.gitlab.io/uweb/en/tags/curl/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

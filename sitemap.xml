@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://jamesfengcao.gitlab.io/uweb/en/sitemap.xml</loc>
-    
-      <lastmod>2026-05-05T16:10:03+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://jamesfengcao.gitlab.io/uweb/zh/sitemap.xml</loc>
-    
-      <lastmod>2026-04-28T15:15:41+08:00</lastmod>
-    
-  </sitemap>
-  
+	
+		<sitemap>
+			<loc>https://jamesfengcao.gitlab.io/uweb/en/sitemap.xml</loc>
+			
+				<lastmod>2026-05-05T16:10:03+08:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>https://jamesfengcao.gitlab.io/uweb/zh/sitemap.xml</loc>
+			
+				<lastmod>2026-05-31T17:47:04+08:00</lastmod>
+			
+		</sitemap>
+	
 </sitemapindex>
