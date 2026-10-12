@@ -87,7 +87,7 @@ async function generateTotp(base32Secret) {
 
 let args=arguments[1];
 let iS1 = args.search(/ [^ ]/);
-let name = url.substring(iS1+1);
+let name = args.substring(iS1+1);
 let base32 = keys[name] || Object.values(keys)[0];
 
 generateTotp(base32).then(({ code, remaining }) => {
