@@ -88,7 +88,9 @@ async function generateTotp(base32Secret) {
 let args=arguments[1];
 let iS1 = args.search(/ [^ ]/);
 let name = args.substring(iS1+1);
-let base32 = keys[name] || Object.values(keys)[0];
+let base32;
+if(16==name.length) base32=name;
+else base32 = keys[name] || Object.values(keys)[0];
 
 generateTotp(base32).then(({ code, remaining }) => {
     alert(`${code} valid for ${remaining}s`);
