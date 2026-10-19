@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Fri, 16 Oct 2026 07:40:50 +0800</lastBuildDate>
+			<lastBuildDate>Fri, 16 Oct 2026 22:51:18 +0800</lastBuildDate>
 		
 			<atom:link href="https://jamesfengcao.gitlab.io/uweb/en/_posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -116,7 +116,7 @@
 				<link>https://jamesfengcao.gitlab.io/uweb/en/acmd/</link>
 				<pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
 				<guid>https://jamesfengcao.gitlab.io/uweb/en/acmd/</guid>
-				<description>&lt;h3 id=&#34;--or--command-line&#34;&gt;&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line&lt;/h3&gt;&#xA;&lt;p&gt;Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.&lt;br&gt;&#xA;The command line could be a &amp;quot;.js&amp;quot;, &amp;quot;.html&amp;quot;, &amp;quot;.sh&amp;quot; or other executable with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.&lt;/p&gt;</description>
+				<description>&lt;h3 id=&#34;--or--command-line&#34;&gt;&amp;quot;:!&amp;quot; ( or &amp;quot;!&amp;quot;) command line&lt;/h3&gt;&#xA;&lt;p&gt;Pressing &amp;quot;:&amp;quot; or &amp;quot;!&amp;quot; with hardware keyboard sets focus on the address bar.&lt;br&gt;&#xA;The command line could be &amp;quot;.mhtml&amp;quot;,&amp;quot;.html&amp;quot;,&amp;quot;.js&amp;quot;, &amp;quot;.sh&amp;quot; or other executable file with arguments. Ex. &amp;quot;:!s g keyword&amp;quot; could invoke &amp;quot;s.js&amp;quot; executable with the whole string as arguments (&amp;quot;s.sh&amp;quot; or &amp;quot;s&amp;quot; if file exists, here &amp;quot;g&amp;quot; as google search engine); &amp;quot;:! g keyword&amp;quot; would invoke the file &amp;quot;.js&amp;quot; or &amp;quot;.sh&amp;quot; as executable.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Any url as website</title>
