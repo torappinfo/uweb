@@ -2,11 +2,13 @@
 
 [sourceforge](https://sourceforge.net/projects/uwebbrowser/files/v1/)
 
+[mdict](https://cloud.freemdict.com/index.php/s/kBCzTSzX8oZSj5L)
+
+[zoho](https://workdrive.zohopublic.com.cn/folder/j0jki878abbf75c8b4689a343bef85aa5578e)
+
 [![](https://stc.utdstc.com/img/mediakit/download-gio-big.png)](https://uweb-browser-for-geeks.en.uptodown.com/android "uweb")
 
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
-
-[mdict](https://cloud.freemdict.com/index.php/s/kBCzTSzX8oZSj5L)
 
 [gitee](https://gitee.com/jamesfengcao/uweb/releases)
 
@@ -27,8 +29,6 @@
 [baidu](https://pan.baidu.com/s/17coQj6DCHqghMMNJUyjgrA#list/path=%2Fuweb)
 
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb/releases)
-
-[zoho](https://workdrive.zohopublic.com.cn/folder/j0jki878abbf75c8b4689a343bef85aa5578e)
 
 [蓝奏](https://pan.lanzouu.com/b0qpxnob)
 
