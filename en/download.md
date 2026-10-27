@@ -6,10 +6,6 @@
 
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
 
-[zoho](https://workdrive.zohopublic.com.cn/folder/j0jki878abbf75c8b4689a343bef85aa5578e)
-
-[infinicloud](https://uno.teracloud.jp/share/1162dfa8376e1609)
-
 [mdict](https://cloud.freemdict.com/index.php/s/kBCzTSzX8oZSj5L)
 
 [gitee](https://gitee.com/jamesfengcao/uweb/releases)
@@ -32,6 +28,10 @@
 
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb/releases)
 
+[zoho](https://workdrive.zohopublic.com.cn/folder/j0jki878abbf75c8b4689a343bef85aa5578e)
+
 [蓝奏](https://pan.lanzouu.com/b0qpxnob)
+
+
 
 
