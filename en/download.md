@@ -6,6 +6,8 @@
 
 [zoho](https://workdrive.zohopublic.com.cn/folder/j0jki878abbf75c8b4689a343bef85aa5578e)
 
+[discloud](https://cloud.disroot.org/s/kGzKiSWPQB9QLaG)
+
 [![](https://stc.utdstc.com/img/mediakit/download-gio-big.png)](https://uweb-browser-for-geeks.en.uptodown.com/android "uweb")
 
 [codeberg](https://codeberg.org/jamesfengcao/pages/releases)
@@ -26,12 +28,10 @@
 
 [codefloe](https://codefloe.com/jamesfengcao/uweb/releases)
 
+[opendrive](https://od.lk/fl/MF81MDc1Mzg1M192ejN6Sg)
+
 [baidu](https://pan.baidu.com/s/17coQj6DCHqghMMNJUyjgrA#list/path=%2Fuweb)
 
 [gitlink](https://www.gitlink.org.cn/jamesfengcao/uweb/releases)
 
 [蓝奏](https://pan.lanzouu.com/b0qpxnob)
-
-
-
-
