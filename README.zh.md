@@ -9,7 +9,7 @@
 [超微浏览器下载及使用技巧](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html)
 (镜像: [grebe](https://uweb.grebedoc.dev/zh/) [gitlab](https://jamesfengcao.gitlab.io/uweb/zh/)  [repo](https://repo.or.cz/uweb.git/blob_plain/HEAD:/zh/index.html) [codeberg](https://uweb.codeberg.page/zh/) [github](https://torappinfo.github.io/uweb/zh/) [render](https://uweb.onrender.com/zh/) [surge](https://uweb.surge.sh/zh/) [netlify](https://uwebzh.netlify.app/zh/) [kinsta](https://uwebbrowser-t27o4.kinsta.page/zh/) [pages](https://muweb.pages.dev/zh/) [bitbucket](https://torappinfo.bitbucket.io/zh/) [torapp](https://torapp.eu.org/zh/) [torappv](https://uweb.torapp.eu.org/zh/) [statichost](https://torappinfo-uweb.statichost.eu) [maozi](https://uweb.maozi.io/zh/) [storm](https://uweb.stormkit.dev/zh/) [vercel](https://uweb.vercel.app/zh/) <a href="en/mirrors.md" onclick="if(notRepo()){location='../../en/mirrors/index.html#';return false;}">专用镜像...</a>)
 
-- <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">提供大量AI接入点。</a>
+- <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">提供大量AI接入点，轮流使用免费额度量大管饱。</a>
 - <span  style="color:red">免魔法国内直接访问英文技术网站如<a href="zh/tips.md" onclick="if(notRepo()){location='../tips/index.html#';return false;}">wikipedia等</a></span>
 - <a href="zh/search.md" onclick="if(notRepo()){location='../search/index.html#';return false;}">AI聊天可作为搜索引擎</a>，对复杂问询提供多种[输入辅助](https://uwebzh.netlify.app/zh/input/index.html#)；不受剪贴板长度限制，[超长文本自由传](https://uwebzh.netlify.app/zh/textprocess/index.html#) (AI输入或共享)。
 - 微：不到250K。
