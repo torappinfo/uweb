@@ -36,7 +36,7 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00giz:https://app.giz.ai/assistant?mode=chat&prompt=">giz:https://app.giz.ai/assistant?mode=chat&prompt=</a>
 
-<a href="i:00longcat:i:0/js/uweb2edit.js:https://longcat.chat/#uweb=%3Cp%3E%s%3C/p%3E">longcat:i:0/js/uweb2edit.js:https://longcat.chat/#uweb=%3Cp%3E%s%3C/p%3E</a>
+<a href="i:00longcat:i:0/js/uwebset.js:https://longcat.chat/#euweb=%3Cp%3E%s%3C/p%3E">longcat:i:0/js/uwebset.js:https://longcat.chat/#euweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00lmarena:i:0/js/uwebset.js:https://lmarena.ai/#uweb=%s">lmarena:i:0/js/uwebset.js:https://lmarena.ai/#uweb=%s</a>
 
@@ -45,8 +45,6 @@ Clicking the following search engine configuration links (or append the link tex
 <a href="i:00txyz:i:0/js/uwebset.js:https://app.txyz.ai#uweb=%s">txyz:i:0/js/uwebset.js:https://app.txyz.ai#uweb=%s</a>
 
 <a href="i:00komo:i:0/js/uwebset.js:https://komo.ai#uweb=%s">komo:i:0/js/uwebset.js:https://komo.ai#uweb=%s</a>
-
-<a href="i:00solab:i:0/js/uwebset.js:https://www.solab.ai#uweb=%s">solab:i:0/js/uwebset.js:https://www.solab.ai#uweb=%s</a>
 
 <a href="i:00isou:https://isou.chat/search?q=">isou:https://isou.chat/search?q=</a>
 
@@ -98,39 +96,51 @@ Clicking the following search engine configuration links (or append the link tex
 
 <a href="i:00claude:https://claude.ai/new?q=">claude:https://claude.ai/new?q=</a>
 
-<a href="i:00floatsearch:i:0/js/uweb2ta.js:https://floatsearch.ai#uweb=%s">floatsearch:i:0/js/uweb2ta.js:https://floatsearch.ai#uweb=%s</a>
+<a href="i:00hy:i:0/js/uwebset.js:https://aistudio.tencent.com/#10tuweb=%s">hy:i:0/js/uwebset.js:https://aistudio.tencent.com/#10tuweb=%s</a>
 
-<a href="i:00morphic:i:0/js/uweb2ta.js:https://www.morphic.sh#uweb=%s">morphic:i:0/js/uweb2ta.js:https://www.morphic.sh#uweb=%s</a>
+<a href="i:00qwen:i:0/js/uwebset.js:https://chat.qwen.ai#uweb=%s%250D">qwen:i:0/js/uwebset.js:https://chat.qwen.ai#uweb=%s%250D</a>
 
-<a href="i:00lambda:i:0/js/uweb2ta.js:https://lambda.chat/chatui/#uweb=%s">lambda:i:0/js/uweb2ta.js:https://lambda.chat/chatui/#uweb=%s</a>
+<a href="i:00minimax:i:0/js/uwebset.js:https://agent.minimaxi.com/#euweb=%s">minimax:i:0/js/uwebset.js:https://agent.minimaxi.com/#euweb=%s</a>
+
+<a href="i:00stepfun:i:0/js/uwebset.js:https://chat.stepfun.com/chats/new#10tuweb=%s">stepfun:i:0/js/uwebset.js:https://chat.stepfun.com/chats/new#10tuweb=%s</a>
+
+<a href="i:00ling:i:0/js/uwebset.js:https://chat.ant-ling.com/chat#uweb=%s">ling:i:0/js/uwebset.js:https://chat.ant-ling.com/chat#uweb=%s</a>
+
+<a href="i:00mimo:i:0/js/uwebset.js:https://aistudio.xiaomimimo.com/#/c#uweb=%s">mimo:i:0/js/uwebset.js:https://aistudio.xiaomimimo.com/#/c#uweb=%s</a>
+
+<a href="i:00floatsearch:i:0/js/uwebset.js:https://floatsearch.ai#uweb=%s">floatsearch:i:0/js/uwebset.js:https://floatsearch.ai#uweb=%s</a>
+
+<a href="i:00morphic:i:0/js/uwebset.js:https://www.morphic.sh#uweb=%s">morphic:i:0/js/uwebset.js:https://www.morphic.sh#uweb=%s</a>
+
+<a href="i:00lambda:i:0/js/uwebset.js:https://lambda.chat/chatui/#uweb=%s">lambda:i:0/js/uwebset.js:https://lambda.chat/chatui/#uweb=%s</a>
 
 <a href="i:00blackbox:https://www.blackbox.ai/?q=">blackbox:https://www.blackbox.ai/?q=</a>
 
-<a href="i:00EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s">EBAI:i:0/js/uweb2input.js:https://www.britannica.com/chatbot#uweb=%s</a>
+<a href="i:00EBAI:i:0/js/uwebset.js:https://www.britannica.com/chatbot#iuweb=%s">EBAI:i:0/js/uwebset.js:https://www.britannica.com/chatbot#iuweb=%s</a>
 
-<a href="i:00graphthem:i:0/js/uweb2input.js:https://graphthem.com/search?#uweb=%s">graphthem:i:0/js/uweb2input.js:https://graphthem.com/search?#uweb=%s</a>
+<a href="i:00graphthem:i:0/js/uwebset.js:https://graphthem.com/search?#iuweb=%s">graphthem:i:0/js/uwebset.js:https://graphthem.com/search?#iuweb=%s</a>
 
-<a href="i:00correkt:i:0/js/uweb2ta.js:https://correkt.ai#uweb=%s">correkt:i:0/js/uweb2ta.js:https://correkt.ai#uweb=%s</a>
+<a href="i:00correkt:i:0/js/uwebset.js:https://correkt.ai#uweb=%s">correkt:i:0/js/uwebset.js:https://correkt.ai#uweb=%s</a>
 
-<a href="i:00devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E">devv:i:0/js/uweb2edit.js:https://devv.ai#uweb=%3Cp%3E%s%3C/p%3E</a>
+<a href="i:00devv:i:0/js/uwebset.js:https://devv.ai#euweb=%3Cp%3E%s%3C/p%3E">devv:i:0/js/uwebset.js:https://devv.ai#euweb=%3Cp%3E%s%3C/p%3E</a>
 
 <a href="i:00duck.ai:https://duckduckgo.com?ia=chat&q=">duck.ai:https://duckduckgo.com?ia=chat&q=</a>
 
-<a href="i:00lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s">lepton:i:0/js/uweb2input.js:https://search.lepton.run/#uweb=%s</a>
-
-<a href="i:00stepfun:i:0/js/uwebset.js:https://www.stepfun.com/chats/new#uweb=%s">stepfun:i:0/js/uwebset.js:https://www.stepfun.com/chats/new#uweb=%s</a>
+<a href="i:00lepton:i:0/js/uwebset.js:https://search.lepton.run/#iuweb=%s">lepton:i:0/js/uwebset.js:https://search.lepton.run/#iuweb=%s</a>
 
 <a href="i:00poe:https://poe.com/DeepSeek-R1?q=">poe:https://poe.com/DeepSeek-R1?q=</a>
 
 <a href="i:00t3:https://www.t3.chat/new?q=">t3:https://www.t3.chat/new?q=</a>
 
+<a href="i:00mmh3:i:0/js/uwebset.js:https://www.minimax.free#uweb=%s">mmh3:i:0/js/uwebset.js:https://www.minimax.free#uweb=%s</a>
 
-AI (The search tab must not be in background. Appending "%250D" after "%s" as ENTER for uweb or "%0D" for ebrowser.)  
-<a href="i:00hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s">hika:i:0/js/uweb2input2.js:https://hika.fyi/search#uweb=%s</a>
+<a href="i:00mathos:i:0/js/uwebset.js:https://www.mathos.ai/app/ask#euweb=%s">mathos:i:0/js/uwebset.js:https://www.mathos.ai/app/ask#euweb=%s</a>
 
 
 <a id="mainSE">Recommended engines</a>：  
 <a href="i:00Engines:i:40%s_00">Engines:i:40%s_00</a>
+
+<a href="i:00QR:https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=">QR:https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=</a>
 
 <a href="i:00bing image:http://bing.com/images/search?q=">bing image:http://bing.com/images/search?q=</a>
 
@@ -275,6 +285,8 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 <a href="i:00dictionary:https://www.dictionary.com/browse/">dictionary:https://www.dictionary.com/browse/</a>
 
+<a href="i:00cambridge:https://dictionary.cambridge.org/dictionary/english/">cambridge:https://dictionary.cambridge.org/dictionary/english/</a>
+
 <a href="i:00freedictionary:https://www.thefreedictionary.com/">freedictionary:https://www.thefreedictionary.com/</a>
 
 <a href="i:00legal_fd:https://legal-dictionary.thefreedictionary.com/">legal_fd:https://legal-dictionary.thefreedictionary.com/</a>
@@ -298,6 +310,8 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 <a href="i:00ludwig:https://ludwig.guru/s/">ludwig:https://ludwig.guru/s/</a>
 
 <a href="i:00webster:https://www.merriam-webster.com/dictionary/">webster:https://www.merriam-webster.com/dictionary/</a>
+
+<a href="i:00jsay:https://howjsay.com/how-to-pronounce-">jsay:https://howjsay.com/how-to-pronounce-</a>
 
 <a href="i:00googledict:http://googledictionary.freecollocation.com/meaning?word=">googledict:http://googledictionary.freecollocation.com/meaning?word=</a>
 
@@ -396,6 +410,8 @@ Note: "Engines" needs file "engine.search"，whose format is same as "home.searc
 
 
 <a id="medicalSE">Medical</a>:  
+<a href="i:00msd:https://www.msdmanuals.com/home/searchresults?query=">msd:https://www.msdmanuals.com/home/searchresults?query=</a>
+
 <a href="i:00medical_freedict:https://medical-dictionary.thefreedictionary.com/">medical_freedict:https://medical-dictionary.thefreedictionary.com/</a>
 
 <a href="i:00merckmanuals:https://www.merckmanuals.com/professional/SearchResults?query=">merckmanuals:https://www.merckmanuals.com/professional/SearchResults?query=</a>
@@ -465,7 +481,7 @@ Torrent:
 
 <a href="i:00grep.app:https://grep.app/search?q=">grep.app:https://grep.app/search?q=</a>
 
-<a href="i:00git:https://github.com/search?type=Repositories&amp;q=">git:https://github.com/search?type=Repositories&amp;q=</a>
+<a href="i:00git:https://github.com/search?type=Repositories&q=">git:https://github.com/search?type=Repositories&q=</a>
 
 <a href="i:00man:http://man.cx/">man:http://man.cx/</a>
 
