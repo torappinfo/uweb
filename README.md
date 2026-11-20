@@ -1,5 +1,5 @@
 ### Uweb browser: minimal suckless web browser with unlimited power
-<a href="README.zh-Hans.md" onclick="if(notRepo()){location='../../zh/readme/index.html#';return false;}">中文</a>
+<a href="README.zh.md" onclick="if(notRepo()){location='../../zh/readme/index.html#';return false;}">中文</a>
 
 [Galaxy.Store](https://galaxystore.samsung.com/detail/info.torapp.uweb)
 <a href="en/download.md" onclick="if(notRepo()){location='../../en/changelog/index.html#';return false;}">Downloads</a>
