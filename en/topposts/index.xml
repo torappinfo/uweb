@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 22 Nov 2026 11:41:09 +0800</lastBuildDate>
+			<lastBuildDate>Sun, 22 Nov 2026 16:23:54 +0800</lastBuildDate>
 		
 			<atom:link href="https://jamesfengcao.gitlab.io/uweb/en/topposts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -46,7 +46,7 @@
 				<link>https://jamesfengcao.gitlab.io/uweb/en/cmds/</link>
 				<pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
 				<guid>https://jamesfengcao.gitlab.io/uweb/en/cmds/</guid>
-				<description>&lt;p&gt;Click the following links to install commands with &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt;. &lt;b&gt;Force exit and re-launch the app&lt;/b&gt;, then long press the button with clock icon to popup the command menu.&lt;/p&gt;&#xA;&lt;p&gt;Configuration file &amp;quot;default.cmds&amp;quot; examples:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:03Quit &amp; clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#34;&gt;Quit &amp;amp; clear data:q:toybox find /data/data/info.torapp.uweb/app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:03Backup::toybox tar -czf /sdcard/Download/uweb.tgz . ../app_webview/Default/Cookies&#34;&gt;Backup::toybox tar -czf /sdcard/Download/uweb.tgz . ../app_webview/Default/Cookies&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;Click the following links to install commands with &lt;a href=&#34;../index.html#&#34;&gt;uweb browser&lt;/a&gt;. &lt;b&gt;Force exit and re-launch the app&lt;/b&gt;, then long press the button with clock icon to popup the command menu.&lt;/p&gt;&#xA;&lt;p&gt;Configuration file &amp;quot;default.cmds&amp;quot; examples:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:03Quit &amp; clear data:q:toybox find ../app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&#34;&gt;Quit &amp;amp; clear data:q:toybox find ../app_webview ! -name &#39;Cookies&#39; ! -name &#39;*.cjar&#39; -type f -delete&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;i:03Backup::toybox tar -czf /sdcard/Download/uweb.tgz . ../app_webview/Default/Cookies&#34;&gt;Backup::toybox tar -czf /sdcard/Download/uweb.tgz . ../app_webview/Default/Cookies&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Execute javascript codes</title>
